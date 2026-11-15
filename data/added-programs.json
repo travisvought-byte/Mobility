@@ -3300,6 +3300,288 @@
    "reviewed_on": "2026-11-15",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-united-spinal-peer-support",
+   "name": "United Spinal Association peer support: mentoring and support groups",
+   "org": "United Spinal Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "One-on-one peer mentoring plus virtual and in-person support group meetings for people with spinal cord injuries and all wheelchair users. Chapters operate nationwide, and membership is free.",
+   "next_step": "Open the peer support page to request a mentor or find a group.",
+   "constraints": [
+    "Chapter and group availability varies by area."
+   ],
+   "phone": "800-962-9629",
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=141310",
+   "url": "https://unitedspinal.org/?p=141310",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-reeve-peer-family-support",
+   "name": "Reeve Foundation Peer & Family Support Program",
+   "org": "Christopher & Dana Reeve Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Matches people affected by paralysis with certified peer mentors, and offers virtual support groups for caregivers, people with quadriplegia and people with paraplegia.",
+   "next_step": "Call the Reeve Foundation or use the peer program page to request a mentor.",
+   "constraints": [
+    "Groups are virtual; check the current schedule."
+   ],
+   "phone": "800-539-7309",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-amputee-coalition-support",
+   "name": "Amputee Coalition: support groups and certified peer visitors",
+   "org": "Amputee Coalition",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Runs a national network of 300+ registered support groups, certified peer visitors who meet with people and families in person, by phone or online, and monthly virtual groups. Services are free.",
+   "next_step": "Search the support group finder by zip code or request a peer visit.",
+   "constraints": [
+    "Registered local groups are run by volunteers, not by the Coalition; confirm meeting details before attending."
+   ],
+   "phone": "888-267-5669",
+   "phone_note": null,
+   "email": null,
+   "web": "https://amputee-coalition.org/service/find-a-support-group",
+   "url": "https://amputee-coalition.org/service/find-a-support-group",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-berkeley-sci-peer-group",
+   "name": "Bay Area Spinal Cord Injury Peer Group (Berkeley)",
+   "org": "Bay Area SCI peer group",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Alameda"
+   ],
+   "category": "peer_support",
+   "description": "Peer group for people with spinal cord injury that meets at the Ed Roberts Campus in Berkeley.",
+   "next_step": "Check the group's Facebook page for meeting details.",
+   "constraints": [
+    "Listed in a Reeve Foundation resource sheet; confirm meeting times."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://christopherreeve.org/wp-content/uploads/2024/05/Support-Groups-and-Peer-Mentoring-3-24-A.pdf",
+   "url": "https://christopherreeve.org/wp-content/uploads/2024/05/Support-Groups-and-Peer-Mentoring-3-24-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-helen-hayes-sci-amputee-group",
+   "name": "Helen Hayes Hospital spinal cord and amputee support group",
+   "org": "Helen Hayes Hospital",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Rockland"
+   ],
+   "category": "peer_support",
+   "description": "Hospital-hosted support group for people with spinal cord injury and amputation in West Haverstraw.",
+   "next_step": "Contact the hospital for meeting times.",
+   "constraints": [
+    "Listed in the United Spinal group network; confirm schedule."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-upmc-sci-peer-group",
+   "name": "UPMC spinal cord injury peer support group (Pittsburgh)",
+   "org": "UPMC Mercy rehabilitation",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "peer_support",
+   "description": "Spinal cord injury peer support group hosted at UPMC Mercy in Pittsburgh.",
+   "next_step": "Contact UPMC rehabilitation for the schedule.",
+   "constraints": [
+    "Listed in the United Spinal group network; confirm schedule."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-hummelstown-sci-support-group",
+   "name": "Spinal Cord Support Group of Hummelstown",
+   "org": "Spinal Cord Support Group of Hummelstown",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Dauphin"
+   ],
+   "category": "peer_support",
+   "description": "Local spinal cord injury support group listed in the United Spinal network.",
+   "next_step": "Open the United Spinal group listing for contact details.",
+   "constraints": [
+    "Confirm that the group is still meeting."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-austin-sci-peer-group",
+   "name": "Spinal Cord Injury Peer Support Group (Austin)",
+   "org": "Spinal cord injury peer group",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Travis"
+   ],
+   "category": "peer_support",
+   "description": "Peer support group for people with spinal cord injury in Austin, listed in the United Spinal network.",
+   "next_step": "Open the United Spinal group listing for contact details.",
+   "constraints": [
+    "Confirm meeting times."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-baylor-sci-peer-group",
+   "name": "Baylor Institute for Rehabilitation spinal cord injury peer group (Dallas)",
+   "org": "Baylor Institute for Rehabilitation",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Dallas"
+   ],
+   "category": "peer_support",
+   "description": "Spinal cord injury peer group listed at Baylor Institute for Rehabilitation in Dallas.",
+   "next_step": "Open the United Spinal group listing for contact details.",
+   "constraints": [
+    "Confirm meeting times."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-rim-sci-support-group",
+   "name": "Rehabilitation Institute of Michigan spinal cord injury support group (Detroit)",
+   "org": "Rehabilitation Institute of Michigan",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Wayne"
+   ],
+   "category": "peer_support",
+   "description": "Spinal cord injury support group listed at the Rehabilitation Institute of Michigan in Detroit.",
+   "next_step": "Open the United Spinal group listing for contact details.",
+   "constraints": [
+    "Confirm meeting times."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rancho-sci-support-group",
+   "name": "Rancho Los Amigos spinal cord injury support group (Downey)",
+   "org": "Rancho Los Amigos National Rehabilitation Center",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "peer_support",
+   "description": "Spinal cord injury support group at Rancho Los Amigos in Downey.",
+   "next_step": "Open the United Spinal group listing for contact details.",
+   "constraints": [
+    "Confirm meeting times."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://unitedspinal.org/?p=1227",
+   "url": "https://unitedspinal.org/?p=1227",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-brooks-sci-peer-group",
+   "name": "Brooks Rehabilitation spinal cord injury peer group (Jacksonville)",
+   "org": "Brooks Rehabilitation",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Duval"
+   ],
+   "category": "peer_support",
+   "description": "Spinal cord injury program peer group in Jacksonville, led through the Brooks spinal cord injury program.",
+   "next_step": "Contact the Brooks spinal cord injury program for meeting details.",
+   "constraints": [
+    "Listed in a directory; confirm that the group is active."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://wheel-life.com/connecting-peer-support-group-community/",
+   "url": "https://wheel-life.com/connecting-peer-support-group-community/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }

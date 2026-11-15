@@ -38,7 +38,7 @@ async function load(query=''){
  const ramps=fs.readFileSync('ramps-home-access.html','utf8');assert(ramps.includes('HISA ramp or home accessibility modification'));assert(ramps.includes('Ohio Medicaid waiver accessibility modifications'));assert(!ramps.includes('VHG'));assert(ramps.includes('local-help.html?category=ramps_home'));
  const home=fs.readFileSync('index.html','utf8');assert(home.includes('local-help.html')&&home.includes('ramps-home-access.html'));
  // task chips, jump links, confirm badge, copy and print controls
- {const c=await load('?state=PA');assert(c.$('needs').querySelectorAll('button.need').length===7);assert(c.$('needs').textContent.includes('Build or fix a ramp'));
+ {const c=await load('?state=PA');assert(c.$('needs').querySelectorAll('button.need').length===8);assert(c.$('needs').textContent.includes('Build or fix a ramp'));
   c.$('needs').querySelector('button').click();assert.equal(c.$('f-cat').value,'ramps_home');assert(c.$('needs').querySelector('[aria-pressed=true]').textContent.includes('Build or fix a ramp'));
   c.set('f-cat','');assert(!c.$('jump').hidden&&c.$('jump').querySelectorAll('a').length>2);assert(c.text().includes('Listing: confirm details'));assert(c.$('f-copy')&&c.$('f-print'));}
  console.log('PASS local help: chips, jump links, confirm badges, 51-jurisdiction coverage, unique records, grouped Ohio view, county narrowing with veterans offices, category/search filters, deep links, safe links and no storage; ramps guide and home links present.');
