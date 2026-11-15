@@ -1146,6 +1146,123 @@
    "reviewed_on": "2026-11-14",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-makegood-tmt",
+   "name": "Free volunteer-built Toddler Mobility Trainer",
+   "org": "MakeGood Inc (New Orleans)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "MakeGood is a nonprofit that connects volunteer makers with children who need custom mobility and adaptive equipment. Its open-source 3D-printed Toddler Mobility Trainer, a pediatric wheelchair-style device for ages 1 to 8, can be requested free through the MakeGood Network.",
+   "next_step": "Use the request page to ask for a volunteer-built chair for your child, and expect a waitlist.",
+   "constraints": [
+    "For young children (ages 1 to 8); free requests may involve a waitlist.",
+    "Designs are open source, so you can also build or repair one yourself."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://makegood.design",
+   "url": "https://www.supportnow.org/makegood",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-makegood-designs",
+   "name": "Open-source adaptive device designs",
+   "org": "MakeGood Inc (New Orleans)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "MakeGood publishes free, open-source designs for assistive devices that anyone with a consumer 3D printer can make. Files are hosted on Bambu Lab MakerWorld. A 3D-printed Toddler Mobility Trainer costs about $150 to produce.",
+   "next_step": "Browse MakeGood designs, or contact MakeGood to ask about a custom adaptive device.",
+   "constraints": [
+    "Printing and assembly are done by you or a volunteer maker; confirm fit and safety with your therapist."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://makegood.design",
+   "url": "https://bizneworleans.com/makegood-unveils-3-d-printed-toddler-mobility-trainer/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "or-osci-repair-shop",
+   "name": "The Wheelchair Repair Shop",
+   "org": "Oregon Spinal Cord Injury Connection",
+   "state": "OR",
+   "scope": "counties",
+   "counties": [
+    "Multnomah"
+   ],
+   "category": "equipment",
+   "description": "A new program of Oregon Spinal Cord Injury Connection that provides wheelchair maintenance and repair in Portland using trained volunteers. It grew out of earlier wheelchair maintenance workshops and repair nights.",
+   "next_step": "Check oregonsci.org for repair shop hours and what to bring before you visit.",
+   "constraints": [
+    "Starting in Portland; confirm hours, location and which repairs are offered."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://oregonsci.org",
+   "url": "https://www.pcc.edu/disability-cultural-alliance/2026/08/31/lets-talk-the-wheelchair-repair-shop/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-sf-ilrcsf-repair",
+   "name": "Nick Feldman Wheelchair and Mobility Device Repair Program",
+   "org": "Independent Living Resource Center San Francisco",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Francisco"
+   ],
+   "category": "equipment",
+   "description": "Repairs wheelchairs, scooters, walkers and other mobility devices when insurance will not cover the work. If a device cannot be repaired, staff can try to match you with a chair or scooter from the center's reuse program. Funded by San Francisco Department of Disability and Aging Services.",
+   "next_step": "Call the program if you live or work in San Francisco and your mobility device needs repair.",
+   "constraints": [
+    "For people who live or work in San Francisco."
+   ],
+   "phone": "(415) 609-2555",
+   "phone_note": "Vincent Lopez, per the program page",
+   "email": null,
+   "web": null,
+   "url": "https://www.ilrcsf.org/programs/wheelchair-repair/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-mobility-4-vets",
+   "name": "Mobility 4 Vets Wheelchair Shop",
+   "org": "Mobility 4 Vets",
+   "state": "WI",
+   "scope": "counties",
+   "counties": [
+    "Waupaca"
+   ],
+   "category": "veterans",
+   "description": "A volunteer-run nonprofit in Waupaca that repairs and restores wheelchairs and offers them at low cost. It works mainly with veterans but also helps other families who need mobility equipment.",
+   "next_step": "Contact the shop to ask about available chairs and repair help.",
+   "constraints": [
+    "Based on a 2022 news report; confirm hours, location and current services."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://waupacanow.com/2022/02/09/mobility-4-vets-serves-community/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
   }
  ]
 }
