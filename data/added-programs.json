@@ -28323,6 +28323,30 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-medicaid-nemt",
+   "name": "Medicaid rides to medical appointments (non-emergency medical transportation)",
+   "org": "State Medicaid agencies",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "navigation",
+   "description": "Medicaid covers rides to and from covered medical care, including wheelchair-accessible vans in many areas. Each state runs this benefit its own way: through a statewide or regional broker, through managed care plans, or through local government offices. Rides usually must be booked ahead.",
+   "next_step": "Call the member services number on your Medicaid card, or your state Medicaid office, and ask how to book a ride and whether a wheelchair-accessible vehicle is available.",
+   "constraints": [
+    "You must be enrolled in Medicaid.",
+    "The ride must be to a Medicaid-covered service.",
+    "Most states require advance booking and approval."
+   ],
+   "phone": null,
+   "phone_note": "Use the member services number on your Medicaid card",
+   "email": null,
+   "web": "https://www.medicaid.gov/medicaid/benefits/downloads/ccam-medicaid-trans-coverage-coord-factsheet.pdf",
+   "url": "https://www.medicaid.gov/medicaid/benefits/downloads/ccam-medicaid-trans-coverage-coord-factsheet.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
