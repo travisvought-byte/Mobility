@@ -24,9 +24,11 @@ details summary{cursor:pointer;font-weight:600}
 /* Light Upon Light: text wordmark (no logo file is used) */
 .featured-org[hidden]{display:none}
 .featured-org--also{margin-top:-12px}
+.featured-org--wa{margin-top:36px}
 .featured-mark{margin:0;padding:22px 20px;border:2px solid #e7cc88;border-radius:8px;text-align:center;line-height:1.15}
 .featured-mark span{display:block;font-size:30px;font-weight:700;color:#fff;letter-spacing:.5px}
-.featured-mark small{display:block;margin-top:10px;font-size:14px;color:#e7cc88;letter-spacing:1px;text-transform:uppercase}
+.featured-mark small{display:block;margin-top:10px;font-size:14px;color:#e7cc88;letter-spacing:.3px}
+@media(max-width:850px){.featured-mark span{font-size:26px}}
 @media(max-width:850px){.featured-org{grid-template-columns:1fr;gap:18px;padding:22px}.featured-logo img{max-width:280px}}
 @media print{.featured-mark,.featured-mark span,.featured-mark small{color:#000;border-color:#000}.featured-org{background:#fff;color:#000;border:1px solid #000}.featured-org h2,.featured-org p{color:#000}.featured-org .actions{display:none}}
 
@@ -60,7 +62,7 @@ input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid
 footer{color:#42525b;margin-top:12px}
 @media(max-width:850px){.hero-actions .button{width:100%}body{font-size:17px}}
 @media print{.trust,.hero-actions{display:none}}
-.eyebrow{color:#7a5a17;font-size:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase}header .eyebrow{color:#e7cc88}
+.eyebrow{color:#7a5a17;font-size:14px;font-weight:700;letter-spacing:.3px}header .eyebrow{color:#e7cc88}
 @media(max-width:600px){header{padding-top:16px}header nav{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:0 -8px}header nav a{padding:8px 10px;font-size:15px;border-radius:10px;background:rgba(255,255,255,.08)}header small{margin-top:22px}}
 .tilemap{display:grid;grid-template-columns:repeat(11,minmax(0,1fr));grid-auto-rows:minmax(44px,1fr);gap:5px;max-width:760px;margin:18px 0}
 .tile{display:flex;align-items:center;justify-content:center;background:var(--green);color:#fff;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;min-height:44px;transition:transform .12s,background .12s}
