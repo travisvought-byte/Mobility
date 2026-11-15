@@ -4,7 +4,7 @@ import html,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html']
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
 # pages that also carry the Light Upon Light block; on local-help it only shows when Washington is selected

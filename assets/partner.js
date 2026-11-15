@@ -22,7 +22,7 @@
   var sel=$('share-state'),shareLink=$('share-link');
   if(sel&&shareLink){
     Object.keys(STATES).forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=STATES[k];sel.appendChild(o);});
-    var build=function(){shareLink.value=BASE+(sel.value?'local-help.html?state='+encodeURIComponent(sel.value):'');$('share-status').textContent='';};
+    var build=function(){shareLink.value=BASE+(sel.value?'local-help.html?state='+encodeURIComponent(sel.value):'');$('share-status').textContent='';var ho=$('share-handout');if(ho)ho.href='handout.html'+(sel.value?'?state='+encodeURIComponent(sel.value):'');};
     sel.addEventListener('change',build);build();
     $('share-copy').addEventListener('click',function(){copy(shareLink,$('share-status'));});
   }

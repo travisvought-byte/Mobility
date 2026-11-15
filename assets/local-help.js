@@ -123,6 +123,7 @@ function render(){
   $('status').textContent=msg;
   const u=new URLSearchParams();u.set('state',s.state);if(s.county)u.set('county',s.county);if(s.category)u.set('category',s.category);if($('f-q').value.trim())u.set('q',$('f-q').value.trim());
   history.replaceState(null,'','?'+u.toString());
+  const hl=$('handout-link');if(hl)hl.href='handout.html?state='+encodeURIComponent(s.state);
   $('guide-link').href='https://guide.vethomeguard.org/?state='+encodeURIComponent(s.state);
 }
 function init(){

@@ -29,14 +29,14 @@ console.log('PASS site: '+pages.length+' pages have one h1, canonical and social
  assert(!/localStorage|sessionStorage|document\.cookie/.test(js),'partner script stores nothing');
  for(const f of ['index.html','local-help.html','mobility-rights.html','disability-advocacy.html','ramps-home-access.html','mobility-independence.html','partner.html'])assert(fs2.readFileSync(f,'utf8').includes('>Partner with us</a>'),f+' links to partner page');
  assert(/\$250/.test(html)&&/\$1,000/.test(html)&&/\$2,500/.test(html),'three sponsor levels');
- assert(/No paid placement/.test(html),'no paid placement promise');
+ assert(/No paid placement/.test(html)&&/No commissions/.test(html),'no paid placement or commission promise');assert(!/receive a share|referral partner|share of what/i.test(html),'no commission-style referral offer');assert(fs2.readFileSync('local-help.html','utf8').includes('id="handout-link"'),'finder links to the handout');
  const run=async(q)=>{const dom=new J(html,{url:'https://mobilitytalk.org/partner.html'+q,runScripts:'outside-only'}),w=dom.window,d=w.document;w.eval(js);return {w,d};};
  (async()=>{
   let {w,d}=await run('');
   assert.equal(d.getElementById('share-state').options.length,52,'whole site plus 51 jurisdictions');
   assert.equal(d.getElementById('share-link').value,'https://mobilitytalk.org/');
   d.getElementById('share-state').value='WA';d.getElementById('share-state').dispatchEvent(new w.Event('change'));
-  assert.equal(d.getElementById('share-link').value,'https://mobilitytalk.org/local-help.html?state=WA','state link');
+  assert.equal(d.getElementById('share-link').value,'https://mobilitytalk.org/local-help.html?state=WA','state link');assert.equal(d.getElementById('share-handout').getAttribute('href'),'handout.html?state=WA','handout link follows the state');
   const n=d.getElementById('ref-name');n.value='Pat <b>Smith</b> & Co.';n.dispatchEvent(new w.Event('input'));
   assert.equal(d.getElementById('ref-link').value,'https://mobilitytalk.org/partner.html?ref=Pat-b-Smith-b-Co.','referral code is cleaned');
   assert(!d.getElementById('sponsor-mail').href.includes('referred'),'no referral without a link');
@@ -45,5 +45,29 @@ console.log('PASS site: '+pages.length+' pages have one h1, canonical and social
   assert(href.includes('referred by Podcast-One-script')&&!href.includes('<'),'sponsor email credits the cleaned referral');
   assert(!d.getElementById('ref-note').hidden,'referral note shown');
   console.log('PASS partner page: sponsor levels, cleaned referral links, state links, no stored data, no private email, no unapproved percentage, nav link on every page.');
+ })().catch(e=>{console.error(e);process.exit(1);});
+}
+
+// printable handout
+{const fs3=require('node:fs'),{JSDOM:J3}=require('jsdom');
+ const html=fs3.readFileSync('handout.html','utf8'),js=fs3.readFileSync('assets/handout.js','utf8'),data=JSON.parse(fs3.readFileSync('data/local-programs.json','utf8'));
+ assert(!/localStorage|sessionStorage|document\.cookie/.test(js),'handout stores nothing');
+ assert(!/veteranhomeguardians@gmail\.com/i.test(html+js),'private email stays out of handout');
+ (async()=>{
+  const states=Object.keys(JSON.parse(html.match(/id="state-data">(.*?)<\/script>/s)[1]));
+  for(const st of states){
+   const dom=new J3(html,{url:'https://mobilitytalk.org/handout.html?state='+st,runScripts:'outside-only'}),w=dom.window,d=w.document;
+   w.fetch=async()=>({ok:true,json:async()=>data});w.eval(js);await new Promise(r=>setTimeout(r,10));
+   const a=[...d.querySelectorAll('#sheet-state .sheet-item')],b=[...d.querySelectorAll('#sheet-us .sheet-item')];
+   assert(a.length>=6&&a.length<=12,st+' has 6 to 12 statewide contacts, got '+a.length);
+   assert(b.length>=5,st+' lists national hotlines');
+   for(const it of [...a,...b])assert(/Phone: [\d(\-+ )]+/.test(it.textContent),st+' every item has a phone number: '+it.textContent.slice(0,60));
+   assert(!d.getElementById('sheet').hidden,st+' sheet shown');
+   assert(!/http:\/\//.test(d.getElementById('sheet').textContent),st+' no insecure links shown');
+  }
+  const dom=new J3(html,{url:'https://mobilitytalk.org/handout.html',runScripts:'outside-only'}),w=dom.window,d=w.document;
+  w.fetch=async()=>({ok:true,json:async()=>data});w.eval(js);await new Promise(r=>setTimeout(r,10));
+  assert(d.getElementById('sheet').hidden&&d.getElementById('h-print').disabled,'no sheet until a state is chosen');
+  console.log('PASS handout: all 51 jurisdictions give 6-12 statewide contacts with phones plus national hotlines, secure links only, no stored data.');
  })().catch(e=>{console.error(e);process.exit(1);});
 }
