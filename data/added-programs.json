@@ -8653,6 +8653,2982 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-dda-region-1",
+   "name": "Washington DDA Region 1",
+   "org": "Washington Department of Social and Health Services, Developmental Disabilities Administration",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "Adams",
+    "Asotin",
+    "Benton",
+    "Chelan",
+    "Columbia",
+    "Douglas",
+    "Ferry",
+    "Franklin",
+    "Garfield",
+    "Grant",
+    "Kittitas",
+    "Klickitat",
+    "Lincoln",
+    "Okanogan",
+    "Pend Oreille",
+    "Spokane",
+    "Stevens",
+    "Walla Walla",
+    "Whitman",
+    "Yakima"
+   ],
+   "category": "dd_board",
+   "description": "DDA regional office that takes enrollment requests for people with developmental disabilities, determines eligibility and assigns a case resource manager. Services can include waiver supports and personal care.",
+   "next_step": "Call the regional line, ask for a DDA enrollment packet, and ask for help completing the forms if you need it.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Some services have waiting lists."
+   ],
+   "phone": "800-462-0624",
+   "phone_note": "Regional line, from the DDA enrollment page",
+   "email": null,
+   "web": null,
+   "url": "https://www.dshs.wa.gov/disability-services-and-support/developmental-disabilities-services/how-enroll-dda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-dda-region-2",
+   "name": "Washington DDA Region 2",
+   "org": "Washington Department of Social and Health Services, Developmental Disabilities Administration",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "Island",
+    "King",
+    "San Juan",
+    "Skagit",
+    "Snohomish",
+    "Whatcom"
+   ],
+   "category": "dd_board",
+   "description": "DDA regional office that takes enrollment requests for people with developmental disabilities, determines eligibility and assigns a case resource manager. Services can include waiver supports and personal care.",
+   "next_step": "Call the regional line, ask for a DDA enrollment packet, and ask for help completing the forms if you need it.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Some services have waiting lists."
+   ],
+   "phone": "800-326-1247",
+   "phone_note": "Regional line, from the DDA enrollment page",
+   "email": null,
+   "web": null,
+   "url": "https://www.dshs.wa.gov/disability-services-and-support/developmental-disabilities-services/how-enroll-dda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-dda-region-3",
+   "name": "Washington DDA Region 3",
+   "org": "Washington Department of Social and Health Services, Developmental Disabilities Administration",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "Clallam",
+    "Clark",
+    "Cowlitz",
+    "Grays Harbor",
+    "Jefferson",
+    "Kitsap",
+    "Lewis",
+    "Mason",
+    "Pacific",
+    "Pierce",
+    "Skamania",
+    "Thurston",
+    "Wahkiakum"
+   ],
+   "category": "dd_board",
+   "description": "DDA regional office that takes enrollment requests for people with developmental disabilities, determines eligibility and assigns a case resource manager. Services can include waiver supports and personal care.",
+   "next_step": "Call the regional line, ask for a DDA enrollment packet, and ask for help completing the forms if you need it.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Some services have waiting lists."
+   ],
+   "phone": "800-248-0949",
+   "phone_note": "Regional line, from the DDA enrollment page",
+   "email": null,
+   "web": null,
+   "url": "https://www.dshs.wa.gov/disability-services-and-support/developmental-disabilities-services/how-enroll-dda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-flanders",
+   "name": "NJ DDD Community Services Office: Flanders",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Morris",
+    "Sussex",
+    "Warren"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Morris, Sussex, Warren counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "973-927-2600",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-paterson",
+   "name": "NJ DDD Community Services Office: Paterson",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Bergen",
+    "Hudson",
+    "Passaic"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Bergen, Hudson, Passaic counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "973-977-4004",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-green-brook",
+   "name": "NJ DDD Community Services Office: Green Brook",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Union",
+    "Somerset"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Union, Somerset counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "908-226-7800",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-freehold",
+   "name": "NJ DDD Community Services Office: Freehold",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Ocean",
+    "Monmouth"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Ocean, Monmouth counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "732-863-4500",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-trenton",
+   "name": "NJ DDD Community Services Office: Trenton",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Hunterdon",
+    "Mercer",
+    "Middlesex"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Hunterdon, Mercer, Middlesex counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "609-292-1922",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-egg-harbor",
+   "name": "NJ DDD Community Services Office: Egg Harbor",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Atlantic",
+    "Cape May",
+    "Cumberland",
+    "Salem"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Atlantic, Cape May, Cumberland, Salem counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "609-300-1898",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-voorhees",
+   "name": "NJ DDD Community Services Office: Voorhees",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Burlington",
+    "Camden",
+    "Gloucester"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Burlington, Camden, Gloucester counties. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "856-770-5900",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-newark",
+   "name": "NJ DDD Community Services Office: Newark",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Essex"
+   ],
+   "category": "dd_board",
+   "description": "Division of Developmental Disabilities community services office for Essex County. Handles applications for eligibility and funded services: day, residential and family support.",
+   "next_step": "Call the office for your county, ask for the application for eligibility, and ask about family support and home or community supports.",
+   "constraints": [
+    "You must apply and be found eligible by DDD before services are funded."
+   ],
+   "phone": "973-693-5080",
+   "phone_note": "Office line, from the state community services office list",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-ddd-statewide",
+   "name": "New Jersey Division of Developmental Disabilities (statewide)",
+   "org": "New Jersey Department of Human Services",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State division that funds day, residential and family support services for people with developmental disabilities. Community services offices cover all 21 counties and take applications for eligibility.",
+   "next_step": "Call the toll-free line, or find your county on the community services office list and call that office.",
+   "constraints": [],
+   "phone": "800-832-9173",
+   "phone_note": "DDD toll-free line",
+   "email": null,
+   "web": null,
+   "url": "https://www.nj.gov/humanservices/ddd/about/contactus/communityservices/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-berkshire",
+   "name": "DDS Berkshire Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Berkshire"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Adams, Alford, Becket, Cheshire, Clarksburg, Dalton, Egremont, Florida, Great Barrington, Hancock, Hinsdale, Lanesboro, Lee, Lenox, Monterey, Mount Washington, New Ashford, New Marlborough, North Adams, Otis, Peru, Pittsfield, Richmond, Sandisfield, Savoy, Sheffield, Stockbridge, Tyringham, Washington, West Stockbridge, Williamstown, Windsor.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "413-447-7381",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-brockton",
+   "name": "DDS Brockton Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Plymouth",
+    "Norfolk",
+    "Bristol"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Abington, Avon, Bridgewater, Brockton, East Bridgewater, Easton, Holbrook, Rockland, Stoughton, West Bridgewater, Whitman.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-427-5731",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-cape-cod-islands",
+   "name": "DDS Cape Cod/Islands Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Barnstable",
+    "Dukes",
+    "Nantucket"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Aquinnah, Barnstable, Bourne, Brewster, Chatham, Chilmark, Dennis, Eastham, Edgartown, Falmouth, Harwich, Hyannis, Mashpee, Nantucket, Oak Bluffs, Orleans, Provincetown, Sandwich, Tisbury, Truro, Wellfleet, West Tisbury, Yarmouth.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-771-2595",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-central-middlesex",
+   "name": "DDS Central Middlesex Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Middlesex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Acton, Arlington, Bedford, Boxborough, Burlington, Carlisle, Concord, Lexington, Lincoln, Littleton, Maynard, Stow, Wilmington, Winchester, Woburn.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "978-206-2050",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-charles-river-west",
+   "name": "DDS Charles River West Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Middlesex",
+    "Suffolk"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Belmont, Cambridge, Chelsea, Revere, Somerville, Waltham, Watertown, Winthrop.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "617-623-5950",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-fall-river",
+   "name": "DDS Fall River Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Bristol"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Assonet, Fall River, Freetown, Somerset, Swansea, Westport.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-730-1209",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-franklin-hampshire",
+   "name": "DDS Franklin/Hampshire Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Franklin",
+    "Hampshire",
+    "Worcester"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Amherst, Ashfield, Athol, Bernardston, Buckland, Charlemont, Chesterfield, Colrain, Conway, Cummington, Deerfield, Easthampton, Erving, Gill, Goshen, Greenfield, Hadley, Hatfield, Hawley, Heath, Leverett, Leyden, Middlefield, Millers Falls, Montague, New Salem, Northampton, Northfield, Orange, Pelham, Petersham, Phillipston, Plainfield, Rowe, Royalston, Shelburne, Shutesbury, Sunderland, Turners Falls, Warwick, Wendell, Westhampton, Whately, Williamsburg, Worthington.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "413-586-4948",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-greater-boston",
+   "name": "DDS Greater Boston Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Suffolk",
+    "Norfolk"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Allston, Beacon Hill, Boston, Brighton, Brookline, Charlestown, Chinatown, Dorchester, Downtown Crossing, East Boston, Hyde Park, Jamaica Plain, Mattapan, North Dorchester, North End, Roslindale, Roxbury, South Boston, South End, West Roxbury.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "617-363-2900",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-holyoke-chicopee",
+   "name": "DDS Holyoke/Chicopee Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Hampden",
+    "Hampshire"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Belchertown, Chicopee, Granby, Holyoke, Ludlow, Monson, Palmer, South Hadley, Southampton, Ware.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "413-535-1022",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-lowell",
+   "name": "DDS Lowell Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Middlesex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Billerica, Chelmsford, Dracut, Dunstable, Lowell, Tewksbury, Tyngsborough, Westford.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "978-322-4300",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-merrimack-valley",
+   "name": "DDS Merrimack Valley Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Essex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Amesbury, Andover, Boxford, Georgetown, Groveland, Haverhill, Lawrence, Merrimac, Methuen, Newbury, Newburyport, North Andover, Rowley, Salisbury, West Newbury.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "978-521-9432",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-metro-north",
+   "name": "DDS Metro North Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Middlesex",
+    "Essex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Everett, Lynnfield, Malden, Medford, Melrose, North Reading, Reading, Saugus, Stoneham, Wakefield.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "781-338-2300",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-middlesex-west",
+   "name": "DDS Middlesex West Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Middlesex",
+    "Norfolk",
+    "Worcester"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Ashland, Dover, Framingham, Holliston, Hopkinton, Hudson, Marlborough, Natick, Northborough, Sherborn, Southborough, Sudbury, Wayland, Westborough.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-861-2529",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-new-bedford",
+   "name": "DDS New Bedford Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Bristol",
+    "Dukes",
+    "Plymouth"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Acushnet, Dartmouth, Fairhaven, Gosnold, Marion, Mattapoisett, New Bedford, Rochester, Wareham.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-992-1848",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-newton-south-norfolk",
+   "name": "DDS Newton/South Norfolk Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Norfolk",
+    "Middlesex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Canton, Dedham, Foxborough, Medfield, Millis, Needham, Newton, Norfolk, Norwood, Plainville, Sharon, Walpole, Wellesley, Weston, Westwood, Wrentham.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-668-3679",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-north-central",
+   "name": "DDS North Central Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Worcester",
+    "Middlesex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Ashburnham, Ashby, Ayer, Baldwinville, Barre, Berlin, Bolton, Clinton, East Princeton, East Templeton, Fitchburg, Gardner, Gilbertville, Groton, Hardwick, Harvard, Hubbardston, Lancaster, Leominster, Lunenburg, New Braintree, Oakham, Pepperell, Princeton, Rutland, Shirley, South Barre, South Lancaster, Sterling, Still River, Templeton, Townsend, West Groton, West Townsend, Westminster, Winchendon.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "978-342-2140",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-north-shore",
+   "name": "DDS North Shore Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Essex"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Beverly, Danvers, Essex, Gloucester, Hamilton, Ipswich, Lynn, Manchester, Marblehead, Middleton, Nahant, Peabody, Rockport, Salem, Swampscott, Topsfield, Wenham.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "978-927-2727",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-plymouth",
+   "name": "DDS Plymouth Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Plymouth"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Carver, Duxbury, Halifax, Hanover, Hanson, Kingston, Marshfield, Pembroke, Plymouth, Plympton.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-732-5700",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-south-coastal",
+   "name": "DDS South Coastal Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Norfolk",
+    "Plymouth"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Braintree, Cohasset, Hingham, Hull, Milton, Norwell, Quincy, Randolph, Scituate, Weymouth.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "781-356-8850",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-south-valley",
+   "name": "DDS South Valley Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Worcester",
+    "Hampden"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Brimfield, Brookfield, Charlton, Dudley, East Brookfield, Holland, North Brookfield, Oxford, Southbridge, Spencer, Sturbridge, Wales, Warren, Webster, West Brookfield.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-764-0751",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-springfield-westfield",
+   "name": "DDS Springfield/Westfield Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Hampden"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Agawam, Blandford, Chester, East Longmeadow, Granville, Hampden, Huntington, Longmeadow, Montgomery, Russell, Southwick, Springfield, Tolland, West Springfield, Westfield, Wilbraham.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "413-784-1339",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-taunton-attleboro",
+   "name": "DDS Taunton/Attleboro Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Bristol",
+    "Plymouth"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Attleboro, Berkley, Dighton, Lakeville, Mansfield, Middleborough, North Attleborough, Norton, Raynham, Rehoboth, Seekonk, Taunton.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-824-0614",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-worcester",
+   "name": "DDS Worcester Area Office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Worcester"
+   ],
+   "category": "dd_board",
+   "description": "DDS area office. Area offices handle information and referral, eligibility, service coordination and planning for the towns they cover. Towns served: Auburn, Boylston, Cherry Valley, Holden, Jefferson, Leicester, Paxton, Rochdale, Shrewsbury, West Boylston, Worcester.",
+   "next_step": "Call the area office for your town and ask about eligibility, service coordination, and equipment or home accessibility help through DDS.",
+   "constraints": [
+    "Serves only the towns listed. Other towns in this county are served by a different area office."
+   ],
+   "phone": "508-792-6200",
+   "phone_note": "Area office, from the state DDS locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-dds-statewide",
+   "name": "Massachusetts DDS: regional offices and central office",
+   "org": "Massachusetts Department of Developmental Services",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "DDS has 23 area offices grouped into four regions. Regional offices: Central West (413) 205-0800, Metro (781) 314-7500, Northeast (978) 774-5000 and Southeast (508) 866-5000. Most people start with the area office that covers their town.",
+   "next_step": "Find your town on the locations list, then call that area office. Call the central office if you are not sure which one covers you.",
+   "constraints": [],
+   "phone": "617-727-5608",
+   "phone_note": "DDS central office, from the state locations list",
+   "email": null,
+   "web": null,
+   "url": "https://www.mass.gov/orgs/department-of-developmental-services/locations",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-aiken",
+   "name": "Aiken DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Aiken"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Aiken County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-642-8825",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-allendale-barnwell",
+   "name": "Allendale/Barnwell DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Allendale",
+    "Barnwell"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Allendale and Barnwell counties.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-anderson",
+   "name": "Anderson DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Anderson"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Anderson County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "864-260-4515",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-bamberg",
+   "name": "Bamberg DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Bamberg"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Bamberg County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-793-5003",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-beaufort",
+   "name": "Beaufort DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Beaufort"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Beaufort County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-255-6300",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-calhoun",
+   "name": "Calhoun DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Calhoun"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Calhoun County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-874-2664",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-charleston",
+   "name": "Charleston DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Charleston"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Charleston County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-805-5800",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-cherokee",
+   "name": "Cherokee DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Cherokee"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Cherokee County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "864-487-4190",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-chester-lancaster",
+   "name": "Chester/Lancaster DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Chester",
+    "Lancaster"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Chester and Lancaster counties.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-285-4368",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-clarendon",
+   "name": "Clarendon DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Clarendon"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Clarendon County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-435-2330",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-colleton",
+   "name": "Colleton DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Colleton"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Colleton County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-549-1732",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-darlington",
+   "name": "Darlington DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Darlington"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Darlington County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-332-7252",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-dorchester",
+   "name": "Dorchester DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Dorchester"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Dorchester County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-871-1285",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-fairfield",
+   "name": "Fairfield DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Fairfield"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Fairfield County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-635-2154",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-florence",
+   "name": "Florence DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Florence"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Florence County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-667-5007",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-georgetown",
+   "name": "Georgetown DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Georgetown"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Georgetown County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-546-8228",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-hampton",
+   "name": "Hampton DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Hampton"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Hampton County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-943-4818",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-horry",
+   "name": "Horry DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Horry"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Horry County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-347-3010",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-jasper",
+   "name": "Jasper DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Jasper"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Jasper County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-726-4499",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-kershaw",
+   "name": "Kershaw DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Kershaw"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Kershaw County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-432-4841",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-laurens",
+   "name": "Laurens DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Laurens"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Laurens County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "864-682-2314",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-lee",
+   "name": "Lee DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Lee"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Lee County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-484-9473",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-marion-dillon",
+   "name": "Marion/Dillon DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Marion",
+    "Dillon"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Marion and Dillon counties.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-423-4484",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-marlboro",
+   "name": "Marlboro DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Marlboro"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Marlboro County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-479-1882",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-newberry",
+   "name": "Newberry DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Newberry"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Newberry County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-276-0078",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-oconee",
+   "name": "Oconee DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Oconee"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Oconee County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "864-885-6055",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-orangeburg",
+   "name": "Orangeburg DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Orangeburg"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Orangeburg County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-536-1170",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-pickens",
+   "name": "Pickens DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Pickens"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Pickens County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "864-859-5416",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-sumter",
+   "name": "Sumter DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Sumter"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Sumter County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "803-778-1669",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-union",
+   "name": "Union DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Union"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Union County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "864-427-7700 ext. 300",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-williamsburg",
+   "name": "Williamsburg DSN Board",
+   "org": "County Disabilities and Special Needs (DSN) board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Williamsburg"
+   ],
+   "category": "dd_board",
+   "description": "County board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities, and for some people with head or spinal cord injuries and autism, in Williamsburg County.",
+   "next_step": "Call the board and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination, then ask about equipment and home or vehicle adaptations.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by county board."
+   ],
+   "phone": "843-355-5481",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-dsn-thrive-upstate",
+   "name": "Thrive Upstate (formerly Greenville DSN Board)",
+   "org": "Disabilities and Special Needs board, South Carolina DDSN network",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Greenville"
+   ],
+   "category": "dd_board",
+   "description": "Board that plans, coordinates and provides services for people with intellectual disabilities and related disabilities in Greenville County.",
+   "next_step": "Call and ask how to apply, or call the state DDSN line (800-289-7012) to start an eligibility determination.",
+   "constraints": [
+    "Eligibility is determined by the state DDSN, and available services vary by board."
+   ],
+   "phone": "864-679-0220 ext. 3535",
+   "phone_note": "Office line, from the DDSN provider directory",
+   "email": null,
+   "web": null,
+   "url": "https://app.ddsn.sc.gov/public/directory/providers/listing.do?serviceId=5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-ddsn-statewide",
+   "name": "South Carolina Department of Disabilities and Special Needs (DDSN)",
+   "org": "South Carolina Department of Disabilities and Special Needs",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State agency that determines eligibility and oversees the county DSN boards, which serve people with intellectual and related disabilities. The directory does not list a board for every county, so call the state line to find yours.",
+   "next_step": "Call the eligibility line, then ask which board or provider serves your county and about equipment and home changes.",
+   "constraints": [],
+   "phone": "800-289-7012",
+   "phone_note": "DDSN eligibility line, answered 8:30 am to 5 pm weekdays",
+   "email": null,
+   "web": null,
+   "url": "https://ddsn.sc.gov/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-lme-mco-alliance",
+   "name": "Alliance Health (LME/MCO)",
+   "org": "North Carolina Local Management Entity/Managed Care Organization (LME/MCO)",
+   "state": "NC",
+   "scope": "counties",
+   "counties": [
+    "Cumberland",
+    "Durham",
+    "Harnett",
+    "Johnston",
+    "Mecklenburg",
+    "Orange",
+    "Wake"
+   ],
+   "category": "dd_board",
+   "description": "The LME/MCO for 7 North Carolina counties. It manages Medicaid behavioral health and intellectual and developmental disability services, including access to the Innovations waiver.",
+   "next_step": "Call member services, ask for intellectual and developmental disability services, and ask about the Innovations waiver and its waiting list.",
+   "constraints": [
+    "The Innovations waiver has a waiting list. Ask what services are available while you wait."
+   ],
+   "phone": "800-510-9132",
+   "phone_note": "Member and recipient services line, from the state LME/MCO directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.ncdhhs.gov/providers/lme-mco-directory",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-lme-mco-trillium",
+   "name": "Trillium Health Resources (LME/MCO)",
+   "org": "North Carolina Local Management Entity/Managed Care Organization (LME/MCO)",
+   "state": "NC",
+   "scope": "counties",
+   "counties": [
+    "Anson",
+    "Beaufort",
+    "Bertie",
+    "Bladen",
+    "Brunswick",
+    "Camden",
+    "Carteret",
+    "Chowan",
+    "Columbus",
+    "Craven",
+    "Currituck",
+    "Dare",
+    "Duplin",
+    "Edgecombe",
+    "Gates",
+    "Greene",
+    "Guilford",
+    "Halifax",
+    "Hertford",
+    "Hoke",
+    "Hyde",
+    "Jones",
+    "Lee",
+    "Lenoir",
+    "Martin",
+    "Montgomery",
+    "Moore",
+    "Nash",
+    "New Hanover",
+    "Northampton",
+    "Onslow",
+    "Pamlico",
+    "Pasquotank",
+    "Pender",
+    "Perquimans",
+    "Pitt",
+    "Randolph",
+    "Richmond",
+    "Robeson",
+    "Sampson",
+    "Scotland",
+    "Tyrrell",
+    "Warren",
+    "Washington",
+    "Wayne",
+    "Wilson"
+   ],
+   "category": "dd_board",
+   "description": "The LME/MCO for 46 North Carolina counties. It manages Medicaid behavioral health and intellectual and developmental disability services, including access to the Innovations waiver.",
+   "next_step": "Call member services, ask for intellectual and developmental disability services, and ask about the Innovations waiver and its waiting list.",
+   "constraints": [
+    "The Innovations waiver has a waiting list. Ask what services are available while you wait."
+   ],
+   "phone": "877-685-2415",
+   "phone_note": "Member and recipient services line, from the state LME/MCO directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.ncdhhs.gov/providers/lme-mco-directory",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-lme-mco-vaya",
+   "name": "Vaya Health (LME/MCO)",
+   "org": "North Carolina Local Management Entity/Managed Care Organization (LME/MCO)",
+   "state": "NC",
+   "scope": "counties",
+   "counties": [
+    "Alamance",
+    "Alexander",
+    "Alleghany",
+    "Ashe",
+    "Avery",
+    "Buncombe",
+    "Burke",
+    "Caldwell",
+    "Caswell",
+    "Catawba",
+    "Chatham",
+    "Cherokee",
+    "Clay",
+    "Cleveland",
+    "Davidson",
+    "Davie",
+    "Forsyth",
+    "Franklin",
+    "Gaston",
+    "Graham",
+    "Granville",
+    "Haywood",
+    "Henderson",
+    "Iredell",
+    "Jackson",
+    "Lincoln",
+    "Macon",
+    "Madison",
+    "McDowell",
+    "Mitchell",
+    "Person",
+    "Polk",
+    "Rockingham",
+    "Rowan",
+    "Rutherford",
+    "Stanly",
+    "Stokes",
+    "Surry",
+    "Swain",
+    "Transylvania",
+    "Union",
+    "Vance",
+    "Watauga",
+    "Wilkes",
+    "Yadkin",
+    "Yancey"
+   ],
+   "category": "dd_board",
+   "description": "The LME/MCO for 46 North Carolina counties. It manages Medicaid behavioral health and intellectual and developmental disability services, including access to the Innovations waiver.",
+   "next_step": "Call member services, ask for intellectual and developmental disability services, and ask about the Innovations waiver and its waiting list.",
+   "constraints": [
+    "The Innovations waiver has a waiting list. Ask what services are available while you wait."
+   ],
+   "phone": "888-235-4673",
+   "phone_note": "Member and recipient services line, from the state LME/MCO directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.ncdhhs.gov/providers/lme-mco-directory",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-lme-mco-directory",
+   "name": "North Carolina LME/MCO directory (find your county)",
+   "org": "North Carolina Department of Health and Human Services",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "North Carolina lists three LME/MCOs: Alliance Health, Trillium Health Resources and Vaya Health. Each coordinates intellectual and developmental disability services and the Innovations waiver for the counties it covers. The state list shows 99 counties and does not include Cabarrus.",
+   "next_step": "Find your county in the directory and call that LME/MCO. If your county is not listed, call the state to confirm which one serves you.",
+   "constraints": [],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.ncdhhs.gov/providers/lme-mco-directory",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-alexandria-csb",
+   "name": "Alexandria CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Alexandria City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "703-746-3400",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-alleghany-highlands-csb",
+   "name": "Alleghany Highlands CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Alleghany",
+    "Covington City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-965-2135",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-arlington-county-csb",
+   "name": "Arlington County CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Arlington"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "703-228-5150",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-blue-ridge-behavioral-healthcare",
+   "name": "Blue Ridge Behavioral Healthcare",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Botetourt",
+    "Craig",
+    "Roanoke",
+    "Roanoke City",
+    "Salem City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-345-9841",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-chesapeake-integrated-behavioral-healthcare",
+   "name": "Chesapeake Integrated Behavioral Healthcare",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Chesapeake City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-547-9334",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-chesterfield-csb",
+   "name": "Chesterfield CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Chesterfield"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-748-1227",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-colonial-behavioral-health",
+   "name": "Colonial Behavioral Health",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "James City",
+    "York",
+    "Poquoson City",
+    "Williamsburg City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-220-3200",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-crossroads-csb",
+   "name": "Crossroads CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Amelia",
+    "Buckingham",
+    "Charlotte",
+    "Cumberland",
+    "Lunenburg",
+    "Nottoway",
+    "Prince Edward"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "434-392-7049",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-cumberland-mountain-csb",
+   "name": "Cumberland Mountain CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Buchanan",
+    "Russell",
+    "Tazewell"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "276-964-6702",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-danville-pittsylvania-csb",
+   "name": "Danville-Pittsylvania CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Pittsylvania",
+    "Danville City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "434-799-0456",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-dickenson-county-behavioral-health",
+   "name": "Dickenson County Behavioral Health",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Dickenson"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "276-926-1680",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-district-19-csb",
+   "name": "District 19 CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Dinwiddie",
+    "Greensville",
+    "Prince George",
+    "Surry",
+    "Sussex",
+    "Colonial Heights City",
+    "Emporia City",
+    "Hopewell City",
+    "Petersburg City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-862-8002",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-eastern-shore-csb",
+   "name": "Eastern Shore CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Accomack",
+    "Northampton"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-442-3636",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-fairfax-falls-church-csb",
+   "name": "Fairfax-Falls Church CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Fairfax",
+    "Fairfax City",
+    "Falls Church City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "703-324-7000",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-goochland-powhatan-csb",
+   "name": "Goochland-Powhatan CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Goochland",
+    "Powhatan"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-556-5400",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-hampton-newport-news-csb",
+   "name": "Hampton-Newport News CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Hampton City",
+    "Newport News City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-788-0300",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-hanover-csb",
+   "name": "Hanover CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Hanover"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-365-4222",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-harrisonburg-rockingham-csb",
+   "name": "Harrisonburg-Rockingham CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Rockingham",
+    "Harrisonburg City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-434-1941",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-henrico-area-mental-health-and-developmental-ser",
+   "name": "Henrico Area Mental Health and Developmental Services",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Charles City",
+    "Henrico",
+    "New Kent"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-727-8500",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-highlands-csb",
+   "name": "Highlands CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Washington",
+    "Bristol City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "276-525-1550",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-horizon-behavioral-health",
+   "name": "Horizon Behavioral Health",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Amherst",
+    "Appomattox",
+    "Bedford",
+    "Campbell",
+    "Lynchburg City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "434-847-8050",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-loudoun-county-department-of-mental-health-subst",
+   "name": "Loudoun County Department of Mental Health, Substance Abuse and Developmental Services",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Loudoun"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "703-777-0378",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-middle-peninsula-northern-neck-csb",
+   "name": "Middle Peninsula-Northern Neck CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Essex",
+    "Gloucester",
+    "King and Queen",
+    "King William",
+    "Lancaster",
+    "Mathews",
+    "Middlesex",
+    "Northumberland",
+    "Richmond",
+    "Westmoreland"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-758-5314",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-mount-rogers-community-services",
+   "name": "Mount Rogers Community Services",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Bland",
+    "Carroll",
+    "Grayson",
+    "Smyth",
+    "Wythe",
+    "Galax City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "276-223-3200",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-new-river-valley-csb",
+   "name": "New River Valley CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Floyd",
+    "Giles",
+    "Montgomery",
+    "Pulaski",
+    "Radford City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-961-8300",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-norfolk-csb",
+   "name": "Norfolk CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Norfolk City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-823-1600",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-northwestern-csb",
+   "name": "Northwestern CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Clarke",
+    "Frederick",
+    "Page",
+    "Shenandoah",
+    "Warren",
+    "Winchester City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-636-4250",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-piedmont-csb",
+   "name": "Piedmont CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Franklin",
+    "Henry",
+    "Patrick",
+    "Martinsville City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "276-632-7128",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-planning-district-one-behavioral-health-services",
+   "name": "Planning District One Behavioral Health Services",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Lee",
+    "Scott",
+    "Wise",
+    "Norton City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "276-679-5751",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-portsmouth-department-of-behavioral-healthcare-s",
+   "name": "Portsmouth Department of Behavioral Healthcare Services",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Portsmouth City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-393-8618",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-prince-william-county-csb",
+   "name": "Prince William County CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Prince William",
+    "Manassas City",
+    "Manassas Park City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "703-792-7800",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-rappahannock-area-csb",
+   "name": "Rappahannock Area CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Caroline",
+    "King George",
+    "Spotsylvania",
+    "Stafford",
+    "Fredericksburg City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-373-3223",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-rappahannock-rapidan-csb",
+   "name": "Rappahannock-Rapidan CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Culpeper",
+    "Fauquier",
+    "Madison",
+    "Orange",
+    "Rappahannock"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-825-3100",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-region-ten-csb",
+   "name": "Region Ten CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Albemarle",
+    "Fluvanna",
+    "Greene",
+    "Louisa",
+    "Nelson",
+    "Charlottesville City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "434-972-1800",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-richmond-behavioral-health-authority",
+   "name": "Richmond Behavioral Health Authority",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Richmond City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "804-819-4000",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-rockbridge-area-csb",
+   "name": "Rockbridge Area CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Bath",
+    "Rockbridge",
+    "Buena Vista City",
+    "Lexington City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-463-3141",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-southside-csb",
+   "name": "Southside CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Brunswick",
+    "Halifax",
+    "Mecklenburg"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "434-572-6916",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-valley-csb",
+   "name": "Valley CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Augusta",
+    "Highland",
+    "Staunton City",
+    "Waynesboro City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "540-887-3200",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-virginia-beach-human-services-csb",
+   "name": "Virginia Beach Human Services CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Virginia Beach City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-385-0602",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-western-tidewater-csb",
+   "name": "Western Tidewater CSB",
+   "org": "Virginia community services board (CSB), DBHDS network",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Isle of Wight",
+    "Southampton",
+    "Franklin City",
+    "Suffolk City"
+   ],
+   "category": "dd_board",
+   "description": "Community services board that provides developmental disability services along with mental health and substance use services for its counties and cities. It is the local starting point for developmental services in its area.",
+   "next_step": "Call and ask for developmental services intake, and ask about support coordination and the DD waivers.",
+   "constraints": [
+    "DD waivers have waiting lists, so ask about services available while you wait."
+   ],
+   "phone": "757-966-2805",
+   "phone_note": "Main number, from the DBHDS board list",
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-csb-directory",
+   "name": "Virginia community services boards (all 40, find your locality)",
+   "org": "Virginia Department of Behavioral Health and Developmental Services (DBHDS)",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "Virginia has 40 community services boards. Each is the local entry point for developmental disability, mental health and substance use services, and the state list shows the localities and main number for each.",
+   "next_step": "Find your county or city in the list and call that board.",
+   "constraints": [],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://dbhds.virginia.gov/developmental-services/training-centers/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
