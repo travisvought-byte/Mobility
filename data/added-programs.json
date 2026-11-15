@@ -2608,6 +2608,309 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-project-mend",
+   "name": "Project MEND: refurbished wheelchairs and medical equipment (San Antonio)",
+   "org": "Project MEND",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bexar"
+   ],
+   "category": "equipment",
+   "description": "A nonprofit that collects donated medical equipment, then repairs, sanitizes and refurbishes it for people in need, including wheelchairs and power chairs. It focuses on veterans with support from the Texas Veterans Commission and is a demonstration center for the Texas Technology Access Program.",
+   "next_step": "Ask your therapist or doctor for a referral, or contact Project MEND through the Texas Technology Access Program at 1-800-828-7839.",
+   "constraints": [
+    "Based in San Antonio; ask about service area and wait times."
+   ],
+   "phone": "1-800-828-7839",
+   "phone_note": null,
+   "email": null,
+   "web": "https://ttap.disabilitystudies.utexas.edu/recycle-reuse",
+   "url": "https://ttap.disabilitystudies.utexas.edu/recycle-reuse",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-ttap-reuse-list",
+   "name": "Texas reuse programs listed by TTAP (Houston, El Paso, Austin)",
+   "org": "Texas Technology Access Program",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Harris",
+    "El Paso",
+    "Travis"
+   ],
+   "category": "equipment",
+   "description": "The Texas Technology Access Program lists medical equipment reuse programs in Houston (RSVP Texas, Medical Bridges), El Paso (Project C.A.R.E.) and Austin (CPath). TTAP also lends devices for 35 days with shipping included.",
+   "next_step": "Call TTAP at (512) 232-0740 or 1-800-828-7839 for referrals and device loans.",
+   "constraints": [
+    "These reuse programs are not sponsored by TTAP; confirm eligibility with each."
+   ],
+   "phone": "(512) 232-0740",
+   "phone_note": null,
+   "email": "ttap@utexas.edu",
+   "web": "https://ttap.disabilitystudies.utexas.edu/recycle-reuse",
+   "url": "https://ttap.disabilitystudies.utexas.edu/recycle-reuse",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-faast-reuse-centers",
+   "name": "FAAST Regional Reuse Centers and AT Exchange (Florida)",
+   "org": "Florida Alliance for Assistive Services and Technology",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "FAAST funds five Regional Reuse Centers at select Centers for Independent Living. They accept donated equipment, clean, repair and refurbish it, and return it to the community at no cost. FAAST also runs an online AT Exchange and short-term device loans through regional demonstration centers.",
+   "next_step": "Call FAAST at (850) 487-2378 or email info@faast.org to find the reuse center near you.",
+   "constraints": [
+    "Equipment depends on donations; call the center first."
+   ],
+   "phone": "(850) 487-2378",
+   "phone_note": null,
+   "email": "info@faast.org",
+   "web": "https://faast.org/services/device-reuse-and-reutilization/",
+   "url": "https://faast.org/services/device-reuse-and-reutilization/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-efr-arise-loan-ramp",
+   "name": "ARISE and Exceptional Family Resources: loan closet and free ramps",
+   "org": "Exceptional Family Resources / ARISE",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Onondaga",
+    "Cayuga",
+    "Seneca",
+    "Oswego",
+    "Cortland",
+    "Madison",
+    "Tompkins"
+   ],
+   "category": "ramps_home",
+   "description": "ARISE runs a medical equipment loan closet with a wide range of equipment families can borrow free short term, and builds and installs free modular wheelchair ramps for eligible people. It also creates custom low-cost adaptive equipment.",
+   "next_step": "Call 315-472-3171 in Syracuse, or Cayuga and Seneca at 315-671-4651, or Oswego at 315-602-4938.",
+   "constraints": [
+    "Ramps are for eligible individuals; ask about the application."
+   ],
+   "phone": "315-472-3171",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.cnyhealth.com/?p=12917",
+   "url": "https://www.cnyhealth.com/?p=12917",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-als-upstate-loan",
+   "name": "ALS Association loan closets: Albany, Buffalo, Rochester, Syracuse",
+   "org": "ALS Association (Robert Wright Memorial Equipment Loan Program)",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Albany",
+    "Erie",
+    "Monroe",
+    "Onondaga"
+   ],
+   "category": "equipment",
+   "description": "Provides durable medical equipment and communication aids on loan to people living with ALS, using donated and new equipment, through loan closets in Albany, Buffalo, Rochester and Syracuse.",
+   "next_step": "Contact the ALS Association chapter to register and request equipment.",
+   "constraints": [
+    "For people living with ALS."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://als.org/support/programs/robert-wright-memorial-equipment-loan-program",
+   "url": "https://als.org/support/programs/robert-wright-memorial-equipment-loan-program",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-ulster-rcal-loan",
+   "name": "Ulster County medical equipment loan closet",
+   "org": "Ulster County Office for the Aging (RCAL)",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Ulster"
+   ],
+   "category": "equipment",
+   "description": "Lends donated medical equipment to people who cannot afford to buy their own or whose insurance does not cover it. The usual loan is three months and can be extended. A fee applies for some items.",
+   "next_step": "Call 845-331-0541 to check what is available and make an appointment.",
+   "constraints": [
+    "Fee prices changed July 1, 2024; ask when you call."
+   ],
+   "phone": "845-331-0541",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.ulstercountyny.gov/Departments/Aging/Services/Medical-Supports/Medical-Equipment-Loan-Closet",
+   "url": "https://www.ulstercountyny.gov/Departments/Aging/Services/Medical-Supports/Medical-Equipment-Loan-Closet",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-suffolk-silo-traid",
+   "name": "Suffolk County TRAID loan: equipment at no cost (SILO)",
+   "org": "Suffolk Independent Living Organization with NYS Justice Center",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Suffolk"
+   ],
+   "category": "equipment",
+   "description": "SILO partners with the New York State Justice Center to loan durable medical equipment and assistive devices free. A treating professional's documentation is required.",
+   "next_step": "Contact SILO through the Suffolk County Assistive Technology Advocacy Project.",
+   "constraints": [
+    "Documentation from a doctor, PT or OT is required."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.suffolkcountyny.gov/Departments/People-With-Disabilities/Assistive-Technology-Advocacy-Project",
+   "url": "https://www.suffolkcountyny.gov/Departments/People-With-Disabilities/Assistive-Technology-Advocacy-Project",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-tricounty-ilc-loan",
+   "name": "Tri-County Independent Living Center loan closet",
+   "org": "Tri-County Independent Living Center",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Summit",
+    "Stark",
+    "Portage"
+   ],
+   "category": "equipment",
+   "description": "Lends donated mobility, medical and home modification equipment for temporary use by people with disabilities. Inventory depends on donations and returns.",
+   "next_step": "Contact the center to ask what is in the loan closet.",
+   "constraints": [
+    "The center does not buy equipment; inventory changes."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://seniorsmobility.org/?p=18078",
+   "url": "https://seniorsmobility.org/?p=18078",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-licking-medical-loan-closet",
+   "name": "Church of the Ascension Medical Loan Closet (Johnstown)",
+   "org": "Church of the Ascension",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Licking"
+   ],
+   "category": "equipment",
+   "description": "Loans medical equipment such as wheelchairs and medical beds to anyone for free.",
+   "next_step": "Call (614) 581-5286 or (740) 390-8048 to check availability.",
+   "constraints": [
+    "Volunteer run; call first."
+   ],
+   "phone": "(614) 581-5286",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.cap4kids.org/columbus/?p=19842",
+   "url": "https://www.cap4kids.org/columbus/?p=19842",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-jefferson-ramp-program",
+   "name": "Jefferson County free ramp program",
+   "org": "United Way of Jefferson County",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Jefferson"
+   ],
+   "category": "ramps_home",
+   "description": "A volunteer program that builds handicap ramps for Jefferson County residents at no cost.",
+   "next_step": "Call United Way of Jefferson County at 740-284-9000.",
+   "constraints": [
+    "Availability depends on volunteers and materials."
+   ],
+   "phone": "740-284-9000",
+   "phone_note": null,
+   "email": null,
+   "web": "https://seniorsmobility.org/?p=1460",
+   "url": "https://seniorsmobility.org/?p=1460",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-veterans-miracle-ramps",
+   "name": "Veterans Miracle Center Erie: ramps for veterans",
+   "org": "Veterans Miracle Center Erie",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Erie",
+    "Crawford",
+    "Venango"
+   ],
+   "category": "ramps_home",
+   "description": "Offers handicap ramps to disabled veterans who meet DD-214 and income requirements, free of charge, with donations welcome. Open Tuesday through Thursday, 10 am to 2 pm, or by appointment.",
+   "next_step": "Call to ask about an application.",
+   "constraints": [
+    "Veterans only; DD-214 and income requirements apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.pa211.org/search/dfbf2538-a6fc-5217-8c7c-9ca79ee0f5d0",
+   "url": "https://search.pa211.org/search/dfbf2538-a6fc-5217-8c7c-9ca79ee0f5d0",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-recares",
+   "name": "ReCARES: weekly durable medical equipment donations and loans (Bay Area)",
+   "org": "ReCARES",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Alameda",
+    "San Francisco",
+    "Marin"
+   ],
+   "category": "equipment",
+   "description": "A nonprofit whose volunteers gather weekly in Oakland, San Francisco and Marin to accept donations of durable medical equipment and supplies for people in need.",
+   "next_step": "Check the ReCARES site for site hours and equipment.",
+   "constraints": [
+    "Check availability and eligibility before visiting."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://seniorsmobility.org/?p=17160",
+   "url": "https://seniorsmobility.org/?p=17160",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
