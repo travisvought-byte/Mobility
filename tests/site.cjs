@@ -16,6 +16,7 @@ for(const f of pages){
  for(const img of d.querySelectorAll('img'))assert(img.hasAttribute('alt'),f+' img alt');
  assert(!/vethomeguard\.org\/\?state=undefined/.test(fs.readFileSync(f,'utf8')));
 }
+for(const f of ['index.html','local-help.html','ramps-home-access.html','mobility-rights.html','mobility-independence.html','disability-advocacy.html']){const d=new JSDOM(fs.readFileSync(f,'utf8')).window.document;assert.equal(d.querySelectorAll('.featured-org').length,1,f+' features MIF once');assert(d.querySelector('.featured-org a[href="https://themif.org/donate/"]'),f+' donate link');assert(/Mobility Independence Foundation/.test(d.querySelector('.featured-org').textContent));}
 assert(fs.readFileSync('CNAME','utf8').trim()==='mobilitytalk.org');
 assert(fs.readFileSync('sitemap.xml','utf8').includes('https://mobilitytalk.org/local-help.html'));assert(fs.readFileSync('robots.txt','utf8').includes('Sitemap: https://mobilitytalk.org/sitemap.xml'));
 console.log('PASS site: '+pages.length+' pages have one h1, canonical and social tags, working internal links and anchors, CNAME, sitemap and robots.');
