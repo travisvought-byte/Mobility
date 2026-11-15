@@ -15358,6 +15358,305 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-west-central",
+   "name": "West Central Human Service Center, Bismarck (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Burleigh",
+    "Emmons",
+    "Grant",
+    "Kidder",
+    "McLean",
+    "Mercer",
+    "Morton",
+    "Oliver",
+    "Sheridan",
+    "Sioux"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-328-8888",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-northwest",
+   "name": "Northwest Human Service Center, Williston (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Divide",
+    "McKenzie",
+    "Williams"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-774-4600",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-north-central",
+   "name": "North Central Human Service Center, Minot (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Bottineau",
+    "Burke",
+    "McHenry",
+    "Mountrail",
+    "Pierce",
+    "Renville",
+    "Ward"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-857-8500",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-lake-region",
+   "name": "Lake Region Human Service Center, Devils Lake (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Benson",
+    "Cavalier",
+    "Eddy",
+    "Ramsey",
+    "Rolette",
+    "Towner"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-665-2200",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-northeast",
+   "name": "Northeast Human Service Center, Grand Forks (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Grand Forks",
+    "Nelson",
+    "Pembina",
+    "Walsh"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-795-3000",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-southeast",
+   "name": "Southeast Human Service Center, Fargo (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Cass",
+    "Ransom",
+    "Richland",
+    "Sargent",
+    "Steele",
+    "Traill"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-298-4500",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-south-central",
+   "name": "South Central Human Service Center, Jamestown (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Barnes",
+    "Dickey",
+    "Foster",
+    "Griggs",
+    "LaMoure",
+    "Logan",
+    "McIntosh",
+    "Stutsman",
+    "Wells"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-253-6300",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hsc-dd-badlands",
+   "name": "Badlands Human Service Center, Dickinson (developmental disabilities)",
+   "org": "North Dakota Health and Human Services, Developmental Disabilities, regional human service center",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Adams",
+    "Billings",
+    "Bowman",
+    "Dunn",
+    "Golden Valley",
+    "Hettinger",
+    "Slope",
+    "Stark"
+   ],
+   "category": "dd_board",
+   "description": "Regional human service center where you start for developmental disability services. A developmental disabilities program manager at the center handles intake, eligibility, service needs assessment and referral to providers, and monitors your service plan.",
+   "next_step": "Call the human service center for your county and ask for the developmental disabilities team.",
+   "constraints": [
+    "Services require North Dakota Medicaid eligibility and a developmental disability that began before age 22."
+   ],
+   "phone": "701-227-7500",
+   "phone_note": "Human service center main line",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-dd-division",
+   "name": "North Dakota Developmental Disabilities Division (statewide)",
+   "org": "North Dakota Health and Human Services, Disability Services",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State division that oversees developmental disability case management and services, including family support, residential and day services and infant development. Applications go through your regional human service center.",
+   "next_step": "Call the division if you are unsure which human service center covers you.",
+   "constraints": [],
+   "phone": "701-328-8930",
+   "phone_note": "Toll-free 800-755-8529",
+   "email": null,
+   "web": null,
+   "url": "https://www.hhs.nd.gov/dd/individuals-families",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "constraints": [],
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "id": "sd-ddd-dakota-at-home",
+   "name": "South Dakota Developmental Disabilities: apply through Dakota at Home (statewide)",
+   "org": "South Dakota Department of Human Services, Division of Developmental Disabilities",
+   "state": "SD",
+   "description": "The Division of Developmental Disabilities offers services from occasional help at home to around-the-clock care, including the CHOICES Waiver for children and adults with intellectual and developmental disabilities. Intake starts with Dakota at Home. A DDD intake specialist can help you fill out the application.",
+   "next_step": "Call Dakota at Home and press option 2 for developmental disabilities, or email the intake team.",
+   "phone": "833-663-9673",
+   "phone_note": "Press option 2 for DDD intake; division office 605-773-3438",
+   "url": "https://dhs.sd.gov/developmentaldisabilities/"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "constraints": [
+    "The person must live with a parent or family member."
+   ],
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "id": "sd-ddd-respite",
+   "name": "South Dakota respite care for caregivers of people with developmental disabilities",
+   "org": "South Dakota Department of Human Services, Division of Developmental Disabilities",
+   "state": "SD",
+   "description": "Respite care pays for temporary relief care so families can take a break. The person must live with a parent or family member. There is no income limit. You send a respite application and proof of diagnosis, then choose a respite worker.",
+   "next_step": "Call to get the respite application and proof of diagnosis form.",
+   "phone": "833-663-9673",
+   "phone_note": "Help with the respite application",
+   "url": "https://dhs.sd.gov/en/division-developmental-disabilities/respite-services-for-caregivers-of-people-with-developmental-disabilities"
   }
  ]
 }
