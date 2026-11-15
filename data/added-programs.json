@@ -42509,6 +42509,739 @@
    "reviewed_on": "2026-11-15",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-ucan-ann-arbor",
+   "name": "University of Michigan Community Amputee Network (U-CAN)",
+   "org": "University of Michigan Orthotics & Prosthetics Center",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Washtenaw"
+   ],
+   "category": "peer_support",
+   "description": "University of Michigan Orthotics & Prosthetics Center hosts this amputee and limb loss support group in Ann Arbor, Michigan. Meets the 1st Tuesday of each month, 5:30 to 7:30 PM, in person and virtual (no meeting in January), at 2850 South Industrial Highway, Suite 400. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "734-975-7432",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": "https://www.uofmhealth.org/our-care/specialties-services/u-can-amputee-support-group",
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-bay-city-oakland-orthopedic",
+   "name": "Oakland Orthopedic Amputee Support Group",
+   "org": "Oakland Orthopedic",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Bay"
+   ],
+   "category": "peer_support",
+   "description": "This amputee and limb loss support group meets in Bay City, Michigan. Meets quarterly. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "989-893-7544",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-lakes-area-commerce",
+   "name": "Lakes Area Amputee Support Group",
+   "org": "Ropp Orthopedic",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Oakland"
+   ],
+   "category": "peer_support",
+   "description": "Ropp Orthopedic hosts this amputee and limb loss support group in Commerce Township, Michigan. Meets the 2nd Tuesday of each month, 6:30 to 8:30 PM, in person and virtual, at 2075 E West Maple Rd, Suite B-207. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "248-669-9222",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-detroit-rim",
+   "name": "Detroit Amputee Support Group",
+   "org": "Rehabilitation Institute of Michigan",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Wayne"
+   ],
+   "category": "peer_support",
+   "description": "Rehabilitation Institute of Michigan hosts this amputee and limb loss support group in Detroit, Michigan. Meets the 1st Thursday of each month, 12:00 to 1:00 PM, in the Sports Ability room at 261 Mack Ave. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the guide; use the website or ask your prosthetist.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-detroit-anew-life",
+   "name": "Detroit Limb Loss Support Group",
+   "org": "Anew Life Prosthetics & Orthotics",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Wayne"
+   ],
+   "category": "peer_support",
+   "description": "Anew Life Prosthetics & Orthotics hosts this amputee and limb loss support group in Detroit, Michigan. Meets the 1st Thursday of each month, 4:00 to 6:00 PM, at 6438 Woodward Ave. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "734-552-9225",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-grand-rapids-corewell",
+   "name": "Limb Loss Meet-up (Grand Rapids)",
+   "org": "Corewell Health, Butterworth Hospital",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Kent"
+   ],
+   "category": "peer_support",
+   "description": "Corewell Health, Butterworth Hospital hosts this amputee and limb loss support group in Grand Rapids, Michigan. Meets the 2nd Wednesday of each month, 5:00 to 6:30 PM, at 1840 Wealthy St. SE, Guild Room 1. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the guide; use the website or ask your prosthetist.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-grand-rapids-mary-free-bed",
+   "name": "Great Lakes Amputee Support Network",
+   "org": "Mary Free Bed Rehabilitation Hospital, Orthotics & Prosthetics",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Kent"
+   ],
+   "category": "peer_support",
+   "description": "Mary Free Bed Rehabilitation Hospital, Orthotics & Prosthetics hosts this amputee and limb loss support group in Grand Rapids, Michigan. Meets the 3rd Tuesday of each month, 6:30 PM, in person and virtual, at 235 Wealthy St. SE. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "616-458-1187",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-kalamazoo-smarg",
+   "name": "Southwest MI Amputee Resource Group",
+   "org": "Ascension Borgess Health & Fitness",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Kalamazoo"
+   ],
+   "category": "peer_support",
+   "description": "Ascension Borgess Health & Fitness hosts this amputee and limb loss support group in Kalamazoo, Michigan. Meets the 2nd Monday of each month, 6:30 to 7:30 PM, at 3025 Gull Rd. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "269-425-0042",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": "smarg.amputees@gmail.com",
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-amputee-watervliet-corewell-south",
+   "name": "Corewell Health South Limb Loss Support Group",
+   "org": "Corewell Health South",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Berrien"
+   ],
+   "category": "peer_support",
+   "description": "Corewell Health South hosts this amputee and limb loss support group in Watervliet, Michigan. Meets the 2nd Thursday of each month, 5:30 to 6:30 PM (no meeting in January), in the 2nd floor therapy gym at 400 Medical Park Dr.. It is listed in the University of Michigan Orthotics & Prosthetics Center Amputee Resource Guide (2026).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call to confirm before you go."
+   ],
+   "phone": "269-463-2236",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": null,
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-great-lakes-loan-closet",
+   "name": "Great Lakes Loan Closet",
+   "org": "Great Lakes Loan Closet",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "This directory helps people in Michigan find organizations that lend medical equipment for little or no cost. It is listed in the University of Michigan Amputee Resource Guide (2026) under community programs.",
+   "next_step": "Use the website to find a loan closet near you, then call that closet to ask what equipment it has and how to borrow it.",
+   "constraints": [
+    "Each loan closet sets its own rules and stock."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the guide; use the website.",
+   "email": null,
+   "web": "https://loanclosets.org/",
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-easter-seals-michigan",
+   "name": "Easter Seals Michigan",
+   "org": "Easter Seals Michigan",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "navigation",
+   "description": "Easter Seals Michigan offers services for people with disabilities, their families and caregivers. It is listed in the University of Michigan Amputee Resource Guide (2026) under community programs.",
+   "next_step": "Call and ask which services are offered in your county and how to enroll.",
+   "constraints": [
+    "Services differ by location."
+   ],
+   "phone": "800-75-SEALS",
+   "phone_note": "Number is from the University of Michigan guide.",
+   "email": null,
+   "web": "https://www.easterseals.com/MORC/connect-locally/easterseals-morc.html",
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-michigan-ability-partners",
+   "name": "Michigan Ability Partners",
+   "org": "Michigan Ability Partners",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "navigation",
+   "description": "Michigan Ability Partners offers housing assistance, employment support and life skills services for veterans and people with disabilities. It is listed in the University of Michigan Amputee Resource Guide (2026) under community programs.",
+   "next_step": "Use the website to find the service that fits, then contact the agency to ask about eligibility.",
+   "constraints": [
+    "Service areas and eligibility are set by the agency."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the guide; use the website.",
+   "email": null,
+   "web": "https://www.mapagency.org/services",
+   "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "al-scims-uab",
+   "name": "UAB Spinal Cord Injury Model System (UAB-SCIMS)",
+   "org": "University of Alabama at Birmingham, Spain Rehabilitation Center, 1717 6th Ave",
+   "state": "AL",
+   "scope": "counties",
+   "counties": [
+    "Jefferson"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at University of Alabama at Birmingham, Spain Rehabilitation Center, 1717 6th Ave. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "205-934-3283",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://www.uab.edu/sci/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-scims-northern-california",
+   "name": "Northern California Spinal Cord Injury Model System of Care",
+   "org": "Northern California Spinal Cord Injury Model System of Care",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Santa Clara"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Northern California Spinal Cord Injury Model System of Care. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "408-781-8175",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://scvmc.scvh.org/health-care-services/trauma-center",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-scims-southern-california",
+   "name": "Southern California Spinal Cord Injury Model System",
+   "org": "Rancho Los Amigos National Rehabilitation Center, 7601 East Imperial Highway",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Rancho Los Amigos National Rehabilitation Center, 7601 East Imperial Highway. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "562-385-7177",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://www.socalscims.org/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "co-scims-rocky-mountain",
+   "name": "Rocky Mountain Regional Spinal Injury System",
+   "org": "Craig Hospital, 3425 S. Clarkson Street",
+   "state": "CO",
+   "scope": "counties",
+   "counties": [
+    "Arapahoe"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Craig Hospital, 3425 S. Clarkson Street. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "303-789-8306",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://craighospital.org/research",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "dc-scims-national-capital",
+   "name": "National Capital Spinal Cord Injury Model System",
+   "org": "MedStar National Rehabilitation Hospital and MedStar Health Research Institute",
+   "state": "DC",
+   "scope": "counties",
+   "counties": [
+    "District of Columbia"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at MedStar National Rehabilitation Hospital and MedStar Health Research Institute. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "202-877-1694",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://www.medstarnrh.org/our-services/spinal-cord-injury-rehabilitation-services/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-scims-south-florida",
+   "name": "South Florida Spinal Cord Injury Model System",
+   "org": "Christine E. Lynn Rehabilitation Center, 1611 NW 12th Ave, Miami",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Miami-Dade"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Christine E. Lynn Rehabilitation Center, 1611 NW 12th Ave, Miami. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "305-243-4497",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://med.miami.edu/programs/sfscims",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ga-scims-southeastern-regional",
+   "name": "Southeastern Regional Spinal Cord Injury Model System",
+   "org": "Shepherd Center, 2020 Peachtree Road NW",
+   "state": "GA",
+   "scope": "counties",
+   "counties": [
+    "Fulton"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Shepherd Center, 2020 Peachtree Road NW. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "404-352-2020",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://www.shepherd.org/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "il-scims-midwest-regional",
+   "name": "Midwest Regional Spinal Cord Injury Care System",
+   "org": "Shirley Ryan AbilityLab, 355 E. Erie St.",
+   "state": "IL",
+   "scope": "counties",
+   "counties": [
+    "Cook"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Shirley Ryan AbilityLab, 355 E. Erie St.. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "844-355-2253",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://www.sralab.org/conditions/spinal-cord-injury",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-scims-spaulding-new-england",
+   "name": "Spaulding New England Regional Spinal Cord Injury Center",
+   "org": "Spaulding Rehabilitation, 300 First Avenue",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Suffolk"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Spaulding Rehabilitation, 300 First Avenue. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "617-952-6174",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://snerscic.org/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-scims-michigan-scims",
+   "name": "Michigan Spinal Cord Injury Model System",
+   "org": "University of Michigan, 325 E. Eisenhower Parkway, Lower Level Suite 6",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Washtenaw"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at University of Michigan, 325 E. Eisenhower Parkway, Lower Level Suite 6. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "734-615-6720",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://disabilityhealth.medicine.umich.edu/research/mi-scims",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-scims-minnesota-regional",
+   "name": "Minnesota Regional Spinal Cord Injury Model System",
+   "org": "University of Minnesota, 420 Delaware Street SE",
+   "state": "MN",
+   "scope": "counties",
+   "counties": [
+    "Hennepin"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at University of Minnesota, 420 Delaware Street SE. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "612-626-2935",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://mnscims.umn.edu/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-scims-northern-new-jersey",
+   "name": "Northern New Jersey Spinal Cord Injury System",
+   "org": "Kessler Foundation, 1199 Pleasant Valley Way",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Essex"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Kessler Foundation, 1199 Pleasant Valley Way. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "973-324-3567",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://kesslerfoundation.org/NNJSCIS",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-scims-mount-sinai",
+   "name": "Mount Sinai Spinal Cord Injury Model System",
+   "org": "Mount Sinai, One Gustave L. Levy Place",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "New York"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Mount Sinai, One Gustave L. Levy Place. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "212-659-9369",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://www.mountsinaisci.org",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-scims-northeast-ohio",
+   "name": "Northeast Ohio Regional Spinal Cord Injury System",
+   "org": "MetroHealth, 4229 Pearl Road",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Cuyahoga"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at MetroHealth, 4229 Pearl Road. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "216-957-3562",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://www.metrohealth.org/en/research/center-for-rehabilitation-research/research-topics/northeast-ohio-regional-sci-system/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-scims-pittsburgh",
+   "name": "University of Pittsburgh Model Center on Spinal Cord Injury",
+   "org": "UPMC Rehabilitation Institute, 1400 Locust Street",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at UPMC Rehabilitation Institute, 1400 Locust Street. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "412-232-7949",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://www.upmc-sci.pitt.edu/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-scims-tirr",
+   "name": "Texas Model Spinal Cord Injury System",
+   "org": "The Institute for Rehabilitation and Research (TIRR Memorial Hermann)",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Harris"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at The Institute for Rehabilitation and Research (TIRR Memorial Hermann). These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "713-797-5972",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "http://tirr.memorialhermann.org/research/spinal-cord-injury-and-disability-research-center/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-scims-baylor-scott-white",
+   "name": "Baylor Scott and White Spinal Cord Injury Model System",
+   "org": "Baylor Scott & White Institute for Rehabilitation, 909 N. Washington Ave., Suite 232",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Dallas"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Baylor Scott & White Institute for Rehabilitation, 909 N. Washington Ave., Suite 232. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center."
+   ],
+   "phone": "214-820-9986",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://www.bswrehab.com/professionals/research-and-innovation/scims-research-page/",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-scims-virginia-consortium",
+   "name": "Virginia Consortium for Spinal Cord Injury Care",
+   "org": "Virginia Commonwealth University, 1201 E Marshall St",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Richmond"
+   ],
+   "category": "navigation",
+   "description": "This is one of the 18 Spinal Cord Injury Model System centers listed by the Model Systems Knowledge Translation Center. The center is based at Virginia Commonwealth University, 1201 E Marshall St. These centers are federally funded programs for specialized spinal cord injury care and research.",
+   "next_step": "Call and ask about the center's spinal cord injury clinic, peer support and research studies, and what a new patient or family member should do first.",
+   "constraints": [
+    "The listing gives the center's main research office number, which may not take appointments; ask to be connected to the clinic.",
+    "Not every person with a spinal cord injury is seen at a model system center.",
+    "The center is in Richmond city; the map lists Richmond city and Richmond County under the same name, so this shows for either."
+   ],
+   "phone": "804-828-8827",
+   "phone_note": "Number is from the MSKTC list.",
+   "email": null,
+   "web": "https://msktc.org/sci/model-system-centers",
+   "url": "https://msktc.org/sci/model-system-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
