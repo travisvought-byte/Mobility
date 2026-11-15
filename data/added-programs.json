@@ -40274,6 +40274,74 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "me-5310-transportation-funding",
+   "name": "Section 5310 transportation funding for older adults and people with disabilities (ME)",
+   "org": "Maine Department of Transportation, Freight and Passenger Services Division",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "MaineDOT's state management plan lists the federal Section 5310 program, which pays for transportation for older adults and people with disabilities when other service is unavailable, insufficient or inappropriate. The state passes the money to eligible nonprofits, public agencies and transit operators, which run the vehicles and rides.",
+   "next_step": "If you need a ride, ask your Area Agency on Aging, Center for Independent Living or regional transit provider which 5310-funded rides serve your town. If you run a nonprofit or transit service, ask MaineDOT's transit staff how and when to apply.",
+   "constraints": [
+    "Funds go to eligible organizations, so riders use the services those groups run rather than applying for money themselves.",
+    "The link goes to MaineDOT's 2024 state management plan rather than a program landing page; application dates are set by MaineDOT."
+   ],
+   "phone": null,
+   "phone_note": "No program phone is printed in the plan; use the MaineDOT transit website to find the current contact.",
+   "email": null,
+   "web": "https://www.maine.gov/mdot/transit/",
+   "url": "https://www.maine.gov/dot/sites/maine.gov.dot/files/inline-files/MaineDOT%20State%20Management%20Plan%20February%202024.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-itnamerica-find-your-itn",
+   "name": "Find your ITN: volunteer-driver and door-through-door rides (ITNAmerica)",
+   "org": "ITNAmerica",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "A national nonprofit network of independent local transportation providers for older adults and people with mobility challenges. Its map lists ITN Affiliates, ITNCountry communities and Trusted Transportation Providers, where trained drivers offer arm-through-arm, door-through-door rides.",
+   "next_step": "Open the map, enter your zip code and a distance, and call the provider nearest you to ask about membership, fares and the hours rides are offered.",
+   "constraints": [
+    "Coverage is limited to the communities where a local provider exists.",
+    "Each provider is an independent nonprofit with its own fares, rules and service area."
+   ],
+   "phone": null,
+   "phone_note": "ITNAmerica's Portland, Maine office is 207-857-9001; local providers list their own numbers on the map.",
+   "email": null,
+   "web": "https://www.itnamerica.org/find-your-itn",
+   "url": "https://www.itnamerica.org/find-your-itn",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-nadtc",
+   "name": "National Aging and Disability Transportation Center (NADTC)",
+   "org": "National Aging and Disability Transportation Center",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "A federally funded technical assistance center that promotes accessible transportation options for people with disabilities, older adults and caregivers. Its site explains Section 5310 funding, paratransit, dial-a-ride, volunteer driver and mobility management programs, and how to find them.",
+   "next_step": "Use the site to learn what kinds of rides exist, then ask your local Area Agency on Aging or transit agency which ones serve your area.",
+   "constraints": [
+    "A resource and technical assistance center, not a ride provider."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the source; see the NADTC website for current contact options.",
+   "email": null,
+   "web": "https://www.nadtc.org/",
+   "url": "https://www.nadtc.org/?p=58",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
