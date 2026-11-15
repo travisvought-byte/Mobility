@@ -62,3 +62,8 @@ footer{color:#42525b;margin-top:12px}
 .tile:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @media(max-width:600px){.tilemap{gap:3px}.tile{font-size:12px;border-radius:5px;min-height:34px}}
 @media print{.tilemap{display:none}}
+.statemap .map-wrap{max-width:760px}.statesvg{width:100%;height:auto;max-height:70vh;display:block}
+.co{stroke:#fff;stroke-width:.6;cursor:pointer;transition:opacity .1s}.co:hover{opacity:.8}.co:focus-visible{outline:none;stroke:#183449;stroke-width:2.2}
+.co.c0{fill:#dfe6e1}.co.c1{fill:#b9d3c4}.co.c2{fill:#7fb095}.co.c3{fill:#4a8a68}.co.c4{fill:#276244}.co.sel{stroke:#bb8e36;stroke-width:2.4}
+.legend{font-size:14px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.sw{display:inline-block;width:18px;height:18px;border-radius:3px;border:1px solid #c5cfc9}.sw.c0{background:#dfe6e1}.sw.c1{background:#b9d3c4}.sw.c2{background:#7fb095}.sw.c3{background:#4a8a68}.sw.c4{background:#276244}
+@media print{.statemap{display:none}}

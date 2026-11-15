@@ -11,9 +11,11 @@ let main=[],vso=[],cats={},mainOk=false;
 const q=new URLSearchParams(location.search);
 function sel(){return {state:$('f-state').value,county:$('f-county').value,category:$('f-cat').value,q:low($('f-q').value).trim()};}
 function all(){return main.concat(vso);}
+const mapCache={};let mapTok=0;
 function fillCounties(state,keep){
   const set=new Set();
   for(const r of all())if(r.state===state)for(const c of r.counties||[])set.add(c);
+  if(mapCache[state])for(const c of mapCache[state].counties)set.add(c.n);
   const sorted=[...set].sort((a,b)=>a.localeCompare(b)),box=$('f-county');box.textContent='';
   const first=el('option','All counties');first.value='';box.append(first);
   for(const c of sorted){const o=el('option',c);o.value=c;box.append(o);}
@@ -60,6 +62,38 @@ function drawNeeds(s){
     b.addEventListener('click',()=>{$('f-cat').value=k;render();});box.append(b);
   }
 }
+const nk=x=>low(x).replace(/\bsaint\b/g,'st').replace(/[^a-z0-9]/g,'');
+function paintMap(m,s){
+  const sec=$('statemap'),box=$('map-wrap'),NS='http://www.w3.org/2000/svg';
+  const name=STATES[s.state]||s.state,cnt={};let statewide=0,local=0;
+  for(const r of main){if(r.state!==s.state||r.category==='veterans')continue;if(s.category&&r.category!==s.category)continue;
+    if(r.scope==='counties'){local++;for(const c of r.counties||[])cnt[nk(c)]=(cnt[nk(c)]||0)+1;}else statewide++;}
+  box.textContent='';
+  const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox',m.viewBox.join(' '));svg.setAttribute('role','group');svg.setAttribute('aria-label','County map of '+name);svg.setAttribute('class','statesvg');
+  const pick=c=>{const box2=$('f-county');if(![...box2.options].some(o=>o.value===c))fillCounties(s.state,c);box2.value=(low(box2.value)===low(c))?'':c;render();};
+  for(const c of m.counties){
+    const n=cnt[nk(c.n)]||0,lvl=n===0?0:n===1?1:n<=3?2:n<=6?3:4;
+    const p=document.createElementNS(NS,'path');p.setAttribute('d',c.d);p.setAttribute('class','co c'+lvl+(s.county&&nk(s.county)===nk(c.n)?' sel':''));
+    p.setAttribute('tabindex','0');p.setAttribute('role','button');p.setAttribute('aria-label',c.n+': '+n+(n===1?' local program':' local programs')+'. Select to filter the list.');
+    const ti=document.createElementNS(NS,'title');ti.textContent=c.n+' ('+n+')';p.append(ti);
+    p.addEventListener('click',()=>pick(c.n));p.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick(c.n);}});
+    svg.append(p);
+  }
+  box.append(svg);
+  $('map-h').textContent='Map of resources in '+name;
+  $('map-summary').textContent=statewide+' '+(statewide===1?'program serves':'programs serve')+' all of '+name+' (listed below). '+local+' '+(local===1?'program serves':'programs serve')+' specific counties. Select a county to narrow the list.';
+  sec.hidden=false;
+}
+function drawMap(s){
+  const sec=$('statemap');if(!sec)return;
+  if(!main.some(r=>r.state===s.state)){sec.hidden=true;return;}
+  if(mapCache[s.state]){paintMap(mapCache[s.state],s);return;}
+  const tok=++mapTok;
+  fetch('data/maps/'+s.state+'.json').then(r=>r.ok?r.json():null).catch(()=>null).then(m=>{
+    if(!m||!Array.isArray(m.counties)||!Array.isArray(m.viewBox)){sec.hidden=true;return;}
+    mapCache[s.state]=m;if(tok!==mapTok)return;
+    fillCounties(s.state,$('f-county').value);render();});
+}
 function render(){
   const s=sel(),out=$('results');out.textContent='';
   const found=all().filter(r=>matches(r,s));
@@ -69,7 +103,7 @@ function render(){
     const head=el('div',null,'cat-head');head.id='cat-'+k;jump.push([k,(cats[k]||k),g.length]);head.append(el('h3',(cats[k]||k)+' ('+g.length+')'),el('p',BLURB[k]||''));
     const list=el('div',null,'list');for(const r of g)list.append(card(r,s));out.append(head,list);}
   const nav=$('jump');nav.textContent='';nav.hidden=jump.length<2;if(jump.length>1){nav.append(el('span','Jump to: '));for(const [k,n,c] of jump){const a=el('a',n+' ('+c+')');a.href='#cat-'+k;nav.append(a);}}
-  drawNeeds(s);
+  drawNeeds(s);drawMap(s);
   let msg=found.length?'Showing '+found.length+' programs for '+name+(s.county?', '+s.county+' County':'')+'.':'No programs match these choices yet for '+name+'. Try All counties or a different category, or use the Veteran Resource Guide for local contacts.';
   if(found.length&&!main.some(r=>r.state===s.state))msg='We have not added '+name+' programs to this directory yet. Showing the federal VA routes; use the national directories below to find your state’s programs.';
   if(!s.county&&!s.category&&vso.some(r=>r.state===s.state))msg+=' Choose a county to also see its veterans service office.';
