@@ -16003,6 +16003,94 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-dhs-dd-waiver-county",
+   "name": "Minnesota Developmental Disabilities Waiver: apply through your county or tribal nation (statewide)",
+   "org": "Minnesota Department of Human Services",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "Minnesota runs its Developmental Disabilities (DD) Waiver through county and tribal nation \"lead agencies.\" You apply at the county social services office or tribal nation where you live, and a screening decides eligibility. The state lists a DD waiver contact for each lead agency.",
+   "next_step": "Call your county social services office and ask for the DD waiver screening.",
+   "constraints": [
+    "People with a developmental disability or related condition who need the level of care of an intermediate care facility."
+   ],
+   "phone": null,
+   "phone_note": "Use your county or tribal nation social services number",
+   "email": null,
+   "web": null,
+   "url": "https://mn.gov/dhs/people-we-serve/people-with-disabilities/services/home-community/programs-and-services/dd-waiver.jsp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ak-ddrc-adrc-statewide",
+   "name": "Alaska Developmental Disabilities Resource Connection (DDRC) and ADRC: where to start for waivers (statewide)",
+   "org": "Alaska Department of Health, Division of Senior and Disabilities Services",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "The DDRC is the first stop for Alaskans with an intellectual or developmental disability and their families. DDRC staff can help you get on the waiting list (the DD Registry) for the IDD and Individualized Supports waivers. An Aging and Disability Resource Center (ADRC) can refer you to a DDRC. After you are drawn from the list, a care coordinator helps you apply.",
+   "next_step": "Call the ADRC and DDRC toll-free line and ask to start intake.",
+   "constraints": [
+    "You must qualify for Medicaid and meet an intermediate care facility level of care for the IDD and Individualized Supports waivers."
+   ],
+   "phone": "1-855-565-2017",
+   "phone_note": "ADRC and DDRC toll-free; Division of Senior and Disabilities Services in Anchorage 907-269-3666 or 800-478-9996",
+   "email": null,
+   "web": null,
+   "url": "https://health.alaska.gov/en/services/developmental-disabilities-resource-connection/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-dhs-dd-adult-programs",
+   "name": "Wisconsin programs for adults with developmental and intellectual disabilities (statewide)",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "Wisconsin offers several long-term care programs for adults with intellectual or developmental disabilities, including Family Care and IRIS, the self-directed option. You enroll through your local Aging and Disability Resource Center (ADRC) or tribal aging and disability resource specialist. They complete a functional screen and help with the Medicaid application.",
+   "next_step": "Contact your local ADRC and ask to start the long-term care functional screen.",
+   "constraints": [
+    "Adults 18 and older who need long-term care and are eligible for Medicaid."
+   ],
+   "phone": null,
+   "phone_note": "Find your local ADRC through the state page",
+   "email": null,
+   "web": null,
+   "url": "https://www.dhs.wisconsin.gov/disabilities/adult-disabilities.htm",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-clts-county",
+   "name": "Wisconsin Children's Long-Term Support program: apply through your county (statewide)",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "The Children's Long-Term Support program serves children with disabilities, including developmental disabilities. You start by contacting your county health and human services agency. A support and service coordinator visits your home, uses an online tool to look at your child's care needs, and helps with enrollment.",
+   "next_step": "Call your county health and human services agency and say you want services for your child.",
+   "constraints": [
+    "Children with disabilities who meet the program's eligibility rules."
+   ],
+   "phone": null,
+   "phone_note": "Use your county health and human services number",
+   "email": null,
+   "web": null,
+   "url": "https://dhs.wisconsin.gov/clts/waiver/family/apply.htm",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
