@@ -1,0 +1,495 @@
+{
+ "source": {
+  "title": "Additional programs verified from official and directory pages",
+  "read_on": "2026-11-14",
+  "note": "Facts taken from the cited pages. Phone numbers are included only where the cited source showed them."
+ },
+ "records": [
+  {
+   "id": "ut-cil-uilc",
+   "name": "Utah Independent Living Center",
+   "org": "Utah Independent Living Center",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Salt Lake",
+    "Summit",
+    "Tooele"
+   ],
+   "category": "independent_living",
+   "description": "Center for Independent Living serving Salt Lake, Summit and Tooele counties. Utah's first independent living center, open since 1982.",
+   "next_step": "Call and ask about independent living services, assistive technology and home accessibility help, and whether they can help with a ramp or modification request.",
+   "constraints": [
+    "Services and funding for modifications vary by center and year. Ask what is available now."
+   ],
+   "phone": "801-466-5565",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://uilc.org/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-cil-roads",
+   "name": "Roads to Independence",
+   "org": "Roads to Independence",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Morgan",
+    "Weber",
+    "Davis"
+   ],
+   "category": "independent_living",
+   "description": "Center for Independent Living in Ogden serving Morgan, Weber and Davis counties.",
+   "next_step": "Call and ask about independent living services, assistive technology and home accessibility help, and whether they can help with a ramp or modification request.",
+   "constraints": [
+    "Services and funding for modifications vary by center and year. Ask what is available now."
+   ],
+   "phone": "801-612-3215",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://roadstoindependence.org/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-cil-ability1st",
+   "name": "Ability 1st",
+   "org": "Ability 1st",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Juab",
+    "Sanpete",
+    "Utah",
+    "Wasatch"
+   ],
+   "category": "independent_living",
+   "description": "Center for Independent Living in Provo serving Juab, Sanpete, Utah and Wasatch counties.",
+   "next_step": "Call and ask about independent living services, assistive technology and home accessibility help, and whether they can help with a ramp or modification request.",
+   "constraints": [
+    "Services and funding for modifications vary by center and year. Ask what is available now."
+   ],
+   "phone": "801-373-5044",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://ability1stutah.org/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-cil-active-reentry",
+   "name": "Active Re-Entry",
+   "org": "Active Re-Entry",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Daggett",
+    "Duchesne",
+    "Uintah",
+    "Carbon",
+    "Emery",
+    "Grand",
+    "San Juan"
+   ],
+   "category": "independent_living",
+   "description": "Center for Independent Living serving seven eastern Utah counties from offices in Price, Moab and Vernal.",
+   "next_step": "Call and ask about independent living services, assistive technology and home accessibility help, and whether they can help with a ramp or modification request.",
+   "constraints": [
+    "Services and funding for modifications vary by center and year. Ask what is available now."
+   ],
+   "phone": "435-637-4950",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.arecil.org/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-cil-rrci",
+   "name": "Red Rock Center for Independence (RRCI)",
+   "org": "Red Rock Center for Independence",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Beaver",
+    "Garfield",
+    "Iron",
+    "Kane",
+    "Millard",
+    "Piute",
+    "Sevier",
+    "Washington",
+    "Wayne"
+   ],
+   "category": "independent_living",
+   "description": "Center for Independent Living in St. George serving nine southwestern and central Utah counties.",
+   "next_step": "Look up current contact details in the ILRU directory, then call and ask about independent living and home accessibility help.",
+   "constraints": [
+    "Services and funding for modifications vary by center and year. Ask what is available now."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.ilru.org/cil-directory/ut",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-cil-options",
+   "name": "Options for Independence",
+   "org": "Options for Independence",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "independent_living",
+   "description": "Center for Independent Living in Logan (northern Utah).",
+   "next_step": "Look up current contact details in the ILRU directory, then call and ask whether your county is in its service area.",
+   "constraints": [
+    "Counties served are not listed here. Ask whether your address is in its service area."
+   ],
+   "phone": "435-753-5353",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.ilru.org/cil-directory/ut",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-uatp-loans",
+   "name": "Utah Assistive Technology Foundation low-interest loans",
+   "org": "Utah Assistive Technology Program / Utah Assistive Technology Foundation",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Low-interest loans, made with Zions Bank through the Utah Assistive Technology Foundation, for devices such as wheelchairs, scooters, lifts, adapted vans and home modifications. Small grants are also described for people at or below 150% of the federal poverty line.",
+   "next_step": "Call UATP, read the application instructions and ask what documents you need, such as an invoice with model and price.",
+   "constraints": [
+    "Loan approval depends on credit, debts and income. Confirm current rates and grant rules with the program."
+   ],
+   "phone": "800-524-5152",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://idrpp.usu.edu/uatp/financing/index",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-uatp-reuse",
+   "name": "Utah Assistive Technology Program device reuse and loan closet",
+   "org": "Utah Assistive Technology Program",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Refurbished wheelchairs, walkers, ramps, lifts and other equipment sold, loaned or rented, with locations in Logan, the Uintah Basin and Salt Lake City, plus the statewide AT4All swap site. Posted rental rates include transportable folding ramps and wheelchairs.",
+   "next_step": "Call and ask what is in stock, current rental or purchase prices, and whether you can try the device before committing.",
+   "constraints": [
+    "Prices and stock change. Confirm before you travel."
+   ],
+   "phone": "800-524-5152",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://idrpp.usu.edu/uatp/reuse/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-phdc-amp",
+   "name": "Adaptive Modifications Program (Philadelphia)",
+   "org": "Philadelphia Housing Development Corporation (PHDC)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Philadelphia"
+   ],
+   "category": "ramps_home",
+   "description": "Free accessibility changes such as ramps, lifts, widened doorways and accessible bathrooms for Philadelphia residents with a permanent physical disability. Homeowners, and renters with the owner's permission, may apply.",
+   "next_step": "Contact PHDC, ask for the Adaptive Modifications Program application, and ask about the current wait time and income rules.",
+   "constraints": [
+    "Home must be structurally sound and the disability permanent. Funding limits and waits apply; confirm current rules."
+   ],
+   "phone": null,
+   "phone_note": "PHDC, 1234 Market Street, 17th Floor, Philadelphia, PA 19107. Use the program page for the current phone number.",
+   "email": null,
+   "web": null,
+   "url": "https://phdcphila.org/residents/home-repair/adaptive-modifications-program/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-pca-sharp",
+   "name": "Senior Housing Assistance Repair Program (SHARP)",
+   "org": "Philadelphia Corporation for Aging",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Philadelphia"
+   ],
+   "category": "ramps_home",
+   "description": "Minor home repairs and modifications such as grab bars and railings for income-eligible Philadelphia homeowners age 60 and over.",
+   "next_step": "Contact the Philadelphia Corporation for Aging and ask about SHARP eligibility and the waiting list.",
+   "constraints": [
+    "Age 60 or over, income-eligible homeowners with a structurally sound home."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.pcacares.org/?p=26735",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-chester-adaptive",
+   "name": "Adaptive modifications (Chester County)",
+   "org": "Housing Partnership of Chester County",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Chester"
+   ],
+   "category": "ramps_home",
+   "description": "Grant-funded adaptive modifications such as ramps, lifts, door and hallway widening and bathroom or kitchen changes for eligible Chester County residents with disabilities. Repayment is not required.",
+   "next_step": "Open the PA 211 listing, read the eligibility details and use the intake link to apply.",
+   "constraints": [
+    "Eligibility and funding limits apply. Confirm on the listing."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.pa211.org/agency/22033/58697/86244",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-ood-home-mods",
+   "name": "OOD home modifications and vehicle modification",
+   "org": "Opportunities for Ohioans with Disabilities (OOD)",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Ohio vocational rehabilitation can fund home modifications and vehicle modifications when they are needed to reach an employment goal. State rules cover both services.",
+   "next_step": "Apply to OOD vocational rehabilitation and tell your counselor which modification you need and why it supports work.",
+   "constraints": [
+    "Tied to an employment goal and an OOD plan. Not a general home repair program. Approval comes before work starts."
+   ],
+   "phone": null,
+   "phone_note": "Use the OOD website to find your local office.",
+   "email": null,
+   "web": null,
+   "url": "https://codes.ohio.gov/ohio-administrative-code/rule-3304-2-67",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-kettering-access-grant",
+   "name": "Kettering Accessibility Modification Grants",
+   "org": "City of Kettering",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Montgomery"
+   ],
+   "category": "ramps_home",
+   "description": "City grants of up to $10,000 for income-eligible Kettering homeowners who need to modify a home because of a disability, such as adding a ramp or step.",
+   "next_step": "Contact the City of Kettering housing programs and ask for the current Accessibility Modification Grant application and income limits.",
+   "constraints": [
+    "City of Kettering residents only. Grant amounts and funding change; confirm with the city."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.daytondailynews.com/local/need-to-add-a-ramp-or-new-step-to-your-home-kettering-offers-homeowners-free-money-for-this/RPS3DODQ2FAXDPUDVCDCF5ZUDI/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-modcon-safe-at-home",
+   "name": "Modcon Living Safe at Home (Franklin County)",
+   "org": "Modcon Living (formerly Rebuilding Together Central Ohio)",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Franklin"
+   ],
+   "category": "ramps_home",
+   "description": "Free emergency repairs and home modifications for low-income senior, disabled and veteran homeowners in Franklin County.",
+   "next_step": "Contact Modcon Living and ask for the Safe at Home application and current waitlist.",
+   "constraints": [
+    "Listed in a third-party directory that says it did not confirm the program. Check with the organization directly."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://api.thegrantmap.com/city/columbus/columbus-modcon-safe-at-home",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-mods",
+   "name": "OPWDD assistive technology, environmental and vehicle modifications",
+   "org": "NY Office for People With Developmental Disabilities (OPWDD)",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "People enrolled in the OPWDD Comprehensive Waiver can request home modifications such as a ramp to the front door or a roll-in shower, plus adaptive devices and vehicle modifications. Vehicle work must be done by a NMEDA-accredited installer.",
+   "next_step": "Ask your Care Manager to prepare the request for OPWDD review using the state guidance and review sheet.",
+   "constraints": [
+    "Requires OPWDD waiver enrollment. Requests go through a care manager and an approval process."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/types-services/AT-E-Mods-V-Mods",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-medicaid-emods",
+   "name": "Medicaid environmental modification guidelines",
+   "org": "NY State Department of Health",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "State guidelines describe how home accessibility modifications, such as ramps, are authorized for Medicaid participants under Community First Choice Option services.",
+   "next_step": "Ask your Medicaid care manager or plan how to request an environmental modification assessment and which provider to use.",
+   "constraints": [
+    "Authorization rules apply and service limits are tied to medical necessity."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://healthweb-back.health.ny.gov/health_care/medicaid/redesign/cfco/emod_guidelines.htm",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-people-inc-emods",
+   "name": "People Inc. Environmental Modifications (EMods)",
+   "org": "People Inc.",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Erie"
+   ],
+   "category": "ramps_home",
+   "description": "Helps people qualified for OPWDD services plan and complete home modifications, assistive technology and vehicle modifications, including guiding families through the OPWDD approval process.",
+   "next_step": "Open the EMods page and use its link to ask whether you qualify.",
+   "constraints": [
+    "For people qualified for OPWDD services. Service area may extend beyond Erie County; ask."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://people-inc.org/blog-post/increasing-independence-and-safety-through-emods-4989181",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-contact-ramp",
+   "name": "Free modular ramp program (Oswego and Cayuga)",
+   "org": "Contact Community Services",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Oswego",
+    "Cayuga"
+   ],
+   "category": "ramps_home",
+   "description": "Builds and installs free modular wheelchair ramps for eligible people in Oswego and Cayuga counties, listed in a Central New York health resource directory.",
+   "next_step": "Call the county contact and ask about eligibility and the current ramp waitlist.",
+   "constraints": [
+    "Oswego line shown; the Cayuga contact is 315-255-3447. Eligibility rules apply."
+   ],
+   "phone": "315-602-4938",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.cnyhealth.com/?p=12917",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-regional-centers",
+   "name": "Regional centers (21 nonprofit agencies)",
+   "org": "California Department of Developmental Services",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "Regional centers coordinate and purchase services for Californians with developmental disabilities, including assessments, eligibility decisions and case management. Ask your service coordinator about equipment and home accessibility.",
+   "next_step": "Use the state regional center lookup to find your center, then ask about eligibility and an Individual Program Plan meeting.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers purchase services only after other funding is explored."
+   ],
+   "phone": "833-421-0061",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-rebuilding-together",
+   "name": "Rebuilding Together affiliate finder (home repair and modifications)",
+   "org": "Rebuilding Together",
+   "state": "US",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "National nonprofit with local affiliates that provide free home repairs and accessibility modifications, often ramps, grab bars and railings, for low-income homeowners, especially older adults, people with disabilities and veterans. Programs include Safe at Home.",
+   "next_step": "Use the affiliate finder, call the one that covers your address and ask whether it takes accessibility projects and how long the wait is.",
+   "constraints": [
+    "Services differ by affiliate. Wait times vary and many affiliates have limited funding."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://rebuildingtogether.org/find-an-affiliate",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  }
+ ]
+}

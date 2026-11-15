@@ -84,6 +84,9 @@ def have_pa(st,name):
 for st,name,url,phone in ndrn['agencies']:
     if have_pa(st,name):continue
     add({'id':'pa-ndrn-'+st.lower(),'name':name,'org':'State Protection and Advocacy agency','state':st,'scope':'statewide','counties':[],'category':'rights_legal','description':'The federally designated Protection and Advocacy agency for people with disabilities in '+STATES[st]+'. It provides information, advocacy and legal help on disability rights.','next_step':'Call or visit the website and ask whether they can help with your situation, such as a denial, an access barrier or a rights violation, and how intake works.','constraints':[],'phone':phone,'phone_note':'First number listed by the National Disability Rights Network','email':None,'web':None,'url':url,'reviewed_on':ndrn['source']['read_on'],'record_status':'directory_listed','origin':'data/ndrn-protection-advocacy.json'})
+# Hand-verified additions (data/added-programs.json); never override a guide record with the same id
+for r in json.load(open(ROOT/'data/added-programs.json'))['records']:
+    if r['id'] not in out: add(r)
 recs=sorted(out.values(),key=lambda r:(r['state']!='US',r['state'],r['category'],r['name']))
 main=[r for r in recs if r['category']!='veterans'];vso=[r for r in recs if r['category']=='veterans']
 meta={'schema_version':1,'built_from':'travisvought-byte/vhg-veteran-resident-guide','categories':CATS}
