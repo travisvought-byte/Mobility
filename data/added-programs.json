@@ -3030,6 +3030,276 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-brooks-temporary-loan-closet",
+   "name": "Brooks Temporary Loan Closet (with CIL Jacksonville)",
+   "org": "Brooks Rehabilitation and CIL Jacksonville",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Baker",
+    "Clay",
+    "Duval",
+    "Nassau",
+    "St. Johns"
+   ],
+   "category": "equipment",
+   "description": "Free temporary loans of durable medical equipment, including manual and electric wheelchairs, walkers, canes, crutches and shower equipment. Short-term and long-term loans are available.",
+   "next_step": "Use the request form on the Brooks TLC page.",
+   "constraints": [
+    "Serves residents of the five listed counties."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://brooksrehab.org/tlc/",
+   "url": "https://brooksrehab.org/tlc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-manatee-lending-library",
+   "name": "Manatee County Community Paramedicine Lending Library",
+   "org": "Manatee County Community Health",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Manatee"
+   ],
+   "category": "equipment",
+   "description": "County program that lends donated health and mobility equipment with no time limit and accepts donated equipment at its Bradenton office.",
+   "next_step": "Contact Manatee County Community Health about available equipment.",
+   "constraints": [
+    "Does not accept broken equipment, hospital beds or other large furniture."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.mymanatee.org/services-and-amenities/service-listing/service-details/donate-medical-equipment-to-the-lending-closet",
+   "url": "https://www.mymanatee.org/services-and-amenities/service-listing/service-details/donate-medical-equipment-to-the-lending-closet",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-cumberland-west-shore-loan-closet",
+   "name": "West Shore Senior Center loan closet (Cumberland County)",
+   "org": "Cumberland County Aging & Community Services",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "equipment",
+   "description": "Free loans of wheelchairs, walkers, crutches, canes and commode chairs. Open to West Shore and Eastern Cumberland County residents, not only seniors.",
+   "next_step": "Call for hours and availability.",
+   "constraints": [
+    "Intake requires a West Shore, Eastern Cumberland or New Cumberland address."
+   ],
+   "phone": "(717) 774-0409",
+   "phone_note": null,
+   "email": null,
+   "web": "https://pa211.org/agency/15632/55608/43232",
+   "url": "https://pa211.org/agency/15632/55608/43232",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-dauphin-loan-closet",
+   "name": "Dauphin County Area Agency on Aging loan closet",
+   "org": "Dauphin County Area Agency on Aging",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Dauphin"
+   ],
+   "category": "equipment",
+   "description": "Free loan closet at the county administration building in Harrisburg for senior adults living in Dauphin County.",
+   "next_step": "Call the Area Agency on Aging to ask what is on hand.",
+   "constraints": [
+    "Listed for Dauphin County seniors; confirm eligibility."
+   ],
+   "phone": "(717) 780-6130",
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.pa211.org/search/06ab0ef4-6d28-5fff-9cb4-0016c0f1b7a4",
+   "url": "https://search.pa211.org/search/06ab0ef4-6d28-5fff-9cb4-0016c0f1b7a4",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-camp-hill-equipment-loan",
+   "name": "Camp Hill Borough medical equipment loan program",
+   "org": "Camp Hill Borough",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "equipment",
+   "description": "Two-month loans of wheelchairs, quad canes, walkers, portable toilets and shower seats, free of charge, for Camp Hill Borough residents.",
+   "next_step": "Call the borough office for availability.",
+   "constraints": [
+    "Camp Hill Borough residents only.",
+    "Loan period is two months."
+   ],
+   "phone": "(717) 737-3456",
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.pa211.org/search/7e4a9aeb-7e0b-5ae4-b551-89952a9661e3",
+   "url": "https://search.pa211.org/search/7e4a9aeb-7e0b-5ae4-b551-89952a9661e3",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-jfs-lancaster-dme-closet",
+   "name": "Jewish Family Service durable medical equipment loan closet (Lancaster)",
+   "org": "Jewish Family Service of Lancaster",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lancaster"
+   ],
+   "category": "equipment",
+   "description": "Lends wheelchairs, walkers, canes, shower stools and bedside commodes to anyone in need. Equipment is returned when no longer needed so others can use it.",
+   "next_step": "Visit during open hours at Congregation Shaarai Shomayim.",
+   "constraints": [
+    "Open Monday 10-12 and Wednesday 9-11 except Jewish holidays; confirm before visiting."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.pa211.org/search/b3d8fdb4-b85b-56b9-9c26-0093b11f1612",
+   "url": "https://search.pa211.org/search/b3d8fdb4-b85b-56b9-9c26-0093b11f1612",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reagans-journey-closet",
+   "name": "Reagan's Journey pediatric equipment lending closet",
+   "org": "Reagan's Journey",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lancaster"
+   ],
+   "category": "equipment",
+   "description": "Free pediatric medical equipment and supply lending closet in Lancaster.",
+   "next_step": "Contact the program to make an appointment.",
+   "constraints": [
+    "By appointment only."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.pa211.org/search/b171e2b6-b043-5d4a-9276-29ba187a4476",
+   "url": "https://search.pa211.org/search/b171e2b6-b043-5d4a-9276-29ba187a4476",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-hiland-lending-closet",
+   "name": "Hiland Presbyterian Church durable medical equipment lending closet",
+   "org": "Hiland Presbyterian Church",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "equipment",
+   "description": "Church-run lending closet in Pittsburgh for Allegheny County residents; it also manages a Hospital Equipment Loan Plan.",
+   "next_step": "Visit during open hours.",
+   "constraints": [
+    "Allegheny County residents; you must be able to pick up the equipment.",
+    "Open Monday-Thursday 10-2; confirm before visiting."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.pa211.org/search/c904230c-0777-54f5-ba06-cb9bd8416538",
+   "url": "https://search.pa211.org/search/c904230c-0777-54f5-ba06-cb9bd8416538",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-blessing-board-dme",
+   "name": "Blessing Board: free durable medical equipment (Shaler)",
+   "org": "Blessing Board",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "equipment",
+   "description": "Nonprofit that collects durable medical equipment and gives it to people in need in Allegheny and surrounding counties.",
+   "next_step": "Contact Blessing Board about available equipment.",
+   "constraints": [
+    "Reported in news coverage; confirm current service area."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://development.triblive.com/local/shaler-based-blessing-board-offers-free-durable-medical-equipment",
+   "url": "https://development.triblive.com/local/shaler-based-blessing-board-offers-free-durable-medical-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-rt-houston-ramps",
+   "name": "Rebuilding Together Houston wheelchair ramp and veterans repair programs",
+   "org": "Rebuilding Together Houston",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Harris"
+   ],
+   "category": "ramps_home",
+   "description": "Free wheelchair ramps for qualifying homeowners across Harris County, plus a veterans repair program funded by a Texas Veterans Commission grant.",
+   "next_step": "Email intake@rebuildinghouston.org or call (713) 659-2511.",
+   "constraints": [
+    "Low-income homeowner listed on the deed and living in the home full time."
+   ],
+   "phone": "(713) 659-2511",
+   "phone_note": null,
+   "email": null,
+   "web": "https://rebuildingtogetherhouston.squarespace.com/apply",
+   "url": "https://rebuildingtogetherhouston.squarespace.com/apply",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-wheels-of-hope-canton",
+   "name": "Wheels of Hope: wheelchair distribution (Canton)",
+   "org": "Wheels of Hope",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Stark"
+   ],
+   "category": "equipment",
+   "description": "Distributes wheelchairs to people who do not have one and seeks donated wheelchairs.",
+   "next_step": "Contact Wheels of Hope for eligibility and availability.",
+   "constraints": [
+    "Listed in directories; confirm current operations."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://seniorsmobility.org/?p=1460",
+   "url": "https://seniorsmobility.org/?p=1460",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
