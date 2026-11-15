@@ -18,7 +18,7 @@ def outputs():
  options=''.join(f'<option value="{t["id"]}">{html.escape(t["title"])}</option>' for t in data['topics'])
  default='Dear Ohio state lawmaker,\n\n'+data['topics'][0]['asks']['OH']+'\n\nPlease tell me what your office can do and how people with disabilities can take part.\n\nThank you.'
  state_options=''.join(f'<option value="{code}"'+(' selected' if code=='OH' else '')+f'>{name}</option>' for code,name in STATES.items())
- page=(ROOT/'templates/disability-advocacy.html').read_text().replace('__STATES__',state_options).replace('__CARDS__','\n'.join(cards)).replace('__OPTIONS__',options).replace('__DEFAULT__',html.escape(default)).replace('__DATA__',json.dumps(data,ensure_ascii=False).replace('<','\\u003c'))
+ page=(ROOT/'templates/disability-advocacy.html').read_text().replace('__STATES__',state_options).replace('__CARDS__','\n'.join(cards)).replace('__OPTIONS__',options).replace('__DEFAULT__',html.escape(default)).replace('__DATA__',json.dumps(data,ensure_ascii=False,separators=(",",":")).replace('<','\\u003c'))
  return {'disability-advocacy.html':page}
 if __name__=='__main__':
  for path,text in outputs().items(): (ROOT/path).write_text(text)
