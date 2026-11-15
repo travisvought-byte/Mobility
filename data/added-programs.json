@@ -2911,6 +2911,125 @@
    "reviewed_on": "2026-11-15",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-renew-mobility",
+   "name": "Renew Mobility: donated mobility equipment and free repair pop-ups",
+   "org": "Renew Mobility",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Kent"
+   ],
+   "category": "equipment",
+   "description": "West Michigan nonprofit that takes donated, gently used mobility equipment and has held free repair days for walkers, manual wheelchairs, bath equipment, canes and cushions.",
+   "next_step": "Contact Renew Mobility about equipment availability and the next repair day.",
+   "constraints": [
+    "On-site power wheelchair repair was not offered at the pop-up event reported.",
+    "Check eligibility and availability."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.fox17online.com/morning-mix/renew-mobility-hosting-free-wellness-equipment-repair-pop-up-on-may-17",
+   "url": "https://www.fox17online.com/morning-mix/renew-mobility-hosting-free-wellness-equipment-repair-pop-up-on-may-17",
+   "reviewed_on": "2026-11-15",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-disability-connections-dme",
+   "name": "disAbility Connections: equipment repair shop and power chair storage",
+   "org": "disAbility Connections",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Jackson"
+   ],
+   "category": "equipment",
+   "description": "Independent living center in Jackson that runs a shop for durable medical equipment repair and stores power wheelchairs and scooters.",
+   "next_step": "Call the center to ask about equipment and repair services.",
+   "constraints": [
+    "Details taken from a volunteer listing; confirm services directly."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://michiganvolunteers.org/?p=61633",
+   "url": "https://michiganvolunteers.org/?p=61633",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ky-sos-wheelchair-clinics",
+   "name": "SOS International free wheelchair repair clinics (Louisville)",
+   "org": "SOS International",
+   "state": "KY",
+   "scope": "counties",
+   "counties": [
+    "Jefferson"
+   ],
+   "category": "equipment",
+   "description": "Nonprofit that has run volunteer wheelchair repair clinics in Louisville, including for residents of public housing and people who are unhoused.",
+   "next_step": "Check SOS International for the next clinic date.",
+   "constraints": [
+    "Clinics are periodic; reported in 2024 news coverage."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://lpm.org/news/2024-08-13/louisville-nonprofit-offers-free-repairs-to-wheelchair-users-in-need",
+   "url": "https://lpm.org/news/2024-08-13/louisville-nonprofit-offers-free-repairs-to-wheelchair-users-in-need",
+   "reviewed_on": "2026-11-15",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-stout-svri-wheelchair-clinics",
+   "name": "Stout Vocational Rehabilitation Institute free wheelchair clinics",
+   "org": "UW-Stout Stout Vocational Rehabilitation Institute",
+   "state": "WI",
+   "scope": "counties",
+   "counties": [
+    "Dunn"
+   ],
+   "category": "equipment",
+   "description": "University program that has offered free clinics to check, repair and clean wheelchairs.",
+   "next_step": "Check UW-Stout SVRI for clinic dates.",
+   "constraints": [
+    "Clinics held on set dates; confirm the schedule."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://uwstout.edu/node/930201",
+   "url": "https://uwstout.edu/node/930201",
+   "reviewed_on": "2026-11-15",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-wheelchair-foundation-us-request",
+   "name": "Wheelchair Foundation: manual wheelchairs for people in need in the U.S.",
+   "org": "Wheelchair Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "Provides standard manual wheelchairs to qualified people in the United States who show financial need. Applicants submit an application, a waiver and a brief medical recommendation.",
+   "next_step": "Email info@wheelchairfoundation.org for the application packet.",
+   "constraints": [
+    "Manual wheelchairs only; does not accept physical wheelchair donations."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.wheelchairfoundation.org/about",
+   "url": "https://www.wheelchairfoundation.org/about",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
