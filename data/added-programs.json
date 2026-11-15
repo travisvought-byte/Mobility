@@ -5028,6 +5028,3432 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-alta",
+   "name": "Alta California Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Alpine",
+    "Colusa",
+    "El Dorado",
+    "Nevada",
+    "Placer",
+    "Sacramento",
+    "Sierra",
+    "Sutter",
+    "Yolo",
+    "Yuba"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Sacramento. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "916-978-6400",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-central-valley",
+   "name": "Central Valley Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Fresno",
+    "Kings",
+    "Madera",
+    "Mariposa",
+    "Merced",
+    "Tulare"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Fresno. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "559-276-4300",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-eastern-la",
+   "name": "Eastern Los Angeles Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Alhambra. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves the Alhambra, East Los Angeles, Northeast and Whittier health districts of Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "626-299-4700",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-far-northern",
+   "name": "Far Northern Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Butte",
+    "Glenn",
+    "Lassen",
+    "Modoc",
+    "Plumas",
+    "Shasta",
+    "Siskiyou",
+    "Tehama",
+    "Trinity"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Redding. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "530-222-4791",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-lanterman",
+   "name": "Frank D. Lanterman Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Los Angeles. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves the Central, Glendale, Hollywood-Wilshire and Pasadena health districts of Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "213-383-1300",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-golden-gate",
+   "name": "Golden Gate Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Marin",
+    "San Francisco",
+    "San Mateo"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in San Francisco. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "415-546-9222",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-harbor",
+   "name": "Harbor Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Torrance. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves the Bellflower, Harbor, Long Beach and Torrance health districts of Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "310-543-0100",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-inland",
+   "name": "Inland Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Riverside",
+    "San Bernardino"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in San Bernardino. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "909-890-3000",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-kern",
+   "name": "Kern Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Inyo",
+    "Kern",
+    "Mono"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Bakersfield. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "661-327-8531",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-north-bay",
+   "name": "North Bay Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Napa",
+    "Solano",
+    "Sonoma"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Napa. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "707-256-1182",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-north-la",
+   "name": "North Los Angeles County Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Chatsworth. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves the East Valley, San Fernando and West Valley health districts of Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "818-778-1900",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-redwood-coast",
+   "name": "Redwood Coast Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Del Norte",
+    "Humboldt",
+    "Lake",
+    "Mendocino"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Ukiah. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "707-462-3832",
+   "phone_note": "Main office, from the state regional center list; extension 289 for Redwood Coast",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-east-bay",
+   "name": "Regional Center of the East Bay",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Alameda",
+    "Contra Costa"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in San Leandro. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "510-618-6100",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-orange",
+   "name": "Regional Center of Orange County",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Orange"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Santa Ana. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "714-796-5100",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-san-andreas",
+   "name": "San Andreas Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Monterey",
+    "San Benito",
+    "Santa Clara",
+    "Santa Cruz"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in San Jose. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "408-374-9960",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-san-diego",
+   "name": "San Diego Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Imperial",
+    "San Diego"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in San Diego. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "858-576-2996",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-san-gabriel-pomona",
+   "name": "San Gabriel/Pomona Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Pomona. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves El Monte, Monrovia, Pomona and Glendora in Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "909-620-7722",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-south-central-la",
+   "name": "South Central Los Angeles Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Los Angeles. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves the Compton, San Antonio, South, Southeast and Southwest health districts of Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "213-744-7000",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-tri-counties",
+   "name": "Tri-Counties Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Luis Obispo",
+    "Santa Barbara",
+    "Ventura"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Santa Barbara. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "805-962-7881",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-valley-mountain",
+   "name": "Valley Mountain Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Amador",
+    "Calaveras",
+    "San Joaquin",
+    "Stanislaus",
+    "Tuolumne"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in Stockton. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "209-473-0951",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rc-westside",
+   "name": "Westside Regional Center",
+   "org": "California regional center (nonprofit under contract with the Department of Developmental Services)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "dd_board",
+   "description": "Regional center in El Segundo. Coordinates services and supports for people with developmental disabilities, from eligibility assessment to an Individual Program Plan. It serves the Inglewood and Santa Monica-West health districts of Los Angeles County.",
+   "next_step": "Call and ask for an intake or eligibility assessment. Once eligible, ask your service coordinator about equipment, home accessibility and vehicle help.",
+   "constraints": [
+    "Eligibility is for qualifying developmental disabilities. Regional centers generally buy services only after other funding is explored."
+   ],
+   "phone": "310-258-4000",
+   "phone_note": "Main office, from the state regional center list",
+   "email": null,
+   "web": null,
+   "url": "https://www.dds.ca.gov/rc/listings/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-aacog",
+   "name": "Alamo Area Council of Governments (AACOG): local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bexar"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Bexar. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "210-832-5020",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-access",
+   "name": "Anderson-Cherokee Community Enrichment Services (ACCESS): local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Anderson",
+    "Cherokee"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Anderson/Cherokee. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "903-589-9000",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-andrews",
+   "name": "Andrews Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Henderson",
+    "Rains",
+    "Smith",
+    "Van Zandt",
+    "Wood"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 5 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-374-6058",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-betty-hardwick",
+   "name": "Betty Hardwick Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Callahan",
+    "Jones",
+    "Shackelford",
+    "Stephens",
+    "Taylor"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 5 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-758-3344",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-bluebonnet",
+   "name": "Bluebonnet Trails Community Services: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bastrop",
+    "Burnet",
+    "Caldwell",
+    "Fayette",
+    "Gonzales",
+    "Guadalupe",
+    "Lee",
+    "Williamson"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 8 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "512-255-1720",
+   "phone_note": "Main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-border-region",
+   "name": "Border Region Behavioral Health Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Jim Hogg",
+    "Starr",
+    "Webb",
+    "Zapata"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 4 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "956-794-3000",
+   "phone_note": "Main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-burke",
+   "name": "Burke Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Angelina",
+    "Houston",
+    "Nacogdoches",
+    "Newton",
+    "Polk",
+    "Sabine",
+    "San Augustine",
+    "San Jacinto",
+    "Shelby",
+    "Trinity",
+    "Tyler"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 11 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "866-242-4556",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-camino-real",
+   "name": "Camino Real Community Services: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Atascosa",
+    "Dimmit",
+    "Frio",
+    "Karnes",
+    "La Salle",
+    "Maverick",
+    "McMullen",
+    "Wilson",
+    "Zavala"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 9 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-491-5201",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-center-for-life",
+   "name": "Center for Life Resources: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Brown",
+    "Coleman",
+    "Comanche",
+    "Eastland",
+    "McCulloch",
+    "Mills",
+    "San Saba"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 7 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "325-646-9574",
+   "phone_note": "Main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-central-counties",
+   "name": "Central Counties Services: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bell",
+    "Coryell",
+    "Hamilton",
+    "Lampasas",
+    "Milam"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 5 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "254-770-2336",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-central-plains",
+   "name": "Central Plains Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bailey",
+    "Briscoe",
+    "Castro",
+    "Floyd",
+    "Hale",
+    "Lamb",
+    "Motley",
+    "Parmer",
+    "Swisher"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 9 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "806-291-4470",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-coastal-plains",
+   "name": "Coastal Plains Community Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Aransas",
+    "Bee",
+    "Brooks",
+    "Duval",
+    "Jim Wells",
+    "Kenedy",
+    "Kleberg",
+    "Live Oak",
+    "San Patricio"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 9 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "361-777-3991",
+   "phone_note": "Main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-community-healthcore",
+   "name": "Community Healthcore: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bowie",
+    "Cass",
+    "Gregg",
+    "Harrison",
+    "Marion",
+    "Panola",
+    "Red River",
+    "Rusk",
+    "Upshur"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 9 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-446-8253",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-denton",
+   "name": "Denton County MHMR Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Denton"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Denton. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-762-0157",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-emergence",
+   "name": "Emergence Health Network: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "El Paso"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for El Paso. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "915-599-6645",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-gulf-bend",
+   "name": "Gulf Bend Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Calhoun",
+    "DeWitt",
+    "Goliad",
+    "Jackson",
+    "Lavaca",
+    "Refugio",
+    "Victoria"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 7 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-421-8825",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-gulf-coast",
+   "name": "Gulf Coast Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Brazoria",
+    "Galveston"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Brazoria/Galveston. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-643-0967",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-heart-of-texas",
+   "name": "Heart of Texas Behavioral Health Network: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bosque",
+    "Falls",
+    "Freestone",
+    "Hill",
+    "Limestone",
+    "McLennan"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 6 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "254-752-3451",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-helen-farabee",
+   "name": "Helen Farabee Centers: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Archer",
+    "Baylor",
+    "Childress",
+    "Clay",
+    "Cottle",
+    "Dickens",
+    "Foard",
+    "Hardeman",
+    "Haskell",
+    "Jack",
+    "King",
+    "Knox",
+    "Montague",
+    "Stonewall",
+    "Throckmorton",
+    "Wichita",
+    "Wilbarger",
+    "Wise",
+    "Young"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 19 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-669-4166",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-hill-country",
+   "name": "Hill Country Mental Health and Developmental Disabilities Centers: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Bandera",
+    "Blanco",
+    "Comal",
+    "Edwards",
+    "Gillespie",
+    "Hays",
+    "Kendall",
+    "Kerr",
+    "Kimble",
+    "Kinney",
+    "Llano",
+    "Mason",
+    "Medina",
+    "Menard",
+    "Real",
+    "Schleicher",
+    "Sutton",
+    "Uvalde",
+    "Val Verde"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 19 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "830-387-5970",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-integral-care",
+   "name": "Integral Care: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Travis"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Travis. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "512-472-4357",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-lakes-regional",
+   "name": "Lakes Regional MHMR Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Camp",
+    "Delta",
+    "Ellis",
+    "Franklin",
+    "Hopkins",
+    "Hunt",
+    "Kaufman",
+    "Lamar",
+    "Morris",
+    "Navarro",
+    "Rockwall",
+    "Titus"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 12 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "903-243-9088",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-lifepath",
+   "name": "LifePath Systems: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Collin"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Collin. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "972-422-5939",
+   "phone_note": "Intake and main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-metrocare",
+   "name": "Metrocare Services: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Dallas"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Dallas. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "214-333-7000",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-brazos-valley",
+   "name": "MHMR Authority of Brazos Valley: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Brazos",
+    "Burleson",
+    "Grimes",
+    "Leon",
+    "Madison",
+    "Robertson",
+    "Washington"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 7 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "979-822-6467",
+   "phone_note": "Intake and main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-concho-valley",
+   "name": "MHMR Concho Valley: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Coke",
+    "Concho",
+    "Crockett",
+    "Irion",
+    "Reagan",
+    "Sterling",
+    "Tom Green"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 7 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "325-658-7750",
+   "phone_note": "Intake and main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-tarrant",
+   "name": "My Health My Resources (MHMR) of Tarrant County: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Tarrant"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Tarrant. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "817-335-3022",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-nueces",
+   "name": "Nueces Center for Mental Health and Intellectual Disabilities: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Nueces"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Nueces. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "361-851-6900",
+   "phone_note": "Main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-pecan-valley",
+   "name": "Pecan Valley Centers for Behavioral & Developmental HealthCare: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Erath",
+    "Hood",
+    "Johnson",
+    "Palo Pinto",
+    "Parker",
+    "Somervell"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 6 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "866-948-7198",
+   "phone_note": "IDD intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-permiacare",
+   "name": "PermiaCare: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Brewster",
+    "Culberson",
+    "Ector",
+    "Hudspeth",
+    "Jeff Davis",
+    "Midland",
+    "Pecos",
+    "Presidio"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 8 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "844-420-3964",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-spindletop",
+   "name": "Spindletop Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Chambers",
+    "Hardin",
+    "Jasper",
+    "Jefferson",
+    "Orange"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 5 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-317-5809",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-starcare",
+   "name": "StarCare Specialty Health System: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Cochran",
+    "Crosby",
+    "Hockley",
+    "Lubbock",
+    "Lynn"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 5 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-687-7581",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-texana",
+   "name": "Texana Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Austin",
+    "Colorado",
+    "Fort Bend",
+    "Matagorda",
+    "Waller",
+    "Wharton"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 6 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "281-239-1363",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-texas-panhandle",
+   "name": "Texas Panhandle Centers: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Armstrong",
+    "Carson",
+    "Collingsworth",
+    "Dallam",
+    "Deaf Smith",
+    "Donley",
+    "Gray",
+    "Hall",
+    "Hansford",
+    "Hartley",
+    "Hemphill",
+    "Hutchinson",
+    "Lipscomb",
+    "Moore",
+    "Ochiltree",
+    "Oldham",
+    "Potter",
+    "Randall",
+    "Roberts",
+    "Sherman",
+    "Wheeler"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 21 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-692-4039",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-texoma",
+   "name": "Texoma Community Center: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Cooke",
+    "Fannin",
+    "Grayson"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Cooke/Fannin/Grayson. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "903-957-4860",
+   "phone_note": "IDD services line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-harris-center",
+   "name": "The Harris Center for Mental Health and IDD: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Harris"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Harris. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "713-970-7000",
+   "phone_note": "Intake and main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-tri-county",
+   "name": "Tri-County Behavioral Healthcare: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Liberty",
+    "Montgomery",
+    "Walker"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Liberty/Montgomery/Walker. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "936-521-6228",
+   "phone_note": "Intake line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-tropical-texas",
+   "name": "Tropical Texas Behavioral Health: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Cameron",
+    "Hidalgo",
+    "Willacy"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for Cameron/Hidalgo/Willacy. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "800-813-1233",
+   "phone_note": "Main line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-west-texas-centers",
+   "name": "West Texas Centers: local IDD authority",
+   "org": "Local intellectual and developmental disability authority (LIDDA), Texas HHSC",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Andrews",
+    "Borden",
+    "Crane",
+    "Dawson",
+    "Fisher",
+    "Gaines",
+    "Garza",
+    "Glasscock",
+    "Howard",
+    "Kent",
+    "Loving",
+    "Martin",
+    "Mitchell",
+    "Nolan",
+    "Reeves",
+    "Runnels",
+    "Scurry",
+    "Terrell",
+    "Terry",
+    "Upton",
+    "Ward",
+    "Winkler",
+    "Yoakum"
+   ],
+   "category": "dd_board",
+   "description": "Local IDD authority for 23 counties. It is the single point of entry for publicly funded intellectual and developmental disability services in its area, including service coordination and the HCS and Texas Home Living waiver interest lists.",
+   "next_step": "Call the intake line, say you want to be screened for IDD services, and ask to be added to the HCS and Texas Home Living interest lists if you are not already on them.",
+   "constraints": [
+    "Waiver slots are limited and people can wait on interest lists for years. Ask where you stand and about services available while you wait."
+   ],
+   "phone": "888-831-6618",
+   "phone_note": "IDD services line, from the HHSC directory",
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-lidda-directory",
+   "name": "Find your Texas local IDD authority (all 39)",
+   "org": "Texas Health and Human Services Commission",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "Texas has 39 local IDD authorities, each covering a set of counties. This HHSC directory finds yours by county or ZIP code.",
+   "next_step": "Enter your county or ZIP code, then call the intake number for your authority.",
+   "constraints": [],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://resources.hhs.texas.gov/directories/lidda",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-adams-york",
+   "name": "York/Adams Mental Health/Intellectual and Developmental Disabilities Departments",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Adams",
+    "York"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-771-9618",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-allegheny",
+   "name": "Allegheny County Department of Human Services Office of Developmental Supports",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "412-253-1399",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-armstrong-indiana",
+   "name": "Armstrong-Indiana Behavioral and Developmental Health Program",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Armstrong",
+    "Indiana"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-548-3451",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-beaver",
+   "name": "Beaver County Behavioral Health-Developmental Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Beaver"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-847-6225",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-bedford-somerset",
+   "name": "Bedford-Somerset Developmental and Behavioral Health Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Bedford",
+    "Somerset"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-443-4891",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-berks",
+   "name": "Berks County Mental Health/Developmental Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Berks"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "610-478-3271",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-blair",
+   "name": "Blair County Department of Social Services & Mental Health",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Blair"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-693-3023",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-bradford-sullivan",
+   "name": "Bradford-Sullivan Office of Mental Health & Intellectual Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Bradford",
+    "Sullivan"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-265-1760",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-bucks",
+   "name": "Bucks County Department of Behavioral Health/Developmental Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Bucks"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "215-444-2800",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-butler",
+   "name": "Butler County Human Services Department, Intellectual Disabilities/Early Intervention Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Butler"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-284-5114",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-cambria",
+   "name": "Cambria County Behavioral Health/Intellectual Disabilities/Early Intervention",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Cambria"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-534-2800",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-cameron-elk",
+   "name": "Cameron-Elk Behavioral & Developmental Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Cameron",
+    "Elk"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-772-8016",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-carbon-monroe-pike",
+   "name": "Carbon-Monroe-Pike Mental Health & Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Carbon",
+    "Monroe",
+    "Pike"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-421-2901",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-centre",
+   "name": "Centre County Mental Health/Intellectual Disabilities/Early Intervention/Drug & Alcohol",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Centre"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-355-6782",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-chester",
+   "name": "Chester County Mental Health/Intellectual and Developmental Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Chester"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "610-344-6265",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-clarion",
+   "name": "Clarion County Mental Health/Developmental Disabilities/Early Intervention",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Clarion"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-226-4000",
+   "phone_note": "Main office phone (ext. 1338), from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-clearfield-jefferson",
+   "name": "Community Connections of Clearfield-Jefferson Counties",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Clearfield",
+    "Jefferson"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-371-5100",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-clinton-lycoming",
+   "name": "Lycoming-Clinton Mental Health and Developmental Disabilities/Autism Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Clinton",
+    "Lycoming"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-326-7895",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-columbia-montour-snyder-union",
+   "name": "Columbia-Montour-Snyder-Union (CMSU) Service System Behavioral Health/Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Columbia",
+    "Montour",
+    "Snyder",
+    "Union"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-275-6080",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-crawford",
+   "name": "Crawford County Human Services Mental Health/Intellectual Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Crawford"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-724-8380",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-cumberland-perry",
+   "name": "Cumberland-Perry Mental Health/Intellectual & Developmental Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Cumberland",
+    "Perry"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-240-6325",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-dauphin",
+   "name": "Dauphin County Mental Health/Autism & Developmental Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Dauphin"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-780-7050",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-delaware",
+   "name": "Delaware County Office of Intellectual and Developmental Disabilities/SCO Unit",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Delaware"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "610-713-2400",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-erie",
+   "name": "Erie County Office of Mental Health/Intellectual Disabilities",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Erie"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-451-6800",
+   "phone_note": "Main office phone (also 814-451-6860), from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-fayette",
+   "name": "Fayette County Behavioral Health Administration",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Fayette"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-430-1370",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-forest-warren",
+   "name": "Forest-Warren Human Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Forest",
+    "Warren"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-726-2100",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-franklin-fulton",
+   "name": "Franklin-Fulton Mental Health/Intellectual and Developmental Disabilities/Early Intervention Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Franklin",
+    "Fulton"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-264-5387",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-greene",
+   "name": "Greene County Human Services Department, Mental Health and Intellectual/Developmental Disabilities Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Greene"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-852-5276",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-huntingdon-juniata-mifflin",
+   "name": "Juniata Valley Behavioral and Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Huntingdon",
+    "Juniata",
+    "Mifflin"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-242-6467",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-lackawanna-susquehanna",
+   "name": "Lackawanna/Susquehanna Behavioral Health/Intellectual Disabilities/Early Intervention",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lackawanna",
+    "Susquehanna"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-346-5741",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-lancaster",
+   "name": "Lancaster County Behavioral Health and Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lancaster"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-299-8021",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-lawrence",
+   "name": "Lawrence County Mental Health and Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lawrence"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-658-2538",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-lebanon",
+   "name": "Lebanon County Mental Health/Intellectual Disability/Early Intervention Programs",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lebanon"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "717-274-3415",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-lehigh",
+   "name": "Lehigh County Office of Intellectual Disabilities and Mental Health",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lehigh"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": null,
+   "phone_note": "The state directory shows a mistyped intellectual disabilities number for Lehigh, so call the county main line or look it up on lehighcounty.org",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-luzerne-wyoming",
+   "name": "Luzerne-Wyoming Mental Health and Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Luzerne",
+    "Wyoming"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-825-9441",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-mckean",
+   "name": "McKean County Department of Human Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "McKean"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-887-3350",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-mercer",
+   "name": "Mercer County Behavioral Health Commission Inc.",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Mercer"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-662-1550",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-montgomery",
+   "name": "Montgomery County Behavioral Health/Developmental Disabilities Department",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Montgomery"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "610-278-3642",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-northampton",
+   "name": "Northampton County Human Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Northampton"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "610-974-7500",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-northumberland",
+   "name": "Northumberland County Behavioral Health/Intellectual Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Northumberland"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-495-2039",
+   "phone_note": "Intellectual Developmental Services line (behavioral health is 570-275-6080), from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-philadelphia",
+   "name": "City of Philadelphia Department of Behavioral Health and Intellectual disAbility Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Philadelphia"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "215-685-5400",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-potter",
+   "name": "Potter County Human Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Potter"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-544-7315",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-schuylkill",
+   "name": "Schuylkill County Mental Health/Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Schuylkill"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-621-2890",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-tioga",
+   "name": "Tioga County Department of Human Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Tioga"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-724-5766",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-venango",
+   "name": "Venango County Mental Health/Developmental Services/Early Intervention Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Venango"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "814-432-9100",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-washington",
+   "name": "Washington County Behavioral Health and Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Washington"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-228-6832",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-wayne",
+   "name": "Wayne County Behavioral Health/Developmental Services/Early Intervention",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Wayne"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "570-253-9200",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-mhid-westmoreland",
+   "name": "Westmoreland County Behavioral Health & Developmental Services",
+   "org": "Pennsylvania county mental health/intellectual disabilities program (administrative entity for the Office of Developmental Programs)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Westmoreland"
+   ],
+   "category": "dd_board",
+   "description": "County office that registers people for intellectual disability and autism services, determines eligibility and offers a choice of supports coordination organizations. Waiver services can include assistive technology and vehicle accessibility adaptations.",
+   "next_step": "Call and ask to register for intellectual disability or autism services, then ask your supports coordinator about equipment and accessibility adaptations the waiver can pay for.",
+   "constraints": [
+    "Services depend on eligibility and on waiver capacity in your county."
+   ],
+   "phone": "724-830-3617",
+   "phone_note": "Main office phone, from the state county MH/ID directory",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/agencies/dhs/contact/county-mh-id-offices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-odp-statewide",
+   "name": "Pennsylvania Office of Developmental Programs (ODP)",
+   "org": "Pennsylvania Department of Human Services",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State office that oversees intellectual disability and autism services and the three waivers. It can point you to your county office, and to one of four regional offices if a county problem is not resolved.",
+   "next_step": "Call the customer service line to find your county office or to raise a problem the county has not fixed.",
+   "constraints": [],
+   "phone": "888-565-9435",
+   "phone_note": "Customer service line; regional offices: Northeast 570-963-4749, Southeast 215-560-2242, Central 717-772-6507, Western 412-565-5144",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa.gov/services/dhs/apply-for-intellectual-disabilities-services.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-finger-lakes",
+   "name": "OPWDD regional office: Finger Lakes (Rochester area)",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 1",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Chemung",
+    "Livingston",
+    "Monroe",
+    "Ontario",
+    "Schuyler",
+    "Seneca",
+    "Steuben",
+    "Wayne",
+    "Wyoming",
+    "Yates"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Finger Lakes (Rochester area). Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-western-ny",
+   "name": "OPWDD regional office: Western New York (Buffalo area)",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 1",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Allegany",
+    "Cattaraugus",
+    "Chautauqua",
+    "Erie",
+    "Genesee",
+    "Niagara",
+    "Orleans"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Western New York (Buffalo area). Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-southern-tier",
+   "name": "OPWDD regional office: Southern Tier / Broome (Binghamton area)",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 2",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Broome",
+    "Chenango",
+    "Delaware",
+    "Otsego",
+    "Tioga",
+    "Tompkins"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Southern Tier / Broome (Binghamton area). Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-central-ny",
+   "name": "OPWDD regional office: Central New York (Syracuse area)",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 2",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Cayuga",
+    "Cortland",
+    "Herkimer",
+    "Lewis",
+    "Madison",
+    "Oneida",
+    "Onondaga",
+    "Oswego"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Central New York (Syracuse area). Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-north-country",
+   "name": "OPWDD regional office: Sunmount / North Country",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 2",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Clinton",
+    "Essex",
+    "Franklin",
+    "Hamilton",
+    "Jefferson",
+    "St. Lawrence"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Sunmount / North Country. Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-capital-district",
+   "name": "OPWDD regional office: Capital District",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 3",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Albany",
+    "Fulton",
+    "Montgomery",
+    "Rensselaer",
+    "Saratoga",
+    "Schenectady",
+    "Schoharie",
+    "Warren",
+    "Washington"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Capital District. Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-hudson-valley",
+   "name": "OPWDD regional office: Hudson Valley",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 3",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Orange",
+    "Rockland",
+    "Sullivan",
+    "Westchester"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Hudson Valley. Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-taconic",
+   "name": "OPWDD regional office: Taconic (Mid-Hudson)",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 3",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Columbia",
+    "Dutchess",
+    "Greene",
+    "Putnam",
+    "Ulster"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Taconic (Mid-Hudson). Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-nyc",
+   "name": "OPWDD regional office: New York City",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 4",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Bronx",
+    "Kings",
+    "New York",
+    "Queens",
+    "Richmond"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for New York City. Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-opwdd-ddro-long-island",
+   "name": "OPWDD regional office: Long Island",
+   "org": "New York State Office for People With Developmental Disabilities (OPWDD), Region 5",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Nassau",
+    "Suffolk"
+   ],
+   "category": "dd_board",
+   "description": "OPWDD developmental disabilities regional office for Long Island. Runs the Front Door process that determines eligibility and connects people to services, and oversees not-for-profit providers.",
+   "next_step": "Call the OPWDD information line or your regional office, start the Front Door process, and ask about equipment, home and vehicle modification funding through OPWDD waiver services.",
+   "constraints": [
+    "Services depend on OPWDD eligibility and on the type of waiver or program you are enrolled in."
+   ],
+   "phone": "866-946-9733",
+   "phone_note": "OPWDD statewide information line; the regional office contact is on the OPWDD contact page",
+   "email": null,
+   "web": null,
+   "url": "https://opwdd.ny.gov/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-northwest",
+   "name": "Florida APD Northwest Region",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Bay",
+    "Calhoun",
+    "Escambia",
+    "Franklin",
+    "Gadsden",
+    "Gulf",
+    "Holmes",
+    "Jackson",
+    "Jefferson",
+    "Leon",
+    "Liberty",
+    "Okaloosa",
+    "Santa Rosa",
+    "Wakulla",
+    "Walton",
+    "Washington"
+   ],
+   "category": "dd_board",
+   "description": "APD regional office serving 16 counties. APD serves people with developmental disabilities and runs the iBudget Florida Medicaid waiver, which can pay for supports and services.",
+   "next_step": "Call your regional office, ask to apply for APD services, and ask to be placed on the waitlist if enrollment is not open.",
+   "constraints": [
+    "APD covers specific developmental disabilities, and waiver enrollment is limited, so there can be a long wait."
+   ],
+   "phone": "850-487-1992",
+   "phone_note": "Tallahassee office; Panama City 850-872-7652, Pensacola 850-595-8351",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/region/northwest/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-northeast",
+   "name": "Florida APD Northeast Region",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Alachua",
+    "Baker",
+    "Bradford",
+    "Clay",
+    "Columbia",
+    "Dixie",
+    "Duval",
+    "Flagler",
+    "Gilchrist",
+    "Hamilton",
+    "Lafayette",
+    "Levy",
+    "Madison",
+    "Nassau",
+    "Putnam",
+    "St. Johns",
+    "Suwannee",
+    "Taylor",
+    "Union",
+    "Volusia"
+   ],
+   "category": "dd_board",
+   "description": "APD regional office serving 20 counties. APD serves people with developmental disabilities and runs the iBudget Florida Medicaid waiver, which can pay for supports and services.",
+   "next_step": "Call your regional office, ask to apply for APD services, and ask to be placed on the waitlist if enrollment is not open.",
+   "constraints": [
+    "APD covers specific developmental disabilities, and waiver enrollment is limited, so there can be a long wait."
+   ],
+   "phone": "386-238-4607",
+   "phone_note": "Jacksonville and Gainesville offices",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/region/northeast/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-central",
+   "name": "Florida APD Central Region",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Brevard",
+    "Citrus",
+    "Hardee",
+    "Hernando",
+    "Highlands",
+    "Lake",
+    "Marion",
+    "Orange",
+    "Osceola",
+    "Polk",
+    "Seminole",
+    "Sumter"
+   ],
+   "category": "dd_board",
+   "description": "APD regional office serving 12 counties. APD serves people with developmental disabilities and runs the iBudget Florida Medicaid waiver, which can pay for supports and services.",
+   "next_step": "Call your regional office, ask to apply for APD services, and ask to be placed on the waitlist if enrollment is not open.",
+   "constraints": [
+    "APD covers specific developmental disabilities, and waiver enrollment is limited, so there can be a long wait."
+   ],
+   "phone": "407-245-0440",
+   "phone_note": "Orlando office",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/region/central/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-suncoast",
+   "name": "Florida APD Suncoast Region",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Charlotte",
+    "Collier",
+    "DeSoto",
+    "Glades",
+    "Hendry",
+    "Hillsborough",
+    "Lee",
+    "Manatee",
+    "Pasco",
+    "Pinellas",
+    "Sarasota"
+   ],
+   "category": "dd_board",
+   "description": "APD regional office serving 11 counties. APD serves people with developmental disabilities and runs the iBudget Florida Medicaid waiver, which can pay for supports and services.",
+   "next_step": "Call your regional office, ask to apply for APD services, and ask to be placed on the waitlist if enrollment is not open.",
+   "constraints": [
+    "APD covers specific developmental disabilities, and waiver enrollment is limited, so there can be a long wait."
+   ],
+   "phone": "800-615-8720",
+   "phone_note": "Tampa office",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/region/suncoast/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-southeast",
+   "name": "Florida APD Southeast Region",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Broward",
+    "Indian River",
+    "Martin",
+    "Okeechobee",
+    "Palm Beach",
+    "St. Lucie"
+   ],
+   "category": "dd_board",
+   "description": "APD regional office serving 6 counties. APD serves people with developmental disabilities and runs the iBudget Florida Medicaid waiver, which can pay for supports and services.",
+   "next_step": "Call your regional office, ask to apply for APD services, and ask to be placed on the waitlist if enrollment is not open.",
+   "constraints": [
+    "APD covers specific developmental disabilities, and waiver enrollment is limited, so there can be a long wait."
+   ],
+   "phone": "561-837-5564",
+   "phone_note": "West Palm Beach office",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/region/southeast/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-southern",
+   "name": "Florida APD Southern Region",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Miami-Dade",
+    "Monroe"
+   ],
+   "category": "dd_board",
+   "description": "APD regional office serving 2 counties. APD serves people with developmental disabilities and runs the iBudget Florida Medicaid waiver, which can pay for supports and services.",
+   "next_step": "Call your regional office, ask to apply for APD services, and ask to be placed on the waitlist if enrollment is not open.",
+   "constraints": [
+    "APD covers specific developmental disabilities, and waiver enrollment is limited, so there can be a long wait."
+   ],
+   "phone": "305-349-1478",
+   "phone_note": "Miami office",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/region/southern/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-apd-statewide",
+   "name": "Florida Agency for Persons with Disabilities (APD) statewide line",
+   "org": "Florida Agency for Persons with Disabilities (APD)",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "Statewide line for APD, the state agency for people with developmental disabilities. It can route you to the right one of six regional offices.",
+   "next_step": "Call and ask which regional office covers your county and how to apply.",
+   "constraints": [],
+   "phone": "866-273-2273",
+   "phone_note": "1-866-APD-CARES",
+   "email": null,
+   "web": null,
+   "url": "https://apd.myflorida.com/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }

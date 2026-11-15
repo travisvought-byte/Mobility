@@ -13,7 +13,7 @@ STATE_BY_NAME={}
 sys.path.insert(0,str(ROOT/'scripts'))
 from build_mobility_routes import STATES
 for c,n in STATES.items(): STATE_BY_NAME[n.lower()]=c
-CATS={'ramps_home':'Ramps & home modification','equipment':'Equipment, repair & assistive technology','independent_living':'Independent living centers','navigation':'Aging & disability navigation','funding':'Coverage & funding','rights_legal':'Rights, advocacy & legal help','veterans':'Veterans benefits help (VA housing grants)','dd_board':'Developmental disabilities county boards','peer_support':'Peer support groups'}
+CATS={'ramps_home':'Ramps & home modification','equipment':'Equipment, repair & assistive technology','independent_living':'Independent living centers','navigation':'Aging & disability navigation','funding':'Coverage & funding','rights_legal':'Rights, advocacy & legal help','veterans':'Veterans benefits help (VA housing grants)','dd_board':'Developmental disability agencies','peer_support':'Peer support groups'}
 def classify(r):
     t=(r['name']+' '+(r.get('description') or '')+' '+r['program_id']).lower(); n=r['name'].lower(); pid=r['program_id'].lower()
     if re.search(r'-cil-|independent living (center|resource|services|options|resources)|center for independent|center for independence',n+' '+pid): return 'independent_living'
