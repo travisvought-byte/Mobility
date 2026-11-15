@@ -1846,6 +1846,214 @@
    "reviewed_on": "2026-11-14",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-stic-loan-closet",
+   "name": "Equipment loan closet and assistive technology (TRAID)",
+   "org": "Southern Tier Independence Center",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Broome",
+    "Chenango",
+    "Otsego",
+    "Delaware",
+    "Tioga"
+   ],
+   "category": "equipment",
+   "description": "Short-term loans of durable medical equipment and assistive technology, including wheelchairs, walkers, tub seats and commodes. Some items may be available at no cost when supplies allow. No prescription, referral, payment or documentation is required to borrow.",
+   "next_step": "Call 607-724-2111 and ask for the loan closet (TRAID) coordinator to make an appointment.",
+   "constraints": [
+    "Loans are short term. Appointments are required.",
+    "The main office is in Binghamton; satellite offices serve Chenango and Delaware counties."
+   ],
+   "phone": "607-724-2111",
+   "phone_note": null,
+   "email": null,
+   "web": "https://stic-cil.org",
+   "url": "https://stic-cil.org/traid",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-stic-ny-connects",
+   "name": "NY Connects: free help finding long-term care and disability services",
+   "org": "Southern Tier Independence Center",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Broome",
+    "Chenango",
+    "Tioga"
+   ],
+   "category": "navigation",
+   "description": "A free information and assistance service for people of all ages, disabilities and income levels, and for families, caregivers and professionals. STIC delivers NY Connects with the Broome County Office for Aging, the Chenango County Area Agency on Aging and Tioga Opportunities.",
+   "next_step": "Call the Tioga and Chenango contact at (607) 222-1931 or email nyconnects@stic-cil.org.",
+   "constraints": [
+    "Information is offered by phone, or in person if needed."
+   ],
+   "phone": "607-222-1931",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://stic-cil.org/?p=3162",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-chenango-aaoa",
+   "name": "Chenango County Area Agency on Aging and NY Connects",
+   "org": "Chenango County Area Agency on Aging",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Chenango"
+   ],
+   "category": "navigation",
+   "description": "The county office for older adults and NY Connects, a free service that links people of any age to long-term services and supports. It is in the Chenango County Office Building in Norwich.",
+   "next_step": "Call (607) 337-1770, or visit 5 Court Street, Norwich.",
+   "constraints": [
+    "Confirm hours before visiting."
+   ],
+   "phone": "607-337-1770",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://nysnavigator.org/family-resources/resource-map/chenango-county-area-agency-on-aging",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-delaware-ofa",
+   "name": "Delaware County Office for the Aging loan closet and NY Connects",
+   "org": "Delaware County Office for the Aging",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Delaware"
+   ],
+   "category": "equipment",
+   "description": "The office runs a loan closet with wheelchairs, walkers, commodes, crutches and similar equipment for elderly Delaware County clients, and hosts NY Connects for help finding services.",
+   "next_step": "Call the office at 607-832-5750 to ask about equipment.",
+   "constraints": [
+    "Loan closet service is described for elderly clients."
+   ],
+   "phone": "607-832-5750",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://delcony.gov/departments/ofa/OtherServices.htm",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-otsego-nyconnects",
+   "name": "Otsego County Office for the Aging and NY Connects",
+   "org": "Otsego County Office for the Aging",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Otsego"
+   ],
+   "category": "navigation",
+   "description": "The county office for older adults and NY Connects. Its published resource directory includes a section listing loan closets for medical equipment and supplies in the county, with offices in Cooperstown and Oneonta.",
+   "next_step": "Call 607-547-4232 or email nyconnects@otsegocounty.com and ask about loan closets.",
+   "constraints": [
+    "The Oneonta office is by appointment only."
+   ],
+   "phone": "607-547-4232",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://cms2.revize.com/revize/otsegocountynynew/Document%20Center/N-R/Office%20of%20Aging/FINAL%20Otsego%20County%20NY%20Connects%20Resource%20Directory%2011_2024%20(2).pdf",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-broome-ramp-it-up",
+   "name": "Ramp It Up wheelchair ramp program",
+   "org": "Broome County Council of Churches (Faith in Action Volunteers)",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Broome"
+   ],
+   "category": "ramps_home",
+   "description": "Builds wheelchair ramps for homebound Broome County residents with volunteer youth groups and community organizations under skilled mentors. The program is income-based on a sliding scale. Applications are accepted year round, and ramps are built in summer.",
+   "next_step": "Call 607-724-9130 ext. 323 to request an application.",
+   "constraints": [
+    "Ramps are built in summer only, so there may be a wait."
+   ],
+   "phone": "607-724-9130",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.broomecountyny.gov/sites/default/files/dept/senior/OFA%20Masters/GUIDE%20to%20Weatherization%20%20Home%20Repair%20March%202024.pdf",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-211cny-equipment-loan",
+   "name": "Medical equipment loan (211 CNY listing)",
+   "org": "Listed on 211 CNY (msrofcny.org)",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Broome",
+    "Cayuga",
+    "Chenango",
+    "Cortland",
+    "Jefferson",
+    "Lewis",
+    "Madison",
+    "Oneida",
+    "Onondaga",
+    "Oswego",
+    "St. Lawrence"
+   ],
+   "category": "equipment",
+   "description": "Provides durable medical equipment on a short-term loan. Staff will help explore financial assistance if insurance does not cover the cost and the item is not in the loan closet.",
+   "next_step": "Call 315-438-4790 to ask what equipment is available.",
+   "constraints": [
+    "Directory listing; confirm eligibility and what is in stock."
+   ],
+   "phone": "315-438-4790",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.msrofcny.org",
+   "url": "https://www.211cny.com/?p=5147",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-mif-open-source",
+   "name": "Open-source mobility equipment and right-to-repair advocacy",
+   "org": "Mobility Independence Foundation (Mount Upton, NY)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "A nonprofit that designs and shares open-source mobility equipment, such as the Endurance power chair and the RozRover for children, built to be repaired, modified and improved by the people who use it. MIF also speaks up for users' right to repair. It is based in Mount Upton, New York.",
+   "next_step": "Visit MIF to read about its designs, ask a question or donate.",
+   "constraints": [
+    "MIF is a nonprofit; designs are for builders and providers, and it does not replace your insurance or clinician.",
+    "Mobility Talk's creator serves as MIF's Finance Officer."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://themif.org",
+   "url": "https://themif.org/about/our-mission/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
