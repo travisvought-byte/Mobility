@@ -36,3 +36,7 @@ Data CC BY 4.0, code MIT. See `LICENSE`.
 ## Partner page
 
 `partner.html` lets visitors share the directory, print a handout, sponsor it at three flat yearly levels, give, or tell us how they help. There are no commissions: nobody is paid a percentage of gifts or sponsorships, and people who introduce a sponsor are thanked by name instead. Inquiries go by email; `assets/partner.js` only builds copyable links in the page and stores nothing. The give button is a PayPal donate link to Veteran Home Guardians, built in `assets/partner.js` so the account address is not written in the page source; replace it with a PayPal hosted button ID if one is created. Gifts and sponsorships are described as received by Veteran Home Guardians. `handout.html?state=XX` (script `assets/handout.js`) builds a printable help list for any state from the statewide records that have a phone number, plus national hotlines.
+
+## State pages
+
+`scripts/build_state_pages.py` writes `states/<state>.html` for all 50 states and D.C., plus `states/index.html`. Each page lists every non-veterans program for that state as plain HTML (statewide programs as cards, county programs as a compact list), so search engines and people without JavaScript can read them. The pages are generated from `data/local-programs.json`; do not edit them by hand. `npm run build` regenerates them and adds them to `sitemap.xml`. `tests/states.cjs` checks every record is present, no other state's records leak in, and links and metadata are valid.
