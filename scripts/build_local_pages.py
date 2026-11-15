@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 FOOT='<footer><p>Created and maintained by Travis Vought. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a></p><p>Program details come from the programs’ own published pages, each with the date it was checked. This is general information, not legal or medical advice, and it does not decide eligibility. Nothing you choose here is saved or sent.</p></footer>'
-HEAD='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n<title>{t} | Mobility Resources &amp; Advocacy</title><meta name="description" content="{d}"><link rel="stylesheet" href="assets/site.css"></head>\n<body><a class="skip" href="#main">Skip to main content</a>\n'
+HEAD='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n<title>{t} | Mobility Talk</title><meta name="description" content="{d}"><link rel="stylesheet" href="assets/site.css"></head>\n<body><a class="skip" href="#main">Skip to main content</a>\n'
 def local_help():
     opts=''.join(f'<option value="{c}">{E(n)}</option>' for c,n in sorted(STATES.items(),key=lambda x:x[1]))
     names=json.dumps(STATES).replace('<','\\u003c')

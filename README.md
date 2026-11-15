@@ -1,4 +1,6 @@
-# Mobility Resources & Advocacy
+# Mobility Talk
+
+mobilitytalk.org: a mobility resources and advocacy directory and guide.
 
 A free, national (all 50 states and D.C.), source-linked site for people facing mobility barriers: wheelchair and equipment repair, coverage denials, home access, vehicles, transit and public access. It also helps people ask lawmakers for change.
 
