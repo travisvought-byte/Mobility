@@ -1263,6 +1263,288 @@
    "reviewed_on": "2026-11-14",
    "record_status": "news_reported",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-gotdme",
+   "name": "GotDME national directory of equipment lending programs",
+   "org": "Wheel It Forward (Stamford, CT)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "A national directory of organizations that lend or accept donated durable medical equipment such as wheelchairs, walkers, hospital beds, rollators, knee scooters and shower safety equipment. It was built because many local loan closets have no website of their own.",
+   "next_step": "Search GotDME for lending programs near you, then call to confirm availability.",
+   "constraints": [
+    "Listings are gathered from the programs themselves; Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://gotdme.org",
+   "url": "https://homecaremag.com/news/wheel-it-forward-launches-gotdme-national-directory",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-goodwill-cincinnati-loaner",
+   "name": "Goodwill Medical Equipment Loaner Program",
+   "org": "Ohio Valley Goodwill Industries",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Hamilton"
+   ],
+   "category": "equipment",
+   "description": "Lets people borrow a wheelchair or knee scooter at no cost. Goodwill also accepts clean, usable wheelchairs and knee scooters as donations.",
+   "next_step": "Contact Ohio Valley Goodwill about borrowing a wheelchair or knee scooter.",
+   "constraints": [
+    "Serves Greater Cincinnati, so nearby counties may be covered. Confirm your area and current availability."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.cincinnatigoodwill.org/?p=27698",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-ecrn-reuse",
+   "name": "Device refurbishing and reutilization program",
+   "org": "YMCA of Central Ohio / ECRN+ with Assistive Technology of Ohio",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Franklin"
+   ],
+   "category": "equipment",
+   "description": "ECRN+ accepts donated adaptive equipment, assistive technology and durable medical equipment, and lends equipment in the Columbus area. Loans through the program run up to 90 days.",
+   "next_step": "Call Assistive Technology of Ohio at 1-800-784-3425 or email atohio@osu.edu to ask about borrowing.",
+   "constraints": [
+    "Service area is the Columbus and central Ohio area.",
+    "Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": "800-784-3425",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://seniorsmobility.org/?p=18078",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reep",
+   "name": "Reused and Exchanged Equipment Partnership (REEP)",
+   "org": "Pennsylvania Initiative on Assistive Technology, Temple University",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "An online classifieds service that matches people who have unused assistive technology with people who can use it. It is one of the PIAT programs that can be a source of previously owned devices, usually at lower cost than new.",
+   "next_step": "Search REEP for the device you need, or list equipment you no longer use.",
+   "constraints": [
+    "Matches buyers and sellers; condition and price are set by the owner. Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://aucd.org/nirs-product?id=65490",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-don-dme-reuse",
+   "name": "DME Reuse Program",
+   "org": "Disability Options Network",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Westmoreland",
+    "Allegheny"
+   ],
+   "category": "equipment",
+   "description": "A center for independent living that runs a durable medical equipment reuse program. It serves people with disabilities and accepts donations from anyone. Listed offices include Jeannette and Pittsburgh.",
+   "next_step": "Call the office nearest you to ask what equipment is available.",
+   "constraints": [
+    "Listed addresses: Jeannette and Pittsburgh. Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://search.pa211.org/search/f15670ed-b5eb-5521-9403-52f0b970035f",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-caring-hearts",
+   "name": "Caring Hearts Lending Closet",
+   "org": "Caring Hearts Lending Closet (Delaware County)",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Delaware"
+   ],
+   "category": "equipment",
+   "description": "A medical lending closet that provides donated, reusable equipment to anyone in need, regardless of financial status. Hours are by appointment.",
+   "next_step": "Call or text 484-463-7603 to make an appointment.",
+   "constraints": [
+    "Appointment only. Large items such as hospital beds and chair lifts may not be accepted."
+   ],
+   "phone": "484-463-7603",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.findhelp.org/health/medical-supplies--lansdowne-pa",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-cilncp-new-start",
+   "name": "A New Start reuse program",
+   "org": "Center for Independent Living of North Central PA",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Lycoming"
+   ],
+   "category": "equipment",
+   "description": "Accepts donated assistive technology and durable medical equipment in good condition and redistributes it through its reuse program at its Williamsport building. The center is also the local partner for TechOWL, Pennsylvania's assistive technology program.",
+   "next_step": "Contact the center to ask what equipment is available.",
+   "constraints": [
+    "Based in Williamsport. Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.findhelp.org/health/medical-supplies--ambler-pa",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-upmc-recycling",
+   "name": "UPMC Medical Equipment Recycling Program",
+   "org": "UPMC",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "equipment",
+   "description": "A hospital-system program that collects, refurbishes and distributes medical equipment. UPMC reports more than 15,000 refurbished pieces distributed since the program began in 1999.",
+   "next_step": "Ask UPMC how to request or donate equipment.",
+   "constraints": [
+    "Figure is from a 2019 report. Locations include UPMC Horizon in western Pennsylvania; Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://chausa.org/publications/catholic-health-world/archive/article/may-1-2019/durable-medical-equipment-meets-the-sharing-economy-at-cares",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-wnyil-loan-closets",
+   "name": "Durable medical equipment loan closets",
+   "org": "Western New York Independent Living",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Erie",
+    "Genesee",
+    "Niagara"
+   ],
+   "category": "equipment",
+   "description": "Each of the three independent living center locations, Buffalo, Batavia and Niagara Falls, keeps a loan closet of durable medical equipment you can borrow. The agency also accepts donated items.",
+   "next_step": "Contact the location nearest you to ask what is available to borrow.",
+   "constraints": [
+    "The agency may not always be able to pick up donated items. Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.wnyil.org",
+   "url": "https://www.wnyil.org/wp-content/uploads/2026/01/IP_2.1.26.pdf",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reuse-coalition",
+   "name": "California Assistive Technology Reuse Coalition",
+   "org": "Ability Tools (California Assistive Technology Act Program)",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Ability Tools coordinates reuse programs across California that take donated mobility equipment, then clean, repair and provide it free or at low cost. Its NATADS portal lets you search for used equipment from many programs, and its loan program offers $500 to $15,000 for items such as wheelchairs and vehicle modifications.",
+   "next_step": "Search the NATADS portal or choose a reuse program near you on the Ability Tools site.",
+   "constraints": [
+    "Reuse programs set their own eligibility and prices."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://abilitytools.org/services/reuse-programs.php",
+   "url": "https://publicworks.marincounty.gov/question/assistive-technology",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-requipment",
+   "name": "REquipment durable medical equipment reuse",
+   "org": "REquipment DME and AT Reuse Program, Inc.",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Refurbishes and provides free durable medical equipment to adults, children and elders with disabilities in Massachusetts, including power and manual wheelchairs, scooters, adapted strollers, standers, portable ramps and shower chairs.",
+   "next_step": "Contact REquipment to ask about the equipment you need.",
+   "constraints": [
+    "Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dmerequipment.org",
+   "url": "https://recyclingworksma.com/?p=10839",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-free-equipment",
+   "name": "Foundation for Rehabilitation Equipment and Endowment (FREE)",
+   "org": "FREE",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "A Virginia nonprofit that collects, cleans, repairs and provides donated mobility and medical equipment to low-income adults and seniors. It reported providing nearly 5,000 devices in 2021.",
+   "next_step": "Contact FREE to ask about borrowing or donating equipment.",
+   "constraints": [
+    "Figure is from a 2022 report. Confirm hours, eligibility and what is in stock before you go."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://kffhealthnews.org/public-health/loan-closets-medical-equipment-shortage-supply-chain-problem/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
   }
  ]
 }
