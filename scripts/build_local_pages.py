@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""Build local-help.html and ramps-home-access.html from data/ (no hand-edited output)."""
+import html,json
+from pathlib import Path
+from build_mobility_routes import STATES
+ROOT=Path(__file__).resolve().parents[1]
+E=lambda s:html.escape(str(s),quote=True)
+NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
+FOOT='<footer><p>Created and maintained by Travis Vought. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a></p><p>Program details come from the programs’ own published pages, each with the date it was checked. This is general information, not legal or medical advice, and it does not decide eligibility. Nothing you choose here is saved or sent.</p></footer>'
+HEAD='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n<title>{t} | Mobility Resources &amp; Advocacy</title><meta name="description" content="{d}"><link rel="stylesheet" href="assets/site.css"></head>\n<body><a class="skip" href="#main">Skip to main content</a>\n'
+def local_help():
+    opts=''.join(f'<option value="{c}">{E(n)}</option>' for c,n in sorted(STATES.items(),key=lambda x:x[1]))
+    names=json.dumps(STATES).replace('<','\\u003c')
+    return HEAD.format(t='Local help and programs',d='Find ramp, home modification, equipment, independent living, disability rights and veterans programs by state and county.')+f'''<header>{NAV}<small>LOCAL HELP · ALL 50 STATES + D.C.</small><h1>Find a program near you.</h1><p>Ramps and home changes, wheelchair and equipment help, independent living centers, disability rights agencies and county veterans offices, gathered from official program pages.</p></header>
+<main id="main"><section class="panel"><form id="filters" class="filters" role="search" aria-label="Find local help"><div><label for="f-state">State</label><select id="f-state">{opts}</select></div><div><label for="f-county">County</label><select id="f-county"><option value="">All counties</option></select></div><div><label for="f-cat">Type of help</label><select id="f-cat"><option value="">All types</option></select></div><div><label for="f-q">Search</label><input id="f-q" type="search" placeholder="ramp, wheelchair, repair…" autocomplete="off"></div></form><p><button type="button" id="f-clear" class="secondary">Clear filters</button></p><p class="status" id="status" role="status" aria-live="polite"></p></section>
+<noscript><p>This directory needs JavaScript. Without it, use the <a href="https://guide.vethomeguard.org/">Veteran Resource Guide</a> or read the data file <a href="data/local-programs.json">local-programs.json</a>.</p></noscript>
+<div id="results"></div>
+<section class="panel" id="locators"><h2>Every state has these. Find yours.</h2><p>If your state is not fully listed above, these national directories cover all 50 states and D.C.</p><ul><li><a href="https://www.at3center.net/" rel="noopener">AT3 Center</a>: find your state assistive technology program (equipment loans, demos, financing and reuse).</li><li><a href="https://www.ilru.org/projects/cil-net/cil-center-and-association-directory" rel="noopener">ILRU directory of Centers for Independent Living</a>: choose your state.</li><li><a href="https://www.ndrn.org/about/ndrn-member-agencies/" rel="noopener">NDRN member agencies</a>: your state’s Protection and Advocacy agency for disability rights.</li><li><a href="https://eldercare.acl.gov/" rel="noopener">Eldercare Locator</a>: local aging and disability help.</li><li><a href="https://www.va.gov/housing-assistance/disability-housing-grants/" rel="noopener">VA disability housing grants</a>: SAH, SHA and TRA.</li></ul></section>
+<section><p>Looking for aging services, nursing-home resources or benefits help? Open the <a id="guide-link" href="https://guide.vethomeguard.org/">Veteran Resource Guide</a> for this state.</p></section></main>{FOOT}
+<script type="application/json" id="state-data">{names}</script><script src="assets/local-help.js"></script></body></html>
+'''
+def checklist(key,c):
+    secs=''.join(f'<h4>{E(s["title"])}</h4><ul class="steps">'+''.join(f'<li>{E(i["text"])} <span class="meta">({E(i["responsible"])})</span></li>' for i in s['items'])+'</ul>' for s in c['sections'])
+    sub=c['submit'];srcs=' · '.join(f'<a href="{E(u)}" rel="noopener">{E(u.split("//")[1].split("/")[0])}</a>' for u in c['sources'])
+    return f'<details id="{E(key)}"><summary>{E(c["title"])}</summary>{secs}<p><strong>Where to submit:</strong> {E(sub["text"])} <a href="{E(sub["url"])}" rel="noopener">{E(sub["label"])}</a></p><p><strong>After you submit:</strong> {E(c["followUp"])}</p><p class="small">Checked {E(c["reviewedOn"])}. Sources: {srcs}</p></details>'
+def ramps():
+    cl=json.loads((ROOT/'data/home-access-checklists.json').read_text())
+    fix=lambda s:s.replace("VHG's navigator",'this website').replace('VHG’s navigator','this website').replace('—not to VHG','—not through this website').replace(', not for VHG',', not for this website').replace(', not to VHG',', not through this website')
+    for c in cl.values():
+        c['sections']=[{**s,'items':[{**i,'text':fix(i['text'])} for i in s['items']]} for s in c['sections']]
+        c['submit']['text']=fix(c['submit']['text']);c['followUp']=fix(c['followUp'])
+    routes=[('For veterans','VA grants for ramps and adapted homes','HISA pays for medically needed changes such as ramps and bathroom access. SAH and SHA grants adapt or build a home for veterans with qualifying service-connected disabilities. TRA helps while staying with family.','local-help.html?category=veterans','Find your county veterans office'),
+    ('Coverage','Medicaid and waiver home modifications','Home and community-based waivers can pay for ramps, lifts, widened doors and bathroom changes when they are in an approved service plan. Ask before any work begins.','local-help.html?category=funding','Find waiver and coverage routes'),
+    ('Developmental disabilities','County DD boards and DD waivers','In Ohio, county boards arrange service coordination and waiver home adaptations. Other states use similar agencies.','local-help.html?category=dd_board','Find county boards'),
+    ('Community','Independent living centers','Disability-led centers often know local ramp builders, loan closets and volunteer groups, and can help you apply for funding.','local-help.html?category=independent_living','Find an independent living center'),
+    ('Ramps &amp; repairs','Ramp loans and home repair programs','Some states lend portable ramps or fund accessibility modifications. USDA rural home repair loans and grants can help eligible low-income homeowners.','local-help.html?category=ramps_home','See ramp and home programs'),
+    ('Equipment','Try before you buy','Assistive technology programs lend, demonstrate, finance and reuse equipment, and can help you decide what you need before you pay.','local-help.html?category=equipment','Find equipment programs')]
+    cards=''.join(f'<article><p class="label">{a}</p><h3>{b}</h3><p>{E(c).replace("&amp;amp;","&amp;")}</p><a class="button" href="{d}">{e}</a></article>' for a,b,c,d,e in routes)
+    return HEAD.format(t='Ramps, home modification and accessible housing',d='Who pays for or provides ramps and home modifications, plus step-by-step preparation checklists for VA grants and Ohio waiver modifications.')+f'''<header>{NAV}<small>RAMPS · HOME MODIFICATION · ACCESSIBLE HOUSING</small><h1>Get a ramp.<br>Make home work.</h1><p>Several different programs can pay for or build ramps and other home changes. Each has its own rules, so start with the route that fits your situation, and get approval before any work begins.</p><a class="button" href="local-help.html?category=ramps_home">Find ramp and home programs near me</a></header>
+<main id="main"><section><h2>Six routes to try</h2><div class="route">{cards}</div></section>
+<section class="panel"><h2>Before you spend anything</h2><ul><li>Ask the program whether work must be approved <em>before</em> it starts. Some will not reimburse completed work.</li><li>Get written, itemized quotes with permits and inspections included.</li><li>Take photos of the area before any changes.</li><li>Keep copies of records privately. Do not send medical records or claim numbers through this website.</li></ul></section>
+<section><h2>Preparation checklists</h2><p>These list what the official programs ask for, in order. They are reminders, not applications. Your identifying details go only on the official forms.</p>{''.join(checklist(k,c) for k,c in cl.items())}</section>
+<section><p>Need a ramp or repair and cannot get coverage? <a href="disability-advocacy.html">Ask lawmakers for change</a> or <a href="mobility-rights.html">find your next step by state and problem</a>.</p></section></main>{FOOT}</body></html>
+'''
+def outputs(): return {'local-help.html':local_help(),'ramps-home-access.html':ramps()}
+if __name__=='__main__':
+    for p,t in outputs().items():(ROOT/p).write_text(t)
+    print('Built local help directory and ramps guide.')
