@@ -6,6 +6,7 @@ const low=s=>String(s==null?'':s).toLowerCase();
 const STATES=JSON.parse($('state-data').textContent);
 const ORDER=['ramps_home','equipment','funding','independent_living','navigation','rights_legal','dd_board','veterans'];
 const BLURB={ramps_home:'Programs that build, lend or pay for ramps, bathroom changes and other home access work.',equipment:'Try, borrow, repair, finance or reuse wheelchairs and assistive technology.',funding:'Medicaid waivers and other coverage routes that often pay for equipment and home changes.',independent_living:'Disability-led centers that help with equipment, home access, peer support and advocacy.',navigation:'A first call for aging and disability services in your area.',rights_legal:'Disability rights agencies and legal aid for denials, access and housing problems.',dd_board:'County boards for developmental disabilities, which coordinate services and waiver adaptations.',veterans:'County veterans offices that help file VA housing-adaptation and equipment claims.'};
+const NEEDS=[['ramps_home','Build or fix a ramp'],['equipment','Wheelchair or equipment'],['funding','Help paying for it'],['independent_living','Disability center near me'],['rights_legal','Know my rights'],['veterans','Veteran benefits'],['','Show everything']];
 let main=[],vso=[],cats={},mainOk=false;
 const q=new URLSearchParams(location.search);
 function sel(){return {state:$('f-state').value,county:$('f-county').value,category:$('f-cat').value,q:low($('f-q').value).trim()};}
@@ -35,7 +36,7 @@ function scopeText(r,s){
 }
 function tel(p){const d=String(p).replace(/[^0-9+]/g,'');return d?'tel:'+d:null;}
 function card(r,s){
-  const c=el('article',null,'card');c.append(el('span',scopeText(r,s),'badge'),el('h4',r.name));
+  const c=el('article',null,'card');c.append(el('span',scopeText(r,s),'badge'));if(r.record_status==='directory_listed'||r.record_status==='news_reported')c.append(el('span','Listing: confirm details','badge warn'));c.append(el('h4',r.name));
   if(r.org&&low(r.org)!==low(r.name))c.append(el('p',r.org,'org'));
   if(r.description)c.append(el('p',r.description));
   if(r.next_step){const p=el('p');p.append(el('strong','Next step: '),document.createTextNode(r.next_step));c.append(p);}
@@ -51,14 +52,24 @@ function card(r,s){
   const fix=el('a','Report a problem');fix.href='mailto:travis@vethomeguard.org?subject='+encodeURIComponent('Correction: '+r.name)+'&body='+encodeURIComponent('Record: '+r.id+'\n\nWhat should change:\n');meta.append(fix);c.append(meta);
   return c;
 }
+function drawNeeds(s){
+  const box=$('needs');box.textContent='';
+  for(const [k,label] of NEEDS){
+    const n=all().filter(r=>matches(r,{...s,category:k,q:s.q})).length;
+    const b=el('button',label+(k?' ('+n+')':''),'need');b.type='button';b.setAttribute('aria-pressed',String(s.category===k));
+    b.addEventListener('click',()=>{$('f-cat').value=k;render();});box.append(b);
+  }
+}
 function render(){
   const s=sel(),out=$('results');out.textContent='';
   const found=all().filter(r=>matches(r,s));
   const name=STATES[s.state]||s.state;
-  const groups={};for(const r of found)(groups[r.category]=groups[r.category]||[]).push(r);
+  const groups={},jump=[];for(const r of found)(groups[r.category]=groups[r.category]||[]).push(r);
   for(const k of ORDER){const g=groups[k];if(!g)continue;g.sort((a,b)=>rank(a)-rank(b)||a.name.localeCompare(b.name));
-    const head=el('div',null,'cat-head');head.append(el('h3',(cats[k]||k)+' ('+g.length+')'),el('p',BLURB[k]||''));
+    const head=el('div',null,'cat-head');head.id='cat-'+k;jump.push([k,(cats[k]||k),g.length]);head.append(el('h3',(cats[k]||k)+' ('+g.length+')'),el('p',BLURB[k]||''));
     const list=el('div',null,'list');for(const r of g)list.append(card(r,s));out.append(head,list);}
+  const nav=$('jump');nav.textContent='';nav.hidden=jump.length<2;if(jump.length>1){nav.append(el('span','Jump to: '));for(const [k,n,c] of jump){const a=el('a',n+' ('+c+')');a.href='#cat-'+k;nav.append(a);}}
+  drawNeeds(s);
   let msg=found.length?'Showing '+found.length+' programs for '+name+(s.county?', '+s.county+' County':'')+'.':'No programs match these choices yet for '+name+'. Try All counties or a different category, or use the Veteran Resource Guide for local contacts.';
   if(found.length&&!main.some(r=>r.state===s.state))msg='We have not added '+name+' programs to this directory yet. Showing the federal VA routes; use the national directories below to find your state’s programs.';
   if(!s.county&&!s.category&&vso.some(r=>r.state===s.state))msg+=' Choose a county to also see its veterans service office.';
@@ -81,6 +92,9 @@ function wire(){
   $('f-state').addEventListener('change',()=>{fillCounties($('f-state').value,'');render();});
   for(const id of ['f-county','f-cat'])$(id).addEventListener('change',render);
   $('f-q').addEventListener('input',render);
+  $('f-print').addEventListener('click',()=>window.print());
+  $('f-copy').addEventListener('click',()=>{const b=$('f-copy'),done=()=>{b.textContent='Link copied';setTimeout(()=>{b.textContent='Copy link to this list';},2000);};
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(location.href).then(done,()=>{b.textContent='Copy the address bar link';});else b.textContent='Copy the address bar link';});
   $('filters').addEventListener('submit',e=>{e.preventDefault();render();});
   $('f-clear').addEventListener('click',()=>{$('f-county').value='';$('f-cat').value='';$('f-q').value='';render();});
 }

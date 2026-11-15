@@ -23,3 +23,15 @@ details summary{cursor:pointer;font-weight:600}
 .featured-org .small{color:#e2eaed}.featured-org .actions{margin:14px 0}
 @media(max-width:850px){.featured-org{grid-template-columns:1fr;gap:18px;padding:22px}.featured-logo img{max-width:280px}}
 @media print{.featured-org{background:#fff;color:#000;border:1px solid #000}.featured-org h2,.featured-org p{color:#000}.featured-org .actions{display:none}}
+
+.needs-title{margin:0 0 10px;font-size:22px}
+.needs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.need{font:inherit;font-weight:600;min-height:48px;padding:8px 18px;border-radius:99px;border:2px solid var(--green);background:#fff;color:var(--green);cursor:pointer}
+.need:hover{background:#e8eeea}.need[aria-pressed=true]{background:var(--green);color:#fff}
+.need:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 0}
+.jump{margin:22px 0 0;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-weight:600}
+.jump[hidden]{display:none}
+.badge.warn{background:#fbefd0;color:#6b4b00;margin-left:6px}
+@media print{.needs,.needs-title,.tools,.jump{display:none}}
+.card .badge{align-self:flex-start}.card .badge.warn{margin-left:0}

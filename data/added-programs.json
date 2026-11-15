@@ -490,6 +490,414 @@
    "reviewed_on": "2026-11-14",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-nyfsc-access-to-home",
+   "name": "Access to Home Program (New York City)",
+   "org": "New York Foundation for Senior Citizens",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "New York",
+    "Kings",
+    "Queens",
+    "Bronx",
+    "Richmond"
+   ],
+   "category": "ramps_home",
+   "description": "Home modifications for New York City residents age 18 or older with substantial physical limitations, homeowners or renters, funded by the state housing agency. Modifications include ramps, handrails and accessible bathrooms.",
+   "next_step": "Call or email the program and ask about eligibility, income limits and the application.",
+   "constraints": [
+    "Low and moderate income applicants. Renters and condo or co-op owners need extra documents. State funding is limited, so ask about waits."
+   ],
+   "phone": "212-962-7655",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.nyfsc.org/access-to-home-program/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-rtnyc-upgrades",
+   "name": "Accessibility Upgrades Program (New York City)",
+   "org": "Rebuilding Together NYC",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "New York",
+    "Kings",
+    "Queens",
+    "Bronx",
+    "Richmond"
+   ],
+   "category": "ramps_home",
+   "description": "Home accessibility help listed by New York City for people with disabilities, including ramps, lifts, handrails and lever door handles, for homeowners or renters.",
+   "next_step": "Call and ask about eligibility and the current wait.",
+   "constraints": [
+    "Eligibility rules apply. Confirm with the organization."
+   ],
+   "phone": "718-488-8840",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.nyc.gov/site/hpd/services-and-information/rental-assistance-and-home-modification.page",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-adapt-doorways",
+   "name": "Access to Home, Doorways to Independence (New York City)",
+   "org": "Adapt Community Network",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "New York",
+    "Kings",
+    "Queens",
+    "Bronx",
+    "Richmond"
+   ],
+   "category": "ramps_home",
+   "description": "Home modification program for people with disabilities listed by New York City as operated by Adapt Community Network.",
+   "next_step": "Call and ask about eligibility and how to apply.",
+   "constraints": [
+    "Eligibility rules apply. Confirm with the organization."
+   ],
+   "phone": "877-827-2666",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.nyc.gov/site/hpd/services-and-information/rental-assistance-and-home-modification.page",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-rtp-pittsburgh",
+   "name": "Home maintenance and modification services (Allegheny County)",
+   "org": "Rebuilding Together Pittsburgh",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "ramps_home",
+   "description": "Free home repairs and accessibility modifications for low-income Allegheny County homeowners. Older adults, veterans and people with permanent disabilities are priorities.",
+   "next_step": "Call or visit the office at 7800 Susquehanna Street, Suite 102, Pittsburgh, and ask how to apply.",
+   "constraints": [
+    "PA 211 lists income below 150% of the federal poverty guidelines, current real estate taxes and owner occupancy. Confirm with the organization."
+   ],
+   "phone": null,
+   "phone_note": "Use the PA 211 listing for the current phone number.",
+   "email": null,
+   "web": null,
+   "url": "https://www.pa211.org/agency/13741/45606/31496",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-whrp-allegheny",
+   "name": "Allegheny County Whole-Home Repairs Program",
+   "org": "ACTION-Housing",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "ramps_home",
+   "description": "Repairs and accessibility modifications for eligible Allegheny County homeowners, including ramps, grab bars, handrails, doorway widening and bathroom changes.",
+   "next_step": "Open the program page and use the application link.",
+   "constraints": [
+    "Funding rounds open and close. Check whether applications are open."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://actionhousing.org/our-services/allegheny-county-whole-home-repairs-program/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-ura-hapi",
+   "name": "Home Accessibility Program for Independence",
+   "org": "Urban Redevelopment Authority of Pittsburgh",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Allegheny"
+   ],
+   "category": "ramps_home",
+   "description": "City of Pittsburgh program that helps residents with physical disabilities remain in their homes.",
+   "next_step": "Read the program page and ask the URA to notify you when the next round opens.",
+   "constraints": [
+    "The page says applications closed July 31, 2026. Check for the next round."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.ura.org/pages/home-accessibility-program-for-independence",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-rtneo",
+   "name": "Rebuilding Together Northeast Ohio",
+   "org": "Rebuilding Together Northeast Ohio",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Cuyahoga"
+   ],
+   "category": "ramps_home",
+   "description": "Free home repairs for low-income homeowners in Northeast Ohio, including Cleveland, with ramps listed among the work. Seniors, people with disabilities and veterans are priorities.",
+   "next_step": "Call and ask whether they build ramps in your area and how long the wait is.",
+   "constraints": [
+    "Listed in a third-party directory that did not confirm the program. Check with the organization."
+   ],
+   "phone": "330-773-4100",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://api.thegrantmap.com/city/cleveland/clev-rebuilding-together-neo",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-pwc-cincinnati",
+   "name": "People Working Cooperatively home repair and modification",
+   "org": "People Working Cooperatively (PWC)",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Hamilton"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair and accessibility modifications for older, low-income homeowners and people with disabilities in the Cincinnati area.",
+   "next_step": "Call and ask about eligibility and the current waitlist.",
+   "constraints": [
+    "Listed in the national Home Modification directory. Phone may be a program line; confirm service area."
+   ],
+   "phone": "513-351-7921",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://homemods.org/directory-state/oh",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-franklin-minor-home-repair",
+   "name": "Minor Home Repair Program (Franklin County)",
+   "org": "Franklin County Office on Aging",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Franklin"
+   ],
+   "category": "ramps_home",
+   "description": "County program that has installed wheelchair ramps for residents. A 2022 news report described an eight to twelve week waitlist.",
+   "next_step": "Call the Office on Aging and ask about eligibility and the current waitlist.",
+   "constraints": [
+    "Based on a 2022 news report. Confirm eligibility and current wait times."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://abc6onyourside.com/on-your-side/problem-solvers/columbus-amputee-receives-wheelchair-ramp-after-call-to-abc6-on-your-side-problem-solvers-minor-home-repair-program-franklin-county-6-22-2022",
+   "reviewed_on": "2026-11-14",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-rhap",
+   "name": "Rental Housing Accessibility Program (Chico)",
+   "org": "Independent Living Services of Northern California",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Butte"
+   ],
+   "category": "ramps_home",
+   "description": "Home accessibility help for renters with disabilities in the Chico area.",
+   "next_step": "Call and ask about eligibility and the application.",
+   "constraints": [
+    "Listed in the national Home Modification directory. Confirm service area and current funding."
+   ],
+   "phone": "530-893-8527",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://homemods.org/directory-state/ca",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-community-living-fund",
+   "name": "Community Living Fund (assistive technology and home modifications)",
+   "org": "California Department of Rehabilitation",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "A state initiative described as funding assistive technology, durable medical equipment and home modifications through partner nonprofits.",
+   "next_step": "Open the Department of Rehabilitation page and ask your local independent living center whether the fund is open.",
+   "constraints": [
+    "Described in an AT Act initiative listing. Confirm current availability."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://dor.ca.gov/Home/CommunitylivingFund",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-usor-il",
+   "name": "USOR Independent Living program",
+   "org": "Utah State Office of Rehabilitation",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "State independent living program that works with the independent living centers. Its forms cover home installation agreements, independent living plans and vehicle modification agreements.",
+   "next_step": "Ask your independent living center or the state office about an independent living plan and what equipment or home installation it can fund.",
+   "constraints": [
+    "Program policy excludes some items, such as vehicle chassis. Funding is limited."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://jobs.utah.gov/usor/vr/partners/il.html",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-ucat",
+   "name": "Utah Center for Assistive Technology vehicle modifications",
+   "org": "Utah Center for Assistive Technology",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "State assistive technology center that evaluates and modifies vehicles, such as hand controls and wheelchair lifts for vans.",
+   "next_step": "Call and ask how to get a vehicle evaluation and whether a vocational rehabilitation counselor must refer you.",
+   "constraints": [
+    "Listed in a provider directory. Eligibility rules apply."
+   ],
+   "phone": "801-887-9380",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://UT.medicalhomeportal.org/services/category/700",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-habitat-utah-county",
+   "name": "Repair Program (Utah County)",
+   "org": "Habitat for Humanity of Utah County",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Utah"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair program for low-income homeowners in Utah County.",
+   "next_step": "Call and ask whether the program takes accessibility work such as ramps.",
+   "constraints": [
+    "Listed in the national Home Modification directory. Confirm what repairs it covers."
+   ],
+   "phone": "801-344-8527",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://homemods.org/directory-state/ut",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-twc-vr",
+   "name": "Vocational rehabilitation equipment and home modification",
+   "org": "Texas Workforce Commission Vocational Rehabilitation",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Vocational rehabilitation can buy equipment and vehicle modifications tied to a work goal. A state bid notice showed it can also seek contractors for a customer's home modification.",
+   "next_step": "Contact your local Texas Workforce Solutions office and ask for a vocational rehabilitation counselor.",
+   "constraints": [
+    "Tied to an employment goal and a VR plan. Approval comes before work starts."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.twc.texas.gov/services/vocational-rehabilitation-services",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-hhs-ils",
+   "name": "Independent Living Services",
+   "org": "Texas Health and Human Services",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "State independent living services can include home modifications such as wheelchair ramps, stair lifts and grab bars, plus vehicle modifications.",
+   "next_step": "Open the program page and use the contact route to ask about eligibility and applying.",
+   "constraints": [
+    "Eligibility rules apply. Funding is limited."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://hhs.texas.gov/services/disability/independent-living-services",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-ramps",
+   "name": "Texas Ramps",
+   "org": "Texas Ramps",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "Provides free wheelchair ramps to disabled or elderly people who cannot afford one. Most referrals come from case workers and are submitted online.",
+   "next_step": "Ask your case worker or social worker to submit the online referral.",
+   "constraints": [
+    "Listed in a senior directory. Service area varies. Confirm before relying on it."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.texasramps.org/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
