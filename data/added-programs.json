@@ -50935,18 +50935,18 @@
    "scope": "statewide",
    "counties": [],
    "category": "peer_support",
-   "description": "Washington 501(c)(3) nonprofit based in Everett. It works for dignity, respect, accessibility and equality for differently abled people through educational programs, advocacy, mentorship and community engagement.",
-   "next_step": "Open the website to see current programs, ask how to take part or bring an education session to your group, and find out how to support the work.",
+   "description": "Washington 501(c)(3) nonprofit based in Everett and led by a differently abled founder. It works through advocacy, accessibility, education and equality to build a community where dignity is honored and belonging is expected. Its website also has pages for donating and volunteering.",
+   "next_step": "Call or email, or open the website to see the Programs page and ask how to take part or bring disability-inclusion education to your group.",
    "constraints": [
-    "Listing built from the organization’s public Idealist profile; confirm current programs and contact details on its website."
+    "Listing built from the organization’s own website (programs are on its Programs page) and its public Idealist profile for the Everett location; confirm current programs and contact details with the organization."
    ],
-   "phone": null,
-   "phone_note": "No public phone is listed here; use the website to reach the organization.",
-   "email": null,
+   "phone": "206-766-0884",
+   "phone_note": "Phone number published on the organization’s website",
+   "email": "lightuponlight@luul.org",
    "web": "https://www.luul.org/",
-   "url": "https://www.idealist.org/en/nonprofit/2078afe201a241c1a03bb24d44ed6734-light-upon-light-everett",
+   "url": "https://www.luul.org/",
    "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
   }
  ]
