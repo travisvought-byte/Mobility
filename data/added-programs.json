@@ -15657,6 +15657,68 @@
    "phone": "833-663-9673",
    "phone_note": "Help with the respite application",
    "url": "https://dhs.sd.gov/en/division-developmental-disabilities/respite-services-for-caregivers-of-people-with-developmental-disabilities"
+  },
+  {
+   "id": "wy-dd-waivers-apply",
+   "name": "Wyoming developmental disability waivers: how to apply (statewide)",
+   "org": "Wyoming Department of Health, Division of Healthcare Financing, Home and Community-Based Services Section",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "The Comprehensive and Supports waivers help people with intellectual or developmental disabilities, and some adults with acquired brain injury, get community-based services. You contact the Benefits and Eligibility Specialist for your county, choose a case manager and complete the application. Wyoming 2-1-1 can help with services while you wait.",
+   "next_step": "Call the Home and Community-Based Services Section and ask for the Benefits and Eligibility Specialist for your county.",
+   "constraints": [
+    "You must be eligible for Wyoming Medicaid and meet level of care rules."
+   ],
+   "phone": "800-510-0280",
+   "phone_note": "Toll-free; Cheyenne office 307-777-7531; financial eligibility unit 855-203-2936",
+   "email": null,
+   "web": null,
+   "url": "https://health.wyo.gov/healthcarefin/hcbs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "constraints": [],
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "id": "nm-ddsd-psib",
+   "name": "New Mexico DD Waiver: apply through the Pre-Service Intake Bureau (statewide)",
+   "org": "New Mexico Health Care Authority, Developmental Disabilities Supports Division",
+   "state": "NM",
+   "description": "To apply for the Developmental Disabilities Waiver, you complete the application packet and send it to the Pre-Service Intake Bureau. The date it receives your completed packet becomes your application date and sets your place in line. A Pre-Service Specialist reviews your records, and eligible people get a Yes Match letter and a spot on the wait list.",
+   "next_step": "Call the Central Registry line to get the application packet, or ask the Pre-Service Specialist for your region.",
+   "phone": "505-630-9555",
+   "phone_note": "Central Registry; second line 575-997-7980; fax 505-533-6077",
+   "url": "https://www.hca.nm.gov/eligibility-determination/"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "constraints": [],
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "id": "dc-dds-dda",
+   "name": "DC Developmental Disabilities Administration (Department on Disability Services)",
+   "org": "District of Columbia Department on Disability Services",
+   "state": "DC",
+   "description": "The Developmental Disabilities Administration serves adults with intellectual and developmental disabilities in the District of Columbia. The department site has the eligibility and intake process and how to apply for services. The DDA duty officer line for evenings and weekend emergencies is 202-498-9077.",
+   "next_step": "Call the department main line and ask about DDA eligibility and intake.",
+   "phone": "202-730-1700",
+   "phone_note": "Department on Disability Services main line, 250 E Street SW",
+   "url": "https://dds.dc.gov/"
   }
  ]
 }
