@@ -12,7 +12,7 @@ async function load(query=''){
  // data integrity
  assert(main.records.length>500&&vso.records.length>1000);
  const ids=new Set();for(const r of main.records.concat(vso.records)){assert(!ids.has(r.id),'duplicate id '+r.id);ids.add(r.id);assert(r.name&&r.category&&r.state&&['national','statewide','counties'].includes(r.scope));assert(r.phone||r.url||r.web,'no way to reach '+r.id);if(r.scope==='counties')assert(r.counties.length>0);}
- const covered=new Set(main.records.map(r=>r.state).filter(s=>s!=='US'));assert(covered.size>=20&&covered.has('OH')&&covered.has('KY'),'state-level programs for the researched states');assert(main.records.filter(r=>r.state==='US').length>=5,'federal baseline for every state');
+ const covered=new Set(main.records.map(r=>r.state).filter(s=>s!=='US'));assert.equal(covered.size,51,'every state and D.C. has at least one state-level program');for(const r of main.records.filter(r=>r.origin.includes('ndrn')))assert(r.phone&&r.url,'agency '+r.id);assert(main.records.some(r=>r.state==='OH'&&r.name.includes('Disability Rights Ohio')),'Ohio P&A present once');assert.equal(main.records.filter(r=>r.state==='OH'&&r.name.includes('Disability Rights Ohio')).length,1);assert(main.records.filter(r=>r.state==='US').length>=5,'federal baseline for every state');
  // Ohio default: statewide, national and county routes, grouped
  const p=await load();assert.equal(p.$('f-state').value,'OH');const t=p.text();
  assert(t.includes('Ramps & home modification'));assert(t.includes('VA Home Improvements and Structural Alterations'));assert(t.includes('Ohio waiver home modifications'));assert(t.includes('AT Ohio Device Lending Library'));assert(t.includes('Delaware County Board of Developmental Disabilities'));
@@ -26,7 +26,7 @@ async function load(query=''){
  p.set('f-q','');p.set('f-state','KY');assert.equal(p.$('f-county').value,'');assert(p.text().includes('RampUp! KY'));assert(!p.text().includes('Ohio waiver'));assert(p.text().includes('Specially Adapted Housing'));
  assert(new URL(p.w.location.href).searchParams.get('state')==='KY');
  // a state with only the national baseline still shows federal routes
- p.set('f-state','WY');assert(p.text().includes('Specially Adapted Housing'));assert(p.$('status').textContent.includes('have not added Wyoming'));assert(p.d.getElementById('locators').textContent.includes('Centers for Independent Living'));assert(p.$('guide-link').href.includes('state=WY'));
+ p.set('f-state','WY');assert(p.text().includes('Specially Adapted Housing'));assert(p.text().includes('Wyoming P&A System'));assert(!p.$('status').textContent.includes('have not added'));assert(p.d.getElementById('locators').textContent.includes('Centers for Independent Living'));assert(p.$('guide-link').href.includes('state=WY'));
  // links are safe: https only, no javascript:, user text never becomes markup
  for(const a of p.$('results').querySelectorAll('a[href]')){const h=a.getAttribute('href');assert(/^(https?:|tel:|mailto:)/.test(h),'unsafe href '+h);}
  p.set('f-q','<img src=x onerror=bad()>');assert.equal(p.$('results').querySelectorAll('img').length,0);

@@ -25,7 +25,7 @@ npm run test:browser # needs Playwright Chromium
 Edit data or templates, never the built pages. `research/mobility-laws-2026-11-01/` holds the staged law research; only claims listed in `data/mobility-routes.json` are published.
 
 ## Data from the Veteran Resource Guide
-`data/local-programs.json` (603 programs), `data/county-veterans-offices.json` (1,810 offices) and `data/home-access-checklists.json` were extracted from the guide with `python3 scripts/extract_local_programs.py PATH_TO_GUIDE_CHECKOUT`. Each record keeps its own source link, review date and `origin` file. State-level programs exist for 20 states; the other states and D.C. show the federal VA routes plus national directories. Corrections are made at the source and re-extracted, not edited here.
+`data/local-programs.json` (603 programs), `data/county-veterans-offices.json` (1,810 offices) and `data/home-access-checklists.json` were extracted from the guide with `python3 scripts/extract_local_programs.py PATH_TO_GUIDE_CHECKOUT`. Each record keeps its own source link, review date and `origin` file. Every state and D.C. lists its Protection and Advocacy agency (from the National Disability Rights Network list, `data/ndrn-protection-advocacy.json`); 20 states also have local ramp, equipment and independent living programs from the guide, and the rest show those plus the federal VA routes and national directories. Corrections are made at the source and re-extracted, not edited here.
 
 ## Related
 Local county and veteran referrals stay in the [Veteran Resource Guide](https://github.com/travisvought-byte/vhg-veteran-resident-guide) (guide.vethomeguard.org). This site links to it for local help.

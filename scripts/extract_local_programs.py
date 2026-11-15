@@ -76,6 +76,14 @@ for p in sorted(glob.glob(str(GUIDE/'data/public/*-county-veterans-offices.json'
         name=org if statewide or o['county'].lower() in org.lower() else org+' ('+o['county']+' County)'
         slugc=re.sub(r'[^a-z0-9]+','-',o['county'].lower()).strip('-')
         add({'id':'vso-'+st.lower()+'-'+slugc,'name':name,'org':org,'state':st,'scope':'statewide' if statewide else 'counties','counties':[] if statewide else [o['county']],'category':'veterans','description':'Free help for veterans and survivors with VA claims and housing-adaptation grants such as SAH, SHA and HISA.','next_step':'Call and ask for help applying for a VA home adaptation grant or equipment benefit.','constraints':[],'phone':o.get('phone'),'phone_note':None,'email':o.get('email'),'web':o.get('website'),'url':o.get('source_url'),'reviewed_on':o.get('reviewed_on'),'record_status':o.get('contact_status'),'origin':'data/public/'+Path(p).name})
+# Protection and Advocacy agency for every state and D.C. (NDRN list); keep the guide's richer record where one exists
+ndrn=json.load(open(ROOT/'data/ndrn-protection-advocacy.json'))
+def have_pa(st,name):
+    n=name.lower()
+    return any(r['state']==st and r['category']=='rights_legal' and (r['id']==st.lower()+'-rights' or n in r['name'].lower() or r['name'].lower() in n) for r in out.values())
+for st,name,url,phone in ndrn['agencies']:
+    if have_pa(st,name):continue
+    add({'id':'pa-ndrn-'+st.lower(),'name':name,'org':'State Protection and Advocacy agency','state':st,'scope':'statewide','counties':[],'category':'rights_legal','description':'The federally designated Protection and Advocacy agency for people with disabilities in '+STATES[st]+'. It provides information, advocacy and legal help on disability rights.','next_step':'Call or visit the website and ask whether they can help with your situation, such as a denial, an access barrier or a rights violation, and how intake works.','constraints':[],'phone':phone,'phone_note':'First number listed by the National Disability Rights Network','email':None,'web':None,'url':url,'reviewed_on':ndrn['source']['read_on'],'record_status':'directory_listed','origin':'data/ndrn-protection-advocacy.json'})
 recs=sorted(out.values(),key=lambda r:(r['state']!='US',r['state'],r['category'],r['name']))
 main=[r for r in recs if r['category']!='veterans'];vso=[r for r in recs if r['category']=='veterans']
 meta={'schema_version':1,'built_from':'travisvought-byte/vhg-veteran-resident-guide','categories':CATS}
