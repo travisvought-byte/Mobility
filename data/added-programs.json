@@ -40342,6 +40342,748 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ak-reuse-alaska-center-loan-closet",
+   "name": "Alaska Center for Children and Adults loan closet",
+   "org": "Alaska Center for Children and Adults",
+   "state": "AK",
+   "scope": "counties",
+   "counties": [
+    "Fairbanks North Star"
+   ],
+   "category": "equipment",
+   "description": "Alaska Center for Children and Adults in Fairbanks is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list marks it as a loan closet.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://alaskacenter.org/loan-closet",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reuse-adapt-shop",
+   "name": "ADAPT Shop (Southwest Human Development)",
+   "org": "ADAPT Shop",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Maricopa"
+   ],
+   "category": "equipment",
+   "description": "ADAPT Shop in Phoenix is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.swhd.org/adapt/adapt",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reuse-able-advocates",
+   "name": "Able Advocates equipment help (Fresno)",
+   "org": "Able Advocates",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Fresno"
+   ],
+   "category": "equipment",
+   "description": "Able Advocates in Fresno is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.ableadvocates.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reuse-ablecloset",
+   "name": "AbleCloset (San Carlos)",
+   "org": "AbleCloset",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Mateo"
+   ],
+   "category": "equipment",
+   "description": "AbleCloset in San Carlos is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.ablecloset.com",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reuse-ucp-san-diego-equipment-recycling",
+   "name": "UCP of San Diego County equipment recycling",
+   "org": "UCP of San Diego County",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Diego"
+   ],
+   "category": "equipment",
+   "description": "UCP of San Diego County in San Diego is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list marks it as an equipment recycling program.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.ucpsd.org/programs/equipment_recycling.html",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reuse-get-a-cane",
+   "name": "Get A Cane (San Diego and Bay Area)",
+   "org": "Get A Cane",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Diego"
+   ],
+   "category": "equipment",
+   "description": "Get A Cane in California is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list gives its service area as San Diego and the Bay Area.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate.",
+    "Only San Diego County is mapped here; the Bay Area is also named, so call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.getacane.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "co-reuse-goodhealthwill",
+   "name": "GoodHealthWill equipment help (Loveland, Greeley and Brighton)",
+   "org": "GoodHealthWill",
+   "state": "CO",
+   "scope": "counties",
+   "counties": [
+    "Larimer",
+    "Weld",
+    "Adams"
+   ],
+   "category": "equipment",
+   "description": "GoodHealthWill in Loveland, Greeley and Brighton is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list gives three locations.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": "970-624-6002",
+   "phone_note": "Loveland 970-624-6002; Greeley 970-515-6935; Brighton 303-558-0671. Numbers are from Rifton's list.",
+   "email": null,
+   "web": "https://www.facebook.com/GoodHealthwill",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "co-reuse-kids-mobility-network",
+   "name": "Kids Mobility Network (Centennial)",
+   "org": "Kids Mobility Network",
+   "state": "CO",
+   "scope": "counties",
+   "counties": [
+    "Arapahoe"
+   ],
+   "category": "equipment",
+   "description": "Kids Mobility Network in Centennial is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.kidsmobility.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ct-reuse-new-england-at-center",
+   "name": "New England Assistive Technology Center (Hartford)",
+   "org": "New England Assistive Technology Center (Oak Hill)",
+   "state": "CT",
+   "scope": "counties",
+   "counties": [
+    "Hartford"
+   ],
+   "category": "equipment",
+   "description": "New England Assistive Technology Center (Oak Hill) in Hartford is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": "(860) 243-2869",
+   "phone_note": "Number is from Rifton's list.",
+   "email": null,
+   "web": "https://assistivetechnology.oakhillct.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "il-reuse-kids-equipment-network",
+   "name": "The Kids Equipment Network (Forest Park)",
+   "org": "The Kids Equipment Network",
+   "state": "IL",
+   "scope": "counties",
+   "counties": [
+    "Cook"
+   ],
+   "category": "equipment",
+   "description": "The Kids Equipment Network in Forest Park is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": "630-965-8176",
+   "phone_note": "Number is from Rifton's list for president Tim Caruso.",
+   "email": null,
+   "web": "https://www.tken.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "il-reuse-helping-from-heaven",
+   "name": "Helping From Heaven, the Lexi Kazian Foundation (Vernon Hills)",
+   "org": "Helping From Heaven (The Lexi Kazian Foundation)",
+   "state": "IL",
+   "scope": "counties",
+   "counties": [
+    "Lake"
+   ],
+   "category": "equipment",
+   "description": "Helping From Heaven (The Lexi Kazian Foundation) in Vernon Hills is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.helpingfromheaven.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-reuse-equipment-connections-for-children",
+   "name": "Equipment Connections for Children (Columbia)",
+   "org": "Equipment Connections for Children",
+   "state": "MD",
+   "scope": "counties",
+   "counties": [
+    "Howard"
+   ],
+   "category": "equipment",
+   "description": "Equipment Connections for Children in Columbia is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.equipforchildren.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-reuse-hero-moorhead",
+   "name": "Health Equipment Recycling Organization, HERO (Moorhead)",
+   "org": "Health Equipment Recycling Organization (HERO)",
+   "state": "MN",
+   "scope": "counties",
+   "counties": [
+    "Clay"
+   ],
+   "category": "equipment",
+   "description": "Health Equipment Recycling Organization (HERO) in Moorhead is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.herofargo.com",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-reuse-accessibility-medical-equipment",
+   "name": "Accessibility Medical Equipment (Kansas City)",
+   "org": "Accessibility Medical Equipment",
+   "state": "MO",
+   "scope": "counties",
+   "counties": [
+    "Jackson"
+   ],
+   "category": "equipment",
+   "description": "Accessibility Medical Equipment in Kansas City is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.accessibilitymedical.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-reuse-at-dme-recycling",
+   "name": "Missouri Assistive Technology DME equipment recycling program",
+   "org": "Missouri Assistive Technology",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Missouri Assistive Technology in Blue Springs is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list marks it as an equipment recycling program.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.at.mo.gov/recycling.html",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mt-reuse-eleanores-project",
+   "name": "Eleanore's Project (Missoula)",
+   "org": "Eleanore's Project, Inc.",
+   "state": "MT",
+   "scope": "counties",
+   "counties": [
+    "Missoula"
+   ],
+   "category": "equipment",
+   "description": "Eleanore's Project, Inc. in Missoula is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.eleanoresproject.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mt-reuse-roc-wheels",
+   "name": "ROC Wheels (Bozeman)",
+   "org": "ROC Wheels",
+   "state": "MT",
+   "scope": "counties",
+   "counties": [
+    "Gallatin"
+   ],
+   "category": "equipment",
+   "description": "ROC Wheels in Bozeman is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.rocwheels.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-reuse-back-in-action",
+   "name": "Back in Action (Disability Rights New Jersey)",
+   "org": "Disability Rights New Jersey",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Mercer"
+   ],
+   "category": "equipment",
+   "description": "Disability Rights New Jersey in Trenton is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://backinaction.drnj.org/home.php",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-reuse-goodwill-home-medical",
+   "name": "Goodwill Home Medical Equipment (Ewing)",
+   "org": "Goodwill Home Medical Equipment",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Mercer"
+   ],
+   "category": "equipment",
+   "description": "Goodwill Home Medical Equipment in Ewing is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.goodwillhomemedical.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-reuse-interfaith-works-cny",
+   "name": "InterFaith Works of Central New York equipment help (Syracuse)",
+   "org": "InterFaith Works of CNY",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Onondaga"
+   ],
+   "category": "equipment",
+   "description": "InterFaith Works of CNY in Syracuse is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.interfaithworkscny.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-reuse-lifenets-wheelchair-project",
+   "name": "LifeNets: The Wheelchair Project (Batavia)",
+   "org": "LifeNets",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Clermont"
+   ],
+   "category": "equipment",
+   "description": "LifeNets in Batavia is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.lifenets.org/wheelchair",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-reuse-matthews-lending-library",
+   "name": "Matthew's Lending Library (Lakewood)",
+   "org": "Matthew's Lending Library, Inc.",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Cuyahoga"
+   ],
+   "category": "equipment",
+   "description": "Matthew's Lending Library, Inc. in Lakewood is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list marks it as a lending library.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.matthewslendinglibrary.info",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reuse-changing-hands",
+   "name": "Changing Hands (UCP Central PA)",
+   "org": "UCP Central PA",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "equipment",
+   "description": "UCP Central PA in Camp Hill is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.changinghandscentralpa.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-reuse-ability-found",
+   "name": "Ability Found (Salt Lake City)",
+   "org": "Ability Found",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Salt Lake"
+   ],
+   "category": "equipment",
+   "description": "Ability Found in Salt Lake City is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.abilityfound.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-reuse-cats-atdevicesforkids",
+   "name": "Children's Assistive Technology Service, C.A.T.S.",
+   "org": "Children's Assistive Technology Service (C.A.T.S.)",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Children's Assistive Technology Service (C.A.T.S.) in Virginia is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate.",
+    "The list says it has four Virginia locations; see its contact page for addresses."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.atdevicesforkids.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-reuse-francescos-closet",
+   "name": "Francesco's Closet at Wheatland Farm (Purcellville)",
+   "org": "Francesco's Closet, Wheatland Farm",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Loudoun"
+   ],
+   "category": "equipment",
+   "description": "Francesco's Closet, Wheatland Farm in Purcellville is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.wheatlandfarm.org/francesco-s-closet",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-reuse-bridge-mobility-center",
+   "name": "The Mobility Center, Bridge Disability Ministries (Bellevue)",
+   "org": "Bridge Disability Ministries, The Mobility Center",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "King"
+   ],
+   "category": "equipment",
+   "description": "Bridge Disability Ministries, The Mobility Center in Bellevue is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://bridgemin.org/mobility/donate_equip.html",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-reuse-ms-helping-hands",
+   "name": "MS Helping Hands donor closet (Edmonds)",
+   "org": "MS Helping Hands",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "Snohomish"
+   ],
+   "category": "equipment",
+   "description": "MS Helping Hands in Edmonds is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need. The list marks it as a donor closet.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.mshh-donorcloset.com",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-reuse-katys-kloset",
+   "name": "Katy's Kloset, Team Up with Families (Waukesha)",
+   "org": "Team Up with Families",
+   "state": "WI",
+   "scope": "counties",
+   "counties": [
+    "Waukesha"
+   ],
+   "category": "equipment",
+   "description": "Team Up with Families in Waukesha is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.facebook.com/TeamUpWithFamilies",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-reuse-kindred-kids",
+   "name": "Kindred Kids Inc. (Columbus)",
+   "org": "Kindred Kids Inc.",
+   "state": "WI",
+   "scope": "counties",
+   "counties": [
+    "Columbia"
+   ],
+   "category": "equipment",
+   "description": "Kindred Kids Inc. in Columbus is listed by Rifton, an adaptive equipment maker, among organizations that take donated used adaptive equipment to refurbish and provide to people in need.",
+   "next_step": "Call or visit the website and ask what equipment is in stock, who it serves, and how to request or donate an item.",
+   "constraints": [
+    "Rifton's list does not say what this organization accepts or whom it serves; ask before you travel or donate."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in Rifton's list; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.facebook.com/kindredkids.org",
+   "url": "https://rifton.com/education-center/articles/donate-used-equipment",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-pass-it-on-center-reuse-locations",
+   "name": "Pass It On Center: AT reuse locations database",
+   "org": "Pass It On Center (Georgia Tech, national AT reuse technical assistance center)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "The national assistive technology reuse center keeps a database of reuse programs by state. Click your state or the map to see programs that refurbish, loan or give away used assistive technology and durable medical equipment.",
+   "next_step": "Open the locations page, click your state, and call the programs nearby to ask what they have and who qualifies.",
+   "constraints": [
+    "Listings are entered by the programs themselves; call to confirm what they currently have."
+   ],
+   "phone": null,
+   "phone_note": "No current phone is printed on the locations page; use the website for contact options.",
+   "email": null,
+   "web": "https://pioc.gatech.edu/pioc/reuse_locations.php",
+   "url": "https://pioc.gatech.edu/pioc/reuse_locations.php",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
