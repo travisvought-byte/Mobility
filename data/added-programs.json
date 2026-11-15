@@ -2432,6 +2432,182 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "de-dati",
+   "name": "Delaware Assistive Technology Initiative (DATI): loans and AT Exchange",
+   "org": "University of Delaware, DATI",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "DATI's Assistive Technology Resource Centers in Newark and Milford offer no-cost equipment demonstrations and short-term loans. Its AT Exchange lets people buy, sell or give away used devices through want ads.",
+   "next_step": "Call 800-870-3284 or email dati-ud@udel.edu, and contact your local resource center before visiting.",
+   "constraints": [
+    "Loans are short-term for trial use; call ahead."
+   ],
+   "phone": "800-870-3284",
+   "phone_note": null,
+   "email": "dati-ud@udel.edu",
+   "web": "https://www.dati.org/loan",
+   "url": "https://www.dati.org/loan",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "hi-atrc",
+   "name": "Assistive Technology Resource Centers of Hawaii: loan bank and AT Exchange",
+   "org": "Assistive Technology Resource Centers of Hawaii (ATRC)",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "ATRC lends assistive technology free of charge, runs equipment loan banks, an AT Exchange for trading or donating devices in good working order, and a low-interest financial loan program.",
+   "next_step": "Call (808) 532-7110 or 1-800-645-3007, or email info@atrc.org to reserve a device.",
+   "constraints": [
+    "Devices must be returned after the trial period."
+   ],
+   "phone": "(808) 532-7110",
+   "phone_note": null,
+   "email": "info@atrc.org",
+   "web": "http://www.atrc.org",
+   "url": "http://www.atrc.org",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-iatp-reuse",
+   "name": "Idaho Assistive Technology Project: reuse, lending library and AT4All",
+   "org": "Idaho Assistive Technology Project, University of Idaho",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "IATP's Reuse program provides new and gently used assistive technology and durable medical equipment at no cost to people of all ages with disabilities who cannot afford to buy new. Recipients may keep equipment as long as needed. Idaho AT4All lists equipment for sale, loan or free.",
+   "next_step": "Call 1-800-432-8324 or email idahoat@uidaho.edu to ask about reuse equipment.",
+   "constraints": [
+    "Demand exceeds inventory; ask to be matched when equipment arrives."
+   ],
+   "phone": "1-800-432-8324",
+   "phone_note": null,
+   "email": "idahoat@uidaho.edu",
+   "web": "https://idahoat.org",
+   "url": "https://idahoat.org",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nv-natc-care-chest",
+   "name": "Nevada AT Collaborative and CARE Chest: reuse and open-ended loans",
+   "org": "Nevada Assistive Technology Collaborative with CARE Chest of Sierra Nevada",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "CARE Chest of Sierra Nevada accepts gently used equipment, sanitizes and repairs it, and reassigns it by open-ended loan, including wheelchairs, shower chairs, walkers and canes. The Nevada AT Resource Centers also lend devices for short-term trials in Las Vegas and Reno.",
+   "next_step": "Call the Nevada AT Resource Center at 775-682-9070 (north) or (702) 780-4113 (south), or contact CARE Chest.",
+   "constraints": [
+    "Available equipment depends on donations."
+   ],
+   "phone": "775-682-9070",
+   "phone_note": null,
+   "email": "natrc@unr.edu",
+   "web": "https://adsd.nv.gov/layouts/Page_Style_1.aspx?id=175259",
+   "url": "https://adsd.nv.gov/layouts/Page_Style_1.aspx?id=175259",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-assistive",
+   "name": "North Dakota Assistive: equipment trial loans and AT4All reuse",
+   "org": "North Dakota Assistive",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "North Dakota Assistive offers a short-term equipment trial program and an AT4All site where devices are listed for sale, giveaway, demonstration or loan. It also runs a financial loan program.",
+   "next_step": "Call 800-895-4728 or email info@ndassistive.org.",
+   "constraints": [
+    "Trial loans are short-term; reuse listings are posted by many sources."
+   ],
+   "phone": "800-895-4728",
+   "phone_note": null,
+   "email": "info@ndassistive.org",
+   "web": "https://www.ndassistive.org",
+   "url": "https://www.ndassistive.org",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sd-dakotalink-merr",
+   "name": "DakotaLink: Medical Equipment Recycle and Reuse (MERR) and loans",
+   "org": "DakotaLink, South Dakota Assistive Technology Program",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "MERR makes wheelchairs, scooters, standers, patient lifts, gait trainers and hospital beds available at no cost to South Dakota Medicaid recipients, and for a nominal fee to others. DakotaLink also offers device loans and a financial loan fund.",
+   "next_step": "Call MERR at 605-271-5074 or 1-866-274-2594, or email Merrinfo@dakotalink.net.",
+   "constraints": [
+    "Non-Medicaid recipients pay a nominal fee."
+   ],
+   "phone": "605-271-5074",
+   "phone_note": null,
+   "email": "Merrinfo@dakotalink.net",
+   "web": "https://www.sd.at4all.com/",
+   "url": "https://www.sd.at4all.com/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-atp",
+   "name": "Vermont Assistive Technology Program: loans and AT Exchange",
+   "org": "Vermont Assistive Technology Program (DAIL)",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Vermont's program offers hands-on equipment demonstrations, device loans and a free peer-to-peer used equipment exchange at vt.at4all.com.",
+   "next_step": "Call 1-800-750-6355 or email dail.atinfo@vermont.gov.",
+   "constraints": [
+    "Exchange sales are between buyers and sellers."
+   ],
+   "phone": "1-800-750-6355",
+   "phone_note": null,
+   "email": "dail.atinfo@vermont.gov",
+   "web": "https://atp.vermont.gov",
+   "url": "https://atp.vermont.gov",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "dc-shares",
+   "name": "DC SHARES and DC Assistive Technology Program",
+   "org": "DC Assistive Technology Program (University Legal Services)",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "DC SHARES collects and distributes used manual wheelchairs, walkers, lifts, crutches, canes, commodes and shower chairs free to DC residents. The DC Assistive Technology Program also runs a device loan library, a cane and walker clinic and a financing loan program.",
+   "next_step": "Call the DC Assistive Technology Program at (202) 547-0198.",
+   "constraints": [
+    "Powered equipment is generally not collected; ask about availability."
+   ],
+   "phone": "(202) 547-0198",
+   "phone_note": null,
+   "email": null,
+   "web": "https://odr.dc.gov/book/Path/Assistive-Tech",
+   "url": "https://odr.dc.gov/book/Path/Assistive-Tech",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
