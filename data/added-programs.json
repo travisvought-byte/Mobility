@@ -4475,6 +4475,52 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-cil-directory",
+   "name": "Centers for Independent Living in Massachusetts",
+   "org": "Centers for Independent Living",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "independent_living",
+   "description": "Disability-led centers that help with equipment, home access, peer support, advocacy and moving from a facility back to the community. Centers listed for Massachusetts: Ad-Lib (Pittsfield, 413-442-7047); Boston Center for Independent Living (Boston, 617-338-6665); Cape Organization for the Rights of the Disabled (Hyannis, 508-775-8300); Disability Resource Center (Salem, 978-741-0077); Independence Associates (East Bridgewater, 508-583-2166); MetroWest Center for Independent Living (Framingham, 508-875-7853); Northeast Independent Living Program (Lawrence, 978-687-4288); Southeast Center for Independent Living (Fall River, 508-679-9210); Stavros Center for Independent Living (Amherst, 413-256-0473); Center for Living and Working (Worcester, 508-798-0350).",
+   "next_step": "Call the center nearest you, say what you need (ramp, equipment, peer support) and ask which towns or counties it serves.",
+   "constraints": [
+    "Service areas differ by center; confirm that yours covers your area.",
+    "Phone numbers come from state and directory listings; confirm before calling."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://masilc.org/cils",
+   "url": "https://masilc.org/cils",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-cil-directory",
+   "name": "Centers for Independent Living in Minnesota",
+   "org": "Centers for Independent Living",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "independent_living",
+   "description": "Disability-led centers that help with equipment, home access, peer support, advocacy and moving from a facility back to the community. Centers listed for Minnesota: Access North (Hibbing, 218-262-6675); Freedom Resource Center (Fargo, ND (serves west central MN), 800-450-0459); Independent Lifestyles (Sauk Rapids, 320-529-9000); Metropolitan Center for Independent Living (St. Paul, 651-646-8342); Options Interstate Resource Center (East Grand Forks, 218-773-6100); Southeastern Minnesota Center for Independent Living (Rochester, 507-285-1815); SMILES (Mankato, 507-345-7139); Southwestern Center for Independent Living (Marshall, 507-532-2221).",
+   "next_step": "Call the center nearest you, say what you need (ramp, equipment, peer support) and ask which towns or counties it serves.",
+   "constraints": [
+    "Service areas differ by center; confirm that yours covers your area.",
+    "Eight centers cover the state; each serves set counties."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://mcil-mn.org/services/ada-minnesota/resources/centers-for-independent-living-in-minnesota/",
+   "url": "https://mcil-mn.org/services/ada-minnesota/resources/centers-for-independent-living-in-minnesota/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
