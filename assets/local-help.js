@@ -115,6 +115,7 @@ function render(){
     const list=el('div',null,'list');for(const r of g)list.append(card(r,s));out.append(head,list);}
   const nav=$('jump');nav.textContent='';nav.hidden=jump.length<2;if(jump.length>1){nav.append(el('span','Jump to: '));for(const [k,n,c] of jump){const a=el('a',n+' ('+c+')');a.href='#cat-'+k;nav.append(a);}}
   drawNeeds(s);drawMap(s);
+  const luul=$('featured-state-wa');if(luul)luul.hidden=s.state!=='WA';
   let msg=found.length?'Showing '+found.length+(found.length===1?' program':' programs')+' for '+name+(s.county?', '+s.county+' County':'')+'.'+(s.county?' '+countyNote(found,s):''):'No programs match these choices yet for '+name+'. Try All counties or a different category, or use the Veteran Resource Guide for local contacts.';
   if(found.length&&!main.some(r=>r.state===s.state))msg='We have not added '+name+' programs to this directory yet. Showing the federal VA routes; use the national directories below to find your state’s programs.';
   if(!s.county&&!s.category&&vso.some(r=>r.state===s.state))msg+=' Choose a county to also see its veterans service office.';

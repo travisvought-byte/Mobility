@@ -21,8 +21,14 @@ details summary{cursor:pointer;font-weight:600}
 .featured-org .button.secondary{background:transparent;border:2px solid #fff}
 .featured-org .button.donate{background:var(--gold);color:#13212b}.featured-org .button.donate:hover{background:#e6c886}
 .featured-org .small{color:#e2eaed}.featured-org .actions{margin:14px 0}
+/* Light Upon Light: text wordmark (no logo file is used) */
+.featured-org[hidden]{display:none}
+.featured-org--also{margin-top:-12px}
+.featured-mark{margin:0;padding:22px 20px;border:2px solid #e7cc88;border-radius:8px;text-align:center;line-height:1.15}
+.featured-mark span{display:block;font-size:30px;font-weight:700;color:#fff;letter-spacing:.5px}
+.featured-mark small{display:block;margin-top:10px;font-size:14px;color:#e7cc88;letter-spacing:1px;text-transform:uppercase}
 @media(max-width:850px){.featured-org{grid-template-columns:1fr;gap:18px;padding:22px}.featured-logo img{max-width:280px}}
-@media print{.featured-org{background:#fff;color:#000;border:1px solid #000}.featured-org h2,.featured-org p{color:#000}.featured-org .actions{display:none}}
+@media print{.featured-mark,.featured-mark span,.featured-mark small{color:#000;border-color:#000}.featured-org{background:#fff;color:#000;border:1px solid #000}.featured-org h2,.featured-org p{color:#000}.featured-org .actions{display:none}}
 
 .needs-title{margin:0 0 10px;font-size:22px}
 .needs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}

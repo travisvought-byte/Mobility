@@ -50926,6 +50926,28 @@
    "reviewed_on": "2026-11-15",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-light-upon-light",
+   "name": "Light Upon Light: disability-inclusion education, advocacy and mentorship (Everett)",
+   "org": "Light Upon Light",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Washington 501(c)(3) nonprofit based in Everett. It works for dignity, respect, accessibility and equality for differently abled people through educational programs, advocacy, mentorship and community engagement.",
+   "next_step": "Open the website to see current programs, ask how to take part or bring an education session to your group, and find out how to support the work.",
+   "constraints": [
+    "Listing built from the organization’s public Idealist profile; confirm current programs and contact details on its website."
+   ],
+   "phone": null,
+   "phone_note": "No public phone is listed here; use the website to reach the organization.",
+   "email": null,
+   "web": "https://www.luul.org/",
+   "url": "https://www.idealist.org/en/nonprofit/2078afe201a241c1a03bb24d44ed6734-light-upon-light-everett",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
