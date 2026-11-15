@@ -2054,6 +2054,141 @@
    "reviewed_on": "2026-11-14",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "al-aptat-reuse",
+   "name": "Alabama device reuse centers (walkers, wheelchairs, DME)",
+   "org": "Alabama Department of Rehabilitation Services, APTAT",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Five community partners reuse donated walkers, wheelchairs and other durable medical equipment. Devices are available to Alabama residents regardless of income or disability status. Centers are in Montgomery, Dothan, Homewood, Huntsville and Mobile.",
+   "next_step": "Call the center nearest you to ask what is in stock, or call 1-800-441-7607.",
+   "constraints": [
+    "Stock changes; call first.",
+    "Reuse centers do not replace insurance or a clinician's fitting."
+   ],
+   "phone": "1-800-441-7607",
+   "phone_note": null,
+   "email": null,
+   "web": "https://rehab.alabama.gov/services/vr/aptat",
+   "url": "https://rehab.alabama.gov/services/vr/aptat",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "al-ability-loan",
+   "name": "Alabama Ability Loan Program",
+   "org": "Alabama Department of Rehabilitation Services, APTAT",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "A low-interest loan for assistive technology, adaptive equipment and related services, run through Alabama's Assistive Technology Act program.",
+   "next_step": "Contact APTAT to ask about eligibility and how to apply.",
+   "constraints": [
+    "It is a loan that must be repaid; terms are set by the lender."
+   ],
+   "phone": "(205) 290-4466",
+   "phone_note": null,
+   "email": null,
+   "web": "https://rehab.alabama.gov/services/vr/star",
+   "url": "https://rehab.alabama.gov/services/vr/star",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ct-tech-act",
+   "name": "Connecticut Tech Act Project: device loans, reuse and AT loans",
+   "org": "Connecticut Bureau of Rehabilitation Services",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Connecticut's Assistive Technology Act program offers hands-on device demonstrations, short-term device loans, device recycling and a low-interest assistive technology loan program.",
+   "next_step": "Call 860-803-0588 or 1-800-537-2549, or visit the project's website.",
+   "constraints": [
+    "Check current device availability and loan terms with the program."
+   ],
+   "phone": "860-803-0588",
+   "phone_note": null,
+   "email": "arlene.lugo@ct.gov",
+   "web": "https://cttechact.com",
+   "url": "https://cttechact.com",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ia-easterseals-dme-loan",
+   "name": "Easterseals Iowa equipment loan and Iowa AT Exchange",
+   "org": "Easterseals Iowa Assistive Technology Program (IPAT)",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Lends donated durable medical equipment such as hospital beds, wheelchairs and bathroom devices for as long as needed. Also runs a device lending library and a free classified-style exchange for used assistive technology.",
+   "next_step": "Call 1-866-866-8782 or email atinfo@eastersealsia.org to ask about equipment or arrange pickup or shipping.",
+   "constraints": [
+    "Not an emergency program, and it does not repair equipment.",
+    "Donated equipment varies in availability."
+   ],
+   "phone": "1-866-866-8782",
+   "phone_note": null,
+   "email": "atinfo@eastersealsia.org",
+   "web": "https://easterseals.com/ia/our-programs/assistive-technology-center",
+   "url": "https://easterseals.com/ia/our-programs/assistive-technology-center",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "la-latan",
+   "name": "LATAN: AT Marketplace reuse, device loans and financial loans",
+   "org": "Louisiana Assistive Technology Access Network",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Louisiana's Assistive Technology Act program runs a reuse marketplace for items such as wheelchairs, walkers and bath chairs, short-term device loans, demonstrations, and loan options for assistive technology and vehicles.",
+   "next_step": "Call 225-925-9500 or visit latan.org to browse the marketplace or ask about a loan.",
+   "constraints": [
+    "Availability varies; ask about eligibility for each service."
+   ],
+   "phone": "225-925-9500",
+   "phone_note": null,
+   "email": "info@latan.org",
+   "web": "https://www.latan.org",
+   "url": "https://www.latan.org",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ok-able-tech-reuse",
+   "name": "Oklahoma ABLE Tech Device Reutilization Program",
+   "org": "Oklahoma ABLE Tech (Oklahoma State University)",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Refurbishes and reassigns gently used durable medical equipment at no cost to Oklahomans, working with the Oklahoma Health Care Authority. SoonerCare members get priority. ABLE Tech also offers short-term device loans and a 5% financial loan program.",
+   "next_step": "Email atreuse@okstate.edu or call 405-967-6010 to ask about available equipment.",
+   "constraints": [
+    "Supply depends on donations.",
+    "SoonerCare members are served first."
+   ],
+   "phone": "405-967-6010",
+   "phone_note": null,
+   "email": "atreuse@okstate.edu",
+   "web": "https://www.okabletech.org",
+   "url": "https://www.okabletech.org",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
