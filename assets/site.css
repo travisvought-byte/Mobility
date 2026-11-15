@@ -35,3 +35,4 @@ details summary{cursor:pointer;font-weight:600}
 .badge.warn{background:#fbefd0;color:#6b4b00;margin-left:6px}
 @media print{.needs,.needs-title,.tools,.jump{display:none}}
 .card .badge{align-self:flex-start}.card .badge.warn{margin-left:0}
+.rtr{border-left:6px solid #bb8e36}.rtr .eyebrow{margin:0 0 4px}

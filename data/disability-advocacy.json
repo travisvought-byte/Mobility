@@ -75,9 +75,9 @@
   "topics": [
     {
       "id": "repair",
-      "title": "Repair and adapt equipment",
+      "title": "Right to repair and right to modify",
       "tag": "Parts, tools and repair choice",
-      "summary": "The Mobility Independence Foundation (MIF) promotes open-source mobility designs that users and technicians can repair, adapt and improve. This is an advocacy goal, not a statement that every device already has a legal right to repair.",
+      "summary": "Several states have enacted wheelchair repair laws and a federal bill has been introduced, but protections differ by state and device. MIF promotes open-source designs that users and technicians can repair, modify and improve.",
       "sources": [
         "mif"
       ],
