@@ -2299,6 +2299,139 @@
    "reviewed_on": "2026-11-14",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ne-atp-reuse",
+   "name": "Nebraska ATP: device loans and ReUse Network",
+   "org": "Nebraska Assistive Technology Partnership",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Nebraska's state assistive technology program demonstrates and loans equipment and runs a ReUse program where donated assistive technology and durable medical equipment is given away at no charge. Offices are in Lincoln, Omaha, Columbus, Kearney and Scottsbluff.",
+   "next_step": "Call (877) 713-4402 or email atp@nebraska.gov, or browse equipment on AT4ALL.",
+   "constraints": [
+    "Loans and services are by appointment; reuse stock varies."
+   ],
+   "phone": "(877) 713-4402",
+   "phone_note": null,
+   "email": "atp@nebraska.gov",
+   "web": "https://atp.nebraska.gov",
+   "url": "https://atp.nebraska.gov",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ms-project-start",
+   "name": "Mississippi Project START: device loan and reutilization",
+   "org": "Mississippi Department of Rehabilitation Services",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Project START lends devices for a short-term trial and refurbishes donated durable medical equipment, giving it free to Mississippians with disabilities or chronic health issues. Its demonstration center and loan library are in Madison.",
+   "next_step": "Call 601-853-5249 or email projectstart@mdrs.ms.gov, and complete the application for services.",
+   "constraints": [
+    "Reuse equipment is for people with no other readily available source.",
+    "Loan periods vary by device."
+   ],
+   "phone": "601-853-5249",
+   "phone_note": null,
+   "email": "projectstart@mdrs.ms.gov",
+   "web": "https://www.mdrs.ms.gov/assistive-technology/project-start",
+   "url": "https://www.mdrs.ms.gov/assistive-technology/project-start",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mt-montech",
+   "name": "MonTECH: free equipment loans, reuse exchange and adaptive trikes",
+   "org": "MonTECH, University of Montana Rural Institute",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "MonTECH lends assistive devices free for 30, 90 or 180 days and ships most items anywhere in Montana at no charge. It also runs a free reuse exchange, adaptive trike loans in five communities, and a financial loan program with Rural Dynamics.",
+   "next_step": "Call (406) 243-5511 or email montech@mso.umt.edu, or request a loan on the MonTECH site.",
+   "constraints": [
+    "Exchange listings are between buyers and sellers directly."
+   ],
+   "phone": "(406) 243-5511",
+   "phone_note": null,
+   "email": "montech@mso.umt.edu",
+   "web": "https://montech.ruralinstitute.umt.edu/",
+   "url": "https://montech.ruralinstitute.umt.edu/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nh-atinnh-reuse",
+   "name": "ATinNH: loans, demonstrations and equipment reuse",
+   "org": "Assistive Technology in New Hampshire, UNH Institute on Disability",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "ATinNH runs a refurbish and reuse network with partners that offer long-term loans of donated equipment, such as the Chapin Senior Center in New London. AT4All NH lists equipment for loan, demonstration and reuse.",
+   "next_step": "Call 603-397-7251 or email nh.at4all@unh.edu, or browse the AT4All NH database.",
+   "constraints": [
+    "Availability varies and inventories change often."
+   ],
+   "phone": "603-397-7251",
+   "phone_note": null,
+   "email": "nh.at4all@unh.edu",
+   "web": "https://iod.unh.edu/ATinNH",
+   "url": "https://iod.unh.edu/ATinNH",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wy-watr",
+   "name": "Wyoming Assistive Technology Resources: loans and reuse",
+   "org": "Wyoming Institute for Disabilities, University of Wyoming",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "WATR lends a wide variety of assistive devices to Wyoming residents and runs a reuse program where lightly used devices and durable medical equipment can be exchanged, bought or donated. Listings are on Wyoming AT4ALL.",
+   "next_step": "Fill out the device loan request form, or call (307) 766-6187 or email watr@uwyo.edu.",
+   "constraints": [
+    "Reuse items may carry a modest price; check each listing."
+   ],
+   "phone": "(307) 766-6187",
+   "phone_note": null,
+   "email": "watr@uwyo.edu",
+   "web": "https://www.uwyo.edu/wind/watr/device_demonstrations.html",
+   "url": "https://www.uwyo.edu/wind/watr/device_demonstrations.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ri-atap",
+   "name": "Rhode Island Assistive Technology Access Partnership (ATAP)",
+   "org": "RI Office of Rehabilitation Services with TechACCESS of RI and OSCIL",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "ATAP is a statewide partnership offering device demonstrations, equipment loans and reuse of items such as hospital beds. Partners include TechACCESS of RI and the Ocean State Center for Independent Living.",
+   "next_step": "Visit the ATAP page to find the partner for your need.",
+   "constraints": [
+    "Some partner programs, such as the telephone equipment loan, have eligibility rules."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://ors.ri.gov/programs/assistive-technology-access-partnership-atap",
+   "url": "https://ors.ri.gov/programs/assistive-technology-access-partnership-atap",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
