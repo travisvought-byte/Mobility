@@ -3582,6 +3582,209 @@
    "reviewed_on": "2026-11-15",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-pva-peer-support-nso",
+   "name": "Paralyzed Veterans of America: peer support and national service officers",
+   "org": "Paralyzed Veterans of America",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Congressionally chartered veterans organization for veterans with spinal cord injury or disease, including MS and ALS. Chapters offer peer support, adaptive sports and social events, and national service officers help with VA claims.",
+   "next_step": "Call the PVA benefits helpline or use the find-a-service-officer page.",
+   "constraints": [
+    "Membership is for veterans with spinal cord injury or disease."
+   ],
+   "phone": "1-866-734-0857",
+   "phone_note": null,
+   "email": null,
+   "web": "https://pva.org/Find-Support",
+   "url": "https://pva.org/Find-Support",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "de-colonial-pva",
+   "name": "Colonial Chapter, Paralyzed Veterans of America",
+   "org": "Colonial Chapter of the Paralyzed Veterans of America",
+   "state": "DE",
+   "scope": "counties",
+   "counties": [
+    "New Castle",
+    "Kent",
+    "Sussex"
+   ],
+   "category": "peer_support",
+   "description": "Chapter serving veterans with spinal cord injury or disease, MS or ALS and their families and caregivers. Offers peer support, virtual support groups, adaptive sports and a paid career fellowship.",
+   "next_step": "Contact the chapter through the Delaware veterans service listing.",
+   "constraints": [
+    "Serves veterans with SCI/D, MS or ALS."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://vets.delaware.gov/djf/service-index/colonial-chapter-of-the-paralyzed-veterans-of-america/",
+   "url": "https://vets.delaware.gov/djf/service-index/colonial-chapter-of-the-paralyzed-veterans-of-america/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-nmss-support-groups",
+   "name": "National MS Society: support groups, peer connections and MS Navigators",
+   "org": "National Multiple Sclerosis Society",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Self-help support groups (in person, online and hybrid), one-on-one peer connections and MS Navigators who help find equipment and other resources. The Society does not run a national equipment loan closet.",
+   "next_step": "Call 1-800-344-4867 to reach an MS Navigator or search for local groups.",
+   "constraints": [
+    "Local loan closets exist only at some chapters."
+   ],
+   "phone": "1-800-344-4867",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.NationalMSSociety.org/Resources-Support/Find-Support/Join-a-Local-Support-Group",
+   "url": "https://www.NationalMSSociety.org/Resources-Support/Find-Support/Join-a-Local-Support-Group",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-asa-stroke-support-groups",
+   "name": "American Stroke Association: support group finder and Stroke Family Warmline",
+   "org": "American Stroke Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Searchable registry of in-person and online stroke support groups, plus a Warmline that connects survivors and families with a team member for support and information.",
+   "next_step": "Search the support group finder by zip code, or call the Stroke Family Warmline.",
+   "constraints": [
+    "Registry groups are independent of the American Stroke Association."
+   ],
+   "phone": "1-888-478-7653",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.stroke.org/en/help-and-support/for-family-caregivers/resources-for-stroke-survivors",
+   "url": "https://www.stroke.org/en/help-and-support/for-family-caregivers/resources-for-stroke-survivors",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-biaa-support-groups",
+   "name": "Brain Injury Association of America: help finding state support groups",
+   "org": "Brain Injury Association of America",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "National organization that can tell you which brain injury support groups are available in your state and offers virtual support groups.",
+   "next_step": "Call the helpline or use the virtual groups page.",
+   "constraints": [
+    "Confirm that the group is active before attending."
+   ],
+   "phone": "1-800-444-6443",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.brainline.org/dchub/support-groups",
+   "url": "https://www.brainline.org/dchub/support-groups",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-mda-support-groups",
+   "name": "Muscular Dystrophy Association: community support groups",
+   "org": "Muscular Dystrophy Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Adult and pediatric support groups for people affected by muscular dystrophy, ALS and related neuromuscular diseases, plus young adult programs and care centers.",
+   "next_step": "Contact the MDA Resource Center to join a group.",
+   "constraints": [
+    "Groups run by chapter; check availability for your area."
+   ],
+   "phone": "1-833-275-6321",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.mda.org/services/equipment-assistance/",
+   "url": "https://www.mda.org/services/equipment-assistance/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-mda-dme-grant",
+   "name": "MDA Durable Medical Equipment Grant Program",
+   "org": "Muscular Dystrophy Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "Grant program that helps reduce the cost of mobility aids, lift chairs and other durable medical equipment for people living with neuromuscular diseases. Many people learn of it through an MDA Care Center.",
+   "next_step": "Apply through the MDA equipment assistance page or call the Resource Center.",
+   "constraints": [
+    "For people with neuromuscular diseases served by MDA."
+   ],
+   "phone": "1-833-275-6321",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.mda.org/care/resource-list/equipment-assistance/faq",
+   "url": "https://www.mda.org/care/resource-list/equipment-assistance/faq",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-als-association-dme-loan",
+   "name": "ALS Association equipment loan closets",
+   "org": "ALS Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "Local ALS Association chapters keep loan closets of used and donated equipment, from bath benches to power wheelchairs, for people living with ALS. The Association is building a nationwide equipment program with a shared inventory.",
+   "next_step": "Contact your ALS Association care team to request equipment.",
+   "constraints": [
+    "For people living with ALS; a diagnosis may need to be confirmed.",
+    "Each chapter sets its own rules."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.als.org/support/programs/durable-medical-equipment-loan-program-3",
+   "url": "https://www.als.org/support/programs/durable-medical-equipment-loan-program-3",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ct-alsa-equipment-loan",
+   "name": "ALS Association Connecticut Chapter equipment loan program",
+   "org": "ALS Association Connecticut Chapter",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Loans durable medical equipment to people registered with the chapter and accepts new and gently used donated equipment.",
+   "next_step": "Call the chapter regional care manager at 203-874-5050.",
+   "constraints": [
+    "Must be registered with the chapter."
+   ],
+   "phone": "203-874-5050",
+   "phone_note": null,
+   "email": null,
+   "web": "https://sites.google.com/view/alsactcareservices/equipment-loan-closet",
+   "url": "https://sites.google.com/view/alsactcareservices/equipment-loan-closet",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
