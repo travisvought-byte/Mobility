@@ -15959,6 +15959,50 @@
    "phone_note": "Island intake and eligibility office",
    "url": "https://health.hawaii.gov/ddd/about/contact/",
    "record_status": "official_source_reviewed"
+  },
+  {
+   "id": "me-oads-intake",
+   "name": "Maine adult developmental services: intake and eligibility (3 regional offices)",
+   "org": "Maine Department of Health and Human Services, Office of Aging and Disability Services",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "To apply for adult developmental disability services, apply for MaineCare if you do not have it, complete the application packet with a comprehensive evaluation and adaptive behavior scale, and send it to intake. An intake coordinator contacts you within ten days. Eligible people get a list of case management agencies. Regional intake offices: Lewiston 207-795-4664, Augusta 207-624-8068 and Bangor 207-561-4380.",
+   "next_step": "Call the regional intake supervisor, or email your completed application packet.",
+   "constraints": [
+    "Adults 18 and older with an intellectual disability or autism that began before age 22."
+   ],
+   "phone": "207-624-8068",
+   "phone_note": "Augusta regional office; Lewiston 207-795-4664, Bangor 207-561-4380",
+   "email": "DSIntake.OADS@maine.gov",
+   "web": null,
+   "url": "https://www.maine.gov/dhhs/oads/get-support/adults-intellectual-disability-and-autism/intake-and-eligibility",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ri-bhddh-ddd",
+   "name": "Rhode Island Division of Developmental Disabilities: eligibility and application (statewide)",
+   "org": "Rhode Island Department of Behavioral Healthcare, Developmental Disabilities and Hospitals",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "You apply to the Division of Developmental Disabilities for adult services. Students can apply 2 months before their 17th birthday, and a decision comes within 30 days of a complete application. You also need Medicaid eligibility to start services. The Rhode Island Parent Information Network can help you fill out the application at 401-270-0101.",
+   "next_step": "Call the Eligibility Unit to get an application or ask questions.",
+   "constraints": [
+    "Adults 18 and older with an intellectual or developmental disability diagnosed before age 22."
+   ],
+   "phone": "401-462-3421",
+   "phone_note": "Eligibility Unit, Cranston; Spanish line 401-462-3014",
+   "email": "BHDDH.AskDD@bhddh.ri.gov",
+   "web": null,
+   "url": "https://bhddh.ri.gov/developmental-disabilities/eligibility-and-application",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
