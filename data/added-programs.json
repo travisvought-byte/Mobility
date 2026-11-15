@@ -13690,6 +13690,521 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nh-area-agencies",
+   "name": "New Hampshire area agencies for developmental services (10 regions, find your town)",
+   "org": "New Hampshire Department of Health and Human Services, Bureau of Developmental Services",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "New Hampshire has 10 area agencies, each covering a set of towns. They are the local starting point for developmental services. Region 1 Northern Human Services 603-447-3347; Region 2 PathWays of the River Valley 603-542-8706; Region 3 Lakes Region Community Services 603-524-8811; Region 4 Community Bridges 603-225-4153; Region 5 Monadnock Developmental Services 603-352-1304; Region 6 Gateways Community Services 603-882-6333; Region 7 The Moore Center 603-206-2700; Region 8 One Sky Community Services 603-436-6111; Region 9 Community Partners 603-516-9300; Region 10 Community Crossroads 603-893-1299.",
+   "next_step": "Find your town on the state town-and-region list, then call that area agency. Call the Bureau of Developmental Services if you are not sure which one covers you.",
+   "constraints": [
+    "The area agency is set by town, not county."
+   ],
+   "phone": "603-271-5034",
+   "phone_note": "Bureau of Developmental Services; toll-free 800-852-3345 ext. 5034",
+   "email": null,
+   "web": null,
+   "url": "https://www.dhhs.nh.gov/programs-services/disability-care/area-agencies",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-addison",
+   "name": "Counseling Service of Addison County (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Addison"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-388-4021",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-bennington",
+   "name": "United Counseling Service, Inc. (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Bennington"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-442-5491",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-northeast-kingdom",
+   "name": "Northeast Kingdom Human Services, Inc. (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Caledonia",
+    "Essex",
+    "Orleans"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-334-6744",
+   "phone_note": "Caledonia County: 802-748-3181 or 800-649-0118",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-chittenden",
+   "name": "HowardCenter (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Chittenden"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-488-6500",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-northwestern",
+   "name": "Northwestern Counseling and Support Services, Inc. (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Franklin",
+    "Grand Isle"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-524-6554",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-lamoille",
+   "name": "Lamoille County Mental Health (Lamoille Community Connections) (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Lamoille"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-888-5026",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-upper-valley",
+   "name": "Upper Valley Services, Inc. (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Orange"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-728-4476",
+   "phone_note": "Randolph office; Bradford office 802-222-9235",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-rutland",
+   "name": "Rutland Mental Health Services, Inc. (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Rutland"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-775-0828",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-washington",
+   "name": "Washington County Mental Health Services, Inc. (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Washington"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-479-2502",
+   "phone_note": "Designated Agency line, from the state DA list",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-da-southeastern",
+   "name": "Health Care and Rehabilitation Services of Southeastern Vermont (Designated Agency)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living, Designated Agency",
+   "state": "VT",
+   "scope": "counties",
+   "counties": [
+    "Windham",
+    "Windsor"
+   ],
+   "category": "dd_board",
+   "description": "Designated Agency for developmental disabilities services. The state designates one agency in each region to ensure needed services are available through local planning, service coordination and monitoring.",
+   "next_step": "To apply for developmental disabilities services, call the Designated Agency for your county.",
+   "constraints": [
+    "Services depend on eligibility and funding."
+   ],
+   "phone": "802-886-4567",
+   "phone_note": "Windsor County line; Windham County 802-257-5537",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "vt-ddsd-statewide",
+   "name": "Vermont Developmental Disabilities Services Division (statewide)",
+   "org": "Vermont Department of Disabilities, Aging and Independent Living",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State division that oversees developmental disabilities services through 10 Designated Agencies and specialized service agencies. Apply through the Designated Agency for your county.",
+   "next_step": "Call the division, or the Designated Agency for your county.",
+   "constraints": [],
+   "phone": "802-241-0304",
+   "phone_note": "Division office, Waterbury",
+   "email": null,
+   "web": null,
+   "url": "https://ddsd.vermont.gov/designated-agencies-da",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nv-src",
+   "name": "Sierra Regional Center (Washoe County)",
+   "org": "Nevada Aging and Disability Services Division, Developmental Services",
+   "state": "NV",
+   "scope": "counties",
+   "counties": [
+    "Washoe"
+   ],
+   "category": "dd_board",
+   "description": "Regional center that serves people of all ages with intellectual and developmental disabilities in Washoe County. It handles applications, eligibility and service coordination.",
+   "next_step": "Call the regional center to apply for developmental services.",
+   "constraints": [
+    "Eligibility is for an intellectual or closely related developmental disability that began before age 22."
+   ],
+   "phone": "775-687-2600",
+   "phone_note": "Sierra Regional Center",
+   "email": null,
+   "web": null,
+   "url": "https://www.adsd.nv.gov/programs/developmental-services/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nv-drc",
+   "name": "Desert Regional Center (Clark County)",
+   "org": "Nevada Aging and Disability Services Division, Developmental Services",
+   "state": "NV",
+   "scope": "counties",
+   "counties": [
+    "Clark"
+   ],
+   "category": "dd_board",
+   "description": "Regional center that serves people of all ages with intellectual and developmental disabilities in Clark County, except the outlying rural areas. It handles applications, eligibility and service coordination.",
+   "next_step": "Call the regional center to apply for developmental services.",
+   "constraints": [
+    "Eligibility is for an intellectual or closely related developmental disability that began before age 22."
+   ],
+   "phone": "702-486-7850",
+   "phone_note": "Desert Regional Center, community services and intake",
+   "email": null,
+   "web": null,
+   "url": "https://www.adsd.nv.gov/programs/developmental-services/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nv-rrc",
+   "name": "Rural Regional Center (rural Nevada)",
+   "org": "Nevada Aging and Disability Services Division, Developmental Services",
+   "state": "NV",
+   "scope": "counties",
+   "counties": [
+    "Carson City",
+    "Churchill",
+    "Douglas",
+    "Elko",
+    "Esmeralda",
+    "Eureka",
+    "Humboldt",
+    "Lander",
+    "Lincoln",
+    "Lyon",
+    "Mineral",
+    "Nye",
+    "Pershing",
+    "Storey",
+    "White Pine",
+    "Clark"
+   ],
+   "category": "dd_board",
+   "description": "Regional center that serves all rural Nevada counties and most of the outlying rural areas of Clark County. Offices are in Carson City, Elko, Fallon, Fernley, Gardnerville, Winnemucca and other rural towns.",
+   "next_step": "Call the regional center to apply for developmental services.",
+   "constraints": [
+    "In Clark County this covers only the outlying rural areas. Eligibility is for a disability that began before age 22."
+   ],
+   "phone": "775-687-5162",
+   "phone_note": "Rural Regional Center, Carson City",
+   "email": null,
+   "web": null,
+   "url": "https://www.adsd.nv.gov/programs/developmental-services/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ne-ddsc-kearney",
+   "name": "Nebraska DD Service Coordination: Kearney",
+   "org": "Nebraska Department of Health and Human Services, Developmental Disabilities",
+   "state": "NE",
+   "scope": "counties",
+   "counties": [
+    "Adams",
+    "Blaine",
+    "Buffalo",
+    "Clay",
+    "Custer",
+    "Franklin",
+    "Furnas",
+    "Garfield",
+    "Greeley",
+    "Hall",
+    "Hamilton",
+    "Harlan",
+    "Howard",
+    "Kearney",
+    "Loup",
+    "Merrick",
+    "Nuckolls",
+    "Phelps",
+    "Sherman",
+    "Valley",
+    "Webster",
+    "Wheeler"
+   ],
+   "category": "dd_board",
+   "description": "State service coordination office that determines eligibility for specialized developmental disability services, authorizes services for eligible people, and gives information and referral.",
+   "next_step": "Call the office and ask about eligibility for developmental disability services.",
+   "constraints": [
+    "Mental illness alone does not qualify. Eligibility is determined by service coordinators."
+   ],
+   "phone": "308-865-5592",
+   "phone_note": "Kearney office; toll-free 800-779-4855",
+   "email": null,
+   "web": null,
+   "url": "https://cap.nebraska.gov/agencies/952",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ne-ddsc-north-platte",
+   "name": "Nebraska DD Service Coordination: North Platte",
+   "org": "Nebraska Department of Health and Human Services, Developmental Disabilities",
+   "state": "NE",
+   "scope": "counties",
+   "counties": [
+    "Banner",
+    "Box Butte",
+    "Chase",
+    "Cheyenne",
+    "Dawes",
+    "Dawson",
+    "Deuel",
+    "Dundy",
+    "Frontier",
+    "Furnas",
+    "Garden",
+    "Gosper",
+    "Grant",
+    "Hayes",
+    "Hitchcock",
+    "Hooker",
+    "Keith",
+    "Kimball",
+    "Lincoln",
+    "Logan",
+    "McPherson",
+    "Morrill",
+    "Perkins",
+    "Red Willow",
+    "Scotts Bluff",
+    "Sheridan",
+    "Sioux",
+    "Thomas",
+    "Arthur"
+   ],
+   "category": "dd_board",
+   "description": "State service coordination office that determines eligibility for specialized developmental disability services, authorizes services for eligible people, and gives information and referral.",
+   "next_step": "Call the office and ask about eligibility for developmental disability services.",
+   "constraints": [
+    "Mental illness alone does not qualify. Eligibility is determined by service coordinators."
+   ],
+   "phone": "308-535-8200",
+   "phone_note": "North Platte office; toll-free 800-778-1611",
+   "email": null,
+   "web": null,
+   "url": "https://cap.nebraska.gov/agencies/957",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ne-ddsc-omaha",
+   "name": "Nebraska DD Service Coordination: Omaha",
+   "org": "Nebraska Department of Health and Human Services, Developmental Disabilities",
+   "state": "NE",
+   "scope": "counties",
+   "counties": [
+    "Douglas",
+    "Sarpy"
+   ],
+   "category": "dd_board",
+   "description": "State service coordination office that determines eligibility for specialized developmental disability services, authorizes services for eligible people, and gives information and referral.",
+   "next_step": "Call the office and ask about eligibility for developmental disability services.",
+   "constraints": [
+    "Mental illness alone does not qualify. Eligibility is determined by service coordinators."
+   ],
+   "phone": "402-417-3461",
+   "phone_note": "Omaha office",
+   "email": null,
+   "web": null,
+   "url": "https://cap.nebraska.gov/agencies/931/pdf_single",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ne-dd-statewide",
+   "name": "Nebraska Hotline for Disability Services (statewide)",
+   "org": "Nebraska Client Assistance Program",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State hotline that connects people to developmental disability service coordination offices and other disability services. The state lists service coordination offices in many towns across Nebraska.",
+   "next_step": "Call the hotline and ask for the developmental disability service coordination office for your county.",
+   "constraints": [],
+   "phone": "800-742-7594",
+   "phone_note": "Hotline for Disability Services, toll-free",
+   "email": null,
+   "web": null,
+   "url": "https://cap.nebraska.gov/agencies/957/pdf_single",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
