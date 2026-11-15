@@ -50836,6 +50836,96 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-hud-fair-housing-complaint",
+   "name": "HUD fair housing complaint and hotline: denied accommodation or modification (ramps, rails, accessible parking)",
+   "org": "U.S. Department of Housing and Urban Development, Fair Housing and Equal Opportunity",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "rights_legal",
+   "description": "HUD takes housing discrimination complaints, including when a landlord or housing provider refuses a reasonable accommodation or modification for a disability. HUD guidance gives examples such as allowing a service animal or providing an accessible parking space. HUD also says it is illegal for a housing provider to act against you because you filed a complaint.",
+   "next_step": "Write down what you asked for and how the provider answered, keep copies, and say how the change connects to your disability. Then report it on the HUD page or call the hotline, or contact a local fair housing center.",
+   "constraints": [
+    "Complaints to HUD are generally filed within one year of the discrimination; confirm the deadline with HUD.",
+    "In private housing the tenant may have to pay for a requested modification such as a ramp, while the landlord pays for an accommodation; ask HUD or a fair housing center about your case."
+   ],
+   "phone": "800-669-9777",
+   "phone_note": "HUD National Discrimination Hotline, English and Spanish; Federal Relay 800-877-8339 (TTY 800-927-9275 is also published)",
+   "email": null,
+   "web": "https://www.hud.gov/fairhousing/fileacomplaint",
+   "url": "https://www.hud.gov/sites/dfiles/FHEO/images/MD%20Fact%20Sheet%20-%20Individuals.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-medicare-equipment-repair",
+   "name": "Medicare equipment problems: repairs, rental supplier duties and replacement after a disaster",
+   "org": "Centers for Medicare & Medicaid Services (1-800-MEDICARE)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "equipment",
+   "description": "The official Medicare booklet on durable medical equipment says that if you own your equipment, the supplier that sold it is not required to repair it, and you can look for a supplier that can maintain or repair it on the Medicare site. If you rent equipment, the supplier must maintain and repair it, answer your calls, and service, repair or replace it when needed. If Original Medicare already paid for equipment such as a wheelchair or walker that was damaged or lost in an emergency or disaster, Medicare will in most cases cover the cost to repair or replace it.",
+   "next_step": "Call 1-800-MEDICARE, say whether you own or rent the equipment and what is broken, and ask for suppliers that can repair it. If a rental supplier will not answer or fix it, ask Medicare how to report that.",
+   "constraints": [
+    "Applies to Original Medicare; if you have a Medicare Advantage plan, ask the plan about its supplier and coverage rules.",
+    "Coverage rules, prior authorization and replacement limits change; confirm on Medicare.gov before you rely on this."
+   ],
+   "phone": "800-633-4227",
+   "phone_note": "1-800-MEDICARE; TTY 877-486-2048",
+   "email": null,
+   "web": "https://www.medicare.gov/medical-equipment-suppliers",
+   "url": "https://www.ncdoi.gov/media/2450/open",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-medicare-rights-center",
+   "name": "Medicare Rights Center helpline: denials and suppliers who will not repair or replace equipment",
+   "org": "Medicare Rights Center (national nonprofit)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "navigation",
+   "description": "The Medicare Rights Center runs a national consumer helpline. Its advocacy toolkit says more than 500 clients a year contact it about getting durable medical equipment, including coverage denials and suppliers who refuse to repair or replace broken equipment.",
+   "next_step": "Call the helpline with your Medicare details and the equipment problem, and ask what appeal or complaint step fits your situation.",
+   "constraints": [
+    "It gives guidance and advocacy support; it does not provide or repair equipment."
+   ],
+   "phone": "800-333-4114",
+   "phone_note": "National consumer helpline",
+   "email": null,
+   "web": "https://www.medicareinteractive.org/",
+   "url": "https://www.medicareinteractive.org/pdf/Medicare-Advocacy-Toolkit-Power-Wheelchairs.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "us-ship-medicare-counseling",
+   "name": "State Health Insurance Assistance Program (SHIP): free local Medicare counseling",
+   "org": "State Health Insurance Assistance Programs",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "navigation",
+   "description": "Every state has a SHIP that can explain Medicare coverage of durable medical equipment and other benefits. The national SHIP site lists a toll-free number and a state-by-state locator.",
+   "next_step": "Call the national number or open the SHIP site, choose your state, and ask a counselor how Medicare covers the equipment you need or a denial you received.",
+   "constraints": [
+    "Counseling is about Medicare coverage and plans; it is not a source of equipment funding."
+   ],
+   "phone": "877-839-2675",
+   "phone_note": "National SHIP number as listed by the National Council on Aging",
+   "email": null,
+   "web": "https://www.shiphelp.org/",
+   "url": "https://ncoa.org/article/durable-medical-equipment-whats-covered-by-medicare",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
