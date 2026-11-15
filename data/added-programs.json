@@ -1545,6 +1545,307 @@
    "reviewed_on": "2026-11-14",
    "record_status": "news_reported",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-atac",
+   "name": "Richard West Assistive Technology Advocacy Center",
+   "org": "Disability Rights New Jersey",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "New Jersey's Assistive Technology Act program. It provides information, device demonstration and lending, advocacy and technical assistance on assistive technology, and runs Back In Action, which puts unused equipment into the hands of someone who can use it.",
+   "next_step": "Call the center to ask about borrowing or trying a device, or to get help with an assistive technology denial.",
+   "constraints": [
+    "Open to people with disabilities, their families and representatives."
+   ],
+   "phone": "800-922-7233",
+   "phone_note": null,
+   "email": null,
+   "web": "https://at4nj.org",
+   "url": "https://catada.info/apr_reports25/newjersey_2025",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-pluckemin-equipment",
+   "name": "Medical equipment loan ministry",
+   "org": "Pluckemin Presbyterian Church",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Somerset"
+   ],
+   "category": "equipment",
+   "description": "Lends gently used medical equipment to the public, and you do not need to belong to the church to borrow.",
+   "next_step": "Call 908-396-6057 to ask about available equipment.",
+   "constraints": [
+    "Church-run volunteer program. Confirm hours and what is in stock."
+   ],
+   "phone": "908-396-6057",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/New-Jersey-Disability-Resources-2-24-A.pdf",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-mdtap",
+   "name": "Maryland Technology Assistance Program (MDTAP)",
+   "org": "Maryland Department of Disabilities",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Maryland's assistive technology program. It offers device demonstrations, short-term loans, reuse, training and a low-interest loan program for items such as wheelchairs, scooters, vehicles and home modifications. Regional libraries are at Baltimore, the Eastern Shore, Southern Maryland and the centers for independent living.",
+   "next_step": "Call MDTAP or visit mdtap.org to book a demonstration, borrow a device or ask about a loan.",
+   "constraints": [
+    "Loan terms and rates change; confirm current terms with MDTAP."
+   ],
+   "phone": "800-832-4827",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.mdtap.org",
+   "url": "https://mdod.maryland.gov/mdtap/Pages/Mission.aspx",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-portable-ramps",
+   "name": "Portable ramp loan project",
+   "org": "MDTAP with Maryland centers for independent living",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "MDTAP partners with centers for independent living across Maryland to loan portable ramps to people who need a short-term way in and out of a home. Ramps can be loaned for up to four months.",
+   "next_step": "Contact your local center for independent living, or MDTAP, to ask which ramps are available.",
+   "constraints": [
+    "Short-term loan, up to four months. Availability varies by center."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://211md.org/?p=4093",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-aging-reuse",
+   "name": "Maryland Department of Aging Equipment Reuse Program",
+   "org": "Maryland Department of Aging",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Provides sanitized and repaired durable medical equipment at no cost to Marylanders with any illness, injury or disability, regardless of age.",
+   "next_step": "Contact the Maryland Department of Aging to ask how to request equipment.",
+   "constraints": [
+    "Described in an MDTAP presentation. Confirm current process and inventory."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://montgomerycountymd.gov/HHS-Program/Resources/Files/A%26D%20Docs/CPWD/MDTAPGeneralPPT.pdf",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-home-mod-guide",
+   "name": "Maryland Home Modifications Guide",
+   "org": "Maryland Department of Disabilities",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "A state guide to home modification help in Maryland. It lists programs such as Baltimore County BCAUSE, the Housing Accessibility Modification Program, Howard County's renovation program, matching grants through the seven centers for independent living, volunteer groups like Rebuilding Together and Habitat for Humanity, and tips on finding a contractor.",
+   "next_step": "Read the guide, then contact the program in your county.",
+   "constraints": [
+    "Program availability and rules vary by county."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://mdod.maryland.gov/mdtap/Documents/Maryland%20Home%20Modifications%20Guide%202025.docx",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-star",
+   "name": "STAR Program (System of Technology to Achieve Results)",
+   "org": "Minnesota Department of Administration",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Minnesota's assistive technology program. It lends medical equipment and assistive technology at no cost for a set loan period, runs demonstrations and reuse services, and serves people of all ages. No proof of disability is required.",
+   "next_step": "Call or email STAR to borrow a device or find used equipment.",
+   "constraints": [
+    "Loans are time-limited; short-term loans are 45 days or less."
+   ],
+   "phone": "651-201-2640",
+   "phone_note": null,
+   "email": null,
+   "web": "https://mn.gov/admin/star/",
+   "url": "https://mn.gov/admin/star/program-services/device-loan",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-accessible-loan",
+   "name": "Emergency and Accessibility Loan Program",
+   "org": "Minnesota Housing Finance Agency",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Helps low-income homeowners pay for accessibility needs of a household member with a disability, or for emergency repairs. The maximum loan is $27,000.",
+   "next_step": "Ask Minnesota Housing or your local Rehabilitation Loan administrator how to apply.",
+   "constraints": [
+    "Requires meeting income limits, owning and living in the home, and keeping taxes and mortgage current.",
+    "Summary from a home-modification research center; confirm current limits."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://homemods.org/?p=5323",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-access-north",
+   "name": "Reuse and device loan programs",
+   "org": "Access North Center for Independent Living",
+   "state": "MN",
+   "scope": "counties",
+   "counties": [
+    "Aitkin",
+    "Carlton",
+    "Cass",
+    "Cook",
+    "Crow Wing",
+    "Itasca",
+    "Koochiching",
+    "Lake",
+    "Pine",
+    "St. Louis"
+   ],
+   "category": "equipment",
+   "description": "An independent living center that runs assistive technology demonstration and device loans and a reuse and recycle program for northeastern Minnesota.",
+   "next_step": "Call the Duluth office at (888) 625-1401 or the Hibbing office at (800) 390-3681.",
+   "constraints": [
+    "Confirm what equipment is available."
+   ],
+   "phone": "888-625-1401",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.accessnorth.net",
+   "url": "https://minnesotahelp.info/SpecialTopics/PeopleWithDisabilities/18113",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-wistech",
+   "name": "WisTech",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Wisconsin's assistive technology program. Services are provided through the state's independent living centers and partners, including device demonstration, short-term device loans, and a reuse program that can provide equipment such as a wheelchair.",
+   "next_step": "Contact your local independent living center or the WisTech program.",
+   "constraints": [
+    "Loans are short term, to try equipment or as a loaner."
+   ],
+   "phone": "608-266-2536",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dhs.wisconsin.gov/disabilities/wistech",
+   "url": "https://www.dhs.wisconsin.gov/wistech/device-loan.htm",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-wisloan",
+   "name": "WisLoan",
+   "org": "Wisconsin WisTech with independent living centers",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "A statewide low-interest loan program for Wisconsin residents with disabilities to buy assistive technology and equipment, make home modifications or adapt a vehicle. Applications go through your local independent living center.",
+   "next_step": "Contact the independent living center that serves your county to apply.",
+   "constraints": [
+    "Open to Wisconsin residents of all ages who have a disability."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://dhs.wisconsin.gov/wistech/wisloan.htm",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "co-atp",
+   "name": "Assistive Technology Program of Colorado",
+   "org": "Center for Inclusive Design and Engineering, University of Colorado",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Colorado's assistive technology act program. It offers device loans, including open-ended loans, technology reuse, demonstrations and information about devices, services and funding.",
+   "next_step": "Visit the program's website to ask about a loan or demonstration.",
+   "constraints": [
+    "Confirm what equipment is available."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.ucdenver.edu/docs/librariesprovider38/default-document-library/coloradoatactreport_2024_digital-accessible.pdf",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "co-home-mod-benefit",
+   "name": "Health First Colorado Home Modification Benefit",
+   "org": "Colorado Department of Health Care Policy and Financing",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "A Medicaid long-term services and supports benefit that covers specific home modifications in an eligible person's existing home. A therapist evaluation on the state form is part of the process.",
+   "next_step": "Ask your case manager or community centered board about a home modification request.",
+   "constraints": [
+    "Requires Health First Colorado eligibility and a qualifying waiver or program.",
+    "Summary from a home-modification research center; confirm current limits with the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://homemods.org/?p=5296",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
