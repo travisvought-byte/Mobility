@@ -36,3 +36,23 @@ details summary{cursor:pointer;font-weight:600}
 @media print{.needs,.needs-title,.tools,.jump{display:none}}
 .card .badge{align-self:flex-start}.card .badge.warn{margin-left:0}
 .rtr{border-left:6px solid #bb8e36}.rtr .eyebrow{margin:0 0 4px}
+/* Friendlier, more inviting layer */
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+:target,h2[id],section[id]{scroll-margin-top:16px}
+h1,h2,h3{text-wrap:balance}p,li{max-width:70ch}.panel p,.panel li,article p{max-width:none}
+body{font-size:18px;line-height:1.65}
+header{background:linear-gradient(160deg,#183449 0%,#1f4a52 100%);border-bottom:5px solid var(--gold)}
+header nav{display:flex;flex-wrap:wrap;gap:6px 4px;margin:0 -10px}header nav a{margin:0;padding:10px 12px;min-height:44px;border-radius:999px;text-decoration:none;font-weight:600;font-size:16px}header nav a:hover{background:rgba(255,255,255,.14);text-decoration:underline}header nav a[aria-current=page]{background:rgba(255,255,255,.2)}
+.lead{font-size:19px;color:#34464f}
+.button,button{transition:transform .12s,box-shadow .12s,background .12s;box-shadow:0 1px 2px rgba(0,0,0,.15)}.button:hover,button:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(0,0,0,.18);background:#2a4a3b}.secondary:hover{background:#10263a}
+.button.gold{background:#e7cc88;color:#183449}.button.gold:hover{background:#f0d99d}.button.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7)}.button.ghost:hover{background:rgba(255,255,255,.14)}
+.hero-actions{margin:22px 0 4px}
+.trust{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;padding:0;margin:22px 0 0;font-size:15px;color:#e3eaed}.trust li{margin:0;max-width:none}.trust li:before{content:"✓ ";color:#e7cc88;font-weight:700}
+article,.panel{border-radius:12px}article{box-shadow:0 1px 3px rgba(24,52,73,.08);transition:transform .15s,box-shadow .15s}article:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(24,52,73,.12)}
+.label{letter-spacing:.8px}
+input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+footer{color:#42525b;margin-top:12px}
+@media(max-width:850px){.hero-actions .button{width:100%}body{font-size:17px}}
+@media print{.trust,.hero-actions{display:none}}
+.eyebrow{color:#7a5a17;font-size:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase}header .eyebrow{color:#e7cc88}
+@media(max-width:600px){header{padding-top:16px}header nav{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin:0 -8px}header nav a{padding:8px 10px;font-size:15px;border-radius:10px;background:rgba(255,255,255,.08)}header small{margin-top:22px}}
