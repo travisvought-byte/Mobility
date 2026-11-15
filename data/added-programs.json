@@ -2189,6 +2189,116 @@
    "reviewed_on": "2026-11-14",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ak-atla",
+   "name": "Assistive Technology of Alaska: loan, reuse and demonstrations",
+   "org": "Assistive Technology of Alaska (ATLA) for Alaska DVR",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Alaska's statewide assistive technology program connects people to loaned, reused and free or used equipment and holds demonstrations. It also runs the AKTradingPost web exchange. There are no age or income requirements to work with ATLA.",
+   "next_step": "Call (907) 563-2599 or 1-800-723-2852, or email atla@atlaak.org.",
+   "constraints": [
+    "Availability varies; ask what is in stock before travelling."
+   ],
+   "phone": "(907) 563-2599",
+   "phone_note": null,
+   "email": "atla@atlaak.org",
+   "web": "https://labor.alaska.gov/dvr/at-prog.htm",
+   "url": "https://labor.alaska.gov/dvr/at-prog.htm",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ar-ican",
+   "name": "iCAN: equipment loans and reuse in Arkansas",
+   "org": "Arkansas Rehabilitation Services, Increasing Capabilities Access Network",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Arkansas's assistive technology program offers free equipment demonstrations, equipment loans and a reuse and recycling program for any Arkansan with a disability or health issue. It also supports a revolving loan fund for assistive technology.",
+   "next_step": "Call 1-800-828-2799 or email info@ar-ican.org to ask about loans or reuse equipment.",
+   "constraints": [
+    "Short loans have set periods; reuse stock varies."
+   ],
+   "phone": "800-828-2799",
+   "phone_note": null,
+   "email": "info@ar-ican.org",
+   "web": "https://ar-ican.org",
+   "url": "https://ar-ican.org",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ks-atk-kee-reuse",
+   "name": "ATK-KEE Reuse: free refurbished medical equipment in Kansas",
+   "org": "Assistive Technology for Kansans (University of Kansas)",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Eligible Kansans can get refurbished manual and power wheelchairs, patient lifts, hospital beds and shower chairs at no cost. Regional specialists in Oakley, Salina, Topeka, Wichita and Parsons serve all 105 counties. ATK also works with the K-Loan financial loan program.",
+   "next_step": "Call 1-800-526-3648 to reach your regional specialist and ask what is available.",
+   "constraints": [
+    "Eligibility applies; donated stock varies by region."
+   ],
+   "phone": "800-526-3648",
+   "phone_note": null,
+   "email": null,
+   "web": "https://atk.ku.edu/device-long",
+   "url": "https://atk.ku.edu/device-long",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nm-nmtap",
+   "name": "New Mexico Technology Assistance Program: device loans and AT loans",
+   "org": "NM Governor's Commission on Disability",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "New Mexico's assistive technology program lends devices from a loan bank in Albuquerque, holds demonstrations and offers a financial loan program. It serves people of any disability, age or income anywhere in the state.",
+   "next_step": "Call 505-841-4464 or email nmtap@gcd.nm.gov to ask about a loan or a device trial.",
+   "constraints": [
+    "Device loans are short term and carry a loan agreement."
+   ],
+   "phone": "505-841-4464",
+   "phone_note": null,
+   "email": "nmtap@gcd.nm.gov",
+   "web": "https://www.tap.gcd.nm.gov/device-loans",
+   "url": "https://www.tap.gcd.nm.gov/device-loans",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "me-maine-cite-alltech",
+   "name": "Maine CITE and ALLTECH: AT4Maine loans and equipment reuse",
+   "org": "Maine CITE with Spurwink ALLTECH",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Maine CITE runs the AT4Maine online library of more than 500 devices to borrow. ALLTECH in Portland takes donated walkers, wheelchairs, shower benches and commodes, and offers them at greatly reduced prices or on temporary loan.",
+   "next_step": "Call Maine CITE at 207-621-3195, or ALLTECH at 207-535-2017.",
+   "constraints": [
+    "ALLTECH equipment may carry a low cost; call for stock."
+   ],
+   "phone": "207-621-3195",
+   "phone_note": null,
+   "email": "info@mainecite.org",
+   "web": "https://mainecite.org",
+   "url": "https://mainecite.org",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
