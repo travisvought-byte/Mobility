@@ -41084,6 +41084,1431 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reeve-east-valley-compass",
+   "name": "East Valley Support Group (COMPASS)",
+   "org": "Granite Reef Senior Center",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Maricopa"
+   ],
+   "category": "peer_support",
+   "description": "Granite Reef Senior Center hosts this peer support group in Scottsdale. Meets the 3rd Friday of each month, 2:00 to 4:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "602-241-1006",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reeve-flagstaff",
+   "name": "Flagstaff Support Group",
+   "org": "Northern Arizona Health Care Training Center",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Coconino"
+   ],
+   "category": "peer_support",
+   "description": "Northern Arizona Health Care Training Center hosts this peer support group in Flagstaff. Meets the 1st Tuesday of each month, 2:00 to 3:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "928-527-8567",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reeve-grupo-apoyo-espanol",
+   "name": "Grupo de apoyo en Español (Phoenix)",
+   "org": "Gentiva Rehab Without Walls",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Maricopa"
+   ],
+   "category": "peer_support",
+   "description": "Gentiva Rehab Without Walls hosts this peer support group in Phoenix. It serves people with brain injury and spinal cord injury, in Spanish, with recreational and educational activities. Meets the 2nd Saturday of each month. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "480-390-5240",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reeve-prescott-valley",
+   "name": "Prescott Support Group",
+   "org": "Mountain Valley Regional Rehabilitation",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Yavapai"
+   ],
+   "category": "peer_support",
+   "description": "Mountain Valley Regional Rehabilitation hosts this peer support group in Prescott Valley. Meets the 1st Thursday of each month, 6:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "928-759-8800",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reeve-sci-women",
+   "name": "SCI Women Support Group (Phoenix)",
+   "org": "Disability Empowerment Center",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Maricopa"
+   ],
+   "category": "peer_support",
+   "description": "Disability Empowerment Center hosts this peer support group in Phoenix. It serves women with spinal cord injury. Meets the 2nd Tuesday of each month, 6:30 to 8:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "(602) 507-4209",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-reeve-wheel-life-group",
+   "name": "Wheel Life Group Support Group (Phoenix)",
+   "org": "Dignity Health St. Joseph's Hospital and Medical Center, with the Arizona Spinal Cord Injury Association",
+   "state": "AZ",
+   "scope": "counties",
+   "counties": [
+    "Maricopa"
+   ],
+   "category": "peer_support",
+   "description": "Dignity Health St. Joseph's Hospital and Medical Center, with the Arizona Spinal Cord Injury Association hosts this peer support group in Phoenix. Meets the 1st Wednesday of each month, 5:45 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "602-406-3421",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-fresno-leon-peters",
+   "name": "Leon S. Peters Rehabilitation Center group (Fresno)",
+   "org": "Community Regional Medical Center",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Fresno"
+   ],
+   "category": "peer_support",
+   "description": "Community Regional Medical Center hosts this peer support group in Fresno. Meets the 3rd Wednesday, every other month. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "559-459-2789",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-eureka-tri-county-ilc",
+   "name": "Tri-County Independent Living Center group (Eureka)",
+   "org": "Tri-County Independent Living Center",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Humboldt"
+   ],
+   "category": "peer_support",
+   "description": "Tri-County Independent Living Center hosts this peer support group in Eureka. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "707-445-8404",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-napa-sci-network",
+   "name": "Napa Spinal Cord Injury Network",
+   "org": "Community Outreach Center",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Napa"
+   ],
+   "category": "peer_support",
+   "description": "Community Outreach Center hosts this peer support group in Napa. Meets the last Friday of each month, 1:00 to 2:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "707-299-9123",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.facebook.com/Napaspinalcordinjurynetwork?ref=hl",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-placerville-mobility",
+   "name": "Placerville Mobility Support Group",
+   "org": "Placerville Mobility Support Group (United Spinal Association chapter)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "El Dorado"
+   ],
+   "category": "peer_support",
+   "description": "Placerville Mobility Support Group (United Spinal Association chapter) hosts this peer support group in Placerville. It serves people with some form of ambulatory impairment; the list calls it the first California chapter of United Spinal Association. Meets the 4th Monday of each month, 6:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "530-295-7620",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-sf-bay-area-spinal-network",
+   "name": "San Francisco Bay Area Spinal Network",
+   "org": "Independent Living Resource Center San Francisco",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Francisco"
+   ],
+   "category": "peer_support",
+   "description": "Independent Living Resource Center San Francisco hosts this peer support group in San Francisco. Meets the 4th Thursday of each month, 6:00 to 8:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "415-205-3882",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": "spinalnetwork@everydayabilities.org",
+   "web": "https://www.facebook.com/groups/scipeersupport/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-scvmc-peer-support",
+   "name": "Santa Clara Valley Medical Center Spinal Cord Injury Peer Support Network",
+   "org": "Santa Clara Valley Medical Center",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Santa Clara"
+   ],
+   "category": "peer_support",
+   "description": "Santa Clara Valley Medical Center hosts this peer support group in San Jose. It serves people with spinal cord injury, including women and newly injured people and their families. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "408-885-5000",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://scvmc.scvh.org/health-care-services/rehabilitation/services/peer-support/spinalcord-injury-peer-support-program",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-solano-contra-costa-sci",
+   "name": "SCI Peer Support Group of Solano and Contra Costa Counties",
+   "org": "Independent Living Resources of Solano and Contra Costa Counties",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Contra Costa",
+    "Solano"
+   ],
+   "category": "peer_support",
+   "description": "Independent Living Resources of Solano and Contra Costa Counties hosts this peer support group in Concord. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "925-363-7293",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.ilrscc.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-spinal-network-escondido",
+   "name": "Spinal Network (Escondido)",
+   "org": "Spinal Network",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "San Diego",
+    "Riverside"
+   ],
+   "category": "peer_support",
+   "description": "Spinal Network hosts this peer support group in Escondido. It serves the disability community in San Diego and western Riverside County, including wheelchair users. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "The list names western Riverside County; only Riverside County as a whole is mapped here, so call to confirm your area."
+   ],
+   "phone": "951-775-2561",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.spinal-network.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-roseville-sci",
+   "name": "Roseville Area SCI Peer Support Group",
+   "org": "Roseville Area SCI Peer Support Group",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Placer"
+   ],
+   "category": "peer_support",
+   "description": "Roseville Area SCI Peer Support Group hosts this peer support group in Roseville. Meets the 1st Thursday of each month, 6:30 to 8:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "916-872-3083",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-sacramento-sci",
+   "name": "Sacramento SCI Support Group",
+   "org": "Sacramento SCI Support Group (SCI-FIT building)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Sacramento"
+   ],
+   "category": "peer_support",
+   "description": "Sacramento SCI Support Group (SCI-FIT building) hosts this peer support group in Sacramento. Meets the 1st Wednesday of each month, 6:00 to 8:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "209-200-7153",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-uc-davis-sci-peer",
+   "name": "UC Davis Hospital SCI Peer Support",
+   "org": "UC Davis Hospital",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Sacramento"
+   ],
+   "category": "peer_support",
+   "description": "UC Davis Hospital hosts this peer support group in Sacramento. Meets every Wednesday, 3:00 to 4:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "916-816-6347",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-santa-clara-sci-connections",
+   "name": "Santa Clara County SCI Connections",
+   "org": "Santa Clara County (Bascom Community Center)",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Santa Clara"
+   ],
+   "category": "peer_support",
+   "description": "Santa Clara County (Bascom Community Center) hosts this peer support group in San Jose. Meets the 3rd Thursday of each month, 6:30 to 8:30 PM, also online. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "408-793-6433",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-reeve-sonoma-marin-sci",
+   "name": "Sonoma Marin County SCI Support Group",
+   "org": "Sonoma Marin County SCI Support Group",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Sonoma",
+    "Marin"
+   ],
+   "category": "peer_support",
+   "description": "Sonoma Marin County SCI Support Group hosts this peer support group in Petaluma. Meets the 3rd Monday of each month, 5:00 to 6:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "The list says the location may change."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the list; use the website or email to reach the group.",
+   "email": null,
+   "web": "https://www.facebook.com/groups/810812255653338/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-naples-brookdale",
+   "name": "Brookdale Center support groups (NCH Healthcare System)",
+   "org": "NCH Healthcare System",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Collier"
+   ],
+   "category": "peer_support",
+   "description": "NCH Healthcare System hosts this peer support group in Naples. It serves brain injury, stroke and caregiver support groups, with peer visitors through the Brain Injury Peer Visitor Association. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "239-624-5700",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-greater-orlando-sci-network",
+   "name": "Greater Orlando Spinal Cord Injury (SCI) Network",
+   "org": "Greater Orlando SCI Network",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Orange",
+    "Seminole"
+   ],
+   "category": "peer_support",
+   "description": "Greater Orlando SCI Network hosts this peer support group in Altamonte Springs. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "888-265-4890",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": "Info@GOSCIN.org",
+   "web": "https://www.goscin.org",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-sea-pines-melbourne",
+   "name": "Sea Pines Rehabilitation Hospital spinal cord injury support group",
+   "org": "Sea Pines Rehabilitation Hospital",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Brevard"
+   ],
+   "category": "peer_support",
+   "description": "Sea Pines Rehabilitation Hospital hosts this peer support group in Melbourne. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "321-984-4600",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-tampa-bay-sci-resource-center",
+   "name": "Tampa Bay area spinal cord injury support group (Florida SCI Resource Center)",
+   "org": "Florida SCI Resource Center",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Pinellas"
+   ],
+   "category": "peer_support",
+   "description": "Florida SCI Resource Center hosts this peer support group in Largo. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "727-586-2999",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-memorial-regional-south",
+   "name": "Memorial Regional Hospital South spinal cord support groups",
+   "org": "Memorial Regional Hospital South",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Broward"
+   ],
+   "category": "peer_support",
+   "description": "Memorial Regional Hospital South hosts this peer support group in Hollywood. It serves people with paralysis; SCI peer mentors are offered. Meets onsite and on Zoom. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "954-518-2111",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.mhs.net/services/rehabilitation/conditions/spinal-cord",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-scisg-broward",
+   "name": "Spinal Cord Injury Support Group, Broward Chapter",
+   "org": "Encompass Health",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Broward"
+   ],
+   "category": "peer_support",
+   "description": "Encompass Health hosts this peer support group in Sunrise. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "954-696-7204",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "http://www.scisg.org/broward-chapter",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-scisg-miami",
+   "name": "Spinal Cord Injury Support Group, Miami Chapter",
+   "org": "Christine E. Lynn Rehabilitation Center",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Miami-Dade"
+   ],
+   "category": "peer_support",
+   "description": "Christine E. Lynn Rehabilitation Center hosts this peer support group in Miami. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "407-637-7774",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "http://www.scisg.org/miami-chapter",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-scisg-palm-beach",
+   "name": "Spinal Cord Injury Support Group, Palm Beach Chapter",
+   "org": "St. Mary's Medical Center",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Palm Beach"
+   ],
+   "category": "peer_support",
+   "description": "St. Mary's Medical Center hosts this peer support group in West Palm Beach. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the list; use the website or email to reach the group.",
+   "email": null,
+   "web": "https://scisg.org/palm-beach-chapter/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "fl-reeve-west-florida-rehab-pensacola",
+   "name": "West Florida Rehabilitation Institute spinal cord reunion and support group",
+   "org": "West Florida Rehabilitation Institute",
+   "state": "FL",
+   "scope": "counties",
+   "counties": [
+    "Escambia"
+   ],
+   "category": "peer_support",
+   "description": "West Florida Rehabilitation Institute hosts this peer support group in Pensacola. It serves people affected by spinal cord injury and their families and caregivers. Meets the 2nd Tuesday of each month, 2:30 to 3:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "850-494-6100",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://westfloridahospital.com/calendar/support-groups.dot",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ga-reeve-columbus-sci",
+   "name": "Columbus SCI Support Group",
+   "org": "Columbus SCI Support Group",
+   "state": "GA",
+   "scope": "counties",
+   "counties": [
+    "Muscogee"
+   ],
+   "category": "peer_support",
+   "description": "Columbus SCI Support Group hosts this peer support group in Columbus. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "The list prints no address; confirm the meeting place and that it is the Columbus in Muscogee County."
+   ],
+   "phone": "706-322-9039",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ga-reeve-macon-central-ga-rehab",
+   "name": "Central Georgia Rehabilitation Hospital support group",
+   "org": "Central Georgia Rehabilitation Hospital",
+   "state": "GA",
+   "scope": "counties",
+   "counties": [
+    "Bibb"
+   ],
+   "category": "peer_support",
+   "description": "Central Georgia Rehabilitation Hospital hosts this peer support group in Macon. Meets the 1st Tuesday of each month, 6:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "478-201-6500",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "in-reeve-hook-rehab-indianapolis",
+   "name": "Spinal Cord Support Group (Hook Rehabilitation)",
+   "org": "Hook Rehabilitation Outpatient Services",
+   "state": "IN",
+   "scope": "counties",
+   "counties": [
+    "Marion"
+   ],
+   "category": "peer_support",
+   "description": "Hook Rehabilitation Outpatient Services hosts this peer support group in Indianapolis. Meets the 1st Thursday of each month, 6:00 PM; RSVP by phone. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "317-621-3000",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ks-reeve-kansas-health-system-sci",
+   "name": "University of Kansas Health System SCI support group",
+   "org": "University of Kansas Health System",
+   "state": "KS",
+   "scope": "counties",
+   "counties": [
+    "Wyandotte"
+   ],
+   "category": "peer_support",
+   "description": "University of Kansas Health System hosts this peer support group in Kansas City, Kansas. It serves spinal cord injury. Meets the 2nd Thursday of each month. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "913-588-7815",
+   "phone_note": "913-588-7815 is the support group line and 913-588-1227 is the main line, both from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.kansashealthsystem.com",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ky-reeve-benton-friends-sci",
+   "name": "Friends with Spinal Cord Injuries (Benton)",
+   "org": "Friends with Spinal Cord Injuries, affiliated with Lourdes Hospital and the Spinal Cord Injury Association of Kentucky",
+   "state": "KY",
+   "scope": "counties",
+   "counties": [
+    "Marshall"
+   ],
+   "category": "peer_support",
+   "description": "Friends with Spinal Cord Injuries, affiliated with Lourdes Hospital and the Spinal Cord Injury Association of Kentucky hosts this peer support group in Benton. It serves people with spinal cord injury. Meets the 3rd Thursday of each month, 4:00 PM (sometimes changes with the speaker). It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "270-493-0495",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "me-reeve-nerh-portland",
+   "name": "New England Rehabilitation Hospital SCI/D support group",
+   "org": "New England Rehabilitation Hospital",
+   "state": "ME",
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "peer_support",
+   "description": "New England Rehabilitation Hospital hosts this peer support group in Portland. It serves spinal cord injury and disease. Meets the 2nd Tuesday of each month, 4:00 to 5:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "207-775-4000",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.encompasshealth.com/locations/nerhp/our-programs",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-reeve-bmc-support-group",
+   "name": "Boston Medical Center support and discussion group",
+   "org": "Boston Medical Center",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Suffolk"
+   ],
+   "category": "peer_support",
+   "description": "Boston Medical Center hosts this peer support group in Boston. Meets the 3rd Tuesday of each month, 4:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "617-414-5000",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-reeve-spaulding-support-group",
+   "name": "Spaulding Rehabilitation Hospital support and discussion group",
+   "org": "Spaulding Rehabilitation Hospital",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Suffolk"
+   ],
+   "category": "peer_support",
+   "description": "Spaulding Rehabilitation Hospital hosts this peer support group in Charlestown. Meets every Thursday, 4:00 to 5:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "617-952-5643",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "http://www.spauldingrehab.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-reeve-whittier-westborough",
+   "name": "Whittier Rehabilitation Hospital Westborough support group",
+   "org": "Whittier Rehabilitation Hospital Westborough",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Worcester"
+   ],
+   "category": "peer_support",
+   "description": "Whittier Rehabilitation Hospital Westborough hosts this peer support group in Westborough. Meets the 2nd Wednesday of each month, 5:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "508-871-2000",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.whittierhealth.com/rehabilitation-hospitals-in-massachusetts/whittier-rehabilitation-hospital-westborough-westborough-ma/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ms-reeve-life-of-mississippi-peer",
+   "name": "LIFE of Mississippi peer support",
+   "org": "LIFE of Mississippi (independent living center)",
+   "state": "MS",
+   "scope": "counties",
+   "counties": [
+    "Hinds"
+   ],
+   "category": "peer_support",
+   "description": "LIFE of Mississippi (independent living center) hosts this peer support group in Jackson. It serves peer support (the list does not state which population). It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "601-969-4009",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.lifeofms.com/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-reeve-empower-abilities-sci",
+   "name": "Empower: Abilities spinal cord injury and post-polio support groups",
+   "org": "Empower: Abilities (center for independent living)",
+   "state": "MO",
+   "scope": "counties",
+   "counties": [
+    "Greene"
+   ],
+   "category": "peer_support",
+   "description": "Empower: Abilities (center for independent living) hosts this peer support group in Springfield. It serves spinal cord injury and post-polio support groups. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "417-886-1188",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://empowerabilities.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-reeve-self-help-clearinghouse",
+   "name": "New Jersey Self-Help Group Clearinghouse",
+   "org": "New Jersey Self-Help Group Clearinghouse",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "peer_support",
+   "description": "New Jersey Self-Help Group Clearinghouse hosts this peer support group in New Jersey. It serves a referral line for finding support groups in New Jersey. Meets Monday to Friday, 8:30 AM to 5:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "This is a referral line, not a single group."
+   ],
+   "phone": "1-800-367-6274",
+   "phone_note": "1-800-367-6274 or 973-989-1122, from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-reeve-southern-tier-paralysis",
+   "name": "Southern Tier Paralysis Support Group (Vestal)",
+   "org": "Southern Tier Paralysis Support Group",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Broome"
+   ],
+   "category": "peer_support",
+   "description": "Southern Tier Paralysis Support Group hosts this peer support group in Vestal. It serves people living with paralysis, their families, friends and caregivers. Meets monthly, online or at a local public library. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "607-727-5032",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-reeve-syracuse-spinal-association",
+   "name": "Syracuse Spinal Association support group",
+   "org": "Syracuse Spinal Association",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Onondaga"
+   ],
+   "category": "peer_support",
+   "description": "Syracuse Spinal Association hosts this peer support group in Syracuse. Meets the 2nd Tuesday of each month, 5:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the list; use the website or email to reach the group.",
+   "email": null,
+   "web": "https://www.facebook.com/groups/syracusespinal/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-reeve-cape-fear-valley-sci",
+   "name": "Cape Fear Valley SCI support group",
+   "org": "Cape Fear Valley",
+   "state": "NC",
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "peer_support",
+   "description": "Cape Fear Valley hosts this peer support group in Fayetteville. It serves spinal cord injury topics and open discussion. Meets the last Thursday of each month, 4:30 to 6:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "910-615-6492",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-reeve-hillside-rehab-warren",
+   "name": "Hillside Rehabilitation Hospital support group",
+   "org": "Hillside Rehabilitation Hospital",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Trumbull"
+   ],
+   "category": "peer_support",
+   "description": "Hillside Rehabilitation Hospital hosts this peer support group in Warren. It serves anyone; the list names no specific population. Meets the 2nd Monday of each month, 5:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "330-841-3700",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-reeve-osu-dodd-hall-sci-peer",
+   "name": "OSU Dodd Hall Rehabilitation Hospital SCI peer support group",
+   "org": "OSU Dodd Hall Rehabilitation Hospital",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Franklin"
+   ],
+   "category": "peer_support",
+   "description": "OSU Dodd Hall Rehabilitation Hospital hosts this peer support group in Columbus. It serves people with spinal cord injury and their caregivers. Meets the 1st Thursday of each month, 4:00 to 5:30 PM, in person or virtual. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "614-408-0085",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reeve-delaware-valley-sci-association",
+   "name": "Delaware Valley Spinal Cord Injury Association",
+   "org": "Delaware Valley Spinal Cord Injury Association",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Philadelphia"
+   ],
+   "category": "peer_support",
+   "description": "Delaware Valley Spinal Cord Injury Association hosts this peer support group in Philadelphia. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "215-477-4946",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reeve-gspp-rehab-philadelphia",
+   "name": "GSPP Rehabilitation spinal cord injury support group",
+   "org": "GSPP Rehabilitation",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Philadelphia"
+   ],
+   "category": "peer_support",
+   "description": "GSPP Rehabilitation hosts this peer support group in Philadelphia. It serves inpatients and community members with spinal cord injury. Meets monthly, virtual. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "215-893-6540",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://pennrehab.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reeve-magee-rehab-support-groups",
+   "name": "Magee Rehabilitation support groups",
+   "org": "Magee Rehabilitation",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Philadelphia"
+   ],
+   "category": "peer_support",
+   "description": "Magee Rehabilitation hosts this peer support group in Philadelphia. It serves people with brain injury, MS, stroke and spinal cord injury. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "800-966-2433",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://mageerehab.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-reeve-penn-state-health-sci-virtual",
+   "name": "Penn State Health virtual SCI support group",
+   "org": "Penn State Health Department of PM&R",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Dauphin"
+   ],
+   "category": "peer_support",
+   "description": "Penn State Health Department of PM&R hosts this peer support group in Hershey. It serves people with spinal cord injury and their families, friends and caregivers; it includes an SCI peer mentoring program. Meets every other Thursday, 6:00 to 7:00 PM, virtual. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "717-531-0003",
+   "phone_note": "717-531-0003 extension 282538, from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.pennstatehealth.org/",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-reeve-chester-peer-support",
+   "name": "Chester County chapter peer support group",
+   "org": "South Carolina Spinal Cord Injury Association chapter",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Chester"
+   ],
+   "category": "peer_support",
+   "description": "South Carolina Spinal Cord Injury Association chapter hosts this peer support group in Chester. Meets the 3rd Tuesday of each month, 5:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "803-482-4389",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-reeve-columbia-area-support",
+   "name": "Columbia area support group",
+   "org": "South Carolina Spinal Cord Injury Association chapter",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Richland"
+   ],
+   "category": "peer_support",
+   "description": "South Carolina Spinal Cord Injury Association chapter hosts this peer support group in Columbia. Meets the last Tuesday of each month, 6:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "803-252-2198",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-reeve-florence-area-support",
+   "name": "Florence area support group",
+   "org": "South Carolina Spinal Cord Injury Association chapter",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Florence"
+   ],
+   "category": "peer_support",
+   "description": "South Carolina Spinal Cord Injury Association chapter hosts this peer support group in Florence. Meets the 4th Thursday of each month, 4:00 to 6:00 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "The list prints a second, conflicting time, so confirm when it meets."
+   ],
+   "phone": "803-459-4171",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-reeve-orangeburg-area-support",
+   "name": "Orangeburg area support group",
+   "org": "South Carolina Spinal Cord Injury Association chapter",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Orangeburg"
+   ],
+   "category": "peer_support",
+   "description": "South Carolina Spinal Cord Injury Association chapter hosts this peer support group in Orangeburg. Meets the 2nd Thursday of each month, 6:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "(803) 829-2043",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-reeve-spartanburg-area-support",
+   "name": "Spartanburg area support group",
+   "org": "South Carolina Spinal Cord Injury Association chapter",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Spartanburg"
+   ],
+   "category": "peer_support",
+   "description": "South Carolina Spinal Cord Injury Association chapter hosts this peer support group in Spartanburg. Meets the 3rd Tuesday of each month, 6:15 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "(864) 595-1947",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": null,
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tn-reeve-siskin-sci-support",
+   "name": "Siskin Hospital SCI program support group",
+   "org": "Siskin Hospital for Physical Rehabilitation",
+   "state": "TN",
+   "scope": "counties",
+   "counties": [
+    "Hamilton"
+   ],
+   "category": "peer_support",
+   "description": "Siskin Hospital for Physical Rehabilitation hosts this peer support group in Chattanooga. It serves spinal cord injury. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the list; use the website or email to reach the group.",
+   "email": "SpinalCordSupportGroup@siskinrehab.org",
+   "web": "https://www.siskinrehab.org/spinal-cord-injury",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tn-reeve-soar-chattanooga",
+   "name": "SOAR: Spinal Cord Outreach Advocacy and Resilience",
+   "org": "Siskin Hospital for Physical Rehabilitation",
+   "state": "TN",
+   "scope": "counties",
+   "counties": [
+    "Hamilton"
+   ],
+   "category": "peer_support",
+   "description": "Siskin Hospital for Physical Rehabilitation hosts this peer support group in the Chattanooga area. It serves people living with spinal cord injury, and their friends and families. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the list; use the website or email to reach the group.",
+   "email": null,
+   "web": "https://www.siskinrehab.org/spinal-cord-injury",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-reeve-here-and-now-project",
+   "name": "The Here and Now Project",
+   "org": "The Here and Now Project",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "Pierce"
+   ],
+   "category": "peer_support",
+   "description": "The Here and Now Project hosts this peer support group in Sumner. It serves people living with paralysis and other mobility disabilities. Meets monthly social groups plus annual gatherings. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "The list gives a Sumner mailing address; confirm where groups meet."
+   ],
+   "phone": "253-880-5634",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": "info@hereandnowproject.org",
+   "web": "https://www.hereandnowproject.org",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-reeve-um-rehab-sci-group",
+   "name": "University of Maryland Rehab SCI support and resource group",
+   "org": "University of Maryland Rehabilitation and Orthopaedic Institute",
+   "state": "MD",
+   "scope": "counties",
+   "counties": [
+    "Baltimore"
+   ],
+   "category": "peer_support",
+   "description": "University of Maryland Rehabilitation and Orthopaedic Institute hosts this peer support group in Baltimore. It serves spinal cord injury; the program also has an SCI peer mentor program partnered with the Reeve Foundation. Meets the 2nd Tuesday of each month, 6:00 to 7:30 PM. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go.",
+    "The map lists Baltimore City and Baltimore County under the same name, so this shows for either."
+   ],
+   "phone": "(410) 448-2500",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.umms.org/rehab/community/support-groups",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-reeve-kennedy-krieger-sci-group",
+   "name": "Kennedy Krieger SCI support group, Regeneration Generation",
+   "org": "Kennedy Krieger Institute",
+   "state": "MD",
+   "scope": "counties",
+   "counties": [
+    "Baltimore"
+   ],
+   "category": "peer_support",
+   "description": "Kennedy Krieger Institute hosts this peer support group in Baltimore. Meets one Monday a month, 12:00 to 2:00 PM, with lunch for those who RSVP. It is listed in the Christopher & Dana Reeve Foundation's Support Groups and Peer Mentoring list (September 2025).",
+   "next_step": "Call and ask whether the group is meeting, where, and whether family members and caregivers can come.",
+   "constraints": [
+    "Meeting times and places change; call or check the website to confirm before you go."
+   ],
+   "phone": "443-923-7998",
+   "phone_note": "Number is from the Reeve Foundation list.",
+   "email": null,
+   "web": "https://www.kennedykrieger.org/patient-care/centers-and-programs/international-centerfor-spinal-cord-injury/resources/support-groups-at-the-center-for-spinal-cord-injury",
+   "url": "https://www.christopherreeve.org/wp-content/uploads/2025/09/Support-Groups-and-Peer-Mentoring-9-25-A.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
