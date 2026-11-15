@@ -898,6 +898,254 @@
    "reviewed_on": "2026-11-14",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "il-iatp-loans",
+   "name": "Illinois Assistive Technology Program loans",
+   "org": "Illinois Assistive Technology Program (IATP)",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Loans for Illinois residents with disabilities to buy equipment and services tied to the disability, including home modifications. The program also runs a home modification loan.",
+   "next_step": "Call IATP and ask about current loan types, amounts and how to apply.",
+   "constraints": [
+    "Loan limits and rates change. Confirm with the program."
+   ],
+   "phone": "800-852-5110",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://iatpatloans.org/",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "il-dhs-home-modification",
+   "name": "Illinois DHS Home Modification Program",
+   "org": "Illinois Department of Human Services",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "State program to help people with disabilities pay for home modifications. The state grant listing says it serves people not already served by the Home Services Program.",
+   "next_step": "Call the Home Services Program line and ask whether you qualify for the Home Modification Program or Home Services environmental modifications.",
+   "constraints": [
+    "Rules and funding limits apply. Confirm current eligibility with the department."
+   ],
+   "phone": "800-843-6154",
+   "phone_note": "Main line for the Home Services Program, listed in the City of Chicago funding guide.",
+   "email": null,
+   "web": null,
+   "url": "https://omb.illinois.gov/public/gata/csfa/Program.aspx?csfa=3214",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ga-fodac",
+   "name": "FODAC equipment reuse (Stone Mountain)",
+   "org": "Friends of Disabled Adults and Children (FODAC)",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Nonprofit that accepts donated durable medical equipment, repairs and refurbishes it, and distributes it for reuse. It operates most of Georgia's equipment reuse program with Tools for Life.",
+   "next_step": "Look up the Tools for Life funding page, then contact FODAC and ask what is in stock and how to apply.",
+   "constraints": [
+    "Stock changes. Ask about eligibility and cost."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://gatfl.gatech.edu/funding",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ga-gvra-at",
+   "name": "Assistive work technology: home and vehicle modifications",
+   "org": "Georgia Vocational Rehabilitation Agency",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Rehabilitation engineers and technologists work with vocational rehabilitation counselors on home modifications, vehicle modifications and evaluations for clients.",
+   "next_step": "Contact the agency and ask about a vocational rehabilitation application.",
+   "constraints": [
+    "Tied to a vocational rehabilitation plan and employment goal."
+   ],
+   "phone": "844-367-4872",
+   "phone_note": "Contact line from an agency flyer for agricultural workers. Use the agency site for your local office.",
+   "email": null,
+   "web": null,
+   "url": "https://gvs.georgia.gov/node/17371",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-reuse",
+   "name": "NCATP Equipment Exchange and Reuse Program",
+   "org": "North Carolina Assistive Technology Program",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "Connects North Carolina residents with gently used assistive technology and durable medical equipment, and lets people donate, offer or sell equipment through the NCATP Exchange.",
+   "next_step": "Call the program, ask what is available, and use the Exchange form to post or request equipment.",
+   "constraints": [
+    "Availability varies."
+   ],
+   "phone": "919-664-1254",
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.ncdhhs.gov/divisions/employment-and-independence-people-disabilities/north-carolina-assistive-technology-program/ncatp-equipment-exchange-and-reuse-program",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-il-rehab",
+   "name": "Independent Living Rehabilitation Program",
+   "org": "NC Division of Vocational Rehabilitation Services",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "State program that helps people with disabilities live more independently. The state lists it among public programs that may build ramps or know of other ramp builders.",
+   "next_step": "Call the nearest office and ask about eligibility and ramp or home modification help.",
+   "constraints": [
+    "Each program has its own criteria. Listing is from a 2018 state ramp resource sheet and a county guide."
+   ],
+   "phone": "888-666-4916",
+   "phone_note": "Durham office also listed at 919-650-6810.",
+   "email": null,
+   "web": null,
+   "url": "https://ncdhhs.gov/resources-ramps-june2018/open",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-ucp-detroit",
+   "name": "Ramp construction and assistive equipment loan",
+   "org": "United Cerebral Palsy of Metropolitan Detroit",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "Listed by a Michigan aging network directory as offering ramp construction and an assistive equipment loan for Michigan residents with disabilities. The person who needs the equipment, or family, applies.",
+   "next_step": "Call and ask about ramp eligibility, cost and the current wait.",
+   "constraints": [
+    "Directory listing. The office is in Southfield; confirm its service area and current programs."
+   ],
+   "phone": "248-557-5070",
+   "phone_note": "Southfield office.",
+   "email": null,
+   "web": null,
+   "url": "https://ageways.org/?p=29727",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-la-handyworker",
+   "name": "Handyworker Program (City of Los Angeles)",
+   "org": "Los Angeles Housing Department",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "ramps_home",
+   "description": "Free minor home repairs and accessibility improvements, including ramps, grab bars and handrails, for low-income seniors and people with permanent disabilities in the City of Los Angeles. Homeowners can receive up to $5,000 for modifications.",
+   "next_step": "Open the program page, check the income limits and apply.",
+   "constraints": [
+    "City of Los Angeles only. Income limits apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://housing.lacity.gov/residents/handyworker",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-torrance-hip",
+   "name": "Home Improvement Program (Torrance)",
+   "org": "City of Torrance",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "ramps_home",
+   "description": "Free home improvement services for Torrance residents who are people with disabilities or seniors and meet program criteria.",
+   "next_step": "Open the program page, gather proof of home ownership and submit the application.",
+   "constraints": [
+    "Torrance residents only."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.torranceca.gov/City-Services/Building-Property/Building-Property-Services/Home-Improvement-Program",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-lacda-senior-grant",
+   "name": "Senior Grant Program (unincorporated Los Angeles County)",
+   "org": "Los Angeles County Development Authority",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Los Angeles"
+   ],
+   "category": "ramps_home",
+   "description": "Home barrier removal and rehabilitation grants for low-income homeowners age 62 and over in unincorporated areas of Los Angeles County supervisorial districts 1, 2, 4 and 5.",
+   "next_step": "Open the 211 listing and ask LACDA about the current application.",
+   "constraints": [
+    "Age 62+, about 80% of area median income or less, owner-occupied."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://211la.org/services/HxyKDeAdxtDXOQWeFv1K7l0Iv5kN9d/home-rehabilitation-grants",
+   "reviewed_on": "2026-11-14",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-home-care-waiver-vehicle",
+   "name": "Ohio Home Care Waiver vehicle modification",
+   "org": "Ohio Department of Medicaid",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "The Ohio Home Care Waiver can pay for vehicle modification when the state authorizes it. State rules list the driver and vehicle documents needed before approval.",
+   "next_step": "If you are on the Ohio Home Care Waiver, ask your case manager about a vehicle modification request.",
+   "constraints": [
+    "Requires enrollment in the waiver and prior authorization."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-46-09",
+   "reviewed_on": "2026-11-14",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
