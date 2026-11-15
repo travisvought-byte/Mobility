@@ -4521,6 +4521,513 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "in-saws-ramps",
+   "name": "Servants at Work (SAWs): free wheelchair ramps",
+   "org": "Servants at Work, Inc.",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "Faith-based volunteer nonprofit that builds ADA-compliant wooden wheelchair ramps for people with permanent or long-term disabilities in low-income households. It covers 70 of Indiana's 92 counties and partners with other ramp builders elsewhere.",
+   "next_step": "Apply through the SAWs website or call to ask about your county.",
+   "constraints": [
+    "Low-income households; check your county is covered.",
+    "Waiting lists vary."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.cicf.org/giving/servants-at-work-inc",
+   "url": "https://www.cicf.org/giving/servants-at-work-inc",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "in-ramp-up-indiana",
+   "name": "RAMP UP Indiana (IHCDA grants to ramp builders)",
+   "org": "Indiana Housing and Community Development Authority",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "State program that gives grants to nonprofits to install exterior ramps for low-income homeowners at or below 80% of area median income. It funds ramp builders, not individuals.",
+   "next_step": "Ask a local ramp nonprofit or Area Agency on Aging whether it receives RAMP UP funds; questions go to rampup@ihcda.in.gov.",
+   "constraints": [
+    "Homeowners at or below 80% of area median income.",
+    "Applications are by nonprofits; check that the program is open."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.in.gov/ihcda/files/ramp_up_WEB_FLYER_0423.pdf",
+   "url": "https://www.in.gov/ihcda/files/ramp_up_WEB_FLYER_0423.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-saws-fredericksburg",
+   "name": "SAWs Virginia: volunteer-built wheelchair ramps (Fredericksburg area)",
+   "org": "SAWs Virginia",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Caroline",
+    "King George",
+    "Spotsylvania",
+    "Stafford",
+    "Fredericksburg City"
+   ],
+   "category": "ramps_home",
+   "description": "Virginia affiliate of the national SAWs ramp ministry. Builds wheelchair ramps at no fee for people with disabilities who cannot afford them.",
+   "next_step": "Email virginia@sawsramps.org or visit the website for a consultation.",
+   "constraints": [
+    "Income limits apply (percent of area median income)."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://disabilitynavigator.org/print/pdf/node/72350",
+   "url": "https://disabilitynavigator.org/print/pdf/node/72350",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-project-homes-ramps",
+   "name": "project:HOMES wheelchair ramps and Renew Crew repairs (Richmond area)",
+   "org": "project:HOMES",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Amelia",
+    "Chesterfield",
+    "Henrico",
+    "Hanover",
+    "Richmond City"
+   ],
+   "category": "ramps_home",
+   "description": "Privately funded volunteer program that builds and installs wheelchair ramps and does accessibility repairs for low-income elderly and disabled homeowners at no charge.",
+   "next_step": "Call the 24-hour hotline at (804) 458-2840.",
+   "constraints": [
+    "Low-income homeowners; confirm that your county is covered."
+   ],
+   "phone": "(804) 458-2840",
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.projecthomes.org/wheelchair-ramps",
+   "url": "https://www.projecthomes.org/wheelchair-ramps",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-rampsrva",
+   "name": "RampsRVA (Ramp Access Made Possible by Students)",
+   "org": "RampsRVA",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Henrico",
+    "Hanover",
+    "Chesterfield",
+    "Richmond City"
+   ],
+   "category": "ramps_home",
+   "description": "Student-founded nonprofit that installs free modular wheelchair ramps for financially qualified older adults and disabled people. Eligibility is based on HUD income guidelines.",
+   "next_step": "Apply through RampsRVA.",
+   "constraints": [
+    "Must be elderly or disabled and low-income by HUD guidelines."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.211virginia.org/search/275680c5-598f-54d8-90dd-56a918e99f8d",
+   "url": "https://search.211virginia.org/search/275680c5-598f-54d8-90dd-56a918e99f8d",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-ramps-across-america-hr",
+   "name": "RampsAcrossAmerica: free ramps in Hampton Roads",
+   "org": "RampsAcrossAmerica",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Virginia Beach City"
+   ],
+   "category": "ramps_home",
+   "description": "Builds free ADA-accessible wheelchair ramps for people of any age who cannot enter their home and cannot afford a ramp. Income is based on household income. It serves the Hampton Roads area.",
+   "next_step": "Contact RampsAcrossAmerica to apply.",
+   "constraints": [
+    "Hampton Roads area only; the county list on the source covers Virginia Beach, so confirm your city."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://chesterfield.seniornavigator.org/node/44069",
+   "url": "https://chesterfield.seniornavigator.org/node/44069",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-wils-ramps",
+   "name": "WILS ramp construction program (Warrensburg area)",
+   "org": "Whiteman-area Independent Living Services (WILS)",
+   "state": "MO",
+   "scope": "counties",
+   "counties": [
+    "Benton",
+    "Henry",
+    "Johnson",
+    "Lafayette",
+    "Pettis",
+    "Saline"
+   ],
+   "category": "ramps_home",
+   "description": "Independent living center program that designs and builds ADA wheelchair ramps and hand rails with volunteers and local contractors, using charitable funding where eligible.",
+   "next_step": "Apply to WILS; you may be placed on a waitlist.",
+   "constraints": [
+    "Builds are on hold when funding runs out; applicants go on a waitlist.",
+    "Must live in the six-county service area."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://w-ils.org/?p=364",
+   "url": "https://w-ils.org/?p=364",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "il-springfield-cil-ramps",
+   "name": "Springfield Center for Independent Living wheelchair ramp program",
+   "org": "Springfield Center for Independent Living",
+   "state": "IL",
+   "scope": "counties",
+   "counties": [
+    "Sangamon",
+    "Christian",
+    "Montgomery",
+    "Logan",
+    "Menard"
+   ],
+   "category": "ramps_home",
+   "description": "Administers a free wheelchair ramp program for renters or homeowners who meet federal poverty guidelines in the city of Springfield.",
+   "next_step": "Call the center for an application.",
+   "constraints": [
+    "May require a waiting list.",
+    "Poverty guidelines apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://search.ne211.org/search/bcb5d74c-3832-5664-8863-a9f18d0b6da5",
+   "url": "https://search.ne211.org/search/bcb5d74c-3832-5664-8863-a9f18d0b6da5",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wa-mbaks-rampathon",
+   "name": "Rampathon: free ramps for homeowners in King and Snohomish counties",
+   "org": "Master Builders Association of King and Snohomish Counties",
+   "state": "WA",
+   "scope": "counties",
+   "counties": [
+    "King",
+    "Snohomish"
+   ],
+   "category": "ramps_home",
+   "description": "Annual volunteer program that builds free wheelchair access ramps for homeowners in need. Applications open each spring.",
+   "next_step": "Watch for the application window on the MBA Rampathon page.",
+   "constraints": [
+    "Annual cycle; applications have closed by May in past years."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://greaterseattleonthecheap.com/event/free-wheelchair-ramps-built-for-disabled-low-income-homeowners-in-king-and-snohomish-counties",
+   "url": "https://greaterseattleonthecheap.com/event/free-wheelchair-ramps-built-for-disabled-low-income-homeowners-in-king-and-snohomish-counties",
+   "reviewed_on": "2026-11-15",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "co-hbf-blitz-build",
+   "name": "Home Builders Foundation Blitz Build ramps (Denver metro)",
+   "org": "Home Builders Foundation",
+   "state": "CO",
+   "scope": "counties",
+   "counties": [
+    "Denver"
+   ],
+   "category": "ramps_home",
+   "description": "Annual Blitz Build in which volunteers build mobility ramps for free around the Denver metro area, paid for by sponsors and donated materials.",
+   "next_step": "Contact the Home Builders Foundation about applying.",
+   "constraints": [
+    "Reported in news coverage; the metro county list is not published in the source."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.coloradohomesmag.com/?p=52490",
+   "url": "https://www.coloradohomesmag.com/?p=52490",
+   "reviewed_on": "2026-11-15",
+   "record_status": "news_reported",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-stavros-home-sweet-home",
+   "name": "Stavros Home Sweet Home: ramps and equipment (Western Massachusetts)",
+   "org": "Stavros Center for Independent Living",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Hampden",
+    "Hampshire",
+    "Franklin"
+   ],
+   "category": "ramps_home",
+   "description": "Program that helps people in western Massachusetts who need wheelchair ramps and durable medical equipment to safely get into their homes and the community.",
+   "next_step": "Contact Stavros in Amherst at 413-256-0473.",
+   "constraints": [
+    "Confirm that the program is accepting applications."
+   ],
+   "phone": "413-256-0473",
+   "phone_note": null,
+   "email": null,
+   "web": "https://disabilityinfo.org/fact-sheet-library/home-modification/home-modification-assessment-resources",
+   "url": "https://disabilityinfo.org/fact-sheet-library/home-modification/home-modification-assessment-resources",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-at-ramp-loan",
+   "name": "Massachusetts State AT Program: portable ramp loans",
+   "org": "Massachusetts Assistive Technology Act program",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility. MassMATCH lends portable ramps for temporary visits and discharge.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-at-ramp-loan",
+   "name": "Virginia State AT Program: portable ramp loans",
+   "org": "Virginia Assistive Technology Act program",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility. The VATS Ramps and Accessible Pathways Program places six portable accessibility kits with regional Vocational Rehabilitation offices and one nonprofit.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nm-at-ramp-loan",
+   "name": "New Mexico State AT Program: portable ramp loans",
+   "org": "New Mexico Assistive Technology Act program",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ms-at-ramp-loan",
+   "name": "Mississippi State AT Program: portable ramp loans",
+   "org": "Mississippi Assistive Technology Act program",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-at-ramp-loan",
+   "name": "Idaho State AT Program: portable ramp loans",
+   "org": "Idaho Assistive Technology Act program",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ne-at-ramp-loan",
+   "name": "Nebraska State AT Program: portable ramp loans",
+   "org": "Nebraska Assistive Technology Act program",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ia-at-ramp-loan",
+   "name": "Iowa State AT Program: portable ramp loans",
+   "org": "Iowa Assistive Technology Act program",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-at-ramp-loan",
+   "name": "South Carolina State AT Program: portable ramp loans",
+   "org": "South Carolina Assistive Technology Act program",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ar-at-ramp-loan",
+   "name": "Arkansas State AT Program: portable ramp loans",
+   "org": "Arkansas Assistive Technology Act program",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "az-at-ramp-loan",
+   "name": "Arizona State AT Program: portable ramp loans",
+   "org": "Arizona Assistive Technology Act program",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "The state Assistive Technology Act program lends portable wheelchair ramps, often free, for temporary visits or to help someone leave a hospital or rehab facility.",
+   "next_step": "Contact your state AT program and ask what ramp sizes are available.",
+   "constraints": [
+    "Ramp sizes and availability vary with inventory and demand."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://at3center.net/?p=4014",
+   "url": "https://at3center.net/?p=4014",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json"
   }
  ]
 }
