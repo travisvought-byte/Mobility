@@ -31,6 +31,15 @@ function matches(r,s){
   return true;
 }
 const rank=r=>r.scope==='counties'?0:r.scope==='statewide'?1:2;
+const LINK_LABEL={official:'Official page',gov:'Government page',directory:'Directory listing',news:'News article',rule:'Rule text',social:'Facebook page',source:'Source page'};
+const SHORT={ramps_home:'ramp and home modification',equipment:'equipment',independent_living:'independent living',navigation:'navigation',funding:'funding',transportation:'transportation',rights_legal:'rights and legal',dd_board:'developmental disability',peer_support:'peer support',veterans:'veterans service'};
+const direct=r=>!!(r.phone||r.email||(r.web&&/^https:\/\//.test(r.web))||r.contact_how);
+function countyNote(found,s){
+  const wide=found.filter(r=>r.scope!=='counties').length,local=found.length-wide,w=SHORT[s.category]?SHORT[s.category]+' ':'',cn=s.county+' County';
+  const res=wide===1?'resource':'resources',wideText=wide+' statewide or national '+w+res;
+  if(!local)return wideText+'; no county-specific '+w+'programs are listed for '+cn+' yet.';
+  return local+' '+(local===1?'program serves':'programs serve')+' '+cn+', and '+wideText+' also apply.';
+}
 function scopeText(r,s){
   if(r.scope==='national')return 'Available in every state';
   if(r.scope==='statewide')return 'Statewide';
@@ -47,10 +56,12 @@ function card(r,s){
   const contact=el('div',null,'contact');
   if(r.phone){const a=el('a','Call '+r.phone);const t=tel(r.phone);if(t)a.href=t;contact.append(a);}
   const site=r.web&&/^https:\/\//.test(r.web)?r.web:r.url;
-  if(site&&/^https?:\/\//.test(site)){const a=el('a','Official page');a.href=site;a.rel='noopener';a.target='_blank';contact.append(a);}
+  if(site&&/^https?:\/\//.test(site)){const a=el('a',LINK_LABEL[r.link_kind]||'Source page');a.href=site;a.rel='noopener';a.target='_blank';contact.append(a);}
   if(r.email){const a=el('a','Email');a.href='mailto:'+r.email;contact.append(a);}
   if(contact.children.length)c.append(contact);
   if(r.phone&&r.phone_note)c.append(el('p',r.phone_note,'meta'));
+  if(r.contact_how){const p=el('p',null,'meta');p.append(el('strong','How to reach them: '),document.createTextNode(r.contact_how));c.append(p);}
+  else if(!direct(r)){c.append(el('p','No phone, email or website is listed for this program yet. '+(r.link_kind==='gov'?'The government page linked here has the application steps.':'The link goes to a source, not to the program itself, so call 2-1-1 to confirm how to apply.'),'meta'));}
   const meta=el('p',null,'meta');meta.append(document.createTextNode(r.reviewed_on?'Source page checked '+r.reviewed_on+'. ':'Source page linked. '));
   const fix=el('a','Report a problem');fix.href='mailto:travis@vethomeguard.org?subject='+encodeURIComponent('Correction: '+r.name)+'&body='+encodeURIComponent('Record: '+r.id+'\n\nWhat should change:\n');meta.append(fix);c.append(meta);
   return c;
@@ -99,12 +110,12 @@ function render(){
   const found=all().filter(r=>matches(r,s));
   const name=STATES[s.state]||s.state;
   const groups={},jump=[];for(const r of found)(groups[r.category]=groups[r.category]||[]).push(r);
-  for(const k of ORDER){const g=groups[k];if(!g)continue;g.sort((a,b)=>rank(a)-rank(b)||a.name.localeCompare(b.name));
+  for(const k of ORDER){const g=groups[k];if(!g)continue;g.sort((a,b)=>rank(a)-rank(b)||direct(b)-direct(a)||a.name.localeCompare(b.name));
     const head=el('div',null,'cat-head');head.id='cat-'+k;jump.push([k,(cats[k]||k),g.length]);head.append(el('h3',(cats[k]||k)+' ('+g.length+')'),el('p',BLURB[k]||''));
     const list=el('div',null,'list');for(const r of g)list.append(card(r,s));out.append(head,list);}
   const nav=$('jump');nav.textContent='';nav.hidden=jump.length<2;if(jump.length>1){nav.append(el('span','Jump to: '));for(const [k,n,c] of jump){const a=el('a',n+' ('+c+')');a.href='#cat-'+k;nav.append(a);}}
   drawNeeds(s);drawMap(s);
-  let msg=found.length?'Showing '+found.length+' programs for '+name+(s.county?', '+s.county+' County':'')+'.':'No programs match these choices yet for '+name+'. Try All counties or a different category, or use the Veteran Resource Guide for local contacts.';
+  let msg=found.length?'Showing '+found.length+(found.length===1?' program':' programs')+' for '+name+(s.county?', '+s.county+' County':'')+'.'+(s.county?' '+countyNote(found,s):''):'No programs match these choices yet for '+name+'. Try All counties or a different category, or use the Veteran Resource Guide for local contacts.';
   if(found.length&&!main.some(r=>r.state===s.state))msg='We have not added '+name+' programs to this directory yet. Showing the federal VA routes; use the national directories below to find your state’s programs.';
   if(!s.county&&!s.category&&vso.some(r=>r.state===s.state))msg+=' Choose a county to also see its veterans service office.';
   if(!mainOk)msg='The directory could not load. Please reload, or use the Veteran Resource Guide.';

@@ -87,6 +87,35 @@ for st,name,url,phone in ndrn['agencies']:
 # Hand-verified additions (data/added-programs.json); never override a guide record with the same id
 for r in json.load(open(ROOT/'data/added-programs.json'))['records']:
     if r['id'] not in out: add(r)
+# Hand-checked direct contact details (data/contact-overrides.json): fill empty fields only, never overwrite a contact a record already has
+_ov=json.load(open(ROOT/'data/contact-overrides.json'))
+for rid,o in _ov['overrides'].items():
+    r=out.get(rid)
+    if not r: print('contact override: no record',rid); continue
+    for k in ('phone','phone_note','email','web','contact_how'):
+        if o.get(k) and not r.get(k): r[k]=o[k]
+    if o.get('constraints_replace'): r['constraints']=list(o['constraints_replace'])
+    r['contact_checked_on']=_ov['checked_on']
+# Medicaid rides have no public line: members call the number on their card
+for r in out.values():
+    if 'nemt' in r['id'] and r['category']=='transportation' and not (r.get('phone') or r.get('email') or r.get('web') or r.get('contact_how')):
+        r['contact_how']='Call the member services number printed on your Medicaid card.'
+# What kind of page the record's main link points to, so the page can label it honestly (reserve "Official page" for the organization itself)
+from urllib.parse import urlparse
+NEWS_HOSTS={'daytondailynews.com','abc6onyourside.com','waupacanow.com','kffhealthnews.org','chausa.org','whio.com'}
+DIR_HOSTS={'ilru.org','homemods.org','hmin.homemods.org','findhelp.org','api.thegrantmap.com','thegrantmap.com','seniorsmobility.org','nashia.org','askjan.org','christopherreeve.org','texvet.org','ohamvets.org','macvc.net','floridavets.org','ccam-tac.org','ohioaging.org','aucd.org','nysnavigator.org','seniornavigator.org','cap4kids.org','benefits.gov','fundingfla.org','legalaidtx.org'}
+def link_kind(r):
+    web=r.get('web');t=web if web and web.startswith('https://') else r.get('url')
+    if not t or not t.startswith('http'): return None
+    h=urlparse(t).netloc.lower().removeprefix('www.')
+    if h in NEWS_HOSTS or re.search(r'(^|\.)(news|tribune|gazette)',h): return 'news'
+    if h in DIR_HOSTS or re.search(r'(^|[.-])211([.-]|$)|^search\.|findhelp|\.benefits\.',h): return 'directory'
+    if h.startswith('codes.') or 'law.cornell.edu' in h or h.endswith('regulations.gov'): return 'rule'
+    if h=='facebook.com' or h.endswith('.facebook.com'): return 'social'
+    if t==web: return 'official'
+    if h.endswith(('.gov','.mil','.us')) or '.state.' in h: return 'gov'
+    return 'source'
+for r in out.values(): r['link_kind']=link_kind(r)
 recs=sorted(out.values(),key=lambda r:(r['state']!='US',r['state'],r['category'],r['name']))
 main=[r for r in recs if r['category']!='veterans'];vso=[r for r in recs if r['category']=='veterans']
 meta={'schema_version':1,'built_from':'travisvought-byte/vhg-veteran-resident-guide','categories':CATS}

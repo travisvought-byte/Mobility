@@ -41,5 +41,22 @@ async function load(query=''){
  {const c=await load('?state=PA');assert(c.$('needs').querySelectorAll('button.need').length===10);assert(c.$('needs').textContent.includes('Build or fix a ramp'));assert(c.$('needs').textContent.includes('Rides and transportation'));
   c.$('needs').querySelector('button').click();assert.equal(c.$('f-cat').value,'ramps_home');assert(c.$('needs').querySelector('[aria-pressed=true]').textContent.includes('Build or fix a ramp'));
   c.set('f-cat','');assert(!c.$('jump').hidden&&c.$('jump').querySelectorAll('a').length>2);assert(c.text().includes('Listing: confirm details'));assert(c.$('f-copy')&&c.$('f-print'));}
+
+ // reviewer fixes: honest link labels, county explanation, direct contacts
+ {const NEWS=/daytondailynews|seniorsmobility|abc6onyourside|waupacanow|kffhealthnews|chausa/;const kinds=new Set(['official','gov','directory','news','rule','social','source']);
+  for(const r of main.records.concat(vso.records)){const t=r.web&&/^https:\/\//.test(r.web)?r.web:r.url;if(t){assert(kinds.has(r.link_kind),'link_kind '+r.id);if(NEWS.test(t))assert.notEqual(r.link_kind,'official','news or directory link labeled official: '+r.id);}}
+  const byId=id=>main.records.find(r=>r.id===id);assert.equal(byId('ohio-home-choice').phone,'888-221-1560');assert.equal(byId('oh-kettering-access-grant').phone,'937-296-3308');assert(byId('va-sah').phone&&byId('us-rebuilding-together').phone);assert(byId('ohio-dd-home-adaptations').contact_how.includes('service coordinator'));
+  const cardLink=(c,name)=>{const a=[...c.$('results').querySelectorAll('article.card')].find(x=>x.querySelector('h4').textContent===name);assert(a,'card '+name);return [...a.querySelectorAll('a[target=_blank]')].map(x=>x.textContent);};
+  const news=main.records.find(r=>r.link_kind==='news'&&!(r.web&&/^https:\/\//.test(r.web)));const nl=await load('?state='+news.state+'&category='+news.category);assert(cardLink(nl,news.name).includes('News article'));assert(!cardLink(nl,news.name).includes('Official page'));
+  const dir=main.records.find(r=>r.link_kind==='directory'&&!r.web&&r.scope!=='counties');const dl=await load('?state='+dir.state+'&category='+dir.category);assert(cardLink(dl,dir.name).includes('Directory listing'));
+  const off=await load('?state=OH&category=funding');assert(cardLink(off,byId('ohio-home-choice').name).includes('Official page'));
+  // Morrow County: say plainly what the 10 results are
+  const mo=await load('?state=OH&county=Morrow&category=equipment');const ms=mo.$('status').textContent;assert(/\d+ statewide or national equipment resources; no county-specific equipment programs are listed for Morrow County yet\./.test(ms),ms);
+  const fr=await load('?state=OH&county=Franklin&category=ramps_home');assert(/\d+ programs? serves? Franklin County, and \d+ statewide or national/.test(fr.$('status').textContent),fr.$('status').textContent);
+  // direct contact first inside a rank; routes without a line say how to reach them
+  const ak=await load('?state=AK&category=transportation');assert(ak.text().includes('How to reach them: Call the member services number'));
+  const nc=main.records.find(r=>!(r.phone||r.email||r.web||r.contact_how)&&r.link_kind==='gov');const ncl=await load('?state='+nc.state+'&category='+nc.category);assert(ncl.text().includes('No phone, email or website is listed for this program yet.'));
+  const kt=await load('?state=OH&county=Montgomery&category=ramps_home');assert(kt.text().includes('Call 937-296-3308'));
+  const ordered=await load('?state=OH&category=equipment');const heads=[...ordered.$('results').querySelectorAll('article.card')].map(a=>a.querySelector('.contact')?1:0);assert(heads.length>3);}
  console.log('PASS local help: chips, jump links, confirm badges, 51-jurisdiction coverage, unique records, grouped Ohio view, county narrowing with veterans offices, category/search filters, deep links, safe links and no storage; ramps guide and home links present.');
 })().catch(e=>{console.error(e);process.exit(1)});

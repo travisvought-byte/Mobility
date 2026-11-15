@@ -44,6 +44,50 @@
  let current=null,draft=null,printMode='letter';
  function el(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
  function link(text,url){const a=el('a',text+' (new tab)');a.href=url;a.target='_blank';a.rel='noopener';return a;}
+ const ISSUE_CATS={'repair-access':['equipment'],warranty:['equipment','rights_legal'],downtime:['equipment'],payer:['funding','rights_legal'],home:['ramps_home'],vehicle:['funding','equipment'],transit:['transportation'],'public-access':['rights_legal','independent_living'],community:['independent_living','navigation']};
+ const CAT_WORD={ramps_home:'ramp and home modification',equipment:'equipment',independent_living:'independent living',navigation:'navigation',funding:'funding',transportation:'transportation',rights_legal:'rights and legal'};
+ const LINK_LABEL={official:'Official page',gov:'Government page',directory:'Directory listing',news:'News article',rule:'Rule text',social:'Facebook page',source:'Source page'};
+ const hasDirect=x=>!!(x.phone||x.email||(x.web&&/^https:\/\//.test(x.web))||x.contact_how);
+ function helpURL(state,issue,county){const u=new URLSearchParams({state});const c=ISSUE_CATS[issue];if(c)u.set('category',c[0]);if(county)u.set('county',county);return 'local-help.html?'+u.toString();}
+ let programs=null,programsPromise=null;
+ function loadPrograms(){if(programs)return Promise.resolve(programs);if(typeof window.fetch!=='function')return Promise.reject(new Error('fetch unavailable'));
+  if(!programsPromise)programsPromise=window.fetch('data/local-programs.json').then(x=>{if(!x.ok)throw new Error('HTTP '+x.status);return x.json();}).then(j=>{programs=Array.isArray(j.records)?j.records:[];return programs;}).catch(e=>{programsPromise=null;throw e;});
+  return programsPromise;}
+ function programItem(x){const li=el('li');li.append(el('strong',x.name));
+  const where=x.scope==='national'?'Every state':x.scope==='statewide'?'Statewide':'Serves '+x.counties.slice(0,4).join(', ')+(x.counties.length>4?' +'+(x.counties.length-4)+' more':'')+(x.counties.length===1?' County':' counties');
+  li.append(el('span',' · '+where,'small'));
+  const row=el('p',undefined,'route-local-contact');
+  if(x.phone){const a=el('a','Call '+x.phone);const d=String(x.phone).replace(/[^0-9+]/g,'');if(d)a.href='tel:'+d;row.append(a,document.createTextNode(' '));}
+  if(x.email){const a=el('a','Email');a.href='mailto:'+x.email;row.append(a,document.createTextNode(' '));}
+  const site=x.web&&/^https:\/\//.test(x.web)?x.web:x.url;if(site&&/^https?:\/\//.test(site))row.append(link(LINK_LABEL[x.link_kind]||'Source page',site));
+  li.append(row);
+  if(x.contact_how)li.append(el('p',x.contact_how,'small'));
+  else if(!hasDirect(x))li.append(el('p','No phone, email or website is listed yet. The link goes to a source, so call 2-1-1 to confirm how to apply.','small'));
+  return li;}
+ function paintHelp(box,recs,r,county){
+  const st=states[r.state],cats=ISSUE_CATS[r.issue]||[],word=CAT_WORD[cats[0]]?CAT_WORD[cats[0]]+' ':'';
+  const pool=recs.filter(x=>cats.includes(x.category)&&(x.state===r.state||x.state==='US')),localAll=pool.filter(x=>x.scope==='counties'&&x.state===r.state);
+  const inCounty=county?localAll.filter(x=>x.counties.some(c=>c.toLowerCase()===county.toLowerCase())):[],wide=pool.filter(x=>x.scope!=='counties');
+  const shown=wide.concat(inCounty),rankOf=x=>x.scope==='counties'?0:x.scope==='statewide'?1:2;
+  shown.sort((a,b)=>rankOf(a)-rankOf(b)||(hasDirect(b)-hasDirect(a))||a.name.localeCompare(b.name));
+  const old=box.querySelector('.route-local-list');if(old)old.remove();for(const n of box.querySelectorAll('.route-local-note,.route-local-all'))n.remove();
+  const counts=wide.length+' statewide or national '+word+(wide.length===1?'resource':'resources');
+  let note;if(county)note=inCounty.length?inCounty.length+(inCounty.length===1?' program serves ':' programs serve ')+county+' County, and '+counts+' also apply.':'No county-specific '+word+'programs are listed for '+county+' County yet. '+counts+' apply.';
+  else note=localAll.length?counts+', plus '+localAll.length+' that serve specific counties. Choose a county to see those.':counts+'. No county-specific '+word+'programs are listed in '+st+' yet.';
+  const n=el('p',note,'small route-local-note');box.querySelector('h4').after(n);const anchor=()=>box.querySelector('.route-local-county')||n;
+  if(!shown.length){const none=el('p','No '+st+' programs for this need are in the directory yet. Search the directory by another category, or call 2-1-1.','route-local-list');anchor().after(none);}
+  else{const list=el('ol',undefined,'route-checklist route-local-list');for(const x of shown.slice(0,5))list.append(programItem(x));anchor().after(list);}
+  const all=el('p',undefined,'route-local-all');const total=shown.length;const a=el('a',(total>5?'See all '+total:'Open the directory for')+' '+st+(county?' ('+county+' County)':'')+' '+word+'resources');a.href=helpURL(r.state,r.issue,county);all.append(a);box.append(all);}
+ function helpPanel(r){const box=el('div',undefined,'route-local-help'),st=states[r.state];box.setAttribute('aria-live','polite');
+  box.append(el('p','START HERE','route-badge'),el('h4','Contact these in '+st+' now'));
+  const status=el('p','Looking up '+st+' programs…','small route-local-note');box.append(status);
+  const fallback=()=>{status.textContent='The program list could not load here. ';const a=el('a','Open the '+st+' directory');a.href=helpURL(r.state,r.issue);status.append(a);};
+  loadPrograms().then(recs=>{if(!box.isConnected)return;status.remove();
+   const cats=ISSUE_CATS[r.issue]||[],counties=[...new Set(recs.filter(x=>cats.includes(x.category)&&x.state===r.state&&x.scope==='counties').flatMap(x=>x.counties))].sort();
+   paintHelp(box,recs,r,'');
+   if(counties.length){const lab=el('label','Show programs in a county that has local listings');const sel=el('select');sel.append(el('option','All counties'));sel.firstChild.value='';for(const c of counties){const o=el('option',c);o.value=c;sel.append(o);}lab.append(document.createTextNode(' '),sel);lab.className='route-local-county';box.querySelector('.route-local-note').after(lab);sel.addEventListener('change',()=>paintHelp(box,recs,r,sel.value));}
+  }).catch(()=>{if(box.isConnected)fallback();});
+  return box;}
  function read(){return {state:$('route-state').value,issue:$('route-issue').value,device:$('route-device').value,payer:$('route-payer').value,ownership:$('route-ownership').value,warranty:$('route-warranty').value};}
  function load(){const p=new URLSearchParams(location.search);$('route-state').value=Object.hasOwn(states,p.get('state'))?p.get('state'):'OH';$('route-issue').value=issues.has(p.get('barrier'))?p.get('barrier'):'downtime';$('request-type').value=Object.hasOwn(requestLabels,p.get('request'))?p.get('request'):'help';}
  function urlFor(r){const u=new URL(location.href);u.search='';u.hash='finder';u.searchParams.set('state',r.state);u.searchParams.set('barrier',r.issue);return u;}
@@ -78,15 +122,13 @@
  function show(focus=true){current=read();const r=current,route=routes[r.issue],stateClaims=evidence(r),fed=federal(r);const result=$('route-result');result.replaceChildren(el('h2','2. '+states[r.state]+': '+issues.get(r.issue).label));result.firstChild.id='result-title';
   const grid=el('div',undefined,'route-result-grid'),primary=el('div',undefined,'route-primary'),info=el('div',undefined,'route-evidence');
   const action=nextActions[r.issue];primary.append(el('p','YOUR NEXT ACTION','route-badge'),el('h3',action[0]),el('p',action[1]));
-  primary.append(el('p','A starting point to verify','route-badge'),el('h3',route.actor),el('p','Start by asking the responsible provider or program what applies to this situation. The sources here describe selected rules, not a decision about your eligibility.'));
+  primary.append(helpPanel(r),el('p','A starting point to verify','route-badge'),el('h3',route.actor),el('p','Start by asking the responsible provider or program what applies to this situation. The sources here describe selected rules, not a decision about your eligibility.'));
   const list=el('ol',undefined,'route-checklist');for(const q of route.questions)list.append(el('li',q));primary.append(list);const prep=el('details');prep.append(el('summary','What to have ready'));const checklist=el('ul');for(const item of preparation(r))checklist.append(el('li',item));prep.append(checklist,el('p','Keep supporting records privately. Do not enter medical records or claim numbers into this page.','small'));primary.append(prep);
   const refinements=notes(r);if(refinements.length){const wrap=el('div',undefined,'route-refinements');wrap.append(el('h4','For the choices you made'));for(const n of refinements)wrap.append(el('p',n));primary.append(wrap);}
-  // Every state and D.C. has a resource guide edition (full or starter).
-  const guide=Object.hasOwn(states,r.state);$('route-back-guide').href=guide?'https://guide.vethomeguard.org/?state='+r.state:'https://guide.vethomeguard.org/';if(guide){primary.append(link('Find '+states[r.state]+' referrals in the Veteran Resource Guide','https://guide.vethomeguard.org/?state='+r.state+'&view='+(['community','transit','public-access'].includes(r.issue)?'seniors':'accessibility')));}
-  else primary.append(el('p','This state is not yet a referral edition in the guide. Start with the responsible program and the source links shown here.'));
+  $('route-back-guide').href=Object.hasOwn(states,r.state)?'https://guide.vethomeguard.org/?state='+r.state:'https://guide.vethomeguard.org/';
   const actions=el('div',undefined,'actions');const draftLink=el('a','Prepare a message','button');draftLink.href='#route-compose';actions.append(draftLink);const print=el('button','Print these next steps');print.type='button';print.id='route-print-plan';print.addEventListener('click',()=>{printMode='plan';preparePrint();window.print();});actions.append(print);primary.append(actions);
   info.append(el('h3','What the sources say'));
-  if(!stateClaims.length)info.append(el('p','We have not reviewed '+states[r.state]+' law or program rules for this barrier. This does not mean that no protection or help exists.','route-unknown'));
+  if(!stateClaims.length)info.append(el('p','We have not reviewed '+states[r.state]+' law or program rules for this barrier. This does not mean that no protection or help exists. Use the '+states[r.state]+' programs listed under “Contact these in '+states[r.state]+' now” to ask what applies.','route-unknown'));
   else {info.append(el('p','Selected state information. Open each source to check device, payer and other qualifications.','small'));stateClaims.forEach(c=>addClaim(info,c));}
   if(fed.length){info.append(el('h4',r.issue==='payer'&&r.payer==='unknown'?'If Medicare is your payer':'Related federal starting point'));fed.forEach(c=>addClaim(info,c));}
   if(r.state==='OH'&&['downtime','payer'].includes(r.issue)){const i=data.inferences[0],box=el('div',undefined,'route-inference');box.append(el('h4','A gap to ask about'),el('p',i.plain),el('p',i.ask),el('p',i.limitations,'small'));info.append(box);}
@@ -106,7 +148,7 @@
    else if(d.issue==='payer'&&d.payer==='medicare')wrap.append(link('Medicare coverage and supplier information','https://www.medicare.gov/coverage/wheelchairs-scooters'));
    else if(d.issue==='transit')wrap.append(link('FTA: local and federal transit complaint instructions','https://www.transit.dot.gov/regulations-and-guidance/civil-rights-ada/file-complaint-fta'));
    else if(d.issue==='public-access'&&d.type==='complaint')wrap.append(link('U.S. Department of Justice: file an ADA complaint',adaURL));
-   else if(Object.hasOwn(states,d.state))wrap.append(link('Find '+states[d.state]+' referrals','./?state='+d.state+'&view='+(['community','transit','public-access'].includes(d.issue)?'seniors':'accessibility')));
+   else if(Object.hasOwn(states,d.state)){const a=el('a','Find '+states[d.state]+' programs and contacts in the directory');a.href=helpURL(d.state,d.issue);wrap.append(a);}
    else for(const c of evidence(d))for(const sid of c.source_ids){const s=sources.get(sid);wrap.append(link(s.title,s.url),el('br'));}
   }
   wrap.append(el('p','Copy your message, open the contact route, add the details the office requests, then review and send there. Keep any confirmation. For an application, appeal or complaint, follow that process and its deadlines.','small'));
