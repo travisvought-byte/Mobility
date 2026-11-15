@@ -3,6 +3,7 @@
 const $=id=>document.getElementById(id);
 const el=(tag,text,cls)=>{const e=document.createElement(tag);if(text!=null)e.textContent=text;if(cls)e.className=cls;return e;};
 const low=s=>String(s==null?'':s).toLowerCase();
+const nk=x=>low(x).replace(/\bsaint\b/g,'st').replace(/[^a-z0-9]/g,'');
 const STATES=JSON.parse($('state-data').textContent);
 const ORDER=['ramps_home','equipment','funding','independent_living','navigation','rights_legal','peer_support','dd_board','veterans'];
 const BLURB={ramps_home:'Programs that build, lend or pay for ramps, bathroom changes and other home access work.',equipment:'Try, borrow, repair, finance or reuse wheelchairs and assistive technology.',funding:'Medicaid waivers and other coverage routes that often pay for equipment and home changes.',independent_living:'Disability-led centers that help with equipment, home access, peer support and advocacy.',navigation:'A first call for aging and disability services in your area.',rights_legal:'Disability rights agencies and legal aid for denials, access and housing problems.',peer_support:'Peer mentors and support groups for wheelchair users, spinal cord injury, limb loss and other mobility disabilities. Many meet online.',dd_board:'County boards, regional centers and state offices for developmental disabilities. They decide eligibility, coordinate services and manage waiver funding.',veterans:'County veterans offices that help file VA housing-adaptation and equipment claims.'};
@@ -13,19 +14,19 @@ function sel(){return {state:$('f-state').value,county:$('f-county').value,categ
 function all(){return main.concat(vso);}
 const mapCache={};let mapTok=0;
 function fillCounties(state,keep){
-  const set=new Set();
-  for(const r of all())if(r.state===state)for(const c of r.counties||[])set.add(c);
-  if(mapCache[state])for(const c of mapCache[state].counties)set.add(c.n);
-  const sorted=[...set].sort((a,b)=>a.localeCompare(b)),box=$('f-county');box.textContent='';
+  const seen=new Map();
+  if(mapCache[state])for(const c of mapCache[state].counties)seen.set(nk(c.n),c.n);
+  for(const r of all())if(r.state===state)for(const c of r.counties||[])if(!seen.has(nk(c)))seen.set(nk(c),c);
+  const sorted=[...seen.values()].sort((a,b)=>a.localeCompare(b)),box=$('f-county');box.textContent='';
   const first=el('option','All counties');first.value='';box.append(first);
   for(const c of sorted){const o=el('option',c);o.value=c;box.append(o);}
-  box.value=sorted.includes(keep)?keep:'';
+  box.value=sorted.find(c=>nk(c)===nk(keep))||'';
 }
 function matches(r,s){
   if(r.state!=='US'&&r.state!==s.state)return false;
   if(s.category&&r.category!==s.category)return false;
   if(r.category==='veterans'&&r.scope==='counties'&&!s.county&&s.category!=='veterans')return false;
-  if(s.county&&r.scope==='counties'&&!r.counties.some(c=>low(c)===low(s.county)))return false;
+  if(s.county&&r.scope==='counties'&&!r.counties.some(c=>nk(c)===nk(s.county)))return false;
   if(s.q){const h=low([r.name,r.org,r.description,r.next_step,(r.counties||[]).join(' ')].join(' '));if(!s.q.split(/\s+/).every(w=>h.includes(w)))return false;}
   return true;
 }
@@ -62,7 +63,6 @@ function drawNeeds(s){
     b.addEventListener('click',()=>{$('f-cat').value=k;render();});box.append(b);
   }
 }
-const nk=x=>low(x).replace(/\bsaint\b/g,'st').replace(/[^a-z0-9]/g,'');
 function paintMap(m,s){
   const sec=$('statemap'),box=$('map-wrap'),NS='http://www.w3.org/2000/svg';
   const name=STATES[s.state]||s.state,cnt={};let statewide=0,local=0;
