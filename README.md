@@ -32,3 +32,7 @@ Local county and veteran referrals stay in the [Veteran Resource Guide](https://
 
 ## License
 Data CC BY 4.0, code MIT. See `LICENSE`.
+
+## Partner page
+
+`partner.html` lets visitors share the directory, sponsor it at three yearly levels, give, introduce a sponsor as a referral partner, or tell us how they help. Inquiries go by email; `assets/partner.js` only builds copyable links in the page and stores nothing. The donate and sponsor email addresses, the sponsor levels and the referral-partner terms are in the page itself. The referral share is deliberately not published until it is final. Gifts and sponsorships are described as received by Veteran Home Guardians.

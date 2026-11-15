@@ -75,3 +75,12 @@ footer{color:#42525b;margin-top:12px}
 .co.c0{fill:#dfe6e1}.co.c1{fill:#b9d3c4}.co.c2{fill:#7fb095}.co.c3{fill:#4a8a68}.co.c4{fill:#276244}.co.sel{stroke:#bb8e36;stroke-width:2.4}
 .legend{font-size:14px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.sw{display:inline-block;width:18px;height:18px;border-radius:3px;border:1px solid #c5cfc9}.sw.c0{background:#dfe6e1}.sw.c1{background:#b9d3c4}.sw.c2{background:#7fb095}.sw.c3{background:#4a8a68}.sw.c4{background:#276244}
 @media print{.statemap{display:none}}
+/* Partner page */
+input[type=text]{font:inherit;width:100%;min-height:48px;padding:10px;border:1px solid #abb8b1;border-radius:6px;background:white;margin:6px 0 14px}
+input[type=text]:focus-visible{outline:3px solid #bb8e36;outline-offset:3px}
+.tool label{margin-top:8px}.tool .actions{margin-top:4px}
+.tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:18px 0}
+.tier .label{flex:0;margin:0}#sponsor h3{margin-top:28px}
+.tier .price{font:700 32px/1.1 Georgia,serif;color:#183449;flex:0;margin:6px 0}.tier .price span{font:600 16px system-ui,sans-serif;color:#52665c}
+.notice-ref{background:#e8eeea;border-left:5px solid #bb8e36;padding:12px 16px;border-radius:6px;font-weight:600}
+@media(max-width:850px){.tiers{grid-template-columns:1fr}}

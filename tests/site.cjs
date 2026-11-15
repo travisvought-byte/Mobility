@@ -20,3 +20,30 @@ for(const f of ['index.html','local-help.html','ramps-home-access.html','mobilit
 assert(fs.readFileSync('CNAME','utf8').trim()==='mobilitytalk.org');
 assert(fs.readFileSync('sitemap.xml','utf8').includes('https://mobilitytalk.org/local-help.html'));assert(fs.readFileSync('robots.txt','utf8').includes('Sitemap: https://mobilitytalk.org/sitemap.xml'));
 console.log('PASS site: '+pages.length+' pages have one h1, canonical and social tags, working internal links and anchors, CNAME, sitemap and robots.');
+
+// partner page
+{const fs2=require('node:fs'),{JSDOM:J}=require('jsdom');
+ const html=fs2.readFileSync('partner.html','utf8'),js=fs2.readFileSync('assets/partner.js','utf8');
+ assert(!/veteranhomeguardians@gmail\.com/i.test(html+js),'private email stays out of partner page');
+ assert(!/\b\d{1,2}\s?%/.test(html),'partner page states no unapproved percentage');
+ assert(!/localStorage|sessionStorage|document\.cookie/.test(js),'partner script stores nothing');
+ for(const f of ['index.html','local-help.html','mobility-rights.html','disability-advocacy.html','ramps-home-access.html','mobility-independence.html','partner.html'])assert(fs2.readFileSync(f,'utf8').includes('>Partner with us</a>'),f+' links to partner page');
+ assert(/\$250/.test(html)&&/\$1,000/.test(html)&&/\$2,500/.test(html),'three sponsor levels');
+ assert(/No paid placement/.test(html),'no paid placement promise');
+ const run=async(q)=>{const dom=new J(html,{url:'https://mobilitytalk.org/partner.html'+q,runScripts:'outside-only'}),w=dom.window,d=w.document;w.eval(js);return {w,d};};
+ (async()=>{
+  let {w,d}=await run('');
+  assert.equal(d.getElementById('share-state').options.length,52,'whole site plus 51 jurisdictions');
+  assert.equal(d.getElementById('share-link').value,'https://mobilitytalk.org/');
+  d.getElementById('share-state').value='WA';d.getElementById('share-state').dispatchEvent(new w.Event('change'));
+  assert.equal(d.getElementById('share-link').value,'https://mobilitytalk.org/local-help.html?state=WA','state link');
+  const n=d.getElementById('ref-name');n.value='Pat <b>Smith</b> & Co.';n.dispatchEvent(new w.Event('input'));
+  assert.equal(d.getElementById('ref-link').value,'https://mobilitytalk.org/partner.html?ref=Pat-b-Smith-b-Co.','referral code is cleaned');
+  assert(!d.getElementById('sponsor-mail').href.includes('referred'),'no referral without a link');
+  ({w,d}=await run('?ref=Podcast%20One%3Cscript%3E'));
+  const href=decodeURIComponent(d.getElementById('sponsor-mail').href);
+  assert(href.includes('referred by Podcast-One-script')&&!href.includes('<'),'sponsor email credits the cleaned referral');
+  assert(!d.getElementById('ref-note').hidden,'referral note shown');
+  console.log('PASS partner page: sponsor levels, cleaned referral links, state links, no stored data, no private email, no unapproved percentage, nav link on every page.');
+ })().catch(e=>{console.error(e);process.exit(1);});
+}
