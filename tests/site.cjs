@@ -40,6 +40,10 @@ console.log('PASS site: '+pages.length+' pages have one h1, canonical and social
   const n=d.getElementById('ref-name');n.value='Pat <b>Smith</b> & Co.';n.dispatchEvent(new w.Event('input'));
   assert.equal(d.getElementById('ref-link').value,'https://mobilitytalk.org/partner.html?ref=Pat-b-Smith-b-Co.','referral code is cleaned');
   assert(!d.getElementById('sponsor-mail').href.includes('referred'),'no referral without a link');
+  const pay=d.getElementById('give-paypal');
+  assert(!pay.hidden&&pay.href==='https://www.paypal.com/donate?business=veteranhomeguardians%40gmail.com&no_recurring=0&item_name=Mobility%20Talk%20gift%20to%20Veteran%20Home%20Guardians&currency_code=USD','PayPal donate link follows PayPal URL format');
+  assert.equal(pay.target,'_blank','PayPal opens in a new tab');
+  assert(/Give another way/.test(d.getElementById('give-fallback').textContent),'email route stays as a second option');
   ({w,d}=await run('?ref=Podcast%20One%3Cscript%3E'));
   const href=decodeURIComponent(d.getElementById('sponsor-mail').href);
   assert(href.includes('referred by Podcast-One-script')&&!href.includes('<'),'sponsor email credits the cleaned referral');

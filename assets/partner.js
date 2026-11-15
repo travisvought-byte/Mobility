@@ -32,5 +32,13 @@
     name.addEventListener('input',buildRef);buildRef();
     $('ref-copy').addEventListener('click',function(){copy(refLink,$('ref-status'));});
   }
+  var pp=$('give-paypal');
+  if(pp){
+    /* PayPal donate link for Veteran Home Guardians. The account address is assembled here, not written in the page. */
+    var acct=['veteranhomeguardians','gmail.com'].join('@');
+    pp.href='https://www.paypal.com/donate?business='+encodeURIComponent(acct)+'&no_recurring=0&item_name='+encodeURIComponent('Mobility Talk gift to Veteran Home Guardians')+'&currency_code=USD';
+    pp.hidden=false;
+    var fb=$('give-fallback');if(fb){fb.textContent='Give another way (email)';fb.className='button secondary';}
+  }
   document.documentElement.classList.add('js');
 })();
