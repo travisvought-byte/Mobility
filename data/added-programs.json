@@ -35986,6 +35986,1973 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-hmin-home-modification-loan-program",
+   "name": "Home Modification Loan Program (MassAbility)",
+   "org": "MassAbility",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Deferred, zero-percent loans for accessibility changes to a home where a person with a disability or an older adult lives. Loans run from $1,000 to $50,000, with a $30,000 limit for mobile homes.",
+   "next_step": "Contact MassAbility and ask about the Home Modification Loan Program and how to apply.",
+   "constraints": [
+    "Loan, not a grant; terms are set by the program.",
+    "Limit is $30,000 for a mobile home."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.mass.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ma/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-hmin-frail-elder-waiver-eaa",
+   "name": "Frail Elder Waiver: environmental accessibility adaptations",
+   "org": "MassHealth / Executive Office of Elder Affairs",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "MassHealth home and community-based waiver for older adults who need nursing facility level of care. Can include environmental accessibility adaptations to the home.",
+   "next_step": "Ask your Aging Services Access Point or MassHealth care manager whether an adaptation can be added to your service plan.",
+   "constraints": [
+    "Waiver eligibility applies; changes must be approved in the service plan."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.mass.gov/masshealth",
+   "url": "https://hmin.homemods.org/directory-state-profile/ma/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-hmin-boston-senior-home-repair",
+   "name": "Senior Home Repair (Boston Home Center)",
+   "org": "City of Boston, Boston Home Center",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Suffolk"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair help for older Boston homeowners.",
+   "next_step": "Contact the Boston Home Center and ask about the Senior Home Repair program.",
+   "constraints": [
+    "Boston homeowners; age and income rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ma/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ma/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ma-hmin-revitalize-cdc-home-repair",
+   "name": "Home repairs and modifications (Revitalize CDC)",
+   "org": "Revitalize CDC",
+   "state": "MA",
+   "scope": "counties",
+   "counties": [
+    "Hampden"
+   ],
+   "category": "ramps_home",
+   "description": "Repairs and modifications for low-income families, older adults, veterans and people with special needs in the Springfield area.",
+   "next_step": "Contact Revitalize CDC and ask about home repair and modification help.",
+   "constraints": [
+    "Low-income households; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ma/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ma/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-hmin-community-pathways-hcbo-modifications",
+   "name": "Community Pathways and Home and Community-Based Options waivers: environmental assessments and modifications",
+   "org": "Maryland Department of Health",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Maryland Medicaid waivers that can pay for environmental assessments and modifications to a home so a person can live in the community.",
+   "next_step": "Ask your waiver case manager or support coordinator whether an assessment or modification can go in your plan.",
+   "constraints": [
+    "Waiver eligibility applies; Community Pathways serves people with developmental disabilities."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://health.maryland.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/md/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-hmin-howard-community-living-home-mod-repair",
+   "name": "Community Living Program: Home Modification and Repair, with Livable Homes Tax Credit",
+   "org": "Howard County Office of Aging and Independence",
+   "state": "MD",
+   "scope": "counties",
+   "counties": [
+    "Howard"
+   ],
+   "category": "ramps_home",
+   "description": "Home modification and repair help in Howard County. The county Livable Homes Tax Credit offers up to $2,500 for accessibility features.",
+   "next_step": "Call the Howard County Office of Aging and Independence and ask about the Community Living Program. Tax credit applications are due April 1.",
+   "constraints": [
+    "Howard County residents.",
+    "Tax credit application is due April 1."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/md/",
+   "url": "https://hmin.homemods.org/directory-state-profile/md/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-hmin-baltimore-county-champ-hamp",
+   "name": "CHAMP / HAMP rental accessibility grants",
+   "org": "Baltimore County Department of Housing and Community Development",
+   "state": "MD",
+   "scope": "counties",
+   "counties": [
+    "Baltimore"
+   ],
+   "category": "ramps_home",
+   "description": "Accessibility modification grants for renters who hold housing vouchers in Baltimore County.",
+   "next_step": "Ask the Baltimore County housing office about the rental accessibility grant.",
+   "constraints": [
+    "Rental accessibility; for voucher holders."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/md/",
+   "url": "https://hmin.homemods.org/directory-state-profile/md/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "md-hmin-washington-county-home-repair-ramps",
+   "name": "Home Repair (CDBG) and Ramps",
+   "org": "Washington County Commission on Aging",
+   "state": "MD",
+   "scope": "counties",
+   "counties": [
+    "Washington"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair funded through Community Development Block Grant money, plus a ramp program.",
+   "next_step": "Call the Washington County Commission on Aging and ask about Home Repair and Ramps.",
+   "constraints": [
+    "Hagerstown city limits only for the CDBG repair program."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/md/",
+   "url": "https://hmin.homemods.org/directory-state-profile/md/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-hmin-childrens-habilitation-waivers-eaa",
+   "name": "Children's Waiver and Habilitation Supports Waiver: environmental accessibility adaptations",
+   "org": "Michigan Department of Health and Human Services",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waivers that can include environmental accessibility adaptations. The Children's Waiver covers children with developmental disabilities; the Habilitation Supports Waiver covers people with developmental disabilities.",
+   "next_step": "Ask your community mental health service program or case manager whether an adaptation can be added to your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.michigan.gov/mdhhs",
+   "url": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-hmin-midland-senior-safety-team",
+   "name": "Senior Safety Team (Midland)",
+   "org": "Midland area senior services, as listed on HomeMods.org",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Midland"
+   ],
+   "category": "ramps_home",
+   "description": "Home safety and repair help for older adults in the Midland area.",
+   "next_step": "Search the HomeMods.org Michigan profile for the current contact for the Senior Safety Team.",
+   "constraints": [
+    "Older adults; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-hmin-bay-county-handyman",
+   "name": "Handyman Program (Bay County)",
+   "org": "Bay County, as listed on HomeMods.org",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Bay"
+   ],
+   "category": "ramps_home",
+   "description": "Handyman help with minor repairs for residents of Bay County.",
+   "next_step": "Search the HomeMods.org Michigan profile for the current contact for the Bay County Handyman Program.",
+   "constraints": [
+    "Bay County residents; eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mi-hmin-gratiot-minor-home-repair",
+   "name": "Minor Home Repair (Gratiot County)",
+   "org": "Gratiot County, as listed on HomeMods.org",
+   "state": "MI",
+   "scope": "counties",
+   "counties": [
+    "Gratiot"
+   ],
+   "category": "ramps_home",
+   "description": "Minor home repair help for residents of Gratiot County.",
+   "next_step": "Search the HomeMods.org Michigan profile for the current contact for Gratiot County Minor Home Repair.",
+   "constraints": [
+    "Gratiot County residents; eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-hmin-live-well-at-home-grants",
+   "name": "Live Well at Home Grants",
+   "org": "Minnesota Department of Human Services",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "State grants that help older adults stay in their homes, including through home modifications and services.",
+   "next_step": "Ask your Area Agency on Aging or the Senior LinkAge Line about Live Well at Home Grants in your area.",
+   "constraints": [
+    "Age 65 and older."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://mn.gov/dhs/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-hmin-mhfa-rehabilitation-loan",
+   "name": "Rehabilitation Loan Program",
+   "org": "Minnesota Housing Finance Agency",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Home improvement loans for income-eligible homeowners that can pay for repairs and accessibility improvements.",
+   "next_step": "Contact Minnesota Housing and ask which local lender or administrator runs the Rehabilitation Loan Program in your county.",
+   "constraints": [
+    "Income limits apply; run through local administrators."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.mnhousing.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-hmin-medicaid-waivers-eaa",
+   "name": "Medicaid waivers: environmental accessibility adaptations (AC, BI, CAC, CADI, DD, EW)",
+   "org": "Minnesota Department of Human Services",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Minnesota's home and community-based waivers can cover environmental accessibility adaptations: Alternative Care, Brain Injury, Community Access for Disability Inclusion, Community Alternative Care, Developmental Disabilities and Elderly Waiver.",
+   "next_step": "Ask your lead agency or case manager which waiver fits and how to add a modification to your plan.",
+   "constraints": [
+    "Waiver eligibility applies; each waiver has its own rules."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://mn.gov/dhs/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-hmin-age-well-at-home",
+   "name": "Age Well at Home (Hennepin and Ramsey)",
+   "org": "Age Well at Home, as listed on HomeMods.org",
+   "state": "MN",
+   "scope": "counties",
+   "counties": [
+    "Hennepin",
+    "Ramsey"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair and modification help for older adults in Hennepin and Ramsey counties.",
+   "next_step": "Search the HomeMods.org Minnesota profile for the current contact for Age Well at Home.",
+   "constraints": [
+    "Older adults; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mn-hmin-red-lake-elderly-maintenance",
+   "name": "Elderly Maintenance Program (Red Lake Nation)",
+   "org": "Red Lake Band of Chippewa Indians",
+   "state": "MN",
+   "scope": "counties",
+   "counties": [
+    "Beltrami"
+   ],
+   "category": "ramps_home",
+   "description": "Home maintenance help for elders on the Red Lake Reservation.",
+   "next_step": "Contact Red Lake Nation and ask about the Elderly Maintenance Program.",
+   "constraints": [
+    "Red Lake Nation elders."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-hmin-mfp-home-modifications",
+   "name": "Money Follows the Person: home modifications",
+   "org": "Missouri Department of Social Services, MO HealthNet",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Helps people move from a nursing facility to a home in the community. Includes home modification help up to $2,400.",
+   "next_step": "Ask the nursing facility social worker or your Center for Independent Living about Money Follows the Person.",
+   "constraints": [
+    "Home modification help is limited to $2,400.",
+    "For people moving out of an institution."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://mydss.mo.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mo/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-hmin-independent-living-waiver",
+   "name": "Independent Living Waiver: environmental accessibility",
+   "org": "Missouri Department of Health and Senior Services",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waiver for adults with physical disabilities who want to live at home, with access to environmental accessibility adaptations.",
+   "next_step": "Ask the Department of Health and Senior Services or your Center for Independent Living how to apply.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://health.mo.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mo/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-hmin-dat-tax-credit",
+   "name": "Disabled Access Tax (DAT) credit",
+   "org": "Missouri Department of Revenue",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "A state tax credit of up to $2,500 for accessibility improvements that remove barriers for a person with a disability.",
+   "next_step": "Ask the Department of Revenue or a tax preparer how to claim the credit and what records to keep.",
+   "constraints": [
+    "Tax credit up to $2,500."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://dor.mo.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mo/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mo-hmin-senior-age-home-safety",
+   "name": "Home Safety Program (Senior Age)",
+   "org": "Senior Age, as listed on HomeMods.org",
+   "state": "MO",
+   "scope": "counties",
+   "counties": [
+    "Greene"
+   ],
+   "category": "ramps_home",
+   "description": "Home safety modifications for older adults in the Springfield area.",
+   "next_step": "Search the HomeMods.org Missouri profile for the current contact for the Senior Age home safety program.",
+   "constraints": [
+    "Older adults; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/mo/",
+   "url": "https://hmin.homemods.org/directory-state-profile/mo/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-hmin-innovations-waiver-environmental-adaptations",
+   "name": "NC Innovations Waiver: environmental adaptations",
+   "org": "NC Department of Health and Human Services, Division of Mental Health, Developmental Disabilities and Substance Use Services",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waiver for people with intellectual and developmental disabilities. Services can include environmental adaptations to the home.",
+   "next_step": "Ask your local management entity / managed care organization or care coordinator how to add an adaptation to your plan.",
+   "constraints": [
+    "Waiver eligibility applies; for people with intellectual or developmental disabilities."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.ncdhhs.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-hmin-cumberland-council-home-improvement",
+   "name": "Home Improvement Program (Cumberland County Council on Older Adults)",
+   "org": "Cumberland County Council on Older Adults",
+   "state": "NC",
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "ramps_home",
+   "description": "Home improvement and repair help for older adults in Cumberland County.",
+   "next_step": "Call the Council on Older Adults and ask about the Home Improvement Program.",
+   "constraints": [
+    "Older adults in Cumberland County."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nc/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nc-hmin-mid-carolina-cog-housing-home-improvement",
+   "name": "Housing and Home Improvement (Mid-Carolina Council of Governments)",
+   "org": "Mid-Carolina Council of Governments",
+   "state": "NC",
+   "scope": "counties",
+   "counties": [
+    "Cumberland",
+    "Harnett",
+    "Sampson"
+   ],
+   "category": "ramps_home",
+   "description": "Home improvement and repair help in Cumberland, Harnett and Sampson counties.",
+   "next_step": "Contact the Mid-Carolina Council of Governments and ask about Housing and Home Improvement.",
+   "constraints": [
+    "Eligibility rules apply; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.mccog.org/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hmin-sped-ex-sped-environmental-modifications",
+   "name": "SPED and Ex-SPED: environmental modifications",
+   "org": "North Dakota Department of Health and Human Services, Aging and Adult Services",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Service Payments for Elderly and Disabled (SPED) and Expanded SPED can pay for environmental modifications that help people stay in their homes.",
+   "next_step": "Contact your county or regional human service zone / Aging and Disability Resource-Link about SPED.",
+   "constraints": [
+    "Eligibility and a functional assessment apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.hhs.nd.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hmin-medicaid-1915c-waivers-modifications",
+   "name": "Medicaid 1915(c) waivers: home modifications",
+   "org": "North Dakota Department of Health and Human Services",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "North Dakota's Medicaid home and community-based waivers can include home modifications.",
+   "next_step": "Ask your case manager which waiver fits and whether a modification can go in your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.hhs.nd.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nd-hmin-rebuilding-together-fm-safe-at-home",
+   "name": "Safe at Home (Rebuilding Together Fargo-Moorhead)",
+   "org": "Rebuilding Together Fargo-Moorhead",
+   "state": "ND",
+   "scope": "counties",
+   "counties": [
+    "Cass"
+   ],
+   "category": "ramps_home",
+   "description": "Repairs and safety modifications for older and disabled homeowners.",
+   "next_step": "Contact Rebuilding Together Fargo-Moorhead and ask about Safe at Home.",
+   "constraints": [
+    "Homeowners; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nd/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-jacc-modifications",
+   "name": "Jersey Assistance for Community Caregiving (JACC): home modifications",
+   "org": "New Jersey Department of Human Services, Division of Aging Services",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "State program that helps older adults who would otherwise need a nursing facility stay at home, with services that can include home modifications.",
+   "next_step": "Call your county Aging and Disability Resource Connection (ADRC) and ask about JACC.",
+   "constraints": [
+    "Eligibility and a cost-share may apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.nj.gov/humanservices/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-mltss-modifications",
+   "name": "Managed Long Term Services and Supports (MLTSS): home modifications",
+   "org": "New Jersey Department of Human Services, Division of Aging Services",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid long-term services and supports that can include home modifications for people who qualify.",
+   "next_step": "Ask your managed care plan care manager about home modifications.",
+   "constraints": [
+    "Medicaid MLTSS eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.nj.gov/humanservices/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-community-care-program-modifications",
+   "name": "Community Care Program (waiver): home modifications",
+   "org": "New Jersey Department of Human Services, Division of Developmental Disabilities",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Home and community-based waiver for people with developmental disabilities that can include home modifications.",
+   "next_step": "Ask your support coordinator whether a modification can be added to your plan.",
+   "constraints": [
+    "Waiver eligibility applies; for people with developmental disabilities."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.nj.gov/humanservices/ddd/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-atlantic-fix-it-program",
+   "name": "Fix-It Program (Atlantic County)",
+   "org": "Atlantic County, as listed on HomeMods.org",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Atlantic"
+   ],
+   "category": "ramps_home",
+   "description": "Minor home repair help in Atlantic County.",
+   "next_step": "Search the HomeMods.org New Jersey profile for the current contact for the Atlantic Fix-It Program.",
+   "constraints": [
+    "Atlantic County residents; eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-mercer-helping-hands-seniors",
+   "name": "Helping Hands for Seniors (Mercer County)",
+   "org": "Mercer County, as listed on HomeMods.org",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Mercer"
+   ],
+   "category": "ramps_home",
+   "description": "Grants of up to $3,000 for home repairs and modifications for older Mercer County residents.",
+   "next_step": "Search the HomeMods.org New Jersey profile for the current contact for Helping Hands for Seniors.",
+   "constraints": [
+    "Age 65 or older.",
+    "Grants up to $3,000."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-hunterdon-mr-fix-it",
+   "name": "Mr. Fix-It (Hunterdon County)",
+   "org": "Hunterdon County, as listed on HomeMods.org",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Hunterdon"
+   ],
+   "category": "ramps_home",
+   "description": "Minor home repair help in Hunterdon County.",
+   "next_step": "Search the HomeMods.org New Jersey profile for the current contact for Mr. Fix-It.",
+   "constraints": [
+    "Hunterdon County residents; eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nj-hmin-burlington-residential-maintenance",
+   "name": "Residential Maintenance Program (Burlington County)",
+   "org": "Burlington County, as listed on HomeMods.org",
+   "state": "NJ",
+   "scope": "counties",
+   "counties": [
+    "Burlington"
+   ],
+   "category": "ramps_home",
+   "description": "Home maintenance and repair help in Burlington County.",
+   "next_step": "Search the HomeMods.org New Jersey profile for the current contact for the Residential Maintenance Program.",
+   "constraints": [
+    "Burlington County residents; eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nm-hmin-albuquerque-home-services",
+   "name": "Home Services Program (City of Albuquerque)",
+   "org": "City of Albuquerque, Department of Senior Affairs",
+   "state": "NM",
+   "scope": "counties",
+   "counties": [
+    "Bernalillo"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair and modification help for older Albuquerque residents.",
+   "next_step": "Call the City of Albuquerque Department of Senior Affairs and ask about the Home Services Program.",
+   "constraints": [
+    "Age 60 or older; Albuquerque residents."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nm/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nm/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nm-hmin-las-cruces-home-rehab-ramps",
+   "name": "Home Rehabilitation and Mobile Home Ramp Installation (City of Las Cruces)",
+   "org": "City of Las Cruces",
+   "state": "NM",
+   "scope": "counties",
+   "counties": [
+    "Doña Ana"
+   ],
+   "category": "ramps_home",
+   "description": "Home rehabilitation, plus ramp installation for mobile homes, for eligible Las Cruces residents.",
+   "next_step": "Contact the City of Las Cruces housing office and ask about Home Rehabilitation and Mobile Home Ramp Installation.",
+   "constraints": [
+    "Las Cruces residents; income rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nm/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nm/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "nm-hmin-isleta-home-chores-minor-repair",
+   "name": "Home Chores and Minor Repair (Pueblo of Isleta)",
+   "org": "Pueblo of Isleta",
+   "state": "NM",
+   "scope": "counties",
+   "counties": [
+    "Bernalillo"
+   ],
+   "category": "ramps_home",
+   "description": "Home chore and minor repair help for older adults of the Pueblo.",
+   "next_step": "Contact the Pueblo of Isleta senior services and ask about Home Chores and Minor Repair.",
+   "constraints": [
+    "Age 60 or older.",
+    "Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/nm/",
+   "url": "https://hmin.homemods.org/directory-state-profile/nm/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ok-hmin-advantage-living-choice-modifications",
+   "name": "ADvantage and Living Choice: environmental modifications",
+   "org": "Oklahoma Human Services",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waiver programs for older adults and adults with disabilities that can cover environmental modifications to the home.",
+   "next_step": "Ask your case manager or call Oklahoma Human Services about ADvantage and Living Choice.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://oklahoma.gov/okdhs.html",
+   "url": "https://hmin.homemods.org/directory-state-profile/ok/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ok-hmin-in-home-supports-waiver-adults",
+   "name": "In-Home Supports Waiver for Adults: environmental modifications",
+   "org": "Oklahoma Human Services, Developmental Disabilities Services",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Waiver for adults with intellectual disabilities that can cover environmental modifications.",
+   "next_step": "Ask your Developmental Disabilities Services case manager whether a modification can go in your plan.",
+   "constraints": [
+    "Waiver eligibility applies; for adults with intellectual disabilities."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://oklahoma.gov/okdhs.html",
+   "url": "https://hmin.homemods.org/directory-state-profile/ok/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ok-hmin-delaware-nation-emergency-repair",
+   "name": "Housing Emergency Repair (Delaware Nation)",
+   "org": "Delaware Nation Housing",
+   "state": "OK",
+   "scope": "counties",
+   "counties": [
+    "Caddo"
+   ],
+   "category": "ramps_home",
+   "description": "Emergency home repair help for tribal households.",
+   "next_step": "Contact Delaware Nation Housing and ask about Housing Emergency Repair.",
+   "constraints": [
+    "Tribal households."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ok/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ok/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ok-hmin-kiowa-aoa-equipment-loans",
+   "name": "Elder Program: equipment loans including portable ramps (Kiowa Tribe)",
+   "org": "Kiowa Tribe Administration on Aging",
+   "state": "OK",
+   "scope": "counties",
+   "counties": [
+    "Caddo"
+   ],
+   "category": "equipment",
+   "description": "Loans of medical and mobility equipment, including portable ramps, for tribal elders.",
+   "next_step": "Contact the Kiowa Tribe Administration on Aging elder program and ask about equipment loans.",
+   "constraints": [
+    "Tribal elders."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ok/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ok/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-hmin-cltc-waiver-modifications",
+   "name": "Community Long Term Care (CLTC) waivers: environmental modifications",
+   "org": "South Carolina Department of Health and Human Services",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waivers that can pay for environmental modifications to a home.",
+   "next_step": "Contact your Community Long Term Care case manager about adding a modification to your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.scdhhs.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/sc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-hmin-lowcountry-cog-minor-home-safety-repair",
+   "name": "Minor Home Safety Repair Program (Lowcountry Council of Governments)",
+   "org": "Lowcountry Council of Governments",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Beaufort",
+    "Colleton",
+    "Hampton",
+    "Jasper"
+   ],
+   "category": "ramps_home",
+   "description": "Minor home safety repairs, including accessibility changes, for older adults and people with disabilities.",
+   "next_step": "Contact the Lowcountry Council of Governments and ask about the Minor Home Safety Repair Program.",
+   "constraints": [
+    "Eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/sc/",
+   "url": "https://hmin.homemods.org/directory-state-profile/sc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sc-hmin-aiken-project-vision",
+   "name": "Project VISION (United Way of Aiken County)",
+   "org": "United Way of Aiken County",
+   "state": "SC",
+   "scope": "counties",
+   "counties": [
+    "Aiken"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair help in Aiken County.",
+   "next_step": "Contact United Way of Aiken County and ask about Project VISION.",
+   "constraints": [
+    "Age 62 or older, or a person with a disability; low income."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/sc/",
+   "url": "https://hmin.homemods.org/directory-state-profile/sc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sd-hmin-hope-waiver-eaa",
+   "name": "HOPE waiver: environmental accessibility adaptations",
+   "org": "South Dakota Department of Human Services, Division of Long Term Services and Supports",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Home and community-based waiver that can include environmental accessibility adaptations.",
+   "next_step": "Contact the Division of Long Term Services and Supports and ask whether you qualify for the HOPE waiver and how to add an adaptation.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://dhs.sd.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/sd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "sd-hmin-chip-home-improvement-loans",
+   "name": "Community Home Improvement Program (CHIP)",
+   "org": "South Dakota Housing Development Authority",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Low-interest home improvement loans through South Dakota Housing.",
+   "next_step": "Contact South Dakota Housing and ask about CHIP and which lender or partner serves your county.",
+   "constraints": [
+    "Loan, not a grant; income and property rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.sdhda.org/",
+   "url": "https://hmin.homemods.org/directory-state-profile/sd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tn-hmin-choices-minor-home-modifications",
+   "name": "CHOICES: minor home modifications",
+   "org": "TennCare",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "TennCare's long-term services and supports program for older adults and adults with physical disabilities can cover minor home modifications.",
+   "next_step": "Ask your managed care organization care coordinator about adding a minor home modification.",
+   "constraints": [
+    "TennCare CHOICES eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.tn.gov/tenncare.html",
+   "url": "https://hmin.homemods.org/directory-state-profile/tn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tn-hmin-my-tn-home-emergency-repair",
+   "name": "My TN Home Emergency Repair Program",
+   "org": "Tennessee Housing Development Agency",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "Emergency home repair for low-income homeowners.",
+   "next_step": "Contact THDA and ask which local agency runs the Emergency Repair Program in your county.",
+   "constraints": [
+    "Age 60 or older, or a person with a disability; low income."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://thda.org/",
+   "url": "https://hmin.homemods.org/directory-state-profile/tn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-hmin-class-dbmd-hcs-amh-minor-home-mods",
+   "name": "CLASS, DBMD and HCS waivers: minor home modifications",
+   "org": "Texas Health and Human Services",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Texas Medicaid waivers for people with disabilities. Each can cover minor home modifications: Community Living Assistance and Support Services, Deaf Blind with Multiple Disabilities and Home and Community-based Services (adaptive aids and minor home modifications).",
+   "next_step": "Ask your local intellectual and developmental disability authority or case manager how to add a modification to your plan.",
+   "constraints": [
+    "Waiver eligibility applies; there can be a long interest list."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.hhs.texas.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/tx/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-hmin-brazos-valley-aaa-home-repairs",
+   "name": "Home Repairs Program (Brazos Valley Area Agency on Aging)",
+   "org": "Brazos Valley Area Agency on Aging",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "Brazos",
+    "Burleson",
+    "Grimes",
+    "Leon",
+    "Madison",
+    "Robertson",
+    "Washington"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair help for older adults in the Brazos Valley.",
+   "next_step": "Call the Brazos Valley Area Agency on Aging and ask about the Home Repairs Program.",
+   "constraints": [
+    "Older adults in the seven counties served."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/tx/",
+   "url": "https://hmin.homemods.org/directory-state-profile/tx/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "tx-hmin-heart-of-texas-cog-care-coordination",
+   "name": "Care Coordination Program (Heart of Texas Council of Governments)",
+   "org": "Heart of Texas Council of Governments",
+   "state": "TX",
+   "scope": "counties",
+   "counties": [
+    "McLennan",
+    "Bosque",
+    "Falls",
+    "Freestone",
+    "Hill",
+    "Limestone"
+   ],
+   "category": "navigation",
+   "description": "Care coordination and help finding home services for older adults, as listed on HomeMods.org.",
+   "next_step": "Contact the Heart of Texas Council of Governments and ask about the Care Coordination Program.",
+   "constraints": [
+    "Older adults; confirm which services, including home repair, are offered in your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.hotcogtx.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/tx/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-hmin-abi-aging-waivers-environmental-adaptations",
+   "name": "Acquired Brain Injury and Aging waivers: environmental adaptations",
+   "org": "Utah Department of Health and Human Services",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Utah Medicaid waivers that can cover environmental adaptations. The Acquired Brain Injury waiver is for people with an acquired brain injury; the Aging and Community Supports waiver is for older adults.",
+   "next_step": "Ask your case manager or the Utah Aging and Disability Resource Connection about adding an adaptation to your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://dhhs.utah.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ut/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ut-hmin-weber-morgan-aaa-alternatives",
+   "name": "The Alternatives Program (Weber Morgan Area Agency on Aging)",
+   "org": "Weber Area Agency on Aging",
+   "state": "UT",
+   "scope": "counties",
+   "counties": [
+    "Weber",
+    "Morgan"
+   ],
+   "category": "ramps_home",
+   "description": "Home services for older adults, including home repair and modification help.",
+   "next_step": "Call the Weber Area Agency on Aging and ask about The Alternatives Program.",
+   "constraints": [
+    "Age 60 or older; a share of slots may serve ages 18 to 59.",
+    "Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ut/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ut/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-hmin-alzheimers-family-caregiver-support",
+   "name": "Alzheimer's Family and Caregiver Support Program",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Funding of up to $4,000 per year for services and supplies for a person with Alzheimer's or related dementia, which can include home modifications.",
+   "next_step": "Call your county Aging and Disability Resource Center and ask about the Alzheimer's Family and Caregiver Support Program.",
+   "constraints": [
+    "Funding limited to $4,000.",
+    "Person with Alzheimer's disease or a related dementia."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.dhs.wisconsin.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-hmin-nfcsp-modifications",
+   "name": "National Family Caregiver Support Program: home modifications",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Caregiver support funded through the Older Americans Act that can include help with home modifications.",
+   "next_step": "Call your county Aging and Disability Resource Center and ask about the Family Caregiver Support Program.",
+   "constraints": [
+    "Caregiver eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.dhs.wisconsin.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-hmin-family-care-home-modifications",
+   "name": "Family Care waiver: home modifications",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Wisconsin's long-term care program for older adults and adults with disabilities can cover home modifications.",
+   "next_step": "Call your county Aging and Disability Resource Center to ask about enrolling in Family Care.",
+   "constraints": [
+    "Family Care eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.dhs.wisconsin.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-hmin-hhr-homebuyer-rehab",
+   "name": "HOME Homebuyer and Rehabilitation (HHR)",
+   "org": "Wisconsin Department of Administration",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Funding that local housing agencies use for home rehabilitation for low-income owners, which can include accessibility work.",
+   "next_step": "Ask your county or city housing agency whether it runs a HOME Homebuyer and Rehabilitation program.",
+   "constraints": [
+    "Low-income owners; run through local administrators."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://doa.wi.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-hmin-project-home-dane-green",
+   "name": "Project Home (Dane and Green counties)",
+   "org": "Project Home",
+   "state": "WI",
+   "scope": "counties",
+   "counties": [
+    "Dane",
+    "Green"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair and accessibility help for low-income households in Dane and Green counties.",
+   "next_step": "Contact Project Home and ask about home repair and accessibility work.",
+   "constraints": [
+    "Low-income households; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "url": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wi-hmin-revitalize-milwaukee",
+   "name": "Home repair and modification (Revitalize Milwaukee)",
+   "org": "Revitalize Milwaukee",
+   "state": "WI",
+   "scope": "counties",
+   "counties": [
+    "Milwaukee",
+    "Waukesha"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair and modification help for older adults, people with disabilities and veterans in the Milwaukee area.",
+   "next_step": "Contact Revitalize Milwaukee and ask about home repair and modification help.",
+   "constraints": [
+    "Age 60 or older, people with disabilities, or veterans."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "url": "https://hmin.homemods.org/directory-state-profile/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-hmin-community-transitions-home-modification",
+   "name": "California Community Transitions (CCT): home modification",
+   "org": "California Department of Health Care Services",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Helps people move out of a nursing facility or other institution to a home in the community. Home modification help is available up to $7,500 over a lifetime.",
+   "next_step": "Ask the facility social worker or your local Independent Living Center about California Community Transitions.",
+   "constraints": [
+    "Home modification help is limited to $7,500 over a lifetime.",
+    "For people moving out of an institution."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.dhcs.ca.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-hmin-hcba-hcbs-dd-waivers-eaa",
+   "name": "Home and Community-Based Alternatives and HCBS-DD waivers: environmental accessibility adaptations",
+   "org": "California Department of Health Care Services",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medi-Cal waivers that can cover environmental accessibility adaptations. The HCBA waiver serves people who need nursing facility level of care; the HCBS-DD waiver serves people with developmental disabilities.",
+   "next_step": "Ask your waiver care manager or regional center service coordinator whether an adaptation can go in your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.dhcs.ca.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-hmin-title-iii-e-minor-home-modifications",
+   "name": "Title III-E Family Caregiver Support: minor home modifications",
+   "org": "California Department of Aging, through local Area Agencies on Aging",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Caregiver support funded through the Older Americans Act that can include minor home modifications.",
+   "next_step": "Call your local Area Agency on Aging and ask about the Family Caregiver Support Program.",
+   "constraints": [
+    "Caregiver eligibility rules apply; offerings vary by Area Agency on Aging."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://aging.ca.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-hmin-sausalito-age-friendly-home-adaptation",
+   "name": "Age Friendly Home Adaptation Grant (Sausalito)",
+   "org": "City of Sausalito",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Marin"
+   ],
+   "category": "ramps_home",
+   "description": "Grants for home adaptations for older Sausalito residents.",
+   "next_step": "Contact the City of Sausalito and ask about the Age Friendly Home Adaptation Grant.",
+   "constraints": [
+    "Sausalito residents."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-hmin-ventura-elderhelp",
+   "name": "ElderHelp Program (Ventura County)",
+   "org": "ElderHelp, as listed on HomeMods.org",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Ventura"
+   ],
+   "category": "ramps_home",
+   "description": "Help for older adults in Ventura County. HomeMods.org lists it under home modification and repair.",
+   "next_step": "Search the HomeMods.org California profile for the current contact for ElderHelp.",
+   "constraints": [
+    "Older adults; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ca-hmin-contra-costa-fall-prevention",
+   "name": "Fall Prevention Program (Contra Costa Area Agency on Aging)",
+   "org": "Contra Costa County Area Agency on Aging",
+   "state": "CA",
+   "scope": "counties",
+   "counties": [
+    "Contra Costa"
+   ],
+   "category": "ramps_home",
+   "description": "Fall prevention help for older adults in Contra Costa County.",
+   "next_step": "Call the Contra Costa Area Agency on Aging and ask about the Fall Prevention Program.",
+   "constraints": [
+    "Older adults in Contra Costa County."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-hmin-nysofa-minor-home-repair",
+   "name": "Minor home repair and modification through Area Agencies on Aging",
+   "org": "New York State Office for the Aging",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "Many of the state's 59 local Area Agencies on Aging offer minor home repair and modification for older adults. What is offered varies by county.",
+   "next_step": "Call NY Connects or your county Office for the Aging and ask what home repair and modification help is offered locally.",
+   "constraints": [
+    "Offerings vary by county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://aging.ny.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ny/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-hmin-capable-implementation",
+   "name": "CAPABLE implementation",
+   "org": "New York State Office for the Aging",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "A 2026 state effort to bring the CAPABLE model to older New Yorkers: a team of an occupational therapist, a nurse and a handy worker who help with daily tasks, home safety and small repairs. Plans call for serving up to 2,600 participants.",
+   "next_step": "Ask your county Office for the Aging whether CAPABLE is offered in your area yet.",
+   "constraints": [
+    "Implementation began in 2026; availability varies by county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://aging.ny.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ny/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-hmin-cortland-handyman-make-a-ramp",
+   "name": "Handyman Program and Make A Ramp (Cortland County)",
+   "org": "Cortland County Office for Aging",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Cortland"
+   ],
+   "category": "ramps_home",
+   "description": "Handyman help and a ramp-building program for older adults in Cortland County.",
+   "next_step": "Call the Cortland County Office for Aging and ask about the Handyman Program and Make A Ramp.",
+   "constraints": [
+    "Age 60 or older."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ny/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ny/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "ny-hmin-cayuga-homesite-home-repair",
+   "name": "Home repair (Homesite, Cayuga County)",
+   "org": "Homesite, as listed on HomeMods.org",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "Cayuga"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair help for residents of Cayuga County.",
+   "next_step": "Search the HomeMods.org New York profile for the current contact for Homesite.",
+   "constraints": [
+    "Cayuga County residents; eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/ny/",
+   "url": "https://hmin.homemods.org/directory-state-profile/ny/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-hmin-passport-waiver-modifications",
+   "name": "PASSPORT waiver: home modifications",
+   "org": "Ohio Department of Aging",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waiver for older adults who need nursing facility level of care and want to stay at home. Can include home modifications.",
+   "next_step": "Call your Area Agency on Aging and ask about PASSPORT and how to add a modification to your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://aging.ohio.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-hmin-home-care-waiver-home-modifications",
+   "name": "Ohio Home Care Waiver: home modifications",
+   "org": "Ohio Department of Medicaid",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Medicaid waiver for people with disabilities that can include home modifications. A separate record covers vehicle modification under the same waiver.",
+   "next_step": "Ask your case manager whether a home modification can be added to your plan.",
+   "constraints": [
+    "Waiver eligibility applies."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://medicaid.ohio.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-hmin-housing-trust-fund-housing-assistance-grants",
+   "name": "Ohio Housing Trust Fund and Housing Assistance Grant Program",
+   "org": "Ohio Department of Development",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "State funding that local agencies use for home repair and accessibility work for low-income homeowners.",
+   "next_step": "Ask your Area Agency on Aging or county community action agency whether it uses Housing Trust Fund or Housing Assistance Grant dollars for repairs.",
+   "constraints": [
+    "Run through local agencies; income rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://development.ohio.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-hmin-buckeye-hills-home-accessibility-modifications",
+   "name": "Home Accessibility Modifications and Minor Home Repair (Buckeye Hills Regional Council)",
+   "org": "Buckeye Hills Regional Council",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Athens",
+    "Hocking",
+    "Meigs",
+    "Monroe",
+    "Morgan",
+    "Noble",
+    "Perry",
+    "Washington"
+   ],
+   "category": "ramps_home",
+   "description": "Accessibility modifications and minor home repair for older adults, and for adults under 60 with a disability.",
+   "next_step": "Call Buckeye Hills and ask about Home Accessibility Modifications and Minor Home Repair.",
+   "constraints": [
+    "Age 60 or older, or under 60 with a disability."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "url": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-hmin-aaa7-home-repair-program",
+   "name": "Home Repair Program (Area Agency on Aging District 7)",
+   "org": "Area Agency on Aging District 7",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Adams",
+    "Brown",
+    "Gallia",
+    "Highland",
+    "Jackson",
+    "Lawrence",
+    "Pike",
+    "Ross",
+    "Scioto",
+    "Vinton"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair and handicapped accessibility work for eligible older adults, funded through the Ohio Development Services Agency and the Senior Community Services Program. Some restrictions apply to mobile homes, and repairs are for the residence only.",
+   "next_step": "Call 1-800-582-7277 and ask about the Home Repair Program.",
+   "constraints": [
+    "Eligible older adults in the ten counties served.",
+    "Some restrictions apply to mobile homes."
+   ],
+   "phone": "1-800-582-7277",
+   "phone_note": "Toll free; TTY 711. Source: AAA7 website.",
+   "email": null,
+   "web": "https://www.aaa7.org/home-repair-program",
+   "url": "https://www.aaa7.org/home-repair-program",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "oh-hmin-cleveland-aging-home-maintenance-repairs",
+   "name": "Home Maintenance and Repairs (Cleveland Department of Aging)",
+   "org": "City of Cleveland Department of Aging",
+   "state": "OH",
+   "scope": "counties",
+   "counties": [
+    "Cuyahoga"
+   ],
+   "category": "ramps_home",
+   "description": "Home maintenance and repair help for older Cleveland residents.",
+   "next_step": "Contact the Cleveland Department of Aging and ask about Home Maintenance and Repairs.",
+   "constraints": [
+    "Cleveland residents; age and income rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "url": "https://hmin.homemods.org/directory-state-profile/oh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-hmin-clarion-aaa-environmental-modifications",
+   "name": "Environmental Modifications (Clarion County Area Agency on Aging)",
+   "org": "Clarion County Area Agency on Aging",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Clarion"
+   ],
+   "category": "ramps_home",
+   "description": "Environmental modifications to help older adults stay at home.",
+   "next_step": "Call the Clarion County Area Agency on Aging and ask about Environmental Modifications.",
+   "constraints": [
+    "Older adults in Clarion County."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/pa/",
+   "url": "https://hmin.homemods.org/directory-state-profile/pa/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "pa-hmin-montgomery-caregiver-support",
+   "name": "Caregiver Support Program (Montgomery County)",
+   "org": "Montgomery County Aging and Adult Services",
+   "state": "PA",
+   "scope": "counties",
+   "counties": [
+    "Montgomery"
+   ],
+   "category": "navigation",
+   "description": "Caregiver support in Montgomery County, listed on HomeMods.org because it can help with home modifications.",
+   "next_step": "Call Montgomery County Aging and Adult Services and ask about the Caregiver Support Program.",
+   "constraints": [
+    "Caregiver eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/pa/",
+   "url": "https://hmin.homemods.org/directory-state-profile/pa/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-hmin-eharp",
+   "name": "Essential Home and Accessibility Repair Program (EHARP)",
+   "org": "Virginia state housing program, as listed on HomeMods.org",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "ramps_home",
+   "description": "Statewide home repair and accessibility program listed on the HomeMods.org Virginia profile.",
+   "next_step": "Search the HomeMods.org Virginia profile for the current contact for EHARP.",
+   "constraints": [
+    "Eligibility rules apply."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/va/",
+   "url": "https://hmin.homemods.org/directory-state-profile/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-hmin-virginia-housing-accessibility-grants",
+   "name": "Virginia Housing Accessibility Grants",
+   "org": "Virginia Housing",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "Grants of up to $8,000 for accessibility changes to a home.",
+   "next_step": "Contact Virginia Housing and ask how to apply for an Accessibility Grant.",
+   "constraints": [
+    "Grants up to $8,000."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.virginiahousing.com/",
+   "url": "https://hmin.homemods.org/directory-state-profile/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-hmin-livable-home-tax-credit",
+   "name": "Livable Home Tax Credit",
+   "org": "Virginia Department of Housing and Community Development",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "funding",
+   "description": "A state tax credit of up to $6,500 for accessibility features in a home.",
+   "next_step": "Ask the Department of Housing and Community Development how to apply before the work begins.",
+   "constraints": [
+    "Tax credit up to $6,500."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.dhcd.virginia.gov/",
+   "url": "https://hmin.homemods.org/directory-state-profile/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-hmin-cvacl-emergency-home-accessibility-repair",
+   "name": "Emergency Home Accessibility and Repair Program (Central Virginia Alliance for Community Living)",
+   "org": "Central Virginia Alliance for Community Living",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Amherst",
+    "Appomattox",
+    "Bedford",
+    "Campbell",
+    "Lynchburg"
+   ],
+   "category": "ramps_home",
+   "description": "Emergency home accessibility and repair help, up to $4,000.",
+   "next_step": "Contact the Central Virginia Alliance for Community Living and ask about the Emergency Home Accessibility and Repair Program.",
+   "constraints": [
+    "Help is limited to $4,000.",
+    "Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://www.cvacl.org/",
+   "url": "https://hmin.homemods.org/directory-state-profile/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-hmin-meoc-faith-works",
+   "name": "Faith Works (Mountain Empire Older Citizens)",
+   "org": "Mountain Empire Older Citizens",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Lee",
+    "Scott",
+    "Wise",
+    "Norton"
+   ],
+   "category": "ramps_home",
+   "description": "Home repair help for older adults in far southwest Virginia.",
+   "next_step": "Contact Mountain Empire Older Citizens and ask about Faith Works.",
+   "constraints": [
+    "Older adults in the area served."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/va/",
+   "url": "https://hmin.homemods.org/directory-state-profile/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "va-hmin-vpas-home-renovation-repair",
+   "name": "Home Renovation and Repair with Rebuilding Together (Valley Program for Aging Services)",
+   "org": "Valley Program for Aging Services",
+   "state": "VA",
+   "scope": "counties",
+   "counties": [
+    "Augusta",
+    "Staunton",
+    "Waynesboro"
+   ],
+   "category": "ramps_home",
+   "description": "Home renovation and repair help for older adults, done with Rebuilding Together.",
+   "next_step": "Contact Valley Program for Aging Services and ask about Home Renovation and Repair.",
+   "constraints": [
+    "Older adults; Service area beyond this county is not listed on HomeMods.org; call to confirm your county."
+   ],
+   "phone": null,
+   "phone_note": "No phone is printed in the HomeMods.org listing; use the website to find the current number.",
+   "email": null,
+   "web": "https://hmin.homemods.org/directory-state-profile/va/",
+   "url": "https://hmin.homemods.org/directory-state-profile/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
