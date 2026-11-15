@@ -15113,6 +15113,251 @@
    "reviewed_on": "2026-11-15",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-1",
+   "name": "Idaho adult developmental disabilities program, Region 1 (Coeur d'Alene)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Benewah",
+    "Bonner",
+    "Boundary",
+    "Kootenai",
+    "Shoshone"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 1120 Ironwood Drive, Suite 102, Coeur d'Alene.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-769-1567",
+   "phone_note": "Regional office",
+   "email": "BDDSQA1@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-2",
+   "name": "Idaho adult developmental disabilities program, Region 2 (Lewiston)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Clearwater",
+    "Idaho",
+    "Latah",
+    "Lewis",
+    "Nez Perce"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 1118 F Street, Lewiston.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-799-4430",
+   "phone_note": "Regional office",
+   "email": "BDDSQA2@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-3",
+   "name": "Idaho adult developmental disabilities program, Region 3 (Boise)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Adams",
+    "Canyon",
+    "Gem",
+    "Owyhee",
+    "Payette",
+    "Washington"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 1720 Westgate Drive, Suite B, Boise.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-334-0940",
+   "phone_note": "Regional office",
+   "email": "BDDSQA3@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-4",
+   "name": "Idaho adult developmental disabilities program, Region 4 (Boise)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Ada",
+    "Boise",
+    "Elmore",
+    "Valley"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 1720 Westgate Drive, Suite B, Boise.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-334-0940",
+   "phone_note": "Regional office",
+   "email": "BDDSQA4@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-5",
+   "name": "Idaho adult developmental disabilities program, Region 5 (Twin Falls)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Blaine",
+    "Camas",
+    "Cassia",
+    "Gooding",
+    "Jerome",
+    "Lincoln",
+    "Minidoka",
+    "Twin Falls"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 601 Pole Line Road, Suite 3, Twin Falls.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-736-3024",
+   "phone_note": "Regional office",
+   "email": "BDDSQA5@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-6",
+   "name": "Idaho adult developmental disabilities program, Region 6 (Pocatello)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Bannock",
+    "Bear Lake",
+    "Bingham",
+    "Caribou",
+    "Franklin",
+    "Oneida",
+    "Power"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 1070 Hiline Road, Suite 260, Pocatello.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-239-6260",
+   "phone_note": "Regional office",
+   "email": "BDDSQA6@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "id-bdds-region-7",
+   "name": "Idaho adult developmental disabilities program, Region 7 (Idaho Falls)",
+   "org": "Idaho Department of Health and Welfare, Division of Medicaid, Developmental Disabilities Program",
+   "state": "ID",
+   "scope": "counties",
+   "counties": [
+    "Bonneville",
+    "Butte",
+    "Clark",
+    "Custer",
+    "Fremont",
+    "Jefferson",
+    "Lemhi",
+    "Madison",
+    "Teton"
+   ],
+   "category": "dd_board",
+   "description": "Regional office for the adult developmental disabilities program. You need Home and Community Based Services Medicaid and must meet the level of care for an intermediate care facility for people with intellectual disabilities. Office: 150 Shoup Avenue, Suite 20, Idaho Falls.",
+   "next_step": "Call the regional office for your county to start the application for developmental disability services.",
+   "constraints": [
+    "Requires financial eligibility for Home and Community Based Services Medicaid and ICF/IID level of care."
+   ],
+   "phone": "208-528-5750",
+   "phone_note": "Regional office",
+   "email": "BDDSQA7@dhw.idaho.gov",
+   "web": null,
+   "url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-adult-developmental-disabilities-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "mt-ddp-offices",
+   "name": "Montana Developmental Disabilities Program: central office and regional offices",
+   "org": "Montana Department of Public Health and Human Services, Developmental Disabilities Program",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "State program for people with developmental disabilities, with regional offices that handle eligibility, plans of care and the waiting list. Central office, Helena (406) 444-2995. Region 1: Glasgow (406) 228-8264 and Miles City (406) 232-2595. Region 2: Great Falls (406) 454-6085. Region 3: Billings (406) 655-7603. Region 4: Helena (406) 444-1714 and Butte (406) 496-4922. Region 5: Missoula (406) 329-5415 and Kalispell (406) 300-7389.",
+   "next_step": "Call the central office to find the regional office for your county, or call the office nearest you.",
+   "constraints": [],
+   "phone": "406-444-2995",
+   "phone_note": "Central office, Helena",
+   "email": null,
+   "web": null,
+   "url": "https://dphhs.mt.gov/BHDD/DisabilityServices/developmentaldisabilities/DevelopmentalDisabilitiesRegionalOffices",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
+  },
+  {
+   "id": "wv-idd-waiver-apply",
+   "name": "West Virginia I/DD Waiver: how to apply (statewide)",
+   "org": "West Virginia Department of Health and Human Resources, Bureau for Medical Services",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "dd_board",
+   "description": "The I/DD Waiver is a Medicaid program that pays for community-based supports for people with intellectual and developmental disabilities. You request the application packet from the state administrative services organization, complete it and send it back by fax, email or mail. Any DHHR local office can also help.",
+   "next_step": "Call to request the I/DD Waiver application packet.",
+   "constraints": [],
+   "phone": "866-385-8920",
+   "phone_note": "Administrative services organization; Bureau for Medical Services 304-356-4904",
+   "email": null,
+   "web": null,
+   "url": "https://dhhr.wv.gov/bms/BMSPUB/Documents/IDDWaiver%20Brochure-jh.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json"
   }
  ]
 }
