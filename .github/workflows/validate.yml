@@ -1,0 +1,32 @@
+name: Validate site
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check built pages match their data
+        run: |
+          python3 scripts/build_mobility_routes.py
+          python3 scripts/build_disability_advocacy.py
+          git diff --exit-code -- mobility-rights.html disability-advocacy.html
+      - name: Check public mobility data and staged law research
+        run: |
+          python3 tests/mobility_routes.py
+          python3 scripts/validate_mobility_law_map.py
+          python3 tests/mobility_law_map.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Check finder and advocacy behavior
+        run: npm test
+      - name: Install test browser
+        run: npx playwright install --with-deps chromium
+      - name: Check browser, mobile and print behavior
+        run: npm run test:browser
