@@ -18,6 +18,9 @@
     "ohio-dd-home-adaptations": {"contact_how": "Ask your county board of developmental disabilities service coordinator to request the adaptation. There is no separate application line.", "source": "Ohio Administrative Code rule 5123-9-23"},
     "ohio-waiver-home-modifications": {"contact_how": "Ask your waiver case manager to request the home modification. There is no separate application line.", "source": "Ohio Administrative Code rule 5160-44-13"},
     "oh-home-care-waiver-vehicle": {"contact_how": "Ask your Ohio Home Care Waiver case manager to request the vehicle modification. There is no separate application line.", "source": "Ohio Administrative Code rule 5160-46-09"},
-    "oh-nemt-medicaid-rides": {"contact_how": "Call the member services number printed on your Medicaid managed care card.", "source": "Ohio Medicaid NEMT profile"}
+    "oh-nemt-medicaid-rides": {"contact_how": "Call the member services number printed on your Medicaid managed care card.", "source": "Ohio Medicaid NEMT profile"},
+    "fl-blind": {"web": "https://dbs.myflorida.com/", "source": "Florida Division of Blind Services website, listed by the U.S. Department of Education RSA state agency list"},
+    "nc-blind": {"web": "https://www.ncdhhs.gov/divisions/dsb", "source": "NC Division of Services for the Blind, listed by the U.S. Department of Education RSA state agency list"},
+    "va-blind": {"web": "https://www.vdbvi.org/", "source": "Virginia Department for the Blind and Vision Impaired, listed by the U.S. Department of Education RSA state agency list"}
   }
 }
