@@ -40,6 +40,7 @@ console.log('PASS site: '+pages.length+' pages have one h1, canonical and social
   const n=d.getElementById('ref-name');n.value='Pat <b>Smith</b> & Co.';n.dispatchEvent(new w.Event('input'));
   assert.equal(d.getElementById('ref-link').value,'https://mobilitytalk.org/partner.html?ref=Pat-b-Smith-b-Co.','referral code is cleaned');
   assert(!d.getElementById('sponsor-mail').href.includes('referred'),'no referral without a link');
+  assert(fs2.existsSync('assets/paypal-vhg-qr.png')&&fs2.statSync('assets/paypal-vhg-qr.png').size<120000,'QR image present and light');const qi=d.querySelector('.qr img');assert(qi&&/Veteran Home Guardians/.test(qi.alt)&&qi.getAttribute('src')==='assets/paypal-vhg-qr.png','QR has descriptive alt text');assert(!/Travis Vought/.test(qi.alt+d.querySelector('.qr').textContent),'QR block shows no personal name');
   const pay=d.getElementById('give-paypal');
   assert(!pay.hidden&&pay.href==='https://www.paypal.com/donate?business=veteranhomeguardians%40gmail.com&no_recurring=0&item_name=Mobility%20Talk%20gift%20to%20Veteran%20Home%20Guardians&currency_code=USD','PayPal donate link follows PayPal URL format');
   assert.equal(pay.target,'_blank','PayPal opens in a new tab');
