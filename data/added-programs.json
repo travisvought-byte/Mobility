@@ -59186,24 +59186,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Iowa.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Iowa’s Commission of Deaf Services is an advisory commission of seven voting members, four of them deaf or hard of hearing. It studies the needs of deaf and hard of hearing Iowans, shares information with the public and recommends rules and legislation. Iowa’s state directory of department contacts lists Deaf Services at the number shown.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "The commission is advisory. For job-related services, ask Iowa Vocational Rehabilitation Services, listed separately.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "515-281-3164",
+   "phone_note": "Deaf Services, as listed in the State of Iowa department contacts directory",
    "email": null,
    "web": "https://hhs.iowa.gov/about/advisory-groups/commission-deaf-services",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://das.iowa.gov/state-iowa-department-contacts",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "ks-deaf-hard-of-hearing-agency",
@@ -59563,30 +59562,29 @@
   },
   {
    "id": "nh-deaf-hard-of-hearing-agency",
-   "name": "Services for the Deaf and Hard of Hearing",
+   "name": "VR New Hampshire: Services for Individuals Who Are Deaf or Hard of Hearing",
    "org": "State agency for people who are deaf or hard of hearing",
    "state": "NH",
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New Hampshire.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "New Hampshire’s program for people who are deaf, hard of hearing or late-deafened is part of VR New Hampshire, the state vocational rehabilitation agency. It opened in 1981 and became law in 1989. Its services help people prepare for, get and keep a job, with specific services for deaf, hard of hearing and late-deafened people, including American Sign Language users.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "For sign language interpreter referrals, the state’s interpreter guide lists Northeast Deaf & Hard of Hearing Services at 603-224-1850.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "603-271-3471",
+   "phone_note": "Voice and TTY, as listed on the program’s fact sheet; videophone 603-463-0728; toll-free 800-299-1647",
    "email": null,
    "web": "https://www.education.nh.gov/who-we-are/deputy-commissioner/bureau-vocational-rehabilitation/programs-and-services/program-individuals-who-are-deaf-or-hard-hearing",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://www.education.nh.gov/sites/g/files/ehbemt326/files/inline-documents/sonh/deaf-hard-of-hearing-factsheet.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "nj-deaf-hard-of-hearing-agency",
@@ -59773,31 +59771,30 @@
   },
   {
    "id": "tn-deaf-hard-of-hearing-agency",
-   "name": "Tennessee Council for the Deaf, Deaf-Blind and Hard of Hearing",
+   "name": "Tennessee Deaf, Deaf-Blind and Hard of Hearing Services (Department of Human Services)",
    "org": "State agency for people who are deaf or hard of hearing",
    "state": "TN",
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Tennessee.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The national roster lists Tennessee’s Council for the Deaf, Deaf-Blind and Hard of Hearing. The state Department of Human Services’ Deaf, Deaf-Blind and Hard of Hearing Services work through regional centers: BridgesWEST in Memphis (901-701-6800, videophone 901-612-3416), the Jackson Center for Independent Living (731-668-2211, videophone 731-256-7026), BridgesTN in Nashville (615-248-8828, videophone 615-290-5147), Partnership Deaf Services in Chattanooga (423-697-3842, videophone 423-208-9801) and the disABILITY Resource Center in Knoxville (865-637-3666).",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "Call the regional center that serves your county first; the department line can tell you which one that is.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "833-772-8347",
+   "phone_note": "Department of Human Services line for deaf and hard of hearing services, 833-772-TDHS, as listed on the department’s contact page",
    "email": null,
-   "web": "https://www.tn.gov/humanservices/ds/councils-and-committees/tcddbhh.html",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "web": "https://www.tn.gov/humanservices/ds/deaf-and-hard-of-hearing-services.html",
+   "url": "https://www.tn.gov/humanservices/ds/deaf-and-hard-of-hearing-services.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf",
     "deafblind"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "tx-deaf-hard-of-hearing-agency",
@@ -59832,24 +59829,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Utah.",
-   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Utah’s Division of Services to the Deaf and Hard of Hearing serves people at two community centers, the Sanderson Center in Taylorsville and the Southern Center in St. George. Its programs include case management, communication assessment, employment services, hard of hearing services, outreach and technology, and the Utah Interpreter Program.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "http://deafservices.utah.gov/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "801-263-4860",
+   "phone_note": "Voice, Sanderson Center front desk, as listed on the division’s contact page; videophone 801-657-5200; TTY 801-263-4862; text 385-414-5677; toll-free 800-860-4860; St. George 435-652-2453 (videophone 435-216-9305)",
+   "email": "dsdhhinfo@utah.gov",
+   "web": "https://jobs.utah.gov/usor/dhh/contact/",
+   "url": "https://jobs.utah.gov/usor/dhh/contact/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Find the agency by name or through the national roster."
+   ]
   },
   {
    "id": "vt-deaf-hard-of-hearing-agency",
@@ -69240,6 +69235,58 @@
    "audience": [
     "blind",
     "older"
+   ]
+  },
+  {
+   "id": "us-myositis-association",
+   "name": "The Myositis Association: support line and support groups",
+   "org": "The Myositis Association (TMA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The Myositis Association supports people living with myositis and their care partners. It runs support and affinity groups, including regional groups and worldwide groups organized by diagnosis, and anyone can join a group wherever they live.",
+   "next_step": "Call or email the association, or register for the next meeting of a support group on its site.",
+   "constraints": [
+    "For support group questions, the association asks you to email supportgroups@myositis.org."
+   ],
+   "phone": "800-821-7356",
+   "phone_note": "Toll-free, as listed on the association’s patient support page; also 410-290-0937",
+   "email": "TMA@myositis.org",
+   "web": "https://300.myositis.org/patient-support/support-groups/find-support-group/",
+   "url": "https://300.myositis.org/patient-support/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-long-covid-disability-rights",
+   "name": "Long COVID: when it counts as a disability, and where to get help",
+   "org": "U.S. Department of Health and Human Services, Office for Civil Rights",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "rights_legal",
+   "description": "Federal guidance from HHS and the Department of Justice explains that long COVID can be a disability under the Americans with Disabilities Act, Section 504 of the Rehabilitation Act and Section 1557 of the Affordable Care Act, all of which protect people with disabilities from discrimination. HHS points people to the Disability Information and Access Line (DIAL) for help finding services.",
+   "next_step": "Read the guidance, then call DIAL for help finding services. For questions about your rights under the ADA, call the ADA Information Line.",
+   "constraints": [
+    "Whether long COVID is a disability depends on the person; the guidance explains how that is decided.",
+    "ADA Information Line: 800-514-0301 (voice), 1-833-610-1264 (TTY)."
+   ],
+   "phone": "888-677-1199",
+   "phone_note": "Disability Information and Access Line (DIAL), Monday to Friday 9 a.m. to 8 p.m. Eastern, as listed on HHS’s civil rights page",
+   "email": "DIAL@usaginganddisability.org",
+   "web": "https://www.hhs.gov/civil-rights/for-providers/civil-rights-covid19/guidance-long-covid-disability/index.html",
+   "url": "https://www.hhs.gov/civil-rights/for-providers/civil-rights-covid19/guidance-long-covid-disability/index.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
    ]
   }
  ]
