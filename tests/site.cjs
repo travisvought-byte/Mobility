@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{JSDOM}=require('jsdom');
-const pages=fs.readdirSync('.').filter(f=>f.endsWith('.html'));
+const pages=fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9a-f]{16}\.html$/.test(f)); // Search Console ownership file is not a page
 assert(pages.length>=7);
 for(const f of pages){
  const d=new JSDOM(fs.readFileSync(f,'utf8')).window.document;
