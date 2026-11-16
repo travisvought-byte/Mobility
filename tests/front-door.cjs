@@ -114,10 +114,16 @@ const TERR=['AS','GU','MP','PR','VI'];
  for(const id of ['ak-f2f-health-center-tribal','ok-f2f-health-center-tribal','nm-f2f-health-center-2','mn-f2f-health-center-2'])assert(byId.get(id)&&byId.get(id).phone,'additional center '+id);
  for(const id of ['ak-f2f-health-center-tribal','ok-f2f-health-center-tribal'])assert(/American Indian and Alaska Native/.test(byId.get(id).description),id+' says who it serves');
  {const v=byId.get('va-automobile-adaptive-equipment');assert(v&&v.phone&&/va\.gov/.test(v.url)&&v.audience.includes('veterans'),'VA vehicle benefit');assert(/until VA has authorized/.test(v.constraints.join(' ')),'says to wait for approval before buying');}
- {const deaf=recs.filter(r=>/-deaf-hard-of-hearing-agency(-\d)?$/.test(r.id));assert(deaf.length>=40,'state agencies for deaf and hard of hearing people: '+deaf.length);
-  for(const r of deaf){assert.equal(r.url,'https://nasadhh.org/state-agency/',r.id+' cites the national roster');assert.equal(r.category,'sensory');assert(r.audience.includes('deaf'));assert(!r.phone&&r.contact_how,r.id+' has no phone on the roster and says how to reach the agency');assert.equal(r.record_status,'directory_listed');
+ {const deaf=recs.filter(r=>/-deaf-hard-of-hearing-agency(-\d)?$/.test(r.id));assert(deaf.length>=40,'state agencies for deaf and hard of hearing people: '+deaf.length);let own=0;
+  for(const r of deaf){assert.equal(r.category,'sensory');assert(r.audience.includes('deaf'));
+   if(r.url==='https://nasadhh.org/state-agency/'){assert(!r.phone&&r.contact_how,r.id+' has no phone on the roster and says how to reach the agency');assert.equal(r.record_status,'directory_listed');}
+   else{own++;assert.equal(r.record_status,'official_search_extract_only',r.id);assert(r.web===r.url&&/^https:\/\//.test(r.url),r.id+' cites and links the agency page');
+    assert(r.phone?(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note)):(r.email&&r.contact_how),r.id+' gives a sourced phone or an agency email');
+    assert(!r.constraints.some(c=>/roster lists no phone/.test(c)),r.id+' no longer says the roster lists no phone');}
    if(r.web&&r.state!=='ID')assert(!/idaho/i.test(r.web),r.id+' does not carry another state\'s link');}
-  for(const st of ['il','in'])assert(!byId.get(st+'-deaf-hard-of-hearing-agency').web,st+' roster link was wrong, so none is shown');}
+  assert(own>=24,'agency pages read for '+own+' deaf and hard of hearing agencies');
+  for(const [st,host] of [['il','illinois.gov'],['in','in.gov']]){const w=byId.get(st+'-deaf-hard-of-hearing-agency').web;assert(!w||new URL(w).hostname.endsWith(host),st+' links only to its own state agency');}
+  assert(!/videophone/i.test(byId.get('ne-deaf-hard-of-hearing-agency').phone_note),'Nebraska: conflicting videophone numbers are left out');}
  // ---- round four (2026-11-15): disability parking placards in every state and DC, from each state agency's own page
  {let phones=0;
   for(const st of STATES){
@@ -189,6 +195,14 @@ const TERR=['AS','GU','MP','PR','VI'];
    if(r.phone)assert(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note),st+' phone source');else assert(/main line is also in this directory/.test(r.contact_how),st+' says how to reach it');}
   const covered=STATES.filter(st=>byId.get(st.toLowerCase()+'-older-blind-program')||['MI','OH','TX'].includes(st));
   assert(covered.length>=50,'older-adult vision loss help in '+covered.length+' of 51 jurisdictions');
-  assert(!byId.get('sd-older-blind-program'),'South Dakota stays on the missing list until a source is found');}
- console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC), 28 national condition organizations and supports with their own help lines or finders, older-adult vision loss programs in 47 jurisdictions (37 from Time To Be Bold, 10 from state agencies), nine more condition organizations and Parent Centers in all 50 states and D.C.');
+}
+ // ---- round nine (2026-11-16): deaf agency contacts from their own pages (above), twelve national organizations, South Dakota older-blind services
+ {const R9=['us-nfb-affiliates','us-nfb-newsline','us-scleroderma-hope-line','us-tsc-alliance-navigators','us-crohns-colitis-help-center','us-fara','us-ehlers-danlos-support-groups','us-diabetes-center-for-information','us-asha-profind','us-stuttering-foundation-referrals','us-lda-state-affiliates','us-mha-warmlines'];
+  for(const id of R9){const r=byId.get(id);assert(r&&r.state==='US'&&r.scope==='national','round nine organization '+id);assert(/^https:\/\//.test(r.url)&&/^https:\/\//.test(r.web),id+' links');
+   assert(r.phone?(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note)):r.contact_how,id+' contact');assert.equal(r.record_status,'official_search_extract_only');}
+  assert(/988/.test(byId.get('us-mha-warmlines').constraints.join(' ')),'warmline listing points people in crisis to 988');
+  assert(/dyslexia/.test(byId.get('us-nfb-newsline').description),'NEWSLINE eligibility includes print disabilities');
+  const sd=byId.get('sd-older-blind-program');assert(sd&&/\.sd\.gov\//.test(sd.url)&&sd.constraints.some(c=>/Hadley/.test(c)),'South Dakota older-blind listing from the state board');
+  for(const st of STATES)assert(byId.get(st.toLowerCase()+'-older-blind-program')||['MI','OH','TX'].includes(st),'older-adult vision loss help in '+st);}
+ console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC), 28 national condition organizations and supports with their own help lines or finders, older-adult vision loss programs in every state and D.C. (37 from Time To Be Bold, 11 from state agencies, 3 already listed), nine more condition organizations, Parent Centers in all 50 states and D.C., agency phone or videophone contacts for 24 state deaf and hard of hearing agencies, and twelve more national organizations.');
 })().catch(e=>{console.error(e);process.exit(1)});
