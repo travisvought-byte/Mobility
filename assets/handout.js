@@ -3,8 +3,8 @@
   'use strict';
   var $=function(i){return document.getElementById(i);};
   var STATES=JSON.parse($('state-data').textContent);
-  var ORDER=['independent_living','equipment','rights_legal','dd_board','navigation','transportation','funding','peer_support','ramps_home'];
-  var NATIONAL=['us-ada-information-line','us-medicare-equipment-repair','us-ship-medicare-counseling','us-wipa-benefits-counseling','us-icanconnect','us-tsa-cares'];
+  var ORDER=['crisis','benefits','independent_living','equipment','rights_legal','work_school','sensory','dd_board','navigation','transportation','funding','peer_support','ramps_home'];
+  var NATIONAL=['us-988-lifeline','us-211','us-711-relay','us-ssa-disability-apply','us-ada-information-line','us-hud-housing-agency','us-medicare-equipment-repair','us-ship-medicare-counseling','us-wipa-benefits-counseling','us-icanconnect','us-tsa-cares'];
   var MAX_STATE=12,PER_CAT=2,records=[],cats={};
   var sel=$('h-state');
   Object.keys(STATES).forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=STATES[k];sel.appendChild(o);});

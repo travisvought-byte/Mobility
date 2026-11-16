@@ -1,0 +1,103 @@
+{
+ "note": "Plain-language help for each kind of program: the chip label, a one-line description, what to have ready and what to ask. General reminders, not rules of any one program. Order here is the order of the chips on the directory page.",
+ "reviewed_on": "2026-11-15",
+ "results_order": ["ramps_home", "equipment", "transportation", "benefits", "funding", "daily_living", "housing", "work_school", "sensory", "independent_living", "navigation", "rights_legal", "crisis", "peer_support", "dd_board", "veterans"],
+ "guides": {
+  "crisis": {
+   "need": "Crisis or safety help",
+   "blurb": "Lines to call or text right now, how to report abuse or neglect, and mental health support.",
+   "ready": ["Where you are right now, in case help needs to find you.", "For a report about someone else: who is at risk, where they live and what you saw or were told.", "A safe phone number or email where they can reach you."],
+   "ask": ["What happens after this call?", "Can I use text, relay, a videophone or an interpreter instead of a voice call?", "Is there a case or reference number I should keep?"]
+  },
+  "benefits": {
+   "need": "Benefits and health coverage",
+   "blurb": "Social Security disability, Medicaid, Medicare counseling, ABLE savings accounts and help appealing a denial.",
+   "ready": ["Your Social Security number and a photo ID.", "Names, addresses and dates for your doctors, clinics and hospitals, and a list of your medicines.", "Recent pay stubs, benefit letters and bank statements.", "Any denial or decision letter. Note the date on it, because appeal deadlines are counted from the day you receive it."],
+   "ask": ["Which program fits my situation, and can I apply for more than one?", "What is the deadline to appeal, and where do I send the appeal?", "Will working or saving money change my benefits?", "Who can help me fill out the forms at no cost?"]
+  },
+  "equipment": {
+   "need": "Wheelchair or equipment",
+   "blurb": "Try, borrow, repair, finance or reuse wheelchairs and assistive technology.",
+   "ready": ["The make, model and serial number of the equipment, if you have them.", "Who paid for it and when: Medicare, Medicaid, the VA, private insurance or you.", "The name of the supplier or dealer, and any warranty papers.", "What is wrong, when it started and what it keeps you from doing."],
+   "ask": ["Can I borrow or try equipment while I wait?", "Is there a cost, and can it be reduced or waived?", "How long is the wait, and who do I call to check on it?", "Do you serve my county?"]
+  },
+  "ramps_home": {
+   "need": "Build or fix a ramp",
+   "blurb": "Programs that build, lend or pay for ramps, bathroom changes and other home access work.",
+   "ready": ["Whether you own or rent. If you rent, ask the landlord in writing before any work.", "Photos of the entrance and a count of the steps, or the height from the ground to the door.", "What the person uses to get around: wheelchair, scooter, walker or cane.", "Household size and income, if the program is based on income."],
+   "ask": ["Does the work have to be approved before it starts?", "Is this a grant, a loan or a free build by volunteers?", "Who handles permits and inspections?", "Is there a waiting list, and how long is it?"]
+  },
+  "housing": {
+   "need": "Find housing",
+   "blurb": "Rental help, housing vouchers and what to do about housing discrimination. For ramps and changes to a home you already have, see Ramps and home modification.",
+   "ready": ["Photo ID and Social Security numbers for everyone in the household.", "Proof of income and benefits.", "Your lease, and any eviction or rent increase notice.", "A short list of the access features you need, such as no steps or a roll-in shower."],
+   "ask": ["Is the waiting list open, and is there a preference for people with disabilities?", "Can I apply to more than one housing agency?", "How do I ask for a reasonable accommodation?", "Who can help me while I wait?"]
+  },
+  "transportation": {
+   "need": "Rides and transportation",
+   "blurb": "Rides and transportation for older adults and people with disabilities: state transit funding offices, paratransit, Medicaid rides and travel help.",
+   "ready": ["The addresses you are leaving from and going to, and the days and times you need.", "Whether you use a wheelchair or scooter and need a lift or ramp.", "For Medicaid rides: your Medicaid card and the appointment details.", "Whether someone travels with you."],
+   "ask": ["How far ahead do I have to book?", "What does a ride cost, and is there a reduced fare?", "How do I apply for ADA paratransit, and how long does approval take?", "What do I do if the ride does not come?"]
+  },
+  "daily_living": {
+   "need": "In-home help and food",
+   "blurb": "Help at home, paid family caregiving, breaks for caregivers, food benefits and a discount on phone or internet service.",
+   "ready": ["A list of what you need help with each day, such as bathing, meals or getting out of bed.", "Your Medicaid card, if you have one.", "Proof of income and household size.", "For the phone or internet discount: proof that you get SSI, Medicaid or SNAP."],
+   "ask": ["Can a family member or friend be paid to help me?", "How many hours of help can I get, and who decides?", "Is there a waiting list?", "What do I do if my helper does not show up?"]
+  },
+  "work_school": {
+   "need": "Work or school",
+   "blurb": "Vocational rehabilitation, job accommodations, discrimination charges and help for families with school plans.",
+   "ready": ["What kind of work or training you want, even if you are not sure yet.", "Records that describe your disability, if you have them.", "For a job problem: dates, names and copies of emails or letters.", "For school: your child’s IEP or 504 plan and recent evaluations."],
+   "ask": ["How do I apply, and how long until I am assigned a counselor?", "Can you pay for equipment, training or changes to a vehicle that I need for work?", "What is the deadline to file a complaint?", "If I disagree with a decision, who can help me appeal?"]
+  },
+  "sensory": {
+   "need": "Vision or hearing services",
+   "blurb": "Services for people who are blind, have low vision, are deaf, hard of hearing or DeafBlind: training, reading services, phone equipment and relay.",
+   "ready": ["A recent eye exam or hearing test, if you have one.", "What has become hard to do: reading mail, using the phone, getting around, working.", "Proof of where you live and of income, if the program asks.", "How you want to be contacted: voice, text, email, videophone or relay."],
+   "ask": ["Do you come to my home, or do I travel to you?", "Is the equipment free, loaned or sold?", "Who can sign the form that confirms my vision or hearing loss?", "Is there training for my family too?"]
+  },
+  "funding": {
+   "need": "Help paying for it",
+   "blurb": "Medicaid waivers and other coverage routes that often pay for equipment and home changes.",
+   "ready": ["Your Medicaid or insurance card.", "A doctor’s order or a therapist’s evaluation for what you need.", "Written quotes for the equipment or the work.", "Any denial letter, with its date."],
+   "ask": ["Is there a waiting list for this waiver or program?", "Must I get approval before I buy or build anything?", "Who is my case manager or service coordinator?", "How do I appeal if the answer is no?"]
+  },
+  "rights_legal": {
+   "need": "Know my rights",
+   "blurb": "Disability rights agencies, complaint offices and legal aid for denials, access barriers, school, health care and voting.",
+   "ready": ["What happened, where, when and who was involved, written down.", "Copies of letters, emails, notices and photos.", "What you asked for and the answer you got.", "The date on any denial or notice. Deadlines can be short."],
+   "ask": ["Does a law cover this, and which office enforces it?", "What is my deadline to complain or appeal?", "Can you represent me, or only advise me?", "What should I put in writing right now?"]
+  },
+  "independent_living": {
+   "need": "Disability center near me",
+   "blurb": "Disability-led centers that help with equipment, home access, peer support and advocacy.",
+   "ready": ["A short list of what you want to change: housing, equipment, work or moving out of a nursing home.", "Your county, and how you want to be contacted."],
+   "ask": ["Which office serves my county?", "Can I talk with a peer who has been through this?", "Can you help me apply for programs or appeal a denial?", "Do you lend equipment, or know who does?"]
+  },
+  "peer_support": {
+   "need": "Support groups",
+   "blurb": "Peer mentors, support groups and helplines for specific disabilities and health conditions. Many meet online.",
+   "ready": ["What you want from a group: information, people your own age, support for family.", "Whether you need online meetings, captions, an interpreter or a wheelchair-accessible room."],
+   "ask": ["When and where does the group meet, and is there a cost?", "Can I talk with a peer mentor one to one?", "Is there a group for family members?"]
+  },
+  "dd_board": {
+   "need": "Developmental disability services",
+   "blurb": "County boards, regional centers and state offices for developmental disabilities. They decide eligibility, coordinate services and manage waiver funding.",
+   "ready": ["Records that show when the disability began, such as school or medical evaluations.", "Proof of where you live.", "A Medicaid card, if you have one."],
+   "ask": ["How do I apply for eligibility, and how long does it take?", "Is there a waiting list for waiver services?", "Who will be my service coordinator?", "What help can I get while I wait?"]
+  },
+  "navigation": {
+   "need": "Not sure where to start",
+   "blurb": "A first call when you do not know which office handles your problem.",
+   "ready": ["Your county or ZIP code.", "One sentence about what you need most.", "What you have already tried and who you talked to."],
+   "ask": ["Which office handles this, and can you transfer me?", "What will they ask me for?", "Is there someone who can help me apply?"]
+  },
+  "veterans": {
+   "need": "Veteran benefits",
+   "blurb": "County veterans offices that help file VA housing-adaptation and equipment claims.",
+   "ready": ["Your DD214 or other discharge papers.", "Your VA claim number or rating letter, if you have one.", "A description of the home change or equipment you need."],
+   "ask": ["Can you file the claim with me?", "Which VA grant or benefit fits: SAH, SHA, HISA or something else?", "How long will a decision take?"]
+  }
+ }
+}

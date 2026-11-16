@@ -8,7 +8,7 @@ for(const f of pages){
  if(f!=='404.html'){const c=d.querySelector('link[rel=canonical]');assert(c&&c.href.startsWith('https://mobilitytalk.org/'),f+' canonical');assert(d.querySelector('meta[property="og:title"]'),f+' og:title');assert.equal(d.querySelectorAll('link[rel=canonical]').length,1);assert.equal(d.querySelectorAll('meta[property="og:title"]').length,1);}
  for(const el of d.querySelectorAll('[href],[src]')){
   const u=el.getAttribute('href')||el.getAttribute('src');
-  if(/^(https?:|mailto:|tel:|#|data:)/.test(u)||u.startsWith('./?'))continue;
+  if(/^(https?:|mailto:|tel:|sms:|#|data:)/.test(u)||u.startsWith('./?'))continue;
   const file=decodeURIComponent(u.split(/[?#]/)[0].replace(/^\//,'')||'index.html');
   assert(fs.existsSync(path.join('.',file)),f+' links to missing '+u);
  }

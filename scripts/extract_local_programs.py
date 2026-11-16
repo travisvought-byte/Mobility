@@ -13,7 +13,14 @@ STATE_BY_NAME={}
 sys.path.insert(0,str(ROOT/'scripts'))
 from build_mobility_routes import STATES
 for c,n in STATES.items(): STATE_BY_NAME[n.lower()]=c
-CATS={'ramps_home':'Ramps & home modification','equipment':'Equipment, repair & assistive technology','independent_living':'Independent living centers','navigation':'Aging & disability navigation','funding':'Coverage & funding','transportation':'Rides & transportation','rights_legal':'Rights, advocacy & legal help','veterans':'Veterans benefits help (VA housing grants)','dd_board':'Developmental disability agencies','peer_support':'Peer support groups'}
+CATS={'ramps_home':'Ramps & home modification','equipment':'Equipment, repair & assistive technology','independent_living':'Independent living centers','navigation':'Aging & disability navigation','funding':'Coverage & funding','transportation':'Rides & transportation','rights_legal':'Rights, advocacy & legal help','veterans':'Veterans benefits help (VA housing grants)','dd_board':'Developmental disability agencies','peer_support':'Peer support groups','crisis':'Crisis, safety & mental health','benefits':'Income, benefits & health coverage','daily_living':'In-home help, food & daily living','housing':'Housing help','work_school':'Work, school & training','sensory':'Vision, hearing & communication'}
+# Who a program is mainly for. Records with no tag serve people with any disability.
+AUDIENCES={'mobility':'Mobility or physical disability','blind':'Blind or low vision','deaf':'Deaf or hard of hearing','deafblind':'DeafBlind','idd':'Intellectual or developmental disability','autism':'Autism','brain_injury':'Brain injury or stroke','mental_health':'Mental health condition','chronic':'ALS, MS, Parkinson\u2019s and similar conditions','children':'Children, youth and families','older':'Older adults','veterans':'Veterans'}
+# U.S. territories listed in the directory and on their own pages (the law finder and letter builder cover the 50 states and D.C. only)
+from build_mobility_routes import TERRITORIES
+PLACES={**STATES,**TERRITORIES}
+# States that really do have a county with the state's own name; everywhere else a service area equal to the state name means statewide
+SAME_NAME_COUNTY={'AR','HI','ID','IA','NY','OK','UT','DC'}
 def classify(r):
     t=(r['name']+' '+(r.get('description') or '')+' '+r['program_id']).lower(); n=r['name'].lower(); pid=r['program_id'].lower()
     if re.search(r'-cil-|independent living (center|resource|services|options|resources)|center for independent|center for independence',n+' '+pid): return 'independent_living'
@@ -32,7 +39,7 @@ def want(r):
     return False
 def norm(r,state,src):
     sa=r.get('service_area') or []
-    counties=[x for x in sa if x and x.lower() not in {'statewide','national','federal'} and not x.lower().startswith('all ')]
+    counties=[x for x in sa if x and x.lower() not in {'statewide','national','federal'} and not x.lower().startswith('all ') and not (state not in SAME_NAME_COUNTY and x.lower()==(PLACES.get(state) or '').lower())]
     scope='national' if state=='US' else ('counties' if counties else 'statewide')
     pc=r.get('public_contact') or {}; v=r.get('verification') or {}
     cat=classify(r)
@@ -103,7 +110,7 @@ for r in out.values():
 # What kind of page the record's main link points to, so the page can label it honestly (reserve "Official page" for the organization itself)
 from urllib.parse import urlparse
 NEWS_HOSTS={'daytondailynews.com','abc6onyourside.com','waupacanow.com','kffhealthnews.org','chausa.org','whio.com'}
-DIR_HOSTS={'ilru.org','homemods.org','hmin.homemods.org','findhelp.org','api.thegrantmap.com','thegrantmap.com','seniorsmobility.org','nashia.org','askjan.org','christopherreeve.org','texvet.org','ohamvets.org','macvc.net','floridavets.org','ccam-tac.org','ohioaging.org','aucd.org','nysnavigator.org','seniornavigator.org','cap4kids.org','benefits.gov','fundingfla.org','legalaidtx.org'}
+DIR_HOSTS={'napsa-now.org','ilru.org','homemods.org','hmin.homemods.org','findhelp.org','api.thegrantmap.com','thegrantmap.com','seniorsmobility.org','nashia.org','askjan.org','christopherreeve.org','texvet.org','ohamvets.org','macvc.net','floridavets.org','ccam-tac.org','ohioaging.org','aucd.org','nysnavigator.org','seniornavigator.org','cap4kids.org','benefits.gov','fundingfla.org','legalaidtx.org'}
 def link_kind(r):
     web=r.get('web');t=web if web and web.startswith('https://') else r.get('url')
     if not t or not t.startswith('http'): return None
@@ -115,10 +122,36 @@ def link_kind(r):
     if t==web: return 'official'
     if h.endswith(('.gov','.mil','.us')) or '.state.' in h: return 'gov'
     return 'source'
-for r in out.values(): r['link_kind']=link_kind(r)
+for r in out.values(): r['link_kind']=r.get('link_kind') or link_kind(r)
+# Move existing records into the need they answer, so a blind or deaf reader, a job seeker or someone applying for benefits can find them
+SENSORY_ID=re.compile(r'(^|-)nls(-|$)|-rsa-blind-agency$|icanconnect$|-tedp-phone-equipment$|-relay$|-blind$|^ohio-older-blind$|^pa-bbvs$|^pa-odhh$')
+MOVE={'us-ticket-to-work-find-help':'work_school','tx-twc-vr':'work_school','us-wipa-benefits-counseling':'benefits','us-ship-medicare-counseling':'benefits','us-medicare-rights-center':'benefits','us-hud-fair-housing-complaint':'housing'}
+for r in out.values():
+    if r['category']=='veterans': continue
+    if r['id'] in MOVE: r['category']=MOVE[r['id']]
+    elif r['id'].endswith('-vr-agency'): r['category']='work_school'
+    elif SENSORY_ID.search(r['id']): r['category']='sensory'
+def audience(r):
+    """Tags for the 'Who is it for?' filter. Explicit tags on a record win; otherwise use the program family, then the name."""
+    if isinstance(r.get('audience'),list): return [a for a in r['audience'] if a in AUDIENCES]
+    i=r['id'];c=r['category'];n=r['name'].lower();a=set()
+    if c=='veterans' or re.search(r'\bveterans?\b|^va-',n+' '+i): a.add('veterans')
+    if re.search(r'icanconnect|deaf-?blind',n+' '+i): a.add('deafblind')
+    elif re.search(r'(^|-)nls(-|$)|-rsa-blind-agency$|-blind$|older-blind|^pa-bbvs$',i) or re.search(r'\bblind|low[- ]vision|vision loss|visually impaired|talking[- ]book',n): a.add('blind')
+    elif re.search(r'-tedp-phone-equipment$|-relay$|^pa-odhh$',i) or re.search(r'\bdeaf\b|hard[- ]of[- ]hearing|hearing loss',n): a.add('deaf')
+    if c=='dd_board' or re.search(r'-dd-council$|(^|-)ucedd',i) or re.search(r'developmental disabilit|intellectual',n): a.add('idd')
+    if re.search(r'\bautism',n): a.add('autism')
+    if re.search(r'-tbi-state-program$|tbims',i) or re.search(r'brain injury|\bstroke\b',n): a.add('brain_injury')
+    if c=='ramps_home' or re.search(r'scims',i) or re.search(r'spinal cord|paraly[sz]|amput|limb loss|wheelchair|\bramps?\b|reeve foundation|united spinal',n): a.add('mobility')
+    if c!='dd_board' and re.search(r'mental health|behavioral health|psychiatric',n): a.add('mental_health')
+    if re.search(r'\bals\b|muscular dystrophy|multiple sclerosis|\bms society|parkinson|epilepsy|alzheimer',n): a.add('chronic')
+    if re.search(r'\bchild(ren)?\b|\byouth\b|\bkids\b|pediatric|toddler|\bparents?\b|early intervention',n): a.add('children')
+    if re.search(r'\baging\b|older (adult|blind|individual|pennsylvan)|\bseniors?\b|\belder(ly|care)?\b|ageline|\bage 55|\b60\+',n): a.add('older')
+    return sorted(a)
+for r in out.values(): r['audience']=audience(r)
 recs=sorted(out.values(),key=lambda r:(r['state']!='US',r['state'],r['category'],r['name']))
 main=[r for r in recs if r['category']!='veterans'];vso=[r for r in recs if r['category']=='veterans']
-meta={'schema_version':1,'built_from':'travisvought-byte/vhg-veteran-resident-guide','categories':CATS}
+meta={'schema_version':1,'built_from':'travisvought-byte/vhg-veteran-resident-guide','categories':CATS,'audiences':AUDIENCES}
 json.dump({**meta,'records':main},open(ROOT/'data/local-programs.json','w'),ensure_ascii=False,separators=(',',':'))
 json.dump({**meta,'records':vso},open(ROOT/'data/county-veterans-offices.json','w'),ensure_ascii=False,separators=(',',':'))
 import collections
