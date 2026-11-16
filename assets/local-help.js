@@ -144,14 +144,14 @@ function render(){
   else if(found.length)msg='Showing '+found.length+(found.length===1?' program':' programs')+' for '+name+(s.county?', '+s.county+' County':'')+'.'+(s.county?' '+countyNote(found,s):'');
   else msg='No programs match these choices yet for '+name+'. Try All counties, a different type of help or Any disability.';
   if(who&&found.length)msg+=' These are made for this group: '+who+'. Programs for people with any disability can help too; choose Any disability to see them.';
-  if(terr&&found.length)msg+=' We list only a few programs for '+name+' so far. The DIAL database under Aging and disability navigation lists more, and national lines are shown too; ask each one whether it serves '+name+'.';
+  if(terr&&found.length)msg+=' This list covers the main public agencies for '+name+'; fewer community programs are listed than for the states. The DIAL database under Aging and disability navigation lists more, and national lines are shown too; ask each one whether it serves '+name+'.';
   if(s.state&&!terr&&!s.county&&!s.category&&(!s.audience||s.audience==='veterans')&&vso.some(r=>r.state===s.state))msg+=' Choose a county to also see its veterans service office.';
   if(!mainOk)msg='The directory could not load. Please reload, or browse the plain list of every state.';
   $('status').textContent=msg;
   const u=new URLSearchParams();if(s.state)u.set('state',s.state);if(s.county)u.set('county',s.county);if(s.category)u.set('category',s.category);if(s.audience)u.set('audience',s.audience);if($('f-q').value.trim())u.set('q',$('f-q').value.trim());
   const qs=u.toString();history.replaceState(null,'',qs?'?'+qs:location.pathname);
   const st=s.state&&!terr?s.state:'';
-  const hl=$('handout-link');if(hl)hl.href='handout.html'+(st?'?state='+encodeURIComponent(st):'');
+  const hl=$('handout-link');if(hl)hl.href='handout.html'+(s.state?'?state='+encodeURIComponent(s.state):'');
   $('guide-link').href='https://guide.vethomeguard.org/'+(st?'?state='+encodeURIComponent(st):'');
 }
 function init(){
