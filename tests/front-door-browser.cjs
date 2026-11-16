@@ -25,7 +25,14 @@ const {chromium}=require('playwright');
   // no state: national resources and a prompt, never another state's list
   await p.goto(base+'local-help.html');await p.waitForSelector('#results article.card');assert((await p.locator('#status').textContent()).includes('Choose your state'));assert(!(await p.locator('#results').textContent()).includes('County Board of Developmental Disabilities'));await fits();
   for(const page of ['know-your-rights.html','about.html','states/','states/ohio.html','states/puerto-rico.html','404.html']){await p.goto(base+page);await fits();assert.equal(await p.locator('h1').count(),1,page+' h1');}
-  for(const width of [320,1280]){await p.setViewportSize({width,height:900});for(const page of ['','local-help.html?state=OH','know-your-rights.html','states/ohio.html']){await p.goto(base+page);await p.waitForLoadState('load');await fits();}}
+  // Measure only after the directory has drawn its list: measuring an empty page hides real overflow and makes the check depend on timing.
+  const settled=async page=>{await p.goto(base+page);await p.waitForLoadState('load');if(page.startsWith('local-help'))await p.waitForSelector('#results article.card');if(page.startsWith('handout'))await p.waitForSelector('#sheet-state .sheet-item');};
+  const PAGES=['','local-help.html?state=OH','local-help.html?state=PR','local-help.html?state=TX&audience=blind','know-your-rights.html','about.html','states/ohio.html','states/','handout.html?state=OH','partner.html','ramps-home-access.html','mobility-rights.html?state=OH&barrier=payer','disability-advocacy.html'];
+  for(const width of [320,360,1280]){await p.setViewportSize({width,height:900});for(const page of PAGES){await settled(page);await fits();}}
+  // WCAG 1.4.12 text spacing: with wider letters and words (which also stands in for a wider device font) nothing may push the page sideways
+  const SPACING='*{letter-spacing:.12em!important;word-spacing:.16em!important;line-height:1.5!important}p{margin-bottom:2em!important}';
+  for(const width of [320,390]){await p.setViewportSize({width,height:900});for(const page of PAGES){await settled(page);await p.addStyleTag({content:SPACING});await p.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));await fits();}}
+  await p.setViewportSize({width:1280,height:900});
   assert.equal(await p.evaluate(()=>localStorage.length+sessionStorage.length),0,'nothing stored');assert.deepEqual(errors,[]);
   // without JavaScript the need links, the rights page and the state pages still work
   const plain=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),np=await plain.newPage();
@@ -33,6 +40,6 @@ const {chromium}=require('playwright');
   await np.goto(base+'know-your-rights.html');assert((await np.locator('#work').textContent()).includes('180 calendar days'));
   await np.goto(base+'states/ohio.html');assert((await np.locator('main').textContent()).includes('Ohio Adult Protective Services'));assert(await np.locator('#crisis').count()===1);
   await np.goto(base+'local-help.html');assert(await np.locator('noscript').isVisible());
-  console.log('PASS front door browser: 320, 390 and 1280 pixel widths without sideways scrolling, state carried from home, focus moves to results after a need button and stays put on selects, keyboard-opened guides, no default state, no storage and no-JS paths.');
+  console.log('PASS front door browser: 13 page types at 320, 360, 390 and 1280 pixels without sideways scrolling, also with WCAG text spacing applied, state carried from home, focus moves to results after a need button and stays put on selects, keyboard-opened guides, no default state, no storage and no-JS paths.');
  }finally{await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exit(1)});

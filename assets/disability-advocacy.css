@@ -14,3 +14,6 @@ input[type=text]{font:inherit;width:100%;min-height:48px;padding:12px;border:1px
 .featured-mark small{display:block;margin-top:10px;font-size:14px;color:#e7cc88;letter-spacing:.3px}
 @media(max-width:850px){.featured-mark span{font-size:26px}}
 @media print{.featured-mark,.featured-mark span,.featured-mark small{color:#000;border-color:#000}}
+
+/* Reflow safety (WCAG 1.4.10, 1.4.12): an overlong word wraps instead of pushing the page sideways when text spacing is increased */
+body{overflow-wrap:break-word}
