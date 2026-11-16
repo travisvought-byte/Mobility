@@ -59638,31 +59638,30 @@
   },
   {
    "id": "ny-deaf-hard-of-hearing-agency",
-   "name": "NYS Deaf, DeafBlind, and Hard of Hearing Office",
+   "name": "New York State Deaf, DeafBlind and Hard of Hearing Office",
    "org": "State agency for people who are deaf or hard of hearing",
    "state": "NY",
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New York.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "New York’s Deaf, DeafBlind and Hard of Hearing Office, now part of the Chief Disability Office in the Governor’s Executive Chamber, acts as a hub of information for state agencies, local governments and organizations so they can better serve Deaf, DeafBlind and Hard of Hearing New Yorkers. It oversees the Interagency Coordinating Council on Services to Persons who are Deaf, DeafBlind and Hard of Hearing, and its site lists state, federal and other resources.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "The office coordinates and shares information across state government; ask it where to go for interpreters, equipment or services.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "518-491-5068",
+   "phone_note": "Voice, as listed on the office’s brochure; videophone for ASL users 838-900-7404",
    "email": null,
    "web": "https://www.ny.gov/programs/new-york-state-deaf-deafblind-and-hard-hearing-office",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://www.ny.gov/sites/default/files/2025-09/Audism_Brochure.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf",
     "deafblind"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "nc-deaf-hard-of-hearing-agency",
@@ -69410,6 +69409,117 @@
    "origin": "data/added-programs.json",
    "audience": [
     "chronic"
+   ]
+  },
+  {
+   "id": "ct-tedp-phone-equipment",
+   "name": "Connecticut Equipment Distribution Program (Relay Connecticut): phones and devices at no cost",
+   "org": "Relay Connecticut, for the State of Connecticut",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Connecticut’s Equipment Distribution Program gives equipment at no cost to residents who are deaf, hard of hearing, DeafBlind or have difficulty speaking. Choices include amplified corded and cordless phones, captioned (CapTel) phones, TTY and voice or hearing carry-over phones, an electrolarynx, and smartphones and tablets set up for hearing or speech access.",
+   "next_step": "Fill out the online application on the Relay Connecticut equipment page, choose your equipment, and say whether you want help installing it.",
+   "constraints": [
+    "You must be a full-time Connecticut resident, age 5 or older (parental consent under 18), and a first-time applicant to the program.",
+    "Equipment remains the property of the State of Connecticut. Return it if you move out of Connecticut within three years.",
+    "The Hearing Loss Association of America’s state list still shows no Connecticut program; the program page is the current source."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "Apply with the online form on the Relay Connecticut equipment page; no phone line is listed for the program.",
+   "web": "https://hamiltonrelay.com/connecticut/equipment-distribution/",
+   "url": "https://hamiltonrelay.com/connecticut/equipment-distribution/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "de-tedp-phone-equipment",
+   "name": "Delaware Office for the Deaf and Hard of Hearing: captioned telephone (CapTel) program and alerting devices",
+   "org": "Delaware Office for the Deaf and Hard of Hearing (Division of Vocational Rehabilitation, Department of Labor)",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Delaware law directs the Office for the Deaf and Hard of Hearing to run a program giving residents with deafness, hearing loss or speech disabilities access to telephone service. The office runs Delaware’s captioned telephone (CapTel) program, which you apply for on the office’s form. It also runs an Equipment Distribution Program that provides smoke and carbon monoxide alarms, flashing alert receivers and bed-shaker alarm clocks at no cost, with the State Fire Marshal.",
+   "next_step": "Call or email the office and ask for the CapTel application, or the alerting-device application if you need smoke and carbon monoxide alerts you can see or feel.",
+   "constraints": [
+    "The office decides who is eligible.",
+    "The Hearing Loss Association of America’s state list shows no Delaware phone equipment program; the office’s own documents describe the CapTel program."
+   ],
+   "phone": "302-504-4741",
+   "phone_note": "As listed on the office’s application forms",
+   "email": "DOL_DODHH@delaware.gov",
+   "web": "https://labor.delaware.gov/divisions/dvr/dodhh/",
+   "url": "https://statefiremarshal.delaware.gov/wp-content/uploads/sites/110/2026/08/EDP_Application_Form.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "us-tedp-state-programs",
+   "name": "State phone equipment programs: free or low-cost phones for hearing and speech disabilities",
+   "org": "Hearing Loss Association of America (state list)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "sensory",
+   "description": "State telephone programs, called Telecommunications Equipment Distribution Programs, give free or low-cost telephone equipment, such as amplified or captioned phones, to qualified residents. The Hearing Loss Association of America keeps a state-by-state list of eligibility and equipment. Its list shows no statewide program in the District of Columbia, Idaho, Michigan, New York or Ohio.",
+   "next_step": "Open the list and find your state. If your state has no program, ask about captioned telephone service (listed in this directory), your state assistive technology program’s device loans, or, if you are DeafBlind, iCanConnect.",
+   "constraints": [
+    "Each state sets its own eligibility, income limits and equipment rules.",
+    "The list does not show when each entry was last checked; confirm with the state program."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "Use the Hearing Loss Association of America’s state list to find your state’s program.",
+   "web": "https://www.hearingloss.org/hearing-help/financial-assistance/state-telephone-programs/",
+   "url": "https://www.hearingloss.org/hearing-help/financial-assistance/state-telephone-programs/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "older"
+   ],
+   "hide_if_state_has": "-tedp-phone-equipment",
+   "link_kind": "directory"
+  },
+  {
+   "id": "us-captioned-telephone-service",
+   "name": "Captioned telephone service (IP CTS): read captions of what the other person says",
+   "org": "Federal Communications Commission consumer guide",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "sensory",
+   "description": "Captioned telephone service lets a person with hearing loss who can use their own voice, and has some remaining hearing, talk on the phone while reading captions of what the other person says. The internet-based version (IP CTS) works on a captioned phone with a screen, and there are versions for smartphones and computers. The FCC says the relay costs are paid from the federal relay fund, so users do not pay for the captioning.",
+   "next_step": "Read the FCC guide, then ask your audiologist, your state phone equipment program or your state relay program how to sign up with a captioned telephone provider.",
+   "constraints": [
+    "Federal rules limit the service to people with hearing loss who need captions to use the phone, and providers ask you to register.",
+    "Ask the provider or your state program whether the phone itself costs anything."
+   ],
+   "phone": "1-888-225-5322",
+   "phone_note": "FCC consumer line (1-888-CALL-FCC), as printed on its captioned telephone guide; TTY 1-888-835-5322",
+   "email": null,
+   "web": "https://www.fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service",
+   "url": "https://www.fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "older"
    ]
   }
  ]
