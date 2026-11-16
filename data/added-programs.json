@@ -55397,7 +55397,8 @@
     "mobility"
    ],
    "contact_how": "Apply through your state motor vehicle agency; USA.gov lists each one.",
-   "link_kind": "gov"
+   "link_kind": "gov",
+   "hide_if_state_has": "-disabled-parking-placard"
   },
   {
    "id": "us-early-intervention",
@@ -60060,6 +60061,1486 @@
     "deaf"
    ],
    "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "al-disabled-parking-placard",
+   "name": "Disability parking placard in Alabama: how to apply",
+   "org": "Alabama Department of Revenue, Motor Vehicle Division",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Alabama, disability parking placards are issued by the Alabama Department of Revenue, Motor Vehicle Division. Apply with the Application for Disability Access Parking Credentials (MVR 32-6-230). Who can certify the disability: a licensed physician, certified registered nurse practitioner or certified nurse midwife.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Present the form to your county license plate issuing official.",
+   "constraints": [
+    "A temporary placard is valid for up to six months.",
+    "The disability must be a mobility disability. Without disability plates you may get two placards; with plates, one.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.revenue.alabama.gov/license-plates/disability-access-parking-4/",
+   "url": "https://www.revenue.alabama.gov/license-plates/disability-access-parking-4/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ak-disabled-parking-placard",
+   "name": "Disability parking placard in Alaska: how to apply",
+   "org": "Alaska Division of Motor Vehicles",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Alaska, disability parking placards are issued by the Alaska Division of Motor Vehicles. Apply with the Special Disability Parking Permit (form 861). Who can certify the disability: a qualified health practitioner.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. You or your practitioner email the completed form to the DMV; the DMV says it mails the permit within one week.",
+   "constraints": [
+    "A temporary permit lasts up to 6 months; a permanent permit is good for 5 years and can be renewed online.",
+    "Disability plates with parking privileges are $0.",
+    "A permanent disability also allows one free vehicle registration.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dmv.alaska.gov/vehicle-services/disability-parking-permits-plates/",
+   "url": "https://dmv.alaska.gov/vehicle-services/disability-parking-permits-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "az-disabled-parking-placard",
+   "name": "Disability parking placard in Arizona: how to apply",
+   "org": "Arizona Department of Transportation, Motor Vehicle Division",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Arizona, disability parking placards are issued by the Arizona Department of Transportation, Motor Vehicle Division. Apply with the Disability/Hard of Hearing Plate/Placard Application (form 96-0104). Who can certify the disability: a physician, hospital administrator or registered nurse practitioner.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Submit it by mail or at any MVD or authorized third-party office. Disability plates cannot be ordered online.",
+   "constraints": [
+    "Temporary placards are valid for six months.",
+    "There is no fee for replacement placards.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disability-symbolhearing-impaired",
+   "url": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disability-symbolhearing-impaired",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ar-disabled-parking-placard",
+   "name": "Disability parking placard in Arkansas: how to apply",
+   "org": "Arkansas Department of Finance and Administration, Special License Unit",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Arkansas, disability parking placards are issued by the Arkansas Department of Finance and Administration, Special License Unit. Apply with the Licensed Physician’s Certification (Form 10-336). Who can certify the disability: a licensed physician, physician assistant, physical therapist or advanced practice registered nurse.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Mail to DFA Special License Unit, P.O. Box 1272, Little Rock, AR 72203, or apply in person at the Special License Unit in Little Rock. Bring your Social Security number, driver license number or state ID number.",
+   "constraints": [
+    "A temporary placard expires three months from the end of the month it is issued.",
+    "Permanent and temporary placards are free; a permanent placard expires after four years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dfa.arkansas.gov/specialty-plates/persons-with-disabilities-placard/",
+   "url": "https://www.dfa.arkansas.gov/specialty-plates/persons-with-disabilities-placard/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ca-disabled-parking-placard",
+   "name": "Disability parking placard in California: how to apply",
+   "org": "California DMV",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In California, disability parking placards are issued by the California DMV. Apply with the Application for Disabled Person Placard or Plates (REG 195). Who can certify the disability: a licensed physician, surgeon, physician assistant, nurse practitioner or certified nurse midwife (chiropractors, podiatrists and eye doctors may certify certain conditions).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online, by mail or at a DMV office, with a copy of proof of your legal name and date of birth.",
+   "constraints": [
+    "A temporary placard lasts up to 180 days, and a fee applies.",
+    "A permanent placard is valid for two years and renews automatically twice.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "1-800-777-0133",
+   "phone_note": "California DMV number printed on form REG 195",
+   "email": null,
+   "web": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-person-parking-placards-plates/",
+   "url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-person-parking-placards-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "co-disabled-parking-placard",
+   "name": "Disability parking placard in Colorado: how to apply",
+   "org": "Colorado Division of Motor Vehicles (through county motor vehicle offices)",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Colorado, disability parking placards are issued by the Colorado Division of Motor Vehicles (through county motor vehicle offices). Apply with the Persons with Disabilities Parking Privileges Application (DR 2219). Who can certify the disability: a physician, physician assistant, podiatrist or advanced practice nurse (chiropractors and physical therapists for 90-day placards only).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online through myDMV, or take or mail the form to your county motor vehicle office with secure and verifiable ID.",
+   "constraints": [
+    "Short-term (90-day) placards are available.",
+    "There is no fee for placards; three-year placards must be recertified every three years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "303-205-5608",
+   "phone_note": "Colorado DMV line for questions about placards and plates, as shown on its page",
+   "email": null,
+   "web": "https://dmv.colorado.gov/persons-disabilities",
+   "url": "https://dmv.colorado.gov/persons-disabilities",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "ct-disabled-parking-placard",
+   "name": "Disability parking placard in Connecticut: how to apply",
+   "org": "Connecticut Department of Motor Vehicles",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Connecticut, disability parking placards are issued by the Connecticut Department of Motor Vehicles. Apply with the Renewable (permanent) or Temporary Parking Placard Application (forms B-225P and B-225T). Who can certify the disability: a licensed physician, physician assistant, APRN, ophthalmologist or optometrist (also a U.S. VA psychiatrist for a veteran with PTSD, or the Board of Education and Services for the Blind).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Request it online, or mail it to the DMV Disabled Parking Permit Unit, 60 State Street, Wethersfield, CT 06161. Permanent applications can also be faxed to 860-263-5556 or emailed to dmv.hpapp@ct.gov.",
+   "constraints": [
+    "A temporary permit is valid for up to six months and costs $5.",
+    "A permanent permit has no fee.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://portal.ct.gov/dmv/vehicle-services/parking-placard-for-disabled-individual",
+   "url": "https://portal.ct.gov/dmv/vehicle-services/parking-placard-for-disabled-individual",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "de-disabled-parking-placard",
+   "name": "Disability parking placard in Delaware: how to apply",
+   "org": "Delaware Division of Motor Vehicles",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Delaware, disability parking placards are issued by the Delaware Division of Motor Vehicles. Apply with the Application for Special License Plate or Special Parking ID Placard for Persons with Disabilities (MV474). Who can certify the disability: a physician.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. For a first placard, apply in person at a DMV branch. Renewals can be done online or by mail to Division of Motor Vehicles, P.O. Box 698, Dover, DE 19903.",
+   "constraints": [
+    "Placards are valid for eight years. A physician’s signature is not needed to renew for a permanent disability, and people 80 or older need only show proof of age.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dmv.de.gov/VehicleServices/registration/index.shtml?dc=ve_reg_handicap",
+   "url": "https://dmv.de.gov/VehicleServices/registration/index.shtml?dc=ve_reg_handicap",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "dc-disabled-parking-placard",
+   "name": "Disability parking placard in the District of Columbia: how to apply",
+   "org": "DC Department of Motor Vehicles (for the District Department of Transportation)",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In the District of Columbia, disability parking placards are issued by the DC Department of Motor Vehicles (for the District Department of Transportation). Apply with the Application for Disability Parking Placard or Tags (also available in Spanish and other languages). Who can certify the disability: a medical practitioner; you may self-certify in person if you are missing a lower extremity or use a motorized wheelchair.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online, fax to (202) 673-9908, mail to DC DMV, Attn: Disability Services, P.O. Box 90120, Washington, DC 20090, or apply in person.",
+   "constraints": [
+    "A one-week permit is available without a doctor’s certification.",
+    "There is no charge for a placard or permit.",
+    "Long-term placards are valid up to eight years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dmv.dc.gov/service/apply-for-disability-parking-placards-and-permits",
+   "url": "https://dmv.dc.gov/service/apply-for-disability-parking-placards-and-permits",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "fl-disabled-parking-placard",
+   "name": "Disability parking placard in Florida: how to apply",
+   "org": "Florida Department of Highway Safety and Motor Vehicles",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Florida, disability parking placards are issued by the Florida Department of Highway Safety and Motor Vehicles. Apply with the Application for Disabled Person Parking Permit (HSMV 83039). Who can certify the disability: a physician (including osteopathic and chiropractic physicians), podiatric physician, physician assistant, advanced practice registered nurse, or optometrist (sight only), who must sign within 12 months before you apply.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take or mail the form, with your Florida driver license or ID card, to a motor vehicle service center.",
+   "constraints": [
+    "A temporary permit lasts up to six months and costs $15.",
+    "A permanent permit has no fee and is valid for four years.",
+    "A veteran rated permanently and totally disabled may use VA Form Letter 27-333 in place of a medical certificate.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.flhsmv.gov/motor-vehicles-tags-titles/disabled-person-parking-permits/",
+   "url": "https://www.flhsmv.gov/motor-vehicles-tags-titles/disabled-person-parking-permits/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ga-disabled-parking-placard",
+   "name": "Disability parking placard in Georgia: how to apply",
+   "org": "Georgia Department of Revenue, Motor Vehicle Division (through county tag offices)",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Georgia, disability parking placards are issued by the Georgia Department of Revenue, Motor Vehicle Division (through county tag offices). Apply with the Disabled Person’s Parking Affidavit (Form MV-9D). Who can certify the disability: a licensed doctor of medicine or osteopathic medicine, podiatrist, optometrist or licensed chiropractor.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Submit the form to the county tag office in the county where you live.",
+   "constraints": [
+    "A temporary placard is issued for no more than six months.",
+    "A permanent placard is issued at no charge and is replaced every four years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dor.georgia.gov/disabled-persons-license-plates-and-parking-permits",
+   "url": "https://dor.georgia.gov/disabled-persons-license-plates-and-parking-permits",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "hi-disabled-parking-placard",
+   "name": "Disability parking placard in Hawaii: how to apply",
+   "org": "Disability and Communication Access Board (DCAB), with county issuing offices",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Hawaii, disability parking placards are issued by the Disability and Communication Access Board (DCAB), with county issuing offices. Apply with the Person with a Disability Parking Permit Application (Form PA-3). Who can certify the disability: a licensed physician or advanced practice registered nurse (APRN).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take a first-time application and valid ID to your county issuing site: a Satellite City Hall in Honolulu, the Division of Motor Vehicles & Licensing in Maui, the Driver License office in Kauai, or the Office of Aging in Hawaii County. Renew a long-term placard by mail to DCAB, P.O. Box 3377, Honolulu, HI 96801.",
+   "constraints": [
+    "A temporary placard lasts up to six months and costs $12.",
+    "There is no fee to renew a long-term placard.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://health.hawaii.gov/dcab/disability-parking-permits/frequently-asked-questions/",
+   "url": "https://health.hawaii.gov/dcab/disability-parking-permits/frequently-asked-questions/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "id-disabled-parking-placard",
+   "name": "Disability parking placard in Idaho: how to apply",
+   "org": "Idaho Transportation Department, Division of Motor Vehicles",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Idaho, disability parking placards are issued by the Idaho Transportation Department, Division of Motor Vehicles. Apply with the Disability License Plates and Placards (ITD 3392). Who can certify the disability: a licensed physician, physician assistant or advanced practice professional nurse.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Placard-only applications can be mailed to ITD Vehicle Services, Special Plates, P.O. Box 7129, Boise, ID 83707-1129, emailed to specialplates@itd.idaho.gov, or taken to your county DMV. Plate applications go to ITD by mail or email.",
+   "constraints": [
+    "Temporary placards are issued for one to six months.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/",
+   "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "il-disabled-parking-placard",
+   "name": "Disability parking placard in Illinois: how to apply",
+   "org": "Illinois Secretary of State",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Illinois, disability parking placards are issued by the Illinois Secretary of State. Apply with the Persons with Disabilities Certification for Parking Placard or License Plates (VSD 62). Who can certify the disability: a licensed medical professional named on the form, such as a physician, physician assistant or advanced practice nurse.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. For a permanent placard, you or your doctor mail the form to the Secretary of State’s Persons with Disabilities Placard Unit in Springfield (address on the form); allow 45 to 60 days. For a temporary placard, take the form to any Secretary of State DMV.",
+   "constraints": [
+    "A temporary placard is valid for up to six months.",
+    "Placards are free to eligible Illinois residents.",
+    "A meter-exempt placard is available for some drivers; the form explains who qualifies.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "217-782-3166",
+   "phone_note": "Persons with Disabilities Placard Unit, as listed in the Secretary of State’s guide (VSD 957)",
+   "email": null,
+   "web": "https://www.ilsos.gov/services/persons-with-disabilities/disabilitiesfaq.html",
+   "url": "https://www.ilsos.gov/services/persons-with-disabilities/disabilitiesfaq.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "in-disabled-parking-placard",
+   "name": "Disability parking placard in Indiana: how to apply",
+   "org": "Indiana Bureau of Motor Vehicles (BMV)",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Indiana, disability parking placards are issued by the Indiana Bureau of Motor Vehicles (BMV). Apply with the Application for Disability License Plate or Parking Placard (State Form 42070). Who can certify the disability: a health care provider, such as a physician, chiropractor, podiatrist, advanced practice registered nurse, physician assistant, optometrist or ophthalmologist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take the form to any BMV branch, or mail it to the address on the form (the BMV posts a mail-in checklist).",
+   "constraints": [
+    "A temporary placard expires on the date the health care provider sets, or one year after it is issued, whichever comes first.",
+    "A temporary placard costs $5. There is no fee for a permanent placard, which does not expire unless a health care provider certifies the disability is no longer permanent.",
+    "Veterans who have or qualify for a Disabled Hoosier Veteran plate do not need the health care provider section.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://secure.in.gov/bmv/registration-plates/drivers-with-disabilities/",
+   "url": "https://secure.in.gov/bmv/registration-plates/drivers-with-disabilities/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ia-disabled-parking-placard",
+   "name": "Disability parking placard in Iowa: how to apply",
+   "org": "Iowa Department of Transportation (Iowa DOT)",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Iowa, disability parking placards are issued by the Iowa Department of Transportation (Iowa DOT). Apply with the Application for Persons with Disabilities Parking Permit for Iowa Residents. Who can certify the disability: a health care provider, who completes a medical statement (veterans can use their U.S. Department of Veterans Affairs certification instead).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online and upload the medical statement; mail the form and statement to Iowa DOT Vehicle Services, P.O. Box 9278, Des Moines, IA 50306-9278; or bring them to any Iowa DMV or your county treasurer’s office.",
+   "constraints": [
+    "Iowa also offers disability license plates and a disability sticker for a regular plate.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://iowadot.gov/registration-plates/disability-parking-services",
+   "url": "https://iowadot.gov/registration-plates/disability-parking-services",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ks-disabled-parking-placard",
+   "name": "Disability parking placard in Kansas: how to apply",
+   "org": "Kansas Department of Revenue, Division of Vehicles (through county treasurers)",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Kansas, disability parking placards are issued by the Kansas Department of Revenue, Division of Vehicles (through county treasurers). Apply with the Certification of Disability for Disabled Parking Placard/Plate/Decal (TR-159). Who can certify the disability: a healing arts professional licensed in any state (medical doctor, osteopath, chiropractor or podiatrist), or a licensed optometrist, physician assistant, advanced registered nurse practitioner or physical therapist; a registered nurse or LPN cannot sign.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply at your county treasurer’s motor vehicle office.",
+   "constraints": [
+    "A temporary placard lasts up to six months.",
+    "A disability license plate has a 50-cent reflective plate fee. Permanent placard holders renew every five years with a self-certification form (TR-159a) and no doctor’s statement; there is no fee to renew a placard.",
+    "Kansas also offers a voluntary cognitive disorder placard and decal (form TR-264) that lets law enforcement know a driver or rider may need help with cognition during a traffic stop.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.ksrevenue.gov/pdf/tr159.pdf",
+   "url": "https://www.ksrevenue.gov/pdf/tr159.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ky-disabled-parking-placard",
+   "name": "Disability parking placard in Kentucky: how to apply",
+   "org": "Kentucky Transportation Cabinet (through county clerks)",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Kentucky, disability parking placards are issued by the Kentucky Transportation Cabinet (through county clerks). Apply with the Application for Disabled License Plate or Parking Placard (TC 96-347). Who can certify the disability: for a permanent placard, a licensed physician, chiropractor or advanced practice registered nurse; for a temporary placard, also a physician assistant, physical therapist or occupational therapist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply in person or by mail at your county clerk’s office. Your signature must be notarized; county clerks can notarize it for $2.",
+   "constraints": [
+    "A temporary placard is valid for three months and has no fee.",
+    "A permanent placard is valid for six years; the first one is free, and a second or replacement placard costs $10.",
+    "Kentucky drivers with a communication barrier can also ask the county clerk to add a free communication designation to their vehicle registration.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://drive.ky.gov/Vehicles/Pages/Disabled-Parking-Permits.aspx",
+   "url": "https://drive.ky.gov/Vehicles/Pages/Disabled-Parking-Permits.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "la-disabled-parking-placard",
+   "name": "Disability parking placard in Louisiana: how to apply",
+   "org": "Louisiana Office of Motor Vehicles (OMV)",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Louisiana, disability parking placards are issued by the Louisiana Office of Motor Vehicles (OMV). Apply with the Physician’s Certification of Mobility Impairment (DPSMV 1966). Who can certify the disability: your physician.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Bring the completed certification to an Office of Motor Vehicles location. If your Louisiana license or ID with your photo and Social Security number is on file, you do not need more identification.",
+   "constraints": [
+    "A hang tag for a temporary impairment is valid for one year; renewing it needs a new certification, and only one renewal is allowed.",
+    "The hang tag fee is $3. A permanent hang tag lasts four years and does not need a new certification to renew.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.expresslane.org/vehicles/plates/mobility-impaired-hang-tags-plates/",
+   "url": "https://www.expresslane.org/vehicles/plates/mobility-impaired-hang-tags-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "me-disabled-parking-placard",
+   "name": "Disability parking placard in Maine: how to apply",
+   "org": "Maine Bureau of Motor Vehicles (BMV)",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Maine, disability parking placards are issued by the Maine Bureau of Motor Vehicles (BMV). Apply with the Application for Disability Plates/Placard (PS-18). Who can certify the disability: a licensed physician, physician associate, nurse practitioner or registered nurse.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take the form to any BMV branch, or mail or fax it to Bureau of Motor Vehicles, Disability Clerk, 29 State House Station, Augusta, ME 04333-0029 (fax 207-624-9204).",
+   "constraints": [
+    "A temporary placard is valid for up to six months.",
+    "Maine charges no additional fee for disability plates or placards. Permanent credentials expire with your driver’s license or state ID; to renew, fill out only the top part of form PS-18, with no new medical visit.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "207-624-9000",
+   "phone_note": "Bureau of Motor Vehicles; ask for extension 52149, as listed on the BMV disability plates page",
+   "email": null,
+   "web": "https://www.maine.gov/sos/bmv/vehicles/disability-plates-or-placards",
+   "url": "https://www.maine.gov/sos/bmv/vehicles/disability-plates-or-placards",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "md-disabled-parking-placard",
+   "name": "Disability parking placard in Maryland: how to apply",
+   "org": "Maryland Motor Vehicle Administration (MVA)",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Maryland, disability parking placards are issued by the Maryland Motor Vehicle Administration (MVA). Apply with the Application for Maryland Parking Placards/License Plates (VR-210). Who can certify the disability: a licensed physician, nurse practitioner or physician assistant; a licensed chiropractor, podiatrist or physical therapist for some conditions; a licensed optometrist for vision conditions.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Your provider can complete the certification online, or you can upload the signed form through myMVA, or mail it to Motor Vehicle Administration, Attn: Disability Unit, Room 202, 6601 Ritchie Highway N.E., Glen Burnie, MD 21062.",
+   "constraints": [
+    "A temporary (red) placard is valid for up to six months.",
+    "There is no fee for placards; disability plates carry a $40 substitute tag fee. A permanent (blue) placard stays valid for the person’s lifetime.",
+    "Outside Baltimore City, people with a permanent disability and no off-street parking can apply for a reserved residential parking space at no charge (form IS-022). Maryland also offers an optional hidden disability (butterfly) symbol on a license or ID and a free developmental disability disclosure card for traffic stops.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://mva.maryland.gov/your-mva-guide/individuals-disabilities/disability-plates-placards",
+   "url": "https://mva.maryland.gov/your-mva-guide/individuals-disabilities/disability-plates-placards",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ma-disabled-parking-placard",
+   "name": "Disability parking placard in Massachusetts: how to apply",
+   "org": "Massachusetts Registry of Motor Vehicles (RMV), Medical Affairs",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Massachusetts, disability parking placards are issued by the Massachusetts Registry of Motor Vehicles (RMV), Medical Affairs. Apply with the Application for Disabled Parking Placard/Plate (MAB100). Who can certify the disability: a Massachusetts-licensed medical doctor, osteopath, chiropractor, podiatrist, registered nurse or physician assistant, or an optometrist for legal blindness only.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Mail the original application to Registry of Motor Vehicles, Attn: Medical Affairs, PO Box 55889, Boston, MA 02205-5889, within 30 days of your provider’s signature. RMV service centers do not process these applications. Allow at least 30 business days.",
+   "constraints": [
+    "A temporary placard is for a disability expected to last at least two months and less than 24 months.",
+    "There is no fee for a placard; registration fees apply to disability plates.",
+    "A Certificate of Blindness can take the place of the provider’s certification.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "857-368-8020",
+   "phone_note": "RMV Medical Affairs, as listed on the RMV application page",
+   "email": null,
+   "web": "https://www.mass.gov/how-to/apply-for-a-disability-placard-or-license-plate",
+   "url": "https://www.mass.gov/how-to/apply-for-a-disability-placard-or-license-plate",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "mi-disabled-parking-placard",
+   "name": "Disability parking placard in Michigan: how to apply",
+   "org": "Michigan Department of State (Secretary of State)",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Michigan, disability parking placards are issued by the Michigan Department of State (Secretary of State). Apply with the Disability Parking Placard Application (BFS-108). Who can certify the disability: a licensed physician, chiropractor, optometrist, physician assistant or physical therapist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Bring the form to a Secretary of State office, or mail it to Michigan Department of State, Internal Services Section, PO Box 30764, Lansing, MI 48918.",
+   "constraints": [
+    "A temporary (red) placard lasts one to six months and cannot be renewed; a new application is needed.",
+    "There is no fee for an original placard or for renewing a permanent placard; a lost or stolen placard costs $10 to replace. A permanent (blue) placard is valid for four years.",
+    "Michigan drivers who also cannot use a parking meter because of their disability can ask their medical professional to certify them for a yellow free-parking sticker on the same form.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "888-767-6424",
+   "phone_note": "Michigan Department of State Information Center (888-SOS-MICH), as printed on form BFS-108",
+   "email": null,
+   "web": "https://www.michigan.gov/sos/vehicle/disability-parking",
+   "url": "https://www.michigan.gov/sos/vehicle/disability-parking",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "mn-disabled-parking-placard",
+   "name": "Disability parking placard in Minnesota: how to apply",
+   "org": "Minnesota Department of Public Safety, Driver and Vehicle Services (DVS)",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Minnesota, disability parking placards are issued by the Minnesota Department of Public Safety, Driver and Vehicle Services (DVS). Apply with the Application for Disability Parking Certificate (PS2005). Who can certify the disability: a licensed physician, physician assistant, advanced practice registered nurse, chiropractor or physical therapist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online, in person at a deputy registrar office, or by mail to Driver and Vehicle Services (the address is on the form).",
+   "constraints": [
+    "Temporary certificates last 1 to 6 months and short-term certificates 7 to 12 months.",
+    "Temporary and short-term certificates cost $5; long-term (13 to 71 months) and permanent (six-year) certificates are free. Renewing a permanent certificate does not need a new medical signature.",
+    "A temporary certificate can also be issued for a pregnancy-related condition that makes walking unsafe.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dps.mn.gov/divisions/dvs/vehicle/disability-parking-certificates",
+   "url": "https://dps.mn.gov/divisions/dvs/vehicle/disability-parking-certificates",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ms-disabled-parking-placard",
+   "name": "Disability parking placard in Mississippi: how to apply",
+   "org": "Mississippi Department of Revenue (through county tax collectors)",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Mississippi, disability parking placards are issued by the Mississippi Department of Revenue (through county tax collectors). Apply with the Disabled Parking Application (Form 76-104). Who can certify the disability: a licensed physician or nurse practitioner.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Submit the form to your county tax collector.",
+   "constraints": [
+    "A temporary placard is valid for no more than six months.",
+    "There is no additional fee for a disabled plate or placard; regular taxes and registration fees still apply. A new application, with a doctor’s statement dated within 90 days, is needed every five years when the plate design changes.",
+    "An eligible person may have up to two plates and two placards.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dor.ms.gov/motor-vehicle/motor-vehicle-frequently-asked-questions",
+   "url": "https://www.dor.ms.gov/motor-vehicle/motor-vehicle-frequently-asked-questions",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "mo-disabled-parking-placard",
+   "name": "Disability parking placard in Missouri: how to apply",
+   "org": "Missouri Department of Revenue, Motor Vehicle Bureau (through license offices)",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Missouri, disability parking placards are issued by the Missouri Department of Revenue, Motor Vehicle Bureau (through license offices). Apply with the Application for Disabled Person Placard (Form 2769) with a Physician’s Statement (Form 1776). Who can certify the disability: an advanced practice registered nurse, licensed physician, chiropractor, physician assistant, podiatrist, physical therapist, occupational therapist or optometrist; disabled veterans can use a U.S. Veterans Administration letter instead.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply at any Missouri license office or by mail. The physician’s statement must be dated within 90 days of your application.",
+   "constraints": [
+    "A temporary placard lasts up to 180 days and can be renewed once.",
+    "A temporary placard costs $2; there is no fee for a permanent placard. Permanent placards are renewed every eight years, and a new physician’s statement is needed then unless you are 75 or older or a disabled veteran.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dor.mo.gov/motor-vehicle/disabled-plates-placards/permanent.html",
+   "url": "https://dor.mo.gov/motor-vehicle/disabled-plates-placards/permanent.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "mt-disabled-parking-placard",
+   "name": "Disability parking placard in Montana: how to apply",
+   "org": "Montana Motor Vehicle Division (MVD)",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Montana, disability parking placards are issued by the Montana Motor Vehicle Division (MVD). Apply with the Disability Placard Application (MV5-DSB). Who can certify the disability: a licensed physician, physician assistant, chiropractor or advanced practice registered nurse.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Submit the form online through MVD Online Services, by email to mtdriverhistory@mt.gov, by mail to Motor Vehicle Division, PO Box 201430, Helena, MT 59620-1430, or in person at 302 N Roberts, Helena.",
+   "constraints": [
+    "A temporary placard lasts six months, or up to two years if the condition is expected to improve within two years.",
+    "There is no fee for a placard. A permanent placard lasts five years; renewing needs a new signed application.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "406-444-3933",
+   "phone_note": "Motor Vehicle Division line for placard questions and lost placards, as listed on the MVD page and form MV5-DSB",
+   "email": null,
+   "web": "https://mvdmt.gov/license-plate-information/physical-disability-plates/",
+   "url": "https://mvdmt.gov/license-plate-information/physical-disability-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "ne-disabled-parking-placard",
+   "name": "Disability parking placard in Nebraska: how to apply",
+   "org": "Nebraska Department of Motor Vehicles, Driver and Vehicle Records Division",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Nebraska, disability parking placards are issued by the Nebraska Department of Motor Vehicles, Driver and Vehicle Records Division. Apply with the Application for Handicapped Parking Permit. Who can certify the disability: a Nebraska-licensed physician, physician assistant or nurse practitioner, who can submit the request online for you (a provider licensed elsewhere uses the paper form).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Ask your medical professional to submit the request online, or mail the paper application with a copy of your ID to Nebraska DMV, Driver and Vehicle Records Division, Attn: Handicapped Parking Permits, PO Box 94789, Lincoln, NE 68509-4789.",
+   "constraints": [
+    "Permits are free to everyone who qualifies.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "402-471-3918",
+   "phone_note": "Nebraska DMV Driver and Vehicle Records Division, as listed on the DMV handicapped plate and permit page",
+   "email": null,
+   "web": "https://dmv.nebraska.gov/dvr/handicapped-plate-permit",
+   "url": "https://dmv.nebraska.gov/dvr/handicapped-plate-permit",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "nv-disabled-parking-placard",
+   "name": "Disability parking placard in Nevada: how to apply",
+   "org": "Nevada Department of Motor Vehicles (DMV)",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Nevada, disability parking placards are issued by the Nevada Department of Motor Vehicles (DMV). Apply with the Disabled Persons License Plates and/or Placards Application (SP-27). Who can certify the disability: a licensed physician, advanced practice registered nurse, physician assistant, or physical or occupational therapist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Request a placard online in DriveNV (\"Request ADA Products\"), fax a placard-only application to 775-684-4797, or apply at a DMV office. First-time plate applications must be made in person.",
+   "constraints": [
+    "Temporary and moderate-duration placards are certified for a set time of no more than two years; renewing needs a new application and signature.",
+    "There is no fee for placards.",
+    "Nevada also issues an Expedited Service Permit, valid ten years, that gives people with an irreversible disability faster service at state agencies; apply in person at a full-service DMV office.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dmv.nv.gov/platesdisabled.htm",
+   "url": "https://dmv.nv.gov/platesdisabled.htm",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "nh-disabled-parking-placard",
+   "name": "Disability parking placard in New Hampshire: how to apply",
+   "org": "New Hampshire Division of Motor Vehicles (DMV)",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In New Hampshire, disability parking placards are issued by the New Hampshire Division of Motor Vehicles (DMV). Apply with the Application for Walking Disability Privileges (RDMV130). Who can certify the disability: a licensed physician, physician associate, podiatrist or advanced practice registered nurse, who describes the condition and how it limits walking.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply at any DMV registration office, leave it in a DMV drop box with a copy of your license or ID, or mail it to NH Dept. of Safety, DMV - Registration, 23 Hazen Drive, Concord, NH 03305.",
+   "constraints": [
+    "A temporary placard is authorized for up to six months.",
+    "A permanent placard lasts up to five years and expires with your driver license or non-driver ID. Walking disability plates with one placard cost $8.",
+    "Vehicles with a walking disability plate or placard may park free at city and town meters and public lots that charge a fee, within local time limits.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dmv.nh.gov/vehicles-boats-and-titles/walking-disability-placards",
+   "url": "https://www.dmv.nh.gov/vehicles-boats-and-titles/walking-disability-placards",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "nj-disabled-parking-placard",
+   "name": "Disability parking placard in New Jersey: how to apply",
+   "org": "New Jersey Motor Vehicle Commission (MVC)",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In New Jersey, disability parking placards are issued by the New Jersey Motor Vehicle Commission (MVC). Apply with the Application for Vehicle License Plates and/or Placard for Persons with a Disability (SP-41). Who can certify the disability: a medical practitioner, who also attaches a prescription or letterhead statement; a U.S. Department of Veterans Affairs representative for veterans rated 100% permanently disabled.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Bring the form to a motor vehicle agency for same-day processing, or mail it to NJ Motor Vehicle Commission, Special Plate Unit, PO Box 015, Trenton, NJ 08666-0015. The medical certification must be dated within 60 days.",
+   "constraints": [
+    "Temporary placards are issued by your municipal chief of police, not the MVC: apply in person (form SP-68). They last six months, with one six-month renewal.",
+    "There is no fee for plates or a placard. Permanent placards and plates need a new medical certification every three years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "609-633-8857",
+   "phone_note": "MVC Special Plate Unit, as printed on form SP-41",
+   "email": null,
+   "web": "https://www.nj.gov/mvc/vehicles/disability.htm",
+   "url": "https://www.nj.gov/mvc/vehicles/disability.htm",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "nm-disabled-parking-placard",
+   "name": "Disability parking placard in New Mexico: how to apply",
+   "org": "New Mexico Motor Vehicle Division (MVD)",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In New Mexico, disability parking placards are issued by the New Mexico Motor Vehicle Division (MVD). Apply with the Certificate of Eligibility for Parking Placard for Mobility Impaired Individuals (MVD-10383). Who can certify the disability: a health care practitioner, who completes the medical statement on the form.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take the completed form to an MVD office or MVD service provider.",
+   "constraints": [
+    "A temporary placard can be issued for up to one year.",
+    "A permanent placard lasts four years and does not need new medical information to renew. There is no fee for disability plates. MVD does not mail a reminder before a placard expires.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.mvd.newmexico.gov/vehicles/license-plates/handicapped-plates/",
+   "url": "https://www.mvd.newmexico.gov/vehicles/license-plates/handicapped-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ny-disabled-parking-placard",
+   "name": "Disability parking placard in New York: how to apply",
+   "org": "Local city, town or village issuing agents (New York State DMV issues plates only)",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In New York, disability parking permits are issued by local city, town or village offices, usually the clerk. The state DMV issues disability plates only. Apply with the Application for a Parking Permit or License Plates for Persons with Severe Disabilities (MV-664.1). Who can certify the disability: a physician, physician assistant, nurse practitioner, podiatrist (for foot-related disabilities) or optometrist (for blindness), on the form or on letterhead.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take it to the office that issues permits where you live, usually your city, town or village clerk. Do not send it to DMV, which does not issue parking permits. New York City residents mail it to the NYC Department of Transportation.",
+   "constraints": [
+    "There is no fee for a permit.",
+    "New York City residents can also get a separate city permit for curbside parking from NYC DOT (718-433-3100). Outside New York City, the same local office issues metered parking waivers (form MV-664.1MP).",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dmv.ny.gov/more-info/parking-for-people-with-disabilities",
+   "url": "https://dmv.ny.gov/more-info/parking-for-people-with-disabilities",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "nc-disabled-parking-placard",
+   "name": "Disability parking placard in North Carolina: how to apply",
+   "org": "North Carolina Division of Motor Vehicles (NCDMV)",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In North Carolina, disability parking placards are issued by the North Carolina Division of Motor Vehicles (NCDMV). Apply with the Application for Disability Parking Placard (MVR-37A). Who can certify the disability: a physician, physician assistant or nurse practitioner, an authorized representative of the Division of Services for the Blind, or U.S. Department of Veterans Affairs documentation.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Get it the same day at a license plate agency, or mail it to NCDMV, 3148 Mail Service Center, Raleigh, NC 27697-3148 and allow three to four weeks.",
+   "constraints": [
+    "A temporary placard is valid for up to six months and cannot be renewed.",
+    "Placards cost $5 each (limit two). A regular placard is valid for five years and needs a new medical certification to renew unless you are 80 or older or certified as totally and permanently disabled.",
+    "North Carolina drivers who are deaf or hard of hearing can also ask for a voluntary hearing-loss symbol on their driver license.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.ncdot.gov/dmv/title-registration/license-plates/Pages/disability-placards-plates.aspx",
+   "url": "https://www.ncdot.gov/dmv/title-registration/license-plates/Pages/disability-placards-plates.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "nd-disabled-parking-placard",
+   "name": "Disability parking placard in North Dakota: how to apply",
+   "org": "North Dakota Department of Transportation, Motor Vehicle Division",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In North Dakota, disability parking placards are issued by the North Dakota Department of Transportation, Motor Vehicle Division. Apply with the Application for Mobility-Impaired Parking Permit (SFN 2886). Who can certify the disability: a physician, chiropractor, physician assistant, advanced practice registered nurse or physical therapist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply at a motor vehicle office (driver’s license offices do not issue permits) or by mail to the ND Department of Transportation, Motor Vehicle Division, Bismarck, ND 58505-0780. Offices outside Bismarck may add a service fee.",
+   "constraints": [
+    "A temporary (red) permit is issued three months at a time and costs $3.",
+    "There is no fee for a permanent permit. A permit for a non-reversible condition renews without a new medical signature.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dot.nd.gov/motor-vehicle/mobility-impaired-parking-permits",
+   "url": "https://www.dot.nd.gov/motor-vehicle/mobility-impaired-parking-permits",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "oh-disabled-parking-placard",
+   "name": "Disability parking placard in Ohio: how to apply",
+   "org": "Ohio Bureau of Motor Vehicles (BMV)",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Ohio, disability parking placards are issued by the Ohio Bureau of Motor Vehicles (BMV). Apply with the Application for Removable Windshield Placards (BMV 4826). Who can certify the disability: a health care provider, who writes a prescription giving the date, your name, a statement that it is for a removable windshield placard, how long the condition is expected to last, and the provider’s signature.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Bring the application and prescription to a deputy registrar license agency.",
+   "constraints": [
+    "Veterans and active-duty service members with a service-connected disability that limits walking can get a free placard with form BMV 4531.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.bmv.ohio.gov/vr-sp-geninfo.aspx",
+   "url": "https://www.bmv.ohio.gov/vr-sp-geninfo.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ok-disabled-parking-placard",
+   "name": "Disability parking placard in Oklahoma: how to apply",
+   "org": "Service Oklahoma",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Oklahoma, disability parking placards are issued by Service Oklahoma. Apply with the Physical Disability Parking Placard Application (302DC). Who can certify the disability: a physician licensed in medicine or surgery, osteopathic medicine, chiropractic, podiatric medicine or optometry; a licensed physician assistant; or a licensed and certified advanced registered nurse practitioner.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online, and your physician gets an email to finish their part. Or mail the paper form to Service Oklahoma, P.O. Box 11415, Oklahoma City, OK 73136, or drop it off at 6015 N Classen Blvd., Oklahoma City. Applications expire 60 days after the physician signs.",
+   "constraints": [
+    "A temporary placard lasts no more than six months.",
+    "Placards are free. A regular placard lasts five years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "405-522-7000",
+   "phone_note": "Service Oklahoma Disability Parking Permit Desk, as listed on its placard page",
+   "email": null,
+   "web": "https://oklahoma.gov/service/popular-services/disability-placard.html",
+   "url": "https://oklahoma.gov/service/popular-services/disability-placard.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "or-disabled-parking-placard",
+   "name": "Disability parking placard in Oregon: how to apply",
+   "org": "Oregon Driver & Motor Vehicle Services (DMV)",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Oregon, disability parking placards are issued by the Oregon Driver & Motor Vehicle Services (DMV). Apply with the Application for Individual Disabled Person Parking Permit Placard (735-265). Who can certify the disability: a doctor of medicine or osteopathy, podiatrist, chiropractor, naturopath, nurse practitioner, physician associate or licensed optometrist.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Take it to any DMV office and leave with your placard, or send it by fax (503-945-5181), by email (ORDMVDriverTrans@odot.oregon.gov) or by mail to DMV Driver Transactions Unit, 1905 Lana Ave NE, Salem, OR 97314.",
+   "constraints": [
+    "A temporary permit lasts up to six months.",
+    "Permits are free. Individual and wheelchair-user permits last eight years.",
+    "People whose disability makes a DMV visit impractical or harmful can get a parking ID card and permit by mail. Veterans with a 50% or greater service-connected disability can add an Oregon Wounded Warrior sticker.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "503-945-5000",
+   "phone_note": "Oregon DMV Customer Assistance (TTY 711), as listed on the parking permit page",
+   "email": null,
+   "web": "https://www.oregon.gov/odot/dmv/pages/driverid/disparking.aspx",
+   "url": "https://www.oregon.gov/odot/dmv/pages/driverid/disparking.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "pa-disabled-parking-placard",
+   "name": "Disability parking placard in Pennsylvania: how to apply",
+   "org": "Pennsylvania Department of Transportation (PennDOT)",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Pennsylvania, disability parking placards are issued by the Pennsylvania Department of Transportation (PennDOT). Apply with the Person with Disability Parking Placard Application (MV-145A). Who can certify the disability: a physician, chiropractor, optometrist, podiatrist, physician assistant or certified registered nurse practitioner licensed in Pennsylvania or a neighboring state; a police officer can certify blindness or loss of full use of a leg for a permanent placard.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Mail it to PennDOT Bureau of Motor Vehicles, P.O. Box 68268, Harrisburg, PA 17106-8268. Some approved health care facilities can hand out temporary placards on the spot.",
+   "constraints": [
+    "A temporary placard lasts up to six months and cannot be extended.",
+    "There is no fee. A permanent placard lasts five years and can be renewed online.",
+    "On request, local authorities may post a reserved parking sign on the street near the home of a person with a disability placard or plate.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.pa.gov/services/dmv/apply-for-or-renew-a-persons-with-disability-parking-placard",
+   "url": "https://www.pa.gov/services/dmv/apply-for-or-renew-a-persons-with-disability-parking-placard",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ri-disabled-parking-placard",
+   "name": "Disability parking placard in Rhode Island: how to apply",
+   "org": "Rhode Island Division of Motor Vehicles, Disability Parking Placards Office",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Rhode Island, disability parking placards are issued by the Rhode Island Division of Motor Vehicles, Disability Parking Placards Office. Apply with the New/Renew Disability Parking Placard Application. Who can certify the disability: your physician.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Mail it to RI DMV, Disability Parking Placards Office, 600 New London Avenue, Cranston, RI 02920-3024, fax it to 401-462-0829, or bring it to the Cranston headquarters, within 30 days of the physician’s certification.",
+   "constraints": [
+    "A temporary (red) placard lasts 2 to 12 months.",
+    "Long-term placards last one to three years and permanent placards six years.",
+    "Veterans with a 100% service-connected disability use a separate veteran placard application.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "401-462-4368",
+   "phone_note": "Rhode Island DMV Disability Parking Placards Office, as printed on its application form",
+   "email": null,
+   "web": "https://dmv.ri.gov/adjudications-suspensions/adjudication-office/disability-placards",
+   "url": "https://dmv.ri.gov/adjudications-suspensions/adjudication-office/disability-placards",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "sc-disabled-parking-placard",
+   "name": "Disability parking placard in South Carolina: how to apply",
+   "org": "South Carolina Department of Motor Vehicles (SCDMV)",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In South Carolina, disability parking placards are issued by the South Carolina Department of Motor Vehicles (SCDMV). Apply with the Application for Placard and/or License Plate for People Who Have a Disability (RG-007A). Who can certify the disability: a licensed physician, advanced practice registered nurse or physician assistant.",
+   "next_step": "Open the application form at the link and have the medical part completed. Apply at an SCDMV branch, or mail it with a check or money order (no cash) to SC Department of Motor Vehicles, PO Box 1498, Blythewood, SC 29016-0019.",
+   "constraints": [
+    "A temporary placard is for an impairment lasting at least four months and no more than one year.",
+    "The placard fee is $1, with one placard per person. A permanent placard is valid for four years.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.scdmvonline.com/dmvnew/forms/rg-007a.doc",
+   "url": "https://www.scdmvonline.com/dmvnew/forms/rg-007a.doc",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "The link opens the state’s application form (a Word document), which says where to send it."
+  },
+  {
+   "id": "sd-disabled-parking-placard",
+   "name": "Disability parking placard in South Dakota: how to apply",
+   "org": "South Dakota Department of Revenue, Motor Vehicle Division (through county treasurers)",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In South Dakota, disability parking placards are issued by the South Dakota Department of Revenue, Motor Vehicle Division (through county treasurers). Apply with the Disabled Person Parking Permit and License Plates Application (Form 1305). Who can certify the disability: a physician.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Fill out the form (it can be completed online, then printed), have your physician sign it, and file it with the county treasurer in the county where you live.",
+   "constraints": [
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dor.sd.gov/individuals/motor-vehicle/cars-trucks-vans/disabled-parking-permits-plates/",
+   "url": "https://dor.sd.gov/individuals/motor-vehicle/cars-trucks-vans/disabled-parking-permits-plates/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "tn-disabled-parking-placard",
+   "name": "Disability parking placard in Tennessee: how to apply",
+   "org": "Tennessee Department of Revenue (through county clerks)",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Tennessee, disability parking placards are issued by the Tennessee Department of Revenue (through county clerks). Apply with the Application for Disabled Person License Plate, Placard, or Decal (RV-F1310301). Who can certify the disability: a licensed medical doctor, physician assistant or nurse practitioner, licensed chiropractic physician, licensed physical therapist, or Christian Science practitioner.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Submit the form in person or by mail to your county clerk’s office.",
+   "constraints": [
+    "A temporary placard lasts up to six months and costs $10.",
+    "A permanent placard costs $26.50 (no charge if a vehicle is registered in your name) and is renewed every two years for $3. County clerks may add their own fees.",
+    "Tennessee drivers who are deaf or hard of hearing can ask their county clerk to add a deaf or hard of hearing designation to their vehicle registration that law enforcement can see.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.tn.gov/revenue/title-and-registration/license-plates/disabled-plates-placards/fee-application-process.html",
+   "url": "https://www.tn.gov/revenue/title-and-registration/license-plates/disabled-plates-placards/fee-application-process.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "tx-disabled-parking-placard",
+   "name": "Disability parking placard in Texas: how to apply",
+   "org": "Texas Department of Motor Vehicles (through county tax assessor-collectors)",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Texas, disability parking placards are issued by the Texas Department of Motor Vehicles (through county tax assessor-collectors). Apply with the Application for Persons with Disabilities Parking Placard and/or License Plate (VTR-214). Who can certify the disability: a physician, podiatrist, optometrist, or qualifying physician assistant or advanced practice nurse licensed in Texas, Arkansas, Louisiana, New Mexico or Oklahoma (or practicing at a Texas military installation or VA facility); the signature must be notarized unless you attach an original prescription.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Submit it in person or by mail to the county tax assessor-collector’s office where you live (or, for a placard, where you are getting medical treatment), with a copy of your photo ID.",
+   "constraints": [
+    "A permanent (blue) placard is free; a temporary (red) placard costs $5.",
+    "Vehicles showing a disability placard or plate do not pay state or local government parking meter fees; federal meters and airport parking are not covered.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.txdmv.gov/motorists/disabled-parking-placards-plates",
+   "url": "https://www.txdmv.gov/motorists/disabled-parking-placards-plates",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "ut-disabled-parking-placard",
+   "name": "Disability parking placard in Utah: how to apply",
+   "org": "Utah Division of Motor Vehicles (DMV)",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Utah, disability parking placards are issued by the Utah Division of Motor Vehicles (DMV). Apply with the Disabled Person and Physician Disability Certification (TC-842). Who can certify the disability: a licensed physician, physician assistant, physical therapist or nurse practitioner.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply at a local DMV office (some offices take appointments), or mail it to Motor Vehicle Division, Mail and Correspondence, PO Box 30412, Salt Lake City, UT 84130.",
+   "constraints": [
+    "Paper placards are free; a durable plastic placard costs $2.50. Permanent placards can be renewed online through the Motor Vehicle Portal.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "801-297-7780",
+   "phone_note": "Utah DMV, as listed on its disabled person plate page (toll-free 1-800-368-8824)",
+   "email": null,
+   "web": "https://dmv.utah.gov/plates/disabled/",
+   "url": "https://dmv.utah.gov/plates/disabled/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "vt-disabled-parking-placard",
+   "name": "Disability parking placard in Vermont: how to apply",
+   "org": "Vermont Department of Motor Vehicles (DMV)",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Vermont, disability parking placards are issued by the Vermont Department of Motor Vehicles (DMV). Apply with the Disabled Parking Placard Application (VD-120) with a Medical Evaluation Report (VS-113); temporary placards use form VL-038. Who can certify the disability: a licensed physician (on the Medical Evaluation Report).",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Send the forms to the Department of Motor Vehicles, 120 State Street, Montpelier, VT 05603.",
+   "constraints": [
+    "A temporary placard lasts up to six months and cannot be renewed.",
+    "A regular permanent placard lasts four years.",
+    "A vehicle with a disability placard or plate may park free, with no time limit, in time-limited parking zones in Vermont.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dmv.vermont.gov/registrations/license-plates/disabled-plates-placards",
+   "url": "https://dmv.vermont.gov/registrations/license-plates/disabled-plates-placards",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "va-disabled-parking-placard",
+   "name": "Disability parking placard in Virginia: how to apply",
+   "org": "Virginia Department of Motor Vehicles (DMV)",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Virginia, disability parking placards are issued by the Virginia Department of Motor Vehicles (DMV). Apply with the Disabled Parking Placard or License Plates Application (MED 10). Who can certify the disability: a physician, physician assistant or nurse practitioner; a podiatrist or chiropractor for certain listed conditions.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Mail it to Virginia DMV, P.O. Box 85815, Richmond, VA 23285-5815, or apply at any DMV customer service center or DMV Select office. In person you get a receipt that lets you park for up to 15 days while the placard is mailed.",
+   "constraints": [
+    "A temporary placard is valid for up to 12 months.",
+    "There is no fee for temporary or permanent placards. A permanent placard lasts five years and renews automatically by mail.",
+    "Virginia also issues placards for conditions that create a safety concern while walking, such as Alzheimer’s disease or blindness, and allows up to four hours free at meters and time-limited spaces unless a locality says otherwise.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dmv.virginia.gov/licenses-ids/disability/apply-assist",
+   "url": "https://www.dmv.virginia.gov/licenses-ids/disability/apply-assist",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "wa-disabled-parking-placard",
+   "name": "Disability parking placard in Washington: how to apply",
+   "org": "Washington State Department of Licensing (DOL)",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Washington, disability parking placards are issued by the Washington State Department of Licensing (DOL). Apply with the Disabled Parking Application for Individuals, plus a separate signed prescription or authorization from your provider. Who can certify the disability: a medical doctor, osteopath, chiropractor, podiatrist, naturopath, advanced registered nurse practitioner or physician assistant.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Bring the application to a vehicle licensing office or mail it to Department of Licensing, PO Box 9043, Olympia, WA 98507. Temporary applications can also be submitted online.",
+   "constraints": [
+    "A temporary (red) placard is valid for up to one year and has no fee.",
+    "Placards are free. Permanent privileges last five years and need a new prescription to renew.",
+    "Washington’s qualifying conditions include acute sensitivity to vehicle emissions and porphyria. Veterans rated 70% or higher who use a service animal can apply with a separate veteran form.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "360-902-3770",
+   "phone_note": "DOL Customer Care, as printed on its disabled parking replacement form",
+   "email": null,
+   "web": "https://dol.wa.gov/driver-licenses-and-permits/get-or-renew-disabled-parking-permits",
+   "url": "https://dol.wa.gov/driver-licenses-and-permits/get-or-renew-disabled-parking-permits",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "wv-disabled-parking-placard",
+   "name": "Disability parking placard in West Virginia: how to apply",
+   "org": "West Virginia Division of Motor Vehicles (DMV)",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In West Virginia, disability parking placards are issued by the West Virginia Division of Motor Vehicles (DMV). Apply with the Parking Application for a Mobility Impaired Person (DMV-41-TR). Who can certify the disability: a licensed physician (MD or DO), chiropractor, advanced nurse practitioner or physician assistant.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Mail it to WV DMV, Mobility Impaired Placards & Plates, PO Box 17030, Charleston, WV 25317. Applications are also available at DMV offices and State Police detachments.",
+   "constraints": [
+    "A temporary (red) placard is valid for up to six months.",
+    "A permanent (blue) placard lasts five years; renewing needs a new medical certification. A replacement placard costs $5.",
+    "People with a communication disability can ask the DMV to add them to its communication disability list (form DMV-41-CD).",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "1-800-642-9066",
+   "phone_note": "West Virginia DMV, as printed on its mobility impaired parking application",
+   "email": null,
+   "web": "https://transportation.wv.gov/DMV/Pages/Person-with-a-Disability.aspx",
+   "url": "https://transportation.wv.gov/DMV/Pages/Person-with-a-Disability.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "wi-disabled-parking-placard",
+   "name": "Disability parking placard in Wisconsin: how to apply",
+   "org": "Wisconsin Department of Transportation, Division of Motor Vehicles (DMV)",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Wisconsin, disability parking placards are issued by the Wisconsin Department of Transportation, Division of Motor Vehicles (DMV). Apply with the Permanent Disabled Parking Identification Permit Application (MV2548); temporary permits use form MV2933. Who can certify the disability: an authorized health care specialist, who can also certify online.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply at a DMV customer service center that lists \"disabled parking ID cards\" among its services.",
+   "constraints": [
+    "A temporary (red) permit is issued for up to six months.",
+    "A permanent (blue) permit is issued for four years and needs a new certification to renew.",
+    "Permit holders may park without paying at meters, and without the time limit, in spaces with limits of half an hour or more on municipal lots and streets. Wisconsin DMV also has an Invisible Disability Disclosure form (MV2167).",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://wisconsindot.gov/Pages/dmv/license-drvs/mdcl-cncrns/drivingwithadisability.aspx",
+   "url": "https://wisconsindot.gov/Pages/dmv/license-drvs/mdcl-cncrns/drivingwithadisability.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov",
+   "contact_how": "Apply through the agency’s page, which lists its offices and how to reach them."
+  },
+  {
+   "id": "wy-disabled-parking-placard",
+   "name": "Disability parking placard in Wyoming: how to apply",
+   "org": "Wyoming Department of Transportation (WYDOT), Driver Services",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "description": "In Wyoming, disability parking placards are issued by the Wyoming Department of Transportation (WYDOT), Driver Services. Apply with the Application for Disabled Parking Identification Placard. Who can certify the disability: a physician or advanced practice registered nurse.",
+   "next_step": "Open the agency’s page for the current form and have the medical part completed. Apply online through oneWYO, or mail the form to WYDOT Driver Services, Driver Review, 5300 Bishop Blvd., Cheyenne, WY 82009-3340. The placard is mailed to you.",
+   "constraints": [
+    "A temporary placard is valid for up to six months and can be renewed once.",
+    "There is no fee for placards.",
+    "Wyoming’s qualifying conditions include a severe vision or hearing impairment that limits mobility.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "phone": "307-777-4839",
+   "phone_note": "WYDOT Driver Services, as printed on its placard application",
+   "email": null,
+   "web": "https://www.dot.state.wy.us/home/driver_license_records/driver_Review/disabled-parking-placards.html",
+   "url": "https://www.dot.state.wy.us/home/driver_license_records/driver_Review/disabled-parking-placards.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
   }
  ]
 }
