@@ -166,12 +166,29 @@ const TERR=['AS','GU','MP','PR','VI'];
   assert(states.size>=40,'Parent Centers in at least 40 states: '+states.size);
   for(const r of pc){assert.equal(r.category,byId.get('us-parent-centers').category,r.id+' sits with the national Parent Centers entry');assert.deepEqual(r.audience,['children']);
    assert(['official_search_extract_only','directory_listed'].includes(r.record_status),r.id);assert(/^https:\/\//.test(r.url),r.id+' source');
-   if(r.record_status==='directory_listed')assert(r.url.startsWith('https://www.parentcenterhub.org/'),r.id+' map listing cites the map');
+   if(r.record_status==='directory_listed')assert(/^https:\/\/(www\.parentcenterhub\.org|parentprojectmd\.org)\//.test(r.url),r.id+' directory listing cites the directory');
    if(r.phone)assert(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/(listed|newsletter)/.test(r.phone_note),r.id+' says where the number came from');else assert(r.contact_how,r.id+' says how to reach it');
    assert(r.constraints.some(c=>/not legal representation/.test(c)),r.id+' says it is not a lawyer');}
   for(const st of ['oh','il','mn','ga','nc','ut'])assert(byId.get(st+'-parent-center')&&byId.get(st+'-parent-center').phone,'primary center '+st);
   assert(/October 1, 2025/.test(byId.get('il-parent-center').description),'Illinois center change is explained');
   assert.equal(byId.get('us-parent-centers').hide_if_state_has,'-parent-center','national entry gives way to state centers');
   assert(pc.filter(r=>r.state==='CA').length>=10,'California regional centers listed');}
- console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC), 28 national condition organizations and supports with their own help lines or finders, older-adult vision loss programs in 37 jurisdictions, nine more condition organizations and Parent Centers in 40 states.');
+ // ---- round eight (2026-11-16): Parent Centers for the last ten states and D.C.; older-adult vision loss programs from ten more state agencies' own pages
+ {const pc=recs.filter(r=>/-parent-center(-\d+)?$/.test(r.id)&&r.state!=='US');const states=new Set(pc.map(r=>r.state));
+  for(const st of STATES)assert(states.has(st),'Parent Center listed for '+st);
+  for(const st of ['in','ia','ms','mt','nj','ny','nd','tx','va','wy','dc'])assert(byId.get(st+'-parent-center'),'round eight parent center '+st);
+  for(const n of [2,3,4]){const r=byId.get('tx-parent-center-'+n);assert(r&&/Education Service Center regions? [0-9]/.test(r.description)&&r.constraints.some(c=>/state office/.test(c)),'Texas regional project '+n+' names its regions');}
+  assert(/2016 resource guide/.test(byId.get('dc-parent-center').description)&&!byId.get('dc-parent-center').phone,'D.C. listing says how old its source is and carries no unsourced phone');
+  for(const id of ['ny-parent-center','ny-parent-center-2'])assert(byId.get(id).constraints.some(c=>/parentcenterhub\.org/.test(c)),id+' points the rest of the state to the finder');
+  assert(/^Parent Centers are funded/.test(byId.get('wy-parent-center').description)&&!/^Parent Centers are funded/.test(byId.get('in-parent-center').description),'federal funding sentence only where the source supports it');
+  const AG=['AR','IL','IA','KY','MA','NM','SC','TN','UT','WV'];
+  for(const st of AG){const r=byId.get(st.toLowerCase()+'-older-blind-program');assert(r,'older blind program '+st);
+   assert.equal(r.category,'sensory');assert.deepEqual(r.audience,['blind','older']);assert.equal(r.record_status,'official_search_extract_only');
+   assert(!/timetobebold/.test(r.url)&&/\.(gov|org|il\.us)\//.test(r.url),st+' cites the state agency page');
+   assert(r.constraints.some(c=>/vocational rehabilitation/.test(c))&&r.constraints.some(c=>/Hadley/.test(c)),st+' says who it is for and what to do on a waiting list');
+   if(r.phone)assert(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note),st+' phone source');else assert(/main line is also in this directory/.test(r.contact_how),st+' says how to reach it');}
+  const covered=STATES.filter(st=>byId.get(st.toLowerCase()+'-older-blind-program')||['MI','OH','TX'].includes(st));
+  assert(covered.length>=50,'older-adult vision loss help in '+covered.length+' of 51 jurisdictions');
+  assert(!byId.get('sd-older-blind-program'),'South Dakota stays on the missing list until a source is found');}
+ console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC), 28 national condition organizations and supports with their own help lines or finders, older-adult vision loss programs in 47 jurisdictions (37 from Time To Be Bold, 10 from state agencies), nine more condition organizations and Parent Centers in all 50 states and D.C.');
 })().catch(e=>{console.error(e);process.exit(1)});
