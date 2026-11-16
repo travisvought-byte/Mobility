@@ -110,7 +110,7 @@ for r in out.values():
 # What kind of page the record's main link points to, so the page can label it honestly (reserve "Official page" for the organization itself)
 from urllib.parse import urlparse
 NEWS_HOSTS={'daytondailynews.com','abc6onyourside.com','waupacanow.com','kffhealthnews.org','chausa.org','whio.com'}
-DIR_HOSTS={'napsa-now.org','ilru.org','homemods.org','hmin.homemods.org','findhelp.org','api.thegrantmap.com','thegrantmap.com','seniorsmobility.org','nashia.org','askjan.org','christopherreeve.org','texvet.org','ohamvets.org','macvc.net','floridavets.org','ccam-tac.org','ohioaging.org','aucd.org','nysnavigator.org','seniornavigator.org','cap4kids.org','benefits.gov','fundingfla.org','legalaidtx.org'}
+DIR_HOSTS={'napsa-now.org','ilru.org','homemods.org','hmin.homemods.org','findhelp.org','api.thegrantmap.com','thegrantmap.com','seniorsmobility.org','nashia.org','askjan.org','christopherreeve.org','texvet.org','ohamvets.org','macvc.net','floridavets.org','ccam-tac.org','ohioaging.org','aucd.org','nysnavigator.org','seniornavigator.org','cap4kids.org','benefits.gov','fundingfla.org','legalaidtx.org','ectacenter.org','familyvoices.org','nasadhh.org','at3center.net'}
 def link_kind(r):
     web=r.get('web');t=web if web and web.startswith('https://') else r.get('url')
     if not t or not t.startswith('http'): return None
