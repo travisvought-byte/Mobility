@@ -54927,6 +54927,2298 @@
    "record_status": "directory_listed",
    "origin": "data/added-programs.json",
    "audience": []
+  },
+  {
+   "id": "us-liheap-energy-bills",
+   "name": "LIHEAP: help paying heating and cooling bills",
+   "org": "Low Income Home Energy Assistance Program (state and territory offices)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "The Low Income Home Energy Assistance Program helps with heating or cooling bills and with emergency services during an energy crisis. USA.gov says electric bills may be covered depending on where you live. Eligibility is based on income, and each state or territory sets its own rules.",
+   "next_step": "Use the search tool to find your state or territory LIHEAP office, then ask how to apply. Some offices take applications online; others require a visit in person.",
+   "constraints": [
+    "Income limits and what is covered are set by each state or territory.",
+    "If getting to an office is hard for you, ask how else you can apply."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://liheapch.acf.hhs.gov/search-tool/",
+   "url": "https://www.usa.gov/help-with-energy-bills",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 5,
+   "contact_how": "Find your state or territory office with the LIHEAP search tool.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-utility-shutoff-rules",
+   "name": "Utility shut-off notice: check your state’s disconnection rules",
+   "org": "LIHEAP Clearinghouse (U.S. Department of Health and Human Services)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "Rules on when a utility may disconnect service are set state by state. USA.gov says state policies vary based on weather, age, disability and the utility provider. The LIHEAP Clearinghouse lists each state’s policy and contacts.",
+   "next_step": "Find your state on the list and read its rule. Then call your utility before the shut-off date, tell them about a disability or medical equipment in the home, and ask which protections and payment arrangements apply to you.",
+   "constraints": [
+    "Protections are different in every state and may depend on the season and the kind of utility."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://liheapch.acf.hhs.gov/Disconnect/disconnect.htm",
+   "url": "https://www.usa.gov/help-with-energy-bills",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 6,
+   "contact_how": "Look up your state’s rule on the list, then call the utility named on your bill.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-weatherization-assistance",
+   "name": "Weatherization Assistance Program: home improvements that lower energy bills",
+   "org": "U.S. Department of Energy (state weatherization offices)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "The Weatherization Assistance Program makes home improvements that save energy and money. USA.gov says you may qualify based on income, or because you receive Supplemental Security Income (SSI) or Temporary Assistance for Needy Families (TANF).",
+   "next_step": "Open the Department of Energy page to find your state weatherization office and ask how to apply.",
+   "constraints": [
+    "Each state runs its own program and sets its own steps."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.energy.gov/scep/wap/how-apply-weatherization-assistance",
+   "url": "https://www.usa.gov/help-with-energy-bills",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 7,
+   "contact_how": "Find your state weatherization office on the Department of Energy page.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-national-hunger-hotline",
+   "name": "National Hunger Hotline: find food near you",
+   "org": "USDA National Hunger Hotline",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "USA.gov lists this USDA hotline among the ways to get emergency food. It answers in English and Spanish, Monday through Friday, 8 a.m. to 8 p.m. Eastern time. USA.gov’s advice if you are hungry now: call 211 to find food in your area.",
+   "next_step": "Call 1-866-348-6479 (1-866-3-HUNGRY). For Spanish, call 1-877-842-6273 (1-877-8-HAMBRE). Outside those hours call 211, or enter your ZIP code in HUD’s Find Shelter tool to look up a food pantry.",
+   "constraints": [
+    "Open Monday through Friday. It is not a 24-hour line."
+   ],
+   "phone": "1-866-348-6479",
+   "phone_note": "Spanish: 1-877-842-6273. Monday to Friday, 8 a.m. to 8 p.m. Eastern",
+   "email": null,
+   "web": "https://www.fns.usda.gov/national-hunger-hotline",
+   "url": "https://www.usa.gov/emergency-food-assistance",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 3,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-home-delivered-meals",
+   "name": "Home-delivered meals: ask your Area Agency on Aging",
+   "org": "Eldercare Locator (Administration for Community Living)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "Area Agencies on Aging offer home-delivered meals, brought to older adults and people with disabilities who have difficulty leaving home. The local agency decides who is eligible, based on being 60 or older and on needs such as limited mobility or no way to prepare meals. A spouse of any age, a caregiver or a person with a disability who lives with an eligible older adult may also be able to get meals.",
+   "next_step": "Call, text or use a videophone to reach the Eldercare Locator at 1-800-677-1116 and ask for the Area Agency on Aging that serves your address. Ask that agency about home-delivered meals and whether there is a waiting list. If there is, ask what other meal delivery is available locally.",
+   "constraints": [
+    "The federal program is for people 60 and older, with limited exceptions for people with disabilities who live with them. If you are younger, call 211 and ask what meal delivery your area offers.",
+    "There is no income test. You may be asked for a voluntary contribution toward the meal."
+   ],
+   "phone": "1-800-677-1116",
+   "phone_note": "Eldercare Locator: voice, videophone or text",
+   "email": null,
+   "web": "https://eldercare.acl.gov",
+   "url": "https://acl.gov/programs/health-wellness/nutrition-services",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "older",
+    "mobility"
+   ],
+   "sort": 4,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-older-adult-food-programs",
+   "name": "Food programs for adults 60 and older with limited income",
+   "org": "USDA Food and Nutrition Service (state agencies)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "Two USDA programs for adults 60 or older with limited income. The Commodity Supplemental Food Program gives a monthly package of food, picked up at a local agency; some states deliver. The Senior Farmers Market Nutrition Program gives coupons for fresh produce and is not offered in every state.",
+   "next_step": "Find your state contact on the USDA list and ask how to apply and whether delivery is available where you live.",
+   "constraints": [
+    "For people 60 or older who meet the income limit.",
+    "Not every program operates in every state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.fns.usda.gov/fns-contacts",
+   "url": "https://www.usa.gov/senior-food-programs",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "older"
+   ],
+   "contact_how": "Find your state contact on the USDA Food and Nutrition Service list.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-emergency-shelter",
+   "name": "Nowhere to stay tonight: find emergency shelter",
+   "org": "U.S. Department of Housing and Urban Development and 211",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "HUD’s direction for people who are homeless: dial 211 and press 6 for homeless services. HUD’s Find Shelter tool lists local shelters, food pantries, health clinics and places to get clothing. USA.gov says 211 works in most areas of the United States and gives referrals for emergency housing.",
+   "next_step": "Call 211 first. Say you have a disability and what you need in a shelter, such as a ground-floor bed, room for a wheelchair, a service animal or a place to keep medication cold. If 211 does not work where you are, use the Find Shelter tool.",
+   "constraints": [
+    "Shelter space changes daily. Call before you travel.",
+    "In immediate danger, call 911."
+   ],
+   "phone": "211",
+   "phone_note": "HUD says to press 6 for homeless services",
+   "email": null,
+   "web": "https://www.hud.gov/findshelter",
+   "url": "https://www.hud.gov/contactus",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 1,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-hud-housing-counselor",
+   "name": "HUD-approved housing counselors: advice on your housing situation",
+   "org": "U.S. Department of Housing and Urban Development",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "HUD keeps a list of approved housing counseling agencies and describes them as a place to get advice on your specific housing needs. HUD lists them for both renters and homeowners.",
+   "next_step": "Search for a counseling agency near you, or call (800) 569-4287. Tell the counselor about your disability-related needs, such as an accessible unit or a voucher, and ask what they can help you apply for.",
+   "constraints": [
+    "Ask whether there is any fee before you start."
+   ],
+   "phone": "(800) 569-4287",
+   "phone_note": "HUD housing counseling line",
+   "email": null,
+   "web": "https://answers.hud.gov/housingcounseling/s/?language=en_US",
+   "url": "https://www.hud.gov/contactus",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 4,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-ned-vouchers",
+   "name": "Non-Elderly Disabled (NED) vouchers: rental help for people under 62 with a disability",
+   "org": "U.S. Department of Housing and Urban Development (local Public Housing Agencies)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "A type of housing voucher that helps people under 62 who have a disability find and pay for private rental housing. USA.gov says the person with the disability must be the head of the household, the spouse or a co-head, and the household must meet income and location requirements.",
+   "next_step": "Contact your local Public Housing Agency and ask whether it has Non-Elderly Disabled vouchers and how to get on the list. To find your agency, use the HUD list or call 1-800-955-2232.",
+   "constraints": [
+    "Ask whether the agency has these vouchers and whether its waiting list is open."
+   ],
+   "phone": "1-800-955-2232",
+   "phone_note": "HUD Public and Indian Housing Information Resource Center",
+   "email": null,
+   "web": "https://www.hud.gov/program_offices/public_indian_housing/pha/contacts",
+   "url": "https://www.usa.gov/rent-help-groups",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 5,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-homeless-veterans-call-center",
+   "name": "National Call Center for Homeless Veterans",
+   "org": "U.S. Department of Veterans Affairs",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "Free and confidential support, 24 hours a day, for veterans who are facing or experiencing homelessness.",
+   "next_step": "Call 1-877-424-3838 (1-877-4AID-VET). Say where you are and what you need tonight.",
+   "constraints": [
+    "In immediate danger, call 911."
+   ],
+   "phone": "1-877-424-3838",
+   "phone_note": "24 hours a day. Also written 1-877-4AID-VET",
+   "email": null,
+   "web": "https://www.va.gov/homeless/nationalcallcenter.asp",
+   "url": "https://www.usa.gov/emergency-housing",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "veterans"
+   ],
+   "sort": 3,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-runaway-safeline",
+   "name": "National Runaway Safeline: emergency help for teens and youth",
+   "org": "National Runaway Safeline",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "USA.gov lists this line under emergency housing for teens and youth. It offers free, confidential support 24 hours a day, and can arrange free transportation home or to other safe, stable housing.",
+   "next_step": "Call 1-800-786-2929 (1-800-RUNAWAY). You can also text, use live chat or email from the website.",
+   "constraints": [
+    "In immediate danger, call 911."
+   ],
+   "phone": "1-800-786-2929",
+   "phone_note": "24 hours a day. Also written 1-800-RUNAWAY",
+   "email": null,
+   "web": "https://www.1800runaway.org",
+   "url": "https://www.usa.gov/emergency-housing",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 6
+  },
+  {
+   "id": "us-american-job-centers",
+   "name": "American Job Centers: free job search and training help near you",
+   "org": "U.S. Department of Labor (CareerOneStop)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "work_school",
+   "description": "Nearly 2,300 American Job Centers give free help to job seekers: job search assistance, career counseling, job training services, practice interviews, and resource rooms with phones, internet and resume tools. CareerOneStop lists accessibility and special accommodations for people with disabilities among their services.",
+   "next_step": "Use the finder to locate a center, or call 1-877-872-5627 (1-877-US2-JOBS). Tell the center which accommodations you need before your visit.",
+   "constraints": [
+    "Some centers offer the full range of services and others refer you elsewhere for part of it. Ask what your nearest center does on site."
+   ],
+   "phone": "1-877-872-5627",
+   "phone_note": "Also written 1-877-US2-JOBS. TTY: 1-877-889-5627",
+   "email": null,
+   "web": "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx",
+   "url": "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "sort": 3,
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-federal-jobs-disability-hiring",
+   "name": "Federal jobs: the hiring path for people with disabilities",
+   "org": "USAJOBS and the U.S. Office of Personnel Management",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "work_school",
+   "description": "USA.gov points job seekers with disabilities to the USAJOBS hiring path for individuals with disabilities, and to the Office of Personnel Management’s list of Selective Placement Program Coordinators at federal agencies.",
+   "next_step": "Read the USAJOBS page on the hiring path for individuals with disabilities. Then look up the Selective Placement Program Coordinator at the agency where you want to work and ask how to apply.",
+   "constraints": [],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://help.usajobs.gov/working-in-government/unique-hiring-paths/individuals-with-disabilities",
+   "url": "https://www.usa.gov/disability-jobs-training",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "contact_how": "Start on the USAJOBS page; each federal agency has its own coordinator.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-abilityone",
+   "name": "AbilityOne: jobs with nonprofit agencies for people who are blind or have significant disabilities",
+   "org": "U.S. AbilityOne Commission",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "work_school",
+   "description": "USA.gov describes AbilityOne as a program that helps people who are blind or have significant disabilities find jobs with nonprofit agencies nationwide.",
+   "next_step": "Start at AbilityOne.gov. If you have a vocational rehabilitation counselor, ask whether an AbilityOne job fits your work goal.",
+   "constraints": [],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.abilityone.gov/",
+   "url": "https://www.usa.gov/disability-jobs-training",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind"
+   ],
+   "contact_how": "Start on the AbilityOne website.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-va-vre",
+   "name": "Veteran Readiness and Employment (VR&E)",
+   "org": "U.S. Department of Veterans Affairs",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "work_school",
+   "description": "Support for veterans with disabilities related to their service: training, counseling, help finding and keeping a job, and help starting a business.",
+   "next_step": "Open the VA page to see the program tracks and how to apply. A county veterans service office can help you file; see Veteran benefits in this directory.",
+   "constraints": [],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.va.gov/careers-employment/vocational-rehabilitation/programs/",
+   "url": "https://www.usa.gov/disability-jobs-training",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "veterans"
+   ],
+   "contact_how": "Apply through VA; the VA page linked here has the steps.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-vehicle-adaptation",
+   "name": "Adapting a vehicle: evaluation, equipment, dealers and who may pay",
+   "org": "National Highway Traffic Safety Administration (NHTSA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "NHTSA’s guidance for drivers and passengers with disabilities. It says to consult a driver rehabilitation specialist before you buy, so you learn what equipment you need, avoid paying for equipment you do not need and hear about financial help. NHTSA says a new vehicle modified with adaptive equipment can cost $20,000 to $80,000, that programs may help pay part or all of a modification, and that most major manufacturers offer rebates on adaptive equipment.",
+   "next_step": "Before buying anything, ask your state vocational rehabilitation agency whether it can help pay for a driving evaluation or a modification. Veterans can ask VA. Use NHTSA’s search to check that a mobility equipment dealer is registered with NHTSA as a vehicle modifier.",
+   "constraints": [
+    "NHTSA says vocational rehabilitation and workers’ compensation agencies may help with the cost of a driver evaluation, and that auto insurance may cover all or part of adaptive equipment.",
+    "Take the equipment you normally use, such as a walker, to a driving evaluation."
+   ],
+   "phone": "888-327-4236",
+   "phone_note": "NHTSA Vehicle Safety Hotline. TTY: 888-275-9171",
+   "email": null,
+   "web": "https://www.nhtsa.gov/vehicle-safety/adapted-vehicles",
+   "url": "https://www.nhtsa.gov/vehicle-safety/adapted-vehicles",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-aded-driver-rehab",
+   "name": "Find a driver rehabilitation specialist (ADED directory)",
+   "org": "ADED: The Association for Driver Rehabilitation Specialists",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "Driver rehabilitation specialists evaluate a person’s abilities, provide driver training, help with the state licensing process and work with mobility equipment dealers on vehicle fit. ADED trains and certifies them and keeps a searchable directory of providers and mobility equipment dealers. NHTSA names ADED as the place to find a qualified specialist.",
+   "next_step": "Open the provider search. For the widest results, enter only your state in the location field. ADED says a referral can come from a doctor, an occupational therapist, a family member or you.",
+   "constraints": [
+    "An evaluation generally has two parts: a clinical assessment and a behind-the-wheel assessment.",
+    "A listing in the directory is not an endorsement. Ask about experience with your kind of equipment and what the evaluation costs."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.aded.net/page/725",
+   "url": "https://www.aded.net/page/725",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "contact_how": "Search the ADED directory by state, then contact the provider directly.",
+   "link_kind": "directory"
+  },
+  {
+   "id": "us-disabled-parking-placards",
+   "name": "Disabled parking placards and plates: apply through your state",
+   "org": "State motor vehicle agencies (federal guideline: 23 CFR Part 1235)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "Each state issues its own parking placards and license plates for people with disabilities that limit or impair the ability to walk. The federal guideline to states calls for a physician’s certification with the first application, a temporary placard good for up to six months when the disability is temporary, and recognition of placards and plates issued by other states.",
+   "next_step": "Start at your state motor vehicle agency’s website and search for “disability placard.” It should have the form or name the office that handles it. Ask your doctor’s office to complete the medical certification. USA.gov links to every state and territory agency.",
+   "constraints": [
+    "The federal rule is a guideline. Each state sets its own form, fee, renewal period and who may certify.",
+    "When you travel, the guideline calls for other states to recognize your placard or plate."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.usa.gov/state-motor-vehicle-services",
+   "url": "https://www.ecfr.gov/current/title-23/chapter-II/subchapter-B/part-1235",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "contact_how": "Apply through your state motor vehicle agency; USA.gov lists each one.",
+   "link_kind": "gov"
+  },
+  {
+   "id": "us-early-intervention",
+   "name": "Early intervention for babies and toddlers: how to ask for a free evaluation",
+   "org": "Center for Parent Information and Resources",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "children",
+   "description": "Early intervention is a system of services for babies and toddlers who have a developmental delay or disability. It is required by Part C of the Individuals with Disabilities Education Act (IDEA) and is available in every state and territory. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Find your state on the ECTA Center list and call the referral number shown. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "The overview is also available in Spanish at parentcenterhub.org/parabebes."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://ectacenter.org/contact/ptccoord.asp",
+   "url": "https://www.parentcenterhub.org/ei-overview/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1,
+   "contact_how": "Use the state list to find your program’s referral number.",
+   "link_kind": "directory",
+   "hide_if_state_has": "-early-intervention"
+  },
+  {
+   "id": "al-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Alabama Early Intervention System; Department of Rehabilitation Services",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Alabama serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Alabama under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "800-543-3098",
+   "phone_note": "Referral line (English). Spanish: 866-450-2838. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.rehab.alabama.gov/services/ei",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ak-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Division of Senior and Disabilities Services; Alaska Department of Health",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Alaska serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Use the state’s referral page, linked here, or call the program office and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Alaska under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(907) 451-5041",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://health.alaska.gov/en/senior-and-disabilities-services/early-intervention-infant-learning/ilp-developmental-screening-and-referrals/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "as-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Department of Health; Helping Hands Early Intervention Program",
+   "state": "AS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in American Samoa serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for American Samoa under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(684) 699-6962",
+   "phone_note": "Referral line. Also (684) 699-6963. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.helpinghands-as.org/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "az-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Arizona Early Intervention Program; Arizona Department of Economic Security",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Arizona serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Arizona under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(602) 635-9799",
+   "phone_note": "Referral line. Also (888) 439-5609. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://des.az.gov/services/disabilities/developmental-infant",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ar-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Arkansas Department of Education- Federal Programs",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Arkansas serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Arkansas under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 643-8258",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.firstconnectionsar.org/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ca-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Children, Adolescents and Young Adult Services Division; Department of Developmental Services",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in California serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for California under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 515-2229",
+   "phone_note": "Referral line, also written (800) 515-BABY. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.dds.ca.gov/services/early-start/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "co-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Colorado Department of Early Childhood (CDEC); Division of Community and Family Support",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Colorado serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Colorado under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(888) 777-4041",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "http://www.eicolorado.org",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ct-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Birth to Three System; Office of Early Childhood",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Connecticut serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Connecticut under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 505-7000",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.birth23.org/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "de-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Birth to Three Early Intervention System; DE Department of Health and Social Services, Division of Public Health",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Delaware serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the number shown here. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Delaware under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(302) 283-7240",
+   "phone_note": "New Castle County referrals. Kent and Sussex Counties: (302) 424-7300. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.b23de.org/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "dc-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Office of the State Superintendent of Education (OSSE); Strong Start DC Early Intervention Program (DCEIP); Division of Early Learning - Government of the District of Columbia",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in the District of Columbia serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for the District of Columbia under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(202) 727-3665",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://osse.dc.gov/service/strong-start-dc-early-intervention-program-dc-eip",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "fl-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Bureau of Early Steps & Newborn Screening; Division of Children's Medical Services; Florida Department of Health",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Florida serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Florida under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 218-0001",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://floridaearlysteps.com/make-a-referral/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ga-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Division of Health Promotion; Georgia Department of Public Health",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Georgia serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Georgia under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "404-463-0820",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://dph.georgia.gov/babies-cant-wait",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "gu-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Guam Early Intervention System Division of Special Education",
+   "state": "GU",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Guam serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Guam under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "671-300-5776",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.gdoe.net/District/Department/3-Guam-Early-Intervention-System",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "hi-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early Intervention Section",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Hawaii serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the number shown here. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Hawaii under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(808) 594-0066",
+   "phone_note": "Oahu referrals. Neighbor Islands: 1-800-235-5477. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://health.hawaii.gov/eis/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "id-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Infant Toddler Program/Division of Family and Community Services; State Department of Health and Welfare",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Idaho serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Idaho under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(208) 334-6530",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://healthandwelfare.idaho.gov/Children/InfantToddlerProgram/EarlyInterventionServices/tabid/4117/Default.aspx",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "il-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Department of Human Services; Bureau of Early Intervention",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Illinois serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Illinois under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 323-4769",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.dhs.state.il.us/page.aspx?item=31183",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "in-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "First Steps; Bureau of Child Development; Division of Disability Rehabilitation",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Indiana serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Indiana under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 545-7763",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "http://www.in.gov/fssa/4655.htm",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ia-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early ACCESS (IDEA/Part C); Iowa Department of Education; Bureau of Early Childhood Services",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Iowa serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Iowa under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(888) 425-4371",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.educateiowa.gov/pk-12/early-childhood/early-access",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ks-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Kansas Early Childhood Developmental Services; Bureau of Family Health; Kansas Department of Health and Environment",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Kansas serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Kansas under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(785) 296-6135",
+   "phone_note": "Referral line. Also (800) 332-6262. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.kdhe.ks.gov/677/Kansas-Early-Childhood-Developmental-Ser",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ky-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Kentucky Early Intervention; Department for Public Health",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Kentucky serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Kentucky under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(877) 417-8377",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.chfs.ky.gov/agencies/dph/dmch/ecdb/Pages/keis.aspx",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "la-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Louisiana Department of Health; Office for Citizens with Developmental Disabilities",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Louisiana serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Louisiana under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(866) 327-5978",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "http://ldh.la.gov/index.cfm/page/139/n/139",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "me-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early Intervention for Maine; Child Development Services",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Maine serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Maine under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(877) 770-8883",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.maine.gov/doe/learning/cds",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "md-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Maryland Infants and Toddlers Program; Div. of Early Intervention and Special Education Services; Maryland State Department of Education",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Maryland serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Maryland under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 535-0182",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://referral.mditp.org/MDITP.html",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ma-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "State Department of Public Health",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Massachusetts serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the number shown here. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Massachusetts under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 905-8437",
+   "phone_note": "Early Intervention Central Directory. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.mass.gov/orgs/early-intervention-division",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "mi-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Office of Early Education; Michigan Department of Lifelong Education, Advancement, and Potential (MiLEAP)",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Michigan serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Michigan under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 327-5966",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.michigan.gov/mileap/early-childhood-education/early-learners-and-care/special-ed-05/early-on-michigan",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "mn-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Department of Children, Youth, and Families; Minnesota Department of Education",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Minnesota serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Minnesota under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(866) 693-4769",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://dcyf.mn.gov/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ms-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "MS First Steps Early Intervention Program; Mississippi State Department of Health",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Mississippi serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Mississippi under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 451-3903",
+   "phone_note": "Referral line, for calls from within Mississippi. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://msdh.ms.gov/ei",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "mo-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "DESE Office of Childhood; Early Intervention Services",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Missouri serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Use the state’s referral page, linked here, or call the program office and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Missouri under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "573-751-3559",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://dese.mo.gov/childhood/early-intervention/first-steps/how-to-make-referral",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "mt-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early Childhood Services Bureau; Early Childhood and Family Support Division; Department of Public Health and Human Services",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Montana serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Montana under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "406-444-5647",
+   "phone_note": "State program office, not a referral line. The state lists regional referral numbers. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://dphhs.mt.gov/ecfsd/childcare/montanamilestones/index",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ne-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "School Based Services/Early Development Network; DHHS - Medicaid & Long-Term Care; Early Development Network; Nebraska Department of Education",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Nebraska serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Nebraska under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(888) 806-6287",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "http://edn.ne.gov/cms/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "nv-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Nevada Department of Health and Human Services; Aging and Disability Services Division",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Nevada serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Nevada under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 522-0066",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://adsd.nv.gov/Programs/IDEA/PartC/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "nh-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Family Centered Early Supports and Services; Bureau for Family Centered Services, Div. of Long Term Supports and Services; Department of Health and Human Services",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in New Hampshire serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for New Hampshire under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 852-3345",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.dhhs.nh.gov/programs-services/disability-care/developmental-services/family-centered-early-supports-services",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "nj-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early Intervention System; Division of Family Health Services; Department of Health",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in New Jersey serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for New Jersey under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(888) 563-4463",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://nj.gov/health/fhs/eis/index.shtml",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "nm-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Family Infant and Toddler Program; Early Childhood Education and Care Department",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in New Mexico serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for New Mexico under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(877) 696-1472",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.nmececd.org/programs-for-infants/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ny-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Bureau of Early Intervention; State Department of Health",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in New York serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the number shown here. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for New York under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 522-5006",
+   "phone_note": "“Growing Up Healthy” 24-hour hotline. In New York City: (800) 577-2229. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.health.ny.gov/community/infants_children/early_intervention/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "nc-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Division of Child and Family Well-Being, Early Intervention Section; NC Department of Health and Human Services",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in North Carolina serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for North Carolina under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(919) 707-5520",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.ncdhhs.gov/itp-beearly",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "nd-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Developmental Disabilities Division; Department of Human Services",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in North Dakota serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for North Dakota under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 755-8529",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.hhs.nd.gov/early-childhood-services/early-intervention",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "mp-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "CNMI Public Schools",
+   "state": "MP",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in the Northern Mariana Islands serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for the Northern Mariana Islands under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(670) 483-3903",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.cnmipss.org/early-intervention-program",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "oh-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Ohio Department of Children and Youth",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Ohio serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Use the state’s referral page, linked here, or call the program office and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Ohio under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(614) 728-9164",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://ochids.odh.ohio.gov/public/refer",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ok-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Special Education Office; State Department of Education",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Oklahoma serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Use the state’s referral page, linked here, or call the program office and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Oklahoma under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(405) 521-4880",
+   "phone_note": "State program office, not a referral line. The state lists regional referral numbers. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://sde.ok.gov/sde-divisions/soonerstart-early-intervention",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "or-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early intervention/Early Childhood Special Education; Office of Student Services; State Department of Education",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Oregon serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Oregon under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(503) 947-5731",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.oregon.gov/ode/students-and-family/SpecialEducation/earlyintervention/Pages/default.aspx",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "pa-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Bureau of Early Intervention Services and Family Supports; Office of Child Development and Early Learning; Departments of Education and Human Services",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Pennsylvania serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Pennsylvania under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 692-7288",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.pa.gov/agencies/dhs/resources/early-learning-child-care/early-intervention-services.html",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "pr-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Maternal, Child, and Adolescent Health Section; Family and Child Health Division; Puerto Rico Department of Health",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Puerto Rico serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Puerto Rico under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "787-765-2929",
+   "phone_note": "Extension 4598. Program office. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.salud.pr.gov/CMS/67",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ri-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Executive Office of Health and Human Services; Center for Child and Family Health",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Rhode Island serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Rhode Island under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(401) 462-3425",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "http://www.eohhs.ri.gov/Consumer/FamilieswithChildren/EarlyIntervention.aspx",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "sc-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "South Carolina Department of Health and Human Services",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in South Carolina serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Use the state’s referral page, linked here, or call the program office and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for South Carolina under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "803-898-4439",
+   "phone_note": "State program office, not a referral line. Ask how to refer a child where you live. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.scdhhs.gov/resources/programs-and-initiatives/babynet/refer-child-babynet",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "sd-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Birth to Three Connections; State Department of Education",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in South Dakota serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for South Dakota under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 305-3064",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://doe.sd.gov/Birthto3/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "tn-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Tennessee Early Intervention System (TEIS); Department of Disability and Aging",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Tennessee serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Tennessee under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 852-7157",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.tn.gov/disability-and-aging/disability-aging-programs/teis.html",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "tx-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Early Childhood Intervention Services; Family Health Services Department",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Texas serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Texas under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(877) 787-8999",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://hhs.texas.gov/services/disability/early-childhood-intervention-services",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "ut-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Baby Watch Early Intervention Program; Utah Department of Health and Human Services",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Utah serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Utah under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(801) 273-2900",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://familyhealth.utah.gov/oec/baby-watch-early-intervention/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "vt-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Children's Integrated Services; Child Development Division",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Vermont serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Use the state’s referral page, linked here, or call the program office and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Vermont under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(802) 769-6174",
+   "phone_note": "State program office, not a referral line. The state lists regional referral numbers. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://dcf.vermont.gov/cdd/cis",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "vi-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Infant/Toddler Program; Department of Health",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in the U.S. Virgin Islands serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the program office, or use its website, and ask how to refer your child where you live. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for the U.S. Virgin Islands under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(340) 777-8804",
+   "phone_note": "Extension 2629. For St. Croix the list gives (340) 718-1311, extension 3624. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://doh.vi.gov/programs/infant-and-toddlers-program",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "va-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Infant & Toddler Connection of Virginia; Dept. of Behavioral Health and Developmental Services",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Virginia serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Virginia under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 234-1448",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.itcva.online/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "wa-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Department of Children, Youth and Families; Early Support for Infants and Toddlers Program",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Washington serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Washington under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 322-2588",
+   "phone_note": "Referral line. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.dcyf.wa.gov/services/child-development-supports/esit",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "wv-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "WV Birth to Three; Office of Maternal and Child Health; Department of Health and Human Resources",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in West Virginia serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for West Virginia under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "1-866-321-4728",
+   "phone_note": "Referral line, for calls from within West Virginia. As listed by the ECTA Center",
+   "email": null,
+   "web": "http://www.wvdhhr.org/birth23/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "wi-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Wisconsin Department of Health Services; Bureau of Long-Term Support; Division of Long Term Care",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Wisconsin serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Wisconsin under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "(800) 642-7837",
+   "phone_note": "Referral line. TTY: (800) 282-1663. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://www.dhs.wisconsin.gov/birthto3/index.htm",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "wy-early-intervention",
+   "name": "Early intervention for babies and toddlers (birth to age 3)",
+   "org": "Behavioral Health Division; Wyoming Department of Health",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The early intervention program in Wyoming serves children from birth to age three who have a developmental delay or disability. Parents do not have to wait for a referral, and the evaluation is free.",
+   "next_step": "Call the referral line. Say you are concerned about your child’s development and want an evaluation under Part C of IDEA. Write down the name of each person you speak with and the date.",
+   "constraints": [
+    "For children under age three. If your child is three or older, ask your school district for a special education evaluation, which is also free.",
+    "The evaluation and service coordination are free. Depending on state policy, some services may have a sliding-scale fee. A child cannot be denied services because the family cannot pay.",
+    "For an eligible child, the steps from referral to a written service plan (an Individualized Family Service Plan) should take 45 days.",
+    "This is the office the ECTA Center, a technical assistance center funded by the U.S. Department of Education, lists for Wyoming under Part C of the Individuals with Disabilities Education Act (IDEA). The points here about referral, cost and timing come from the Center for Parent Information and Resources."
+   ],
+   "phone": "1-877-996-4769",
+   "phone_note": "Referral line, also written 1-877-WYO-GROW. The state also lists regional numbers. As listed by the ECTA Center",
+   "email": null,
+   "web": "https://health.wyo.gov/behavioralhealth/early-intervention-education-program-eiep/",
+   "url": "https://ectacenter.org/contact/ptccoord.asp",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 1
+  },
+  {
+   "id": "pr-vr-agency",
+   "name": "Administración de Rehabilitación Vocacional (Puerto Rico Vocational Rehabilitation)",
+   "org": "Administración de Rehabilitación Vocacional (Puerto Rico Vocational Rehabilitation)",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "work_school",
+   "description": "The vocational rehabilitation agency helps people with disabilities prepare for, find and keep work. When equipment is needed for a work goal it can pay for assistive technology and vehicle modifications, and in some places home modifications. Eligibility and the order of service are set locally.",
+   "next_step": "Call to apply, and ask about assistive technology, vehicle modification and home modification funding before you buy anything.",
+   "constraints": [
+    "Services must connect to an employment goal.",
+    "Apply and get approval before buying equipment or starting modifications.",
+    "Some agencies keep a waitlist or order of selection."
+   ],
+   "phone": "(787) 729-0160",
+   "phone_note": "As listed in the AskJAN directory of vocational rehabilitation agencies",
+   "email": null,
+   "web": "https://www.arv.pr.gov",
+   "url": "https://askjan.org/concerns/State-Vocational-Rehabilitation-Agencies.cfm",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "vi-vr-agency",
+   "name": "Virgin Islands Division of Disabilities and Vocational Rehabilitation Services",
+   "org": "Virgin Islands Division of Disabilities and Vocational Rehabilitation Services",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "work_school",
+   "description": "The vocational rehabilitation agency helps people with disabilities prepare for, find and keep work. When equipment is needed for a work goal it can pay for assistive technology and vehicle modifications, and in some places home modifications. Eligibility and the order of service are set locally.",
+   "next_step": "Call to apply, and ask about assistive technology, vehicle modification and home modification funding before you buy anything.",
+   "constraints": [
+    "Services must connect to an employment goal.",
+    "Apply and get approval before buying equipment or starting modifications.",
+    "Some agencies keep a waitlist or order of selection."
+   ],
+   "phone": "(340) 774-0930",
+   "phone_note": "As listed in the AskJAN directory of vocational rehabilitation agencies",
+   "email": null,
+   "web": null,
+   "url": "https://askjan.org/concerns/State-Vocational-Rehabilitation-Agencies.cfm",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "as-at-program",
+   "name": "American Samoa Assistive Technology Service",
+   "org": "Assistive Technology Act program",
+   "state": "AS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "The Assistive Technology Act program for American Samoa. The federal program gives one grant to each state and territory to help people with disabilities of all ages try, borrow, reuse and pay for assistive technology.",
+   "next_step": "Call and ask which devices you can try or borrow, whether reused equipment is available and what help there is to pay for a device.",
+   "constraints": [
+    "Availability varies. Ask what is in stock before you travel."
+   ],
+   "phone": "(684) 699-1371",
+   "phone_note": "As listed in the AT3 Center directory of AT Act programs",
+   "email": null,
+   "web": null,
+   "url": "https://at3center.net/state-at-programs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "gu-at-program",
+   "name": "Guam System for Assistive Technology (GSAT)",
+   "org": "Assistive Technology Act program",
+   "state": "GU",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "The Assistive Technology Act program for Guam. The federal program gives one grant to each state and territory to help people with disabilities of all ages try, borrow, reuse and pay for assistive technology.",
+   "next_step": "Call and ask which devices you can try or borrow, whether reused equipment is available and what help there is to pay for a device.",
+   "constraints": [
+    "Availability varies. Ask what is in stock before you travel."
+   ],
+   "phone": "(671) 735-2490",
+   "phone_note": "As listed in the AT3 Center directory of AT Act programs",
+   "email": "gsat@guamcedders.org",
+   "web": "http://www.gsatcedders.org",
+   "url": "https://at3center.net/state-at-programs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "mp-at-program",
+   "name": "Commonwealth of the Northern Mariana Islands Assistive Technology Project",
+   "org": "Assistive Technology Act program",
+   "state": "MP",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "The Assistive Technology Act program for the Northern Mariana Islands. The federal program gives one grant to each state and territory to help people with disabilities of all ages try, borrow, reuse and pay for assistive technology.",
+   "next_step": "Call and ask which devices you can try or borrow, whether reused equipment is available and what help there is to pay for a device.",
+   "constraints": [
+    "Availability varies. Ask what is in stock before you travel."
+   ],
+   "phone": "(670) 664-7000",
+   "phone_note": "As listed in the AT3 Center directory of AT Act programs",
+   "email": "info@cnmicdd.org",
+   "web": "https://cnmicdd.gov.mp/assistive-tech/",
+   "url": "https://at3center.net/state-at-programs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "pr-at-program",
+   "name": "Puerto Rico Assistive Technology Program",
+   "org": "Assistive Technology Act program",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "The Assistive Technology Act program for Puerto Rico. The federal program gives one grant to each state and territory to help people with disabilities of all ages try, borrow, reuse and pay for assistive technology.",
+   "next_step": "Call and ask which devices you can try or borrow, whether reused equipment is available and what help there is to pay for a device.",
+   "constraints": [
+    "Availability varies. Ask what is in stock before you travel."
+   ],
+   "phone": "(787) 474-9999",
+   "phone_note": "As listed in the AT3 Center directory of AT Act programs. Toll-free: (855) 449-2999",
+   "email": "asistencia.tecnologica@upr.edu",
+   "web": "http://www.pratp.upr.edu",
+   "url": "https://at3center.net/state-at-programs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "vi-at-program",
+   "name": "U.S. Virgin Islands assistive technology program (Technology Related Assistance for Individuals with Disabilities)",
+   "org": "Assistive Technology Act program",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "The Assistive Technology Act program for the U.S. Virgin Islands. The federal program gives one grant to each state and territory to help people with disabilities of all ages try, borrow, reuse and pay for assistive technology.",
+   "next_step": "Call and ask which devices you can try or borrow, whether reused equipment is available and what help there is to pay for a device.",
+   "constraints": [
+    "Availability varies. Ask what is in stock before you travel."
+   ],
+   "phone": "(340) 692-4267",
+   "phone_note": "As listed in the AT3 Center directory of AT Act programs",
+   "email": null,
+   "web": "https://viucedd.uvi.edu/",
+   "url": "https://at3center.net/state-at-programs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": []
   }
  ]
 }

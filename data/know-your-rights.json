@@ -34,6 +34,17 @@
    "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}]
   },
   {
+   "id": "early-intervention",
+   "title": "A baby or toddler who may need help",
+   "plain": "You are worried about how your baby or toddler is developing, or you asked for help and were told to wait and see.",
+   "who": "Every state and territory has an early intervention program under Part C of the Individuals with Disabilities Education Act (IDEA). It serves children from birth to age three.",
+   "steps": ["Call your state’s early intervention program and ask for an evaluation under Part C of IDEA. Parents do not have to wait for a referral.", "The evaluation is free. Write down the name of each person you speak with and the date.", "If your child is three or older, ask your school district for a special education evaluation instead.", "A Parent Center can explain the steps and help if you disagree with a decision."],
+   "deadline": null,
+   "records": ["us-early-intervention", "us-parent-centers"],
+   "more": [{"label": "The early intervention program in your state", "href": "local-help.html?category=children"}],
+   "note": "For an eligible child, the steps from referral to a written service plan should take 45 days."
+  },
+  {
    "id": "school",
    "title": "School or college",
    "plain": "A school or college will not provide the services or accommodations a student needs, or treats a student differently because of a disability.",
@@ -41,7 +52,7 @@
    "steps": ["Contact the Parent Center for your state and ask for help with the school plan and with what to do when you disagree with the school.", "To file a discrimination complaint, use the Office for Civil Rights electronic complaint form."],
    "deadline": "The Department’s complaint page does not state the deadline. File soon, and ask the office or a Parent Center how long you have.",
    "records": ["us-parent-centers", "us-ed-ocr-complaint"],
-   "more": []
+   "more": [{"label": "Help for a child: programs in your state", "href": "local-help.html?category=children"}]
   },
   {
    "id": "health-care",

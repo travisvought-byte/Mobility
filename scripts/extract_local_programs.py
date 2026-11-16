@@ -13,7 +13,7 @@ STATE_BY_NAME={}
 sys.path.insert(0,str(ROOT/'scripts'))
 from build_mobility_routes import STATES
 for c,n in STATES.items(): STATE_BY_NAME[n.lower()]=c
-CATS={'ramps_home':'Ramps & home modification','equipment':'Equipment, repair & assistive technology','independent_living':'Independent living centers','navigation':'Aging & disability navigation','funding':'Coverage & funding','transportation':'Rides & transportation','rights_legal':'Rights, advocacy & legal help','veterans':'Veterans benefits help (VA housing grants)','dd_board':'Developmental disability agencies','peer_support':'Peer support groups','crisis':'Crisis, safety & mental health','benefits':'Income, benefits & health coverage','daily_living':'In-home help, food & daily living','housing':'Housing help','work_school':'Work, school & training','sensory':'Vision, hearing & communication'}
+CATS={'ramps_home':'Ramps & home modification','equipment':'Equipment, repair & assistive technology','independent_living':'Independent living centers','navigation':'Aging & disability navigation','funding':'Coverage & funding','transportation':'Rides & transportation','rights_legal':'Rights, advocacy & legal help','veterans':'Veterans benefits help (VA housing grants)','dd_board':'Developmental disability agencies','peer_support':'Peer support groups','crisis':'Crisis, safety & mental health','benefits':'Income, benefits & health coverage','daily_living':'In-home help, food & daily living','housing':'Housing help','work_school':'Work, school & training','children':'Babies, children & school','sensory':'Vision, hearing & communication'}
 # Who a program is mainly for. Records with no tag serve people with any disability.
 AUDIENCES={'mobility':'Mobility or physical disability','blind':'Blind or low vision','deaf':'Deaf or hard of hearing','deafblind':'DeafBlind','idd':'Intellectual or developmental disability','autism':'Autism','brain_injury':'Brain injury or stroke','mental_health':'Mental health condition','chronic':'ALS, MS, Parkinson\u2019s and similar conditions','children':'Children, youth and families','older':'Older adults','veterans':'Veterans'}
 # U.S. territories listed in the directory and on their own pages (the law finder and letter builder cover the 50 states and D.C. only)
@@ -125,7 +125,7 @@ def link_kind(r):
 for r in out.values(): r['link_kind']=r.get('link_kind') or link_kind(r)
 # Move existing records into the need they answer, so a blind or deaf reader, a job seeker or someone applying for benefits can find them
 SENSORY_ID=re.compile(r'(^|-)nls(-|$)|-rsa-blind-agency$|icanconnect$|-tedp-phone-equipment$|-relay$|-blind$|^ohio-older-blind$|^pa-bbvs$|^pa-odhh$')
-MOVE={'us-ticket-to-work-find-help':'work_school','tx-twc-vr':'work_school','us-wipa-benefits-counseling':'benefits','us-ship-medicare-counseling':'benefits','us-medicare-rights-center':'benefits','us-hud-fair-housing-complaint':'housing'}
+MOVE={'us-parent-centers':'children','us-ticket-to-work-find-help':'work_school','tx-twc-vr':'work_school','us-wipa-benefits-counseling':'benefits','us-ship-medicare-counseling':'benefits','us-medicare-rights-center':'benefits','us-hud-fair-housing-complaint':'housing'}
 for r in out.values():
     if r['category']=='veterans': continue
     if r['id'] in MOVE: r['category']=MOVE[r['id']]

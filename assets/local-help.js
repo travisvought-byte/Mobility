@@ -38,7 +38,7 @@ function matches(r,s){
 const rank=r=>r.scope==='counties'?0:r.scope==='statewide'?1:2;
 const pin=r=>r.sort==null?999:r.sort;
 const LINK_LABEL={official:'Official page',gov:'Government page',directory:'Directory listing',news:'News article',rule:'Rule text',social:'Facebook page',source:'Source page'};
-const SHORT={ramps_home:'ramp and home modification',equipment:'equipment',independent_living:'independent living',navigation:'navigation',funding:'funding',transportation:'transportation',rights_legal:'rights and legal',dd_board:'developmental disability',peer_support:'peer support',veterans:'veterans service',crisis:'crisis and safety',benefits:'benefits',daily_living:'in-home help and food',housing:'housing',work_school:'work and school',sensory:'vision and hearing'};
+const SHORT={ramps_home:'ramp and home modification',equipment:'equipment',independent_living:'independent living',navigation:'navigation',funding:'funding',transportation:'transportation',rights_legal:'rights and legal',dd_board:'developmental disability',peer_support:'peer support',veterans:'veterans service',crisis:'crisis and safety',benefits:'benefits',daily_living:'in-home help and food',housing:'housing',work_school:'work and school',children:'children and family',sensory:'vision and hearing'};
 const direct=r=>!!(r.phone||r.email||(r.web&&/^https:\/\//.test(r.web))||r.contact_how);
 function countyNote(found,s){
   const wide=found.filter(r=>r.scope!=='counties').length,local=found.length-wide,w=SHORT[s.category]?SHORT[s.category]+' ':'',cn=s.county+' County';

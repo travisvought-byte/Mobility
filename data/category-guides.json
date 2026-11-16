@@ -1,7 +1,7 @@
 {
  "note": "Plain-language help for each kind of program: the chip label, a one-line description, what to have ready and what to ask. General reminders, not rules of any one program. Order here is the order of the chips on the directory page.",
  "reviewed_on": "2026-11-15",
- "results_order": ["ramps_home", "equipment", "transportation", "benefits", "funding", "daily_living", "housing", "work_school", "sensory", "independent_living", "navigation", "rights_legal", "crisis", "peer_support", "dd_board", "veterans"],
+ "results_order": ["ramps_home", "equipment", "transportation", "benefits", "funding", "daily_living", "housing", "work_school", "children", "sensory", "independent_living", "navigation", "rights_legal", "crisis", "peer_support", "dd_board", "veterans"],
  "guides": {
   "crisis": {
    "need": "Crisis or safety help",
@@ -47,9 +47,15 @@
   },
   "work_school": {
    "need": "Work or school",
-   "blurb": "Vocational rehabilitation, job accommodations, discrimination charges and help for families with school plans.",
-   "ready": ["What kind of work or training you want, even if you are not sure yet.", "Records that describe your disability, if you have them.", "For a job problem: dates, names and copies of emails or letters.", "For school: your child’s IEP or 504 plan and recent evaluations."],
+   "blurb": "Vocational rehabilitation, job centers, job accommodations, federal hiring and discrimination charges. For a child’s school plan, see Help for a child.",
+   "ready": ["What kind of work or training you want, even if you are not sure yet.", "Records that describe your disability, if you have them.", "For a job problem: dates, names and copies of emails or letters.", "The accommodations you need for an interview, a class or a visit to an office."],
    "ask": ["How do I apply, and how long until I am assigned a counselor?", "Can you pay for equipment, training or changes to a vehicle that I need for work?", "What is the deadline to file a complaint?", "If I disagree with a decision, who can help me appeal?"]
+  },
+  "children": {
+   "need": "Help for a child",
+   "blurb": "Early intervention for babies and toddlers, and parent centers that explain evaluations, school plans and your family’s rights.",
+   "ready": ["Your child’s age and what you have noticed, in your own words.", "The names of your child’s doctor and any therapists.", "Any evaluation, service plan (IFSP), IEP or 504 plan you already have.", "A notebook. Write down each person you talk to and the date."],
+   "ask": ["How do I ask for an evaluation, and how long will it take?", "Is there any cost to my family?", "Who will be my contact person or service coordinator?", "If I disagree with a decision, what are my options and who can help me?"]
   },
   "sensory": {
    "need": "Vision or hearing services",

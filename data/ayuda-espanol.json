@@ -1,0 +1,68 @@
+{
+ "note": "Text for espanol.html. Only lines whose own published pages say they serve Spanish speakers are listed; 'evidence' records what the page said on the review date and is not shown on the page. Phone numbers and links are pulled from the directory record named in 'record' at build time. Written in Spanish on the review date and not yet reviewed by a fluent speaker.",
+ "reviewed_on": "2026-11-15",
+ "title": "Ayuda en español para personas con discapacidades | Mobility Talk",
+ "description": "Líneas nacionales de ayuda que atienden en español: crisis, comida, salud, ceguera y baja visión, y bebés y niños pequeños. Información gratuita para personas con discapacidades y sus familias en Estados Unidos.",
+ "h1": "Ayuda en español",
+ "lead": "Estas líneas nacionales atienden en español o tienen información en español. El resto de este sitio está en inglés por ahora.",
+ "sections": [
+  {
+   "id": "ahora",
+   "urgent": true,
+   "title": "Si está en crisis o en peligro ahora",
+   "intro": "Si hay peligro inmediato, llame al 911.",
+   "items": [
+    {"record": "us-988-lifeline", "name": "Línea 988 de Prevención del Suicidio y Crisis", "text": "Llame o envíe un mensaje de texto al 988, a cualquier hora. El servicio de texto y el chat se ofrecen en español. Es gratis y confidencial.", "sms": "988", "evidence": "988lifeline.org: Spanish text and chat available."},
+    {"record": "us-crisis-text-line", "name": "Crisis Text Line: ayuda por mensaje de texto", "text": "Envíe la palabra HOLA al 741741 para comunicarse por mensaje de texto con un consejero de crisis. Es gratis y confidencial, las 24 horas.", "sms": "741741", "sms_label": "Enviar HOLA al 741741", "evidence": "crisistextline.org: Spanish: text HOLA to 741741."},
+    {"record": "us-samhsa-national-helpline", "name": "Línea Nacional de Ayuda de SAMHSA", "text": "Información y referidos a tratamiento para la salud mental o el consumo de sustancias. Atiende en inglés y en español, las 24 horas, todos los días. Es gratis y confidencial.", "evidence": "samhsa.gov national helpline page: English and Spanish, 24/7, 365 days."},
+    {"record": "us-domestic-violence-hotline", "name": "Línea Nacional contra la Violencia Doméstica", "text": "Apoyo las 24 horas, todos los días. Su sitio web tiene una versión en español.", "evidence": "thehotline.org home page: 24/7/365; links to an En Español version of the site."}
+   ]
+  },
+  {
+   "id": "comida",
+   "title": "Comida",
+   "items": [
+    {"record": "us-national-hunger-hotline", "name": "Línea Nacional contra el Hambre del USDA", "text": "Para encontrar comida cerca de usted. Atiende en español de lunes a viernes, de 8 a.m. a 8 p.m., hora del Este. El número también se escribe 1-877-8-HAMBRE.", "phone": "1-877-842-6273", "evidence": "usa.gov/emergency-food-assistance: 1-877-8-HAMBRE (1-877-842-6273), English and Spanish, Monday through Friday 8 AM to 8 PM Eastern."},
+    {"record": "us-snap-food-benefits", "name": "SNAP (beneficios de alimentos)", "text": "La línea de información de SNAP del USDA atiende también en español. Para solicitar SNAP, comuníquese con la oficina de SNAP de su estado.", "evidence": "USDA SNAP hotline (800) 221-5689, also in Spanish; apply through the state or local SNAP office."}
+   ]
+  },
+  {
+   "id": "salud",
+   "title": "Condiciones de salud",
+   "items": [
+    {"record": "us-epilepsy-helpline", "name": "Epilepsy Foundation: línea de ayuda en español", "text": "Línea de ayuda en español de la Epilepsy Foundation, para personas con epilepsia y sus familias.", "phone": "1-866-748-8008", "evidence": "epilepsy.com/247-helpline: en español 1-866-748-8008."},
+    {"record": "us-parkinsons-helpline", "name": "Parkinson’s Foundation: línea de ayuda", "text": "Atiende en inglés y en español, de lunes a viernes, de 9 a.m. a 7 p.m., hora del Este.", "evidence": "parkinson.org helpline page: Monday through Friday 9 a.m. to 7 p.m. ET; English and Spanish."},
+    {"record": "us-alzheimers-helpline", "name": "Alzheimer’s Association: línea de ayuda las 24 horas", "text": "Atiende a toda hora, todos los días. Ofrece intérpretes en más de 200 idiomas.", "evidence": "alz.org helpline page: around the clock, 365 days a year; 200+ languages via interpreter."}
+   ]
+  },
+  {
+   "id": "vision",
+   "title": "Ceguera y baja visión",
+   "items": [
+    {"record": "us-acb", "name": "American Council of the Blind", "text": "Organización nacional de personas ciegas y con baja visión. Puede escribir en español a bienvenidos@acb.org.", "email": "bienvenidos@acb.org", "no_phone": true, "evidence": "acb.org/contact-us: Spanish bienvenidos@acb.org."},
+    {"record": "us-nls-talking-books", "name": "Servicio Nacional de Bibliotecas (NLS): libros en audio y en braille", "text": "Libros en audio y en braille para personas que no pueden leer letra impresa por una discapacidad visual, física o de lectura. La solicitud está disponible en español. Llame para encontrar su biblioteca local.", "evidence": "loc.gov/nls/how-to-enroll: online application or PDF (English/Spanish); 888-NLS-READ to find your local library."}
+   ]
+  },
+  {
+   "id": "ninos",
+   "title": "Bebés y niños pequeños",
+   "items": [
+    {"record": "us-early-intervention", "name": "Intervención temprana (del nacimiento a los 3 años)", "text": "Servicios para bebés y niños pequeños con un retraso en el desarrollo o una discapacidad, disponibles en todos los estados y territorios. Los padres no tienen que esperar un referido, y la evaluación es gratuita. El Center for Parent Information and Resources lo explica en español.", "link": "https://www.parentcenterhub.org/parabebes", "link_label": "Explicación en español", "evidence": "parentcenterhub.org/ei-overview: available in every state and territory; parents do not have to wait for a referral; evaluation is free of charge; Spanish version at parentcenterhub.org/parabebes."}
+   ]
+  }
+ ],
+ "interpreter": {
+  "title": "Cuando llame a otra oficina",
+  "text": "La mayoría de los programas de este sitio aparecen en inglés. Cuando llame, puede pedir un intérprete. Puede decir en inglés:",
+  "phrase_en": "I need a Spanish interpreter, please.",
+  "phrase_es": "Necesito un intérprete de español, por favor."
+ },
+ "more": {
+  "title": "El resto del sitio (en inglés)",
+  "links": [
+   {"href": "local-help.html", "label": "Directorio de ayuda por estado"},
+   {"href": "know-your-rights.html", "label": "Conozca sus derechos"},
+   {"href": "states/index.html", "label": "Todos los estados y territorios"}
+  ]
+ }
+}
