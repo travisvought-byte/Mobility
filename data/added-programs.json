@@ -52500,8 +52500,8 @@
   },
   {
    "id": "ia-medicaid-agency",
-   "name": "Iowa Department of Health and Human Services: apply for Medicaid and ask about in-home services",
-   "org": "Iowa Department of Health and Human Services",
+   "name": "Iowa Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "Iowa Medicaid",
    "state": "IA",
    "scope": "statewide",
    "counties": [],
@@ -52900,8 +52900,8 @@
   },
   {
    "id": "nm-medicaid-agency",
-   "name": "New Mexico Health Care Authority: apply for Medicaid and ask about in-home services",
-   "org": "New Mexico Health Care Authority",
+   "name": "New Mexico Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "New Mexico Medicaid",
    "state": "NM",
    "scope": "statewide",
    "counties": [],
@@ -52938,7 +52938,7 @@
     "If the person already gets Medicaid, the state may let a family member or friend be paid as a caregiver; ask about consumer-directed personal assistance."
    ],
    "phone": "855-355-5777",
-   "phone_note": "As listed by Medicaid.gov. NY State of Health. Some applications go through the county social services office.",
+   "phone_note": "As listed by Medicaid.gov. For NY State of Health enrollees. The page also lists local social services offices.",
    "email": null,
    "web": "https://www.health.ny.gov/health_care/medicaid/",
    "url": "https://www.medicaid.gov/about-us/where-can-people-get-help-medicaid-chip",
@@ -52975,8 +52975,8 @@
   },
   {
    "id": "nd-medicaid-agency",
-   "name": "North Dakota Health and Human Services: apply for Medicaid and ask about in-home services",
-   "org": "North Dakota Health and Human Services",
+   "name": "North Dakota Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "North Dakota Medicaid",
    "state": "ND",
    "scope": "statewide",
    "counties": [],
@@ -53074,8 +53074,8 @@
   },
   {
    "id": "or-medicaid-agency",
-   "name": "Oregon ONE eligibility: apply for Medicaid and ask about in-home services",
-   "org": "Oregon ONE eligibility",
+   "name": "Oregon Medicaid (OregONEligibility): apply for Medicaid and ask about in-home services",
+   "org": "Oregon Medicaid (OregONEligibility)",
    "state": "OR",
    "scope": "statewide",
    "counties": [],
@@ -53173,8 +53173,8 @@
   },
   {
    "id": "sc-medicaid-agency",
-   "name": "South Carolina Healthy Connections Medicaid: apply for Medicaid and ask about in-home services",
-   "org": "South Carolina Healthy Connections Medicaid",
+   "name": "South Carolina Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "South Carolina Medicaid",
    "state": "SC",
    "scope": "statewide",
    "counties": [],
@@ -53223,8 +53223,8 @@
   },
   {
    "id": "tn-medicaid-agency",
-   "name": "TennCare (listed under Tennessee Department of Health): apply for Medicaid and ask about in-home services",
-   "org": "TennCare (listed under Tennessee Department of Health)",
+   "name": "Tennessee Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "Tennessee Medicaid",
    "state": "TN",
    "scope": "statewide",
    "counties": [],
@@ -53273,8 +53273,8 @@
   },
   {
    "id": "ut-medicaid-agency",
-   "name": "Utah Department of Health and Human Services Medicaid: apply for Medicaid and ask about in-home services",
-   "org": "Utah Department of Health and Human Services Medicaid",
+   "name": "Utah Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "Utah Medicaid",
    "state": "UT",
    "scope": "statewide",
    "counties": [],
@@ -53397,8 +53397,8 @@
   },
   {
    "id": "wv-medicaid-agency",
-   "name": "West Virginia Department of Human Services: apply for Medicaid and ask about in-home services",
-   "org": "West Virginia Department of Human Services",
+   "name": "West Virginia Medicaid: apply for Medicaid and ask about in-home services",
+   "org": "West Virginia Medicaid",
    "state": "WV",
    "scope": "statewide",
    "counties": [],
@@ -53578,7 +53578,7 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in California for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
+   "description": "The reporting line in California for suspected abuse, neglect or financial exploitation of older or vulnerable adults. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
    "next_step": "Call and say who is at risk, where they are and what you have seen or been told. Ask what happens next and whether you can get an update.",
    "constraints": [
     "Enter your 5-digit ZIP code when asked to reach your county office, 24 hours a day, 7 days a week.",
@@ -53603,8 +53603,8 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in Colorado for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
-   "next_step": "Open the directory page, find the county office for where the person lives and call it. Say who is at risk, where they are and what you have seen or been told.",
+   "description": "Adult Protective Services in Colorado takes reports of suspected abuse, neglect or financial exploitation of older adults and adults with disabilities, decides whether each report meets the state’s rules and looks into it. The national directory does not list a statewide number for this state. You can make a report without giving your name.",
+   "next_step": "Open the directory page for the current way to report in this state, or call the Eldercare Locator at 1-800-677-1116 and ask how to report where the person lives. Say who is at risk, where they are and what you have seen or been told.",
    "constraints": [
     "No statewide number is listed. Reports go to the county department; the directory links to the county phone list.",
     "In immediate danger, call 911."
@@ -53653,7 +53653,7 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in Delaware for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
+   "description": "The reporting line in Delaware for suspected abuse, neglect or financial exploitation of older or vulnerable adults. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
    "next_step": "Call and say who is at risk, where they are and what you have seen or been told. Ask what happens next and whether you can get an update.",
    "constraints": [
     "Abuse in a facility: 877-453-0012.",
@@ -53924,7 +53924,7 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in Louisiana for suspected abuse, neglect or financial exploitation of adults ages 18 to 59 with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
+   "description": "The reporting line in Louisiana for suspected abuse, neglect or financial exploitation of adults ages 18 to 59. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
    "next_step": "Call and say who is at risk, where they are and what you have seen or been told. Ask what happens next and whether you can get an update.",
    "constraints": [
     "For adults 60 and older, call Elderly Protective Services: 833-577-6532.",
@@ -54273,7 +54273,7 @@
    "description": "The reporting line in New York for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
    "next_step": "Call and say who is at risk, where they are and what you have seen or been told. Ask what happens next and whether you can get an update.",
    "constraints": [
-    "Bureau of Adult Services, Office of Children and Family Services. Reports are handled by the county office.",
+    "Bureau of Adult Services, Office of Children and Family Services. Also listed: 518-473-7857. The directory links to a list of local offices.",
     "In immediate danger, call 911."
    ],
    "phone": "844-697-3505",
@@ -54295,10 +54295,10 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in North Carolina for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
-   "next_step": "Open the directory page, find the county office for where the person lives and call it. Say who is at risk, where they are and what you have seen or been told.",
+   "description": "Adult Protective Services in North Carolina takes reports of suspected abuse, neglect or financial exploitation of older adults and adults with disabilities, decides whether each report meets the state’s rules and looks into it. The national directory does not list a statewide number for this state. You can make a report without giving your name.",
+   "next_step": "Open the directory page for the current way to report in this state, or call the Eldercare Locator at 1-800-677-1116 and ask how to report where the person lives. Say who is at risk, where they are and what you have seen or been told.",
    "constraints": [
-    "No statewide number is listed. Reports go to the county department of social services.",
+    "No statewide number is listed in the directory.",
     "In immediate danger, call 911."
    ],
    "phone": null,
@@ -54688,10 +54688,10 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in Wisconsin for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
-   "next_step": "Open the directory page, find the county office for where the person lives and call it. Say who is at risk, where they are and what you have seen or been told.",
+   "description": "Adult Protective Services in Wisconsin takes reports of suspected abuse, neglect or financial exploitation of older adults and adults with disabilities, decides whether each report meets the state’s rules and looks into it. The national directory does not list a statewide number for this state. You can make a report without giving your name.",
+   "next_step": "Open the directory page for the current way to report in this state, or call the Eldercare Locator at 1-800-677-1116 and ask how to report where the person lives. Say who is at risk, where they are and what you have seen or been told.",
    "constraints": [
-    "No statewide number is listed. Reports go to the county agency; the directory links to the county list.",
+    "No statewide number is listed. The directory links to a list of local offices.",
     "In immediate danger, call 911."
    ],
    "phone": null,
@@ -54737,7 +54737,7 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "The reporting line in Guam for suspected abuse, neglect or financial exploitation of older adults and adults with disabilities. Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
+   "description": "The reporting line in Guam for suspected abuse, neglect or financial exploitation of adults (the directory does not say which adults the line serves, so ask). Adult Protective Services takes the report, decides whether it meets the state’s rules and looks into it. You can make a report without giving your name.",
    "next_step": "Call and say who is at risk, where they are and what you have seen or been told. Ask what happens next and whether you can get an update.",
    "constraints": [
     "Also listed: 735-7421.",

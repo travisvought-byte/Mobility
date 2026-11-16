@@ -66,7 +66,7 @@ const TERR=['AS','GU','MP','PR','VI'];
  }
  for(const st of STATES){const m=byId.get(st.toLowerCase()+'-medicaid-agency');assert(m&&m.url.includes('medicaid.gov')&&(m.phone||m.web),st+' Medicaid contact from Medicaid.gov');}
  const noPhone=STATES.filter(st=>!byId.get(st.toLowerCase()+'-aps-report').phone);assert.deepEqual(noPhone.sort(),['CO','NC','WI'],'states where the directory lists only county reporting');
- for(const st of noPhone)assert(/county/.test(byId.get(st.toLowerCase()+'-aps-report').next_step));
+ for(const st of noPhone){const a=byId.get(st.toLowerCase()+'-aps-report');assert(/Eldercare Locator at 1-800-677-1116/.test(a.next_step)&&/does not list a statewide number/.test(a.description),st+' says plainly that no statewide number is listed and gives another route');}
  for(const t of TERR)assert(byId.get(t.toLowerCase()+'-protection-advocacy')&&byId.get(t.toLowerCase()+'-medicaid-agency'),'territory basics '+t);
  console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records.');
 })().catch(e=>{console.error(e);process.exit(1)});
