@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Add canonical and social tags to every page, and write sitemap.xml and robots.txt. Idempotent."""
-import html,re
+import html,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -14,7 +14,9 @@ LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
 LUUL_PAGES={'index.html':('after-mif',False),'local-help.html':('before-mif',True),'mobility-rights.html':('<section id="route-result"',True),'disability-advocacy.html':('<section class="featured-org" aria-labelledby="featured-title">',True)}
 LUUL_SCRIPT_PAGES={'mobility-rights.html','disability-advocacy.html'}
 # page -> text the featured organization block is inserted before
-MIF_BEFORE={'index.html':'<section><h2>Ways to use this site</h2>','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>'}
+MIF_BEFORE={'index.html':'<section><h2>Ways to use this site</h2>','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program'}
+MAKER='Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>.'
+ORG={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#org','name':'Mobility Talk','url':BASE,'logo':BASE+'assets/social-card.png','email':'travis@vethomeguard.org','founder':{'@type':'Person','name':'Travis Vought','url':'https://travisvought.com/'},'areaServed':'US','description':'A free, national, source-linked guide to disability and mobility resources, rights and advocacy.'}
 def clean(s):return html.unescape(re.sub(r'\s+',' ',s)).strip()
 for name in PAGES:
     p=ROOT/name;t=p.read_text()
@@ -54,6 +56,13 @@ for name in PAGES:
     e=lambda s:html.escape(s,quote=True)
     block=f'<!--seo--><link rel="canonical" href="{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="Mobility Talk"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}assets/social-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Mobility Talk: mobility and disability resources, every state"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#183449"><!--/seo-->'
     t=re.sub(r"(<nav aria-label=\"Main\">.*?</nav>)",lambda m:re.sub(r"<a href=\"%s\">"%re.escape(name),"<a href=\"%s\" aria-current=\"page\">"%name,m.group(1)),t,count=1,flags=re.S)
+    # structured data: the site and its maker on the home page, a breadcrumb trail everywhere else
+    t=re.sub(r'<!--ld-->.*?<!--/ld-->','',t,flags=re.S)
+    if name=='index.html':ld=[{'@context':'https://schema.org','@type':'WebSite','@id':BASE+'#website','name':'Mobility Talk','url':BASE,'inLanguage':'en','description':desc,'publisher':{'@id':BASE+'#org'}},ORG]
+    else:ld={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Mobility Talk','item':BASE},{'@type':'ListItem','position':2,'name':title.split(' | ')[0].split(': ')[0],'item':url}]}
+    block+='<!--ld--><script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace('<','\\u003c')+'</script><!--/ld-->'
+    # the maker's name links to his own site, which lists his other projects
+    t=t.replace('Created and maintained by Travis Vought.',MAKER,1)
     t=t.replace("</head>",block+"</head>",1);p.write_text(t)
 STATE_PAGES=sorted(f'states/{q.name}' for q in (ROOT/'states').glob('*.html') if q.name!='index.html')
 ALL=PAGES+['states/index.html']+STATE_PAGES
