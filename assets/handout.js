@@ -2,16 +2,32 @@
 (function(){
   'use strict';
   var $=function(i){return document.getElementById(i);};
-  var STATES=JSON.parse($('state-data').textContent);
+  var STATES=JSON.parse($('state-data').textContent),TERR={};
+  try{TERR=JSON.parse(($('territory-data')||{}).textContent||'{}');}catch(e){TERR={};}
+  var THE={MP:1,VI:1};
   var ORDER=['crisis','benefits','independent_living','equipment','rights_legal','work_school','children','sensory','dd_board','navigation','transportation','funding','peer_support','ramps_home'];
   var NATIONAL=['us-988-lifeline','us-211','us-711-relay','us-ssa-disability-apply','us-ada-information-line','us-hud-housing-agency','us-medicare-equipment-repair','us-ship-medicare-counseling','us-wipa-benefits-counseling','us-icanconnect','us-tsa-cares'];
   var MAX_STATE=12,PER_CAT=2,records=[],cats={};
   var sel=$('h-state');
-  Object.keys(STATES).forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=STATES[k];sel.appendChild(o);});
+  function group(label,map){
+    var g=document.createElement('optgroup');g.label=label;
+    Object.keys(map).forEach(function(k){var o=document.createElement('option');o.value=k;o.textContent=map[k];g.appendChild(o);});
+    sel.appendChild(g);
+  }
+  group('States and D.C.',STATES);
+  if(Object.keys(TERR).length)group('U.S. territories',TERR);
+  function isTerr(st){return Object.prototype.hasOwnProperty.call(TERR,st);}
+  function nameOf(st){return STATES[st]||TERR[st]||st;}
+  function place(st){return (THE[st]?'the ':'')+nameOf(st);}
   function el(tag,text,cls){var e=document.createElement(tag);if(text!=null)e.textContent=text;if(cls)e.className=cls;return e;}
   function first(text){
-    var s=String(text||'').replace(/\s+/g,' ').trim(),m=/^(.+?[.!?])(\s|$)/.exec(s);
-    s=m?m[1]:s;return s.length>150?s.slice(0,147).replace(/\s+\S*$/,'')+'…':s;
+    var s=String(text||'').replace(/\s+/g,' ').trim(),re=/[.!?](?=\s|$)/g,m,cut=0;
+    while((m=re.exec(s))){
+      var pre=s.slice(0,m.index);
+      if(m[0]==='.'&&(/(^|[\s(])(?:[A-Z]\.)*[A-Z]$/.test(pre)||/\b(?:St|Dr|Mr|Mrs|Ms|Inc|Jr|Sr|No|vs|etc)$/.test(pre)))continue;
+      cut=m.index+1;break;
+    }
+    s=cut?s.slice(0,cut):s;return s.length>150?s.slice(0,147).replace(/\s+\S*$/,'')+'…':s;
   }
   function host(r){var w=r.web&&/^https:\/\//.test(r.web)?r.web:'';if(!w)return '';try{return new URL(w).hostname.replace(/^www\./,'');}catch(e){return '';}}
   function rank(r){return (r.record_status==='official_source_reviewed'?0:r.record_status==='official_search_extract_only'?1:2);}
@@ -34,15 +50,17 @@
   function draw(){
     var st=sel.value,sheet=$('sheet');
     if(!st||!records.length){sheet.hidden=true;$('h-print').disabled=!st;return;}
-    var name=STATES[st]||st;
+    var name=place(st),terr=isTerr(st);
     $('sheet-title').textContent='Mobility and disability help in '+name;
+    $('sheet-us-h').textContent=terr?'National lines (ask whether each one serves '+name+')':'Anywhere in the United States';
     var a=$('sheet-state');a.textContent='';pick(st).forEach(function(r){a.appendChild(item(r));});
     var b=$('sheet-us');b.textContent='';
     NATIONAL.forEach(function(id){var r=records.filter(function(x){return x.id===id;})[0];if(r&&r.phone)b.appendChild(item(r));});
     var n=a.children.length;
-    $('sheet-foot').textContent='Printed from mobilitytalk.org/handout.html?state='+st+'. More programs, rules and county-level help are at mobilitytalk.org/local-help.html?state='+st+'. Confirm hours and eligibility by phone.';
+    $('sheet-foot').textContent='Printed from mobilitytalk.org/handout.html?state='+st+'. More programs'+(terr?' are':', rules and county-level help are')+' at mobilitytalk.org/local-help.html?state='+st+'. Confirm hours and eligibility by phone.';
     sheet.hidden=false;$('h-print').disabled=false;
-    $('h-status').textContent=n?'Showing '+n+' statewide contacts for '+name+' and '+b.children.length+' national hotlines.':'No statewide phone contacts are listed for '+name+' yet. The national hotlines below still apply.';
+    var wide=terr?'territory-wide':'statewide';
+    $('h-status').textContent=n?'Showing '+n+' '+wide+' contacts for '+name+' and '+b.children.length+' national hotlines.':'No '+wide+' phone contacts are listed for '+name+' yet. The national hotlines below still apply.';
     history.replaceState(null,'','?state='+encodeURIComponent(st));
   }
   sel.addEventListener('change',draw);
@@ -54,7 +72,7 @@
     if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(link).then(ok,fail);else fail();
   });
   var want=(new URLSearchParams(location.search).get('state')||'').toUpperCase();
-  if(Object.prototype.hasOwnProperty.call(STATES,want))sel.value=want;
+  if(Object.prototype.hasOwnProperty.call(STATES,want)||isTerr(want))sel.value=want;
   $('h-print').disabled=!sel.value;
   fetch('data/local-programs.json').then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(d){records=d.records;cats=d.categories;draw();}).catch(function(){$('h-status').textContent='The directory could not load. Please reload, or use the local help finder.';});
 })();

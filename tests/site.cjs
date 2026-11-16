@@ -60,7 +60,9 @@ console.log('PASS site: '+pages.length+' pages have one h1, canonical and social
  assert(!/veteranhomeguardians@gmail\.com/i.test(html+js),'private email stays out of handout');
  (async()=>{
   const states=Object.keys(JSON.parse(html.match(/id="state-data">(.*?)<\/script>/s)[1]));
-  for(const st of states){
+  const terrs=Object.keys(JSON.parse(html.match(/id="territory-data">(.*?)<\/script>/s)[1]));
+  assert.deepEqual(terrs,['AS','GU','MP','PR','VI'],'handout lists the five territories');
+  for(const st of [...states,...terrs]){
    const dom=new J3(html,{url:'https://mobilitytalk.org/handout.html?state='+st,runScripts:'outside-only'}),w=dom.window,d=w.document;
    w.fetch=async()=>({ok:true,json:async()=>data});w.eval(js);await new Promise(r=>setTimeout(r,10));
    const a=[...d.querySelectorAll('#sheet-state .sheet-item')],b=[...d.querySelectorAll('#sheet-us .sheet-item')];
@@ -69,10 +71,18 @@ console.log('PASS site: '+pages.length+' pages have one h1, canonical and social
    for(const it of [...a,...b])assert(/Phone: [\d(\-+ )]+/.test(it.textContent),st+' every item has a phone number: '+it.textContent.slice(0,60));
    assert(!d.getElementById('sheet').hidden,st+' sheet shown');
    assert(!/http:\/\//.test(d.getElementById('sheet').textContent),st+' no insecure links shown');
+   const terr=terrs.includes(st),foot=d.getElementById('sheet-foot').textContent,h=d.getElementById('sheet-us-h').textContent;
+   assert.equal(d.getElementById('h-state').value,st,st+' chosen from the link');
+   for(const it of d.querySelectorAll('.sheet-desc'))assert(!/\b(the|in) (U\.S|D\.C)\.$/.test(it.textContent),st+' description not cut at an abbreviation: '+it.textContent);
+   if(terr){assert(/ask whether each one serves/.test(h)&&!/county/.test(foot)&&/territory-wide/.test(d.getElementById('h-status').textContent),st+' territory wording');
+     if(st==='VI'||st==='MP')assert(/help in the /.test(d.getElementById('sheet-title').textContent),st+' reads "in the ..."');}
+   else assert(/Anywhere in the United States/.test(h)&&/county-level/.test(foot),st+' state wording');
   }
+  {const dom=new J3(html,{url:'https://mobilitytalk.org/handout.html',runScripts:'outside-only'}),d=dom.window.document;dom.window.fetch=async()=>({ok:true,json:async()=>data});dom.window.eval(js);
+   const g=[...d.querySelectorAll('#h-state optgroup')].map(x=>x.label+':'+x.children.length);assert.deepEqual(g,['States and D.C.:51','U.S. territories:5'],'states and territories are grouped in the menu');}
   const dom=new J3(html,{url:'https://mobilitytalk.org/handout.html',runScripts:'outside-only'}),w=dom.window,d=w.document;
   w.fetch=async()=>({ok:true,json:async()=>data});w.eval(js);await new Promise(r=>setTimeout(r,10));
   assert(d.getElementById('sheet').hidden&&d.getElementById('h-print').disabled,'no sheet until a state is chosen');
-  console.log('PASS handout: all 51 jurisdictions give 6-12 statewide contacts with phones plus national hotlines, secure links only, no stored data.');
+  console.log('PASS handout: all 51 jurisdictions and the five territories give 6-12 contacts with phones plus national hotlines, territories grouped with their own wording, secure links only, no stored data.');
  })().catch(e=>{console.error(e);process.exit(1);});
 }
