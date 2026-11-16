@@ -1,0 +1,137 @@
+{
+ "note": "Which office handles which disability rights problem, the first steps and any deadline. Every fact comes from the directory records named in each row (data/added-programs.json and the veteran guide), which carry their own source links and review dates. General information, not legal advice. A deadline is stated only where the cited source states one.",
+ "reviewed_on": "2026-11-15",
+ "rows": [
+  {
+   "id": "work",
+   "title": "At work or applying for a job",
+   "plain": "An employer treats you unfairly because of a disability, or will not make a change you need to do the job.",
+   "who": "The U.S. Equal Employment Opportunity Commission (EEOC) takes job discrimination charges. The Job Accommodation Network (JAN) gives free, confidential advice on accommodations.",
+   "steps": ["Call or email JAN to plan what to ask for, and put your request in writing.", "If you were treated unfairly, call the EEOC or use its Public Portal to start a charge. Write down dates, names and what was said."],
+   "deadline": "The EEOC says you generally must file within 180 calendar days of the discrimination, or 300 days where a state or local agency enforces a law against the same discrimination. Federal employees and applicants generally must contact their agency’s EEO counselor within 45 days.",
+   "records": ["us-jan", "us-eeoc"],
+   "more": [{"label": "Vocational rehabilitation and other work help in your state", "href": "local-help.html?category=work_school"}]
+  },
+  {
+   "id": "public-places",
+   "title": "A business, public place or government service",
+   "plain": "A store, restaurant, hotel, medical office, city or county office, or other public place turns you away, will not let your service animal in, or has barriers that keep you out.",
+   "who": "The U.S. Department of Justice, under the Americans with Disabilities Act (ADA).",
+   "steps": ["Call the ADA Information Line and ask whether the ADA covers what happened and which part applies.", "File a complaint on ADA.gov. Describe what happened, where and when, and what you asked for. Keep copies of letters, photos and names.", "Check your own state’s equal-access law with the next-step finder on this site."],
+   "deadline": null,
+   "note": "A complaint is not the same as a lawsuit and does not guarantee an investigation or a remedy. Your state Protection and Advocacy agency can help you decide how to proceed.",
+   "records": ["us-ada-information-line", "us-ada-file-complaint", "us-ada-service-animals"],
+   "more": [{"label": "Your state’s equal-access law and complaint routes", "href": "mobility-rights.html"}, {"label": "Your regional ADA Center and Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}]
+  },
+  {
+   "id": "housing",
+   "title": "Housing",
+   "plain": "A landlord or housing provider refuses a reasonable accommodation or modification, such as a ramp, a service animal or an accessible parking space, or acts against you because you filed a complaint.",
+   "who": "The U.S. Department of Housing and Urban Development (HUD) takes housing discrimination complaints.",
+   "steps": ["Write down what you asked for and how the provider answered, and keep copies.", "Say how the change you need connects to your disability.", "Report it on the HUD page, call the HUD hotline or contact a local fair housing center."],
+   "deadline": "Complaints to HUD are generally filed within one year of the discrimination. Confirm the deadline with HUD.",
+   "records": ["us-hud-fair-housing-complaint"],
+   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}]
+  },
+  {
+   "id": "school",
+   "title": "School or college",
+   "plain": "A school or college will not provide the services or accommodations a student needs, or treats a student differently because of a disability.",
+   "who": "The U.S. Department of Education’s Office for Civil Rights investigates disability discrimination complaints. Parent Centers help families of children and youth with disabilities, from birth to age 26, work with schools.",
+   "steps": ["Contact the Parent Center for your state and ask for help with the school plan and with what to do when you disagree with the school.", "To file a discrimination complaint, use the Office for Civil Rights electronic complaint form."],
+   "deadline": "The Department’s complaint page does not state the deadline. File soon, and ask the office or a Parent Center how long you have.",
+   "records": ["us-parent-centers", "us-ed-ocr-complaint"],
+   "more": []
+  },
+  {
+   "id": "health-care",
+   "title": "Health care and social services",
+   "plain": "A hospital, clinic, Medicaid office or social services agency treats you differently or shuts you out because of a disability.",
+   "who": "The Office for Civil Rights at the U.S. Department of Health and Human Services (HHS). It covers programs that HHS runs or funds, and state and local government health care and social services agencies.",
+   "steps": ["File a complaint through the OCR Complaint Portal. You can file for yourself or for someone else.", "Write down what happened, when and where, and who was involved."],
+   "deadline": "The complaint page does not state the deadline. File as soon as you can.",
+   "records": ["us-hhs-ocr-complaint"],
+   "more": []
+  },
+  {
+   "id": "transit",
+   "title": "Buses, trains and paratransit",
+   "plain": "You cannot use the bus or train because of a disability, or you were denied paratransit or keep having problems with it.",
+   "who": "Your local transit agency first. The Federal Transit Administration’s Office of Civil Rights takes ADA complaints about public transit.",
+   "steps": ["Call your local transit agency and ask for its ADA paratransit application.", "If you are denied or keep having problems, call the FTA Office of Civil Rights.", "For Amtrak, ask for the change you need when you book, at least 72 hours ahead when you can."],
+   "deadline": null,
+   "records": ["us-ada-paratransit-rights", "us-amtrak-accessible-travel"],
+   "more": [{"label": "Rides and transportation programs in your state", "href": "local-help.html?category=transportation"}]
+  },
+  {
+   "id": "air-travel",
+   "title": "Air travel",
+   "plain": "An airline damages or loses your wheelchair, will not help you board, or refuses a service you need.",
+   "who": "The airline’s Complaint Resolution Official first, then the U.S. Department of Transportation.",
+   "steps": ["At the airport, ask for the airline’s Complaint Resolution Official.", "If the problem is not fixed, call the DOT hotline for air travelers with disabilities.", "After the trip, file a written or online complaint with DOT. Keep photos, repair estimates and receipts."],
+   "deadline": null,
+   "records": ["us-dot-air-travel-disability-hotline", "us-tsa-cares"],
+   "more": []
+  },
+  {
+   "id": "phones-relay",
+   "title": "Phones, relay and captioning",
+   "plain": "You cannot use a phone, relay, captioning or other communication service because of a disability.",
+   "who": "The Federal Communications Commission’s Disability Rights Office.",
+   "steps": ["To make a relay call, dial 711 from any phone in the United States.", "For a problem with a service, call the FCC Disability Rights Office by voice, or its ASL Consumer Support Line by videophone, and describe what happened."],
+   "deadline": null,
+   "records": ["us-711-relay", "us-fcc-asl-support-line"],
+   "more": [{"label": "Vision, hearing and communication services in your state", "href": "local-help.html?category=sensory"}]
+  },
+  {
+   "id": "voting",
+   "title": "Voting",
+   "plain": "Your voting location is not accessible, there is no accessible voting device, or you are not allowed to bring someone to help you.",
+   "who": "Your state or local election office first. You can report disability discrimination in voting to the Department of Justice.",
+   "steps": ["Before Election Day, contact your election office and say exactly what you need.", "If your voting location is not accessible, ask about curbside voting, another location or voting by mail.", "If you are turned away, call your state Protection and Advocacy agency."],
+   "deadline": null,
+   "records": ["us-voting-accessibility"],
+   "more": [{"label": "Your state Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}]
+  },
+  {
+   "id": "benefit-denials",
+   "title": "Social Security, Medicaid or Medicare said no",
+   "plain": "A disability claim, a service or a piece of equipment was denied, cut or delayed.",
+   "who": "The agency that made the decision. The notice it sent says how to appeal.",
+   "steps": ["Find the date on the notice and how it says to appeal.", "Social Security: ask for reconsideration online, by form or by phone.", "Medicaid: call your state Medicaid agency and ask how to appeal and by what date.", "Medicare: call your State Health Insurance Assistance Program (SHIP) or the Medicare Rights Center for help with a denial."],
+   "deadline": "Social Security says to request reconsideration within 60 days of receiving the decision. Other programs set their own deadlines; look on your notice or ask.",
+   "records": ["us-ssa-appeal", "us-ship-medicare-counseling", "us-medicare-rights-center"],
+   "more": [{"label": "Your state Medicaid agency and benefits help", "href": "local-help.html?category=benefits"}, {"label": "Equipment coverage denied: rules and next step for your state", "href": "mobility-rights.html"}]
+  },
+  {
+   "id": "abuse-neglect",
+   "title": "Abuse, neglect or exploitation",
+   "plain": "Someone is hurting, neglecting or taking money from an adult with a disability.",
+   "who": "Adult Protective Services in the state where the person lives. For people in nursing homes and other care facilities, the long-term care ombudsman also takes complaints.",
+   "steps": ["In immediate danger, call 911.", "Report it to Adult Protective Services. Say who is at risk, where they are and what you have seen or been told. You can report without giving your name.", "For abuse by a partner, the National Domestic Violence Hotline answers any time, and The Deaf Hotline answers in ASL."],
+   "deadline": null,
+   "records": ["us-adult-protective-services", "us-domestic-violence-hotline", "us-deaf-domestic-violence-hotline"],
+   "more": [{"label": "Your state’s reporting line and crisis help", "href": "local-help.html?category=crisis"}]
+  },
+  {
+   "id": "agency-problems",
+   "title": "A vocational rehabilitation or disability agency turned you down",
+   "plain": "Your state vocational rehabilitation agency or another disability program denies, delays or cuts services.",
+   "who": "Every state and territory has a Protection and Advocacy agency and a Client Assistance Program. If you get SSI or SSDI and the problem is about work, the PABSS program gives free legal and advocacy help.",
+   "steps": ["Call your state Protection and Advocacy agency, describe the decision and ask about the Client Assistance Program.", "If you receive SSI or SSDI, say so and ask about PABSS."],
+   "deadline": null,
+   "records": ["us-pabss"],
+   "more": [{"label": "Your state Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}]
+  },
+  {
+   "id": "free-help",
+   "title": "Help with any of these",
+   "plain": "You do not have to work this out alone.",
+   "who": "Your state Protection and Advocacy agency gives information, advocacy and legal help on disability rights. Legal aid offices help people with low income with civil legal problems. Centers for Independent Living are run by disabled people and can help you make a plan.",
+   "steps": ["Start with your state Protection and Advocacy agency.", "For an eviction, a benefits problem or family safety, look for a legal aid office.", "Not sure which office fits? The federal DIAL database lists disability organizations in every state and territory."],
+   "deadline": null,
+   "records": ["us-lsc-legal-aid", "us-dial-database"],
+   "more": [{"label": "Rights and legal help in your state", "href": "local-help.html?category=rights_legal"}, {"label": "Independent living centers", "href": "local-help.html?category=independent_living"}]
+  }
+ ]
+}

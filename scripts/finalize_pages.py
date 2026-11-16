@@ -4,7 +4,8 @@ import html,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html']
+ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
 # pages that also carry the Light Upon Light block; on local-help it only shows when Washington is selected
@@ -42,6 +43,9 @@ for name in PAGES:
     t=re.sub(r'(<a href="local-help\.html"[^>]*>Local help &amp; programs</a>)',lambda m:m.group(1)+'<a href="states/index.html">All states</a>',t,count=1)
     t=re.sub(r'<a href="partner\.html"[^>]*>Partner with us</a>','',t)
     t=re.sub(r'(<nav aria-label="(?:Main|Back)">.*?)(</nav>)',lambda m:m.group(1)+'<a href="partner.html">Partner with us</a>'+m.group(2),t,count=1,flags=re.S)
+    # every page footer links to the about, sources and accessibility page (once)
+    if name!='about.html' and 'href="about.html"' not in t:
+        t=re.sub(r'(<footer[^>]*>.*?)(</p>)',lambda m:m.group(1)+ABOUT+m.group(2),t,count=1,flags=re.S)
     title=clean(re.search(r'<title>(.*?)</title>',t,re.S).group(1));desc=clean(re.search(r'<meta name="description" content="([^"]*)"',t).group(1))
     url=BASE if name=='index.html' else BASE+name
     e=lambda s:html.escape(s,quote=True)
