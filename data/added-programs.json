@@ -64911,6 +64911,671 @@
    "audience": [
     "children"
    ]
+  },
+  {
+   "id": "nj-parent-center",
+   "name": "SPAN Parent Advocacy Network: help for families of children with disabilities in New Jersey",
+   "org": "SPAN Parent Advocacy Network",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. SPAN runs New Jersey’s Parent Training and Information Center. Families can get one-on-one help through its Warmline, and staff each focus on particular counties.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-654-7756",
+   "phone_note": "Warmline, (800) 654-SPAN, as listed on the center’s page; main office 973-642-8100",
+   "email": null,
+   "web": "https://spanadvocacy.org/programs/pti/",
+   "url": "https://spanadvocacy.org/programs/pti/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "va-parent-center",
+   "name": "Parent Educational Advocacy Training Center (PEATC): help for families of children with disabilities in Virginia",
+   "org": "Parent Educational Advocacy Training Center (PEATC)",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. PEATC says its federal grants designate it as Virginia’s statewide Parent Training and Information Center. Its help is free and confidential, it offers help in Spanish, and it says it can help families in more than 300 languages. The office is open Monday to Friday, 9 a.m. to 5 p.m.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "703-923-0010",
+   "phone_note": "Voice and TTY, as listed on the center’s contact page",
+   "email": null,
+   "web": "https://peatc.org/contact/",
+   "url": "https://peatc.org/trainings-workshops/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "tx-parent-center",
+   "name": "Partners Resource Network (PRN): help for families of children with disabilities in Texas",
+   "org": "Partners Resource Network (PRN)",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Partners Resource Network operates the Texas statewide network of Parent Training and Information Centers, for families of children and young people from birth to 26 and for youth self-advocates aged 14 to 26. Its help is free. The state office is open Monday to Friday, 8:30 a.m. to 5 p.m.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Texas has four Parent Centers, each serving a group of Education Service Center regions. If you do not know your region, call the Partners Resource Network state office and ask which project serves your area.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-866-4726",
+   "phone_note": "State office, as listed on the network’s page",
+   "email": "info@prntexas.org",
+   "web": "https://prntexas.org/about-prn/",
+   "url": "https://prntexas.org/about-prn/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "tx-parent-center-2",
+   "name": "PACT Project (Partners Resource Network): help for families of children with disabilities in Texas",
+   "org": "PACT Project (Partners Resource Network)",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. One of the four federally funded Parent Training and Information Centers in Texas, run by Partners Resource Network. It serves Education Service Center regions 7, 8, 10 and 11.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Texas has four Parent Centers, each serving a group of Education Service Center regions. If you do not know your region, call the Partners Resource Network state office and ask which project serves your area.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "855-974-1368",
+   "phone_note": "Toll-free, as listed on the project’s page",
+   "email": null,
+   "web": "https://prntexas.org/texas-ptis/pact-project/",
+   "url": "https://prntexas.org/texas-ptis/pact-project/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "tx-parent-center-3",
+   "name": "PEN Project (Partners Resource Network): help for families of children with disabilities in Texas",
+   "org": "PEN Project (Partners Resource Network)",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. One of the four federally funded Parent Training and Information Centers in Texas, run by Partners Resource Network. It serves Education Service Center regions 9, 12 and 14 to 19, and has an office in El Paso.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Texas has four Parent Centers, each serving a group of Education Service Center regions. If you do not know your region, call the Partners Resource Network state office and ask which project serves your area.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "833-847-2686",
+   "phone_note": "Toll-free, as listed on the project’s page; El Paso office 915-259-8717",
+   "email": "penproject@prntexas.org",
+   "web": "https://prntexas.org/texas-ptis/pen-project/",
+   "url": "https://prntexas.org/texas-ptis/pen-project/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "tx-parent-center-4",
+   "name": "TEAM Project (Partners Resource Network): help for families of children with disabilities in Texas",
+   "org": "TEAM Project (Partners Resource Network)",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. One of the four federally funded Parent Training and Information Centers in Texas, run by Partners Resource Network. It serves Education Service Center regions 1, 13 and 20.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Texas has four Parent Centers, each serving a group of Education Service Center regions. If you do not know your region, call the Partners Resource Network state office and ask which project serves your area.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "877-832-8945",
+   "phone_note": "Toll-free, as listed on the project’s page; also 281-969-5944",
+   "email": "teamproject@prntexas.org",
+   "web": "https://prntexas.org/texas-ptis/team-project-2/",
+   "url": "https://prntexas.org/texas-ptis/team-project-2/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "in-parent-center",
+   "name": "IN*SOURCE (Indiana Resource Center for Families with Special Needs): help for families of children with disabilities in Indiana",
+   "org": "IN*SOURCE (Indiana Resource Center for Families with Special Needs)",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "IN*SOURCE says it exists to help parents of children with disabilities find their way through the special education process in Indiana. Office hours are Monday to Friday, 8 a.m. to 4 p.m. Eastern.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "574-234-7101",
+   "phone_note": "As listed on the center’s contact page",
+   "email": "insource@insource.org",
+   "web": "https://insource.org/",
+   "url": "https://insource.org/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ia-parent-center",
+   "name": "ASK Resource Center: help for families of children with disabilities in Iowa",
+   "org": "ASK Resource Center",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. ASK Resource Center has been Iowa’s Parent Training and Information Center since 1998. Iowa has only one, and ASK serves the whole state.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-450-8667",
+   "phone_note": "Toll-free, as listed on the center’s page; main office 515-243-1713",
+   "email": null,
+   "web": "https://www.askresource.org/",
+   "url": "https://www.askresource.org/about/what-ASK-does-do/parent-training-and-information-center-ptic",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "dc-parent-center",
+   "name": "Advocates for Justice and Education (AJE): help for families of children with disabilities in the District of Columbia",
+   "org": "Advocates for Justice and Education (AJE)",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. AJE’s 2016 resource guide describes it as the District of Columbia’s Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "This listing relies on the organization’s 2016 resource guide; check its website for current services and contact details.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.aje-dc.org/",
+   "url": "https://www.aje-dc.org/wp-content/uploads/2015/11/AJE-Resource-Manual-2016.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "contact_how": "Contact details are on the center’s website."
+  },
+  {
+   "id": "ny-parent-center",
+   "name": "INCLUDEnyc: help for families of children with disabilities in New York",
+   "org": "INCLUDEnyc",
+   "state": "NY",
+   "scope": "counties",
+   "counties": [
+    "New York",
+    "Kings",
+    "Queens",
+    "Bronx",
+    "Richmond"
+   ],
+   "category": "children",
+   "description": "INCLUDEnyc runs a Help Line for questions about Early Intervention, special education and disability in New York City. Call, text or use its online form to set up a phone appointment with a family educator. The Help Line is open Monday to Thursday, 9 a.m. to 3 p.m., and has a Spanish line.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "This center serves New York City. For other parts of New York, find your center through the Center for Parent Information and Resources (parentcenterhub.org).",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "212-677-4660",
+   "phone_note": "Help Line, as listed on the center’s page; text 646-693-3175; Spanish 212-677-4668",
+   "email": null,
+   "web": "https://includenyc.org/help-center/help-line/",
+   "url": "https://includenyc.org/help-center/help-line/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ny-parent-center-2",
+   "name": "Parent Network of WNY: help for families of children with disabilities in New York",
+   "org": "Parent Network of WNY",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Network of Western New York gives one-on-one support and education on disabilities, special education and services.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "This center serves western New York. For other parts of New York, find your center through the Center for Parent Information and Resources (parentcenterhub.org).",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "716-332-4170",
+   "phone_note": "As listed on the center’s page",
+   "email": "info@parentnetworkwny.org",
+   "web": "https://parentnetworkwny.org/about-us/",
+   "url": "https://parentnetworkwny.org/about-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "nd-parent-center",
+   "name": "Pathfinder Services of North Dakota: help for families of children with disabilities in North Dakota",
+   "org": "Pathfinder Services of North Dakota",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Pathfinder is North Dakota’s Parent Training and Information Center, for families of children and young people from birth to 26. Its parent advising is free to all North Dakota families.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "701-837-7500",
+   "phone_note": "As listed on the center’s page",
+   "email": "info@pathfinder-nd.org",
+   "web": "https://pathfinder-nd.org/pfc/index.php",
+   "url": "https://www.pathfinder-nd.org/pti.php",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "mt-parent-center",
+   "name": "Montana Empowerment Center (MEC): help for families of children with disabilities in Montana",
+   "org": "Montana Empowerment Center (MEC)",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Montana’s Office of Public Instruction names the Montana Empowerment Center as the state’s designated Parent Training and Information Center. It helps families of children from birth to 26 who have a disability, with free information and support.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "877-870-1190",
+   "phone_note": "As listed in the center’s 2025 notice in the Great Falls Gazette",
+   "email": null,
+   "web": "https://www.mtempowermentcenter.org/",
+   "url": "https://opi.mt.gov/Portals/182/Page%20Files/Special%20Education/MEC_OPI_DRM%20Collaborative%20Supports.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "wy-parent-center",
+   "name": "Parent Information Center (Parents Helping Parents of Wyoming): help for families of children with disabilities in Wyoming",
+   "org": "Parent Information Center (Parents Helping Parents of Wyoming)",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Parents Helping Parents of Wyoming has been the state’s federally funded Parent Training and Information Center since 1991. Its Parent Information Center gives one-on-one support to Wyoming families of children and young people from birth to 26 with disabilities or special education needs.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "307-684-2277",
+   "phone_note": "Main line, as listed on the center’s site",
+   "email": null,
+   "web": "https://www.wpic.org/",
+   "url": "https://parents-helping-parents-wy.squarespace.com/about-us",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ms-parent-center",
+   "name": "Mississippi Parent Training and Information Center (MSPTI): help for families of children with disabilities in Mississippi",
+   "org": "Mississippi Parent Training and Information Center (MSPTI)",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed by Parent Project Muscular Dystrophy as Mississippi’s Parent Training and Information Center, in Jackson.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "601-969-0601",
+   "phone_note": "As listed in Parent Project Muscular Dystrophy’s Mississippi resource list; toll-free 800-721-7255",
+   "email": null,
+   "web": null,
+   "url": "https://parentprojectmd.org/?p=1249",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ar-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Arkansas",
+   "org": "Arkansas Division of Services for the Blind",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The Arkansas Division of Services for the Blind runs a program for older individuals who are blind. It teaches people to care for themselves, travel on their own and manage their homes, and it encourages family involvement and support.",
+   "next_step": "Call the division and ask about the program for older individuals who are blind.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "501-682-5463",
+   "phone_note": "As listed on the division’s services page; toll-free 1-800-960-9270",
+   "email": null,
+   "web": "https://dws.arkansas.gov/services-for-the-blind/programs-services/",
+   "url": "https://dws.arkansas.gov/services-for-the-blind/programs-services/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "il-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Illinois",
+   "org": "Illinois Department of Human Services, Bureau of Blind Services",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The Illinois Department of Human Services runs an Older Individuals who are Blind program through its Bureau of Blind Services. According to the department, the program is for people 55 and older whose severe visual impairment makes getting a job difficult but who can reach independent living goals, and it helps them adjust to blindness and care for themselves.",
+   "next_step": "Call the Bureau of Blind Services central office and ask about the Older Individuals who are Blind program.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "217-785-3887",
+   "phone_note": "Bureau of Blind Services central office, voice and TTY, as listed in the department’s brochure",
+   "email": null,
+   "web": "https://www.dhs.state.il.us/OneNetLibrary/27897/documents/Brochures/4678.pdf",
+   "url": "https://www.dhs.state.il.us/OneNetLibrary/27897/documents/Brochures/4678.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ia-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Iowa",
+   "org": "Iowa Department for the Blind",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The Iowa Department for the Blind runs an older blind program as part of its independent living services, for blind and low-vision Iowans 55 and older. Rehabilitation teachers work with people in their homes and communities.",
+   "next_step": "Contact the Iowa Department for the Blind and ask about independent living services for people 55 and older.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://blind.iowa.gov/programs-services/independent-living-services",
+   "url": "https://blind.iowa.gov/programs-services/independent-living-services",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+  },
+  {
+   "id": "ky-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Kentucky",
+   "org": "Kentucky Office for the Blind, independent living services",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Kentucky’s independent living services for people with significant vision loss are free and available in all 120 counties. Anyone in Kentucky with significant vision loss can be considered, and 90 percent of the program is paid for by the federal Older Individuals who are Blind grant.",
+   "next_step": "Call and ask for independent living services for people with vision loss.",
+   "constraints": [
+    "This program is not only for older adults; federal money for older people with vision loss pays for part of it. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-346-2115",
+   "phone_note": "As listed in the program’s 2025 brochure",
+   "email": null,
+   "web": "https://kcc.ky.gov/Vocational-Rehabilitation/Documents/Outreach/Blind%20Services/Independent-Living-Services-Tri-Fold-2025.pdf",
+   "url": "https://kcc.ky.gov/Vocational-Rehabilitation/Documents/Outreach/Blind%20Services/Independent-Living-Services-Tri-Fold-2025.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ma-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Massachusetts",
+   "org": "Massachusetts Commission for the Blind (Older Independent Blind program)",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The Massachusetts Commission for the Blind runs the Older Independent Blind program with federal funds. It serves Massachusetts residents 55 and older who are legally blind, whose blindness substantially limits how well they can manage at home or in the community, and for whom independent living services would make a real difference.",
+   "next_step": "You must be registered with the commission to get services. Call or email the commission’s Blindness Registry about eligibility and registration.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "617-626-7415",
+   "phone_note": "Blindness Registry, as listed in the commission’s booklet of services; also 413-442-1562",
+   "email": "BlindnessRegistry@mass.gov",
+   "web": "https://www.mass.gov/info-details/older-independent-blind-oib-program",
+   "url": "https://www.mass.gov/info-details/older-independent-blind-oib-program",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "nm-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in New Mexico",
+   "org": "New Mexico Commission for the Blind (Independent Living / Older Blind program)",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The New Mexico Commission for the Blind’s Independent Living / Older Blind program helps blind people live independently in their homes and communities, mostly through services at home. Its teachers serve the whole state, including rural areas, and most people served are 55 or older.",
+   "next_step": "Contact the New Mexico Commission for the Blind and ask about the Independent Living / Older Blind program.",
+   "constraints": [
+    "This program is not only for older adults; federal money for older people with vision loss pays for part of it. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.cfb.nm.gov/services/independent-living-older-blind-services/",
+   "url": "https://www.cfb.nm.gov/services/independent-living-older-blind-services/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+  },
+  {
+   "id": "sc-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in South Carolina",
+   "org": "South Carolina Commission for the Blind (Older Blind Services)",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The South Carolina Commission for the Blind’s Older Blind Services offers training and low vision devices to help people stay independent. According to the commission, it is for people 55 and older who need support to keep their independence and who have documentation, dated within the last 12 months, of legal blindness or a progressive eye condition.",
+   "next_step": "Contact the commission and ask about Older Blind Services. Have a recent eye report ready.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.sccb.sc.gov/services/older-blind-services/",
+   "url": "https://www.sccb.sc.gov/services/older-blind-services/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+  },
+  {
+   "id": "tn-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Tennessee",
+   "org": "Tennessee Services for the Blind and Visually Impaired (Independent Living Program)",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Tennessee Services for the Blind and Visually Impaired receives special funding for independent living services for older people who are blind or visually impaired. Its Independent Living Program serves eligible people of all ages, one on one, in every part of the state including rural counties, with no fees. Services include guidance, low vision evaluations, orientation and mobility, and training in communication and daily living skills.",
+   "next_step": "Contact Tennessee Services for the Blind and Visually Impaired and ask about the Independent Living Program.",
+   "constraints": [
+    "This program is not only for older adults; federal money for older people with vision loss pays for part of it. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.tn.gov/humanservices/ds/blind-visually-impaired-services/bvis-independent-living-services.html",
+   "url": "https://www.tn.gov/humanservices/ds/blind-visually-impaired-services/bvis-independent-living-services.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+  },
+  {
+   "id": "ut-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Utah",
+   "org": "Utah Division of Services for the Blind and Visually Impaired (Older Blind Program)",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Utah’s Older Blind Program gives independent living services to people at least 55 years old who are blind or visually impaired. Staff from Centers for Independent Living work with the Division of Services for the Blind and Visually Impaired to deliver it.",
+   "next_step": "Contact the Division of Services for the Blind and Visually Impaired or your local Center for Independent Living and ask about the Older Blind Program.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://jobs.utah.gov/usor/dsbvi/resources/olderblind.html",
+   "url": "https://jobs.utah.gov/usor/dsbvi/resources/olderblind.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+  },
+  {
+   "id": "wv-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in West Virginia",
+   "org": "West Virginia Division of Rehabilitation Services (VISIONS program)",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "VISIONS (Visually Impaired Seniors In-Home Outreach and Networking Services) is a free West Virginia program for people 55 and older who are not working and have a permanent visual impairment that affects daily living. Services take place at home or at a senior center or church.",
+   "next_step": "Contact the West Virginia Division of Rehabilitation Services and ask about VISIONS.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://wvdrs.org/adults/specialized-services/visions/",
+   "url": "https://wvdrs.org/adults/specialized-services/visions/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
   }
  ]
 }
