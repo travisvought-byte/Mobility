@@ -57219,6 +57219,2847 @@
    "record_status": "directory_listed",
    "origin": "data/added-programs.json",
    "audience": []
+  },
+  {
+   "id": "ok-f2f-health-center-tribal",
+   "name": "The Muscogee (Creek) Nation: Family-to-Family Health Information Center for tribal communities",
+   "org": "Family-to-Family Health Information Center",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "One of three Family-to-Family Health Information Centers that serve American Indian and Alaska Native families. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this center for tribal communities on its page for Oklahoma. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "918-549-2642",
+   "phone_note": "Contact number that Family Voices lists for this center. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.muscogeenation.com/",
+   "url": "https://familyvoices.org/affiliates/states/ok/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ok-f2f-health-center",
+   "name": "Oklahoma Family Network, Inc.: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Oklahoma. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Oklahoma. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(877) 871-5072",
+   "phone_note": "Toll free. Also (405) 271-5072. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.oklahomafamilynetwork.org/",
+   "url": "https://familyvoices.org/affiliates/states/ok/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "al-f2f-health-center",
+   "name": "Family Voices of Alabama: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Alabama. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Alabama. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(877) 771-3862",
+   "phone_note": "Toll free. As listed by Family Voices",
+   "email": null,
+   "web": "http://familyvoicesal.org/",
+   "url": "https://familyvoices.org/affiliates/states/al/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ak-f2f-health-center-tribal",
+   "name": "Southcentral Foundation: Family-to-Family Health Information Center for tribal communities",
+   "org": "Family-to-Family Health Information Center",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "One of three Family-to-Family Health Information Centers that serve American Indian and Alaska Native families. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this center for tribal communities on its page for Alaska. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "907-729-4996",
+   "phone_note": "Contact number that Family Voices lists for this center. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.southcentralfoundation.com/",
+   "url": "https://familyvoices.org/affiliates/states/ak/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ak-f2f-health-center",
+   "name": "Stone Soup Group: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Alaska. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Alaska. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(877) 786-7327",
+   "phone_note": "Toll free. Also (907) 561-3701. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.stonesoupgroup.org/",
+   "url": "https://familyvoices.org/affiliates/states/ak/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "az-f2f-health-center",
+   "name": "Encircle Families: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Arizona. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Arizona. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 237-3007",
+   "phone_note": "Toll free. Also (602) 242-4366. As listed by Family Voices",
+   "email": null,
+   "web": "https://encirclefamilies.org/",
+   "url": "https://familyvoices.org/affiliates/states/az/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ar-f2f-health-center",
+   "name": "Arkansas Disability Coalition: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Arkansas. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Arkansas. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(501) 614-7020",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://ardisabilitycoalition.org/",
+   "url": "https://familyvoices.org/affiliates/states/ar/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ca-f2f-health-center",
+   "name": "Family Voices of California, Support for Families of Children with Disabilities: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in California. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for California. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(415) 282-7494",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.familyvoicesofca.org/",
+   "url": "https://familyvoices.org/affiliates/states/ca/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "co-f2f-health-center",
+   "name": "Family Voices Colorado: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Colorado. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Colorado. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "303-877-1747",
+   "phone_note": "Also 855-877-1747. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.familyvoicesco.org/",
+   "url": "https://familyvoices.org/affiliates/states/co/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ct-f2f-health-center",
+   "name": "PATH CT: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Connecticut. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Connecticut. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 399-7284",
+   "phone_note": "Toll free. Also (203) 234-9554. Text: (203) 215-9257. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.pathct.org/",
+   "url": "https://familyvoices.org/affiliates/states/ct/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "de-f2f-health-center",
+   "name": "Parent Information Center of Delaware: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Delaware. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Delaware. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 547-4412",
+   "phone_note": "Toll free. Also (302) 999-7394. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.picofdel.org",
+   "url": "https://familyvoices.org/affiliates/states/de/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "dc-f2f-health-center",
+   "name": "Advocates for Justice and Education: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in the District of Columbia. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for the District of Columbia. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 327-8060",
+   "phone_note": "Toll free. Also (202) 678-8060. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.aje-dc.org/",
+   "url": "https://familyvoices.org/affiliates/states/dc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "fl-f2f-health-center",
+   "name": "Family Network on Disabilities of Florida, Inc.: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Florida. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Florida. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 825-5736",
+   "phone_note": "Toll free. Also (727) 523-1130. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.fndusa.org/",
+   "url": "https://familyvoices.org/affiliates/states/fl/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ga-f2f-health-center",
+   "name": "Parent to Parent of Georgia: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Georgia. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Georgia. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 229-2038",
+   "phone_note": "Toll free. Also (770) 451-5484. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.p2pga.org/",
+   "url": "https://familyvoices.org/affiliates/states/ga/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "hi-f2f-health-center",
+   "name": "Hilopa’a Family to Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Hawaii. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Hawaii. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(808) 791-3467",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.hilopaa.org/",
+   "url": "https://familyvoices.org/affiliates/states/hi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "id-f2f-health-center",
+   "name": "Idaho Parents Unlimited, Inc.: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Idaho. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Idaho. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 242-4785",
+   "phone_note": "Toll free. Also (208) 342-5884. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.ipulidaho.org/",
+   "url": "https://familyvoices.org/affiliates/states/id/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "il-f2f-health-center",
+   "name": "The Arc of Illinois: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Illinois. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Illinois. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(866) 931-1110",
+   "phone_note": "Toll free. Also (815) 464-1832, extension 1017. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.thearcofil.org/about-us/programs/family-to-family-health-information-center/",
+   "url": "https://familyvoices.org/affiliates/states/il/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "in-f2f-health-center",
+   "name": "Indiana Family to Family",
+   "org": "Family-to-Family Health Information Center",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Indiana. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Indiana. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(844) 323-4636",
+   "phone_note": "Toll free. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.inf2f.org",
+   "url": "https://familyvoices.org/affiliates/states/in/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ia-f2f-health-center",
+   "name": "ASK Resource Center: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Iowa. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Iowa. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 450-8667",
+   "phone_note": "Toll free. Also (515) 243-1713. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.askresource.org/",
+   "url": "https://familyvoices.org/affiliates/states/ia/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ks-f2f-health-center",
+   "name": "Families Together, Inc.: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Kansas. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Kansas. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 815-6364",
+   "phone_note": "Toll free. Also (316) 945-7747. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.familiestogetherinc.org/",
+   "url": "https://familyvoices.org/affiliates/states/ks/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ky-f2f-health-center",
+   "name": "Kentucky Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Kentucky. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Kentucky. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(502) 564-7107",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://www.chfs.ky.gov/agencies/ocshcn/Pages/ftf.aspx",
+   "url": "https://familyvoices.org/affiliates/states/ky/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "la-f2f-health-center",
+   "name": "Bayou Land Families Helping Families: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Louisiana. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Louisiana. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(985) 447-4461",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.blfhf.org/",
+   "url": "https://familyvoices.org/affiliates/states/la/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "me-f2f-health-center",
+   "name": "Maine Parent Federation: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Maine. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Maine. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 870-7746",
+   "phone_note": "Toll free. Also (207) 588-1933. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.mpf.org/",
+   "url": "https://familyvoices.org/affiliates/states/me/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "md-f2f-health-center",
+   "name": "The Parents’ Place of Maryland: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Maryland. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Maryland. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 394-5694",
+   "phone_note": "Toll free. Also (410) 768-9100. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.ppmd.org/",
+   "url": "https://familyvoices.org/affiliates/states/md/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ma-f2f-health-center",
+   "name": "Massachusetts Family Voices at the Federation for Children with Special Needs: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Massachusetts. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Massachusetts. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 331-0688",
+   "phone_note": "Toll free. Also (617) 236-7210. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.fcsn.org/mfv",
+   "url": "https://familyvoices.org/affiliates/states/ma/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "mi-f2f-health-center",
+   "name": "Michigan Family-to-Family Health Information & Education Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Michigan. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Michigan. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(517) 324-7396",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://f2fmichigan.org/",
+   "url": "https://familyvoices.org/affiliates/states/mi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "mn-f2f-health-center",
+   "name": "PACER Center: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Minnesota. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Minnesota. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 248-0822",
+   "phone_note": "Toll free. Also (952) 838-9000. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.pacer.org/",
+   "url": "https://familyvoices.org/affiliates/states/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "mn-f2f-health-center-2",
+   "name": "Family Voices of Minnesota: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Minnesota. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Minnesota. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "612-440-1609",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.familyvoicesofminnesota.org/",
+   "url": "https://familyvoices.org/affiliates/states/mn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ms-f2f-health-center",
+   "name": "Mississippi Families As Allies, Inc.: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Mississippi. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Mississippi. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "1-800-833-9671",
+   "phone_note": "Toll free. Also (601) 355-0915. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.faams.org/",
+   "url": "https://familyvoices.org/affiliates/states/ms/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "mo-f2f-health-center",
+   "name": "University of Missouri-Kansas City Developmental Disabilities Resource Center: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Missouri. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Missouri. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 444-0821",
+   "phone_note": "Toll free. Also (816) 235-1763. As listed by Family Voices",
+   "email": null,
+   "web": "http://mofamilytofamily.org/",
+   "url": "https://familyvoices.org/affiliates/states/mo/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "mt-f2f-health-center",
+   "name": "The Rural Institute for Inclusive Communities: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Montana. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Montana. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(406) 243-4570",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://ruralinstitute.umt.edu/",
+   "url": "https://familyvoices.org/affiliates/states/mt/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ne-f2f-health-center",
+   "name": "PTI Nebraska: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Nebraska. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Nebraska. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(402) 346-0525",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.pti-nebraska.org/",
+   "url": "https://familyvoices.org/affiliates/states/ne/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nv-f2f-health-center",
+   "name": "Nevada Center for Excellence in Disabilities Family Navigation Network: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Nevada. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Nevada. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(833) 427-1673",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://www.unr.edu/nced/projects/family-navigation-network",
+   "url": "https://familyvoices.org/affiliates/states/nv/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nh-f2f-health-center",
+   "name": "New Hampshire Family Voices: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in New Hampshire. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for New Hampshire. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 852-3345",
+   "phone_note": "Toll free. Also (603) 271-4525. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.nhfv.org/",
+   "url": "https://familyvoices.org/affiliates/states/nh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nj-f2f-health-center",
+   "name": "SPAN Parent Advocacy Network: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in New Jersey. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for New Jersey. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 654-7726",
+   "phone_note": "Toll free. Also (973) 642-8100. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.spanadvocacy.org/",
+   "url": "https://familyvoices.org/affiliates/states/nj/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nm-f2f-health-center",
+   "name": "Parents Reaching Out: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in New Mexico. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for New Mexico. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 524-5176",
+   "phone_note": "Toll free. Also (505) 247-0192. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.parentsreachingout.org/",
+   "url": "https://familyvoices.org/affiliates/states/nm/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nm-f2f-health-center-2",
+   "name": "Navajo Family Voices, a program of Indian Country Grassroots Support: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in New Mexico. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for New Mexico. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(505) 326-2650",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://navajofamilies.org/",
+   "url": "https://familyvoices.org/affiliates/states/nm/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ny-f2f-health-center",
+   "name": "Parent to Parent of NYS: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in New York. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for New York. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(518) 381-4350",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.parenttoparentnys.org/",
+   "url": "https://familyvoices.org/affiliates/states/ny/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nc-f2f-health-center",
+   "name": "Exceptional Children’s Assistance Center (ECAC): Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in North Carolina. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for North Carolina. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 962-6817",
+   "phone_note": "Toll free. Also (704) 892-1321. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.ecac-parentcenter.org/",
+   "url": "https://familyvoices.org/affiliates/states/nc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "nd-f2f-health-center",
+   "name": "Family Voices of North Dakota: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in North Dakota. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for North Dakota. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 522-9654",
+   "phone_note": "Toll free. Also (701) 493-2634. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.fvnd.org",
+   "url": "https://familyvoices.org/affiliates/states/nd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "oh-f2f-health-center",
+   "name": "Ohio Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Ohio. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Ohio. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "513-803-2419",
+   "phone_note": "Contact number that Family Voices lists for this center. As listed by Family Voices",
+   "email": null,
+   "web": "https://www.ucucedd.org/ohio-family-to-family-f2f/",
+   "url": "https://familyvoices.org/affiliates/states/oh/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "or-f2f-health-center",
+   "name": "Oregon Family to Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Oregon. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Oregon. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(855) 323-6744",
+   "phone_note": "Toll free. Also (503) 494-0865. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.oregonfamilytofamily.org/",
+   "url": "https://familyvoices.org/affiliates/states/or/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "pa-f2f-health-center",
+   "name": "Parent Education & Advocacy Leadership (PEAL) Center: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Pennsylvania. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Pennsylvania. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(866) 950-1040",
+   "phone_note": "Toll free. Also (412) 281-4404. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.pealcenter.org/",
+   "url": "https://familyvoices.org/affiliates/states/pa/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ri-f2f-health-center",
+   "name": "Rhode Island Parent Information Network (RIPIN): Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Rhode Island. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Rhode Island. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(401) 270-0101",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.ripin.org/",
+   "url": "https://familyvoices.org/affiliates/states/ri/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "sc-f2f-health-center",
+   "name": "Family Connection of South Carolina, Inc: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in South Carolina. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for South Carolina. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 578-8750",
+   "phone_note": "Toll free. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.familyconnectionsc.org/",
+   "url": "https://familyvoices.org/affiliates/states/sc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "sd-f2f-health-center",
+   "name": "South Dakota Parent Connection, Inc.: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in South Dakota. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for South Dakota. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 640-4553",
+   "phone_note": "Toll free. Also (605) 361-3171. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.sdparent.org",
+   "url": "https://familyvoices.org/affiliates/states/sd/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "tn-f2f-health-center",
+   "name": "Tennessee Disability Coalition: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Tennessee. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Tennessee. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 643-7811",
+   "phone_note": "Toll free. Also (615) 383-9442. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.tndisability.org",
+   "url": "https://familyvoices.org/affiliates/states/tn/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "tx-f2f-health-center",
+   "name": "Texas Parent to Parent: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Texas. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Texas. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(866) 896-6001",
+   "phone_note": "Toll free. Also (512) 458-8600. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.txp2p.org",
+   "url": "https://familyvoices.org/affiliates/states/tx/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "ut-f2f-health-center",
+   "name": "Utah Parent Center: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Utah. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Utah. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 468-1160",
+   "phone_note": "Toll free. Also (801) 272-1068. Español: (801) 272-1067. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.utahfamilyvoices.org",
+   "url": "https://familyvoices.org/affiliates/states/ut/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "vt-f2f-health-center",
+   "name": "Vermont Family Network: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Vermont. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Vermont. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(802) 876-5315",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://www.vermontfamilynetwork.org",
+   "url": "https://familyvoices.org/affiliates/states/vt/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "va-f2f-health-center",
+   "name": "Family to Family Network of Virginia – Center for Family Involvement",
+   "org": "Family-to-Family Health Information Center",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Virginia. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Virginia. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(877) 567-1122",
+   "phone_note": "Toll free. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.centerforfamilyinvolvement.org",
+   "url": "https://familyvoices.org/affiliates/states/va/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "wa-f2f-health-center",
+   "name": "Washington PAVE: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Washington. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Washington. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(800) 572-7368",
+   "phone_note": "Toll free. As listed by Family Voices",
+   "email": null,
+   "web": "http://wapave.org/",
+   "url": "https://familyvoices.org/affiliates/states/wa/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "wv-f2f-health-center",
+   "name": "West Virginia University’s Center for Excellence in Disabilities: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in West Virginia. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for West Virginia. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(304) 293-4265",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://f2f.cedwvu.org/",
+   "url": "https://familyvoices.org/affiliates/states/wv/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "wi-f2f-health-center",
+   "name": "Family Voices of Wisconsin: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Wisconsin. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Wisconsin. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(608) 512-0217",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "http://familyvoiceswi.org/",
+   "url": "https://familyvoices.org/affiliates/states/wi/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "wy-f2f-health-center",
+   "name": "Wyoming Institute for Disabilities (WIND): Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Wyoming. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Wyoming. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(888) 989-9463",
+   "phone_note": "Toll free. Also (307) 766-2764. As listed by Family Voices",
+   "email": null,
+   "web": "http://www.uwyo.edu/wind/",
+   "url": "https://familyvoices.org/affiliates/states/wy/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "pr-f2f-health-center",
+   "name": "Family-to-Family Health Information Center for Puerto Rico",
+   "org": "Family-to-Family Health Information Center",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Puerto Rico. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Puerto Rico. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "939-454-2017",
+   "phone_note": "Contact number that Family Voices lists for this center. As listed by Family Voices",
+   "email": null,
+   "web": "https://prf2fc.rcm.upr.edu/",
+   "url": "https://familyvoices.org/affiliates/states/pr/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "gu-f2f-health-center",
+   "name": "Family Health Information Resource Center (FHIRC): Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "GU",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in Guam. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for Guam. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "1-671-638-7474",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://dphss.guam.gov/",
+   "url": "https://familyvoices.org/affiliates/states/guam/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "vi-f2f-health-center",
+   "name": "Family Voices, U.S. Virgin Islands: Family-to-Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in the U.S. Virgin Islands. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for the U.S. Virgin Islands. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "(340) 719-0076",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://www.vif2fnetwork.org/",
+   "url": "https://familyvoices.org/affiliates/states/us-virgin-islands/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "mp-f2f-health-center",
+   "name": "CNMI Family to Family Health Information Center",
+   "org": "Family-to-Family Health Information Center",
+   "state": "MP",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in the Northern Mariana Islands. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for the Northern Mariana Islands. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "670-664-8700",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://www.chcc.health/",
+   "url": "https://familyvoices.org/affiliates/states/northern-mariana-islands/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "as-f2f-health-center",
+   "name": "Family-to-Family Health Information Center for American Samoa",
+   "org": "Family-to-Family Health Information Center",
+   "state": "AS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A family-led center for families of children and youth with special health care needs in American Samoa. Staff are family members who have been through it themselves. They help families understand health coverage, find services and connect with other parents. Help is free to families.",
+   "next_step": "Call and say what your child needs and where you are stuck, such as an insurance denial, finding a specialist or planning the move to adult health care. Ask to speak with a parent who has been through it.",
+   "constraints": [
+    "Family Voices lists this as a Family-to-Family Health Information Center for American Samoa. The centers are funded by the federal Maternal and Child Health Bureau."
+   ],
+   "phone": "684-770-9205",
+   "phone_note": "As listed by Family Voices",
+   "email": null,
+   "web": "https://www.americansamoa.gov/department-of-public-health",
+   "url": "https://familyvoices.org/affiliates/states/american-samoa/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2
+  },
+  {
+   "id": "us-f2f-health-centers",
+   "name": "Family-to-Family Health Information Centers: free help for families of children with special health care needs",
+   "org": "Family Voices and the federal Maternal and Child Health Bureau",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "children",
+   "description": "Family-led centers that support families of children and youth with special health care needs. The federal Maternal and Child Health Bureau funds one in every state, the District of Columbia and five territories, and three that serve tribal communities. Staff are family members with first-hand experience. Help is free to families.",
+   "next_step": "Choose your state or territory in the Family Voices finder and call the center listed. Say what your child needs and where you are stuck.",
+   "constraints": [
+    "The centers help with health coverage, finding services and connecting with other families. They are not medical providers."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://familyvoices.org/felsc/whataref2fs/",
+   "url": "https://mchb.hrsa.gov/programs-impact/programs/f2f-health-information-centers",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "sort": 2,
+   "contact_how": "Find your state’s center with the Family Voices finder.",
+   "link_kind": "directory",
+   "hide_if_state_has": "-f2f-health-center"
+  },
+  {
+   "id": "va-automobile-adaptive-equipment",
+   "name": "VA automobile allowance and adaptive equipment",
+   "org": "U.S. Department of Veterans Affairs",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "VA can help an eligible veteran or service member buy a specially equipped vehicle and can pay for adaptive equipment. You may be eligible if you have a service-connected disability that includes loss or permanent loss of use of a hand or foot, permanently reduced vision in both eyes, a severe burn injury or ALS. Ankylosis of a knee or hip qualifies for the adaptive-equipment grant only.",
+   "next_step": "Apply online or by mail with VA Form 21-4502 before you buy anything, and wait for VA’s approval. VA pays the vehicle allowance to the seller and must approve adaptive equipment before it is bought. A county veterans service office can help you file.",
+   "constraints": [
+    "Do not buy the vehicle or the equipment until VA has authorized it.",
+    "Adaptive equipment may be provided for no more than two vehicles in a four-year period.",
+    "There is no time limit for filing the claim."
+   ],
+   "phone": "1-800-827-1000",
+   "phone_note": "VA benefits line, as printed on the application form. TTY: 711",
+   "email": null,
+   "web": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
+   "url": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "veterans",
+    "mobility"
+   ],
+   "link_kind": "gov"
+  },
+  {
+   "id": "ar-deaf-hard-of-hearing-agency",
+   "name": "Services for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Arkansas.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dws.arkansas.gov/ar-rehabilitation-services/field-services/deaf-hard-of-hearing/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "az-deaf-hard-of-hearing-agency",
+   "name": "Arizona Commission for the Deaf and the Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Arizona.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://acdhh.org/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "ca-deaf-hard-of-hearing-agency",
+   "name": "Office of Deaf Access",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for California.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.cdss.ca.gov/deaf-access",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "co-deaf-hard-of-hearing-agency",
+   "name": "Colorado Commission for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Colorado.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://cddhhdb.colorado.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "ct-deaf-hard-of-hearing-agency",
+   "name": "Bureau of Services for Persons who are Deaf, DeafBlind, or Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Connecticut.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://portal.ct.gov/ads/knowledge-base/categories/advocacy-services/deaf-hard-of-hearing-deafblind-services?language=en_US",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "de-deaf-hard-of-hearing-agency",
+   "name": "Delaware Office for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Delaware.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://labor.delaware.gov/divisions/dvr/dodhh/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "dc-deaf-hard-of-hearing-agency",
+   "name": "Division of Deaf, DeafBlind, and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for the District of Columbia.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://odr.dc.gov/page/division-deaf-deafblind-and-hard-hearing",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "fl-deaf-hard-of-hearing-agency",
+   "name": "Florida Coordinating Council for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Florida.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.floridahealth.gov/provider-and-partner-resources/fccdhh/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "ga-deaf-hard-of-hearing-agency",
+   "name": "Commission for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Georgia.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dhs.georgia.gov/organization/about/language-access/georgia-commission-deaf-or-hard-hearing-gacdhh",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "hi-deaf-hard-of-hearing-agency",
+   "name": "Disability and Communication Access Board: communication access for people who are deaf or hard of hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Hawaii.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://health.hawaii.gov/dcab/communication-access/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "id-deaf-hard-of-hearing-agency",
+   "name": "Idaho Council for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Idaho.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.cdhh.idaho.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "il-deaf-hard-of-hearing-agency",
+   "name": "Illinois Deaf and Hard of Hearing Commission",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Illinois.",
+   "next_step": "Search for the agency by name. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster’s link for this agency points to another state’s site, and it lists no phone number. Search for the agency by name to find its current page.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "in-deaf-hard-of-hearing-agency",
+   "name": "Deaf & Hard of Hearing Services",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Indiana.",
+   "next_step": "Search for the agency by name. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster’s link for this agency points to another state’s site, and it lists no phone number. Search for the agency by name to find its current page.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "ia-deaf-hard-of-hearing-agency",
+   "name": "Commission of Deaf Services of Iowa",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Iowa.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://hhs.iowa.gov/about/advisory-groups/commission-deaf-services",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "ks-deaf-hard-of-hearing-agency",
+   "name": "Kansas Commission for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Kansas.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.kcdhh.ks.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "ky-deaf-hard-of-hearing-agency",
+   "name": "Kentucky Commission on the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Kentucky.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://kcdhh.ky.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "la-deaf-hard-of-hearing-agency",
+   "name": "Louisiana Commission for the Deaf",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Louisiana.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://new.dhh.louisiana.gov/index.cfm/page/318",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "me-deaf-hard-of-hearing-agency",
+   "name": "Division for the Deaf, Hard of Hearing & Late Deafened",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Maine.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.maine.gov/rehab/dod/index.shtml",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "md-deaf-hard-of-hearing-agency",
+   "name": "Governor’s Office of the Deaf & Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Maryland.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://odhh.maryland.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "ma-deaf-hard-of-hearing-agency",
+   "name": "Massachusetts Commission for the Deaf & Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Massachusetts.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.mass.gov/eohhs/gov/departments/mcdhh/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "mi-deaf-hard-of-hearing-agency",
+   "name": "Division on Deaf DeafBlind and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Michigan.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.michigan.gov/mdcr/0,4613,7-138-58275_28545---,00.html",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "mn-deaf-hard-of-hearing-agency",
+   "name": "Commission of Deaf, DeafBlind, and Hard of Hearing Minnesotans",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Minnesota.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://mn.gov/deaf-commission/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "mn-deaf-hard-of-hearing-agency-2",
+   "name": "Deaf and Hard of Hearing Services Division",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Minnesota.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://mn.gov/deaf-hard-of-hearing/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "mo-deaf-hard-of-hearing-agency",
+   "name": "Missouri Commission for the Deaf & Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Missouri.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://mcdhh.mo.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "ms-deaf-hard-of-hearing-agency",
+   "name": "Office on Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Mississippi.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.odhh.org/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "ne-deaf-hard-of-hearing-agency",
+   "name": "Nebraska Commission for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Nebraska.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://ncdhh.nebraska.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "nv-deaf-hard-of-hearing-agency",
+   "name": "Commission for Persons who are Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Nevada.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://adsd.nv.gov/Boards/NCPWADHHSI/Nevada_Commission_for_Persons_Who_Are_Deaf_Hard_of_Hearing_or_Speech_Impaired/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "nv-deaf-hard-of-hearing-agency-2",
+   "name": "Communication Access Services: communication access for people who are deaf or hard of hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Nevada.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://adsd.nv.gov/Programs/Physical/ComAccessSvc/CAS/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "nh-deaf-hard-of-hearing-agency",
+   "name": "Services for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New Hampshire.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.education.nh.gov/who-we-are/deputy-commissioner/bureau-vocational-rehabilitation/programs-and-services/program-individuals-who-are-deaf-or-hard-hearing",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "nj-deaf-hard-of-hearing-agency",
+   "name": "Division of the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New Jersey.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://nj.gov/humanservices/ddhh/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "nm-deaf-hard-of-hearing-agency",
+   "name": "New Mexico Commission for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New Mexico.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.cdhh.state.nm.us/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "ny-deaf-hard-of-hearing-agency",
+   "name": "NYS Deaf, DeafBlind, and Hard of Hearing Office",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New York.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.ny.gov/programs/new-york-state-deaf-deafblind-and-hard-hearing-office",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "nc-deaf-hard-of-hearing-agency",
+   "name": "Division of Services for the Deaf and the Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for North Carolina.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.ncdhhs.gov/dsdhh/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "oh-deaf-hard-of-hearing-agency",
+   "name": "Deaf, DeafBlind, and Hard of Hearing Services",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Ohio.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://ood.ohio.gov/information-for-individuals/services/deaf-deafblind-hard-of-hearing/deaf-deafblind-hard-of-hearing-services",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "or-deaf-hard-of-hearing-agency",
+   "name": "Oregon Deaf and Hard of Hearing Services",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Oregon.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.oregon.gov/dhs/seniors-disabilities/sppd/pages/odhhs.aspx",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "ri-deaf-hard-of-hearing-agency",
+   "name": "Rhode Island Commission on the Deaf & Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Rhode Island.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.cdhh.ri.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "tn-deaf-hard-of-hearing-agency",
+   "name": "Tennessee Council for the Deaf, Deaf-Blind and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Tennessee.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.tn.gov/humanservices/ds/councils-and-committees/tcddbhh.html",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "tx-deaf-hard-of-hearing-agency",
+   "name": "Office for Deaf and Hard of Hearing Services",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Texas.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://hhs.texas.gov/services/disability/deaf-hard-hearing",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "ut-deaf-hard-of-hearing-agency",
+   "name": "Utah State Division of Services to the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Utah.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://deafservices.utah.gov/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "vt-deaf-hard-of-hearing-agency",
+   "name": "Department of Disabilities, Aging, and Independent Living Services for Deaf, Hard-of-Hearing, Deafblind",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Vermont.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dail.vermont.gov/services/programs/deaf-hard-hearing-deafblind",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "deafblind"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
+  },
+  {
+   "id": "va-deaf-hard-of-hearing-agency",
+   "name": "Virginia Department for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Virginia.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.vddhh.org/",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "wa-deaf-hard-of-hearing-agency",
+   "name": "Office of the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Washington.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.dshs.wa.gov/altsa/office-deaf-and-hard-hearing",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "wi-deaf-hard-of-hearing-agency",
+   "name": "Council for Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Wisconsin.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://dhhcouncil.state.wi.us/index.htm",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "wi-deaf-hard-of-hearing-agency-2",
+   "name": "Office for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Wisconsin.",
+   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "http://www.dhs.wisconsin.gov/odhh/INDEX.HTM",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Find the agency by name or through the national roster."
+  },
+  {
+   "id": "wv-deaf-hard-of-hearing-agency",
+   "name": "West Virginia Commission for the Deaf and Hard of Hearing",
+   "org": "State agency for people who are deaf or hard of hearing",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for West Virginia.",
+   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "constraints": [
+    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dhhr.wv.gov/cdhh/Pages/default.aspx",
+   "url": "https://nasadhh.org/state-agency/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "Contact details are on the agency’s own page."
   }
  ]
 }

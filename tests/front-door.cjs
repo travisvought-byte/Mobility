@@ -102,5 +102,20 @@ const TERR=['AS','GU','MP','PR','VI'];
   for(const f of ['index.html','local-help.html','know-your-rights.html','mobility-rights.html','about.html','handout.html']){const a=new JSDOM(fs.readFileSync(f,'utf8')).window.document.querySelector('header nav a[href="espanol.html"]');assert(a&&a.getAttribute('lang')==='es'&&a.textContent==='Español',f+' offers the Spanish page');}
   assert(new JSDOM(fs.readFileSync('states/ohio.html','utf8')).window.document.querySelector('header nav a[href="../espanol.html"][lang="es"]'),'state pages offer the Spanish page');
  }
- console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records.');
+ // ---- round three (2026-11-15): Family-to-Family health centers, VA vehicle benefits, state agencies for deaf and hard of hearing people
+ for(const st of STATES.concat(TERR)){
+  const r=byId.get(st.toLowerCase()+'-f2f-health-center');assert(r,'Family-to-Family center '+st);
+  assert.equal(r.category,'children');assert.deepEqual(r.audience,['children']);assert.equal(r.record_status,'directory_listed');
+  assert(r.url.startsWith('https://familyvoices.org/affiliates/states/'),st+' cites its Family Voices page');
+  assert(r.phone&&/^[0-9()+ \-]{7,}$/.test(r.phone),st+' center phone '+r.phone);assert(/As listed by Family Voices$/.test(r.phone_note),st+' says where the number came from');
+ }
+ assert.equal(byId.get('us-f2f-health-centers').hide_if_state_has,'-f2f-health-center','national pointer gives way to the state center');
+ for(const id of ['ak-f2f-health-center-tribal','ok-f2f-health-center-tribal','nm-f2f-health-center-2','mn-f2f-health-center-2'])assert(byId.get(id)&&byId.get(id).phone,'additional center '+id);
+ for(const id of ['ak-f2f-health-center-tribal','ok-f2f-health-center-tribal'])assert(/American Indian and Alaska Native/.test(byId.get(id).description),id+' says who it serves');
+ {const v=byId.get('va-automobile-adaptive-equipment');assert(v&&v.phone&&/va\.gov/.test(v.url)&&v.audience.includes('veterans'),'VA vehicle benefit');assert(/until VA has authorized/.test(v.constraints.join(' ')),'says to wait for approval before buying');}
+ {const deaf=recs.filter(r=>/-deaf-hard-of-hearing-agency(-\d)?$/.test(r.id));assert(deaf.length>=40,'state agencies for deaf and hard of hearing people: '+deaf.length);
+  for(const r of deaf){assert.equal(r.url,'https://nasadhh.org/state-agency/',r.id+' cites the national roster');assert.equal(r.category,'sensory');assert(r.audience.includes('deaf'));assert(!r.phone&&r.contact_how,r.id+' has no phone on the roster and says how to reach the agency');assert.equal(r.record_status,'directory_listed');
+   if(r.web&&r.state!=='ID')assert(!/idaho/i.test(r.web),r.id+' does not carry another state\'s link');}
+  for(const st of ['il','in'])assert(!byId.get(st+'-deaf-hard-of-hearing-agency').web,st+' roster link was wrong, so none is shown');}
+ console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records.');
 })().catch(e=>{console.error(e);process.exit(1)});
