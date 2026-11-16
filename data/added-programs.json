@@ -50736,7 +50736,9 @@
    "next_step": "Read the ADA.gov service animal questions and answers, then call the ADA Information Line if a business or agency turned you away. For housing or air travel, ask which rule applies.",
    "constraints": [
     "Rules differ for housing and air travel; ask before you rely on the ADA answer there.",
-    "State and local laws may add protections."
+    "State and local laws may add protections.",
+    "Staff may not ask for documentation, ask the dog to demonstrate its task, or ask about your disability. Online certificates and registrations give no rights under the ADA.",
+    "A business may ask that the dog be removed if it is out of control or not housebroken."
    ],
    "phone": "800-514-0301",
    "phone_note": "ADA Information Line; TTY 833-610-1264",
@@ -54937,13 +54939,14 @@
    "counties": [],
    "category": "daily_living",
    "description": "The Low Income Home Energy Assistance Program helps with heating or cooling bills and with emergency services during an energy crisis. USA.gov says electric bills may be covered depending on where you live. Eligibility is based on income, and each state or territory sets its own rules.",
-   "next_step": "Use the search tool to find your state or territory LIHEAP office, then ask how to apply. Some offices take applications online; others require a visit in person.",
+   "next_step": "Use the search tool to find your state or territory LIHEAP office, or call the NEAR hotline for a referral, then ask how to apply. Some offices take applications online; others require a visit in person.",
    "constraints": [
     "Income limits and what is covered are set by each state or territory.",
-    "If getting to an office is hard for you, ask how else you can apply."
+    "If getting to an office is hard for you, ask how else you can apply.",
+    "LIHEAP never charges a fee to apply. If someone asks you for a fee, report it to the HHS fraud hotline at 1-800-447-8477."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "1-866-674-6327",
+   "phone_note": "National Energy Assistance Referral (NEAR) hotline, weekdays 9 a.m. to 7 p.m. Eastern, as listed on the federal LIHEAP program page",
    "email": null,
    "web": "https://liheapch.acf.hhs.gov/search-tool/",
    "url": "https://www.usa.gov/help-with-energy-bills",
@@ -61541,6 +61544,746 @@
     "mobility"
    ],
    "link_kind": "gov"
+  },
+  {
+   "id": "us-als-care-services",
+   "name": "ALS Association Care Services: information, referral and local care teams",
+   "org": "The ALS Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The ALS Association’s Care Services line gives general, non-medical information and referrals to people living with ALS and their families. The Association says its care programs are free of charge and include local care teams, support groups and a network of certified ALS centers and clinics.",
+   "next_step": "Call and ask to be connected with the care team that serves your area. Ask about support groups and the certified ALS clinic nearest you.",
+   "constraints": [
+    "Care Services gives general information, not medical advice.",
+    "For questions about disability benefits or health insurance, the ALS Insurance and Benefits Resource Line, run with Patient Advocate Foundation, offers free case management at 1-844-244-1306."
+   ],
+   "phone": "800-782-4747",
+   "phone_note": "Care Services line, as listed on the Association’s contact page",
+   "email": null,
+   "web": "https://www.als.org/support/programs",
+   "url": "https://www.als.org/contact-us",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-arthritis-helpline",
+   "name": "Arthritis Foundation Helpline",
+   "org": "Arthritis Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A free helpline for people with arthritis and their families. Helpline staff answer questions by phone or web chat and point callers to resources, including the Foundation’s Connect Groups for peer support. A Spanish-speaking staff member is available.",
+   "next_step": "Call or start a web chat and say what you need help with. Ask about Connect Groups near you or online.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 5 p.m. Eastern.",
+    "Helpline staff are not medically trained and do not give medical advice.",
+    "If you leave a message, expect a call back within two business days."
+   ],
+   "phone": "800-283-7800",
+   "phone_note": "Arthritis Foundation Helpline",
+   "email": "helpline@arthritis.org",
+   "web": "https://www.arthritis.org/helpline",
+   "url": "https://www.arthritis.org/helpline",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-spina-bifida-resource-center",
+   "name": "Spina Bifida Association National Resource Center",
+   "org": "Spina Bifida Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The National Resource Center answers questions from people with spina bifida and their families, in English and Spanish. Staff can refer callers to spina bifida clinics, local services and support. The Association also offers peer mentors for families.",
+   "next_step": "Call and ask for extension 800. Say where you live and what you need, such as a clinic, local services or a family to talk with.",
+   "constraints": [
+    "Clinics and local services differ from place to place."
+   ],
+   "phone": "1-800-621-3141",
+   "phone_note": "Ask for extension 800, the National Resource Center",
+   "email": null,
+   "web": "https://www.spinabifidaassociation.org/contact/national-resource-center/",
+   "url": "https://www.spinabifidaassociation.org/contact/national-resource-center/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "children"
+   ]
+  },
+  {
+   "id": "us-sickle-cell-member-organizations",
+   "name": "Sickle Cell Disease Association of America: find a member organization near you",
+   "org": "Sickle Cell Disease Association of America",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The national association for people living with sickle cell disease. Its website has a finder for member organizations, community groups in many states that offer local services and support.",
+   "next_step": "Use the member organization finder to locate the group nearest you, or call the national office and ask who serves your area. Ask about support groups.",
+   "constraints": [
+    "Member organizations are in some states, not all, and their services differ."
+   ],
+   "phone": "800-421-8453",
+   "phone_note": "National office, as listed on the association’s website",
+   "email": "info@sicklecelldisease.org",
+   "web": "https://www.sicklecelldisease.org/",
+   "url": "https://www.sicklecelldisease.org/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-ndss-helpline",
+   "name": "National Down Syndrome Society Helpline",
+   "org": "National Down Syndrome Society (NDSS)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A toll-free helpline for people with Down syndrome and their families. NDSS can refer families to its network of more than 350 local parent support groups and to Down syndrome clinics.",
+   "next_step": "Call or email and ask for the parent support group and the Down syndrome clinic closest to you.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 5 p.m. Eastern."
+   ],
+   "phone": "800-221-4602",
+   "phone_note": "NDSS Helpline, toll-free",
+   "email": "info@ndss.org",
+   "web": "https://ndss.org/contact",
+   "url": "https://ndss.org/contact",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "children"
+   ]
+  },
+  {
+   "id": "us-nord-helpline",
+   "name": "NORD: help for people living with a rare disease",
+   "org": "National Organization for Rare Disorders (NORD)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "NORD’s helpline helps people with rare diseases and their families find specialists and resources. NORD also runs RareCare patient assistance programs, which can help eligible patients with medication costs, insurance premiums and copays, and emergency needs, and a respite program for caregivers.",
+   "next_step": "Call and describe the diagnosis and what you need. Ask whether a RareCare assistance program is open for your condition.",
+   "constraints": [
+    "Open Monday to Thursday, 8:30 a.m. to 7 p.m., and Friday, 8:30 a.m. to 6 p.m. Eastern.",
+    "Assistance programs are open to U.S. citizens and permanent residents, and each has its own eligibility rules."
+   ],
+   "phone": "1-800-999-6673",
+   "phone_note": "NORD helpline; en español (844) 259-7178",
+   "email": null,
+   "web": "https://rarediseases.org/patient-assistance-programs/",
+   "url": "https://rarediseases.org/patient-assistance-programs/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-cf-foundation-compass",
+   "name": "CF Foundation Compass: free help with insurance, money and legal questions for people with cystic fibrosis",
+   "org": "Cystic Fibrosis Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "benefits",
+   "description": "Compass is a free, confidential service from the Cystic Fibrosis Foundation. Case managers work one on one with people with cystic fibrosis and their families on health insurance, finances, legal information and Social Security Disability Insurance (SSDI). Spanish-speaking case managers are available.",
+   "next_step": "Call 844-COMPASS or email, and describe the problem, such as an insurance denial or a disability application.",
+   "constraints": [
+    "Compass does not give money, legal advice or clinical information.",
+    "Email and online requests can take three to five business days to answer."
+   ],
+   "phone": "1-844-266-7277",
+   "phone_note": "844-COMPASS",
+   "email": "compass@cff.org",
+   "web": "https://www.cff.org/support/get-help-cf-foundation-compass",
+   "url": "https://www.cff.org/support/get-help-cf-foundation-compass",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-ucp-information-referral",
+   "name": "United Cerebral Palsy: find programs in your area",
+   "org": "United Cerebral Palsy (UCP)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "navigation",
+   "description": "UCP runs an information and referral service that helps people find programs in their area, including those of UCP’s network of local affiliates.",
+   "next_step": "Call the information and referral line and ask which programs and which UCP affiliate serve where you live.",
+   "constraints": [
+    "What is available depends on where you live."
+   ],
+   "phone": "866-827-1692",
+   "phone_note": "Information and referral line; UCP national office (800) 872-5827",
+   "email": "info@ucp.org",
+   "web": "https://ucp.org/resources/explore-our-services/",
+   "url": "https://ucp.org/resources/explore-our-services/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "idd"
+   ]
+  },
+  {
+   "id": "us-little-people-of-america",
+   "name": "Little People of America: support for people with dwarfism and their families",
+   "org": "Little People of America (LPA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A national organization for people of short stature and their families. Its national office can connect you with local contacts and with a network of parents and peers across the country. LPA also offers some financial help, such as scholarships and medical assistance funds, to people who qualify.",
+   "next_step": "Call the national office and ask for the local contacts and the parent or peer support in your area.",
+   "constraints": [
+    "Some services, such as consultations with doctors on LPA’s Medical Advisory Board, are membership benefits, and membership has annual dues."
+   ],
+   "phone": "1-888-572-2001",
+   "phone_note": "1-888-LPA-2001. LPA says the line is available 24 hours a day",
+   "email": null,
+   "web": "https://www.lpaonline.org/for-parents-and-teachers",
+   "url": "https://www.lpaonline.org/join-or-renew",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "children"
+   ]
+  },
+  {
+   "id": "us-gbs-cidp-patient-services",
+   "name": "GBS|CIDP Foundation International: patient services and local liaisons",
+   "org": "GBS|CIDP Foundation International",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The Foundation supports people with Guillain-Barré syndrome (GBS), chronic inflammatory demyelinating polyneuropathy (CIDP) and related conditions, and their caregivers. Its Patient Services team takes calls, and the Foundation lists Centers of Excellence, local chapters and volunteer liaisons, and arranges visits from people who have recovered.",
+   "next_step": "Call Patient Services and ask for the chapter or liaison near you and the closest Center of Excellence.",
+   "constraints": [
+    "Chapters and liaisons are volunteers, so what is offered differs by area."
+   ],
+   "phone": "866-224-3301",
+   "phone_note": "Toll-free; direct line (610) 667-0131",
+   "email": null,
+   "web": "https://www.gbs-cidp.org/about/contact-us/",
+   "url": "https://www.gbs-cidp.org/about/contact-us/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-hdsa-helpline",
+   "name": "Huntington’s Disease Society of America Helpline",
+   "org": "Huntington’s Disease Society of America (HDSA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A helpline for families affected by Huntington’s disease, staffed by trained social workers. HDSA also has social workers who help families find community services in their region, and Centers of Excellence for Huntington’s disease care.",
+   "next_step": "Call the helpline and ask for the HDSA social worker who covers your area and the nearest Center of Excellence.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 5 p.m. Eastern."
+   ],
+   "phone": "800-345-4372",
+   "phone_note": "(800) 345-HDSA",
+   "email": null,
+   "web": "https://hdsa.org/find-help/community-social-support/",
+   "url": "https://hdsa.org/find-help/community-social-support/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-dbsa-support-groups",
+   "name": "Depression and Bipolar Support Alliance: free peer support groups",
+   "org": "Depression and Bipolar Support Alliance (DBSA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "DBSA runs free support groups, led by peers, for people living with depression or bipolar disorder. Groups meet in person through local chapters and online. There are also groups for family and friends, for parents and caregivers, and for particular communities.",
+   "next_step": "Open DBSA’s support page, choose an in-person or online group, and sign up. Online groups ask you to register, at no charge.",
+   "constraints": [
+    "Support groups are not group therapy.",
+    "In a crisis, call or text 988."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.dbsalliance.org/support/",
+   "url": "https://www.dbsalliance.org/support/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ],
+   "contact_how": "Find a group on DBSA’s support page."
+  },
+  {
+   "id": "us-cure-sma-community-support",
+   "name": "Cure SMA: community support for spinal muscular atrophy",
+   "org": "Cure SMA",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Cure SMA’s community support staff help people with spinal muscular atrophy and their families with information, connections to local resources and someone to listen. Programs include information packets, care packages for newly diagnosed families, support packages for teens and adults, an equipment loan pool, local chapters and grief support.",
+   "next_step": "Call or email and ask for a member of the community support staff. If you need equipment, ask about the loan pool.",
+   "constraints": [
+    "Loan equipment depends on what has been donated, so you may be put on a waiting list."
+   ],
+   "phone": "800-886-1762",
+   "phone_note": "Cure SMA national office",
+   "email": null,
+   "web": "https://www.curesma.org/newly-diagnosed/",
+   "url": "https://www.curesma.org/newly-diagnosed/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "children",
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-cmt-association",
+   "name": "Charcot-Marie-Tooth Association: questions and local branches",
+   "org": "Charcot-Marie-Tooth Association (CMTA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The CMTA serves people with Charcot-Marie-Tooth disease (CMT) and their families. It answers general questions by phone and email, and its branches are volunteer-led local support groups where people with CMT share resources and experiences.",
+   "next_step": "Call or email with your question, or find the CMTA branch nearest you on the website.",
+   "constraints": [
+    "The toll-free number works in the U.S. only."
+   ],
+   "phone": "1-800-606-2682",
+   "phone_note": "1-800-606-CMTA",
+   "email": "info@cmtausa.org",
+   "web": "https://cmtausa.org/contact-us/",
+   "url": "https://cmtausa.org/contact-us/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-post-polio-health-international",
+   "name": "Post-Polio Health International: support groups and clinics for polio survivors and home ventilator users",
+   "org": "Post-Polio Health International (including International Ventilator Users Network)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A national organization that gathers and shares information for polio survivors and people who use home ventilators, their caregivers and families. Its yearly Post-Polio Directory lists support groups and health professionals state by state.",
+   "next_step": "Open the current Post-Polio Directory to find a support group or clinic in your state, or write or call the office. Include your name and mailing address.",
+   "constraints": [
+    "The office keeps limited weekday hours."
+   ],
+   "phone": "314-534-0475",
+   "phone_note": "Office line, as listed on the organization’s contact page and directory",
+   "email": "info@post-polio.org",
+   "web": "https://post-polio.org/wp-content/uploads/2026/01/PDIR-2026E.pdf",
+   "url": "https://post-polio.org/wp-content/uploads/2026/01/PDIR-2026E.pdf",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-hydrocephalus-helpline",
+   "name": "Hydrocephalus Association Helpline",
+   "org": "Hydrocephalus Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A toll-free helpline where staff answer questions about hydrocephalus and refer callers to educational resources and support programs. The Association also offers HydrocephalusCONNECT, one-to-one support from trained volunteers who live with hydrocephalus or care for someone who does, and Community Networks, its support groups, including a Spanish-speaking group and a network for U.S. military members and families.",
+   "next_step": "Call or email. If no one answers, leave your name, phone number, the best time to call and your time zone.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 5 p.m. Eastern.",
+    "Messages are returned within 24 to 48 hours."
+   ],
+   "phone": "888-598-3789",
+   "phone_note": "Hydrocephalus Association Helpline",
+   "email": "info@hydroassoc.org",
+   "web": "https://www.hydroassoc.org/helpline/",
+   "url": "https://www.hydroassoc.org/helpline/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "children"
+   ]
+  },
+  {
+   "id": "us-oi-foundation",
+   "name": "Osteogenesis Imperfecta Foundation: questions, clinics and support networks",
+   "org": "Osteogenesis Imperfecta Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The OI Foundation answers questions from people with osteogenesis imperfecta, a genetic condition in which bones break easily, and from their families. It keeps a directory of OI clinics, lists support networks and can tell families about doctors near them who have treated OI.",
+   "next_step": "Call or email the Foundation, or open the OI Clinic Directory on its website to find a clinic near you.",
+   "constraints": [
+    "The office is open Monday to Friday, 9 a.m. to 5 p.m. Eastern."
+   ],
+   "phone": "844-889-7579",
+   "phone_note": "Toll-free; main line (301) 947-0083",
+   "email": "bonelink@oif.org",
+   "web": "https://oif.org/contact-osteogenesis-imperfecta-foundation/",
+   "url": "https://oif.org/contact-osteogenesis-imperfecta-foundation/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "children"
+   ]
+  },
+  {
+   "id": "us-national-ataxia-foundation",
+   "name": "National Ataxia Foundation: support groups and questions",
+   "org": "National Ataxia Foundation (NAF)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "NAF serves people with ataxia and their families. It lists U.S. support groups by state, virtual groups, and groups for particular communities, including African Americans with ataxia, parents with ataxia, Spanish speakers and military members.",
+   "next_step": "Open the support group page and choose your state, or call or email NAF with general questions.",
+   "constraints": [
+    "Support groups are led by volunteers; contact details are on each group’s listing."
+   ],
+   "phone": "763-553-0020",
+   "phone_note": "NAF general questions",
+   "email": "naf@ataxia.org",
+   "web": "https://www.ataxia.org/support-groups/",
+   "url": "https://www.ataxia.org/about-naf/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-american-cancer-society-helpline",
+   "name": "American Cancer Society 24/7 cancer helpline",
+   "org": "American Cancer Society",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Trained cancer helpline specialists answer questions about cancer and connect callers with American Cancer Society programs and other resources, any time of day or night. Programs include free rides to treatment in some communities and free Hope Lodge lodging when treatment is far from home.",
+   "next_step": "Call at any hour and say what you need, such as information about a diagnosis, a ride to treatment or a place to stay during treatment.",
+   "constraints": [
+    "Rides and lodging are not available everywhere.",
+    "Live chat on the website is available on weekdays."
+   ],
+   "phone": "1-800-227-2345",
+   "phone_note": "Available 24 hours a day, 7 days a week",
+   "email": null,
+   "web": "https://www.cancer.org/support-programs-and-services.html",
+   "url": "https://www.cancer.org/support-programs-and-services.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-acs-road-to-recovery",
+   "name": "Road To Recovery: free rides to cancer treatment",
+   "org": "American Cancer Society",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "transportation",
+   "description": "In some communities, American Cancer Society volunteer drivers give free rides to cancer-related medical appointments for patients who have no way to get there. Drivers pick you up, take you to your appointment and bring you home.",
+   "next_step": "Call the American Cancer Society several business days before your appointment and ask whether Road To Recovery drivers serve your area.",
+   "constraints": [
+    "Rides are only for cancer-related appointments.",
+    "A caregiver may need to come along if the patient cannot walk without help or is under 18.",
+    "It can take several business days to arrange a ride."
+   ],
+   "phone": "1-800-227-2345",
+   "phone_note": "American Cancer Society, 24 hours a day",
+   "email": null,
+   "web": "https://www.cancer.org/support-programs-and-services/road-to-recovery.html",
+   "url": "https://www.cancer.org/support-programs-and-services/road-to-recovery.html",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-lung-helpline",
+   "name": "American Lung Association Lung HelpLine",
+   "org": "American Lung Association",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A free helpline staffed by registered nurses, respiratory therapists and tobacco treatment specialists. They answer questions about lung disease, including COPD, asthma and lung cancer, and can help you find pulmonary rehabilitation programs near you. Spanish-speaking staff and a translation service are available.",
+   "next_step": "Call 1-800-LUNGUSA or send a question online, and ask about pulmonary rehabilitation and support near you.",
+   "constraints": [
+    "The Lung HelpLine is open seven days a week. Questions sent online are answered by email."
+   ],
+   "phone": "1-800-586-4872",
+   "phone_note": "1-800-LUNGUSA",
+   "email": null,
+   "web": "https://www.lung.org/help-support/lung-helpline/submit-your-question",
+   "url": "https://www.lung.org/lung-health-diseases/lung-procedures-and-tests/pulmonary-rehab",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-nkf-cares",
+   "name": "NKF Cares: help line for kidney disease, dialysis and transplant",
+   "org": "National Kidney Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A free help line for patients, family members and care partners affected by kidney disease, organ donation or transplantation. Trained specialists answer questions in English and Spanish. The Foundation also offers NKF Peers, free mentoring by phone from people who have been through dialysis, transplant or living donation.",
+   "next_step": "Call or email and say what you need, such as help understanding treatment choices or going back to work. Ask about NKF Peers.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 7 p.m. Eastern."
+   ],
+   "phone": "855-653-2273",
+   "phone_note": "855-NKF-CARES",
+   "email": "nkfcares@kidney.org",
+   "web": "https://www.kidney.org/treatment-support/cares",
+   "url": "https://www.kidney.org/treatment-support/cares",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-adhd-national-resource-center",
+   "name": "National Resource Center on ADHD helpline (CHADD)",
+   "org": "CHADD (Children and Adults with Attention-Deficit/Hyperactivity Disorder)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "CHADD’s National Resource Center on ADHD runs a helpline where health information specialists answer questions about ADHD in children and adults, in English and Spanish. CHADD also has local chapters and support groups and an online directory of professionals.",
+   "next_step": "Call on a weekday afternoon and ask how to find an ADHD evaluation, treatment or a support group near you.",
+   "constraints": [
+    "Open Monday to Friday, 1 to 5 p.m. Eastern.",
+    "The center does not give counseling, medical or legal advice and does not refer you to a specific professional, but it can help you choose one."
+   ],
+   "phone": "1-866-200-8098",
+   "phone_note": "ADHD helpline; hablamos español",
+   "email": null,
+   "web": "https://chadd.org/about/about-nrc/",
+   "url": "https://chadd.org/about/about-nrc/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health",
+    "children"
+   ]
+  },
+  {
+   "id": "us-tourette-association",
+   "name": "Tourette Association of America: local support and Centers of Excellence",
+   "org": "Tourette Association of America",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The national organization for people with Tourette syndrome and other tic disorders, and their families. Its website lists chapters, support groups and Centers of Excellence state by state, and staff answer questions by email, chat and phone.",
+   "next_step": "Find your state on the local support page, or contact the Association and ask what support is near you.",
+   "constraints": [
+    "If your state is not listed, the Association can still suggest the nearest support.",
+    "In a mental health crisis, call or text 988."
+   ],
+   "phone": "888-486-8738",
+   "phone_note": "888-4-TOURET",
+   "email": "support@tourette.org",
+   "web": "https://tourette.org/resources/local-support/",
+   "url": "https://tourette.org/resources/local-support/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children",
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-lupus-health-educators",
+   "name": "Lupus Foundation of America: ask a health educator",
+   "org": "Lupus Foundation of America",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Health education specialists give free, non-medical support, information about lupus and help finding resources, in English and Spanish. The Foundation and its partners also run lupus support groups across the country.",
+   "next_step": "Call and leave your question, and a health education specialist will call you back. You can also use the online form.",
+   "constraints": [
+    "Health educators give non-medical support, not medical advice."
+   ],
+   "phone": "1-800-558-0121",
+   "phone_note": "A health education specialist calls you back",
+   "email": null,
+   "web": "https://www.lupus.org/care-support/ask-a-health-educator",
+   "url": "https://www.lupus.org/care-support/ask-a-health-educator",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-supported-decision-making",
+   "name": "Supported decision-making: an alternative to guardianship",
+   "org": "National Resource Center for Supported Decision-Making",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "rights_legal",
+   "description": "Supported decision-making lets a person with a disability use trusted friends, family members and professionals to help them understand choices and make their own decisions. The National Resource Center describes it as a less restrictive alternative to guardianship and has a page for each state with its laws and contacts.",
+   "next_step": "Open the center’s page for your state before anyone files for guardianship. Ask whether a supported decision-making agreement, a power of attorney, an advance directive or a health care proxy would meet the need.",
+   "constraints": [
+    "Laws on supported decision-making differ from state to state.",
+    "The center gives information, not legal advice. For legal help, contact your state’s Protection and Advocacy agency or legal aid."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://supporteddecisionmaking.org/",
+   "url": "https://supporteddecisionmaking.org/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "brain_injury",
+    "mental_health",
+    "older"
+   ],
+   "contact_how": "Find your state on the center’s website."
+  },
+  {
+   "id": "us-donated-dental-services",
+   "name": "Donated Dental Services: free dental care from volunteer dentists",
+   "org": "Dental Lifeline Network",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "benefits",
+   "description": "Dental Lifeline Network’s Donated Dental Services program arranges free, comprehensive dental treatment from volunteer dentists and dental labs. It is for people who cannot afford care and who are 65 or older, have a permanent disability, or need dental care for a medical reason.",
+   "next_step": "Open your state’s page from the Dental Lifeline Network help page and apply. If you are under 65, have your Social Security disability award letter ready.",
+   "constraints": [
+    "You must use any dental coverage you have first, including Medicaid.",
+    "There is a waiting list, and some areas are closed to new applications.",
+    "Emergency and cosmetic care are not provided, and the program helps each person once."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dentallifeline.org/help/",
+   "url": "https://dentallifeline.org/help/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "contact_how": "Apply through your state’s page on the Dental Lifeline Network site."
+  },
+  {
+   "id": "us-assistance-dogs-international",
+   "name": "Assistance Dogs International: find an accredited service dog program",
+   "org": "Assistance Dogs International (ADI)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "daily_living",
+   "description": "ADI accredits nonprofit programs that train assistance dogs. Its member search lists accredited programs by area and shows which ones work with veterans or will consider working with a person’s own dog. ADI itself does not provide, train or certify dogs.",
+   "next_step": "Use the member search to find accredited programs that serve your area, then ask each program about its waiting list, fees and requirements.",
+   "constraints": [
+    "Each program sets its own fees; many charge little or nothing.",
+    "Veterans: VA’s service dog benefit requires a dog trained by an ADI- or IGDF-accredited program."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://assistancedogsinternational.org/resources/member-search/",
+   "url": "https://assistancedogsinternational.org/resources/member-search/",
+   "reviewed_on": "2026-11-15",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "blind",
+    "deaf",
+    "veterans"
+   ],
+   "contact_how": "Search for accredited programs on the ADI website."
   }
  ]
 }
