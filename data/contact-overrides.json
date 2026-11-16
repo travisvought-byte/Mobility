@@ -2,6 +2,7 @@
   "source": "Hand-checked direct contact details for records that only carried a source link. Fills empty fields only; never overwrites a contact the record already has.",
   "checked_on": "2026-11-15",
   "overrides": {
+    "tx-twc-vr": {"phone": "800-628-5115", "phone_note": "Texas Workforce Solutions Vocational Rehabilitation Services, toll free. Direct: 512-936-6400. As listed in the AskJAN directory of state vocational rehabilitation agencies", "web": "https://www.twc.texas.gov/programs/vocational-rehabilitation", "source": "AskJAN directory of state vocational rehabilitation agencies"},
     "oh-kettering-access-grant": {"phone": "937-296-3308", "phone_note": "City of Kettering housing programs contact, as listed with the grant announcement", "email": "amy.hayslip@ketteringoh.org", "web": "https://www.ketteringoh.org/emergency-repairs-accessibility-modifications", "source": "City of Kettering program page and Dayton Daily News announcement"},
     "ohio-home-choice": {"phone": "888-221-1560", "phone_note": "Ohio Department of Medicaid HOME Choice unit", "email": "HOME_Choice@medicaid.ohio.gov", "web": "https://homechoice.medicaid.ohio.gov/", "source": "Ohio Department of Medicaid HOME Choice fact sheet"},
     "oh-ood-home-mods": {"phone": "800-282-4536", "phone_note": "Opportunities for Ohioans with Disabilities main line. Ask for vocational rehabilitation intake.", "email": "info@ood.ohio.gov", "web": "https://ood.ohio.gov/", "source": "OOD vocational rehabilitation fact sheet (updated 2026)"},

@@ -4,7 +4,7 @@ import html,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -43,6 +43,9 @@ for name in PAGES:
     t=re.sub(r'(<a href="local-help\.html"[^>]*>Local help &amp; programs</a>)',lambda m:m.group(1)+'<a href="states/index.html">All states</a>',t,count=1)
     t=re.sub(r'<a href="partner\.html"[^>]*>Partner with us</a>','',t)
     t=re.sub(r'(<nav aria-label="(?:Main|Back)">.*?)(</nav>)',lambda m:m.group(1)+'<a href="partner.html">Partner with us</a>'+m.group(2),t,count=1,flags=re.S)
+    # every English page offers the Spanish help page, last in the main navigation
+    t=re.sub(r'<a href="espanol\.html"[^>]*>Español</a>','',t)
+    t=re.sub(r'(<nav aria-label="(?:Main|Back)">.*?)(</nav>)',lambda m:m.group(1)+'<a href="espanol.html" lang="es" hreflang="es">Español</a>'+m.group(2),t,count=1,flags=re.S)
     # every page footer links to the about, sources and accessibility page (once)
     if name!='about.html' and 'href="about.html"' not in t:
         t=re.sub(r'(<footer[^>]*>.*?)(</p>)',lambda m:m.group(1)+ABOUT+m.group(2),t,count=1,flags=re.S)
