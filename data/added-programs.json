@@ -65948,6 +65948,1462 @@
     "deaf"
    ],
    "contact_how": "How to apply is explained in the program’s FAQ, linked here."
+  },
+  {
+   "id": "al-mental-health-agency",
+   "name": "Alabama Department of Mental Health: state mental health agency for Alabama",
+   "org": "Alabama Department of Mental Health",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Alabama. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "334-242-3454",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "Alabama.DMH@mh.alabama.gov",
+   "web": "https://www.mh.alabama.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ak-mental-health-agency",
+   "name": "Alaska Division of Behavioral Health: state mental health agency for Alaska",
+   "org": "Alaska Division of Behavioral Health",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Alaska. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "907-269-3600",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://health.alaska.gov/en/division-of-behavioral-health/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "as-mental-health-agency",
+   "name": "American Samoa Department of Human and Social Services: state mental health agency for American Samoa",
+   "org": "American Samoa Department of Human and Social Services",
+   "state": "AS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for American Samoa. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "684-633-7506",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "az-mental-health-agency",
+   "name": "Arizona Health Care Cost Containment System (AHCCCS): state mental health agency for Arizona",
+   "org": "Arizona Health Care Cost Containment System (AHCCCS)",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Arizona. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "602-417-4711",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.azahcccs.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ar-mental-health-agency",
+   "name": "Arkansas Division of Human Services: state mental health agency for Arkansas",
+   "org": "Arkansas Division of Human Services",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Arkansas. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "501-686-9164",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://humanservices.arkansas.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ca-mental-health-agency",
+   "name": "California Department of Health Care Services, Behavioral Health Services: state mental health agency for California",
+   "org": "California Department of Health Care Services, Behavioral Health Services",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for California. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "916-322-7445",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.dhcs.ca.gov/services",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "co-mental-health-agency",
+   "name": "Colorado Department of Human Services, Office of Behavioral Health: state mental health agency for Colorado",
+   "org": "Colorado Department of Human Services, Office of Behavioral Health",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Colorado. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "303-866-7400",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "cdhs.communications@state.co.us",
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ct-mental-health-agency",
+   "name": "Connecticut Department of Mental Health and Addiction Services: state mental health agency for Connecticut",
+   "org": "Connecticut Department of Mental Health and Addiction Services",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Connecticut. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "860-418-7000",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://portal.ct.gov/dmhas",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "de-mental-health-agency",
+   "name": "Delaware Health and Social Services, Division of Substance Abuse and Mental Health: state mental health agency for Delaware",
+   "org": "Delaware Health and Social Services, Division of Substance Abuse and Mental Health",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Delaware. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "302-255-9399",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.dhss.delaware.gov/dsamh/index.html",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "dc-mental-health-agency",
+   "name": "DC Department of Behavioral Health: state mental health agency for the District of Columbia",
+   "org": "DC Department of Behavioral Health",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for the District of Columbia. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "202-673-2200",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "dbh_bha@dc.gov",
+   "web": "https://dbh.dc.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "fl-mental-health-agency",
+   "name": "Florida Department of Children and Families, Office of Substance Abuse and Mental Health: state mental health agency for Florida",
+   "org": "Florida Department of Children and Families, Office of Substance Abuse and Mental Health",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Florida. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "850-487-2920",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "SAMH.Central@myflfamilies.com",
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ga-mental-health-agency",
+   "name": "Georgia Department of Behavioral Health and Developmental Disabilities: state mental health agency for Georgia",
+   "org": "Georgia Department of Behavioral Health and Developmental Disabilities",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Georgia. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "404-657-2252",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://dbhdd.georgia.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "gu-mental-health-agency",
+   "name": "Guam Behavioral Health and Wellness Center: state mental health agency for Guam",
+   "org": "Guam Behavioral Health and Wellness Center",
+   "state": "GU",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Guam. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "671-647-5440",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "BHSIS@gbhwc.guam.gov",
+   "web": "https://gbhwc.guam.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "hi-mental-health-agency",
+   "name": "Hawaii Department of Health, Adult Mental Health Division: state mental health agency for Hawaii",
+   "org": "Hawaii Department of Health, Adult Mental Health Division",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Hawaii. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "808-453-6981",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://health.hawaii.gov/amhd",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "id-mental-health-agency",
+   "name": "Idaho Department of Health and Welfare: state mental health agency for Idaho",
+   "org": "Idaho Department of Health and Welfare",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Idaho. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "208-334-6997",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "il-mental-health-agency",
+   "name": "Illinois Department of Human Services, Division of Mental Health: state mental health agency for Illinois",
+   "org": "Illinois Department of Human Services, Division of Mental Health",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Illinois. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "800-843-6154",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "in-mental-health-agency",
+   "name": "Indiana Division of Mental Health and Addiction: state mental health agency for Indiana",
+   "org": "Indiana Division of Mental Health and Addiction",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Indiana. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "800-901-1133",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "Dmha.Feedback@fssa.IN.gov",
+   "web": "https://www.in.gov/fssa/dmha/index.html",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ia-mental-health-agency",
+   "name": "Iowa Department of Health and Human Services: state mental health agency for Iowa",
+   "org": "Iowa Department of Health and Human Services",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Iowa. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "515-281-7689",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://hhs.iowa.gov/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ks-mental-health-agency",
+   "name": "Kansas Department for Aging and Disability Services: state mental health agency for Kansas",
+   "org": "Kansas Department for Aging and Disability Services",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Kansas. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "785-296-3471",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.kdads.ks.gov/commissions/behavioral-health",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ky-mental-health-agency",
+   "name": "Kentucky Department for Behavioral Health, Developmental and Intellectual Disabilities: state mental health agency for Kentucky",
+   "org": "Kentucky Department for Behavioral Health, Developmental and Intellectual Disabilities",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Kentucky. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "502-564-4527",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://dbhdid.ky.gov/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "la-mental-health-agency",
+   "name": "Louisiana Department of Health, Office of Behavioral Health: state mental health agency for Louisiana",
+   "org": "Louisiana Department of Health, Office of Behavioral Health",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Louisiana. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "225-342-2540",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://ldh.la.gov/index.cfm/subhome/10",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "me-mental-health-agency",
+   "name": "Maine Department of Health and Human Services, Office of Behavioral Health: state mental health agency for Maine",
+   "org": "Maine Department of Health and Human Services, Office of Behavioral Health",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Maine. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "207-287-2595",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "sumh.obh@maine.gov",
+   "web": "https://www.maine.gov/dhhs/obh",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "md-mental-health-agency",
+   "name": "Maryland Department of Health, Behavioral Health Administration: state mental health agency for Maryland",
+   "org": "Maryland Department of Health, Behavioral Health Administration",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Maryland. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "410-402-8300",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://health.maryland.gov/bha/Pages/Index.aspx",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ma-mental-health-agency",
+   "name": "Massachusetts Department of Mental Health: state mental health agency for Massachusetts",
+   "org": "Massachusetts Department of Mental Health",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Massachusetts. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "617-626-8000",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.mass.gov/dmh",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "mi-mental-health-agency",
+   "name": "Michigan Department of Health and Human Services: state mental health agency for Michigan",
+   "org": "Michigan Department of Health and Human Services",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Michigan. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "517-335-0196",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "mdhhs-bhdda@michigan.gov",
+   "web": "https://www.michigan.gov/mdhhs",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "mn-mental-health-agency",
+   "name": "Minnesota Department of Human Services, Behavioral Health Division: state mental health agency for Minnesota",
+   "org": "Minnesota Department of Human Services, Behavioral Health Division",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Minnesota. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "651-431-2225",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "dhs.behavioral.health.division@state.mn.us",
+   "web": "https://mn.gov/dhs",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ms-mental-health-agency",
+   "name": "Mississippi Department of Mental Health: state mental health agency for Mississippi",
+   "org": "Mississippi Department of Mental Health",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Mississippi. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "601-359-1288",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.dmh.ms.gov/service-options/mental-health",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "mo-mental-health-agency",
+   "name": "Missouri Department of Mental Health: state mental health agency for Missouri",
+   "org": "Missouri Department of Mental Health",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Missouri. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "573-751-8017",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "dbhmail@dmh.mo.gov",
+   "web": "https://dmh.mo.gov/behavioral-health",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "mt-mental-health-agency",
+   "name": "Montana Department of Public Health and Human Services: state mental health agency for Montana",
+   "org": "Montana Department of Public Health and Human Services",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Montana. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "406-444-3964",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://dphhs.mt.gov/bhdd/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ne-mental-health-agency",
+   "name": "Nebraska Department of Health and Human Services, Division of Behavioral Health: state mental health agency for Nebraska",
+   "org": "Nebraska Department of Health and Human Services, Division of Behavioral Health",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Nebraska. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "402-471-7818",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://dhhs.ne.gov/Pages/Behavioral-Health.aspx",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "nv-mental-health-agency",
+   "name": "Nevada Division of Public and Behavioral Health: state mental health agency for Nevada",
+   "org": "Nevada Division of Public and Behavioral Health",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Nevada. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "775-684-4200",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "dpbh@health.nv.gov",
+   "web": "https://dpbh.nv.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "nh-mental-health-agency",
+   "name": "New Hampshire Department of Health and Human Services: state mental health agency for New Hampshire",
+   "org": "New Hampshire Department of Health and Human Services",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for New Hampshire. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "603-271-5000",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.dhhs.nh.gov/programs-services/healthcare/behavioral-health",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "nj-mental-health-agency",
+   "name": "New Jersey Department of Human Services: state mental health agency for New Jersey",
+   "org": "New Jersey Department of Human Services",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for New Jersey. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "609-438-4352",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "dmhas@dhs.state.nj.us",
+   "web": "https://www.nj.gov/humanservices/dmhas/home/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "nm-mental-health-agency",
+   "name": "New Mexico Human Services Department: state mental health agency for New Mexico",
+   "org": "New Mexico Human Services Department",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for New Mexico. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "505-476-9266",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "hsd.bhsd@state.nm.us",
+   "web": "https://www.hsd.state.nm.us/about_the_department/behavioral_health_services_division/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ny-mental-health-agency",
+   "name": "New York Office of Mental Health: state mental health agency for New York",
+   "org": "New York Office of Mental Health",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for New York. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "800-597-8481",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://omh.ny.gov/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "nc-mental-health-agency",
+   "name": "North Carolina Department of Health and Human Services: state mental health agency for North Carolina",
+   "org": "North Carolina Department of Health and Human Services",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for North Carolina. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "984-236-5230",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "contactdmh@dhhs.nc.gov",
+   "web": "https://www.ncdhhs.gov/divisions/mhddsas",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "nd-mental-health-agency",
+   "name": "North Dakota Department of Health and Human Services, Behavioral Health Division: state mental health agency for North Dakota",
+   "org": "North Dakota Department of Health and Human Services, Behavioral Health Division",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for North Dakota. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "701-328-8920",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "dhsbhd@nd.gov",
+   "web": "https://www.behavioralhealth.nd.gov/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "mp-mental-health-agency",
+   "name": "Commonwealth Healthcare Corporation, Community Guidance Center: state mental health agency for the Northern Mariana Islands",
+   "org": "Commonwealth Healthcare Corporation, Community Guidance Center",
+   "state": "MP",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for the Northern Mariana Islands. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "670-236-8201",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "oh-mental-health-agency",
+   "name": "Ohio Department of Mental Health and Addiction Services: state mental health agency for Ohio",
+   "org": "Ohio Department of Mental Health and Addiction Services",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Ohio. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "614-466-2596",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "questions@mha.ohio.gov",
+   "web": "https://mha.ohio.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ok-mental-health-agency",
+   "name": "Oklahoma Department of Mental Health and Substance Abuse Services: state mental health agency for Oklahoma",
+   "org": "Oklahoma Department of Mental Health and Substance Abuse Services",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Oklahoma. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "405-248-9200",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://oklahoma.gov/odmhsas.html",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "or-mental-health-agency",
+   "name": "Oregon Health Authority: state mental health agency for Oregon",
+   "org": "Oregon Health Authority",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Oregon. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "503-947-2340",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "Amh.web@state.or.us",
+   "web": "https://www.oregon.gov/oha/amh/Pages/index.aspx",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "pa-mental-health-agency",
+   "name": "Pennsylvania Department of Human Services, Office of Mental Health and Substance Abuse Services: state mental health agency for Pennsylvania",
+   "org": "Pennsylvania Department of Human Services, Office of Mental Health and Substance Abuse Services",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Pennsylvania. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "717-787-6443",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "pr-mental-health-agency",
+   "name": "Puerto Rico Mental Health and Anti-Addiction Services Administration (ASSMCA): state mental health agency for Puerto Rico",
+   "org": "Puerto Rico Mental Health and Anti-Addiction Services Administration (ASSMCA)",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Puerto Rico. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "787-763-7575",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.assmca.pr.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ri-mental-health-agency",
+   "name": "Rhode Island Department of Behavioral Healthcare, Developmental Disabilities and Hospitals: state mental health agency for Rhode Island",
+   "org": "Rhode Island Department of Behavioral Healthcare, Developmental Disabilities and Hospitals",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Rhode Island. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "401-462-3291",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.bhddh.ri.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "sc-mental-health-agency",
+   "name": "South Carolina Department of Mental Health: state mental health agency for South Carolina",
+   "org": "South Carolina Department of Mental Health",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for South Carolina. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "803-898-8581",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://scdmh.net/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "sd-mental-health-agency",
+   "name": "South Dakota Department of Social Services, Behavioral Health: state mental health agency for South Dakota",
+   "org": "South Dakota Department of Social Services, Behavioral Health",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for South Dakota. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "605-339-4357",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "DSSBH@state.sd.us",
+   "web": "https://dss.sd.gov/behavioralhealth/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "tn-mental-health-agency",
+   "name": "Tennessee Department of Mental Health and Substance Abuse Services: state mental health agency for Tennessee",
+   "org": "Tennessee Department of Mental Health and Substance Abuse Services",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Tennessee. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "800-560-5767",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "OCA.TDMHSAS@tn.gov",
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "tx-mental-health-agency",
+   "name": "Texas Health and Human Services: state mental health agency for Texas",
+   "org": "Texas Health and Human Services",
+   "state": "TX",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Texas. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "512-424-6500",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": null,
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "vi-mental-health-agency",
+   "name": "Virgin Islands Department of Health: state mental health agency for the U.S. Virgin Islands",
+   "org": "Virgin Islands Department of Health",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for the U.S. Virgin Islands. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "340-774-4888",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://doh.vi.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "ut-mental-health-agency",
+   "name": "Utah Division of Substance Use and Mental Health: state mental health agency for Utah",
+   "org": "Utah Division of Substance Use and Mental Health",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Utah. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "801-538-3939",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "sumh@utah.gov",
+   "web": "https://sumh.utah.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "vt-mental-health-agency",
+   "name": "Vermont Department of Mental Health: state mental health agency for Vermont",
+   "org": "Vermont Department of Mental Health",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Vermont. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "802-828-3824",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://mentalhealth.vermont.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "va-mental-health-agency",
+   "name": "Virginia Department of Behavioral Health and Developmental Services: state mental health agency for Virginia",
+   "org": "Virginia Department of Behavioral Health and Developmental Services",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Virginia. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "804-786-3921",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://www.dbhds.virginia.gov",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "wa-mental-health-agency",
+   "name": "Washington State Health Care Authority: state mental health agency for Washington",
+   "org": "Washington State Health Care Authority",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Washington. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "360-725-1500",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "DBHRinformation@hca.wa.gov",
+   "web": "https://www.hca.wa.gov/",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "wv-mental-health-agency",
+   "name": "West Virginia Bureau for Behavioral Health: state mental health agency for West Virginia",
+   "org": "West Virginia Bureau for Behavioral Health",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for West Virginia. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "304-352-5548",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://dhhr.wv.gov/BBH/Pages/default.aspx",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "wi-mental-health-agency",
+   "name": "Wisconsin Department of Health Services: state mental health agency for Wisconsin",
+   "org": "Wisconsin Department of Health Services",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Wisconsin. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "608-266-2717",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": "DHSWEBMAILDCTS@dhs.wisconsin.gov",
+   "web": "https://www.dhs.wisconsin.gov/mh/dcindex.htm",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
+  },
+  {
+   "id": "wy-mental-health-agency",
+   "name": "Wyoming Department of Health, Behavioral Health Division: state mental health agency for Wyoming",
+   "org": "Wyoming Department of Health, Behavioral Health Division",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "crisis",
+   "description": "SAMHSA lists this as the state mental health agency for Wyoming. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "constraints": [
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+   ],
+   "phone": "307-777-6494",
+   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "email": null,
+   "web": "https://health.wyo.gov/behavioralhealth/mhsa",
+   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mental_health"
+   ]
   }
  ]
 }
