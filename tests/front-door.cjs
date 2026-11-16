@@ -117,5 +117,18 @@ const TERR=['AS','GU','MP','PR','VI'];
   for(const r of deaf){assert.equal(r.url,'https://nasadhh.org/state-agency/',r.id+' cites the national roster');assert.equal(r.category,'sensory');assert(r.audience.includes('deaf'));assert(!r.phone&&r.contact_how,r.id+' has no phone on the roster and says how to reach the agency');assert.equal(r.record_status,'directory_listed');
    if(r.web&&r.state!=='ID')assert(!/idaho/i.test(r.web),r.id+' does not carry another state\'s link');}
   for(const st of ['il','in'])assert(!byId.get(st+'-deaf-hard-of-hearing-agency').web,st+' roster link was wrong, so none is shown');}
- console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records.');
+ // ---- round four (2026-11-15): disability parking placards in every state and DC, from each state agency's own page
+ {let phones=0;
+  for(const st of STATES){
+   const r=byId.get(st.toLowerCase()+'-disabled-parking-placard');assert(r,'parking placard record '+st);
+   assert.equal(r.category,'transportation');assert.deepEqual(r.audience,['mobility']);assert.equal(r.record_status,'official_search_extract_only');assert.equal(r.state,st);
+   assert(/^https:\/\//.test(r.url)&&r.url===r.web,st+' links the agency page');assert(!/familyvoices|nasadhh|ectacenter|usa\.gov/.test(r.url),st+' cites the state agency itself');
+   assert(/Who can certify the disability: \S/.test(r.description),st+' says who can certify');assert(r.next_step.length>60,st+' says where to send the form');
+   assert.equal(r.constraints[r.constraints.length-1],'Forms, fees and rules change. Check the agency’s page before you apply.');
+   if(r.phone){phones++;assert(/^[0-9()+ \-]{7,}$/.test(r.phone)&&/(printed|listed|shown)/.test(r.phone_note),st+' parking number says where it came from');}else assert(r.contact_how,st+' says how to reach the agency');
+  }
+  assert(phones>=10&&phones<STATES.length,'phone numbers only where the agency showed one: '+phones);}
+ assert.equal(byId.get('us-disabled-parking-placards').hide_if_state_has,'-disabled-parking-placard','national pointer gives way to the state record');
+ assert(/local city, town or village/.test(byId.get('ny-disabled-parking-placard').description),'New York permits come from local offices, not DMV');
+ console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC).');
 })().catch(e=>{console.error(e);process.exit(1)});
