@@ -68783,6 +68783,365 @@
     "mobility"
    ],
    "contact_how": "Use the dealer locator on NMEDA’s site."
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "as-dd-council",
+   "name": "American Samoa Developmental Disabilities Council",
+   "org": "American Samoa Developmental Disabilities Council",
+   "state": "AS",
+   "category": "navigation",
+   "description": "Every state has a governor-appointed Council on Developmental Disabilities, made up mostly of people with developmental disabilities and their family members. It works on policy, advocacy, training and grants rather than direct services, but its staff can point you to the right state agency, local board and self-advocacy group.",
+   "next_step": "Call the council and ask where to apply for developmental disability services and which self-advocacy groups are near you.",
+   "constraints": [
+    "Policy and advocacy council; it does not run intake or provide direct services."
+   ],
+   "phone": "684-633-2696",
+   "phone_note": "Main line from the national DD Council directory (NACDD); confirm before calling",
+   "web": null,
+   "url": "https://nacdd.org/councils/",
+   "record_status": "official_search_extract_only",
+   "audience": [
+    "idd"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "mp-dd-council",
+   "name": "Developmental Disabilities Council for the Northern Mariana Islands",
+   "org": "Developmental Disabilities Council for the Northern Mariana Islands",
+   "state": "MP",
+   "category": "navigation",
+   "description": "Every state has a governor-appointed Council on Developmental Disabilities, made up mostly of people with developmental disabilities and their family members. It works on policy, advocacy, training and grants rather than direct services, but its staff can point you to the right state agency, local board and self-advocacy group.",
+   "next_step": "Call the council and ask where to apply for developmental disability services and which self-advocacy groups are near you.",
+   "constraints": [
+    "Policy and advocacy council; it does not run intake or provide direct services."
+   ],
+   "phone": "670-664-7000",
+   "phone_note": "Main line from the national DD Council directory (NACDD); also 670-664-7001; confirm before calling",
+   "web": "https://www.cnmicdd.org",
+   "url": "https://nacdd.org/councils/",
+   "record_status": "official_search_extract_only",
+   "audience": [
+    "idd"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "gu-dd-council",
+   "name": "Guam Developmental Disabilities Council",
+   "org": "Guam Developmental Disabilities Council",
+   "state": "GU",
+   "category": "navigation",
+   "description": "Every state has a governor-appointed Council on Developmental Disabilities, made up mostly of people with developmental disabilities and their family members. It works on policy, advocacy, training and grants rather than direct services, but its staff can point you to the right state agency, local board and self-advocacy group.",
+   "next_step": "Call the council and ask where to apply for developmental disability services and which self-advocacy groups are near you.",
+   "constraints": [
+    "Policy and advocacy council; it does not run intake or provide direct services."
+   ],
+   "phone": "671-735-9127",
+   "phone_note": "Main line from the national DD Council directory (NACDD); confirm before calling",
+   "web": "https://www.gddc.guam.gov",
+   "url": "https://nacdd.org/councils/",
+   "record_status": "official_search_extract_only",
+   "audience": [
+    "idd"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "pr-dd-council",
+   "name": "Developmental Disabilities Council for Puerto Rico (CEDD)",
+   "org": "Developmental Disabilities Council for Puerto Rico (CEDD)",
+   "state": "PR",
+   "category": "navigation",
+   "description": "Every state has a governor-appointed Council on Developmental Disabilities, made up mostly of people with developmental disabilities and their family members. It works on policy, advocacy, training and grants rather than direct services, but its staff can point you to the right state agency, local board and self-advocacy group.",
+   "next_step": "Call the council and ask where to apply for developmental disability services and which self-advocacy groups are near you.",
+   "constraints": [
+    "Policy and advocacy council; it does not run intake or provide direct services."
+   ],
+   "phone": "787-722-0590",
+   "phone_note": "Main line from the national DD Council directory (NACDD); confirm before calling",
+   "web": "https://www.cedd.pr.gov",
+   "url": "https://nacdd.org/councils/",
+   "record_status": "official_search_extract_only",
+   "audience": [
+    "idd"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "vi-dd-council",
+   "name": "Developmental Disabilities Council for the U.S. Virgin Islands",
+   "org": "Developmental Disabilities Council for the U.S. Virgin Islands",
+   "state": "VI",
+   "category": "navigation",
+   "description": "Every state has a governor-appointed Council on Developmental Disabilities, made up mostly of people with developmental disabilities and their family members. It works on policy, advocacy, training and grants rather than direct services, but its staff can point you to the right state agency, local board and self-advocacy group.",
+   "next_step": "Call the council and ask where to apply for developmental disability services and which self-advocacy groups are near you.",
+   "constraints": [
+    "Policy and advocacy council; it does not run intake or provide direct services."
+   ],
+   "phone": "340-773-2323",
+   "phone_note": "Main line from the national DD Council directory (NACDD); extension 2137; confirm before calling",
+   "web": null,
+   "url": "https://nacdd.org/councils/",
+   "record_status": "official_search_extract_only",
+   "audience": [
+    "idd"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "centroinfo@apnipr.org",
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "pr-parent-center",
+   "name": "APNI, Inc.: help for families of children with disabilities in Puerto Rico",
+   "org": "APNI, Inc.",
+   "state": "PR",
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed by the Center for Parent Information and Resources as Puerto Rico’s Parent Training and Information Center, in San Juan.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The national Parent Center page for this territory was last updated several years ago; confirm the details when you call.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "787-763-4665",
+   "phone_note": "As listed on the national Parent Center page for Puerto Rico; also 787-250-4552",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/findurcenter/puerto-rico/",
+   "record_status": "directory_listed",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "pr-parent-center-2",
+   "name": "El Centro Margarita, Inc.: help for families of children with disabilities in Puerto Rico",
+   "org": "El Centro Margarita, Inc.",
+   "state": "PR",
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed by the Center for Parent Information and Resources as a Community Parent Resource Center in Cidra, Puerto Rico.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "A community parent resource center serves a particular community or region.",
+    "The national Parent Center page for this territory was last updated several years ago; confirm the details when you call.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "787-739-6030",
+   "phone_note": "As listed on the national Parent Center page for Puerto Rico",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/findurcenter/puerto-rico/",
+   "record_status": "directory_listed",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "vi-parent-center",
+   "name": "Virgin Islands Parent Training and Information Center (Disability Rights of the Virgin Islands): help for families of children with disabilities in the U.S. Virgin Islands",
+   "org": "Virgin Islands Parent Training and Information Center (Disability Rights of the Virgin Islands)",
+   "state": "VI",
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed by the Center for Parent Information and Resources as the Virgin Islands’ Parent Training and Information Center, run by Disability Rights of the Virgin Islands from its main office in Frederiksted, St. Croix.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "340-772-1200",
+   "phone_note": "As listed on the national Parent Center page for the Virgin Islands; also 340-772-1280",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/findurcenter/virgin-islands-2",
+   "record_status": "directory_listed",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "as-parent-center",
+   "name": "Learning Disabilities Association of Hawaii (LDAH), the Hawaii PTI: help for families of children with disabilities in American Samoa",
+   "org": "Learning Disabilities Association of Hawaii (LDAH), the Hawaii PTI",
+   "state": "AS",
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The Center for Parent Information and Resources lists the Hawaii Parent Training and Information Center, run by the Learning Disabilities Association of Hawaii, as serving American Samoa along with Hawaii and other Pacific jurisdictions.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The center is based in Honolulu, Hawaii; ask how it serves families in American Samoa.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "808-536-9684",
+   "phone_note": "Honolulu office, as listed on LDAH’s contact page",
+   "web": "https://www.ldahawaii.org/contact.html",
+   "url": "https://www.parentcenterhub.org/findurcenter/page/9/",
+   "record_status": "directory_listed",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "gu-parent-center",
+   "name": "Learning Disabilities Association of Hawaii (LDAH), the Hawaii PTI: help for families of children with disabilities in Guam",
+   "org": "Learning Disabilities Association of Hawaii (LDAH), the Hawaii PTI",
+   "state": "GU",
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The Center for Parent Information and Resources lists the Hawaii Parent Training and Information Center, run by the Learning Disabilities Association of Hawaii, as serving Guam along with Hawaii and other Pacific jurisdictions.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The center is based in Honolulu, Hawaii; ask how it serves families in Guam.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "808-536-9684",
+   "phone_note": "Honolulu office, as listed on LDAH’s contact page",
+   "web": "https://www.ldahawaii.org/contact.html",
+   "url": "https://www.parentcenterhub.org/findurcenter/page/9/",
+   "record_status": "directory_listed",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "mp-parent-center",
+   "name": "Learning Disabilities Association of Hawaii (LDAH), the Hawaii PTI: help for families of children with disabilities in the Northern Mariana Islands",
+   "org": "Learning Disabilities Association of Hawaii (LDAH), the Hawaii PTI",
+   "state": "MP",
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The Center for Parent Information and Resources lists the Hawaii Parent Training and Information Center, run by the Learning Disabilities Association of Hawaii, as serving the Northern Mariana Islands along with Hawaii and other Pacific jurisdictions.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The center is based in Honolulu, Hawaii; ask how it serves families in the Northern Mariana Islands.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "808-536-9684",
+   "phone_note": "Honolulu office, as listed on LDAH’s contact page",
+   "web": "https://www.ldahawaii.org/contact.html",
+   "url": "https://www.parentcenterhub.org/findurcenter/page/9/",
+   "record_status": "directory_listed",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "dvr@disid.guam.gov",
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "gu-vr-agency",
+   "name": "Guam Division of Vocational Rehabilitation (Department of Integrated Services for Individuals with Disabilities)",
+   "org": "Guam Department of Integrated Services for Individuals with Disabilities (DISID)",
+   "state": "GU",
+   "category": "work_school",
+   "description": "Guam’s Division of Vocational Rehabilitation provides vocational rehabilitation and supported employment services to eligible people with disabilities. It also runs Guam’s independent living services and its independent living program for older people who are blind.",
+   "next_step": "Call to apply, and ask about assistive technology, vehicle modification and home modification funding before you buy anything.",
+   "constraints": [
+    "Services must connect to an employment goal.",
+    "Apply and get approval before buying equipment or starting modifications.",
+    "Some agencies keep a waitlist or order of selection.",
+    "You can start an application online on the department’s site."
+   ],
+   "phone": "671-475-4624",
+   "phone_note": "Department main line, as listed on its site; vocational rehabilitation TTY 671-477-9183",
+   "web": "https://disid.guam.gov/division-of-vocational-rehabilitation/",
+   "url": "https://disid.guam.gov/division-of-vocational-rehabilitation/",
+   "record_status": "official_search_extract_only",
+   "audience": []
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "as-vr-agency",
+   "name": "American Samoa Office of Vocational Rehabilitation",
+   "org": "American Samoa Office of Vocational Rehabilitation",
+   "state": "AS",
+   "category": "work_school",
+   "description": "The vocational rehabilitation agency helps people with disabilities prepare for, find and keep work. When equipment is needed for a work goal it can pay for assistive technology and vehicle modifications, and in some places home modifications. Eligibility and the order of service are set locally.",
+   "next_step": "Call to apply, and ask about assistive technology, vehicle modification and home modification funding before you buy anything.",
+   "constraints": [
+    "Services must connect to an employment goal.",
+    "Apply and get approval before buying equipment or starting modifications.",
+    "Some agencies keep a waitlist or order of selection."
+   ],
+   "phone": "684-699-1371",
+   "phone_note": "As listed by the U.S. Department of Education; also 684-699-4234",
+   "web": null,
+   "url": "https://rsa.ed.gov/about/states",
+   "record_status": "directory_listed",
+   "audience": []
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "dvr@disid.guam.gov",
+   "reviewed_on": "2026-11-16",
+   "origin": "data/added-programs.json",
+   "id": "gu-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Guam",
+   "org": "Guam Division of Vocational Rehabilitation (DISID)",
+   "state": "GU",
+   "category": "sensory",
+   "description": "Guam’s Division of Vocational Rehabilitation administers Guam’s plan for Independent Living for the Older Blind, the federal program for people 55 and older with vision loss.",
+   "next_step": "Call the department and ask about independent living services for older adults who are blind or have low vision.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "671-475-4624",
+   "phone_note": "Department main line, as listed on its site",
+   "web": "https://disid.guam.gov/division-of-vocational-rehabilitation/",
+   "url": "https://disid.guam.gov/division-of-vocational-rehabilitation/",
+   "record_status": "official_search_extract_only",
+   "audience": [
+    "blind",
+    "older"
+   ]
   }
  ]
 }
