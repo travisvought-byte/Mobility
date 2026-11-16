@@ -58851,24 +58851,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Arkansas.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Arkansas Rehabilitation Services’ Deaf and Hard of Hearing program has staff interpreters, trains and advises agencies and businesses such as hospitals, 911 centers and police on removing communication barriers, and runs a Telecommunications Access Program for communication devices.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "501-686-2800",
+   "phone_note": "Arkansas Rehabilitation Services, as listed on the program’s page",
    "email": null,
    "web": "https://dws.arkansas.gov/ar-rehabilitation-services/field-services/deaf-hard-of-hearing/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://dws.arkansas.gov/ar-rehabilitation-services/field-services/deaf-hard-of-hearing/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "az-deaf-hard-of-hearing-agency",
@@ -58904,24 +58902,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for California.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "California’s Office of Deaf Access runs the Deaf Access Program, created in 1980 so that deaf and hard of hearing children, adults and families can use public programs. Through regional agencies, the program provides qualified sign language interpreters, including emergency sign language services 24 hours a day, 7 days a week for medical, legal or civil emergencies.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "Services are delivered by regional agencies around the state; the office can tell you which one serves your county.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "https://www.cdss.ca.gov/deaf-access",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "916-330-3242",
+   "phone_note": "Videophone, as listed on the office’s page",
+   "email": "Deaf.Access@dss.ca.gov",
+   "web": "https://cdss.ca.gov/deaf-access",
+   "url": "https://cdss.ca.gov/deaf-access",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "co-deaf-hard-of-hearing-agency",
@@ -58984,24 +58981,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Delaware.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The Delaware Office for the Deaf and Hard of Hearing is part of the Division of Vocational Rehabilitation in the Department of Labor. It gives information and referral and lists sign language classes and a captioned telephone (CapTel) program.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "For information and referral, the office asks you to fill out the form on its page and email it.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
+   "phone": "302-504-4741",
+   "phone_note": "Videophone and voice, as listed on the office’s page",
+   "email": "DOL_DODHH@delaware.gov",
    "web": "https://labor.delaware.gov/divisions/dvr/dodhh/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://labor.delaware.gov/divisions/dvr/dodhh/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "dc-deaf-hard-of-hearing-agency",
@@ -59011,25 +59007,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for the District of Columbia.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The District’s Division of Deaf, DeafBlind and Hard of Hearing helps residents find their way through District government, supports community agencies that serve deaf, deafblind and hard of hearing people, and holds programs and workshops on education, health and employment.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "https://odr.dc.gov/page/division-deaf-deafblind-and-hard-hearing",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "202-601-9491",
+   "phone_note": "As listed on the division’s contact page",
+   "email": "oddbhh@dc.gov",
+   "web": "https://odr.dc.gov/page/dddbhh-contact-us",
+   "url": "https://odr.dc.gov/page/dddbhh-contact-us",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf",
     "deafblind"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "fl-deaf-hard-of-hearing-agency",
@@ -59039,24 +59033,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Florida.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The Florida Coordinating Council for the Deaf and Hard of Hearing is an advisory body that recommends policies for Florida’s deaf, hard of hearing, late-deafened and deafblind people. It also helps people who need assistance with everyday needs such as employment, education and access to services.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
+   "phone": "850-558-9645",
+   "phone_note": "As listed on the council’s pages",
+   "email": "CommunityHealthPromotion@FLHealth.gov",
    "web": "https://www.floridahealth.gov/provider-and-partner-resources/fccdhh/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://www.floridahealth.gov/provider-and-partner-resources/fccdhh/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "ga-deaf-hard-of-hearing-agency",
@@ -59066,24 +59058,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Georgia.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The Georgia Commission for the Deaf or Hard of Hearing is made up of twelve volunteers, including deaf, hard of hearing and deafblind people and parents, and works on social, economic, health and human rights issues affecting these communities.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "The commission is advisory. For direct help, ask the department which program serves your need.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "877-423-4746",
+   "phone_note": "Georgia Department of Human Services main line, as listed on the commission’s page",
    "email": null,
    "web": "https://dhs.georgia.gov/organization/about/language-access/georgia-commission-deaf-or-hard-hearing-gacdhh",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://dhs.georgia.gov/organization/about/language-access/georgia-commission-deaf-or-hard-hearing-gacdhh",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "hi-deaf-hard-of-hearing-agency",
@@ -59093,24 +59084,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Hawaii.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Hawaii’s Disability and Communication Access Board handles communication access for deaf, hard of hearing and deafblind people, including the state list of sign language interpreters and a free communication access card.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "The board’s pages list two different videophone numbers, so none is shown here; ask for the current one.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "https://health.hawaii.gov/dcab/communication-access/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "808-586-8121",
+   "phone_note": "Voice, as listed on the board’s contact page",
+   "email": "dcab@doh.hawaii.gov",
+   "web": "https://health.hawaii.gov/dcab/home/contact-us/",
+   "url": "https://health.hawaii.gov/dcab/home/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "id-deaf-hard-of-hearing-agency",
@@ -59273,24 +59263,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Louisiana.",
-   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The Louisiana Commission for the Deaf provides programs, services and resources so that d/Deaf, DeafBlind and hard of hearing people have full communication access. It is part of the Louisiana Department of Health.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "http://new.dhh.louisiana.gov/index.cfm/page/318",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "800-256-1523",
+   "phone_note": "As listed on the commission’s page; videophone 225-406-7317 (department flyer)",
+   "email": "lcd@la.gov",
+   "web": "https://ldh.la.gov/bureau-of-family-health/LCD",
+   "url": "https://ldh.la.gov/bureau-of-family-health/LCD",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Find the agency by name or through the national roster."
+   ]
   },
   {
    "id": "me-deaf-hard-of-hearing-agency",
@@ -59300,24 +59288,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Maine.",
-   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Maine’s Division for the Deaf, Hard of Hearing and Late Deafened, in the Bureau of Rehabilitation Services, keeps a statewide resource guide and handles deaf identification cards and the hearing loss placard program.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "http://www.maine.gov/rehab/dod/index.shtml",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "207-623-7958",
+   "phone_note": "Voice, as listed in the division’s resource guide; videophone 207-470-7668; Maine Relay 711",
+   "email": "DDHHLD.DOL@maine.gov",
+   "web": "https://www.maine.gov/rehab/dod/resource_guide/",
+   "url": "https://www.maine.gov/rehab/dod/resource_guide/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Find the agency by name or through the national roster."
+   ]
   },
   {
    "id": "md-deaf-hard-of-hearing-agency",
@@ -59403,25 +59389,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Minnesota.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The Minnesota Commission of the Deaf, DeafBlind and Hard of Hearing works on laws and policies. Direct services, such as information, equipment and mental health help, come from the state’s Deaf, DeafBlind and Hard of Hearing State Services Division, listed separately.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "https://mn.gov/deaf-commission/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "651-243-3834",
+   "phone_note": "As listed on the commission’s contact page; Monday to Friday, 8 a.m. to 5 p.m.",
+   "email": "mn.commission@state.mn.us",
+   "web": "https://mn.gov/deaf-commission/about/contact-us/",
+   "url": "https://mn.gov/deaf-commission/about/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf",
     "deafblind"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "mn-deaf-hard-of-hearing-agency-2",
@@ -59559,24 +59543,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Nevada.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Nevada’s Communication Access Services program works through community partners that give free services to deaf, hard of hearing and speech-impaired Nevadans who qualify: help getting employment, education, health and social services (CSD Works Nevada), family support (Nevada Hands & Voices) and telecommunication equipment (Reach NV).",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "Contact details for each partner are on the program page.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "702-830-9103",
+   "phone_note": "Video and voice, as listed in the agency’s 2022 brochure",
    "email": null,
-   "web": "https://adsd.nv.gov/Programs/Physical/ComAccessSvc/CAS/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "web": "https://www.adsd.nv.gov/programs/programs-for-persons-with-physical-disabilities/communication-access-services-cas/",
+   "url": "https://www.adsd.nv.gov/programs/programs-for-persons-with-physical-disabilities/communication-access-services-cas/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "nh-deaf-hard-of-hearing-agency",
@@ -59638,24 +59621,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New Mexico.",
-   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The New Mexico Commission for Deaf and Hard of Hearing, created by the legislature in 1991, provides advocacy and equipment distribution and oversees relay services for the state.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "http://www.cdhh.state.nm.us/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "800-489-8536",
+   "phone_note": "Toll-free, as listed in the commission’s 2024 guide; Albuquerque 505-383-6530 (voice and TTY); videophone 505-435-9319",
+   "email": "nmcdhh.info@cdhh.nm.gov",
+   "web": "https://www.cdhh.nm.gov/",
+   "url": "https://cdhh.nm.gov/wp-content/uploads/2024/11/How-to-Find-a-Signed-Language-Interpreter.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Find the agency by name or through the national roster."
+   ]
   },
   {
    "id": "ny-deaf-hard-of-hearing-agency",
@@ -59984,24 +59965,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Wisconsin.",
-   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Wisconsin’s Office for the Deaf and Hard of Hearing gives unbiased information and connects deaf, hard of hearing and deafblind people with resources in Wisconsin. It also has a statewide disability benefit specialist and a Telecommunications Assistance Program that helps people with low income buy telecommunications equipment.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "http://www.dhs.wisconsin.gov/odhh/INDEX.HTM",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "855-359-5252",
+   "phone_note": "Voice or signed message, as listed on the office’s page",
+   "email": "dhsodhh@dhs.wisconsin.gov",
+   "web": "https://www.dhs.wisconsin.gov/odhh/staff/index.htm",
+   "url": "https://www.dhs.wisconsin.gov/odhh/staff/index.htm",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Find the agency by name or through the national roster."
+   ]
   },
   {
    "id": "wv-deaf-hard-of-hearing-agency",
@@ -65865,6 +65844,110 @@
     "older"
    ],
    "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+  },
+  {
+   "id": "al-deaf-hard-of-hearing-agency",
+   "name": "Alabama Department of Rehabilitation Services: Deaf and Hard of Hearing Services",
+   "org": "State program for people who are deaf or hard of hearing",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies lists none for Alabama. Deaf and Hard of Hearing Services is one of four programs in the Alabama Department of Rehabilitation Services’ Blind and Deaf program, which serves Alabamians statewide.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
+   "constraints": [
+    "TTY users can dial 711.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": "334-293-7128",
+   "phone_note": "For deaf, hard of hearing, or blind and deaf services, as listed on the department’s page; main line 334-293-7500",
+   "email": null,
+   "web": "https://rehab.alabama.gov/services/vr-bd/deaf",
+   "url": "https://www.rehab.alabama.gov/services/vr-bd/vr-bd",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "nd-deaf-hard-of-hearing-agency",
+   "name": "North Dakota School for the Deaf / Resource Center for Deaf and Hard of Hearing",
+   "org": "State program for people who are deaf or hard of hearing",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies lists none for North Dakota. The state School for the Deaf also runs a resource center whose adult services are open to every North Dakotan who is deaf or hard of hearing, whatever their age or the cause of the hearing loss, including older adults losing hearing with age. It has outreach offices around the state.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
+   "constraints": [
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": "701-665-4400",
+   "phone_note": "Voice and TTY, as listed on the school’s contact page; videophone 701-581-3059; toll-free in North Dakota 800-887-2980 (state CareChoice listing)",
+   "email": "ndsd.school@k12.nd.us",
+   "web": "https://www.ndsd.nd.gov/contact",
+   "url": "https://www.ndsd.nd.gov/contact",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "sd-deaf-hard-of-hearing-agency",
+   "name": "South Dakota Division of Rehabilitation Services: interpreter help for deaf and hard of hearing people",
+   "org": "State program for people who are deaf or hard of hearing",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The national roster of state agencies lists none for South Dakota. The state Division of Rehabilitation Services keeps the South Dakota Interpreter Registry and runs a program that can help pay for sign language interpreters in situations the Americans with Disabilities Act does not cover, such as events held by nonprofits, faith groups or youth organizations.",
+   "next_step": "Look up interpreters on the state registry, or contact the division to ask about help paying for one.",
+   "constraints": [
+    "The interpreter payment program does not cover job situations.",
+    "What these agencies do differs from state to state. Some provide services directly; others advise the state."
+   ],
+   "phone": "605-773-3195",
+   "phone_note": "As listed on the division’s interpreter page",
+   "email": "InfoRS@state.sd.us",
+   "web": "https://dhs.sd.gov/en/rehabilitation-services/interpreters-for-people-who-are-deaf-or-hard-of-hearing",
+   "url": "https://dhs.sd.gov/en/rehabilitation-services/interpreters-for-people-who-are-deaf-or-hard-of-hearing",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "wy-adult-hearing-aid-program",
+   "name": "Wyoming Adult Hearing Aid Program",
+   "org": "Wyoming Department of Health",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "equipment",
+   "description": "A state-funded program for adults with hearing loss, created by state law. Subject to available funding, it covers up to one hearing aid per ear, hearing aid insurance for loss or damage, a fitting and an initial set of ear molds.",
+   "next_step": "Read the program’s FAQ for who qualifies and how to apply.",
+   "constraints": [
+    "The program does not cover hearing tests.",
+    "Coverage depends on state funding being available."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://health.wyo.gov/wp-content/uploads/2025/08/FAQ-Wyoming-Adult-Hearing-Aid-Program-2025.docx.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "contact_how": "How to apply is explained in the program’s FAQ, linked here."
   }
  ]
 }
