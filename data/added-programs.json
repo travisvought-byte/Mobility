@@ -62284,6 +62284,1288 @@
     "veterans"
    ],
    "contact_how": "Search for accredited programs on the ADI website."
+  },
+  {
+   "id": "al-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Alabama",
+   "org": "Alabama Department of Rehabilitation Services (OASIS program)",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Alabama’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Alabama Department of Rehabilitation Services (OASIS program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Alabamians 55 and older with a significant visual impairment that affects at least one daily activity. Staff confirm this with an assessment, usually at home.",
+   "next_step": "Call to be put on the referral list for your area. Anyone can make the referral, including you, a relative or your eye doctor. No paperwork is needed to start, though medical records help.",
+   "constraints": [
+    "The state page lists 11 local OASIS offices.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-800-671-6837",
+   "phone_note": "Main office line as listed on Time To Be Bold; also 205-290-4400",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/alabama",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ak-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Alaska",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Alaska’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Open the Alaska page and call the agency nearest you. It lists the Alaska Center for the Blind and Visually Impaired and Assistive Technologies Alaska in Anchorage, Southeast Alaska Independent Living in Juneau and the Independent Living Center in Homer.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/alaska",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details for each local office or provider are on the Time To Be Bold page for Alaska."
+  },
+  {
+   "id": "az-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Arizona",
+   "org": "Arizona Independent Living Older Blind (ILOB) program",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Arizona’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, called the Arizona Independent Living Older Blind (ILOB) program. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older whose visual impairment substantially limits their independence and who can take part in services at home or in an office.",
+   "next_step": "Call to start. You attend an orientation and an intake, and if you qualify you are assigned a rehabilitation instruction specialist. No documents are required, but an eye or low vision report is strongly recommended.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "888-282-9857",
+   "phone_note": "As listed on Time To Be Bold; also 602-266-9286",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/arizona",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ca-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in California",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is California’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older with a severe visual impairment that makes daily activities hard. No documentation is required.",
+   "next_step": "Find your county on the California page and contact the provider listed for it.",
+   "constraints": [
+    "The state page lists 15 local providers that together cover all 58 counties.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/california",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details for each local office or provider are on the Time To Be Bold page for California."
+  },
+  {
+   "id": "co-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Colorado",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Colorado’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older who are blind or visually impaired.",
+   "next_step": "Contact the agency on the Colorado page that serves your county: Center Toward Self-Reliance, Center for Independence, Colorado Center for the Blind, Ensight Skills Center or iSight Connections.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/colorado",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details for each local office or provider are on the Time To Be Bold page for Colorado."
+  },
+  {
+   "id": "ct-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Connecticut",
+   "org": "Connecticut Bureau of Education and Services for the Blind (BESB), Adult Services Program",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Connecticut’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Connecticut Bureau of Education and Services for the Blind (BESB), Adult Services Program. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Adults who are legally blind or have a progressive visual impairment and need help to live more independently. There is no income test.",
+   "next_step": "Call or email to ask for services. You, a relative or another agency can make the referral; to qualify, an optometrist or physician completes the bureau’s eye report form.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "860-602-4000",
+   "phone_note": "As listed on Time To Be Bold",
+   "email": "ads.besb@ct.gov",
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/connecticut",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "de-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Delaware",
+   "org": "Delaware Division for the Visually Impaired (DVI)",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Delaware’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Delaware Division for the Visually Impaired (DVI). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Eligibility is based on your vision as measured by your eye doctor.",
+   "next_step": "Call to start an application. You or someone who knows you can call. Have your name, address, phone number, date of birth and an eye report ready.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "302-255-9800",
+   "phone_note": "As listed on Time To Be Bold",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/delaware",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "dc-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in the District of Columbia",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is the District of Columbia’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Apply with the online intake form, and ask to be directed to the independent living specialist in the Sensory Unit for the older blind program. The agency uses one central intake for several programs.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://dda.dc.gov/mcis/rsa_intake_outside/rsaintakeform.asp",
+   "url": "https://www.timetobebold.org/washington-dc",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Apply with the online intake form linked here."
+  },
+  {
+   "id": "fl-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Florida",
+   "org": "Florida Division of Blind Services (Independent Living Older Blind program)",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Florida’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Florida Division of Blind Services (Independent Living Older Blind program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older with vision loss in both eyes who need independent living training. Citizenship or immigration status is part of eligibility. An eye report is preferred at intake and required within 12 months.",
+   "next_step": "Apply online through the Division of Blind Services; staff then call you for an intake screening.",
+   "constraints": [
+    "The state page lists 14 regional offices and 19 partner agencies.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-800-342-1828",
+   "phone_note": "Division of Blind Services state office, as listed on Time To Be Bold; also 850-245-0300",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/florida",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ga-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Georgia",
+   "org": "Georgia Vocational Rehabilitation Agency (OIB program, also called Project Independence)",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Georgia’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Georgia Vocational Rehabilitation Agency (OIB program, also called Project Independence). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older who are blind or visually impaired.",
+   "next_step": "Contact the provider that serves your region; the Georgia page lists six, one for each region.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "404-783-3545",
+   "phone_note": "Statewide program contact as listed on Time To Be Bold",
+   "email": null,
+   "web": "https://gvs.georgia.gov/sensory-services/older-blindproject-independence",
+   "url": "https://www.timetobebold.org/services-near-you/georgia",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "hi-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Hawaii",
+   "org": "Ho‘opono Services for the Blind, Hawaii Division of Vocational Rehabilitation",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Hawaii’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Ho‘opono Services for the Blind, Hawaii Division of Vocational Rehabilitation. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older with a visual impairment that makes daily tasks hard.",
+   "next_step": "Call the main line; a relative, friend or doctor can call for you with your name and number. An optometrist or ophthalmologist completes the eye exam referral form (DHS 2646), dated within the last 12 months.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "808-586-5269",
+   "phone_note": "As listed on Time To Be Bold. The page also mentions monthly peer support groups on Oahu, in Hilo and on Kauai",
+   "email": null,
+   "web": "https://humanservices.hawaii.gov/vr/hoopono/about/",
+   "url": "https://www.timetobebold.org/services-near-you/hawaii",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "id-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Idaho",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Idaho’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Call the main state office and ask about independent living services for older adults with vision loss.",
+   "constraints": [
+    "The state page lists five regional offices.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-800-542-8688",
+   "phone_note": "Boise main state office, as listed on Time To Be Bold; also 208-334-3220",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/idaho",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "in-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Indiana",
+   "org": "Indiana Older Independent Blind Program (FSSA)",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Indiana’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, called the Indiana Older Independent Blind Program (FSSA). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older with a severe visual impairment.",
+   "next_step": "Contact the agency that serves your county; the Indiana page lists six. If your county is not listed, the page says to contact Bosma Enterprises.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "877-241-8144",
+   "phone_note": "As listed on Time To Be Bold",
+   "email": "BVIS@fssa.in.gov",
+   "web": "https://www.in.gov/fssa/ddrs/rehabilitation-employment/blind-and-visually-impaired/older-independent-blind-program/",
+   "url": "https://www.timetobebold.org/services-near-you/indiana",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ks-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Kansas",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Kansas’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Find your county on the Kansas page and contact the agency listed: Beyond Barriers (Hutchinson and Dodge City offices), Envision or Alphapointe.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/kansas",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details for each local office or provider are on the Time To Be Bold page for Kansas."
+  },
+  {
+   "id": "la-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Louisiana",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Louisiana’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Call the statewide contact, or the agency on the Louisiana page that serves your parish: Lighthouse for the Blind in New Orleans, Affiliated Blind of Louisiana Training Center, Louisiana Center for the Blind or Louisiana Association for the Blind.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "225-295-8952",
+   "phone_note": "Statewide program contact as listed on Time To Be Bold",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/louisiana",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "me-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Maine",
+   "org": "Maine Division for the Blind and Visually Impaired (Independent Living Program)",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Maine’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Maine Division for the Blind and Visually Impaired (Independent Living Program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Maine’s program serves people of all ages who are blind or visually impaired and want to stay as independent as possible. An independent living case manager works out eligibility with you.",
+   "next_step": "Call the program. Services come from division staff working with vision rehabilitation therapists from The Iris Network.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "207-623-7948",
+   "phone_note": "As listed on Time To Be Bold. The page also lists five regional contacts by county",
+   "email": null,
+   "web": "https://www.maine.gov/rehab/dbvi/",
+   "url": "https://www.timetobebold.org/services-near-you/maine",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "md-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Maryland",
+   "org": "Maryland Office for Blindness and Vision Services (Independent Living Older Blind program)",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Maryland’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Maryland Office for Blindness and Vision Services (Independent Living Older Blind program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older who are blind or have a vision impairment.",
+   "next_step": "Call and ask about the Independent Living Older Blind program.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "410-554-9219",
+   "phone_note": "Office for Blindness and Vision Services, as listed on Time To Be Bold; the page also lists 410-554-9107",
+   "email": null,
+   "web": "https://dors.maryland.gov/consumers/specialized/OBVS/Pages/OBV-ILOB.aspx",
+   "url": "https://www.timetobebold.org/services-near-you/maryland",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "mn-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Minnesota",
+   "org": "Minnesota State Services for the Blind",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Minnesota’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Minnesota State Services for the Blind. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People whose vision is 20/60 or worse in the better eye with correction, or whose field of vision is reduced by 20 percent or more.",
+   "next_step": "There is no application. Call or email, and the staff member for your area will contact you. No documentation is required.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "651-539-2300",
+   "phone_note": "Statewide contact as listed on Time To Be Bold",
+   "email": null,
+   "web": "https://mn.gov/deed/ssb/seniors/",
+   "url": "https://www.timetobebold.org/services-near-you/minnesota",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ms-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Mississippi",
+   "org": "Mississippi Independent Living for the Blind (ILB) program",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Mississippi’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, called the Mississippi Independent Living for the Blind (ILB) program. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Mississippi residents 55 and older who are blind or legally blind with best correction in both eyes.",
+   "next_step": "Fill out an ILB application, or ask an ILB instructor to refer you. You need proof of age and a signed, dated report from a health professional confirming the vision loss.",
+   "constraints": [
+    "The state page lists eight county-based instructors.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "601-853-5210",
+   "phone_note": "Program director line as listed on Time To Be Bold",
+   "email": null,
+   "web": "https://mdrs.ms.gov/vrb/independent-living-services",
+   "url": "https://www.timetobebold.org/services-near-you/mississippi",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "mo-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Missouri",
+   "org": "Missouri Rehabilitation Services for the Blind (Older Blind Services)",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Missouri’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Missouri Rehabilitation Services for the Blind (Older Blind Services). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Missouri residents 55 and older who need substantial help to reach their independent living goals.",
+   "next_step": "Call or send the online referral form.",
+   "constraints": [
+    "The state page lists six district offices.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-592-6004",
+   "phone_note": "As listed on Time To Be Bold; central office 573-751-4249",
+   "email": "askrsb@dss.mo.gov",
+   "web": "https://dss.mo.gov/fsd/rsb/",
+   "url": "https://www.timetobebold.org/services-near-you/missouri",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "mt-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Montana",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Montana’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Call the regional office nearest you. The Montana page lists Billings 406-248-4801, Butte 406-496-4925, Great Falls 406-454-6060 and Missoula 406-329-5400.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/services-near-you/montana",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details for each local office or provider are on the Time To Be Bold page for Montana."
+  },
+  {
+   "id": "ne-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Nebraska",
+   "org": "Nebraska Commission for the Blind and Visually Impaired (NCBVI)",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Nebraska’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Nebraska Commission for the Blind and Visually Impaired (NCBVI). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older whose severe vision loss limits their independence. Services are free, cover all 93 counties and need no medical paperwork.",
+   "next_step": "Call or email a referral. Staff schedule an evaluation meeting, where you can apply.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-877-809-2419",
+   "phone_note": "As listed on Time To Be Bold; also 402-471-2891",
+   "email": "ncbvi.autho@nebraska.gov",
+   "web": "https://ncbvi.nebraska.gov/",
+   "url": "https://www.timetobebold.org/nebraska",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "nv-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Nevada",
+   "org": "Nevada Bureau of Services to the Blind and Visually Impaired (BSBVI)",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Nevada’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Nevada Bureau of Services to the Blind and Visually Impaired (BSBVI). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older whose vision is 20/70 or worse in the better eye with correction, or whose field of vision is 50 degrees or less.",
+   "next_step": "Fill out the application on the bureau’s website, or call or email for help with it.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "702-486-0277",
+   "phone_note": "As listed on Time To Be Bold; also 702-486-0365",
+   "email": "bsbvinvhelp@detr.nv.gov",
+   "web": "https://vrnevada.nv.gov/bsbvi/",
+   "url": "https://www.timetobebold.org/nevada",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "nh-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in New Hampshire",
+   "org": "New Hampshire Services for the Blind and Vision Impaired",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is New Hampshire’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the New Hampshire Services for the Blind and Vision Impaired. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People whose vision is 20/50 or worse in the better eye, or who have lost more than 40 percent of their field of vision, or who have a functional vision loss stated by an eye doctor.",
+   "next_step": "Call or email for a large-print or emailed application, and send it with an eye report.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-800-581-6881",
+   "phone_note": "As listed on Time To Be Bold; also 603-271-3537",
+   "email": null,
+   "web": "https://www.education.nh.gov/who-we-are/deputy-commissioner/bureau-vocational-rehabilitation/programs-and-services/services-blind-and-vision-impaired",
+   "url": "https://www.timetobebold.org/new-hampshire",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "nj-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in New Jersey",
+   "org": "New Jersey Commission for the Blind and Visually Impaired (Independent Living Program)",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is New Jersey’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the New Jersey Commission for the Blind and Visually Impaired (Independent Living Program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People who are legally blind or whose vision is 20/70 or worse in the better eye with correction, and whose vision loss causes problems in daily life.",
+   "next_step": "Call the main line or your local office. Have your name, phone, address with county and ZIP code, and an eye report from the past year showing your vision and diagnosis.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "877-685-8878",
+   "phone_note": "As listed on Time To Be Bold; also 973-648-3333",
+   "email": "AskCBVI@dhs.nj.gov",
+   "web": "https://www.nj.gov/humanservices/cbvi/home/",
+   "url": "https://www.timetobebold.org/new-jersey",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ny-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in New York",
+   "org": "New York State Commission for the Blind (OIB adaptive living program)",
+   "state": "NY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is New York’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the New York State Commission for the Blind (OIB adaptive living program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People over 55 who are not seeking work.",
+   "next_step": "Contact your local Commission for the Blind district office. It helps with eligibility and paperwork, which includes an application and a report of legal blindness.",
+   "constraints": [
+    "The state page lists eight district offices and local providers by county.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-866-871-6000",
+   "phone_note": "Toll-free and TDD, as listed on Time To Be Bold",
+   "email": null,
+   "web": "https://ocfs.ny.gov/programs/nyscb/programs/independent-living.php",
+   "url": "https://www.timetobebold.org/new-york",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "nc-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in North Carolina",
+   "org": "Independent Living Services for Older Individuals who are Blind (OIB)",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is North Carolina’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Find your county on the North Carolina page and call the district office that serves it. The page lists seven: Asheville, Charlotte, Fayetteville, Greenville, Raleigh, Wilmington and Winston.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/north-carolina",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Contact details for each local office or provider are on the Time To Be Bold page for North Carolina."
+  },
+  {
+   "id": "nd-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in North Dakota",
+   "org": "North Dakota Health and Human Services Vocational Rehabilitation (OIB program)",
+   "state": "ND",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is North Dakota’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the North Dakota Health and Human Services Vocational Rehabilitation (OIB program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older with a visual impairment who are not working or looking for work and who live in their own home or another independent setting, not a nursing home. Services are free, though some devices may cost a little.",
+   "next_step": "Call, email or send the online referral form, which takes one to two business days to process. Staff then schedule a visit at your home.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-800-755-2745",
+   "phone_note": "Statewide program contact as listed on Time To Be Bold",
+   "email": "dhsvr@nd.gov",
+   "web": "https://www.hhs.nd.gov/vr/vision-services",
+   "url": "https://www.timetobebold.org/north-dakota",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ok-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Oklahoma",
+   "org": "Oklahoma Services for the Blind and Visually Impaired (Older Blind Independent Living Program)",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Oklahoma’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Oklahoma Services for the Blind and Visually Impaired (Older Blind Independent Living Program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older who are legally blind and want to keep or regain their independence. Eligibility does not depend on income.",
+   "next_step": "Call for an appointment; staff help you fill out the application and can arrange a ride. Bring a photo ID, your insurance or Medicare card and your latest eye report if you have one.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-845-8476",
+   "phone_note": "Toll-free, as listed on Time To Be Bold; main office 405-951-3400",
+   "email": null,
+   "web": "https://oklahoma.gov/okdrs/independence/sbvi/obil.html",
+   "url": "https://www.timetobebold.org/oklahoma",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "or-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Oregon",
+   "org": "Oregon Commission for the Blind (Independent Living Program)",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Oregon’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Oregon Commission for the Blind (Independent Living Program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People 55 and older whose severe vision loss keeps them from staying independent. Teachers come to your home.",
+   "next_step": "Call, email or send the referral form on the commission’s website. No other documentation is required.",
+   "constraints": [
+    "The state page lists five local offices.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-888-202-5463",
+   "phone_note": "Toll-free, as listed on Time To Be Bold; Portland headquarters 971-673-1588",
+   "email": "ocb.mail@ocb.oregon.gov",
+   "web": "https://www.oregon.gov/blind/individual-programs/Pages/independent-living.aspx",
+   "url": "https://www.timetobebold.org/oregon",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "pa-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Pennsylvania",
+   "org": "Pennsylvania Bureau of Blindness and Visual Services (BBVS)",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Pennsylvania’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Pennsylvania Bureau of Blindness and Visual Services (BBVS). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Send a referral form; you are assigned to a district office, fill out an application and social work staff decide eligibility. You need an eye examination report completed by a physician.",
+   "constraints": [
+    "The state page lists six district offices.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-442-6351",
+   "phone_note": "Toll-free, as listed on Time To Be Bold; TTY 866-830-7327",
+   "email": null,
+   "web": null,
+   "url": "https://www.timetobebold.org/pennsylvania",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "ri-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Rhode Island",
+   "org": "Rhode Island Services for the Blind and Visually Impaired (Older Blind Independent Living Program)",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Rhode Island’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Rhode Island Services for the Blind and Visually Impaired (Older Blind Independent Living Program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Rhode Islanders whose vision is 20/60 or worse in the better eye with correction, or whose field of vision is 20 degrees or less.",
+   "next_step": "Anyone can refer you or you can apply yourself by calling intake, by email or by fax.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "401-462-7908",
+   "phone_note": "Referrals and intake, as listed on Time To Be Bold; main line 401-222-2300",
+   "email": "ors.sbviinfo@ors.ri.gov",
+   "web": "https://ors.ri.gov/programs/services-blind-and-visually-impaired",
+   "url": "https://www.timetobebold.org/rhode-island",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "vt-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Vermont",
+   "org": "Vermont Association for the Blind and Visually Impaired (VABVI)",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Vermont’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Vermont Association for the Blind and Visually Impaired (VABVI). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. The page does not say who qualifies; ask when you contact the program.",
+   "next_step": "Call or mail a referral; you, a relative, a friend or a doctor can make it. An instructor then schedules a home visit and a low vision check.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-639-5861",
+   "phone_note": "Ask for extension 214, the intake coordinator, as listed on Time To Be Bold",
+   "email": null,
+   "web": "https://www.vabvi.org/",
+   "url": "https://www.timetobebold.org/vermont",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "va-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Virginia",
+   "org": "Virginia Department for the Blind and Vision Impaired (DBVI) rehabilitation teaching and independent living services",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Virginia’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Virginia Department for the Blind and Vision Impaired (DBVI) rehabilitation teaching and independent living services. According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People with a severe visual disability that gets in the way of living independently. A rehabilitation teacher assesses your vision at the first visit; an eye report is preferred.",
+   "next_step": "Contact the regional office for your area (Richmond, Staunton, Roanoke, Fairfax, Bristol or Norfolk). An intake specialist interviews you by phone and can help you get an eye report.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-622-2155",
+   "phone_note": "Toll-free, as listed on Time To Be Bold; main line 804-371-3140",
+   "email": null,
+   "web": "https://www.dbvi.virginia.gov/",
+   "url": "https://www.timetobebold.org/virginia",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "wa-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Washington",
+   "org": "Washington State Department of Services for the Blind (Independent Living Program)",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Washington’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Washington State Department of Services for the Blind (Independent Living Program). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People with a severe vision impairment that significantly affects independent living. No documentation is required.",
+   "next_step": "Call or use the online request. You are connected with an independent living provider, who decides eligibility. Training sessions usually take place at home, and services and devices are free.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "800-552-7103",
+   "phone_note": "As listed on Time To Be Bold",
+   "email": "info@dsb.wa.gov",
+   "web": "https://dsb.wa.gov/",
+   "url": "https://www.timetobebold.org/washington",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "wi-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Wisconsin",
+   "org": "Wisconsin Office for the Blind and Visually Impaired (OBVI)",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Wisconsin’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, run by the Wisconsin Office for the Blind and Visually Impaired (OBVI). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: Wisconsin residents 18 and older whose vision is 20/70 or worse in the better eye with correction, or whose field of vision or a progressive condition gets in the way of daily living. No documentation is required.",
+   "next_step": "Contact the rehabilitation specialist for your county to start an assessment.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "1-888-879-0017",
+   "phone_note": "Toll-free, as listed on Time To Be Bold",
+   "email": null,
+   "web": "https://www.dhs.wisconsin.gov/obvi/index.htm",
+   "url": "https://www.timetobebold.org/wisconsin",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "wy-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in Wyoming",
+   "org": "Wyoming older blind program (vision outreach)",
+   "state": "WY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "This is Wyoming’s program under the federal Independent Living Services for Older Individuals who are Blind (OIB) grant, called the Wyoming older blind program (vision outreach). According to Time To Be Bold, these services often include training in making the most of remaining vision, using magnifiers and other devices, using phones and computers, staying safe and organized at home and getting around the community. Who qualifies, according to the state page: People with a vision condition that affects daily life, shown in an eye report.",
+   "next_step": "Call or email and send your latest eye report; staff can help you get it. Once you qualify you are added to the visit list.",
+   "constraints": [
+    "The state page lists five regional contacts.",
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "307-856-5652",
+   "phone_note": "As listed on Time To Be Bold",
+   "email": "wde-vision-outreach@wyo.gov",
+   "web": "https://edu.wyoming.gov/parents/special-education/vision-outreach/",
+   "url": "https://www.timetobebold.org/wyoming",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "us-older-blind-programs",
+   "name": "Time To Be Bold: find independent living help for older adults with vision loss in your state",
+   "org": "Older Individuals who are Blind Technical Assistance Center (Mississippi State University)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "sensory",
+   "description": "Every state receives federal money for independent living services for people 55 and older who are blind or have low vision and do not have a goal of work. Time To Be Bold, run by the national technical assistance center for these programs, has a page for each state with who to contact. Services often include training in using remaining vision, magnifiers and other devices, phones and computers, and getting around safely.",
+   "next_step": "Choose your state on the Time To Be Bold site and contact the program listed. If you are not sure where to start, Time To Be Bold suggests calling Hadley at 800-323-4238.",
+   "constraints": [
+    "If you want to keep or find a job, ask your state about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.timetobebold.org/services-near-you",
+   "url": "https://www.timetobebold.org/services-near-you",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind",
+    "older"
+   ],
+   "contact_how": "Choose your state on the Time To Be Bold site.",
+   "hide_if_state_has": "-older-blind-program"
+  },
+  {
+   "id": "us-mgfa-helpline",
+   "name": "Myasthenia Gravis Foundation of America Helpline",
+   "org": "Myasthenia Gravis Foundation of America (MGFA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "Professional counselors answer questions about living with myasthenia gravis, give emotional support and point callers to resources. MGFA also runs MG Friends, free peer support by phone, text, video or email from someone with similar needs, and lists support groups, including groups that meet online nationwide.",
+   "next_step": "Call the helpline with your questions. To be matched with an MG Friend, call the main line or email MGFA.",
+   "constraints": [
+    "Helpline hours vary; check the MGFA site for current and holiday hours."
+   ],
+   "phone": "1-833-647-8764",
+   "phone_note": "MGFA Helpline; main office 1-800-541-5454",
+   "email": "mgfa@myasthenia.org",
+   "web": "https://myasthenia.org/mgfa-helpline/",
+   "url": "https://myasthenia.org/mgfa-helpline/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-pwsa-family-support",
+   "name": "Prader-Willi Syndrome Association (USA): 24-hour family support line",
+   "org": "Prader-Willi Syndrome Association (USA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The association’s family support team answers a line 24 hours a day, every day of the year, including holidays, for families facing medical or behavioral emergencies related to Prader-Willi syndrome. The team also supports families from the newborn intensive care unit through adulthood, including school and guardianship questions, and offers grief support and connections with other families.",
+   "next_step": "In an emergency, call the line and say it is urgent. For other questions, email or call during office hours.",
+   "constraints": [
+    "The office is open Monday to Friday, 9 a.m. to 5 p.m. Eastern; the support line answers at all hours."
+   ],
+   "phone": "941-312-0400",
+   "phone_note": "24-hour support and crisis line",
+   "email": "info@pwsausa.org",
+   "web": "https://www.pwsausa.org/family-support/",
+   "url": "https://www.pwsausa.org/family-support/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "children"
+   ]
+  },
+  {
+   "id": "us-fragile-x-foundation",
+   "name": "National Fragile X Foundation: questions and local support",
+   "org": "National Fragile X Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The foundation answers questions about fragile X syndrome and related conditions (FXTAS and FXPOI). Its Community Support Network lists chapters, community partners and volunteer parents who talk with families who are new to fragile X.",
+   "next_step": "Call or send a message; for treatment and support questions, email the treatment address. Use the Community Support Network to find a chapter or volunteer near you.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 5 p.m. Eastern."
+   ],
+   "phone": "800-688-8765",
+   "phone_note": "Toll-free",
+   "email": "treatment@fragilex.org",
+   "web": "https://fragilex.org/get-involved/community/csn/",
+   "url": "https://fragilex.org/living-with-fragile-x/personal-support/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "children"
+   ]
+  },
+  {
+   "id": "us-cerebral-palsy-foundation",
+   "name": "Cerebral Palsy Foundation: information and support",
+   "org": "Cerebral Palsy Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The Cerebral Palsy Foundation has a line for information and support for people with cerebral palsy and their families. Its CPResource.org site is meant to help with decisions along the way.",
+   "next_step": "Call or email with your question.",
+   "constraints": [
+    "Lines are open Monday to Friday, 9 a.m. to 1 p.m. and 2 to 5 p.m."
+   ],
+   "phone": "212-520-1686",
+   "phone_note": "For information and support",
+   "email": "info@yourcpf.org",
+   "web": "https://www.yourcpf.org/contact/",
+   "url": "https://www.yourcpf.org/contact/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "children"
+   ]
+  },
+  {
+   "id": "us-national-aphasia-association",
+   "name": "National Aphasia Association: find aphasia groups and services",
+   "org": "National Aphasia Association (NAA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The National Aphasia Association serves people with aphasia and their care partners. Its provider directory lists support groups, conversation groups, care partner groups and therapy services, and the association runs its own virtual groups, including groups for young adults and for people with primary progressive aphasia.",
+   "next_step": "Search the provider directory for groups near you or online, or email the association and a team member will reply.",
+   "constraints": [
+    "The association answers by email and contact form; no phone line is listed.",
+    "Groups in the directory are run by many different organizations, each with its own schedule."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": "answers@aphasia.org",
+   "web": "https://aphasia.org/i-have-aphasia/",
+   "url": "https://aphasia.org/i-have-aphasia/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "brain_injury",
+    "chronic"
+   ],
+   "contact_how": "Email the association or use the contact form on its website."
+  },
+  {
+   "id": "us-rett-syndrome-foundation",
+   "name": "International Rett Syndrome Foundation: family support and clinics",
+   "org": "International Rett Syndrome Foundation (IRSF)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "IRSF supports families living with Rett syndrome and recognizes 21 clinics across the country as Centers of Excellence for Rett care. Its families section has resources for newly diagnosed and long-time families.",
+   "next_step": "Call and ask about family support, or use the clinic finder to locate the nearest Center of Excellence.",
+   "constraints": [
+    "Clinics are in some states only; IRSF also offers material to help your local doctor."
+   ],
+   "phone": "800-818-7388",
+   "phone_note": "800-818-RETT; also (513) 874-3020",
+   "email": null,
+   "web": "https://www.rettsyndrome.org/about-irsf/contact-us/",
+   "url": "https://www.rettsyndrome.org/about-irsf/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "children"
+   ]
+  },
+  {
+   "id": "us-angelman-syndrome-foundation",
+   "name": "Angelman Syndrome Foundation: family support",
+   "org": "Angelman Syndrome Foundation (ASF)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The foundation supports families of people with Angelman syndrome. Volunteer Family Champions, parents who have been through it, talk with other families, including families of adults, and families can ask to be contacted by another family. The ASF Family Fund opens for applications at set times each year.",
+   "next_step": "Call or email the office, or register to be contacted by a family member who can answer questions.",
+   "constraints": [
+    "Family Fund applications open only during set windows; check the site."
+   ],
+   "phone": "800-432-6435",
+   "phone_note": "ASF office",
+   "email": "info@angelman.org",
+   "web": "https://angelman.org/contact/",
+   "url": "https://angelman.org/contact/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "children"
+   ]
+  },
+  {
+   "id": "us-williams-syndrome-association",
+   "name": "Williams Syndrome Association: family support network",
+   "org": "Williams Syndrome Association (WSA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The association supports people with Williams syndrome and their families. Its Family Support Network has volunteer parents and grandparents in each state who share local resources and host gatherings, and staff can help families get started after a diagnosis.",
+   "next_step": "Call the toll-free line or email, or open Local Connections to find the volunteers for your state.",
+   "constraints": [
+    "Volunteers differ from state to state."
+   ],
+   "phone": "800-806-1871",
+   "phone_note": "Toll-free; also 248-244-2229",
+   "email": "info@williams-syndrome.org",
+   "web": "https://www.williams-syndrome.org/contact-us",
+   "url": "https://www.williams-syndrome.org/contact-us",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "idd",
+    "children"
+   ]
+  },
+  {
+   "id": "us-parent-project-muscular-dystrophy",
+   "name": "Parent Project Muscular Dystrophy: Duchenne and Becker family support",
+   "org": "Parent Project Muscular Dystrophy (PPMD)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "PPMD supports families affected by Duchenne and Becker muscular dystrophy. Its Connect groups, led by volunteer parents and grandparents in more than 25 states, are local points of contact, and PPMD holds virtual meet-and-greets for recently diagnosed families and groups for dads, grandparents and siblings.",
+   "next_step": "Call PPMD or email the Connect program to be put in touch with a coordinator in your area.",
+   "constraints": [
+    "Connect groups are in some states, not all."
+   ],
+   "phone": "800-714-5437",
+   "phone_note": "PPMD main line",
+   "email": "connect@parentprojectmd.org",
+   "web": "https://www.parentprojectmd.org/get-involved/connect/find-a-local-connect-group-2/",
+   "url": "https://www.parentprojectmd.org/get-involved/connect/find-a-local-connect-group-2/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility",
+    "children",
+    "chronic"
+   ]
   }
  ]
 }
