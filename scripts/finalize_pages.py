@@ -57,6 +57,15 @@ for name in PAGES:
     t=t.replace("</head>",block+"</head>",1);p.write_text(t)
 STATE_PAGES=sorted(f'states/{q.name}' for q in (ROOT/'states').glob('*.html') if q.name!='index.html')
 ALL=PAGES+['states/index.html']+STATE_PAGES
+# Visit counts: every page reports to the shared GoatCounter dashboard under /mobilitytalk.org/... paths,
+# so this site never mixes with the others there. No cookies; query strings are dropped.
+COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobilitytalk.org"+location.pathname},'
+         'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
+         '<script data-goatcounter="https://travisvought.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
+for name in ALL+['404.html']:
+    p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
+    assert t.count('</head>')==1,name
+    p.write_text(t.replace('</head>',COUNTER+'</head>',1))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
 print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages, sitemap.xml and robots.txt.')
