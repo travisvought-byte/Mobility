@@ -66107,25 +66107,25 @@
   },
   {
    "id": "co-mental-health-agency",
-   "name": "Colorado Department of Human Services, Office of Behavioral Health: state mental health agency for Colorado",
-   "org": "Colorado Department of Human Services, Office of Behavioral Health",
+   "name": "Colorado Behavioral Health Administration: state mental health agency for Colorado",
+   "org": "Colorado Behavioral Health Administration (BHA)",
    "state": "CO",
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "SAMHSA lists this as the state mental health agency for Colorado. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
-   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "description": "The Behavioral Health Administration describes itself as the state administration responsible for making sure people in Colorado can get quality mental health and substance use services, wherever they live and whatever they can pay. Its Colorado LIFTS directory lets you search for a service, and staff can guide you by phone. SAMHSA’s 2024 directory still lists the Department of Human Services’ Office of Behavioral Health at the same phone number.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
    "constraints": [
     "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
-    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+    "In Colorado you can also text 988 or chat at 988Colorado.com."
    ],
    "phone": "303-866-7400",
-   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
-   "email": "cdhs.communications@state.co.us",
-   "web": null,
-   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "phone_note": "As listed on the administration’s contact page",
+   "email": "cdhs_bha@state.co.us",
+   "web": "https://bha.colorado.gov/",
+   "url": "https://bha.colorado.gov/help/contact-us",
    "reviewed_on": "2026-11-16",
-   "record_status": "directory_listed",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "mental_health"
@@ -66321,19 +66321,18 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "SAMHSA lists this as the state mental health agency for Idaho. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
-   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "description": "Idaho’s Department of Health and Welfare runs the state’s public mental health services for adults and children. According to the department, Magellan of Idaho manages the Idaho Behavioral Health Plan, which coordinates behavioral health care.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
    "constraints": [
-    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
-    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+    "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out."
    ],
-   "phone": "208-334-6997",
-   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "phone": "855-202-0973",
+   "phone_note": "Mental health services for adults and children, as listed on the department’s service locations page; SAMHSA’s directory lists 208-334-6997",
    "email": null,
-   "web": null,
-   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "web": "https://healthandwelfare.idaho.gov/offices",
+   "url": "https://healthandwelfare.idaho.gov/offices",
    "reviewed_on": "2026-11-16",
-   "record_status": "directory_listed",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "mental_health"
@@ -67024,15 +67023,16 @@
    "counties": [],
    "category": "crisis",
    "description": "SAMHSA lists this as the state mental health agency for Pennsylvania. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
-   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
    "constraints": [
     "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "In Pennsylvania, community mental health services are run through county mental health offices; ask which office serves your county.",
     "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
    ],
    "phone": "717-787-6443",
    "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
    "email": null,
-   "web": null,
+   "web": "https://www.pa.gov/agencies/dhs/departments-offices/omhsas-info",
    "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
    "reviewed_on": "2026-11-16",
    "record_status": "directory_listed",
@@ -67153,19 +67153,19 @@
    "scope": "statewide",
    "counties": [],
    "category": "crisis",
-   "description": "SAMHSA lists this as the state mental health agency for Tennessee. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
-   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "description": "The Tennessee Department of Mental Health and Substance Abuse Services runs services for people of all ages living with mental illness, co-occurring disorders or serious emotional disturbances, including housing, crisis services, suicide prevention and peer recovery. Its helpline takes calls from people with concerns about themselves or a loved one.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
    "constraints": [
     "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
-    "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
+    "For free, confidential referrals to addiction treatment, call or text the Tennessee REDLINE at 800-889-9789."
    ],
    "phone": "800-560-5767",
-   "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
+   "phone_note": "Helpline, Monday to Friday 8 a.m. to 4:30 p.m., as listed on the department’s contact page",
    "email": "OCA.TDMHSAS@tn.gov",
-   "web": null,
-   "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
+   "web": "https://www.tn.gov/behavioral-health.html",
+   "url": "https://www.tn.gov/behavioral-health/who-we-are/contact.html",
    "reviewed_on": "2026-11-16",
-   "record_status": "directory_listed",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "mental_health"
@@ -67180,15 +67180,16 @@
    "counties": [],
    "category": "crisis",
    "description": "SAMHSA lists this as the state mental health agency for Texas. Each state’s agency oversees mental health treatment programs, and according to SAMHSA it can give more information about treatment services offered in the state and about how treatment facilities are licensed.",
-   "next_step": "Call the agency and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
+   "next_step": "Call or visit the agency’s website and ask how to find public mental health services where you live, such as a community mental health center, and what help there is if you have no insurance or are on Medicaid.",
    "constraints": [
     "In a mental health crisis, call or text 988, or chat at 988lifeline.org. You do not need to be suicidal to reach out.",
+    "Texas HHS points people to their local mental health authority or local behavioral health authority; its behavioral health page has a finder.",
     "This listing comes from SAMHSA’s 2024 national directory; the agency’s name, number or website may have changed since."
    ],
    "phone": "512-424-6500",
    "phone_note": "As listed in SAMHSA’s 2024 National Directory of Mental Health Treatment Facilities",
    "email": null,
-   "web": null,
+   "web": "https://www.hhs.texas.gov/about/process-improvement/improving-services-texans/behavioral-health-services",
    "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt53016/National%20Directory%20MH%202024.pdf",
    "reviewed_on": "2026-11-16",
    "record_status": "directory_listed",
@@ -67485,21 +67486,21 @@
    "scope": "statewide",
    "counties": [],
    "category": "housing",
-   "description": "Arkansas Development Finance Authority is listed by the National Council of State Housing Agencies as Arkansas’s housing finance agency. State housing finance agencies are state-chartered authorities that run a wide range of affordable housing programs, including financing affordable homes and rental apartments for lower- and middle-income households.",
-   "next_step": "Search for the agency by name and look for affordable rental listings, help for first-time home buyers, and home repair or accessibility programs, and ask what it offers for people with disabilities.",
+   "description": "The Arkansas Development Finance Authority is Arkansas’s state housing finance agency. It runs the StartSmart and Move-Up mortgage programs for home buyers and manages federal housing programs, including the Low-Income Housing Tax Credit, that finance affordable rental housing.",
+   "next_step": "Look on the agency’s website for affordable rental listings, help for first-time home buyers, and home repair or accessibility programs, and ask what it offers for people with disabilities.",
    "constraints": [
     "For rental vouchers and public housing, use the Public Housing Agency listing in this directory."
    ],
    "phone": null,
    "phone_note": null,
    "email": null,
-   "web": null,
-   "url": "https://www.ncsha.org/membership/hfa-members/",
+   "web": "https://adfa.arkansas.gov/",
+   "url": "https://adfa.arkansas.gov/category/industry-news/",
    "reviewed_on": "2026-11-16",
-   "record_status": "directory_listed",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [],
-   "contact_how": "NCSHA’s directory, linked here, lists the agency; search for it by name for contact details."
+   "contact_how": "Contact details are on the agency’s website."
   },
   {
    "id": "ca-housing-finance-agency",
@@ -67701,21 +67702,20 @@
    "scope": "statewide",
    "counties": [],
    "category": "housing",
-   "description": "Hawaiʻi Housing Finance and Development Corporation is listed by the National Council of State Housing Agencies as Hawaii’s housing finance agency. State housing finance agencies are state-chartered authorities that run a wide range of affordable housing programs, including financing affordable homes and rental apartments for lower- and middle-income households.",
-   "next_step": "Search for the agency by name and look for affordable rental listings, help for first-time home buyers, and home repair or accessibility programs, and ask what it offers for people with disabilities.",
+   "description": "The Hawaiʻi Housing Finance and Development Corporation is the main agency overseeing affordable housing finance and development in Hawaii. State housing finance agencies are state-chartered authorities that run a wide range of affordable housing programs, including financing affordable homes and rental apartments for lower- and middle-income households.",
+   "next_step": "Look on the agency’s website for affordable rental listings, help for first-time home buyers, and home repair or accessibility programs, and ask what it offers for people with disabilities.",
    "constraints": [
     "For rental vouchers and public housing, use the Public Housing Agency listing in this directory."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "808-587-0620",
+   "phone_note": "Main line, as listed on the corporation’s contact page; if a recording answers, leave a detailed message",
    "email": null,
-   "web": null,
-   "url": "https://www.ncsha.org/membership/hfa-members/",
+   "web": "https://dbedt.hawaii.gov/hhfdc/about/",
+   "url": "https://dbedt.hawaii.gov/hhfdc/contact-us/",
    "reviewed_on": "2026-11-16",
-   "record_status": "directory_listed",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
-   "audience": [],
-   "contact_how": "NCSHA’s directory, linked here, lists the agency; search for it by name for contact details."
+   "audience": []
   },
   {
    "id": "id-housing-finance-agency",
@@ -69138,6 +69138,105 @@
    "web": "https://disid.guam.gov/division-of-vocational-rehabilitation/",
    "url": "https://disid.guam.gov/division-of-vocational-rehabilitation/",
    "record_status": "official_search_extract_only",
+   "audience": [
+    "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "pr-cil-directory",
+   "name": "Centers for Independent Living in Puerto Rico",
+   "org": "Federally funded Centers for Independent Living",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "independent_living",
+   "description": "Disability-led centers that help with equipment, home access, peer support, advocacy and moving from a facility back to the community. Federally funded centers listed for Puerto Rico: Movimiento para el Alcance de Vida Independiente (MAVI) (San Juan, 787-758-7901); Centro Pro Vida Independiente (Ponce, 787-848-5240).",
+   "next_step": "Call the center nearest you, say what you need (ramp, equipment, peer support) and ask which areas it serves.",
+   "constraints": [
+    "Service areas differ by center; ask which municipalities each one serves.",
+    "Federal list covers Part C centers only; some places also have other centers."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://mavi-pr.org/",
+   "url": "https://acl.gov/programs/centers-independent-living/list-cils-and-spils",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "contact_how": "Phone numbers for each center are in the description."
+  },
+  {
+   "id": "mp-cil-directory",
+   "name": "Centers for Independent Living in the Northern Mariana Islands",
+   "org": "Federally funded Centers for Independent Living",
+   "state": "MP",
+   "scope": "statewide",
+   "counties": [],
+   "category": "independent_living",
+   "description": "Disability-led centers that help with equipment, home access, peer support, advocacy and moving from a facility back to the community. Federally funded centers listed for the Northern Mariana Islands: Center for Living Independently in the CNMI (Saipan, 670-322-4303).",
+   "next_step": "Call the center nearest you, say what you need (ramp, equipment, peer support) and ask which areas it serves.",
+   "constraints": [
+    "Federal list covers Part C centers only; some places also have other centers."
+   ],
+   "phone": "670-322-4303",
+   "phone_note": "As listed in ACL’s list of Centers for Independent Living",
+   "email": null,
+   "web": "https://clicnmi.org/",
+   "url": "https://acl.gov/programs/centers-independent-living/list-cils-and-spils",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "as-cil-directory",
+   "name": "Centers for Independent Living in American Samoa",
+   "org": "Federally funded Centers for Independent Living",
+   "state": "AS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "independent_living",
+   "description": "Disability-led centers that help with equipment, home access, peer support, advocacy and moving from a facility back to the community. Federally funded centers listed for American Samoa: independent living services through the Division of Vocational Rehabilitation (Pago Pago, 684-699-5998).",
+   "next_step": "Call the center nearest you, say what you need (ramp, equipment, peer support) and ask which areas it serves.",
+   "constraints": [
+    "Other directories list other numbers for this center; if this one does not answer, ask the vocational rehabilitation office.",
+    "Federal list covers Part C centers only; some places also have other centers."
+   ],
+   "phone": "684-699-5998",
+   "phone_note": "As listed in ACL’s list of Centers for Independent Living",
+   "email": null,
+   "web": null,
+   "url": "https://acl.gov/programs/centers-independent-living/list-cils-and-spils",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "vi-older-blind-program",
+   "name": "Independent living help for older adults with vision loss in the U.S. Virgin Islands",
+   "org": "Virgin Islands Department of Human Services, Division of Disabilities and Rehabilitation Services",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "The Virgin Islands Department of Human Services’ Division of Disabilities and Rehabilitation Services runs the federal independent living program for older people who are blind (OIB). It gives support services to people 55 and older whose severe visual impairment makes getting a job difficult but who can reach independent living goals.",
+   "next_step": "Call the division and ask about independent living services for older adults who are blind or have low vision.",
+   "constraints": [
+    "Under the federal program these services are meant for people 55 and older who are not looking for work. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
+   ],
+   "phone": "340-774-0930",
+   "phone_note": "Division of Disabilities and Vocational Rehabilitation Services, as listed in the AskJAN directory",
+   "email": null,
+   "web": "https://dhs.vi.gov/disabilities-rehabilation/",
+   "url": "https://dhs.vi.gov/disabilities-rehabilation/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
    "audience": [
     "blind",
     "older"
