@@ -51667,7 +51667,8 @@
    "origin": "data/added-programs.json",
    "audience": [
     "children"
-   ]
+   ],
+   "hide_if_state_has": "-parent-center"
   },
   {
    "id": "us-711-relay",
@@ -63565,6 +63566,1350 @@
     "mobility",
     "children",
     "chronic"
+   ]
+  },
+  {
+   "id": "al-parent-center",
+   "name": "Alabama Parent Education Center (APEC): help for families of children with disabilities in Alabama",
+   "org": "Alabama Parent Education Center (APEC)",
+   "state": "AL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed by the national Parent Center network as Alabama’s Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "866-532-7660",
+   "phone_note": "Toll-free in Alabama, as listed on the center’s contact page; main number 334-567-2252",
+   "email": "apec@alabamaparentcenter.com",
+   "web": "https://alabamaparentcenter.com/about/staff.php",
+   "url": "https://alabamaparentcenter.com/about/staff.php",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ak-parent-center",
+   "name": "Stone Soup Group: help for families of children with disabilities in Alaska",
+   "org": "Stone Soup Group",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as Alaska’s Parent Training and Information Center, based in Anchorage.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "877-786-7327",
+   "phone_note": "Toll-free in Alaska, as listed on the national Parent Center map; also 907-561-3701",
+   "email": "info@stonesoupgroup.org",
+   "web": "https://www.stonesoupgroup.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=2",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ak-parent-center-2",
+   "name": "LINKS Mat-Su Parent Resource Center: help for families of children with disabilities in Alaska",
+   "org": "LINKS Mat-Su Parent Resource Center",
+   "state": "AK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in Wasilla.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "A community parent resource center serves a particular community or region.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "907-373-3632",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": null,
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=2",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "az-parent-center",
+   "name": "Encircle Families (formerly Raising Special Kids): help for families of children with disabilities in Arizona",
+   "org": "Encircle Families (formerly Raising Special Kids)",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Arizona’s Parent Center. Its Family Support Specialists help at no charge, and it has offices in Phoenix, Tucson and Yuma.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-237-3007",
+   "phone_note": "Family Support Specialists, as listed on the center’s site; Phoenix office 602-242-4366",
+   "email": "info@encirclefamilies.org",
+   "web": "https://raisingspecialkids.org/",
+   "url": "https://m.raisingspecialkids.org/start-here/for-parents-and-families",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ar-parent-center",
+   "name": "The Center for Exceptional Families: help for families of children with disabilities in Arkansas",
+   "org": "The Center for Exceptional Families",
+   "state": "AR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as Arkansas’s Parent Training and Information Center, based in Jonesboro.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "888-360-9654",
+   "phone_note": "Toll-free, as listed on the national Parent Center map; also 870-336-3012",
+   "email": null,
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=4",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "co-parent-center",
+   "name": "PEAK Parent Center: help for families of children with disabilities in Colorado",
+   "org": "PEAK Parent Center",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as Colorado’s Parent Training and Information Center, based in Colorado Springs.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "719-531-9400",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": "info@peakparent.org",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=6",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "co-parent-center-2",
+   "name": "Show and Tell: help for families of children with disabilities in Colorado",
+   "org": "Show and Tell",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in Aurora.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "A community parent resource center serves a particular community or region.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "303-632-6840",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": null,
+   "web": "https://www.weshowandtell.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=6",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ct-parent-center",
+   "name": "Connecticut Parent Advocacy Center (CPAC): help for families of children with disabilities in Connecticut",
+   "org": "Connecticut Parent Advocacy Center (CPAC)",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as Connecticut’s Parent Training and Information Center, based in New London.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-445-2722",
+   "phone_note": "Toll-free in Connecticut, as listed on the national Parent Center map; also 860-739-3089",
+   "email": "cpac@cpacinc.org",
+   "web": "https://cpacinc.org/default.aspx",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=7",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ct-parent-center-2",
+   "name": "AFCAMP (Hartford–New Haven): help for families of children with disabilities in Connecticut",
+   "org": "AFCAMP (Hartford–New Haven)",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in Hartford.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "A community parent resource center serves a particular community or region.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "860-548-9959",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": "info@afcamp.org",
+   "web": "https://www.afcamp.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=7",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "de-parent-center",
+   "name": "Parent Information Center of Delaware (PIC): help for families of children with disabilities in Delaware",
+   "org": "Parent Information Center of Delaware (PIC)",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as Delaware’s Parent Training and Information Center, based in Wilmington.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "888-547-4412",
+   "phone_note": "Toll-free in Delaware, as listed on the national Parent Center map; Kent and Sussex counties 302-856-9880",
+   "email": "picofdel@picofdel.org",
+   "web": "https://picofdel.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=8",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "fl-parent-center",
+   "name": "Family Network on Disabilities: help for families of children with disabilities in Florida",
+   "org": "Family Network on Disabilities",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it holds the three Parent Training and Information Centers for Florida. You can call, text HELP to (650) 870-1729, or ask for a callback from a parent training coordinator.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-825-5736",
+   "phone_note": "As listed on the organization’s contact page; also 727-523-1130",
+   "email": null,
+   "web": "https://fndusa.org/",
+   "url": "https://fndusa.org/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "fl-parent-center-2",
+   "name": "Parent to Parent of Miami: help for families of children with disabilities in Florida",
+   "org": "Parent to Parent of Miami",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. A Parent Center in the national network for south Florida. It gives information, training and support to families of children and adults with disabilities.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "305-271-9797",
+   "phone_note": "As listed on the center’s contact page",
+   "email": "info@ptopmiami.org",
+   "web": "https://ptopmiami.org/about/contact-us/",
+   "url": "https://ptopmiami.org/about/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ga-parent-center",
+   "name": "Parent to Parent of Georgia: help for families of children with disabilities in Georgia",
+   "org": "Parent to Parent of Georgia",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Georgia’s Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-229-2038",
+   "phone_note": "As listed on the organization’s site",
+   "email": null,
+   "web": "https://www.p2pga.org/roadmap/advocacy/education-advocacy/",
+   "url": "https://www.p2pga.org/roadmap/advocacy/education-advocacy/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "hi-parent-center",
+   "name": "Learning Disabilities Association of Hawaii (LDAH): help for families of children with disabilities in Hawaii",
+   "org": "Learning Disabilities Association of Hawaii (LDAH)",
+   "state": "HI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A Hawaii organization that helps families navigate special education and disability services, with offices in Honolulu and Wai‘anae.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "808-536-9684",
+   "phone_note": "Honolulu main office, as listed on the center’s contact page; Ma‘ili office 808-696-5361",
+   "email": null,
+   "web": "https://www.ldahawaii.org/contact.html",
+   "url": "https://www.ldahawaii.org/contact.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "id-parent-center",
+   "name": "Idaho Parents Unlimited (IPUL): help for families of children with disabilities in Idaho",
+   "org": "Idaho Parents Unlimited (IPUL)",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "An Idaho organization that gives families of children with disabilities training, information and support in special education, health and children’s behavioral health.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "208-342-5884",
+   "phone_note": "As listed on the center’s site",
+   "email": "parents@ipulidaho.org",
+   "web": "https://ipulidaho.org/",
+   "url": "https://ipulidaho.org/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "il-parent-center",
+   "name": "Family Matters Parent Training and Information Center: help for families of children with disabilities in Illinois",
+   "org": "Family Matters Parent Training and Information Center",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Family Matters became Illinois’s Parent Training and Information Center on October 1, 2025, according to the center that held the role before it. It asks families to book appointments online and does not take drop-in visits.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "866-436-7842",
+   "phone_note": "As listed on the center’s contact page",
+   "email": "info@fmptic.org",
+   "web": "https://fmptic.org/who-we-are/contact.html",
+   "url": "https://fmptic.org/who-we-are/contact.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ks-parent-center",
+   "name": "Families Together: help for families of children with disabilities in Kansas",
+   "org": "Families Together",
+   "state": "KS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it has been Kansas’s federally designated Parent Training and Information Center since 1986.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-264-6343",
+   "phone_note": "English, as listed on the organization’s site; Spanish 800-499-9443",
+   "email": null,
+   "web": "https://familiestogetherinc.org/parent-training-information-center/",
+   "url": "https://familiestogetherinc.org/parent-training-information-center/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ky-parent-center",
+   "name": "KY-SPIN Parent Center: help for families of children with disabilities in Kentucky",
+   "org": "KY-SPIN Parent Center",
+   "state": "KY",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says its Parent Training and Information project is funded by the U.S. Department of Education and serves children and youth with all types of disabilities, birth through 26, at no fee.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-525-7746",
+   "phone_note": "As listed on the center’s site",
+   "email": null,
+   "web": "https://www.kyspin.com/pti-center/",
+   "url": "https://www.kyspin.com/pti-center/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "la-parent-center",
+   "name": "Families Helping Families of Greater New Orleans (Louisiana Parent Training and Information Center): help for families of children with disabilities in Louisiana",
+   "org": "Families Helping Families of Greater New Orleans (Louisiana Parent Training and Information Center)",
+   "state": "LA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. A resource list on the organization’s site describes it as the Louisiana Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The phone numbers come from a 2019 list; check the organization’s site if a number does not work.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-766-7736",
+   "phone_note": "As listed in a 2019 resource list on the organization’s site; also 504-888-9111",
+   "email": "info@fhfofgno.org",
+   "web": "https://fhfofgno.org/",
+   "url": "https://fhfofgno.org/wp-content/uploads/2019/10/10.7.2019-FHFofGNO-Autism-Resources.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "me-parent-center",
+   "name": "Maine Parent Federation: help for families of children with disabilities in Maine",
+   "org": "Maine Parent Federation",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Maine’s Parent Training and Information Center. Staff are parents of children with disabilities and give one-on-one help through a statewide toll-free line.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-870-7746",
+   "phone_note": "Statewide, as listed on the organization’s site",
+   "email": "parentconnect@mpf.org",
+   "web": "https://www.mpf.org/programs/pti/",
+   "url": "https://www.mpf.org/programs/pti/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "md-parent-center",
+   "name": "The Parents’ Place of Maryland: help for families of children with disabilities in Maryland",
+   "org": "The Parents’ Place of Maryland",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "The organization calls itself Maryland’s Special Education and Health Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-394-5694",
+   "phone_note": "As listed on the organization’s site; also 410-768-9100",
+   "email": null,
+   "web": "https://www.ppmd.org/",
+   "url": "https://www.ppmd.org/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ma-parent-center",
+   "name": "Federation for Children with Special Needs: help for families of children with disabilities in Massachusetts",
+   "org": "Federation for Children with Special Needs",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Massachusetts’s Parent Training and Information Center. Its Information Center answers special education questions from parents and professionals, staffed by trained volunteers and information specialists.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The Information Center is staffed 10 a.m. to 3 p.m., Monday to Friday, and replies within two business days.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-331-0688",
+   "phone_note": "Statewide, as listed on the organization’s site; main office 617-236-7210",
+   "email": "info@fcsn.org",
+   "web": "https://fcsn.org/pti/",
+   "url": "https://fcsn.org/pti/contact-pti/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "mi-parent-center",
+   "name": "Michigan Alliance for Families: help for families of children with disabilities in Michigan",
+   "org": "Michigan Alliance for Families",
+   "state": "MI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Michigan’s federally funded Parent Training and Information Center, an initiative funded by the Michigan Department of Education.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://www.michiganallianceforfamilies.org/our-partners/",
+   "url": "https://www.michiganallianceforfamilies.org/our-partners/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "contact_how": "Contact details are on the center’s website."
+  },
+  {
+   "id": "mn-parent-center",
+   "name": "PACER Center: help for families of children with disabilities in Minnesota",
+   "org": "PACER Center",
+   "state": "MN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. PACER gives one-on-one help to Minnesota families of children with disabilities, birth through 26, about special education and other disability issues. It prefers its online contact form.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-537-2237",
+   "phone_note": "As listed on the center’s site; also 952-838-9000",
+   "email": null,
+   "web": "https://www.pacer.org/ask-an-advocate/",
+   "url": "https://www.pacer.org/ask-an-advocate/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "mo-parent-center",
+   "name": "Missouri Parents Act (MPACT): help for families of children with disabilities in Missouri",
+   "org": "Missouri Parents Act (MPACT)",
+   "state": "MO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The state’s special education parent guide, posted on the organization’s site, names MPACT as Missouri’s Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-743-7634",
+   "phone_note": "As listed in the guide",
+   "email": "info@missouriparentsact.org",
+   "web": "https://missouriparentsact.org/",
+   "url": "https://missouriparentsact.org/wp-content/uploads/2021/03/The-Parents-Guide-to-Special-Education-January-2018_0.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ne-parent-center",
+   "name": "PTI Nebraska: help for families of children with disabilities in Nebraska",
+   "org": "PTI Nebraska",
+   "state": "NE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization describes itself as Nebraska’s resource for families of children and young adults with disabilities and special health care needs, with free information, training and individual support.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "web": "https://pti-nebraska.org/",
+   "url": "https://pti-nebraska.org/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ],
+   "contact_how": "Contact details are on the center’s website."
+  },
+  {
+   "id": "nv-parent-center",
+   "name": "Nevada PEP: help for families of children with disabilities in Nevada",
+   "org": "Nevada PEP",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "A Nevada organization that offers families statewide information, support and training on the IEP process and other topics.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-216-5188",
+   "phone_note": "As listed in a 2020 booklet on the organization’s site",
+   "email": null,
+   "web": null,
+   "url": "https://nvpep.org/wp-content/uploads/2020/06/Special-Education-What-Do-I-Need-to-Know-book.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "nh-parent-center",
+   "name": "Parent Information Center of New Hampshire: help for families of children with disabilities in New Hampshire",
+   "org": "Parent Information Center of New Hampshire",
+   "state": "NH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Since 1975 the center has given information, training and support to families of children with disabilities so they can take part in the special education process. You can call and speak with an educational specialist.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-947-7005",
+   "phone_note": "New Hampshire only, as listed on the center’s site; also 603-224-7005",
+   "email": "admin@picnh.org",
+   "web": "https://picnh.org/specialeducation/",
+   "url": "https://picnh.org/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "nm-parent-center",
+   "name": "Parents Reaching Out: help for families of children with disabilities in New Mexico",
+   "org": "Parents Reaching Out",
+   "state": "NM",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization is home to the New Mexico Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-524-5176",
+   "phone_note": "As listed in a publication on the organization’s site; also 505-247-0192",
+   "email": null,
+   "web": "https://parentsreachingout.org/",
+   "url": "https://parentsreachingout.org/wp-content/uploads/2022/02/Lets-Begin-the-Journey-2020.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "nc-parent-center",
+   "name": "Exceptional Children’s Assistance Center (ECAC): help for families of children with disabilities in North Carolina",
+   "org": "Exceptional Children’s Assistance Center (ECAC)",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is North Carolina’s designated Parent Training and Information Center, serving families of children from birth to 26 with special needs.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-962-6817",
+   "phone_note": "Parent educators, as listed on the center’s site",
+   "email": null,
+   "web": "https://www.ecac-parentcenter.org/parent-training-and-information-center-pti/",
+   "url": "https://www.ecac-parentcenter.org/parent-training-and-information-center-pti/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "oh-parent-center",
+   "name": "Ohio Coalition for the Education of Children with Disabilities (OCECD): help for families of children with disabilities in Ohio",
+   "org": "Ohio Coalition for the Education of Children with Disabilities (OCECD)",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Ohio’s Parent Training and Information Center, funded by the U.S. Department of Education, and serves families of infants, toddlers, children and youth with disabilities across Ohio.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "844-382-5452",
+   "phone_note": "As listed on the organization’s site; also 740-382-5452",
+   "email": null,
+   "web": "https://www.ocecd.org/trainings1.aspx",
+   "url": "https://www.ocecd.org/trainings1.aspx",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ok-parent-center",
+   "name": "Oklahoma Parents Center: help for families of children with disabilities in Oklahoma",
+   "org": "Oklahoma Parents Center",
+   "state": "OK",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Oklahoma’s federally funded Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The office is open 8 a.m. to 5 p.m., Monday to Friday.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "877-553-4332",
+   "phone_note": "Toll-free, as listed on the center’s contact page; also 405-379-6015",
+   "email": "info@oklahomaparentscenter.org",
+   "web": "https://oklahomaparentscenter.org/contact-us/",
+   "url": "https://oklahomaparentscenter.org/contact-us/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "or-parent-center",
+   "name": "FACT Oregon: help for families of children with disabilities in Oregon",
+   "org": "FACT Oregon",
+   "state": "OR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Oregon’s Parent Training and Information Center. Its support line is staffed by parents of youth with disabilities, and you can call or text.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "503-786-6082",
+   "phone_note": "Call or text, as listed on the organization’s site; also 541-695-5416, toll-free 888-988-3228",
+   "email": "support@factoregon.org",
+   "web": "https://factoregon.org/fact-support-line",
+   "url": "https://factoregon.org/fact-support-line",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "pa-parent-center",
+   "name": "PEAL Center (Parent Education & Advocacy Leadership Center): help for families of children with disabilities in Pennsylvania",
+   "org": "PEAL Center (Parent Education & Advocacy Leadership Center)",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. A Pennsylvania Parent Center that gives individual help by phone, email or in person to families of children and youth with disabilities, including help understanding the special education process and their rights.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "The same sheet lists Pennsylvania’s state Special Education ConsultLine, 800-879-2301, for questions about a school-aged child’s education.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "866-950-1040",
+   "phone_note": "As listed in a resource sheet on the center’s site",
+   "email": null,
+   "web": "https://pealcenter.org/",
+   "url": "https://pealcenter.org/file_download/inline/e8548453-f9d1-44a2-8d66-f680d60da5e8",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ri-parent-center",
+   "name": "Rhode Island Parent Information Network (RIPIN): help for families of children with disabilities in Rhode Island",
+   "org": "Rhode Island Parent Information Network (RIPIN)",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. RIPIN runs Rhode Island’s Parent Training and Information Center, with help on IEPs and 504 plans from peer professionals, including in Spanish.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "401-270-0101",
+   "phone_note": "Call center, Monday to Friday, 8 a.m. to 5 p.m., as listed on RIPIN’s site",
+   "email": null,
+   "web": "https://ripin.org/special-education-programs/",
+   "url": "https://ripin.org/services/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "sc-parent-center",
+   "name": "Family Connection of South Carolina: help for families of children with disabilities in South Carolina",
+   "org": "Family Connection of South Carolina",
+   "state": "SC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is South Carolina’s Parent Training and Information Center, with workshops, events and parent-to-parent support.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-578-8750",
+   "phone_note": "As listed on the organization’s site; Spanish 888-808-7462",
+   "email": null,
+   "web": "https://www.familyconnectionsc.org/",
+   "url": "https://www.familyconnectionsc.org/family-connection-of-sc-and-sc-department-of-education-launch-text-2-read-program/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "sd-parent-center",
+   "name": "South Dakota Parent Connection: help for families of children with disabilities in South Dakota",
+   "org": "South Dakota Parent Connection",
+   "state": "SD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization runs South Dakota’s Parent Training and Information Center, funded by the U.S. Department of Education’s Office of Special Education Programs.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "605-361-3171",
+   "phone_note": "As listed on the organization’s site",
+   "email": null,
+   "web": "https://sdparent.org/about/information-center/",
+   "url": "https://sdparent.org/about/information-center/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "tn-parent-center",
+   "name": "Support and Training for Exceptional Parents (TNSTEP): help for families of children with disabilities in Tennessee",
+   "org": "Support and Training for Exceptional Parents (TNSTEP)",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Tennessee’s only federally designated Parent Training and Information Center.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "423-639-0125",
+   "phone_note": "As listed in the organization’s August 2026 newsletter",
+   "email": null,
+   "web": "https://tnstep.info/",
+   "url": "https://tnstep.info/wp-content/uploads/2026/08/TNSTEP-Newsletter-August-2026-English.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ut-parent-center",
+   "name": "Utah Parent Center: help for families of children with disabilities in Utah",
+   "org": "Utah Parent Center",
+   "state": "UT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Utah’s Parent Training and Information Center, funded by the U.S. Department of Education. Most help is by phone with parent consultants who are themselves parents of children with disabilities, and it is free and confidential.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-468-1160",
+   "phone_note": "Toll-free in Utah, as listed on the center’s site; also 801-272-1051 (option 2 for Spanish)",
+   "email": "info@utahparentcenter.org",
+   "web": "https://utahparentcenter.org/projects/pti/",
+   "url": "https://utahparentcenter.org/projects/pti/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "vt-parent-center",
+   "name": "Vermont Family Network: help for families of children with disabilities in Vermont",
+   "org": "Vermont Family Network",
+   "state": "VT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Vermont’s Parent Center. Its helpline and family support consultants help families of children with all disabilities with the special education process by phone, email or in person.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "802-876-5315",
+   "phone_note": "Helpline, as listed on the organization’s site",
+   "email": "info@vtfn.org",
+   "web": "https://www.vermontfamilynetwork.org/what-we-do/family-support/special-education/",
+   "url": "https://www.vermontfamilynetwork.org/get-support/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "wa-parent-center",
+   "name": "PAVE Parent Training and Information program: help for families of children with disabilities in Washington",
+   "org": "PAVE Parent Training and Information program",
+   "state": "WA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. PAVE’s Parent Training and Information program helps families, youth and professionals with questions about services for children and young people with disabilities, ages 0 to 26. Fill out the Get Support form and staff contact you.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-572-7368",
+   "phone_note": "1-800-5-PARENT, as listed on PAVE’s site; also 253-565-2266",
+   "email": "pave@wapave.org",
+   "web": "https://wapave.org/parent-training-and-information-program/",
+   "url": "https://wapave.org/parent-training-and-information-program/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "wv-parent-center",
+   "name": "West Virginia Parent Training and Information (WV PTI): help for families of children with disabilities in West Virginia",
+   "org": "West Virginia Parent Training and Information (WV PTI)",
+   "state": "WV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The center helps parents get appropriate education and services for their children with disabilities, from birth to 26.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-281-1436",
+   "phone_note": "Toll-free, as listed on the center’s site; also 304-997-8316",
+   "email": "wvpti@aol.com",
+   "web": "https://wvpti-inc.org/parent-training-information-center/",
+   "url": "https://wvpti-inc.org/contact/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "wi-parent-center",
+   "name": "WI FACETS: help for families of children with disabilities in Wisconsin",
+   "org": "WI FACETS",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Wisconsin’s resource for families of children with disabilities. Help desk specialists give free one-to-one special education help, Monday through Thursday.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "877-374-0511",
+   "phone_note": "Help desk, as listed on the organization’s site; also 414-374-4645",
+   "email": null,
+   "web": "https://wifacets.org/about/services/",
+   "url": "https://wifacets.org/about/services/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center",
+   "name": "Disability Rights Education and Defense Fund (DREDF): help for families of children with disabilities in California",
+   "org": "Disability Rights Education and Defense Fund (DREDF)",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as one of California’s Parent Training and Information Centers, based in Berkeley.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-348-4232",
+   "phone_note": "As listed on the national Parent Center map; also 510-644-2555",
+   "email": "info@dredf.org",
+   "web": "https://dredf.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-2",
+   "name": "Exceptional Parents Unlimited: help for families of children with disabilities in California",
+   "org": "Exceptional Parents Unlimited",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as one of California’s Parent Training and Information Centers, based in Fresno.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "888-774-8981",
+   "phone_note": "As listed on the national Parent Center map; also 559-229-2000",
+   "email": null,
+   "web": "https://epuchildren.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-3",
+   "name": "MATRIX Parent Network and Resource Center: help for families of children with disabilities in California",
+   "org": "MATRIX Parent Network and Resource Center",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as one of California’s Parent Training and Information Centers, based in San Rafael.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "800-578-2592",
+   "phone_note": "As listed on the national Parent Center map; also 415-884-3535",
+   "email": null,
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-4",
+   "name": "Parents Helping Parents: help for families of children with disabilities in California",
+   "org": "Parents Helping Parents",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as one of California’s Parent Training and Information Centers, based in San Jose.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "855-727-5775",
+   "phone_note": "As listed on the national Parent Center map; also 408-727-5775",
+   "email": "info@php.com",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-5",
+   "name": "Support for Families of Children with Disabilities: help for families of children with disabilities in California",
+   "org": "Support for Families of Children with Disabilities",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as one of California’s Parent Training and Information Centers, based in San Francisco.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "415-920-5040",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": "Info@supportforfamilies.org",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-6",
+   "name": "TASK (Team of Advocates for Special Kids): help for families of children with disabilities in California",
+   "org": "TASK (Team of Advocates for Special Kids)",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as one of California’s Parent Training and Information Centers, based in Alhambra and Brea.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "866-828-8275",
+   "phone_note": "As listed on the national Parent Center map; also 626-300-1043 (Region 1) and 714-533-8275 (Region 2)",
+   "email": "task@taskca.org",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-7",
+   "name": "CARES (California Hands and Voices): help for families of children with disabilities in California",
+   "org": "CARES (California Hands and Voices)",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in San Diego.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "858-432-3238",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": null,
+   "web": "https://carescprc.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-8",
+   "name": "Chinese Parents Association for the Disabled: help for families of children with disabilities in California",
+   "org": "Chinese Parents Association for the Disabled",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in San Gabriel (serving Los Angeles and Orange counties).",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "626-600-6538",
+   "phone_note": "As listed on the national Parent Center map; Los Angeles County; Orange County 714-267-6009",
+   "email": null,
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-9",
+   "name": "Fiesta Educativa: help for families of children with disabilities in California",
+   "org": "Fiesta Educativa",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in Los Angeles.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "323-221-6696",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": "info@fiestaeducativa.org",
+   "web": "https://fiestaeducativa.org/",
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
+   ]
+  },
+  {
+   "id": "ca-parent-center-10",
+   "name": "ParentsCAN: help for families of children with disabilities in California",
+   "org": "ParentsCAN",
+   "state": "CA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "children",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Listed on the national Parent Center map as a Community Parent Resource Center in Napa.",
+   "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
+   "constraints": [
+    "California has several Parent Centers, each serving part of the state; ask which one serves your county.",
+    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+   ],
+   "phone": "707-253-7444",
+   "phone_note": "As listed on the national Parent Center map",
+   "email": "parents@parentscan.org",
+   "web": null,
+   "url": "https://www.parentcenterhub.org/index.php?map_id=0&usterritorieshtml5map_get_state_info=5",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "children"
    ]
   }
  ]
