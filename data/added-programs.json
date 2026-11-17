@@ -64073,20 +64073,20 @@
    "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. The organization says it is Michigan’s federally funded Parent Training and Information Center, an initiative funded by the Michigan Department of Education.",
    "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
    "constraints": [
-    "Help is generally free to families. Parent Centers give information and support, not legal representation."
+    "Help is generally free to families. Parent Centers give information and support, not legal representation.",
+    "Requests go to a regional parent mentor; the organization says to expect a reply within three business days."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
+   "phone": "800-552-4821",
+   "phone_note": "Statewide line, as listed on the organization’s contact page; Spanish 313-217-1060, Arabic 248-963-0607",
+   "email": "info@michiganallianceforfamilies.org",
    "web": "https://www.michiganallianceforfamilies.org/our-partners/",
-   "url": "https://www.michiganallianceforfamilies.org/our-partners/",
-   "reviewed_on": "2026-11-16",
+   "url": "https://www.michiganallianceforfamilies.org/contact-us/",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "children"
-   ],
-   "contact_how": "Contact details are on the center’s website."
+   ]
   },
   {
    "id": "mn-parent-center",
@@ -64151,18 +64151,17 @@
    "constraints": [
     "Help is generally free to families. Parent Centers give information and support, not legal representation."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
+   "phone": "402-346-0525",
+   "phone_note": "Central line, as listed on PTI Nebraska’s pages; toll-free 800-284-8520. Calls are answered by its admin team, who will ask you to complete an intake form",
+   "email": "info@pti-nebraska.org",
    "web": "https://pti-nebraska.org/",
-   "url": "https://pti-nebraska.org/",
-   "reviewed_on": "2026-11-16",
+   "url": "https://pti-nebraska.org/contact-us/",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "children"
-   ],
-   "contact_how": "Contact details are on the center’s website."
+   ]
   },
   {
    "id": "nv-parent-center",
@@ -65063,24 +65062,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "children",
-   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. AJE’s 2016 resource guide describes it as the District of Columbia’s Parent Training and Information Center.",
+   "description": "Parent Centers are funded by the U.S. Department of Education under the Individuals with Disabilities Education Act (IDEA) to give training and information to families of children and youth with disabilities, and every state has at least one. Advocates for Justice and Education (AJE) is the District of Columbia’s Parent Training and Information Center. It offers free trainings for parents and caregivers, including trainings in Spanish.",
    "next_step": "Call or write and say what is happening with your child at school, such as an evaluation, an IEP or 504 plan, or a disagreement with the school. Ask for help understanding your rights and preparing for meetings.",
    "constraints": [
-    "This listing relies on the organization’s 2016 resource guide; check its website for current services and contact details.",
     "Help is generally free to families. Parent Centers give information and support, not legal representation."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
+   "phone": "202-678-8060",
+   "phone_note": "As listed on the organization’s training page",
+   "email": "information@aje-dc.org",
    "web": "https://www.aje-dc.org/",
-   "url": "https://www.aje-dc.org/wp-content/uploads/2015/11/AJE-Resource-Manual-2016.pdf",
-   "reviewed_on": "2026-11-16",
+   "url": "https://www.aje-dc.org/training/",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "children"
-   ],
-   "contact_how": "Contact details are on the center’s website."
+   ]
   },
   {
    "id": "ny-parent-center",
@@ -65826,22 +65823,22 @@
    "description": "South Dakota’s Division of Service to the Blind and Visually Impaired works with blind and visually impaired people on employment and independent living. The state board’s 2025 annual report describes its Independent Living Program and expanded outreach to older adults adjusting to vision changes.",
    "next_step": "Contact the division and ask about independent living services for older adults with vision loss.",
    "constraints": [
-    "The report does not set out who qualifies; ask when you contact the division. If you want to keep or find a job, ask about vocational rehabilitation instead.",
+    "To qualify, you must be 55 or older, live in South Dakota, and have a documented visual impairment that limits daily life enough to need rehabilitation training. People under 55 can be served when vision loss interferes with basic daily tasks.",
+    "If you want to keep or find a job, ask about vocational rehabilitation instead.",
     "If there is a waiting list, Time To Be Bold suggests Hadley’s free lessons on living with vision loss, by phone, mail or online: 800-323-4238."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "605-773-4644",
+   "phone_note": "State office, voice and TTY, as listed in the board’s 2025 annual report",
    "email": null,
    "web": "https://dhs.sd.gov/en/sbvi",
    "url": "https://boardsandcommissions.sd.gov/bcuploads/PublicDocs/2025%20SBVI%20Annual%20Report%20Final.pdf",
-   "reviewed_on": "2026-11-16",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "blind",
     "older"
-   ],
-   "contact_how": "Contact details are on the agency page linked here. The agency’s main line is also in this directory."
+   ]
   },
   {
    "id": "al-deaf-hard-of-hearing-agency",
@@ -69599,6 +69596,85 @@
    "audience": [
     "chronic"
    ]
+  },
+  {
+   "id": "gu-disabled-parking-placard",
+   "state": "GU",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "name": "Disability parking placard in Guam: how to apply",
+   "org": "Guam Department of Revenue and Taxation, Motor Vehicle Division",
+   "description": "In Guam, disability parking placards and license plates are issued by the Motor Vehicle Division of the Department of Revenue and Taxation. Guam law provides for special license plates, removable windshield placards and temporary removable placards. Who can certify the disability: the agency’s page does not say; ask the Motor Vehicle Division which medical certification it needs.",
+   "next_step": "Ask the Motor Vehicle Division for the current disability placard application and have the medical part completed, then return it to the division’s office at the Department of Revenue and Taxation in Barrigada.",
+   "contact_how": "Visit the Motor Vehicle Division of the Department of Revenue and Taxation, 1240 Army Drive (Route 16), Barrigada; its page lists the division’s services.",
+   "url": "https://www.guamtax.com/about/mvd.html",
+   "web": "https://www.guamtax.com/about/mvd.html",
+   "constraints": [
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ]
+  },
+  {
+   "id": "vi-disabled-parking-placard",
+   "state": "VI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "name": "Disability parking placard in the U.S. Virgin Islands: how to apply",
+   "org": "U.S. Virgin Islands Bureau of Motor Vehicles",
+   "description": "In the U.S. Virgin Islands, disability parking placards are issued by the Bureau of Motor Vehicles (BMV). Apply with the BMV’s Application for Disabled Person Parking Permit Placard; the placard hangs from the rearview mirror. Who can certify the disability: a Virgin Islands or out-of-state physician, osteopathic or podiatric physician, optometrist (vision only) or chiropractor.",
+   "next_step": "Download the application, have the medical part completed, and submit it to the Bureau of Motor Vehicles. The BMV also issues a Disabled Person Identification Card on a separate form.",
+   "contact_how": "Submit the application to a Bureau of Motor Vehicles office on St. Croix, St. Thomas or St. John.",
+   "url": "https://bmv.vi.gov/wp-content/uploads/2020/07/BMV-DisabilityPlacardApplication-Fillable.pdf",
+   "web": "https://bmv.vi.gov/wp-content/uploads/2020/07/BMV-DisabilityPlacardApplication-Fillable.pdf",
+   "constraints": [
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ]
+  },
+  {
+   "id": "pr-disabled-parking-placard",
+   "state": "PR",
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ],
+   "name": "Disability parking permit in Puerto Rico (rótulo removible): how to apply",
+   "org": "Puerto Rico Department of Transportation and Public Works (DTOP)",
+   "description": "In Puerto Rico, disability parking permits are removable placards (“rótulo removible”) issued by the Department of Transportation and Public Works (DTOP) under the Vehicle and Traffic Law (Law 22-2000, Article 2.25), for people whose permanent or long-lasting impairment substantially limits their ability to move around. Who can certify the disability: a physician, on the medical certification submitted with the application.",
+   "next_step": "Apply at a DTOP Driver Services Center (CESCO) with the medical certification. Ask DTOP for the current form and whether you need an appointment.",
+   "contact_how": "Apply at a DTOP Driver Services Center (Centro de Servicios al Conductor, CESCO).",
+   "constraints": [
+    "This listing is based on Puerto Rico’s law as published by the government’s law library and on legislative documents, which describe the permit as free but requiring a medical certification and issued for ten years. The law has been amended several times; confirm with DTOP.",
+    "Forms, fees and rules change. Check the agency’s page before you apply."
+   ],
+   "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2020/0114-2023.pdf",
+   "web": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2020/0114-2023.pdf"
   }
  ]
 }
