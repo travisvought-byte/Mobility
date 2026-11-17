@@ -92,7 +92,7 @@
    "steps": ["To make a relay call, dial 711 from any phone in the United States.", "For a problem with a service, call the FCC Disability Rights Office by voice, or its ASL Consumer Support Line by videophone, and describe what happened."],
    "deadline": null,
    "records": ["us-711-relay", "us-fcc-asl-support-line"],
-   "more": [{"label": "Vision, hearing and communication services in your state", "href": "local-help.html?category=sensory"}]
+   "more": [{"label": "Vision, hearing and communication services in your state", "href": "local-help.html?category=sensory"}, {"label": "Deaf and hard of hearing resources in every state", "href": "deaf-hard-of-hearing.html"}]
   },
   {
    "id": "voting",

@@ -27,7 +27,7 @@ def up(s):
     """Rewrite root-relative hrefs in shared chrome so it works from states/."""
     return re.sub(r'(href|src)="(?!https?:|mailto:|tel:|sms:|#|\.\./)([^"]*)"',lambda m:f'{m.group(1)}="../{m.group(2) if m.group(2) not in ("./","") else ""}"',s)
 NAV=up('<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="states/index.html" aria-current="page">All states</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a><a href="partner.html">Partner with us</a><a href="espanol.html" lang="es" hreflang="es">Español</a></nav>')
-FOOT=up('<footer><p>Created and maintained by Travis Vought. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a> · <a href="partner.html">Partner with us</a> · '+ABOUT_LINK+'</p><p>Program details come from the programs’ own published pages, each with the date it was checked. This is general information, not legal or medical advice, and it does not decide eligibility. Nothing you choose here is saved or sent.</p></footer>')
+FOOT=up('<footer><p>Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a> · <a href="partner.html">Partner with us</a> · '+ABOUT_LINK+'</p><p>Program details come from the programs’ own published pages, each with the date it was checked. This is general information, not legal or medical advice, and it does not decide eligibility. Nothing you choose here is saved or sent.</p></footer>')
 def head(title,desc,path):
     url=BASE+path
     ld={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Mobility Talk','item':BASE},{'@type':'ListItem','position':2,'name':'All states','item':BASE+'states/'}]+([{'@type':'ListItem','position':3,'name':title.split(' | ')[0],'item':url}] if path!='states/' else [])}
@@ -99,6 +99,7 @@ def state_page(code,name,recs,national):
         if w:s+='<div class="grid">'+''.join(card(r) for r in w)+'</div>'
         if l:
             s+=f'<h3>County and regional programs ({len(l)})</h3><ul class="statelist">'+''.join(local_li(r) for r in l)+'</ul>'
+        if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a></p>'
         secs.append(s+'</section>')
     toc=''.join(f'<a href="#{k.replace("_","-")}">{E(CATS[k])}</a>' for k in ORDER if any(r['category']==k for r in mine))
     nat=''.join(f'<li><strong>{E(r["name"])}</strong> · '+' · '.join(contact(r,True))+'</li>' for r in national if r.get('phone'))
