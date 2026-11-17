@@ -98,7 +98,7 @@ def build(name,cfg,recs):
       +(f'<p id="deafblind">iCanConnect, listed in each state below, provides free distance communication technology and training to people with both significant hearing and vision loss. It is for people with low incomes, and programs verify disability and income. The national information line is listed above.</p>' if cfg['aud_key']=='deaf' else '')
       +''.join(secs)+'</section>'
       f'<section class="panel" aria-labelledby="rights-h"><h2 id="rights-h">If you are turned away or refused help</h2><p>The <a href="know-your-rights.html">Know your rights</a> page says which office handles each kind of problem, the first steps and any deadline the source states.</p><ul>{rights}</ul>'
-      f'<p>Also on this site: <a href="{cfg["other"]}">{E(cfg["other_label"])}</a> · <a href="local-help.html?audience={cfg["aud_key"]}">Filter the full directory</a> · <a href="states/index.html">Every state’s full list</a></p></section>'
+      f'<p>Also on this site: <a href="{cfg["other"]}">{E(cfg["other_label"])}</a> · <a href="service-animals.html">Service animals and your rights</a> · <a href="local-help.html?audience={cfg["aud_key"]}">Filter the full directory</a> · <a href="states/index.html">Every state’s full list</a></p></section>'
       f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: "+cfg["h1"])}">Tell us</a> and it will be checked against the program’s own page.</p></section>'
       f'</main>{FOOT}</body></html>\n')
     return page

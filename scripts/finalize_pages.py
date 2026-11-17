@@ -4,7 +4,7 @@ import html,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -14,7 +14,7 @@ LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
 LUUL_PAGES={'index.html':('after-mif',False),'local-help.html':('before-mif',True),'mobility-rights.html':('<section id="route-result"',True),'disability-advocacy.html':('<section class="featured-org" aria-labelledby="featured-title">',True)}
 LUUL_SCRIPT_PAGES={'mobility-rights.html','disability-advocacy.html'}
 # page -> text the featured organization block is inserted before
-MIF_BEFORE={'index.html':'<section><h2>Ways to use this site</h2>','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program'}
+MIF_BEFORE={'index.html':'<section><h2>Ways to use this site</h2>','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program'}
 MAKER='Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>.'
 ORG={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#org','name':'Mobility Talk','url':BASE,'logo':BASE+'assets/social-card.png','email':'travis@vethomeguard.org','founder':{'@type':'Person','name':'Travis Vought','url':'https://travisvought.com/'},'areaServed':'US','description':'A free, national, source-linked guide to disability and mobility resources, rights and advocacy.'}
 def clean(s):return html.unescape(re.sub(r'\s+',' ',s)).strip()

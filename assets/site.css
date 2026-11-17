@@ -185,3 +185,7 @@ body{overflow-wrap:break-word}
 article,.card,.panel,.statelist li,.sheet-item,.rights-row,.featured-org>*,.filters>*,.finder>*{min-width:0}
 @media(max-width:850px){.grid,.list,.route,.tiers,.handout-controls,.featured-org,.finder{grid-template-columns:minmax(0,1fr)}
 }
+
+/* service animals page: numbered source citations */
+a.cite{margin-left:.2em;white-space:nowrap}
+.sources li{margin-bottom:.4em;overflow-wrap:anywhere}
