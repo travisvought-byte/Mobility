@@ -51229,11 +51229,11 @@
     "Closed on federal holidays."
    ],
    "phone": "1-800-950-6264",
-   "phone_note": "1-800-950-NAMI. Text NAMI to 62640",
+   "phone_note": "1-800-950-NAMI. Text NAMI to 62640. Press 2 for Spanish (by phone and email; texting is not available in Spanish); Spanish page at nami.org/nami-helpline/linea-de-ayuda-de-nami/",
    "email": "helpline@nami.org",
    "web": "https://www.nami.org/nami-helpline/",
    "url": "https://www.nami.org/nami-helpline/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [
@@ -51659,13 +51659,15 @@
    "category": "work_school",
    "description": "Nearly 100 Parent Training and Information Centers and Community Parent Resource Centers serve families of children with disabilities, from birth to age 26, across the United States and its territories. They help parents take part in their child’s education and development.",
    "next_step": "Open the finder, choose your state and contact the center listed. Ask for help understanding your child’s school plan, your rights and what to do when you disagree with the school.",
-   "constraints": [],
+   "constraints": [
+    "CPIR has information in Spanish at parentcenterhub.org/recursos-en-espanol/, and says many Parent Centers have staff who speak Spanish."
+   ],
    "phone": "973-642-8100",
    "phone_note": "National office of the Center for Parent Information and Resources, not a state center",
    "email": "CPIR@spanadvocacy.org",
    "web": "https://www.parentcenterhub.org/find-your-center/",
    "url": "https://www.parentcenterhub.org/find-your-center/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [
@@ -69777,6 +69779,54 @@
    "origin": "data/added-programs.json",
    "audience": [
     "blind"
+   ]
+  },
+  {
+   "id": "us-ada-national-network",
+   "name": "ADA National Network: free answers about your rights under the ADA",
+   "org": "ADA National Network (10 regional ADA Centers)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "rights_legal",
+   "description": "ADA specialists answer questions about the Americans with Disabilities Act on a free national line that reaches your regional ADA Center, and explain how and where to file a complaint when a business, employer or government will not accommodate you. The network gives information, guidance and training; it is not an enforcement or regulatory agency.",
+   "next_step": "Call or email, describe what happened and where, and ask what the ADA requires and where to file a complaint if you need to.",
+   "constraints": [
+    "It cannot enforce the law or take your case; it tells you which agency can.",
+    "Fact sheets in Spanish are at adata.org/factsheet/ADANNservicesESP."
+   ],
+   "phone": "1-800-949-4232",
+   "phone_note": "Voice and TTY, as listed by the network; it routes you to your regional ADA Center",
+   "email": null,
+   "web": "https://adata.org/",
+   "url": "https://adata.org/slo-stage2/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "hide_if_state_has": "-ada-center"
+  },
+  {
+   "id": "us-narcolepsy-network",
+   "name": "Narcolepsy Network: support groups and information for people with narcolepsy",
+   "org": "Narcolepsy Network",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A national patient support organization, founded in 1986, for people with narcolepsy and their families. It helps people find a local support group and runs weekly national online peer-led support meetings, a Facebook support group, educational webinars and a national conference.",
+   "next_step": "Look for a support group near you on its site, or join a national online meeting if there is no group in your area.",
+   "constraints": [],
+   "phone": "888-292-6522",
+   "phone_note": "Toll-free, as listed in the National Organization for Rare Disorders’ member directory",
+   "email": null,
+   "web": "https://narcolepsynetwork.org/",
+   "url": "https://narcolepsynetwork.org/resources/support-groups/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
    ]
   }
  ]
