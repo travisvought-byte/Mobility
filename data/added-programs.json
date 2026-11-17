@@ -47200,11 +47200,11 @@
     "For people who receive SSI or SSDI and have a disability-related employment issue."
    ],
    "phone": "866-968-7842",
-   "phone_note": "Ticket to Work Help Line, Monday to Friday 8 a.m. to 8 p.m. Eastern; TTY 866-833-2967",
+   "phone_note": "Ticket to Work Help Line, Monday to Friday 8 a.m. to 8 p.m. Eastern; press 2 for Spanish; TTY 866-833-2967",
    "email": "support@choosework.ssa.gov",
    "web": "https://choosework.ssa.gov/about/meet-your-employment-team/index.html",
    "url": "https://choosework.ssa.gov/about/meet-your-employment-team/index.html",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
   },
@@ -51371,14 +51371,15 @@
    "description": "Social Security runs the two main federal disability benefits. Social Security Disability Insurance (SSDI) is for people who have a disability or blindness and enough work history. Supplemental Security Income (SSI) is a separate program with its own rules, explained on ssa.gov/ssi.",
    "next_step": "Start the application online, call 1-800-772-1213 (TTY 1-800-325-0778), or use the office locator at ssa.gov/locator to find your local office. Ask what records to gather before you apply.",
    "constraints": [
-    "Phone lines are staffed 8 a.m. to 7 p.m. local time, Monday to Friday. Automated services run 24 hours a day."
+    "Phone lines are staffed 8 a.m. to 7 p.m. local time, Monday to Friday. Automated services run 24 hours a day.",
+    "Interpreters are free, by phone or at an office, in more than 200 languages."
    ],
    "phone": "1-800-772-1213",
-   "phone_note": "TTY 1-800-325-0778. Staffed weekdays, 8 a.m. to 7 p.m. local time",
+   "phone_note": "TTY 1-800-325-0778. Staffed weekdays, 8 a.m. to 7 p.m. local time. Press 7 for Spanish; Spanish information at ssa.gov/es/disability",
    "email": null,
    "web": "https://www.ssa.gov/apply?benefits=disability&age=adult",
    "url": "https://www.ssa.gov/agency/contact/phone.html",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [],
@@ -51608,14 +51609,15 @@
    "description": "JAN gives free, confidential guidance on job accommodations and the Americans with Disabilities Act. Workers, job seekers, family members, employers and professionals can all use it.",
    "next_step": "Call or email JAN, describe your job and what is getting in the way, and ask which accommodations to request and how to put the request in writing.",
    "constraints": [
-    "Open 9 a.m. to 6 p.m. Eastern, Monday to Friday."
+    "Open 9 a.m. to 6 p.m. Eastern, Monday to Friday.",
+    "JAN has information in Spanish at askjan.org/espanol/Preguntas-Frecuentes.cfm."
    ],
    "phone": "800-526-7234",
    "phone_note": null,
    "email": "JAN@AskJAN.org",
    "web": "https://askjan.org/contact-us.cfm",
    "url": "https://askjan.org/contact-us.cfm",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [],
@@ -51633,14 +51635,15 @@
    "description": "The EEOC takes charges of job discrimination. It says you generally must file within 180 calendar days of the day the discrimination took place. The deadline is 300 days if a state or local agency enforces a law against the same discrimination.",
    "next_step": "Call, or use the EEOC Public Portal, to start. Write down dates, names and what was said, and count your deadline from the day it happened.",
    "constraints": [
-    "Federal employees and job applicants follow a different process and generally must contact their agency’s EEO counselor within 45 days."
+    "Federal employees and job applicants follow a different process and generally must contact their agency’s EEO counselor within 45 days.",
+    "The toll-free line helps in English and Spanish; Spanish information is at eeoc.gov/es."
    ],
    "phone": "1-800-669-4000",
    "phone_note": "TTY 1-800-669-6820. ASL videophone 1-844-234-5122",
    "email": "info@eeoc.gov",
    "web": "https://www.eeoc.gov/contact-eeoc",
    "url": "https://www.eeoc.gov/time-limits-filing-charge",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [],
@@ -61651,14 +61654,15 @@
    "next_step": "Call 844-COMPASS or email, and describe the problem, such as an insurance denial or a disability application.",
    "constraints": [
     "Compass does not give money, legal advice or clinical information.",
-    "Email and online requests can take three to five business days to answer."
+    "Email and online requests can take three to five business days to answer.",
+    "Compass has case managers who speak Spanish, and the foundation’s site is in Spanish at es.cff.org."
    ],
    "phone": "1-844-266-7277",
    "phone_note": "844-COMPASS",
    "email": "compass@cff.org",
    "web": "https://www.cff.org/support/get-help-cf-foundation-compass",
    "url": "https://www.cff.org/support/get-help-cf-foundation-compass",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
@@ -69520,6 +69524,80 @@
    "audience": [
     "deaf",
     "older"
+   ]
+  },
+  {
+   "id": "us-medicare-helpline",
+   "name": "1-800-MEDICARE: questions about Medicare coverage, claims and plans (English and Spanish)",
+   "org": "Centers for Medicare & Medicaid Services",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "benefits",
+   "description": "Medicare is health insurance for people 65 or older, people under 65 with certain disabilities, and people of any age with end-stage renal disease or ALS. 1-800-MEDICARE answers questions about coverage, claims and plans, gives important phone numbers such as your State Health Insurance Assistance Program, and can send booklets in Spanish.",
+   "next_step": "Call and say what you need help with. Representatives can answer questions but cannot change Medicare’s coverage and payment decisions; if you disagree with a decision, ask how to file an appeal.",
+   "constraints": [
+    "Help is in English and Spanish. For another language, say “Agent” and ask for an interpreter, 24 hours a day, 7 days a week, except some federal holidays.",
+    "Medicare’s website is in Spanish at es.medicare.gov."
+   ],
+   "phone": "1-800-633-4227",
+   "phone_note": "TTY 1-877-486-2048",
+   "email": null,
+   "web": "https://www.medicare.gov/",
+   "url": "https://www.medicare.gov/about-us/other-languages",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "older"
+   ]
+  },
+  {
+   "id": "us-pulmonary-fibrosis-help-center",
+   "name": "Pulmonary Fibrosis Foundation Help Center",
+   "org": "Pulmonary Fibrosis Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The Help Center answers questions from patients, caregivers and families about pulmonary fibrosis and interstitial lung disease, shares educational materials, and helps you find expert care through the foundation’s Care Center Network and more than 150 support groups, many of which meet online.",
+   "next_step": "Call or email the Help Center, or search by ZIP code on the foundation’s site for a care center or support group near you.",
+   "constraints": [
+    "Open Monday to Friday, 9 a.m. to 5 p.m. Central."
+   ],
+   "phone": "844-825-5733",
+   "phone_note": "Toll-free (844-TalkPFF), as listed by the foundation",
+   "email": "help@pulmonaryfibrosis.org",
+   "web": "https://www.pulmonaryfibrosis.org/",
+   "url": "https://www.pulmonaryfibrosis.org/about-us/contact-us",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-marfan-foundation",
+   "name": "The Marfan Foundation Help & Resource Center",
+   "org": "The Marfan Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "For people with Marfan syndrome and related genetic aortic and vascular conditions, including Loeys-Dietz syndrome and vascular Ehlers-Danlos syndrome. The Help & Resource Center answers questions and helps you find care, and the foundation keeps a directory of Marfan clinics and aortic centers around the United States.",
+   "next_step": "Call the Help & Resource Center or submit a question online, and ask for a clinic near you.",
+   "constraints": [],
+   "phone": "800-862-7326",
+   "phone_note": "Toll-free (800-8-MARFAN), as listed by the foundation; some pages give extension 126 for the help center",
+   "email": "support@marfan.org",
+   "web": "https://marfan.org/",
+   "url": "https://marfan.org/expectations/diagnosis/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
    ]
   }
  ]
