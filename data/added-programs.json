@@ -42695,7 +42695,7 @@
    ],
    "phone": "269-425-0042",
    "phone_note": "Number is from the University of Michigan guide.",
-   "email": "smarg.amputees@gmail.com",
+   "email": null,
    "web": null,
    "url": "https://www.uofmhealth.org/sites/default/files/2026-01/Amputee%20Resource%20Guide%202026.pdf",
    "reviewed_on": "2026-11-15",
@@ -54852,12 +54852,12 @@
    "description": "The federally designated Protection and Advocacy agency for people with disabilities in American Samoa. It provides information, advocacy and legal help on disability rights.",
    "next_step": "Call or visit the website and ask whether they can help with your situation, such as a denial, an access barrier or a rights violation, and how intake works.",
    "constraints": [],
-   "phone": "011-684-633-2441",
-   "phone_note": "As listed by the National Disability Rights Network. Voice and TDD.",
+   "phone": "684-633-2441",
+   "phone_note": "As listed by the National Disability Rights Network, which prints it with the old international prefix 011; American Samoa now uses U.S. area code 684, so dial 1-684-633-2441 from the mainland. Voice and TDD.",
    "email": null,
    "web": "https://www.opad-as.org/",
    "url": "https://www.ndrn.org/about/ndrn-member-agencies/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-16",
    "record_status": "directory_listed",
    "origin": "data/added-programs.json",
    "audience": []
@@ -59186,24 +59186,23 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Iowa.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Iowa’s Commission of Deaf Services is an advisory commission of seven voting members, four of them deaf or hard of hearing. It studies the needs of deaf and hard of hearing Iowans, shares information with the public and recommends rules and legislation. Iowa’s state directory of department contacts lists Deaf Services at the number shown.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "The commission is advisory. For job-related services, ask Iowa Vocational Rehabilitation Services, listed separately.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "515-281-3164",
+   "phone_note": "Deaf Services, as listed in the State of Iowa department contacts directory",
    "email": null,
    "web": "https://hhs.iowa.gov/about/advisory-groups/commission-deaf-services",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://das.iowa.gov/state-iowa-department-contacts",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "ks-deaf-hard-of-hearing-agency",
@@ -59563,30 +59562,29 @@
   },
   {
    "id": "nh-deaf-hard-of-hearing-agency",
-   "name": "Services for the Deaf and Hard of Hearing",
+   "name": "VR New Hampshire: Services for Individuals Who Are Deaf or Hard of Hearing",
    "org": "State agency for people who are deaf or hard of hearing",
    "state": "NH",
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New Hampshire.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "New Hampshire’s program for people who are deaf, hard of hearing or late-deafened is part of VR New Hampshire, the state vocational rehabilitation agency. It opened in 1981 and became law in 1989. Its services help people prepare for, get and keep a job, with specific services for deaf, hard of hearing and late-deafened people, including American Sign Language users.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "For sign language interpreter referrals, the state’s interpreter guide lists Northeast Deaf & Hard of Hearing Services at 603-224-1850.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "603-271-3471",
+   "phone_note": "Voice and TTY, as listed on the program’s fact sheet; videophone 603-463-0728; toll-free 800-299-1647",
    "email": null,
    "web": "https://www.education.nh.gov/who-we-are/deputy-commissioner/bureau-vocational-rehabilitation/programs-and-services/program-individuals-who-are-deaf-or-hard-hearing",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://www.education.nh.gov/sites/g/files/ehbemt326/files/inline-documents/sonh/deaf-hard-of-hearing-factsheet.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "nj-deaf-hard-of-hearing-agency",
@@ -59640,31 +59638,30 @@
   },
   {
    "id": "ny-deaf-hard-of-hearing-agency",
-   "name": "NYS Deaf, DeafBlind, and Hard of Hearing Office",
+   "name": "New York State Deaf, DeafBlind and Hard of Hearing Office",
    "org": "State agency for people who are deaf or hard of hearing",
    "state": "NY",
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for New York.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "New York’s Deaf, DeafBlind and Hard of Hearing Office, now part of the Chief Disability Office in the Governor’s Executive Chamber, acts as a hub of information for state agencies, local governments and organizations so they can better serve Deaf, DeafBlind and Hard of Hearing New Yorkers. It oversees the Interagency Coordinating Council on Services to Persons who are Deaf, DeafBlind and Hard of Hearing, and its site lists state, federal and other resources.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "The office coordinates and shares information across state government; ask it where to go for interpreters, equipment or services.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "518-491-5068",
+   "phone_note": "Voice, as listed on the office’s brochure; videophone for ASL users 838-900-7404",
    "email": null,
    "web": "https://www.ny.gov/programs/new-york-state-deaf-deafblind-and-hard-hearing-office",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "url": "https://www.ny.gov/sites/default/files/2025-09/Audism_Brochure.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf",
     "deafblind"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "nc-deaf-hard-of-hearing-agency",
@@ -59773,31 +59770,30 @@
   },
   {
    "id": "tn-deaf-hard-of-hearing-agency",
-   "name": "Tennessee Council for the Deaf, Deaf-Blind and Hard of Hearing",
+   "name": "Tennessee Deaf, Deaf-Blind and Hard of Hearing Services (Department of Human Services)",
    "org": "State agency for people who are deaf or hard of hearing",
    "state": "TN",
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Tennessee.",
-   "next_step": "Open the agency’s page and look for how to reach it by phone, videophone, text or email. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "The national roster lists Tennessee’s Council for the Deaf, Deaf-Blind and Hard of Hearing. The state Department of Human Services’ Deaf, Deaf-Blind and Hard of Hearing Services work through regional centers: BridgesWEST in Memphis (901-701-6800, videophone 901-612-3416), the Jackson Center for Independent Living (731-668-2211, videophone 731-256-7026), BridgesTN in Nashville (615-248-8828, videophone 615-290-5147), Partnership Deaf Services in Chattanooga (423-697-3842, videophone 423-208-9801) and the disABILITY Resource Center in Knoxville (865-637-3666).",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number for this agency. Use the agency’s own page for current contact details.",
+    "Call the regional center that serves your county first; the department line can tell you which one that is.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
+   "phone": "833-772-8347",
+   "phone_note": "Department of Human Services line for deaf and hard of hearing services, 833-772-TDHS, as listed on the department’s contact page",
    "email": null,
-   "web": "https://www.tn.gov/humanservices/ds/councils-and-committees/tcddbhh.html",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "web": "https://www.tn.gov/humanservices/ds/deaf-and-hard-of-hearing-services.html",
+   "url": "https://www.tn.gov/humanservices/ds/deaf-and-hard-of-hearing-services.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf",
     "deafblind"
-   ],
-   "contact_how": "Contact details are on the agency’s own page."
+   ]
   },
   {
    "id": "tx-deaf-hard-of-hearing-agency",
@@ -59832,24 +59828,22 @@
    "scope": "statewide",
    "counties": [],
    "category": "sensory",
-   "description": "The national roster of state agencies of the deaf and hard of hearing lists this agency for Utah.",
-   "next_step": "Search for the agency by name, or open the national roster and follow its link. Ask what it offers where you live, such as interpreter referral, equipment, advocacy or help for families, and who to call if it does not offer what you need.",
+   "description": "Utah’s Division of Services to the Deaf and Hard of Hearing serves people at two community centers, the Sanderson Center in Taylorsville and the Southern Center in St. George. Its programs include case management, communication assessment, employment services, hard of hearing services, outreach and technology, and the Utah Interpreter Program.",
+   "next_step": "Contact the agency using the phone, videophone or email shown here, and say what you need, such as an interpreter or captioner, phone equipment, advocacy or help for your family. Ask who to contact if the agency does not offer it.",
    "constraints": [
-    "The national roster lists no phone number, and the address it gives for this agency is an older one. Search for the agency by name if the roster’s link does not open.",
     "What these agencies do differs from state to state. Some provide services directly; others advise the state."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": "http://deafservices.utah.gov/",
-   "url": "https://nasadhh.org/state-agency/",
-   "reviewed_on": "2026-11-15",
-   "record_status": "directory_listed",
+   "phone": "801-263-4860",
+   "phone_note": "Voice, Sanderson Center front desk, as listed on the division’s contact page; videophone 801-657-5200; TTY 801-263-4862; text 385-414-5677; toll-free 800-860-4860; St. George 435-652-2453 (videophone 435-216-9305)",
+   "email": "dsdhhinfo@utah.gov",
+   "web": "https://jobs.utah.gov/usor/dhh/contact/",
+   "url": "https://jobs.utah.gov/usor/dhh/contact/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
    "audience": [
     "deaf"
-   ],
-   "contact_how": "Find the agency by name or through the national roster."
+   ]
   },
   {
    "id": "vt-deaf-hard-of-hearing-agency",
@@ -64558,7 +64552,7 @@
    ],
    "phone": "800-281-1436",
    "phone_note": "Toll-free, as listed on the center’s site; also 304-997-8316",
-   "email": "wvpti@aol.com",
+   "email": null,
    "web": "https://wvpti-inc.org/parent-training-information-center/",
    "url": "https://wvpti-inc.org/contact/",
    "reviewed_on": "2026-11-16",
@@ -68380,21 +68374,21 @@
    "scope": "statewide",
    "counties": [],
    "category": "housing",
-   "description": "Oregon Housing and Community Services is listed by the National Council of State Housing Agencies as Oregon’s housing finance agency. State housing finance agencies are state-chartered authorities that run a wide range of affordable housing programs, including financing affordable homes and rental apartments for lower- and middle-income households.",
-   "next_step": "Search for the agency by name and look for affordable rental listings, help for first-time home buyers, and home repair or accessibility programs, and ask what it offers for people with disabilities.",
+   "description": "Oregon Housing and Community Services is listed by the National Council of State Housing Agencies as Oregon’s housing finance agency. It also runs the HUD Section 811 Project Rental Assistance program in Oregon, which helps people with disabilities find affordable housing with support services. Section 811 in Oregon is a referral program: the agency works with the Oregon Department of Human Services and the Oregon Health Authority, whose local service providers help eligible people apply.",
+   "next_step": "Call the agency’s general line and ask about affordable rental listings, home repair or accessibility programs, and what it offers for people with disabilities. For Section 811 housing, ask your case manager or local service provider about a referral.",
    "constraints": [
-    "For rental vouchers and public housing, use the Public Housing Agency listing in this directory."
+    "For rental vouchers and public housing, use the Public Housing Agency listing in this directory.",
+    "Office visits are by appointment."
    ],
-   "phone": null,
-   "phone_note": null,
-   "email": null,
-   "web": null,
-   "url": "https://www.ncsha.org/membership/hfa-members/",
+   "phone": "800-453-5511",
+   "phone_note": "Toll-free general line, as listed on the agency’s Section 811 page",
+   "email": "HCS_Housing.Info@hcs.oregon.gov",
+   "web": "https://www.oregon.gov/ohcs/",
+   "url": "https://www.oregon.gov/ohcs/compliance-monitoring/pages/hud-section-811-pra-properties.aspx",
    "reviewed_on": "2026-11-16",
-   "record_status": "directory_listed",
+   "record_status": "official_search_extract_only",
    "origin": "data/added-programs.json",
-   "audience": [],
-   "contact_how": "NCSHA’s directory, linked here, lists the agency; search for it by name for contact details."
+   "audience": []
   },
   {
    "id": "pa-housing-finance-agency",
@@ -69239,6 +69233,292 @@
    "origin": "data/added-programs.json",
    "audience": [
     "blind",
+    "older"
+   ]
+  },
+  {
+   "id": "us-myositis-association",
+   "name": "The Myositis Association: support line and support groups",
+   "org": "The Myositis Association (TMA)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The Myositis Association supports people living with myositis and their care partners. It runs support and affinity groups, including regional groups and worldwide groups organized by diagnosis, and anyone can join a group wherever they live.",
+   "next_step": "Call or email the association, or register for the next meeting of a support group on its site.",
+   "constraints": [
+    "For support group questions, the association asks you to email supportgroups@myositis.org."
+   ],
+   "phone": "800-821-7356",
+   "phone_note": "Toll-free, as listed on the association’s patient support page; also 410-290-0937",
+   "email": "TMA@myositis.org",
+   "web": "https://300.myositis.org/patient-support/support-groups/find-support-group/",
+   "url": "https://300.myositis.org/patient-support/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic",
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-long-covid-disability-rights",
+   "name": "Long COVID: when it counts as a disability, and where to get help",
+   "org": "U.S. Department of Health and Human Services, Office for Civil Rights",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "rights_legal",
+   "description": "Federal guidance from HHS and the Department of Justice explains that long COVID can be a disability under the Americans with Disabilities Act, Section 504 of the Rehabilitation Act and Section 1557 of the Affordable Care Act, all of which protect people with disabilities from discrimination. HHS points people to the Disability Information and Access Line (DIAL) for help finding services.",
+   "next_step": "Read the guidance, then call DIAL for help finding services. For questions about your rights under the ADA, call the ADA Information Line.",
+   "constraints": [
+    "Whether long COVID is a disability depends on the person; the guidance explains how that is decided.",
+    "ADA Information Line: 800-514-0301 (voice), 1-833-610-1264 (TTY)."
+   ],
+   "phone": "888-677-1199",
+   "phone_note": "Disability Information and Access Line (DIAL), Monday to Friday 9 a.m. to 8 p.m. Eastern, as listed on HHS’s civil rights page",
+   "email": "DIAL@usaginganddisability.org",
+   "web": "https://www.hhs.gov/civil-rights/for-providers/civil-rights-covid19/guidance-long-covid-disability/index.html",
+   "url": "https://www.hhs.gov/civil-rights/for-providers/civil-rights-covid19/guidance-long-covid-disability/index.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-hud-section-811",
+   "name": "HUD Section 811: rental housing with supports for people with disabilities",
+   "org": "U.S. Department of Housing and Urban Development",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "Section 811 supports rental housing for very low-income people with disabilities. HUD funds state housing agencies to provide Section 811 rental assistance for extremely low-income people with disabilities in apartments spread through regular affordable buildings, so tenants live in integrated housing. Older Section 811 buildings were built with HUD funding for supportive housing.",
+   "next_step": "Ask your state’s housing finance agency, listed in this directory, whether it runs Section 811 rental assistance and how referrals work. In some states, such as Oregon, Section 811 is a referral program run with the state’s human services agencies, so also ask your case manager. For an older Section 811 building near you, ask its management office for an application.",
+   "constraints": [
+    "There is no single national application or phone line for Section 811.",
+    "Income limits apply; ask what they are before you apply.",
+    "For rental vouchers and public housing, use the Public Housing Agency listing in this directory."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "No national phone line. Ask your state’s housing finance agency, listed in this directory.",
+   "web": "https://hud.gov/hud-partners/multifamily-grants-section811ptl",
+   "url": "https://hud.gov/hud-partners/multifamily-grants-section811ptl",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "us-tribal-vr-projects",
+   "name": "Tribal vocational rehabilitation projects (American Indian Vocational Rehabilitation Services)",
+   "org": "U.S. Department of Education, Rehabilitation Services Administration",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "work_school",
+   "description": "Tribal governments run vocational rehabilitation projects, also called Section 121 programs, that help American Indians with disabilities prepare for and get jobs in a culturally relevant way. Services follow an individualized plan for employment and may include native healing services. The Rehabilitation Services Administration lists 93 projects across 26 states.",
+   "next_step": "Ask your tribe’s social services or health office whether it runs a tribal vocational rehabilitation project. The Rehabilitation Services Administration points to the American Indian Vocational Rehabilitation Training and Technical Assistance Center (AIVRTTAC) for the current list of projects. Your state vocational rehabilitation agency, listed in this directory, can help too.",
+   "constraints": [
+    "Projects serve American Indians and Alaska Natives with disabilities who live in the tribe’s service area, on or near a reservation; ask the project who it serves."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "No single phone line. Ask your tribe, or find the current project list through AIVRTTAC.",
+   "web": "https://rsa.ed.gov/about/programs/american-indian-vocational-rehabilitation-services",
+   "url": "https://rsa.ed.gov/about/programs/american-indian-vocational-rehabilitation-services",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "mp-vr-agency",
+   "name": "CNMI Office of Vocational Rehabilitation",
+   "org": "Commonwealth of the Northern Mariana Islands, Office of Vocational Rehabilitation",
+   "state": "MP",
+   "scope": "statewide",
+   "counties": [],
+   "category": "work_school",
+   "description": "The Office of Vocational Rehabilitation helps people with disabilities in the Northern Mariana Islands prepare for, get, keep and advance in work. Services can include vocational counseling, training, rehabilitation and assistive technology, job search and placement, and school-to-work transition services. A March 2026 executive order moves the office from the Office of the Governor to the Department of Labor.",
+   "next_step": "Call the office and ask how to apply and what to bring.",
+   "constraints": [
+    "To qualify, you must have a disability that makes it hard to get or keep a job, need services to work, and be legally allowed to work in the CNMI or the United States.",
+    "Services must connect to an employment goal."
+   ],
+   "phone": "670-322-6537",
+   "phone_note": "Listed in the CNMI government directory; also 670-322-6538",
+   "email": null,
+   "web": null,
+   "url": "https://opd.gov.mp/assets/gov_directory.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": []
+  },
+  {
+   "id": "us-bleeding-disorders-info",
+   "name": "Neil Frick Resource Center (formerly HANDI): bleeding disorders information and referrals",
+   "org": "National Bleeding Disorders Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "The National Bleeding Disorders Foundation’s information center, renamed from HANDI, answers questions from people affected by inheritable blood and bleeding disorders, such as hemophilia, and gives referrals to hemophilia treatment centers, local chapters and other support organizations.",
+   "next_step": "Call and ask for extension 2, or email, and ask for the hemophilia treatment center and chapter nearest you.",
+   "constraints": [],
+   "phone": "800-424-2634",
+   "phone_note": "Toll-free, extension 2, as listed on the foundation’s chapter pages; main office 212-328-3700",
+   "email": "info@bleeding.org",
+   "web": "https://www.bleeding.org/",
+   "url": "https://id.bleeding.org/support-resources/handi-library.html",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-dysautonomia-international",
+   "name": "Dysautonomia International: find a doctor and a support group",
+   "org": "Dysautonomia International",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A volunteer-run nonprofit for people with dysautonomia, including POTS. Its site has a regional list and an interactive map of doctors with experience in autonomic disorders, a support group listing, and free medical accommodation wallet cards that help you ask to sit or lie down when symptoms start.",
+   "next_step": "Use the Find a Doctor page or the map to look for a doctor near you, and the support group listing to find a regional group.",
+   "constraints": [
+    "Regional support groups are run by volunteers and based on Facebook; they also hold in-person and online meetings, and you can reach them by email if you are not on Facebook."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "Use the website; no phone line is listed.",
+   "web": "https://dysautonomiainternational.org/",
+   "url": "https://dysautonomiainternational.org/page.php?ID=14",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "ct-tedp-phone-equipment",
+   "name": "Connecticut Equipment Distribution Program (Relay Connecticut): phones and devices at no cost",
+   "org": "Relay Connecticut, for the State of Connecticut",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Connecticut’s Equipment Distribution Program gives equipment at no cost to residents who are deaf, hard of hearing, DeafBlind or have difficulty speaking. Choices include amplified corded and cordless phones, captioned (CapTel) phones, TTY and voice or hearing carry-over phones, an electrolarynx, and smartphones and tablets set up for hearing or speech access.",
+   "next_step": "Fill out the online application on the Relay Connecticut equipment page, choose your equipment, and say whether you want help installing it.",
+   "constraints": [
+    "You must be a full-time Connecticut resident, age 5 or older (parental consent under 18), and a first-time applicant to the program.",
+    "Equipment remains the property of the State of Connecticut. Return it if you move out of Connecticut within three years.",
+    "The Hearing Loss Association of America’s state list still shows no Connecticut program; the program page is the current source."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "Apply with the online form on the Relay Connecticut equipment page; no phone line is listed for the program.",
+   "web": "https://hamiltonrelay.com/connecticut/equipment-distribution/",
+   "url": "https://hamiltonrelay.com/connecticut/equipment-distribution/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "de-tedp-phone-equipment",
+   "name": "Delaware Office for the Deaf and Hard of Hearing: captioned telephone (CapTel) program and alerting devices",
+   "org": "Delaware Office for the Deaf and Hard of Hearing (Division of Vocational Rehabilitation, Department of Labor)",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "sensory",
+   "description": "Delaware law directs the Office for the Deaf and Hard of Hearing to run a program giving residents with deafness, hearing loss or speech disabilities access to telephone service. The office runs Delaware’s captioned telephone (CapTel) program, which you apply for on the office’s form. It also runs an Equipment Distribution Program that provides smoke and carbon monoxide alarms, flashing alert receivers and bed-shaker alarm clocks at no cost, with the State Fire Marshal.",
+   "next_step": "Call or email the office and ask for the CapTel application, or the alerting-device application if you need smoke and carbon monoxide alerts you can see or feel.",
+   "constraints": [
+    "The office decides who is eligible.",
+    "The Hearing Loss Association of America’s state list shows no Delaware phone equipment program; the office’s own documents describe the CapTel program."
+   ],
+   "phone": "302-504-4741",
+   "phone_note": "As listed on the office’s application forms",
+   "email": "DOL_DODHH@delaware.gov",
+   "web": "https://labor.delaware.gov/divisions/dvr/dodhh/",
+   "url": "https://statefiremarshal.delaware.gov/wp-content/uploads/sites/110/2026/08/EDP_Application_Form.pdf",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "us-tedp-state-programs",
+   "name": "State phone equipment programs: free or low-cost phones for hearing and speech disabilities",
+   "org": "Hearing Loss Association of America (state list)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "sensory",
+   "description": "State telephone programs, called Telecommunications Equipment Distribution Programs, give free or low-cost telephone equipment, such as amplified or captioned phones, to qualified residents. The Hearing Loss Association of America keeps a state-by-state list of eligibility and equipment. Its list shows no statewide program in the District of Columbia, Idaho, Michigan, New York or Ohio.",
+   "next_step": "Open the list and find your state. If your state has no program, ask about captioned telephone service (listed in this directory), your state assistive technology program’s device loans, or, if you are DeafBlind, iCanConnect.",
+   "constraints": [
+    "Each state sets its own eligibility, income limits and equipment rules.",
+    "The list does not show when each entry was last checked; confirm with the state program."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "Use the Hearing Loss Association of America’s state list to find your state’s program.",
+   "web": "https://www.hearingloss.org/hearing-help/financial-assistance/state-telephone-programs/",
+   "url": "https://www.hearingloss.org/hearing-help/financial-assistance/state-telephone-programs/",
+   "reviewed_on": "2026-11-16",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
+    "older"
+   ],
+   "hide_if_state_has": "-tedp-phone-equipment",
+   "link_kind": "directory"
+  },
+  {
+   "id": "us-captioned-telephone-service",
+   "name": "Captioned telephone service (IP CTS): read captions of what the other person says",
+   "org": "Federal Communications Commission consumer guide",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "sensory",
+   "description": "Captioned telephone service lets a person with hearing loss who can use their own voice, and has some remaining hearing, talk on the phone while reading captions of what the other person says. The internet-based version (IP CTS) works on a captioned phone with a screen, and there are versions for smartphones and computers. The FCC says the relay costs are paid from the federal relay fund, so users do not pay for the captioning.",
+   "next_step": "Read the FCC guide, then ask your audiologist, your state phone equipment program or your state relay program how to sign up with a captioned telephone provider.",
+   "constraints": [
+    "Federal rules limit the service to people with hearing loss who need captions to use the phone, and providers ask you to register.",
+    "Ask the provider or your state program whether the phone itself costs anything."
+   ],
+   "phone": "1-888-225-5322",
+   "phone_note": "FCC consumer line (1-888-CALL-FCC), as printed on its captioned telephone guide; TTY 1-888-835-5322",
+   "email": null,
+   "web": "https://www.fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service",
+   "url": "https://www.fcc.gov/consumers/guides/internet-protocol-ip-captioned-telephone-service",
+   "reviewed_on": "2026-11-16",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf",
     "older"
    ]
   }

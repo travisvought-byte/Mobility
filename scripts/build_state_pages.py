@@ -108,8 +108,8 @@ def state_page(code,name,recs,national):
     urgent=up(URGENT).replace('local-help.html?category=crisis',f'local-help.html?state={code}&amp;category=crisis')
     if terr:
         intro=f'<p>{n} programs and agencies listed for {E(place)} so far, plus national lines. Each lists how to reach it and links to its own page.</p>'
-        actions=(f'<div class="actions"><a class="button" href="../local-help.html?state={code}">Filter by need</a><a class="button secondary" href="../know-your-rights.html">Know your rights</a></div>'
-          f'<p class="meta">We list only a few programs for {E(place)} so far. The federal <a href="https://dial.acl.gov/home" rel="noopener" target="_blank">DIAL database (new tab)</a> lists the Centers for Independent Living, assistive technology program, developmental disabilities council and Protection and Advocacy agency in each territory.</p>')
+        actions=(f'<div class="actions"><a class="button" href="../local-help.html?state={code}">Filter by need</a><a class="button secondary" href="../handout.html?state={code}">Print a help list</a><a class="button secondary" href="../know-your-rights.html">Know your rights</a></div>'
+          f'<p class="meta">This list covers the main public agencies for {E(place)}; fewer community programs are listed than for the states. The federal <a href="https://dial.acl.gov/home" rel="noopener" target="_blank">DIAL database (new tab)</a> lists the Centers for Independent Living, assistive technology program, developmental disabilities council and Protection and Advocacy agency in each territory.</p>')
         everywhere=f'<section class="panel"><h2>National lines</h2><p>These lines serve the whole country. Ask each one whether it serves {E(place)}.</p><ul class="statelist">{nat}</ul></section>'
     else:
         intro=(f'<p>{n} programs and agencies in {E(name)}: {len(wide)} that serve the whole state and {len(local)} that serve specific counties'+(f' across {len(counties)} counties' if counties else '')+'. Each lists how to reach it and links to its own page. Start with the group that matches what you need.</p>')
@@ -128,7 +128,7 @@ def index_page(rows,trows):
     desc='Disability and mobility resources for every U.S. state, D.C. and the U.S. territories: benefits, equipment, ramps, rides, in-home help, work, vision and hearing services, rights and legal help, and developmental disability agencies.'
     return head('Disability and mobility resources by state',desc,'states/')+(f'<header>{NAV}<small>ALL STATES · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources by state</h1><p>Choose your state for a full list of programs and agencies, with phone numbers and official pages. Every state, the District of Columbia and the U.S. territories are listed.</p></header>'
       f'<main id="main">{up(URGENT)}<section aria-labelledby="st-h"><h2 id="st-h">States and D.C.</h2><ul class="statelist cols" id="state-list">{li(rows)}</ul></section>'
-      f'<section aria-labelledby="terr-h"><h2 id="terr-h">U.S. territories</h2><p>We list only a few programs for the territories so far, plus national lines.</p><ul class="statelist cols" id="territory-list">{li(trows)}</ul></section><!--mif-->{MIF}<!--/mif--></main>{FOOT}</body></html>')
+      f'<section aria-labelledby="terr-h"><h2 id="terr-h">U.S. territories</h2><p>Each territory lists its main public disability agencies, plus national lines. Fewer community programs are listed than for the states.</p><ul class="statelist cols" id="territory-list">{li(trows)}</ul></section><!--mif-->{MIF}<!--/mif--></main>{FOOT}</body></html>')
 def build():
     recs=DATA['records'];national=[r for i in NATIONAL for r in recs if r['id']==i]
     OUT.mkdir(exist_ok=True)
