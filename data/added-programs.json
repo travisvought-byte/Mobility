@@ -69675,6 +69675,109 @@
    ],
    "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2020/0114-2023.pdf",
    "web": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/2020/0114-2023.pdf"
+  },
+  {
+   "id": "us-housing-search-network",
+   "name": "MyHousingSearch: free statewide rental searches that can filter for accessible units",
+   "org": "MyHousingSearch network (Emphasys Software, formerly Socialserve.com)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "housing",
+   "description": "A free service for finding rental housing that fits your needs, including affordable, accessible and market-rate units. It runs the state housing search sites used in more than 30 states, such as those for Montana, D.C., Arizona, Colorado, Florida and Connecticut. Listings can show more than 40 accessibility fields, so you can look for features such as a no-step entry or an accessible bathroom.",
+   "next_step": "Enter your state on the site to reach its housing search, then use the accessible search options to filter for the features you need. If you would rather not search online, call and ask for help with your search.",
+   "constraints": [
+    "Confirm with the property that the unit is still available and has the features you need before you apply.",
+    "Not every state uses this network. Your state housing finance agency, listed in this directory, can tell you about its own search site."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "As listed on the site; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://myhousingsearch.com/",
+   "url": "https://myhousingsearch.com/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "ma-mass-access-housing-registry",
+   "name": "Mass Access Housing Registry: accessible and affordable rentals in Massachusetts",
+   "org": "Citizens’ Housing and Planning Association (CHAPA), with the Massachusetts Rehabilitation Commission",
+   "state": "MA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "An online registry built to help Massachusetts residents who need affordable, accessible housing find available apartments. It lists vacancy and waitlist information for affordable rental housing across the state, including accessible and adaptable homes for people with disabilities, and renters can save searches and sign up for email alerts.",
+   "next_step": "Search the registry for accessible units in the towns you want, sign up for email alerts, and contact each property about its application and waitlist.",
+   "constraints": [
+    "These features come from the registry’s redesign announcement, posted in 2011; check the site for what it offers now."
+   ],
+   "phone": null,
+   "phone_note": null,
+   "email": null,
+   "contact_how": "Search online. The announcement lists only CHAPA’s office line, 617-742-0820, and no renter-specific contact.",
+   "web": "https://www.massaccesshousingregistry.org/",
+   "url": "https://chapa.org/?p=231035",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "us-umdf-support-line",
+   "name": "United Mitochondrial Disease Foundation (UMDF) Support Line",
+   "org": "United Mitochondrial Disease Foundation",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "For people with mitochondrial disease and their families. A patient concierge can connect you with a local family affected by mitochondrial disease or a volunteer support ambassador, and UMDF keeps a list of more than 200 doctors who treat and research mitochondrial disease.",
+   "next_step": "Call the support line on a weekday or email, and ask for the doctor list or a support ambassador near you.",
+   "constraints": [
+    "Open weekdays, 8 a.m. to 5 p.m. Eastern.",
+    "A new patient guide is available in Spanish."
+   ],
+   "phone": "888-900-6486",
+   "phone_note": "Toll-free (1-888-900-MITO), as listed by the foundation",
+   "email": "support@umdf.org",
+   "web": "https://umdf.org/",
+   "url": "https://umdf.org/resources/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "us-foundation-fighting-blindness",
+   "name": "Foundation Fighting Blindness: information, referrals and local chapters for retinal diseases",
+   "org": "Foundation Fighting Blindness",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "For people affected by retinitis pigmentosa, macular degeneration, Usher syndrome and other retinal degenerative diseases. Its information and referral line can help you find a doctor who sees patients with inherited retinal diseases, and local chapters share research news, low vision resources and local community resources.",
+   "next_step": "Call the information and referral line or email, and ask for a retina specialist or a chapter near you.",
+   "constraints": [
+    "The foundation lists no-cost genetic testing and counseling for inherited retinal diseases through its My Retina Tracker program; ask whether you qualify."
+   ],
+   "phone": "800-683-5555",
+   "phone_note": "Toll-free information and referral line, as listed by the foundation",
+   "email": "info@fightingblindness.org",
+   "web": "https://www.fightingblindness.org/",
+   "url": "https://www.fightingblindness.org/for-media",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "blind"
+   ]
   }
  ]
 }
