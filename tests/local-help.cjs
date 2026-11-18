@@ -84,6 +84,9 @@ async function load(query=''){
   const ohs=await load('?state=OH&category=sensory'),was=await load('?state=WA&category=sensory'),cts=await load('?state=CT&category=sensory');
   assert(ohs.text().includes('State phone equipment programs')&&ohs.text().includes('Captioned telephone service (IP CTS)'),'Ohio, with no state phone program, sees the national list and captioned telephone service');
   assert(!was.text().includes('State phone equipment programs')&&was.text().includes('Washington Telecommunications Equipment Distribution'),'Washington sees its own program instead of the national list');
-  assert(cts.text().includes('Connecticut Equipment Distribution Program')&&!cts.text().includes('State phone equipment programs'),'Connecticut sees its own program');}
+  assert(cts.text().includes('Connecticut Equipment Distribution Program')&&!cts.text().includes('State phone equipment programs'),'Connecticut sees its own program');
+  const ohh=await load('?state=OH&category=housing'),txh=await load('?state=TX&category=housing');
+  assert(ohh.text().includes('OhioHousingLocator.org')&&!ohh.text().includes('MyHousingSearch: free statewide rental searches'),'Ohio sees its own housing search site');
+  assert(txh.text().includes('MyHousingSearch: free statewide rental searches'),'Texas, with no site on the list, sees the national listing');}
  console.log('PASS local help: no default state, 18 need chips, who-it-is-for filter, pinned crisis lines, before-you-call guides, territories, jump links, confirm badges, 51-jurisdiction coverage, unique records, grouped Ohio view, county narrowing with veterans offices, category/search filters, deep links, safe links and no storage; ramps guide and home links present; phone equipment falls back to the national list only where a state has none.');
 })().catch(e=>{console.error(e);process.exit(1)});

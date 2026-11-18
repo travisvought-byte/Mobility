@@ -117,7 +117,7 @@ const TERR=['AS','GU','MP','PR','VI'];
  {const deaf=recs.filter(r=>/-deaf-hard-of-hearing-agency(-\d)?$/.test(r.id));assert(deaf.length>=40,'state agencies for deaf and hard of hearing people: '+deaf.length);let own=0;
   for(const r of deaf){assert.equal(r.category,'sensory');assert(r.audience.includes('deaf'));
    if(r.url==='https://nasadhh.org/state-agency/'){assert(!r.phone&&r.contact_how,r.id+' has no phone on the roster and says how to reach the agency');assert.equal(r.record_status,'directory_listed');}
-   else{own++;assert.equal(r.record_status,'official_search_extract_only',r.id);assert(/^https:\/\//.test(r.url)&&/^https:\/\//.test(r.web)&&!/nasadhh/.test(r.url+r.web),r.id+' cites and links the agency\'s own pages');
+   else{own++;assert(['official_search_extract_only','official_source_reviewed'].includes(r.record_status),r.id);assert(/^https:\/\//.test(r.url)&&/^https:\/\//.test(r.web)&&!/nasadhh/.test(r.url+r.web),r.id+' cites and links the agency\'s own pages');
     assert(r.phone?(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note)):(r.email&&r.contact_how),r.id+' gives a sourced phone or an agency email');
     assert(!r.constraints.some(c=>/roster lists no phone/.test(c)),r.id+' no longer says the roster lists no phone');}
    if(r.web&&r.state!=='ID')assert(!/idaho/i.test(r.web),r.id+' does not carry another state\'s link');}
@@ -268,7 +268,7 @@ const TERR=['AS','GU','MP','PR','VI'];
  {const st=fs.readFileSync('espanol.html','utf8');
   for(const t of ['oprima el 7 para español','oprima el 2 para español','1-800-MEDICARE','EEOC: discriminación en el trabajo','Job Accommodation Network','administradores de casos que hablan español'])assert(st.includes(t),'Spanish page: '+t);
   assert(st.includes('href="tel:18007721213"')&&st.includes('href="https://www.ssa.gov/es/disability"')&&st.includes('href="https://www.eeoc.gov/es"')&&st.includes('href="https://es.medicare.gov"'),'Spanish page links Spanish pages and numbers');
-  const src=JSON.parse(fs.readFileSync('data/ayuda-espanol.json','utf8'));assert.deepEqual(src.sections.map(s=>s.id),['ahora','comida','beneficios','trabajo','salud','vision','ninos'],'Spanish sections in order');
+  const src=JSON.parse(fs.readFileSync('data/ayuda-espanol.json','utf8'));assert.deepEqual(src.sections.map(s=>s.id),['ahora','refugio','local','comida','beneficios','trabajo','derechos','salud','vision','ninos','mayores'],'Spanish sections in order');
   assert(/Press 7 for Spanish/.test(byId.get('us-ssa-disability-apply').phone_note)&&/press 2 for Spanish/.test(byId.get('us-pabss').phone_note),'English listings say how to reach Spanish service');
   const m=byId.get('us-medicare-helpline');assert(m&&m.phone==='1-800-633-4227'&&/medicare\.gov/.test(m.url)&&m.constraints.some(c=>/Agent/.test(c)),'Medicare helpline listing');
   for(const id of ['us-pulmonary-fibrosis-help-center','us-marfan-foundation']){const r=byId.get(id);assert(r&&r.category==='peer_support'&&/listed/.test(r.phone_note)&&r.audience.includes('chronic'),id);}}
@@ -290,5 +290,74 @@ const TERR=['AS','GU','MP','PR','VI'];
   assert(u&&u.phone==='888-900-6486'&&/listed/.test(u.phone_note)&&u.audience.includes('chronic'),'UMDF support line');
   assert(f&&f.phone==='800-683-5555'&&/listed/.test(f.phone_note)&&f.audience.includes('blind'),'Foundation Fighting Blindness line');
   assert(!/moore|garcia|kelts|leysieffer|gottel/i.test(JSON.stringify([h,ma,u,f])),'no staff names in round twenty');}
- console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC), 28 national condition organizations and supports with their own help lines or finders, older-adult vision loss programs in every state and D.C. (37 from Time To Be Bold, 11 from state agencies, 3 already listed), nine more condition organizations, Parent Centers in all 50 states and D.C., agency phone or videophone contacts for 42 state deaf and hard of hearing agencies plus state programs for three states the roster leaves out, twelve more national organizations, the state mental health agency for every state, D.C. and the five territories, every state housing finance agency, the NMEDA dealer locator, DD councils and Parent Centers in all five territories, and independent living centers for three of them; territories on the printed help list and state pages; Section 811, tribal vocational rehabilitation, CNMI vocational rehabilitation, bleeding disorders and dysautonomia; phone equipment in Connecticut and Delaware, a national list where a state has none, and captioned telephone service; Spanish lines for Social Security, PABSS, Medicare, the EEOC, JAN and CF Compass; pulmonary fibrosis and Marfan help lines; Parent Center lines for Michigan, Nebraska and D.C., South Dakota older-blind rules, and parking placards for Guam, the Virgin Islands and Puerto Rico; accessible rental searches, and mitochondrial and retinal disease help lines.');
+  // ---- round twenty-one (2026-11-17): Spanish for NAMI, the ADA National Network and Parent Centers; Narcolepsy Network
+ {const st=fs.readFileSync('espanol.html','utf8');
+  for(const t of ['Línea de Ayuda de NAMI','oprima el 2 para español, de lunes a viernes, de 10 a.m.','Red Nacional de la ADA','Centros para Padres','personal que habla español'])assert(st.includes(t),'Spanish page: '+t);
+  assert(st.includes('href="tel:18009494232"')&&st.includes('href="https://adata.org/factsheet/ADANNservicesESP"'),'Spanish page links the ADA line and Spanish fact sheets');
+  const a=byId.get('us-ada-national-network');assert(a&&a.hide_if_state_has==='-ada-center'&&/not an enforcement/.test(a.description)&&a.category==='rights_legal','national ADA line, hidden where the regional center is listed');
+  assert(/Press 2 for Spanish/.test(byId.get('us-nami-helpline').phone_note)&&/recursos-en-espanol/.test(byId.get('us-parent-centers').constraints.join(' ')),'English listings say how to reach Spanish help');
+  const n=byId.get('us-narcolepsy-network');assert(n&&n.phone==='888-292-6522'&&/listed/.test(n.phone_note)&&n.audience.includes('chronic'),'Narcolepsy Network');}
+  // ---- round twenty-two (2026-11-17): state housing search sites from the MyHousingSearch network's own list
+ {const HS=['AZ','CO','CT','DE','DC','FL','GA','ID','IL','IN','IA','ME','MD','MS','MT','NV','NJ','NC','OH','PA','RI','TN','VA','WI'];
+  for(const st of HS){const r=byId.get(st.toLowerCase()+'-housing-search');assert(r,'housing search '+st);
+   assert(r.category==='housing'&&r.record_status==='directory_listed'&&r.url==='https://www.myhousingsearch.com/ListOfSites.html'&&/^https:\/\/[a-z.]+\/$/.test(r.web)&&r.phone==='1-877-428-8844',st+' housing search listing shape');
+   assert(r.name.toLowerCase().startsWith(r.web.slice(8,-1)),st+' names the site it links');}
+  assert.equal(recs.filter(r=>/-housing-search$/.test(r.id)&&r.state!=='US').length,HS.length,'only statewide sites from the list');
+  assert.equal(byId.get('us-housing-search-network').hide_if_state_has,'-housing-search','national listing shows only where a state has no site');}
+  // ---- home page reel (2026-11-17): clean, accessible, after the crisis strip, built from data/home-reel.json
+ {const home=fs.readFileSync('index.html','utf8'),src=JSON.parse(fs.readFileSync('data/home-reel.json','utf8'));
+  const d=new JSDOM(home).window.document,reel=d.querySelector('section.reel');assert(reel,'home reel present');
+  assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),'crisis strip still leads the page');
+  assert.equal(reel.previousElementSibling&&reel.previousElementSibling.classList.contains('urgent'),true,'reel sits right after the crisis strip');
+  const slides=[...reel.querySelectorAll('.reel-slide[role="group"]')];assert.equal(slides.length,src.slides.length,'one slide per entry');
+  slides.forEach((f,i)=>{const svg=f.querySelector('svg[role="img"]'),t=svg&&svg.querySelector('title');
+   assert(t&&t.textContent===src.slides[i].alt&&svg.getAttribute('aria-labelledby')===t.id,'slide '+(i+1)+' drawing is described');
+   assert.equal(f.querySelector('figcaption').textContent.startsWith(src.slides[i].joke),true,'slide '+(i+1)+' joke is real text');
+   assert.equal(f.getAttribute('aria-label'),(i+1)+' of '+slides.length);});
+  assert(reel.querySelector('#reel-play[hidden]')&&reel.querySelector('#reel-prev')&&reel.querySelector('#reel-next'),'controls work without the script; play control appears only with it');
+  assert(/prefers-reduced-motion: reduce/.test(fs.readFileSync('assets/home-reel.js','utf8')),'reel respects reduced motion');
+  assert(!/strip club|pussy|sex|naked|\bass\b|damn|hell\b/i.test(JSON.stringify(src)),'reel stays clean');}
+  // ---- round twenty-three (2026-11-17): rides in the eleven states with no rural transit entry, state energy assistance lines,
+  //      Section 811 in Texas and Oregon, and the Eldercare Locator in Spanish
+ {const T23=['pa-pwd-rural-transportation','nj-access-link-paratransit','de-dart-paratransit','vt-elders-disabilities-transportation','ma-transit-authorities-paratransit','me-regional-public-transit','nd-statewide-transit-dial-a-ride','nc-local-transit-search','va-statewide-transit-map','md-locally-operated-transit'];
+  for(const id of T23){const r=byId.get(id);assert(r&&r.category==='transportation'&&r.scope==='statewide','ride listing '+id);
+   assert(/^https:\/\//.test(r.url)&&r.reviewed_on==='2026-11-17'&&r.record_status==='official_source_reviewed',id+' cites the page it came from');
+   assert(r.phone?(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note)):r.contact_how,id+' says how to reach it');}
+  // every state that had no rural transit entry now has a way to find a ride (Rhode Island's statewide RIde was already listed)
+  for(const st of ['DE','MA','MD','ME','NC','ND','NJ','PA','VA','VT'])assert(recs.some(r=>r.state===st&&r.category==='transportation'&&T23.some(id=>r.id===id)),st+' ride listing');
+  assert(/Philadelphia County/.test(byId.get('pa-pwd-rural-transportation').constraints.join(' ')),'Pennsylvania says where the program does not run');
+  assert(/two different TDD numbers/.test(byId.get('de-dart-paratransit').phone_note),'Delaware leaves out the conflicting TDD numbers and says why');
+  const NJC=recs.filter(r=>/^nj-county-paratransit-/.test(r.id));assert.equal(NJC.length,21,'all 21 New Jersey counties');
+  for(const r of NJC){assert(r.scope==='counties'&&r.counties.length===1&&/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/Disability Information Hub/.test(r.phone_note),r.id+' county line');}
+  assert.deepEqual(NJC.map(r=>r.counties[0]).sort(),JSON.parse(fs.readFileSync('data/maps/NJ.json','utf8')).counties.map(c=>c.n).sort(),'county names match the New Jersey map');
+  const MDL=recs.filter(r=>/^md-lots-/.test(r.id)),mdNames=new Set(JSON.parse(fs.readFileSync('data/maps/MD.json','utf8')).counties.map(c=>c.n));
+  assert(MDL.length>=15,'Maryland county transit systems');for(const r of MDL){assert(r.scope==='counties'&&r.counties.every(c=>mdNames.has(c))&&r.url==='https://www.mta.maryland.gov/lots'&&r.contact_how,r.id+' Maryland county system');if(r.web)assert(/^https:\/\//.test(r.web),r.id+' link');}
+  // energy assistance: one public inquiry line per state that the federal list gives one for; the national listing stays visible
+  const LI=recs.filter(r=>/-liheap-energy-assistance$/.test(r.id));assert.equal(LI.length,43,'43 state energy assistance lines');
+  for(const r of LI){assert(r.category==='daily_living'&&/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/federal LIHEAP state contact list/.test(r.phone_note)&&r.url==='https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing'&&!r.web,r.id+' energy line');
+   assert(!/@/.test(JSON.stringify(r)),r.id+' carries no staff email');}
+  for(const st of ['MD','MO','NH','SC','WA','NC','MI','ID'])assert(!byId.get(st.toLowerCase()+'-liheap-energy-assistance'),st+' has no public inquiry number on the federal list, so the national listing serves it');
+  assert(!byId.get('us-liheap-energy-bills').hide_if_state_has,'national energy listing, with the referral line, stays visible');
+  for(const id of ['tx-section-811-pra','or-section-811-pra']){const r=byId.get(id);assert(r&&r.category==='housing'&&/Section 811/.test(r.name)&&(r.phone||r.contact_how),id);}
+  assert(/Qualified Referral Agent/.test(byId.get('tx-section-811-pra').next_step),'Texas says a referral agent must refer you');
+  const el=byId.get('us-eldercare-locator');assert(/Spanish-speaking specialist/.test(el.phone_note)&&/Contact_Info/.test(el.url),'Eldercare Locator cites its own contact page for Spanish');
+  const es=JSON.parse(fs.readFileSync('data/ayuda-espanol.json','utf8')),may=es.sections.find(x=>x.id==='mayores');assert(may&&may.items[0].record==='us-eldercare-locator'&&/español/.test(may.items[0].text),'Spanish page lists the Eldercare Locator');
+  assert(!es.sections.flatMap(x=>x.items).some(i=>['us-ada-information-line'].includes(i.record)),'the ADA line stays off until its own page says it serves Spanish speakers (211 was added in round twenty-four)');}
+  // ---- round twenty-four (2026-11-18): 211 in Spanish, Section 811 in five more states, deaf listings for four roster gaps
+ {const r211=byId.get('us-211');assert(r211.reviewed_on==='2026-11-18'&&/completely confidential/.test(r211.phone_note)&&r211.constraints.some(c=>/es\.211\.org/.test(c)),'211 record cites what 211.org says');
+  const es24=JSON.parse(fs.readFileSync('data/ayuda-espanol.json','utf8')),loc=es24.sections.find(x=>x.id==='local');
+  assert(loc&&loc.items[0].record==='us-211'&&/pregunte si le pueden atender en español/.test(loc.items[0].text),'Spanish page lists 211 and says to ask for Spanish rather than promising it');
+  assert(/FCC/.test(loc.items[0].evidence)&&/211\.org/.test(loc.items[0].evidence),'211 Spanish item names its sources');
+  for(const st of ['pa','mn','md','wi','nj']){const r=byId.get(st+'-section-811-pra');assert(r&&r.category==='housing'&&r.reviewed_on==='2026-11-18'&&/^https:\/\//.test(r.url),st+' Section 811');
+   assert(r.phone?(/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/listed/.test(r.phone_note)):r.contact_how,st+' Section 811 says how to reach it');
+   assert(/refer|case manager|coordinator/i.test(r.next_step),st+' Section 811 says who refers you');}
+  assert(recs.filter(r=>/-section-811-pra$/.test(r.id)).length===7,'Section 811 listings for seven states');
+  assert(/does not make referrals/.test(byId.get('mn-section-811-pra').phone_note),'Minnesota says its general line does not refer');
+  assert(/undated/.test(byId.get('nj-section-811-pra').constraints.join(' ')),'New Jersey says its overview is undated');
+  for(const st of ['ok','sc','ak','wy']){const r=byId.get(st+'-deaf-hard-of-hearing-agency');assert(r&&r.reviewed_on==='2026-11-18'&&r.description.startsWith('The national roster of state agencies lists none'),st+' deaf listing fills a roster gap');}
+  assert(!byId.get('mt-deaf-hard-of-hearing-agency'),'Montana keeps its phone equipment program as its state listing');
+  assert(/nonprofit/.test(byId.get('ak-deaf-hard-of-hearing-agency').constraints.join(' ')),'Alaska says the Deaf Navigator is run by a nonprofit');
+  assert(!/Merritt|Miranda/.test(JSON.stringify(byId.get('ak-deaf-hard-of-hearing-agency'))),'Alaska listing carries no staff names');
+  assert(/American Sign Language/.test(byId.get('sc-deaf-hard-of-hearing-agency').description),'South Carolina says its counselors sign');}
+ console.log('PASS front door: need grid and who-it-is-for links, state carried without storage, urgent strip, map tile names, '+rights.rows.length+' rights situations tied to directory records with sourced deadlines, about page with privacy and accessibility limits, '+fresh.length+' sourced gap-fill records, early intervention and a family health information center in all '+(STATES.length+TERR.length)+' jurisdictions, Spanish help page backed by directory records, a disability parking placard record from each state agency in all '+STATES.length+' jurisdictions (50 states and DC), 28 national condition organizations and supports with their own help lines or finders, older-adult vision loss programs in every state and D.C. (37 from Time To Be Bold, 11 from state agencies, 3 already listed), nine more condition organizations, Parent Centers in all 50 states and D.C., agency phone or videophone contacts for 42 state deaf and hard of hearing agencies plus state programs for three states the roster leaves out, twelve more national organizations, the state mental health agency for every state, D.C. and the five territories, every state housing finance agency, the NMEDA dealer locator, DD councils and Parent Centers in all five territories, and independent living centers for three of them; territories on the printed help list and state pages; Section 811, tribal vocational rehabilitation, CNMI vocational rehabilitation, bleeding disorders and dysautonomia; phone equipment in Connecticut and Delaware, a national list where a state has none, and captioned telephone service; Spanish lines for Social Security, PABSS, Medicare, the EEOC, JAN and CF Compass; pulmonary fibrosis and Marfan help lines; Parent Center lines for Michigan, Nebraska and D.C., South Dakota older-blind rules, and parking placards for Guam, the Virgin Islands and Puerto Rico; accessible rental searches, and mitochondrial and retinal disease help lines; Spanish for NAMI, the ADA National Network and Parent Centers, and Narcolepsy Network; housing search sites for 23 states and D.C.; ride programs or ride finders in the ten states that had no rural transit entry, with all 21 New Jersey county paratransit lines and Maryland’s county systems; energy assistance lines for 43 states; Section 811 in Texas and Oregon; and the Eldercare Locator in Spanish; 211 in Spanish, Section 811 in five more states and deaf listings for Oklahoma, South Carolina, Alaska and Wyoming');
 })().catch(e=>{console.error(e);process.exit(1)});

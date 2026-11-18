@@ -33488,12 +33488,12 @@
     "Information and referral only; services come from the local agencies it connects you to."
    ],
    "phone": "1-800-677-1116",
-   "phone_note": "National line; confirm before calling",
+   "phone_note": "As listed on the Eldercare Locator contact page: information specialists weekdays 8 a.m. to 9 p.m. Eastern, including a Spanish-speaking specialist, with interpretation in 150 languages. TTY users dial 711 and ask for 1-800-677-1116",
    "email": null,
    "web": "https://eldercare.acl.gov",
-   "url": "https://acl.gov/programs/aging-and-disability-networks/area-agencies-aging",
-   "reviewed_on": "2026-11-15",
-   "record_status": "official_search_extract_only",
+   "url": "https://eldercare.acl.gov/Public/About/Contact_Info/Index.aspx",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
   },
   {
@@ -51229,11 +51229,11 @@
     "Closed on federal holidays."
    ],
    "phone": "1-800-950-6264",
-   "phone_note": "1-800-950-NAMI. Text NAMI to 62640",
+   "phone_note": "1-800-950-NAMI. Text NAMI to 62640. Press 2 for Spanish (by phone and email; texting is not available in Spanish); Spanish page at nami.org/nami-helpline/linea-de-ayuda-de-nami/",
    "email": "helpline@nami.org",
    "web": "https://www.nami.org/nami-helpline/",
    "url": "https://www.nami.org/nami-helpline/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [
@@ -51252,14 +51252,15 @@
    "description": "211 connects you to local help. United Way’s 211 site lists help with paying bills, food, housing and utility costs, disaster recovery, health care costs, mental health and substance use, and says every call is confidential.",
    "next_step": "Dial 211 and say what you need and your ZIP code. If 211 does not connect from your phone, use the website to find your local 211.",
    "constraints": [
-    "Each local 211 is run separately, so hours and services differ."
+    "Each local 211 is run separately, so hours and services differ.",
+    "211.org has a Spanish version of its site (es.211.org). Ask your local 211 whether someone can help you in Spanish."
    ],
    "phone": "211",
-   "phone_note": null,
+   "phone_note": "Dial 2-1-1. 211.org says every call is completely confidential",
    "email": null,
    "web": "https://www.211.org/",
    "url": "https://www.211.org/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-18",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [],
@@ -51659,13 +51660,15 @@
    "category": "work_school",
    "description": "Nearly 100 Parent Training and Information Centers and Community Parent Resource Centers serve families of children with disabilities, from birth to age 26, across the United States and its territories. They help parents take part in their child’s education and development.",
    "next_step": "Open the finder, choose your state and contact the center listed. Ask for help understanding your child’s school plan, your rights and what to do when you disagree with the school.",
-   "constraints": [],
+   "constraints": [
+    "CPIR has information in Spanish at parentcenterhub.org/recursos-en-espanol/, and says many Parent Centers have staff who speak Spanish."
+   ],
    "phone": "973-642-8100",
    "phone_note": "National office of the Center for Parent Information and Resources, not a state center",
    "email": "CPIR@spanadvocacy.org",
    "web": "https://www.parentcenterhub.org/find-your-center/",
    "url": "https://www.parentcenterhub.org/find-your-center/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-17",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [
@@ -69700,7 +69703,8 @@
    "origin": "data/added-programs.json",
    "audience": [
     "mobility"
-   ]
+   ],
+   "hide_if_state_has": "-housing-search"
   },
   {
    "id": "ma-mass-access-housing-registry",
@@ -69778,6 +69782,3191 @@
    "audience": [
     "blind"
    ]
+  },
+  {
+   "id": "us-ada-national-network",
+   "name": "ADA National Network: free answers about your rights under the ADA",
+   "org": "ADA National Network (10 regional ADA Centers)",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "rights_legal",
+   "description": "ADA specialists answer questions about the Americans with Disabilities Act on a free national line that reaches your regional ADA Center, and explain how and where to file a complaint when a business, employer or government will not accommodate you. The network gives information, guidance and training; it is not an enforcement or regulatory agency.",
+   "next_step": "Call or email, describe what happened and where, and ask what the ADA requires and where to file a complaint if you need to.",
+   "constraints": [
+    "It cannot enforce the law or take your case; it tells you which agency can.",
+    "Fact sheets in Spanish are at adata.org/factsheet/ADANNservicesESP."
+   ],
+   "phone": "1-800-949-4232",
+   "phone_note": "Voice and TTY, as listed by the network; it routes you to your regional ADA Center",
+   "email": null,
+   "web": "https://adata.org/",
+   "url": "https://adata.org/slo-stage2/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "hide_if_state_has": "-ada-center"
+  },
+  {
+   "id": "us-narcolepsy-network",
+   "name": "Narcolepsy Network: support groups and information for people with narcolepsy",
+   "org": "Narcolepsy Network",
+   "state": "US",
+   "scope": "national",
+   "counties": [],
+   "category": "peer_support",
+   "description": "A national patient support organization, founded in 1986, for people with narcolepsy and their families. It helps people find a local support group and runs weekly national online peer-led support meetings, a Facebook support group, educational webinars and a national conference.",
+   "next_step": "Look for a support group near you on its site, or join a national online meeting if there is no group in your area.",
+   "constraints": [],
+   "phone": "888-292-6522",
+   "phone_note": "Toll-free, as listed in the National Organization for Rare Disorders’ member directory",
+   "email": null,
+   "web": "https://narcolepsynetwork.org/",
+   "url": "https://narcolepsynetwork.org/resources/support-groups/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_search_extract_only",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "chronic"
+   ]
+  },
+  {
+   "id": "az-housing-search",
+   "name": "HousingSearch.AZ.gov: rental housing search for Arizona, including accessible units",
+   "org": "HousingSearch.AZ.gov (MyHousingSearch network)",
+   "state": "AZ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "HousingSearch.AZ.gov is the housing search site for Arizona in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://housingsearch.az.gov/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "co-housing-search",
+   "name": "ColoradoHousingSearch.com: rental housing search for Colorado, including accessible units",
+   "org": "ColoradoHousingSearch.com (MyHousingSearch network)",
+   "state": "CO",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "ColoradoHousingSearch.com is the housing search site for Colorado in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://coloradohousingsearch.com/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "ct-housing-search",
+   "name": "CTHousingSearch.org: rental housing search for Connecticut, including accessible units",
+   "org": "CTHousingSearch.org (MyHousingSearch network)",
+   "state": "CT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "CTHousingSearch.org is the housing search site for Connecticut in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://cthousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "de-housing-search",
+   "name": "DelawareHousingSearch.org: rental housing search for Delaware, including accessible units",
+   "org": "DelawareHousingSearch.org (MyHousingSearch network)",
+   "state": "DE",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "DelawareHousingSearch.org is the housing search site for Delaware in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://delawarehousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "dc-housing-search",
+   "name": "DCHousingSearch.org: rental housing search for the District of Columbia, including accessible units",
+   "org": "DCHousingSearch.org (MyHousingSearch network)",
+   "state": "DC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "DCHousingSearch.org is the housing search site for the District of Columbia in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://dchousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "fl-housing-search",
+   "name": "FloridaHousingSearch.org: rental housing search for Florida, including accessible units",
+   "org": "FloridaHousingSearch.org (MyHousingSearch network)",
+   "state": "FL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "FloridaHousingSearch.org is the housing search site for Florida in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://floridahousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "ga-housing-search",
+   "name": "GeorgiaHousingSearch.org: rental housing search for Georgia, including accessible units",
+   "org": "GeorgiaHousingSearch.org (MyHousingSearch network)",
+   "state": "GA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "GeorgiaHousingSearch.org is the housing search site for Georgia in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://georgiahousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "id-housing-search",
+   "name": "HousingIdaho.com: rental housing search for Idaho, including accessible units",
+   "org": "HousingIdaho.com (MyHousingSearch network)",
+   "state": "ID",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "HousingIdaho.com is the housing search site for Idaho in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://housingidaho.com/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "il-housing-search",
+   "name": "ILHousingSearch.org: rental housing search for Illinois, including accessible units",
+   "org": "ILHousingSearch.org (MyHousingSearch network)",
+   "state": "IL",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "ILHousingSearch.org is the housing search site for Illinois in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://ilhousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "in-housing-search",
+   "name": "IndianaHousingNow.org: rental housing search for Indiana, including accessible units",
+   "org": "IndianaHousingNow.org (MyHousingSearch network)",
+   "state": "IN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "IndianaHousingNow.org is the housing search site for Indiana in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://indianahousingnow.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "ia-housing-search",
+   "name": "IowaHousingSearch.org: rental housing search for Iowa, including accessible units",
+   "org": "IowaHousingSearch.org (MyHousingSearch network)",
+   "state": "IA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "IowaHousingSearch.org is the housing search site for Iowa in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://iowahousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "me-housing-search",
+   "name": "MaineHousingSearch.org: rental housing search for Maine, including accessible units",
+   "org": "MaineHousingSearch.org (MyHousingSearch network)",
+   "state": "ME",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "MaineHousingSearch.org is the housing search site for Maine in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://mainehousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "md-housing-search",
+   "name": "MDHousingSearch.org: rental housing search for Maryland, including accessible units",
+   "org": "MDHousingSearch.org (MyHousingSearch network)",
+   "state": "MD",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "MDHousingSearch.org is the housing search site for Maryland in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://mdhousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "ms-housing-search",
+   "name": "MSHousingSearch.org: rental housing search for Mississippi, including accessible units",
+   "org": "MSHousingSearch.org (MyHousingSearch network)",
+   "state": "MS",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "MSHousingSearch.org is the housing search site for Mississippi in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://mshousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "mt-housing-search",
+   "name": "MTHousingSearch.com: rental housing search for Montana, including accessible units",
+   "org": "MTHousingSearch.com (MyHousingSearch network)",
+   "state": "MT",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "MTHousingSearch.com is the housing search site for Montana in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://mthousingsearch.com/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "nv-housing-search",
+   "name": "NVHousingSearch.org: rental housing search for Nevada, including accessible units",
+   "org": "NVHousingSearch.org (MyHousingSearch network)",
+   "state": "NV",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "NVHousingSearch.org is the housing search site for Nevada in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://nvhousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "nj-housing-search",
+   "name": "NJHRC.gov: rental housing search for New Jersey, including accessible units",
+   "org": "NJHRC.gov (MyHousingSearch network)",
+   "state": "NJ",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "NJHRC.gov is the housing search site for New Jersey in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://njhrc.gov/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "nc-housing-search",
+   "name": "NCHousingSearch.org: rental housing search for North Carolina, including accessible units",
+   "org": "NCHousingSearch.org (MyHousingSearch network)",
+   "state": "NC",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "NCHousingSearch.org is the housing search site for North Carolina in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://nchousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "oh-housing-search",
+   "name": "OhioHousingLocator.org: rental housing search for Ohio, including accessible units",
+   "org": "OhioHousingLocator.org (MyHousingSearch network)",
+   "state": "OH",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "OhioHousingLocator.org is the housing search site for Ohio in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://ohiohousinglocator.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "pa-housing-search",
+   "name": "PAHousingSearch.com: rental housing search for Pennsylvania, including accessible units",
+   "org": "PAHousingSearch.com (MyHousingSearch network)",
+   "state": "PA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "PAHousingSearch.com is the housing search site for Pennsylvania in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://pahousingsearch.com/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "ri-housing-search",
+   "name": "HousingSearchRI.org: rental housing search for Rhode Island, including accessible units",
+   "org": "HousingSearchRI.org (MyHousingSearch network)",
+   "state": "RI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "HousingSearchRI.org is the housing search site for Rhode Island in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://housingsearchri.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "tn-housing-search",
+   "name": "TNHousingSearch.org: rental housing search for Tennessee, including accessible units",
+   "org": "TNHousingSearch.org (MyHousingSearch network)",
+   "state": "TN",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "TNHousingSearch.org is the housing search site for Tennessee in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://tnhousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "va-housing-search",
+   "name": "VirginiaHousingSearch.com: rental housing search for Virginia, including accessible units",
+   "org": "VirginiaHousingSearch.com (MyHousingSearch network)",
+   "state": "VA",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "VirginiaHousingSearch.com is the housing search site for Virginia in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://virginiahousingsearch.com/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "wi-housing-search",
+   "name": "WIHousingSearch.org: rental housing search for Wisconsin, including accessible units",
+   "org": "WIHousingSearch.org (MyHousingSearch network)",
+   "state": "WI",
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "description": "WIHousingSearch.org is the housing search site for Wisconsin in the MyHousingSearch network. Renters search for free and landlords list for free. The network’s listings can show more than 40 accessibility fields, so you can narrow a search to units with the features you need, along with affordable and market-rate rentals.",
+   "next_step": "Open the site, choose the area you want, and use the accessible search options to filter for features such as a no-step entry. If you would rather not search online, call the network’s line and ask for help with your search.",
+   "constraints": [
+    "Listings are posted by landlords and property managers. Confirm with the property that the unit is still available and has the features you need before you apply."
+   ],
+   "phone": "1-877-428-8844",
+   "phone_note": "Network call center, as listed by MyHousingSearch; Monday to Friday, 9 a.m. to 8 p.m. Eastern. TTY users dial 711",
+   "email": null,
+   "web": "https://wihousingsearch.org/",
+   "url": "https://www.myhousingsearch.com/ListOfSites.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "mobility"
+   ]
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.pa.gov/agencies/penndot/traveling-in-pa/public-transit-options/seniors-and-persons-with-disabilities.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Not available in Philadelphia County.",
+    "Only for trips that no other funding source covers.",
+    "You pay the rest of the fare. People 65 and older use the senior shared-ride program, which runs in every county."
+   ],
+   "id": "pa-pwd-rural-transportation",
+   "state": "PA",
+   "name": "Persons with Disabilities Program: discounted shared rides in Pennsylvania (ages 18 to 64)",
+   "org": "Pennsylvania Department of Transportation",
+   "description": "PennDOT’s rural transportation program for persons with disabilities lowers the cost of shared-ride, curb-to-curb trips booked in advance for people with disabilities age 18 through 64 who live or travel outside the fixed-route bus system. The program pays up to 85 percent of the fare for trips that no other funding source covers. It runs in 66 counties.",
+   "next_step": "Call the shared-ride provider for your county (PennDOT’s transit service map, linked on the page, shows it), say you want to register for the persons with disabilities program, and ask what proof of disability they need. Book rides at least a day ahead.",
+   "phone": "717-783-8025",
+   "phone_note": "PennDOT Bureau of Public Transportation, listed on the page",
+   "url": "https://www.pa.gov/agencies/penndot/traveling-in-pa/public-transit-options/seniors-and-persons-with-disabilities.html"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Only within three-quarters of a mile of an NJ TRANSIT bus or light rail route.",
+    "Rides are shared, so other passengers may be picked up or dropped off on the way.",
+    "Help between your door and the vehicle is decided case by case; ask when you book."
+   ],
+   "id": "nj-access-link-paratransit",
+   "state": "NJ",
+   "name": "NJ TRANSIT Access Link: ADA paratransit",
+   "org": "NJ TRANSIT",
+   "description": "Access Link is NJ TRANSIT’s shared-ride paratransit for people with disabilities who cannot use NJ TRANSIT buses or light rail. It picks up and drops off within three-quarters of a mile of an NJ TRANSIT bus or light rail route, during hours like those of the bus and light rail, for a fare similar to a regular bus fare.",
+   "next_step": "Call and press 1 to ask for a phone interview. You will be asked about your disabilities and how they affect your use of NJ TRANSIT, and you will need to send medical verification.",
+   "phone": "973-491-4224",
+   "phone_note": "Access Link eligibility line, listed by New Jersey’s Disability Information Hub; press 1",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Bergen"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-bergen",
+   "state": "NJ",
+   "name": "Bergen County paratransit for older residents and people with disabilities",
+   "org": "Bergen County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Bergen County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "201-368-5955",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Essex"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-essex",
+   "state": "NJ",
+   "name": "Essex County paratransit for older residents and people with disabilities",
+   "org": "Essex County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Essex County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "973-618-1280",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Hudson"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-hudson",
+   "state": "NJ",
+   "name": "Hudson County paratransit for older residents and people with disabilities",
+   "org": "Hudson County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Hudson County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "201-369-4320",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Morris"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-morris",
+   "state": "NJ",
+   "name": "Morris County paratransit for older residents and people with disabilities",
+   "org": "Morris County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Morris County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "973-829-8103",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Passaic"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-passaic",
+   "state": "NJ",
+   "name": "Passaic County paratransit for older residents and people with disabilities",
+   "org": "Passaic County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Passaic County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "973-305-5756",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Sussex"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-sussex",
+   "state": "NJ",
+   "name": "Sussex County paratransit for older residents and people with disabilities",
+   "org": "Sussex County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Sussex County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "973-579-0480",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Warren"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-warren",
+   "state": "NJ",
+   "name": "Warren County paratransit for older residents and people with disabilities",
+   "org": "Warren County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Warren County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "908-454-4044",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Hunterdon"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-hunterdon",
+   "state": "NJ",
+   "name": "Hunterdon County paratransit for older residents and people with disabilities",
+   "org": "Hunterdon County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Hunterdon County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "800-842-0531",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Mercer"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-mercer",
+   "state": "NJ",
+   "name": "Mercer County paratransit for older residents and people with disabilities",
+   "org": "Mercer County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Mercer County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "609-530-1971",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Middlesex"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-middlesex",
+   "state": "NJ",
+   "name": "Middlesex County paratransit for older residents and people with disabilities",
+   "org": "Middlesex County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Middlesex County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "800-221-3520",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Monmouth"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-monmouth",
+   "state": "NJ",
+   "name": "Monmouth County paratransit for older residents and people with disabilities",
+   "org": "Monmouth County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Monmouth County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "732-431-6480",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Somerset"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-somerset",
+   "state": "NJ",
+   "name": "Somerset County paratransit for older residents and people with disabilities",
+   "org": "Somerset County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Somerset County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "908-231-7115",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Union"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-union",
+   "state": "NJ",
+   "name": "Union County paratransit for older residents and people with disabilities",
+   "org": "Union County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Union County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "908-241-8300",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Atlantic"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-atlantic",
+   "state": "NJ",
+   "name": "Atlantic County paratransit for older residents and people with disabilities",
+   "org": "Atlantic County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Atlantic County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "609-645-5910",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Burlington"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-burlington",
+   "state": "NJ",
+   "name": "Burlington County paratransit for older residents and people with disabilities",
+   "org": "Burlington County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Burlington County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "877-603-5111",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Camden"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-camden",
+   "state": "NJ",
+   "name": "Camden County paratransit for older residents and people with disabilities",
+   "org": "Camden County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Camden County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "856-456-3344",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Cape May"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-cape-may",
+   "state": "NJ",
+   "name": "Cape May County paratransit for older residents and people with disabilities",
+   "org": "Cape May County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Cape May County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "609-889-3700",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Cumberland"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-cumberland",
+   "state": "NJ",
+   "name": "Cumberland County paratransit for older residents and people with disabilities",
+   "org": "Cumberland County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Cumberland County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "856-691-7799",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Gloucester"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-gloucester",
+   "state": "NJ",
+   "name": "Gloucester County paratransit for older residents and people with disabilities",
+   "org": "Gloucester County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Gloucester County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "856-686-8350",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Ocean"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-ocean",
+   "state": "NJ",
+   "name": "Ocean County paratransit for older residents and people with disabilities",
+   "org": "Ocean County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Ocean County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "877-929-2082",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Salem"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Hours, reservation rules and fees are set by the county; the state page does not list them."
+   ],
+   "id": "nj-county-paratransit-salem",
+   "state": "NJ",
+   "name": "Salem County paratransit for older residents and people with disabilities",
+   "org": "Salem County, New Jersey",
+   "description": "Each New Jersey county runs paratransit for older residents and people with disabilities. This is the line for Salem County. It can reach places Access Link does not, since Access Link only runs near NJ TRANSIT routes.",
+   "next_step": "Call and ask whether you qualify, what the service area and hours are, how far ahead to book, and what a ride costs.",
+   "phone": "856-339-8644",
+   "phone_note": "County paratransit line, listed by New Jersey’s Disability Information Hub",
+   "url": "https://nj.gov/disabilities/employment-independent-living/transportation/request-a-ride.shtml"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": "DOT_Eligibility_Faxes@delaware.gov",
+   "web": "https://dartfirststate.com/RiderInfo/Paratransit/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "If you are turned down, you have the right to appeal; ask DART how.",
+    "People 65 and older without a disability use a separate Elderly Only application."
+   ],
+   "id": "de-dart-paratransit",
+   "state": "DE",
+   "name": "DART Paratransit (Delaware)",
+   "org": "DART First State (Delaware Transit Corporation)",
+   "description": "DART Paratransit gives rides to people whose disability keeps them from using DART’s fixed-route buses: people who cannot get on or off a bus on their own, who need a lift that is not available on their route at the time they travel, or whose condition keeps them from getting to or from a bus stop.",
+   "next_step": "Call to ask for an application, or download it from the page. Fill out Part A and have your health care professional complete Part B, then mail or email both parts together. If you have not heard back within 21 days, call; you may be given temporary eligibility.",
+   "phone": "800-553-3278",
+   "phone_note": "Paratransit line, listed by DART First State. The page gives two different TDD numbers, so neither is listed here",
+   "url": "https://dartfirststate.com/RiderInfo/Paratransit/"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": "https://vtrans.vermont.gov/public-transit/E-and-D",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "The state page does not say what riders pay."
+   ],
+   "id": "vt-elders-disabilities-transportation",
+   "state": "VT",
+   "name": "Elders and Persons with Disabilities Transportation Program (Vermont)",
+   "org": "Vermont Agency of Transportation",
+   "description": "Vermont’s Elders and Persons with Disabilities (E&D) Transportation Program gives door-to-door rides to people age 60 and older and to people with disabilities as the ADA defines them. Rides go to medical appointments, adult day programs, senior meal sites and essential shopping, filling gaps in regular transit. Vermont’s public transit providers arrange the rides in each region.",
+   "next_step": "Call the public transit provider for your region, ask to use the E&D program, and ask which trips it covers and whether there is a cost.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Call the public transit provider that serves your town; the state page does not list a phone number.",
+   "url": "https://vtrans.vermont.gov/public-transit/E-and-D"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": "massmobility@dot.state.ma.us",
+   "web": "https://www.mass.gov/info-details/public-transportation-in-massachusetts",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "You must apply and be found eligible before you can book paratransit rides.",
+    "What is offered differs by transit authority; ask yours what applies."
+   ],
+   "id": "ma-transit-authorities-paratransit",
+   "state": "MA",
+   "name": "Massachusetts transit authorities: find paratransit for your town",
+   "org": "Massachusetts Department of Transportation",
+   "description": "The MBTA and 15 Regional Transit Authorities run bus and paratransit service across Massachusetts. ADA paratransit, sometimes called dial-a-ride or demand-response, is a shared ride for people whose disability sometimes or always keeps them from using a fixed-route bus, in the area the buses cover. Some authorities offer paratransit beyond what federal law requires. The state’s page shows which authority serves each city and town, with its phone number.",
+   "next_step": "Find your town on the page, then call that transit authority and ask how to apply for paratransit, whether it offers rides beyond ADA paratransit, and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Look up your town on the page and call the transit authority listed for it.",
+   "url": "https://www.mass.gov/info-details/public-transportation-in-massachusetts"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.maine.gov/dot/programs-services/transit/public-transit",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "The page does not say who can ride or what rides cost; ask the provider."
+   ],
+   "id": "me-regional-public-transit",
+   "state": "ME",
+   "name": "Public transit providers in Maine, region by region",
+   "org": "Maine Department of Transportation",
+   "description": "MaineDOT’s public transit page lists the transit providers for each of Maine’s eight transit regions, the towns and counties each region covers, and the providers’ phone numbers. A town search shows which region you are in.",
+   "next_step": "Use the town search to find your region, then call a provider listed for it and ask about rides for people with disabilities, how to book and what a ride costs.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Find your region with the town search on the page; it lists each provider’s phone number.",
+   "url": "https://www.maine.gov/dot/programs-services/transit/public-transit"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": "dottransit@nd.gov",
+   "web": "https://www.dot.nd.gov/node/6346",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Dial-A-Ride is for eligible riders; ask your provider how to qualify.",
+    "Most Dial-A-Ride trips are booked at least 24 hours ahead; some providers take same-day requests."
+   ],
+   "id": "nd-statewide-transit-dial-a-ride",
+   "state": "ND",
+   "name": "North Dakota rural transit and Dial-A-Ride",
+   "org": "North Dakota Department of Transportation",
+   "description": "North Dakota’s transit program serves anyone who needs a ride, and about 31 bus programs serve rural North Dakota. Demand-response rides are open to everyone: you call your local provider and reserve a seat. Dial-A-Ride is door-to-door accessible service for people with disabilities and seniors. Some providers also run town-to-town trips to regional hubs and medical rides to treatment such as dialysis or chemotherapy.",
+   "next_step": "Use the transit providers map or list linked on the page to find the provider for your area, then call and ask about Dial-A-Ride and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Find your local provider on the transit providers map linked from the page, or email the state transit office.",
+   "url": "https://www.dot.nd.gov/node/6346"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": "https://ncdot.gov/divisions/integrated-mobility/public-transit-services/Documents/Local%20Transit%20Search.aspx",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "The search needs JavaScript; if it does not load, use the “View List” link on the page."
+   ],
+   "id": "nc-local-transit-search",
+   "state": "NC",
+   "name": "North Carolina local transit search: public transportation in every county",
+   "org": "North Carolina Department of Transportation (Integrated Mobility Division)",
+   "description": "NCDOT says public transportation is available in all North Carolina counties. Its local transit search finds the transit options for your county or city.",
+   "next_step": "Search for your county, then call the transit system it lists and ask about door-to-door rides for people with disabilities, how to register and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Search for your county on the page.",
+   "url": "https://ncdot.gov/divisions/integrated-mobility/public-transit-services/Documents/Local%20Transit%20Search.aspx"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": "https://drpt.virginia.gov/?p=9998",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Route and stop data is updated twice a year; confirm service with the provider."
+   ],
+   "id": "va-statewide-transit-map",
+   "state": "VA",
+   "name": "Virginia statewide transit map, including demand-response service areas",
+   "org": "Virginia Department of Rail and Public Transportation",
+   "description": "Virginia is served by 40 transit agencies operating in 107 localities. The state’s transit map shows bus routes and stops, microtransit zones and demand-response service areas, so you can see which services reach where you live.",
+   "next_step": "Open the map, turn on the demand-response layer, and find the provider for your area. Then call that provider and ask about rides for people with disabilities.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the map on the page to find the provider for your area.",
+   "url": "https://drpt.virginia.gov/?p=9998"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.mta.maryland.gov/lots",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [],
+   "id": "md-locally-operated-transit",
+   "state": "MD",
+   "name": "Maryland’s local transit systems, county by county",
+   "org": "Maryland Transit Administration (Office of Local Transit Support)",
+   "description": "MDOT MTA lists the locally operated transit system for Maryland’s counties, Baltimore City, Annapolis and Ocean City, with a link to each. Most offer demand-response rides, ADA paratransit or both, and some add taxi vouchers or rides for older adults and people with disabilities.",
+   "next_step": "Find your county on the page and open its transit system’s site for phone numbers and how to register for rides.",
+   "phone": "410-539-5000",
+   "phone_note": "MDOT MTA Transit Information Contact Center, listed on the page; weekdays 6 a.m. to 7 p.m.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Anne Arundel"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.aacounty.org/services-and-programs/bus-and-rail-transit",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-anne-arundel",
+   "state": "MD",
+   "name": "Anne Arundel County Transit: local transit and rides for people with disabilities",
+   "org": "Anne Arundel County Transit",
+   "description": "Anne Arundel County Transit is the local transit system MDOT MTA lists for this area. It offers ADA paratransit, demand-response rides for older and disabled residents, and taxi vouchers. It serves the county outside Annapolis city limits.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Howard"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.transitrta.com/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-howard",
+   "state": "MD",
+   "name": "Howard County RTA (Regional Transportation Agency of Central Maryland): local transit and rides for people with disabilities",
+   "org": "Howard County RTA (Regional Transportation Agency of Central Maryland)",
+   "description": "Howard County RTA (Regional Transportation Agency of Central Maryland) is the local transit system MDOT MTA lists for this area. It offers ADA paratransit and demand-response rides.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Montgomery"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.montgomerycountymd.gov/dot-Transit/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-montgomery",
+   "state": "MD",
+   "name": "Montgomery County Ride On: local transit and rides for people with disabilities",
+   "org": "Montgomery County Ride On",
+   "description": "Montgomery County Ride On is the local transit system MDOT MTA lists for this area. It offers Call ’N’ Ride, a specialized service for older adults and people with disabilities.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Prince George's"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.princegeorgescountymd.gov/departments-offices/public-works-transportation/metro-and-transportation/prince-georges-countys-gopgc",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-prince-georges",
+   "state": "MD",
+   "name": "Prince George’s County GoPGC: local transit and rides for people with disabilities",
+   "org": "Prince George’s County GoPGC",
+   "description": "Prince George’s County GoPGC is the local transit system MDOT MTA lists for this area. It offers paratransit, microtransit, Call-A-Cab and senior transportation services.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Allegany"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.alleganygov.org/315/Transit",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-allegany",
+   "state": "MD",
+   "name": "Allegany County Transit: local transit and rides for people with disabilities",
+   "org": "Allegany County Transit",
+   "description": "Allegany County Transit is the local transit system MDOT MTA lists for this area. It offers Alltrans demand-response rides and ADA paratransit.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Frederick"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.frederickcountymd.gov/105/TransIT",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-frederick",
+   "state": "MD",
+   "name": "Frederick County TransIT: local transit and rides for people with disabilities",
+   "org": "Frederick County TransIT",
+   "description": "Frederick County TransIT is the local transit system MDOT MTA lists for this area. It offers demand-response paratransit and ADA paratransit.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Garrett"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.garrettcac.org/index.php/service-area",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-garrett",
+   "state": "MD",
+   "name": "Garrett Transit Service: local transit and rides for people with disabilities",
+   "org": "Garrett Transit Service",
+   "description": "Garrett Transit Service is the local transit system MDOT MTA lists for this area. It runs demand-response service.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Washington"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.washco-md.net/transit/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-washington",
+   "state": "MD",
+   "name": "Washington County Transit: local transit and rides for people with disabilities",
+   "org": "Washington County Transit",
+   "description": "Washington County Transit is the local transit system MDOT MTA lists for this area. It offers ADA complementary paratransit and taxi vouchers.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Calvert"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.calvertcountymd.gov/130/Public-Transportation",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-calvert",
+   "state": "MD",
+   "name": "Calvert County Public Transportation: local transit and rides for people with disabilities",
+   "org": "Calvert County Public Transportation",
+   "description": "Calvert County Public Transportation is the local transit system MDOT MTA lists for this area. It offers demand-response and ADA service.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Charles"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.charlescountymd.gov/services/transportation/vango-public-transportation",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-charles",
+   "state": "MD",
+   "name": "Charles County VanGO: local transit and rides for people with disabilities",
+   "org": "Charles County VanGO",
+   "description": "Charles County VanGO is the local transit system MDOT MTA lists for this area. It offers demand-response and ADA service.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "St. Mary's"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.stmarysmd.com/dpw/sts-transit/",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-st-marys",
+   "state": "MD",
+   "name": "St. Mary’s Transportation Service: local transit and rides for people with disabilities",
+   "org": "St. Mary’s Transportation Service",
+   "description": "St. Mary’s Transportation Service is the local transit system MDOT MTA lists for this area. It offers demand-response rides and ADA paratransit.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Baltimore"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.baltimorecountymd.gov/departments/public-works/traffic/transportation/countyride",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-baltimore-county",
+   "state": "MD",
+   "name": "Baltimore County CountyRide: local transit and rides for people with disabilities",
+   "org": "Baltimore County CountyRide",
+   "description": "Baltimore County CountyRide is the local transit system MDOT MTA lists for this area. It runs demand-response service.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Cecil"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.cecilcountymd.gov/299/Cecil-Transit",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-cecil",
+   "state": "MD",
+   "name": "Cecil County Transit: local transit and rides for people with disabilities",
+   "org": "Cecil County Transit",
+   "description": "Cecil County Transit is the local transit system MDOT MTA lists for this area. It offers demand-response rides and taxi vouchers.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Harford"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.harfordcountymd.gov/213/Harford-Transit-LINK",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-harford",
+   "state": "MD",
+   "name": "Harford Transit LINK: local transit and rides for people with disabilities",
+   "org": "Harford Transit LINK",
+   "description": "Harford Transit LINK is the local transit system MDOT MTA lists for this area. It runs demand-response service.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Somerset",
+    "Wicomico",
+    "Worcester"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-shore",
+   "state": "MD",
+   "name": "Shore Transit: local transit and rides for people with disabilities",
+   "org": "Shore Transit",
+   "description": "Shore Transit is the local transit system MDOT MTA lists for this area. It runs deviated fixed-route and demand-response service in Somerset, Wicomico and Worcester counties.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "MDOT MTA’s list links Shore Transit’s site; open it from the list for the phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Dorchester"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.dcsdct.org/transportation--mobility.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-dorchester",
+   "state": "MD",
+   "name": "Delmarva Community Transit (Dorchester County): local transit and rides for people with disabilities",
+   "org": "Delmarva Community Transit (Dorchester County)",
+   "description": "Delmarva Community Transit (Dorchester County) is the local transit system MDOT MTA lists for this area. It offers demand-response and ADA transportation.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Kent",
+    "Caroline",
+    "Talbot"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://www.dcsdct.org/transportation--mobility.html",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-upper-shore",
+   "state": "MD",
+   "name": "Delmarva Community Services (Kent, Caroline and Talbot counties): local transit and rides for people with disabilities",
+   "org": "Delmarva Community Services (Kent, Caroline and Talbot counties)",
+   "description": "Delmarva Community Services (Kent, Caroline and Talbot counties) is the local transit system MDOT MTA lists for this area. It runs deviated fixed-route and demand-response service.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "counties",
+   "counties": [
+    "Queen Anne's"
+   ],
+   "category": "transportation",
+   "email": null,
+   "web": "https://qac.org/181/County-Ride",
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Service hours, fares and who can ride are set by the local system."
+   ],
+   "id": "md-lots-queen-annes",
+   "state": "MD",
+   "name": "Queen Anne’s County Ride: local transit and rides for people with disabilities",
+   "org": "Queen Anne’s County Ride",
+   "description": "Queen Anne’s County Ride is the local transit system MDOT MTA lists for this area. It runs deviated fixed-route and demand-response service through the county’s Department of Aging.",
+   "next_step": "Open the system’s page for its phone number, then ask how to register for demand-response or paratransit rides and how far ahead to book.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Use the link to the local system’s page for its phone number.",
+   "url": "https://www.mta.maryland.gov/lots"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "al-liheap-energy-assistance",
+   "state": "AL",
+   "name": "Energy bill help (LIHEAP) in Alabama: the state’s public inquiry line",
+   "org": "Alabama Department of Economic and Community Affairs, Energy Division",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Alabama, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-392-8098",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ak-liheap-energy-assistance",
+   "state": "AK",
+   "name": "Energy bill help (LIHEAP) in Alaska: the state’s public inquiry line",
+   "org": "Alaska Division of Public Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Alaska, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-470-3058",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "az-liheap-energy-assistance",
+   "state": "AZ",
+   "name": "Energy bill help (LIHEAP) in Arizona: the state’s public inquiry line",
+   "org": "Arizona Department of Economic Security, Division of Community Assistance and Development",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Arizona, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-494-1981",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ar-liheap-energy-assistance",
+   "state": "AR",
+   "name": "Energy bill help (LIHEAP) in Arkansas: the state’s public inquiry line",
+   "org": "Arkansas state LIHEAP office",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Arkansas, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-482-8988",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ca-liheap-energy-assistance",
+   "state": "CA",
+   "name": "Energy bill help (LIHEAP) in California: the state’s public inquiry line",
+   "org": "California Department of Community Services and Development",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for California, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-675-6623",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "co-liheap-energy-assistance",
+   "state": "CO",
+   "name": "Energy bill help (LIHEAP) in Colorado: the state’s public inquiry line",
+   "org": "Colorado Department of Human Services, Energy Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Colorado, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-432-8435",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list; the list also gives 303-861-0269",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ct-liheap-energy-assistance",
+   "state": "CT",
+   "name": "Energy bill help (LIHEAP) in Connecticut: the state’s public inquiry line",
+   "org": "Connecticut Department of Social Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Connecticut, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-842-1132",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "de-liheap-energy-assistance",
+   "state": "DE",
+   "name": "Energy bill help (LIHEAP) in Delaware: the state’s public inquiry line",
+   "org": "Delaware Department of Health and Social Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Delaware, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-464-4357",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list (1-800-464-HELP)",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "dc-liheap-energy-assistance",
+   "state": "DC",
+   "name": "Energy bill help (LIHEAP) in the District of Columbia: the state’s public inquiry line",
+   "org": "DC Department of Energy and Environment, Utility Affordability Division",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for the District of Columbia, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "202-535-2600",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "fl-liheap-energy-assistance",
+   "state": "FL",
+   "name": "Energy bill help (LIHEAP) in Florida: the state’s public inquiry line",
+   "org": "Florida Department of Commerce, Bureau of Economic Self-Sufficiency",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Florida, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "850-717-8450",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ga-liheap-energy-assistance",
+   "state": "GA",
+   "name": "Energy bill help (LIHEAP) in Georgia: the state’s public inquiry line",
+   "org": "Georgia Department of Human Services, Office of Family Independence",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Georgia, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "877-423-4746",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "hi-liheap-energy-assistance",
+   "state": "HI",
+   "name": "Energy bill help (LIHEAP) in Hawaii: the state’s public inquiry line",
+   "org": "Hawaii Benefit, Employment and Support Services Division",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Hawaii, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "808-586-5740",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "il-liheap-energy-assistance",
+   "state": "IL",
+   "name": "Energy bill help (LIHEAP) in Illinois: the state’s public inquiry line",
+   "org": "Illinois Department of Commerce and Economic Opportunity, Office of Community Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Illinois, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "877-411-9276",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list (1-877-411-WARM)",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "in-liheap-energy-assistance",
+   "state": "IN",
+   "name": "Energy bill help (LIHEAP) in Indiana: the state’s public inquiry line",
+   "org": "Indiana Housing and Community Development Authority",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Indiana, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-872-0371",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ia-liheap-energy-assistance",
+   "state": "IA",
+   "name": "Energy bill help (LIHEAP) in Iowa: the state’s public inquiry line",
+   "org": "Iowa state LIHEAP office",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Iowa, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "515-281-3861",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ks-liheap-energy-assistance",
+   "state": "KS",
+   "name": "Energy bill help (LIHEAP) in Kansas: the state’s public inquiry line",
+   "org": "Kansas state LIHEAP office",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Kansas, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-432-0043",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ky-liheap-energy-assistance",
+   "state": "KY",
+   "name": "Energy bill help (LIHEAP) in Kentucky: the state’s public inquiry line",
+   "org": "Kentucky Cabinet for Health and Family Services, Division of Family Support",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Kentucky, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-456-3452",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "la-liheap-energy-assistance",
+   "state": "LA",
+   "name": "Energy bill help (LIHEAP) in Louisiana: the state’s public inquiry line",
+   "org": "Louisiana Housing Corporation, Energy Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Louisiana, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "888-454-2001",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "me-liheap-energy-assistance",
+   "state": "ME",
+   "name": "Energy bill help (LIHEAP) in Maine: the state’s public inquiry line",
+   "org": "Maine State Housing Authority (MaineHousing)",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Maine, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-452-4668",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ma-liheap-energy-assistance",
+   "state": "MA",
+   "name": "Energy bill help (LIHEAP) in Massachusetts: the state’s public inquiry line",
+   "org": "Massachusetts Executive Office of Housing and Livable Communities",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Massachusetts, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-632-8175",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "mn-liheap-energy-assistance",
+   "state": "MN",
+   "name": "Energy bill help (LIHEAP) in Minnesota: the state’s public inquiry line",
+   "org": "Minnesota Department of Commerce, Energy Assistance Programs",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Minnesota, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-657-3710",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ms-liheap-energy-assistance",
+   "state": "MS",
+   "name": "Energy bill help (LIHEAP) in Mississippi: the state’s public inquiry line",
+   "org": "Mississippi Department of Human Services, Division of Community Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Mississippi, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-421-0762",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "mt-liheap-energy-assistance",
+   "state": "MT",
+   "name": "Energy bill help (LIHEAP) in Montana: the state’s public inquiry line",
+   "org": "Montana Department of Public Health and Human Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Montana, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-332-2272",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ne-liheap-energy-assistance",
+   "state": "NE",
+   "name": "Energy bill help (LIHEAP) in Nebraska: the state’s public inquiry line",
+   "org": "Nebraska Department of Health and Human Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Nebraska, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "402-471-3121",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "nv-liheap-energy-assistance",
+   "state": "NV",
+   "name": "Energy bill help (LIHEAP) in Nevada: the state’s public inquiry line",
+   "org": "Nevada Division of Welfare and Supportive Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Nevada, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-992-0900",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list; extension 4420",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "nj-liheap-energy-assistance",
+   "state": "NJ",
+   "name": "Energy bill help (LIHEAP) in New Jersey: the state’s public inquiry line",
+   "org": "New Jersey Department of Community Affairs, Office of Low-Income Energy Conservation",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for New Jersey, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-510-3102",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "nm-liheap-energy-assistance",
+   "state": "NM",
+   "name": "Energy bill help (LIHEAP) in New Mexico: the state’s public inquiry line",
+   "org": "New Mexico Income Support Division",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for New Mexico, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-283-4465",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ny-liheap-energy-assistance",
+   "state": "NY",
+   "name": "Energy bill help (LIHEAP) in New York: the state’s public inquiry line",
+   "org": "New York State Office of Temporary and Disability Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for New York, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-342-3009",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "nd-liheap-energy-assistance",
+   "state": "ND",
+   "name": "Energy bill help (LIHEAP) in North Dakota: the state’s public inquiry line",
+   "org": "North Dakota state LIHEAP office",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for North Dakota, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-755-2716",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "oh-liheap-energy-assistance",
+   "state": "OH",
+   "name": "Energy bill help (LIHEAP) in Ohio: the state’s public inquiry line",
+   "org": "Ohio Department of Development, Office of Community Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Ohio, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-282-0880",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list; TDD 1-800-686-1557",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ok-liheap-energy-assistance",
+   "state": "OK",
+   "name": "Energy bill help (LIHEAP) in Oklahoma: the state’s public inquiry line",
+   "org": "Oklahoma Department of Human Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Oklahoma, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-411-1877",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list; the list also gives 405-522-5050",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "or-liheap-energy-assistance",
+   "state": "OR",
+   "name": "Energy bill help (LIHEAP) in Oregon: the state’s public inquiry line",
+   "org": "Oregon Housing and Community Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Oregon, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-453-5511",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "pa-liheap-energy-assistance",
+   "state": "PA",
+   "name": "Energy bill help (LIHEAP) in Pennsylvania: the state’s public inquiry line",
+   "org": "Pennsylvania Department of Human Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Pennsylvania, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-857-7095",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ri-liheap-energy-assistance",
+   "state": "RI",
+   "name": "Energy bill help (LIHEAP) in Rhode Island: the state’s public inquiry line",
+   "org": "Rhode Island Department of Human Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Rhode Island, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "401-462-6419",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "sd-liheap-energy-assistance",
+   "state": "SD",
+   "name": "Energy bill help (LIHEAP) in South Dakota: the state’s public inquiry line",
+   "org": "South Dakota Department of Social Services, Office of Energy Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for South Dakota, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-233-8503",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "tn-liheap-energy-assistance",
+   "state": "TN",
+   "name": "Energy bill help (LIHEAP) in Tennessee: the state’s public inquiry line",
+   "org": "Tennessee Housing Development Agency",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Tennessee, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "615-815-2197",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "tx-liheap-energy-assistance",
+   "state": "TX",
+   "name": "Energy bill help (LIHEAP) in Texas: the state’s public inquiry line",
+   "org": "Texas Department of Housing and Community Affairs",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Texas, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "877-399-8939",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "ut-liheap-energy-assistance",
+   "state": "UT",
+   "name": "Energy bill help (LIHEAP) in Utah: the state’s public inquiry line",
+   "org": "Utah Division of Housing and Community Development",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Utah, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-205-4357",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "vt-liheap-energy-assistance",
+   "state": "VT",
+   "name": "Energy bill help (LIHEAP) in Vermont: the state’s public inquiry line",
+   "org": "Vermont Department of Children and Families",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Vermont, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-479-6151",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list; the list also gives 802-828-6896",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "va-liheap-energy-assistance",
+   "state": "VA",
+   "name": "Energy bill help (LIHEAP) in Virginia: the state’s public inquiry line",
+   "org": "Virginia Department of Social Services, Energy Assistance Program",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Virginia, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-230-6977",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "wv-liheap-energy-assistance",
+   "state": "WV",
+   "name": "Energy bill help (LIHEAP) in West Virginia: the state’s public inquiry line",
+   "org": "West Virginia Department of Human Services, Bureau for Family Assistance",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for West Virginia, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "800-642-8589",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "wi-liheap-energy-assistance",
+   "state": "WI",
+   "name": "Energy bill help (LIHEAP) in Wisconsin: the state’s public inquiry line",
+   "org": "Wisconsin Division of Energy, Housing and Community Resources",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Wisconsin, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "866-432-8947",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "daily_living",
+   "email": null,
+   "web": null,
+   "reviewed_on": "2026-11-17",
+   "record_status": "directory_listed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Programs, dates and income limits are set by each state, and money can run out during the season.",
+    "This number comes from the federal contact list, which some states update slowly. If it no longer works, the national energy assistance referral line can point you to the right office."
+   ],
+   "id": "wy-liheap-energy-assistance",
+   "state": "WY",
+   "name": "Energy bill help (LIHEAP) in Wyoming: the state’s public inquiry line",
+   "org": "Wyoming Department of Family Services",
+   "description": "LIHEAP, the federal Low Income Home Energy Assistance Program, helps households with low incomes pay home heating and cooling bills, and each state runs its own program. The federal LIHEAP contact list gives this public inquiry line for Wyoming, for questions about getting help.",
+   "next_step": "Call and ask whether you may qualify, when applications are taken and where to apply near you. If you have a shut-off notice, say so when you call.",
+   "phone": "307-473-3984",
+   "phone_note": "Public inquiry line, as listed in the federal LIHEAP state contact list",
+   "url": "https://acf.gov/ocs/map/liheap-map-state-and-territory-contact-listing"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "email": null,
+   "web": "https://events.tdhca.state.tx.us/section-811-pra/index.htm",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Properties are only in eight metro areas: Austin-Round Rock, Brownsville-Harlingen, Corpus Christi, Dallas-Fort Worth-Arlington, El Paso, Houston-The Woodlands-Sugar Land, McAllen-Edinburg-Mission and San Antonio-New Braunfels."
+   ],
+   "id": "tx-section-811-pra",
+   "state": "TX",
+   "name": "Section 811 Project Rental Assistance in Texas (TDHCA)",
+   "org": "Texas Department of Housing and Community Affairs",
+   "description": "Texas’s Section 811 program gives project-based rental assistance, linked with long-term services, to extremely low-income people with disabilities. It serves people with disabilities living in institutions, people with serious mental illness, and youth with disabilities leaving foster care. A qualifying household member must be at least 18 and under 62 when they move in.",
+   "next_step": "You cannot apply on your own: a Qualified Referral Agent must refer you. Open the page, find the referral agent list, and ask the agency that serves you to make the referral.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Ask a Qualified Referral Agent listed on TDHCA’s Section 811 pages to refer you.",
+   "url": "https://events.tdhca.state.tx.us/section-811-pra/index.htm"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "category": "housing",
+   "email": "HCS_Housing.Info@hcs.oregon.gov",
+   "web": "https://www.oregon.gov/ohcs/compliance-monitoring/Pages/HUD-811-rental-assistance-providers.aspx",
+   "reviewed_on": "2026-11-17",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "The page notes that the referral agent list for serious and persistent mental illness was still being updated."
+   ],
+   "id": "or-section-811-pra",
+   "state": "OR",
+   "name": "Section 811 Project Rental Assistance in Oregon (OHCS)",
+   "org": "Oregon Housing and Community Services",
+   "description": "Oregon Housing and Community Services runs HUD Section 811 rental assistance with the Oregon Department of Human Services and the Oregon Health Authority. The units are for people with serious and persistent mental illness or with intellectual or developmental disabilities. Local service providers, called referral agents, help eligible people apply.",
+   "next_step": "Contact a referral agent listed on the page for your county: a Support Services Brokerage or Community Developmental Disabilities Program for intellectual or developmental disabilities.",
+   "phone": "800-453-5511",
+   "phone_note": "Oregon Housing and Community Services general line, listed on the page",
+   "url": "https://www.oregon.gov/ohcs/compliance-monitoring/Pages/HUD-811-rental-assistance-providers.aspx"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://iris.phfa.org/mhp/section811pra/",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "You cannot apply on your own; you come in through a referral and the waiting list."
+   ],
+   "id": "pa-section-811-pra",
+   "state": "PA",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Pennsylvania (PHFA)",
+   "org": "Pennsylvania Housing Finance Agency, with the Department of Human Services",
+   "description": "Pennsylvania’s Section 811 program gives project-based rental assistance to people with disabilities with extremely low incomes (at or below 30 percent of area median income), ages 18 to 61 at move-in. It is for people who are in an institution but could live in the community with supportive housing, people at risk of going into one, and people in group settings who want to move to the community. Self Determination Housing Partnership (SDHP) manages the waiting list, and Local Lead Agencies screen people in their areas.",
+   "next_step": "Ask your service coordinator, case manager or the Local Lead Agency for your area to screen you and refer you to the 811 waiting list.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Ask your service coordinator or your area’s Local Lead Agency to refer you; SDHP manages the waiting list.",
+   "url": "https://iris.phfa.org/mhp/section811pra/"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "mn.housing@state.mn.us",
+   "web": "https://www.mnhousing.gov/rental-housing/grant-programs/active-funding/section-811-pra-program.html",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "You cannot refer yourself; an agency that works with the target groups must refer you.",
+    "If no one from the target groups is waiting for a site, other eligible people may be offered a unit."
+   ],
+   "id": "mn-section-811-pra",
+   "state": "MN",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Minnesota",
+   "org": "Minnesota Housing, with the Minnesota Department of Human Services",
+   "description": "Minnesota’s Section 811 program serves single adults and families that include an adult with a disability who is at least 18 and under 62 at move-in, who is eligible for community-based long-term services paid by Medicaid or the state (such as waiver services, adult mental health services or Money Follows the Person), and whose household income is at or below HUD’s extremely low income limit. It focuses on people experiencing long-term homelessness with serious mental illness who are in the PATH outreach program, and on people leaving an institution after 60 days or more through Money Follows the Person.",
+   "next_step": "Ask the agency that serves you, such as your PATH outreach worker or Money Follows the Person transition coordinator, to refer you. A state housing coordinator keeps the statewide waiting list.",
+   "phone": "800-657-3769",
+   "phone_note": "Minnesota Housing’s general line, listed on the page; it does not make referrals (local 651-296-7608)",
+   "url": "https://www.mnhousing.gov/rental-housing/grant-programs/active-funding/section-811-pra-program.html"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://mdod.maryland.gov/housing/Pages/section811.aspx",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Units are in specific approved buildings; the help stays with the apartment, not with you."
+   ],
+   "id": "md-section-811-pra",
+   "state": "MD",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Maryland",
+   "org": "Maryland Department of Disabilities, with the Department of Housing and Community Development",
+   "description": "Section 811 makes an apartment in the community affordable for people with disabilities with very low incomes who are 18 to under 62 when they sign the lease and who get Medicaid. You pay 30 percent of your income for rent and utilities together, and the program pays the rest of the rent to the landlord.",
+   "next_step": "Ask your case manager, support planner, resource coordinator or community health worker to fill out the pre-screening and application with you.",
+   "phone": "410-767-3660",
+   "phone_note": "Maryland Department of Disabilities, listed on the page",
+   "url": "https://mdod.maryland.gov/housing/Pages/section811.aspx"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://www.wheda.com/developers-and-property-managers/property-managers/section-811",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Only in certain metropolitan areas."
+   ],
+   "id": "wi-section-811-pra",
+   "state": "WI",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Wisconsin (WHEDA)",
+   "org": "Wisconsin Housing and Economic Development Authority, with the Department of Health Services",
+   "description": "Wisconsin’s Section 811 program gives project-based rental assistance to people with disabilities with extremely low incomes (at or below 30 percent of area median income) who are 18 to 61 at move-in, qualify for a home and community-based waiver program and meet HUD’s 811 definition of disability. WHEDA and the Department of Health Services manage the waiting list.",
+   "next_step": "Ask an agency that works with you, such as your waiver care manager, to refer you; people come in through a referring agency.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Ask an agency that works with you to make the referral; the page lists no general line for people seeking housing.",
+   "url": "https://www.wheda.com/developers-and-property-managers/property-managers/section-811"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "S811PRA@NJHMFA.GOV",
+   "web": null,
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "The program overview is undated and describes the 2015 award; ask whether units are open now."
+   ],
+   "id": "nj-section-811-pra",
+   "state": "NJ",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in New Jersey (NJHMFA)",
+   "org": "New Jersey Housing and Mortgage Finance Agency, with the Department of Human Services",
+   "description": "New Jersey’s Section 811 program gives rental assistance to extremely low-income people with physical, psychiatric or developmental disabilities, including people ages 18 to 61 leaving nursing homes. The Department of Human Services (its divisions of mental health and addiction services, developmental disabilities and aging services) refers tenants and keeps a waiting list for openings. Tenants pay no more than 30 percent of their income toward rent.",
+   "next_step": "Ask your case manager at the Division of Developmental Disabilities, Mental Health and Addiction Services or Aging Services about a referral.",
+   "phone": "609-278-7400",
+   "phone_note": "New Jersey Housing and Mortgage Finance Agency, listed on its Section 811 overview",
+   "url": "https://nj.gov/dca/hmfa/developers/docs/supportivehousing/sn_811_pro_overview.pdf"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://oklahoma.gov/okdrs/independence/hearing/sdhh.html",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "TTY users can dial 711."
+   ],
+   "id": "ok-deaf-hard-of-hearing-agency",
+   "state": "OK",
+   "category": "sensory",
+   "org": "State program for people who are deaf or hard of hearing",
+   "name": "Oklahoma Department of Rehabilitation Services: Services for the Deaf and Hard of Hearing",
+   "description": "The national roster of state agencies lists none for Oklahoma. The Department of Rehabilitation Services serves people who are deaf, hard of hearing, late-deafened, deaf-blind or have speech impairments, with information and referral, vocational rehabilitation for deaf and hard of hearing people, an equipment distribution program and an interpreter services program. It has offices in Oklahoma City and Tulsa.",
+   "next_step": "Call or use the videophone to make an appointment, or fill out the online self-referral and someone will contact you. Bring as much medical information about your hearing as you can.",
+   "phone": "800-833-8973",
+   "phone_note": "Toll-free line for Services for the Deaf and Hard of Hearing, listed on the department’s page; videophone 405-543-2646; Tulsa office 918-836-5556",
+   "url": "https://oklahoma.gov/okdrs/independence/hearing/sdhh.html"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "deafservices@omh.bhdd.sc.gov",
+   "web": "https://bhdd.sc.gov/office-mental-health/services/deaf-services",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "Most insurance is accepted, including Medicaid and Medicare; ask about help lowering a balance you owe.",
+    "The statewide mobile crisis team is at 1-833-364-2274, any time."
+   ],
+   "id": "sc-deaf-hard-of-hearing-agency",
+   "state": "SC",
+   "category": "sensory",
+   "org": "State program for people who are deaf or hard of hearing",
+   "name": "South Carolina Deaf Services: mental health care in American Sign Language",
+   "description": "The national roster of state agencies lists none for South Carolina. The state’s Office of Mental Health Deaf Services serves South Carolinians of all ages who are deaf, hard of hearing, late-deafened or deaf-blind, and their families, with counselors fluent in American Sign Language. It offers community mental health care in person or online, inpatient care when needed, children’s services, housing support and case management.",
+   "next_step": "Email Deaf Services to ask for an intake appointment with a clinician, or call. In a mental health crisis, call and leave a message; an on-call clinician calls back, any time of day.",
+   "phone": "803-339-3339",
+   "phone_note": "Deaf Services line, listed on the page; in a crisis, leave a message and an on-call clinician calls back 24/7",
+   "url": "https://bhdd.sc.gov/office-mental-health/services/deaf-services"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://www.hopealaska.org/deafnavigator",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "Run by a nonprofit, not a state office.",
+    "TTY users can dial 711."
+   ],
+   "id": "ak-deaf-hard-of-hearing-agency",
+   "state": "AK",
+   "category": "sensory",
+   "org": "Hope Community Resources (state-funded)",
+   "name": "Deaf Navigator (Hope Community Resources, Alaska)",
+   "description": "The national roster of state agencies lists none for Alaska. The Deaf Navigator program, run by Hope Community Resources with a grant from the state, helps deaf and hard of hearing Alaskans across the state find their way to health and social services, jobs and housing. It also trains employers and service providers and offers free public use of a computer, videophone, captioned phone and TTY. Outreach staff support rural communities.",
+   "next_step": "Call Hope’s toll-free line and ask for the Deaf Navigator, or use the videophone or text number on the page.",
+   "phone": "800-478-0078",
+   "phone_note": "Hope Community Resources’ toll-free line, listed on the page; ask for the Deaf Navigator",
+   "url": "https://www.hopealaska.org/deafnavigator"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "DWS-WYRelay@wyo.gov",
+   "web": "https://dws.wyo.gov/?p=908",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "TTY users can dial 711."
+   ],
+   "id": "wy-deaf-hard-of-hearing-agency",
+   "state": "WY",
+   "category": "sensory",
+   "org": "State program for people who are deaf or hard of hearing",
+   "name": "Wyoming Relay/Deaf Services Program (Division of Vocational Rehabilitation)",
+   "description": "The national roster of state agencies lists none for Wyoming. The Wyoming Relay/Deaf Services Program, run by the Division of Vocational Rehabilitation in the Department of Workforce Services, offers information and referral, free training for groups, and the WYRED program, which gives special phone equipment at no charge to eligible people.",
+   "next_step": "Call or email the program office and say what you need, such as phone equipment, a referral or training for your workplace.",
+   "phone": "800-452-1408",
+   "phone_note": "Wyoming Relay state administration office (TTY or voice), listed on the page",
+   "url": "https://dws.wyo.gov/?p=908"
   }
  ]
 }

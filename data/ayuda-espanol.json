@@ -1,6 +1,6 @@
 {
- "note": "Text for espanol.html. Only lines whose own published pages say they serve Spanish speakers are listed; 'evidence' records what the page said on the review date and is not shown on the page. Phone numbers and links are pulled from the directory record named in 'record' at build time. Written in Spanish on the review date and not yet reviewed by a fluent speaker.",
- "reviewed_on": "2026-11-17",
+ "note": "Text for espanol.html. Only lines whose own published pages say they serve Spanish speakers are listed; 'evidence' records what the page said on the review date and is not shown on the page. Phone numbers and links are pulled from the directory record named in 'record' at build time. Written in Spanish on the review date and not yet reviewed by a fluent speaker. The two shelter lines under 'refugio' are listed because pages written in Spanish by SAMHSA and the VA tell Spanish speakers to call them; where a page does not say calls are answered in Spanish, the text says to ask for an interpreter.",
+ "reviewed_on": "2026-11-18",
  "title": "Ayuda en español para personas con discapacidades | Mobility Talk",
  "description": "Líneas nacionales de ayuda que atienden en español: crisis, comida, salud, ceguera y baja visión, y bebés y niños pequeños. Información gratuita para personas con discapacidades y sus familias en Estados Unidos.",
  "h1": "Ayuda en español",
@@ -38,6 +38,40 @@
      "name": "Línea Nacional contra la Violencia Doméstica",
      "text": "Apoyo las 24 horas, todos los días. Su sitio web tiene una versión en español.",
      "evidence": "thehotline.org home page: 24/7/365; links to an En Español version of the site."
+    }
+   ]
+  },
+  {
+   "id": "refugio",
+   "title": "Si no tiene dónde dormir esta noche",
+   "items": [
+    {
+     "record": "us-emergency-shelter",
+     "name": "211: refugio de emergencia y ayuda local",
+     "text": "Llame al 211 para encontrar refugio de emergencia y otra ayuda en su comunidad. Funciona en la mayor parte de Estados Unidos. El servicio es gratis y confidencial, atiende las 24 horas y está disponible en más de 180 idiomas.",
+     "link_label": "Buscador de refugios de HUD (en inglés)",
+     "evidence": "unitedway.org/our-impact/community-resiliency/211-connecting-people-to-local-resources: confidential 24/7 service, free to use, available in 180+ languages. samhsa.gov/encuentra-apoyo/cuidado-salud-apoyo/apoyo-para-encontrar-vivienda (in Spanish): llama al 211 para encontrar servicios comunitarios esenciales. usa.gov/emergency-housing: 211 works in most areas. Read 2026-11-17."
+    },
+    {
+     "record": "us-homeless-veterans-call-center",
+     "name": "Centro Nacional de Llamadas para Veteranos sin Hogar",
+     "text": "Para veteranos que no tienen hogar o están en riesgo de perderlo. Atiende las 24 horas, los siete días de la semana. Si le contestan en inglés, puede pedir un intérprete.",
+     "link_label": "Sitio web del VA (en inglés)",
+     "evidence": "VA's Spanish brochure, va.gov/HOMELESS/docs/VA_Homeless_Brochure_General_Spanish.pdf: llame al 877-4AID-VET (877-424-3838); disponibles 24 horas al día, siete días a la semana. samhsa.gov/encuentra-apoyo (in Spanish) sends veterans to the same number. Neither says whether calls are answered in Spanish, so the text tells the reader to ask for an interpreter. Read 2026-11-17."
+    }
+   ]
+  },
+  {
+   "id": "local",
+   "title": "Ayuda en su zona: comida, vivienda, cuentas y más",
+   "items": [
+    {
+     "record": "us-211",
+     "name": "211: una llamada para encontrar ayuda local",
+     "text": "Marque 211 para hablar con su centro 211 local, que le conecta con servicios de su zona para comida, vivienda, cuentas y más. Según la FCC, el 211 cubre los 50 estados, Washington D.C. y Puerto Rico. Cada llamada es confidencial. Cada centro 211 es independiente: pregunte si le pueden atender en español. El sitio 211.org tiene una versión en español.",
+     "phone": "211",
+     "link_label": "Sitio web (tiene versión en español)",
+     "evidence": "211.org (read 2026-11-18): \"Every call is completely confidential\" and an Español link to es.211.org. FCC Spanish guide \"Marque el 211 para servicios comunitarios\": 211 covers the 50 states, Washington, D.C. and Puerto Rico; local phone companies route 211 calls to a local or regional call center."
     }
    ]
   },
@@ -114,6 +148,20 @@
    ]
   },
   {
+   "id": "derechos",
+   "title": "Sus derechos (ADA)",
+   "items": [
+    {
+     "record": "us-ada-national-network",
+     "name": "Red Nacional de la ADA",
+     "text": "Especialistas responden gratis, por teléfono o TTY, sus preguntas sobre la Ley sobre Estadounidenses con Discapacidades (ADA) y le explican cómo y dónde presentar una queja. No es una agencia de cumplimiento. Tiene hojas informativas en español.",
+     "link": "https://adata.org/factsheet/ADANNservicesESP",
+     "link_label": "Información en español",
+     "evidence": "adata.org/factsheet/ADANNservicesESP: especialistas en información sobre la ADA contestan preguntas a través de una línea gratuita nacional en el 1-800-949-4232 (voz/TTY); no somos una agencia de cumplimiento o reguladora. adata.org/enforcing-the-ADA-es: contáctenos de forma gratuita, por voz o TTY."
+    }
+   ]
+  },
+  {
    "id": "salud",
    "title": "Condiciones de salud",
    "items": [
@@ -143,6 +191,14 @@
      "link": "https://es.cff.org",
      "link_label": "Sitio en español",
      "evidence": "cff.org/support/get-help-cf-foundation-compass: Compass has case managers who speak Spanish; es.cff.org: nuestros administradores de casos hablan español."
+    },
+    {
+     "record": "us-nami-helpline",
+     "name": "Línea de Ayuda de NAMI (salud mental)",
+     "text": "Información, referencias y apoyo entre pares para personas que viven con una condición de salud mental y sus familias. Llame y oprima el 2 para español, de lunes a viernes, de 10 a.m. a 10 p.m., hora del Este. El apoyo por mensaje de texto no está disponible en español. No es una línea de crisis: en una crisis, llame o envíe un texto al 988.",
+     "link": "https://www.nami.org/nami-helpline/linea-de-ayuda-de-nami/",
+     "link_label": "Información en español",
+     "evidence": "nami.org/nami-helpline/linea-de-ayuda-de-nami/: llama al 1-800-950-NAMI (6264) y oprime \"2\" para hablar con un especialista; nami.org/nami-helpline/family-caregiver-helpline/: Spanish services by phone (press 2) and email, not text; NAMI resource directory en español: lunes-viernes, 10 a.m. – 10 p.m. ET."
     }
    ]
   },
@@ -177,6 +233,29 @@
      "link": "https://www.parentcenterhub.org/parabebes",
      "link_label": "Explicación en español",
      "evidence": "parentcenterhub.org/ei-overview: available in every state and territory; parents do not have to wait for a referral; evaluation is free of charge; Spanish version at parentcenterhub.org/parabebes."
+    },
+    {
+     "record": "us-parent-centers",
+     "name": "Centros para Padres (educación especial)",
+     "text": "Cada estado tiene al menos un Centro para Padres que ayuda a las familias de niños con discapacidades a entender la educación especial y sus derechos. Muchos tienen personal que habla español.",
+     "no_phone": true,
+     "link": "https://www.parentcenterhub.org/recursos-en-espanol/",
+     "link_label": "Información en español",
+     "evidence": "parentcenterhub.org/recursos-en-espanol/: cada estado tiene al menos un centro; parentcenterhub.org/paraninos/: muchos de estos centros tienen personal que habla español."
+    }
+   ]
+  },
+  {
+   "id": "mayores",
+   "title": "Personas mayores y quienes las cuidan",
+   "items": [
+    {
+     "record": "us-eldercare-locator",
+     "name": "Eldercare Locator: servicios locales para personas mayores",
+     "text": "Le conecta con la agencia local para personas mayores y con otros servicios de su zona, para personas mayores, personas con discapacidades y quienes las cuidan. Un especialista que habla español atiende de lunes a viernes, de 8 a.m. a 9 p.m., hora del Este, y hay interpretación en 150 idiomas. Es gratis.",
+     "phone": "1-800-677-1116",
+     "link_label": "Sitio web (en inglés)",
+     "evidence": "eldercare.acl.gov/Public/About/Contact_Info/Index.aspx: A Spanish-speaking information specialist is available when you call, 8 a.m. to 9 p.m. Eastern, Monday to Friday; language interpretation for 150 languages."
     }
    ]
   }

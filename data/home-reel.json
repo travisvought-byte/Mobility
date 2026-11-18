@@ -1,0 +1,17 @@
+{
+ "title": "The barriers nobody notices",
+ "lead": "Everyday inconveniences from real life with a disability, the kind most people walk past. Some are funny. All of them happen. The joke is always on the barrier, never on the person.",
+ "slides": [
+  {"id": "around-back", "alt": "A man in a wheelchair looks up a flight of stairs at a front door. A sign on the wall says the accessible entrance is around back.", "joke": "“Accessible entrance around back.” Past the dumpsters, through the kitchen, left at the walk-in freezer. I didn't ask for a ramp. I asked to get in."},
+  {"id": "louder", "alt": "A blind woman with a white cane stands calmly while a man leans in and talks to her very loudly.", "joke": "He keeps talking louder and slower. I'm blind, not far away."},
+  {"id": "window", "alt": "Two Deaf friends sign to each other through a restaurant window, smiling.", "joke": "Two Deaf friends can chat through a closed window or across a packed restaurant. Hearing people call that a superpower. We call it Tuesday."},
+  {"id": "parking", "alt": "A car with no placard sits in an accessible parking space while its driver chats on his phone. A woman in a wheelchair waits nearby.", "joke": "Nobody is faster than the guy who parks in the accessible spot because he'll “just be a minute.” Twenty minutes later, he's still just a minute."},
+  {"id": "security", "alt": "A man with a prosthetic leg walks through an airport security arch while an officer watches.", "joke": "Airport security asked if I had anything to declare. Just my leg. It's carry-on."},
+  {"id": "upstairs", "alt": "An older woman with a walker reads a store sign pointing up a staircase to the only restroom.", "joke": "The only restroom is upstairs, at the back, past the patio furniture. That's not a floor plan. That's a fitness test."},
+  {"id": "dont-push", "alt": "A stranger grabs the handles of a woman's wheelchair and starts pushing without asking. She looks back, unimpressed.", "joke": "Please don't push my chair without asking. You wouldn't grab someone's legs to help them walk faster."},
+  {"id": "service-dog", "alt": "A man stands with his service dog, which wears a work vest. A passerby reaches out to pet the dog.", "joke": "Yes, he's a very good boy. He's also at work. Pet him and you're filling out his timesheet."},
+  {"id": "drive-thru", "alt": "A driver with a hearing aid leans toward a crackling drive-thru speaker.", "joke": "Between my hearing aids and the drive-thru speaker, one of us is broken. It's not me."},
+  {"id": "repair", "alt": "A man in a wheelchair sits beside a calendar full of crossed-out days and a box marked part ships in six weeks.", "joke": "My chair needed one small part. Six weeks. I could have grown it myself.", "link": {"href": "mobility-independence.html", "text": "Why the right to repair matters"}},
+  {"id": "elevator", "alt": "Four friends, one using a wheelchair, one a walker, one forearm crutches and one a white cane, stand in front of an elevator with an out of order sign.", "joke": "Four different disabilities. One thing in common: the elevator is out of order. Again."}
+ ]
+}

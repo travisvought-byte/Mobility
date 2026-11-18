@@ -2,8 +2,8 @@
   "name": "mobility-resources-advocacy",
   "private": true,
   "scripts": {
-    "build": "python3 scripts/build_mobility_routes.py && python3 scripts/build_disability_advocacy.py && (cd scripts && python3 build_local_pages.py && python3 build_state_pages.py && python3 build_rights_page.py && python3 build_spanish_page.py && python3 build_sensory_pages.py && python3 build_service_animals_page.py) && python3 scripts/finalize_pages.py",
-    "test": "node tests/disability-advocacy.cjs && node tests/advocacy-all-states.cjs && node tests/mobility-routes.cjs && node tests/advocacy-actions.cjs && node tests/local-help.cjs && node tests/site.cjs && node tests/states.cjs && node tests/front-door.cjs && node tests/sensory.cjs && node tests/service-animals.cjs",
+    "build": "python3 scripts/build_mobility_routes.py && python3 scripts/build_disability_advocacy.py && (cd scripts && python3 build_local_pages.py && python3 build_state_pages.py && python3 build_rights_page.py && python3 build_spanish_page.py && python3 build_sensory_pages.py && python3 build_service_animals_page.py) && python3 scripts/build_home_reel.py && python3 scripts/finalize_pages.py",
+    "test": "node tests/disability-advocacy.cjs && node tests/advocacy-all-states.cjs && node tests/mobility-routes.cjs && node tests/advocacy-actions.cjs && node tests/local-help.cjs && node tests/site.cjs && node tests/states.cjs && node tests/front-door.cjs && node tests/sensory.cjs && node tests/crisis-help.cjs && node tests/service-animals.cjs",
     "test:browser": "node tests/disability-advocacy-browser.cjs && node tests/mobility-routes-browser.cjs && node tests/front-door-browser.cjs"
   },
   "devDependencies": {

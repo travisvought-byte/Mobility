@@ -41,9 +41,9 @@
   },
   "daily_living": {
    "need": "In-home help and food",
-   "blurb": "Help at home, paid family caregiving, breaks for caregivers, food benefits and a discount on phone or internet service.",
+   "blurb": "Help at home, paid family caregiving, breaks for caregivers, food benefits, help paying heating and cooling bills, and a discount on phone or internet service.",
    "ready": ["A list of what you need help with each day, such as bathing, meals or getting out of bed.", "Your Medicaid card, if you have one.", "Proof of income and household size.", "For the phone or internet discount: proof that you get SSI, Medicaid or SNAP."],
-   "ask": ["Can a family member or friend be paid to help me?", "How many hours of help can I get, and who decides?", "Is there a waiting list?", "What do I do if my helper does not show up?"]
+   "ask": ["Can a family member or friend be paid to help me?", "How many hours of help can I get, and who decides?", "Is there a waiting list?", "What do I do if my helper does not show up?", "For energy bill help: when are applications taken, and is there faster help if I have a shut-off notice?"]
   },
   "work_school": {
    "need": "Work or school",

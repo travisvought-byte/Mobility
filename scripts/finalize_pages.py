@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Add canonical and social tags to every page, and write sitemap.xml and robots.txt. Idempotent."""
+"""Add canonical and social tags and the visit counter to every page, and write sitemap.xml and robots.txt. Idempotent."""
 import html,json,re
 from pathlib import Path
+from site_parts import URGENT
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
 PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html']
@@ -39,6 +40,10 @@ for name in PAGES:
         t=t.replace(place,blk+place,1)
     if name in LUUL_SCRIPT_PAGES:
         t=t.replace('</body>','<!--luulj--><script src="assets/featured-wa.js" defer></script><!--/luulj--></body>',1)
+    # the home page is written by hand; its urgent strip is always the shared one, so the wording cannot drift
+    if name=='index.html':
+        assert t.count('<aside class="urgent"')==1,name
+        t=re.sub(r'<aside class="urgent".*?</aside>',lambda m:URGENT,t,count=1,flags=re.S)
     if name in ('index.html','mobility-independence.html') and 'assets/site.css' not in t:
         t=t.replace('</head>','<link rel="stylesheet" href="assets/site.css"></head>',1)
     t=re.sub(r'<a href="states/index\.html"[^>]*>All states</a>','',t)
