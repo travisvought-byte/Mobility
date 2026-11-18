@@ -7,7 +7,7 @@ Every page is generated; do not edit the output by hand. Run via `npm run build`
 import html,json,re
 from pathlib import Path
 from build_mobility_routes import STATES,TERRITORIES
-from site_parts import URGENT,RELAY,ABOUT_LINK,guides,prep_html
+from site_parts import URGENT,RELAY,ABOUT_LINK,guides,prep_html,tel
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'states'
 BASE='https://mobilitytalk.org/'
@@ -41,8 +41,6 @@ def head(title,desc,path):
       '<body><a class="skip" href="#main">Skip to main content</a>\n')
 LINK_LABEL={'official':'Official page','gov':'Government page','directory':'Directory listing','news':'News article','rule':'Rule text','social':'Facebook page','source':'Source page'}
 LINK_SHORT={**LINK_LABEL,'official':'Website'}
-def tel(p):
-    d=re.sub(r'[^0-9+]','',str(p));return 'tel:'+d if d else None
 def link_for(r):
     w=r.get('web');u=r.get('url')
     if w and w.startswith('https://'):return w

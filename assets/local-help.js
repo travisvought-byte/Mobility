@@ -52,7 +52,8 @@ function scopeText(r,s){
   const c=r.counties,more=c.length>8?' +'+(c.length-8)+' more':'';
   return 'Serves '+c.slice(0,8).join(', ')+more+' '+(c.length===1?'County':'counties');
 }
-function tel(p){const d=String(p).replace(/[^0-9+]/g,'');return d?'tel:'+d:null;}
+// An extension is dialed after a pause and a lettered number becomes its keypad digits, so Call reaches the right line
+function tel(p){const m=String(p).split(/\s*(?:ext\.?|extension|x)\s*(?=\d)/i);const k='22233344455566677778889999';const d=m[0].toUpperCase().replace(/[A-Z]/g,c=>k[c.charCodeAt(0)-65]).replace(/[^0-9+]/g,'');const x=m.length>1?m[1].replace(/\D/g,''):'';return d?'tel:'+d+(x?','+x:''):null;}
 function card(r,s){
   const c=el('article',null,'card');c.append(el('span',scopeText(r,s),'badge'));if(r.record_status==='directory_listed'||r.record_status==='news_reported')c.append(el('span','Listing: confirm details','badge warn'));
   const who=(r.audience||[]).map(a=>auds[a]).filter(Boolean);if(who.length)c.append(el('span','For: '+who.join(', '),'badge who'));

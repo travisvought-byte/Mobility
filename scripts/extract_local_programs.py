@@ -103,6 +103,19 @@ for rid,o in _ov['overrides'].items():
         if o.get(k) and not r.get(k): r[k]=o[k]
     if o.get('constraints_replace'): r['constraints']=list(o['constraints_replace'])
     r['contact_checked_on']=_ov['checked_on']
+# The same agency listed twice under two ids (found in the November 18, 2026 audit). Keep the listing read from the
+# agency's own page, drop the other, and carry over only contact details the kept listing lacks.
+DUPLICATE_OF={
+    'md-at-act':('md-mdtap',{'phone_note':'Toll free. Main line (410) 554-9245, from the AT3 Center national directory; confirm before calling'}),
+    'ri-at-act':('ri-atap',{'phone':'(401) 871-1145','phone_note':'Main line from the AT3 Center national directory; confirm before calling'}),
+    'ky-hearing':('ky-deaf-hard-of-hearing-agency',{}),
+    'nc-relay':('nc-deaf-hard-of-hearing-agency',{}),
+}
+for dup,(keep,fill) in DUPLICATE_OF.items():
+    d=out.pop(dup,None);k=out.get(keep)
+    if not k: print('duplicate merge: no record',keep); continue
+    for f,v in fill.items():
+        if not k.get(f): k[f]=v
 # Medicaid rides have no public line: members call the number on their card
 for r in out.values():
     if 'nemt' in r['id'] and r['category']=='transportation' and not (r.get('phone') or r.get('email') or r.get('web') or r.get('contact_how')):

@@ -6,14 +6,12 @@ Run via `npm run build` (from the scripts directory, like the other page builder
 """
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,RELAY,ABOUT_LINK
+from site_parts import URGENT,RELAY,ABOUT_LINK,tel
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 FOOT='<footer><p>Created and maintained by Travis Vought. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a> · '+ABOUT_LINK+'</p><p>This page gives general information from the published pages linked in each section, with the date they were checked. It is not legal advice, it does not decide whether a law covers your situation, and deadlines can change. Nothing you choose here is saved or sent.</p></footer>'
 LINK_LABEL={'official':'Official page','gov':'Government page','directory':'Directory listing','news':'News article','rule':'Rule text','social':'Facebook page','source':'Source page'}
-def tel(p):
-    d=re.sub(r'[^0-9+]','',str(p));return 'tel:'+d if d else None
 def link_for(r):
     w=r.get('web');u=r.get('url')
     if w and w.startswith('https://'):return w

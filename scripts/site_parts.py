@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Shared pieces of page chrome used by more than one build script, so the wording stays the same everywhere."""
-import html, json
+import html, json, re
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 E = lambda s: html.escape(str(s), quote=True)
@@ -29,3 +29,13 @@ def prep_html(guide, level=3):
     out += f'<{h}>Have ready</{h}><ul>' + ''.join(f'<li>{E(x)}</li>' for x in guide['ready']) + '</ul>'
     if guide.get('ask'): out += f'<{h}>Ask</{h}><ul>' + ''.join(f'<li>{E(x)}</li>' for x in guide['ask']) + '</ul>'
     return out + '<p class="meta">These are general reminders. Each program sets its own rules, so ask what it needs.</p></details>'
+
+
+# Phone number to a call link. An extension is dialed after a pause ("tel:8454523913,105"), and a lettered
+# number is turned into its keypad digits ("800-75-SEALS" -> tel:8007573257), so tapping Call reaches the right line.
+_KEYPAD = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZ', '22233344455566677778889999')
+def tel(p):
+    parts = re.split(r'\s*(?:ext\.?|extension|x)\s*(?=\d)', str(p), maxsplit=1, flags=re.I)
+    main = re.sub(r'[^0-9+]', '', parts[0].upper().translate(_KEYPAD))
+    ext = re.sub(r'\D', '', parts[1]) if len(parts) > 1 else ''
+    return 'tel:' + main + (',' + ext if ext else '') if main else None
