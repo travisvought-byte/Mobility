@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Add canonical and social tags to every page, and write sitemap.xml and robots.txt. Idempotent."""
+"""Add canonical and social tags, the visit counter and the help block to every page, and write sitemap.xml and robots.txt. Idempotent."""
 import html,json,re
 from pathlib import Path
+from site_parts import URGENT,help_now
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
 PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html']
@@ -39,6 +40,10 @@ for name in PAGES:
         t=t.replace(place,blk+place,1)
     if name in LUUL_SCRIPT_PAGES:
         t=t.replace('</body>','<!--luulj--><script src="assets/featured-wa.js" defer></script><!--/luulj--></body>',1)
+    # the home page is written by hand; its urgent strip is always the shared one, so the wording cannot drift
+    if name=='index.html':
+        assert t.count('<aside class="urgent"')==1,name
+        t=re.sub(r'<aside class="urgent".*?</aside>',lambda m:URGENT,t,count=1,flags=re.S)
     if name in ('index.html','mobility-independence.html') and 'assets/site.css' not in t:
         t=t.replace('</head>','<link rel="stylesheet" href="assets/site.css"></head>',1)
     t=re.sub(r'<a href="states/index\.html"[^>]*>All states</a>','',t)
@@ -71,10 +76,20 @@ ALL=PAGES+['states/index.html']+STATE_PAGES
 COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobilitytalk.org"+location.pathname},'
          'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
          '<script data-goatcounter="https://travisvought.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
+# Suicide and homelessness help: the last thing inside <main> on every page, directly above the footer
+# (owner direction, November 17, 2026; wording and sources in site_parts.py). The Spanish page gets the Spanish wording.
+# A page whose footer does not print (the handout) keeps the block off the printed sheet too.
 for name in ALL+['404.html']:
     p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
     assert t.count('</head>')==1,name
-    p.write_text(t.replace('</head>',COUNTER+'</head>',1))
+    t=t.replace('</head>',COUNTER+'</head>',1)
+    t=re.sub(r'<!--help-->.*?<!--/help-->','',t,flags=re.S)
+    foot=t.find('<footer');end=t.find('</main>')
+    assert end>=0,name
+    at=foot if 0<=foot<end else end
+    t=t[:at]+'<!--help-->'+help_now('es' if name=='espanol.html' else 'en',no_print='<footer class="no-print"' in t)+'<!--/help-->'+t[at:]
+    assert t.count('class="help-now')==1,name
+    p.write_text(t)
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
 print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages, sitemap.xml and robots.txt.')

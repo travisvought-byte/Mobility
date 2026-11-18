@@ -185,3 +185,11 @@ body{overflow-wrap:break-word}
 article,.card,.panel,.statelist li,.sheet-item,.rights-row,.featured-org>*,.filters>*,.finder>*{min-width:0}
 @media(max-width:850px){.grid,.list,.route,.tiers,.handout-controls,.featured-org,.finder{grid-template-columns:minmax(0,1fr)}
 }
+
+/* A footer that follows <main> (state pages, the directory, the guides) lines up with the page content instead of
+   touching the edge of the screen. Footers written inside <main> already sit within its padding. */
+main+footer{max-width:1124px;margin:12px auto 0;padding:22px 22px 30px}
+@media print{main+footer{max-width:none;padding:12px 0 0}}
+/* Phone and text links in the urgent strip stay on one line, so a number never breaks in the middle.
+   Only the strip (an aside): the Spanish page's crisis section shares the class and has longer link text that must wrap. */
+aside.urgent a[href^="tel:"],aside.urgent a[href^="sms:"]{white-space:nowrap}

@@ -268,7 +268,7 @@ const TERR=['AS','GU','MP','PR','VI'];
  {const st=fs.readFileSync('espanol.html','utf8');
   for(const t of ['oprima el 7 para español','oprima el 2 para español','1-800-MEDICARE','EEOC: discriminación en el trabajo','Job Accommodation Network','administradores de casos que hablan español'])assert(st.includes(t),'Spanish page: '+t);
   assert(st.includes('href="tel:18007721213"')&&st.includes('href="https://www.ssa.gov/es/disability"')&&st.includes('href="https://www.eeoc.gov/es"')&&st.includes('href="https://es.medicare.gov"'),'Spanish page links Spanish pages and numbers');
-  const src=JSON.parse(fs.readFileSync('data/ayuda-espanol.json','utf8'));assert.deepEqual(src.sections.map(s=>s.id),['ahora','comida','beneficios','trabajo','derechos','salud','vision','ninos'],'Spanish sections in order');
+  const src=JSON.parse(fs.readFileSync('data/ayuda-espanol.json','utf8'));assert.deepEqual(src.sections.map(s=>s.id),['ahora','refugio','comida','beneficios','trabajo','derechos','salud','vision','ninos'],'Spanish sections in order');
   assert(/Press 7 for Spanish/.test(byId.get('us-ssa-disability-apply').phone_note)&&/press 2 for Spanish/.test(byId.get('us-pabss').phone_note),'English listings say how to reach Spanish service');
   const m=byId.get('us-medicare-helpline');assert(m&&m.phone==='1-800-633-4227'&&/medicare\.gov/.test(m.url)&&m.constraints.some(c=>/Agent/.test(c)),'Medicare helpline listing');
   for(const id of ['us-pulmonary-fibrosis-help-center','us-marfan-foundation']){const r=byId.get(id);assert(r&&r.category==='peer_support'&&/listed/.test(r.phone_note)&&r.audience.includes('chronic'),id);}}

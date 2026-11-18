@@ -1,5 +1,5 @@
 {
- "note": "Text for espanol.html. Only lines whose own published pages say they serve Spanish speakers are listed; 'evidence' records what the page said on the review date and is not shown on the page. Phone numbers and links are pulled from the directory record named in 'record' at build time. Written in Spanish on the review date and not yet reviewed by a fluent speaker.",
+ "note": "Text for espanol.html. Only lines whose own published pages say they serve Spanish speakers are listed; 'evidence' records what the page said on the review date and is not shown on the page. Phone numbers and links are pulled from the directory record named in 'record' at build time. Written in Spanish on the review date and not yet reviewed by a fluent speaker. The two shelter lines under 'refugio' are listed because pages written in Spanish by SAMHSA and the VA tell Spanish speakers to call them; where a page does not say calls are answered in Spanish, the text says to ask for an interpreter.",
  "reviewed_on": "2026-11-17",
  "title": "Ayuda en español para personas con discapacidades | Mobility Talk",
  "description": "Líneas nacionales de ayuda que atienden en español: crisis, comida, salud, ceguera y baja visión, y bebés y niños pequeños. Información gratuita para personas con discapacidades y sus familias en Estados Unidos.",
@@ -38,6 +38,26 @@
      "name": "Línea Nacional contra la Violencia Doméstica",
      "text": "Apoyo las 24 horas, todos los días. Su sitio web tiene una versión en español.",
      "evidence": "thehotline.org home page: 24/7/365; links to an En Español version of the site."
+    }
+   ]
+  },
+  {
+   "id": "refugio",
+   "title": "Si no tiene dónde dormir esta noche",
+   "items": [
+    {
+     "record": "us-emergency-shelter",
+     "name": "211: refugio de emergencia y ayuda local",
+     "text": "Llame al 211 para encontrar refugio de emergencia y otra ayuda en su comunidad. Funciona en la mayor parte de Estados Unidos. El servicio es gratis y confidencial, atiende las 24 horas y está disponible en más de 180 idiomas.",
+     "link_label": "Buscador de refugios de HUD (en inglés)",
+     "evidence": "unitedway.org/our-impact/community-resiliency/211-connecting-people-to-local-resources: confidential 24/7 service, free to use, available in 180+ languages. samhsa.gov/encuentra-apoyo/cuidado-salud-apoyo/apoyo-para-encontrar-vivienda (in Spanish): llama al 211 para encontrar servicios comunitarios esenciales. usa.gov/emergency-housing: 211 works in most areas. Read 2026-11-17."
+    },
+    {
+     "record": "us-homeless-veterans-call-center",
+     "name": "Centro Nacional de Llamadas para Veteranos sin Hogar",
+     "text": "Para veteranos que no tienen hogar o están en riesgo de perderlo. Atiende las 24 horas, los siete días de la semana. Si le contestan en inglés, puede pedir un intérprete.",
+     "link_label": "Sitio web del VA (en inglés)",
+     "evidence": "VA's Spanish brochure, va.gov/HOMELESS/docs/VA_Homeless_Brochure_General_Spanish.pdf: llame al 877-4AID-VET (877-424-3838); disponibles 24 horas al día, siete días a la semana. samhsa.gov/encuentra-apoyo (in Spanish) sends veterans to the same number. Neither says whether calls are answered in Spanish, so the text tells the reader to ask for an interpreter. Read 2026-11-17."
     }
    ]
   },
