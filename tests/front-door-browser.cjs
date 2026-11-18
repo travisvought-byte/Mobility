@@ -12,6 +12,12 @@ const {chromium}=require('playwright');
   const fits=async()=>assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no sideways scrolling at '+p.viewportSize().width+'px on '+p.url());
   // home: pick a state, then a need
   await p.goto(base);await fits();assert(await p.locator('.urgent').isVisible());
+  // the reel: buttons move one slide, the count follows, and Pause stops it
+  assert.equal(await p.locator('#reel-count').textContent(),'1 of 11');await p.click('#reel-next');await p.waitForFunction(()=>document.getElementById('reel-count').textContent==='2 of 11');
+  await p.click('#reel-prev');await p.waitForFunction(()=>document.getElementById('reel-count').textContent==='1 of 11');
+  assert(await p.locator('#reel-play').isVisible());assert.equal(await p.locator('#reel-play').textContent(),'Pause');await p.click('#reel-play');assert.equal(await p.getAttribute('#reel-play','aria-pressed'),'false');
+  {const rm=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'}),q=await rm.newPage();await q.route('**/*',r=>r.request().url().startsWith(base)?r.continue():r.abort());
+   await q.goto(base);assert.equal(await q.locator('#reel-play').textContent(),'Play','reduced motion: the reel does not play on its own');await rm.close();}
   await p.selectOption('#need-state','TX');assert.equal(await p.locator('#needgrid a').first().getAttribute('href'),'local-help.html?category=crisis&state=TX');
   await p.locator('#needgrid a',{hasText:'Benefits and health coverage'}).click();await p.waitForSelector('#results article.card');
   assert.equal(await p.inputValue('#f-state'),'TX');assert.equal(await p.inputValue('#f-cat'),'benefits');assert((await p.locator('#results').textContent()).includes('Texas Health and Human Services'));await fits();
