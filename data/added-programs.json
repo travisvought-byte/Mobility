@@ -51252,14 +51252,15 @@
    "description": "211 connects you to local help. United Way’s 211 site lists help with paying bills, food, housing and utility costs, disaster recovery, health care costs, mental health and substance use, and says every call is confidential.",
    "next_step": "Dial 211 and say what you need and your ZIP code. If 211 does not connect from your phone, use the website to find your local 211.",
    "constraints": [
-    "Each local 211 is run separately, so hours and services differ."
+    "Each local 211 is run separately, so hours and services differ.",
+    "211.org has a Spanish version of its site (es.211.org). Ask your local 211 whether someone can help you in Spanish."
    ],
    "phone": "211",
-   "phone_note": null,
+   "phone_note": "Dial 2-1-1. 211.org says every call is completely confidential",
    "email": null,
    "web": "https://www.211.org/",
    "url": "https://www.211.org/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-18",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json",
    "audience": [],
@@ -72746,6 +72747,226 @@
    "phone": "800-453-5511",
    "phone_note": "Oregon Housing and Community Services general line, listed on the page",
    "url": "https://www.oregon.gov/ohcs/compliance-monitoring/Pages/HUD-811-rental-assistance-providers.aspx"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://iris.phfa.org/mhp/section811pra/",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "You cannot apply on your own; you come in through a referral and the waiting list."
+   ],
+   "id": "pa-section-811-pra",
+   "state": "PA",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Pennsylvania (PHFA)",
+   "org": "Pennsylvania Housing Finance Agency, with the Department of Human Services",
+   "description": "Pennsylvania’s Section 811 program gives project-based rental assistance to people with disabilities with extremely low incomes (at or below 30 percent of area median income), ages 18 to 61 at move-in. It is for people who are in an institution but could live in the community with supportive housing, people at risk of going into one, and people in group settings who want to move to the community. Self Determination Housing Partnership (SDHP) manages the waiting list, and Local Lead Agencies screen people in their areas.",
+   "next_step": "Ask your service coordinator, case manager or the Local Lead Agency for your area to screen you and refer you to the 811 waiting list.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Ask your service coordinator or your area’s Local Lead Agency to refer you; SDHP manages the waiting list.",
+   "url": "https://iris.phfa.org/mhp/section811pra/"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "mn.housing@state.mn.us",
+   "web": "https://www.mnhousing.gov/rental-housing/grant-programs/active-funding/section-811-pra-program.html",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "You cannot refer yourself; an agency that works with the target groups must refer you.",
+    "If no one from the target groups is waiting for a site, other eligible people may be offered a unit."
+   ],
+   "id": "mn-section-811-pra",
+   "state": "MN",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Minnesota",
+   "org": "Minnesota Housing, with the Minnesota Department of Human Services",
+   "description": "Minnesota’s Section 811 program serves single adults and families that include an adult with a disability who is at least 18 and under 62 at move-in, who is eligible for community-based long-term services paid by Medicaid or the state (such as waiver services, adult mental health services or Money Follows the Person), and whose household income is at or below HUD’s extremely low income limit. It focuses on people experiencing long-term homelessness with serious mental illness who are in the PATH outreach program, and on people leaving an institution after 60 days or more through Money Follows the Person.",
+   "next_step": "Ask the agency that serves you, such as your PATH outreach worker or Money Follows the Person transition coordinator, to refer you. A state housing coordinator keeps the statewide waiting list.",
+   "phone": "800-657-3769",
+   "phone_note": "Minnesota Housing’s general line, listed on the page; it does not make referrals (local 651-296-7608)",
+   "url": "https://www.mnhousing.gov/rental-housing/grant-programs/active-funding/section-811-pra-program.html"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://mdod.maryland.gov/housing/Pages/section811.aspx",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Units are in specific approved buildings; the help stays with the apartment, not with you."
+   ],
+   "id": "md-section-811-pra",
+   "state": "MD",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Maryland",
+   "org": "Maryland Department of Disabilities, with the Department of Housing and Community Development",
+   "description": "Section 811 makes an apartment in the community affordable for people with disabilities with very low incomes who are 18 to under 62 when they sign the lease and who get Medicaid. You pay 30 percent of your income for rent and utilities together, and the program pays the rest of the rent to the landlord.",
+   "next_step": "Ask your case manager, support planner, resource coordinator or community health worker to fill out the pre-screening and application with you.",
+   "phone": "410-767-3660",
+   "phone_note": "Maryland Department of Disabilities, listed on the page",
+   "url": "https://mdod.maryland.gov/housing/Pages/section811.aspx"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://www.wheda.com/developers-and-property-managers/property-managers/section-811",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "Only in certain metropolitan areas."
+   ],
+   "id": "wi-section-811-pra",
+   "state": "WI",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in Wisconsin (WHEDA)",
+   "org": "Wisconsin Housing and Economic Development Authority, with the Department of Health Services",
+   "description": "Wisconsin’s Section 811 program gives project-based rental assistance to people with disabilities with extremely low incomes (at or below 30 percent of area median income) who are 18 to 61 at move-in, qualify for a home and community-based waiver program and meet HUD’s 811 definition of disability. WHEDA and the Department of Health Services manage the waiting list.",
+   "next_step": "Ask an agency that works with you, such as your waiver care manager, to refer you; people come in through a referring agency.",
+   "phone": null,
+   "phone_note": null,
+   "contact_how": "Ask an agency that works with you to make the referral; the page lists no general line for people seeking housing.",
+   "url": "https://www.wheda.com/developers-and-property-managers/property-managers/section-811"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "S811PRA@NJHMFA.GOV",
+   "web": null,
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [],
+   "constraints": [
+    "The program overview is undated and describes the 2015 award; ask whether units are open now."
+   ],
+   "id": "nj-section-811-pra",
+   "state": "NJ",
+   "category": "housing",
+   "name": "Section 811 Project Rental Assistance in New Jersey (NJHMFA)",
+   "org": "New Jersey Housing and Mortgage Finance Agency, with the Department of Human Services",
+   "description": "New Jersey’s Section 811 program gives rental assistance to extremely low-income people with physical, psychiatric or developmental disabilities, including people ages 18 to 61 leaving nursing homes. The Department of Human Services (its divisions of mental health and addiction services, developmental disabilities and aging services) refers tenants and keeps a waiting list for openings. Tenants pay no more than 30 percent of their income toward rent.",
+   "next_step": "Ask your case manager at the Division of Developmental Disabilities, Mental Health and Addiction Services or Aging Services about a referral.",
+   "phone": "609-278-7400",
+   "phone_note": "New Jersey Housing and Mortgage Finance Agency, listed on its Section 811 overview",
+   "url": "https://nj.gov/dca/hmfa/developers/docs/supportivehousing/sn_811_pro_overview.pdf"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://oklahoma.gov/okdrs/independence/hearing/sdhh.html",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "TTY users can dial 711."
+   ],
+   "id": "ok-deaf-hard-of-hearing-agency",
+   "state": "OK",
+   "category": "sensory",
+   "org": "State program for people who are deaf or hard of hearing",
+   "name": "Oklahoma Department of Rehabilitation Services: Services for the Deaf and Hard of Hearing",
+   "description": "The national roster of state agencies lists none for Oklahoma. The Department of Rehabilitation Services serves people who are deaf, hard of hearing, late-deafened, deaf-blind or have speech impairments, with information and referral, vocational rehabilitation for deaf and hard of hearing people, an equipment distribution program and an interpreter services program. It has offices in Oklahoma City and Tulsa.",
+   "next_step": "Call or use the videophone to make an appointment, or fill out the online self-referral and someone will contact you. Bring as much medical information about your hearing as you can.",
+   "phone": "800-833-8973",
+   "phone_note": "Toll-free line for Services for the Deaf and Hard of Hearing, listed on the department’s page; videophone 405-543-2646; Tulsa office 918-836-5556",
+   "url": "https://oklahoma.gov/okdrs/independence/hearing/sdhh.html"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "deafservices@omh.bhdd.sc.gov",
+   "web": "https://bhdd.sc.gov/office-mental-health/services/deaf-services",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "Most insurance is accepted, including Medicaid and Medicare; ask about help lowering a balance you owe.",
+    "The statewide mobile crisis team is at 1-833-364-2274, any time."
+   ],
+   "id": "sc-deaf-hard-of-hearing-agency",
+   "state": "SC",
+   "category": "sensory",
+   "org": "State program for people who are deaf or hard of hearing",
+   "name": "South Carolina Deaf Services: mental health care in American Sign Language",
+   "description": "The national roster of state agencies lists none for South Carolina. The state’s Office of Mental Health Deaf Services serves South Carolinians of all ages who are deaf, hard of hearing, late-deafened or deaf-blind, and their families, with counselors fluent in American Sign Language. It offers community mental health care in person or online, inpatient care when needed, children’s services, housing support and case management.",
+   "next_step": "Email Deaf Services to ask for an intake appointment with a clinician, or call. In a mental health crisis, call and leave a message; an on-call clinician calls back, any time of day.",
+   "phone": "803-339-3339",
+   "phone_note": "Deaf Services line, listed on the page; in a crisis, leave a message and an on-call clinician calls back 24/7",
+   "url": "https://bhdd.sc.gov/office-mental-health/services/deaf-services"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": null,
+   "web": "https://www.hopealaska.org/deafnavigator",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "Run by a nonprofit, not a state office.",
+    "TTY users can dial 711."
+   ],
+   "id": "ak-deaf-hard-of-hearing-agency",
+   "state": "AK",
+   "category": "sensory",
+   "org": "Hope Community Resources (state-funded)",
+   "name": "Deaf Navigator (Hope Community Resources, Alaska)",
+   "description": "The national roster of state agencies lists none for Alaska. The Deaf Navigator program, run by Hope Community Resources with a grant from the state, helps deaf and hard of hearing Alaskans across the state find their way to health and social services, jobs and housing. It also trains employers and service providers and offers free public use of a computer, videophone, captioned phone and TTY. Outreach staff support rural communities.",
+   "next_step": "Call Hope’s toll-free line and ask for the Deaf Navigator, or use the videophone or text number on the page.",
+   "phone": "800-478-0078",
+   "phone_note": "Hope Community Resources’ toll-free line, listed on the page; ask for the Deaf Navigator",
+   "url": "https://www.hopealaska.org/deafnavigator"
+  },
+  {
+   "scope": "statewide",
+   "counties": [],
+   "email": "DWS-WYRelay@wyo.gov",
+   "web": "https://dws.wyo.gov/?p=908",
+   "reviewed_on": "2026-11-18",
+   "record_status": "official_source_reviewed",
+   "origin": "data/added-programs.json",
+   "audience": [
+    "deaf"
+   ],
+   "constraints": [
+    "TTY users can dial 711."
+   ],
+   "id": "wy-deaf-hard-of-hearing-agency",
+   "state": "WY",
+   "category": "sensory",
+   "org": "State program for people who are deaf or hard of hearing",
+   "name": "Wyoming Relay/Deaf Services Program (Division of Vocational Rehabilitation)",
+   "description": "The national roster of state agencies lists none for Wyoming. The Wyoming Relay/Deaf Services Program, run by the Division of Vocational Rehabilitation in the Department of Workforce Services, offers information and referral, free training for groups, and the WYRED program, which gives special phone equipment at no charge to eligible people.",
+   "next_step": "Call or email the program office and say what you need, such as phone equipment, a referral or training for your workplace.",
+   "phone": "800-452-1408",
+   "phone_note": "Wyoming Relay state administration office (TTY or voice), listed on the page",
+   "url": "https://dws.wyo.gov/?p=908"
   }
  ]
 }
