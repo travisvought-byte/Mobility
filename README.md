@@ -43,9 +43,9 @@ Territories (`TERRITORIES` in `scripts/build_mobility_routes.py`) appear in the 
 
 `docs/GAP-AUDIT-2026-11-15.md` records the review that led to these changes and lists what is still missing.
 
-## Help on every page
+## Crisis and shelter help
 
-Every page ends with one short "Need help now?" block, the last thing inside `<main>` and directly above the footer: 988 (call or text; veterans press 1), 211 then 6 for homeless services, HUD's Find Shelter tool, and the National Call Center for Homeless Veterans. `scripts/finalize_pages.py` adds it from `help_now()` in `scripts/site_parts.py`, which also records the sources and the date they were read. The Spanish page gets Spanish wording that names only what pages written for Spanish speakers say. The urgent strip at the top of pages that list programs carries the same shelter line, and the home page's strip is rewritten from the shared one on every build. `tests/help-now.cjs` checks all of it.
+Crisis help sits where it fits and is not repeated on every page (owner direction, November 17, 2026). The urgent strip, `URGENT` in `scripts/site_parts.py`, leads every page that lists programs: 988 by call or text, how to reach it by videophone or relay, 911, and a link to the crisis lines. The home page's strip is rewritten from the shared one on every build. Shelter help is in the directory under housing (211 and the National Call Center for Homeless Veterans) and in the Spanish page's shelter section, which lists the pages written in Spanish that send readers to those lines. `tests/crisis-help.cjs` checks all of it.
 
 ## Related
 Local county and veteran referrals stay in the [Veteran Resource Guide](https://github.com/travisvought-byte/vhg-veteran-resident-guide) (guide.vethomeguard.org). This site links to it for local help.

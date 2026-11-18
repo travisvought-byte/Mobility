@@ -105,7 +105,7 @@ def state_page(code,name,recs,national):
     nat=''.join(f'<li><strong>{E(r["name"])}</strong> · '+' · '.join(contact(r,True))+'</li>' for r in national if r.get('phone'))
     extra=LUUL.replace('ALSO FEATURED &middot; WASHINGTON','FEATURED IN WASHINGTON',1) if code=='WA' else ''
     gcode=code.lower()
-    urgent=up(URGENT).replace('local-help.html?category=crisis',f'local-help.html?state={code}&amp;category=crisis').replace('local-help.html?category=housing',f'local-help.html?state={code}&amp;category=housing')
+    urgent=up(URGENT).replace('local-help.html?category=crisis',f'local-help.html?state={code}&amp;category=crisis')
     if terr:
         intro=f'<p>{n} programs and agencies listed for {E(place)} so far, plus national lines. Each lists how to reach it and links to its own page.</p>'
         actions=(f'<div class="actions"><a class="button" href="../local-help.html?state={code}">Filter by need</a><a class="button secondary" href="../handout.html?state={code}">Print a help list</a><a class="button secondary" href="../know-your-rights.html">Know your rights</a></div>'
