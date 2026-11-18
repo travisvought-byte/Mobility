@@ -230,6 +230,20 @@
      "evidence": "parentcenterhub.org/recursos-en-espanol/: cada estado tiene al menos un centro; parentcenterhub.org/paraninos/: muchos de estos centros tienen personal que habla español."
     }
    ]
+  },
+  {
+   "id": "mayores",
+   "title": "Personas mayores y quienes las cuidan",
+   "items": [
+    {
+     "record": "us-eldercare-locator",
+     "name": "Eldercare Locator: servicios locales para personas mayores",
+     "text": "Le conecta con la agencia local para personas mayores y con otros servicios de su zona, para personas mayores, personas con discapacidades y quienes las cuidan. Un especialista que habla español atiende de lunes a viernes, de 8 a.m. a 9 p.m., hora del Este, y hay interpretación en 150 idiomas. Es gratis.",
+     "phone": "1-800-677-1116",
+     "link_label": "Sitio web (en inglés)",
+     "evidence": "eldercare.acl.gov/Public/About/Contact_Info/Index.aspx: A Spanish-speaking information specialist is available when you call, 8 a.m. to 9 p.m. Eastern, Monday to Friday; language interpretation for 150 languages."
+    }
+   ]
   }
  ],
  "interpreter": {
