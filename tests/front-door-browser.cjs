@@ -12,6 +12,18 @@ const {chromium}=require('playwright');
   const fits=async()=>assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no sideways scrolling at '+p.viewportSize().width+'px on '+p.url());
   // home: pick a state, then a need
   await p.goto(base);await fits();assert(await p.locator('.urgent').isVisible());
+  // the reel: buttons move one slide, the count follows, and Pause stops it
+  // landed(k): the count names slide k+1 and the track has actually stopped on that slide (the last slide stops at the end of the track)
+  const landed=k=>p.waitForFunction(k=>{const t=document.getElementById('reel-track'),s=t.querySelectorAll('.reel-slide');return document.getElementById('reel-count').textContent===(k+1)+' of '+s.length&&Math.abs(t.scrollLeft-Math.min(s[k].offsetLeft-t.offsetLeft,t.scrollWidth-t.clientWidth))<3},k,{timeout:5000});
+  assert.equal(await p.locator('#reel-count').textContent(),'1 of 11');await p.click('#reel-next');await landed(1);
+  await p.click('#reel-prev');await landed(0);await p.click('#reel-prev');await landed(10);await p.click('#reel-next');await landed(0);
+  // a move the browser cuts short (a snap settling, a layout change) still finishes, so the count never names a slide that is not showing
+  await p.click('#reel-next');await p.evaluate(()=>{const t=document.getElementById('reel-track');t.scrollTo({left:t.querySelector('.reel-slide').offsetLeft-t.offsetLeft,behavior:'auto'})});await landed(1);
+  // the visitor's own swipe wins over an earlier button press, and the count follows it
+  await p.click('#reel-next');await p.evaluate(()=>{const t=document.getElementById('reel-track'),s=t.querySelectorAll('.reel-slide');t.dispatchEvent(new PointerEvent('pointerdown'));t.scrollTo({left:s[4].offsetLeft-t.offsetLeft,behavior:'auto'})});await landed(4);
+  assert(await p.locator('#reel-play').isVisible());assert.equal(await p.locator('#reel-play').textContent(),'Pause');await p.click('#reel-play');assert.equal(await p.getAttribute('#reel-play','aria-pressed'),'false');
+  {const rm=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'}),q=await rm.newPage();await q.route('**/*',r=>r.request().url().startsWith(base)?r.continue():r.abort());
+   await q.goto(base);assert.equal(await q.locator('#reel-play').textContent(),'Play','reduced motion: the reel does not play on its own');await rm.close();}
   await p.selectOption('#need-state','TX');assert.equal(await p.locator('#needgrid a').first().getAttribute('href'),'local-help.html?category=crisis&state=TX');
   await p.locator('#needgrid a',{hasText:'Benefits and health coverage'}).click();await p.waitForSelector('#results article.card');
   assert.equal(await p.inputValue('#f-state'),'TX');assert.equal(await p.inputValue('#f-cat'),'benefits');assert((await p.locator('#results').textContent()).includes('Texas Health and Human Services'));await fits();
