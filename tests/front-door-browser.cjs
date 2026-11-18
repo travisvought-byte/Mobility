@@ -24,6 +24,14 @@ const {chromium}=require('playwright');
   assert(await p.locator('#reel-play').isVisible());assert.equal(await p.locator('#reel-play').textContent(),'Pause');await p.click('#reel-play');assert.equal(await p.getAttribute('#reel-play','aria-pressed'),'false');
   {const rm=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'}),q=await rm.newPage();await q.route('**/*',r=>r.request().url().startsWith(base)?r.continue():r.abort());
    await q.goto(base);assert.equal(await q.locator('#reel-play').textContent(),'Play','reduced motion: the reel does not play on its own');await rm.close();}
+  // phones: the menu folds behind a Menu button with Español still showing; it opens, closes with Escape and gives focus back
+  {const m=await browser.newContext({viewport:{width:390,height:844}}),q=await m.newPage();await q.route('**/*',r=>r.request().url().startsWith(base)?r.continue():r.abort());
+   for(const page of ['','states/ohio.html','local-help.html']){await q.goto(base+page);
+    assert(await q.locator('.navtoggle').isVisible()&&await q.locator('#site-nav a[lang="es"]').isVisible(),page+' Menu and Español show');
+    assert(!(await q.locator('#site-nav a:not([lang])').first().isVisible()),page+' other links folded');
+    await q.click('.navtoggle');assert.equal(await q.getAttribute('.navtoggle','aria-expanded'),'true');assert(await q.locator('#site-nav a:not([lang])').first().isVisible(),page+' menu opens');
+    await q.keyboard.press('Escape');assert.equal(await q.getAttribute('.navtoggle','aria-expanded'),'false');assert(await q.evaluate(()=>document.activeElement.classList.contains('navtoggle')),page+' focus back on Menu');}
+   await q.setViewportSize({width:1280,height:900});await q.goto(base);assert(!(await q.locator('.navtoggle').isVisible())&&await q.locator('#site-nav a[href="local-help.html"]').isVisible(),'wide screens show the full menu');await m.close();}
   await p.selectOption('#need-state','TX');assert.equal(await p.locator('#needgrid a').first().getAttribute('href'),'local-help.html?category=crisis&state=TX');
   await p.locator('#needgrid a',{hasText:'Benefits and health coverage'}).click();await p.waitForSelector('#results article.card');
   assert.equal(await p.inputValue('#f-state'),'TX');assert.equal(await p.inputValue('#f-cat'),'benefits');assert((await p.locator('#results').textContent()).includes('Texas Health and Human Services'));await fits();
@@ -48,10 +56,12 @@ const {chromium}=require('playwright');
   assert.equal(await p.evaluate(()=>localStorage.length+sessionStorage.length),0,'nothing stored');assert.deepEqual(errors,[]);
   // without JavaScript the need links, the rights page and the state pages still work
   const plain=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),np=await plain.newPage();
+  // without JavaScript the full menu shows on a phone and there is no dead Menu button
+  await np.goto(base);assert(await np.locator('#site-nav a[href="local-help.html"]').isVisible()&&!(await np.locator('.navtoggle').isVisible()),'no-JS phone menu shows every link');
   await np.goto(base);assert.equal(await np.locator('#needgrid a').first().getAttribute('href'),'local-help.html?category=crisis');assert(await np.locator('.urgent a[href="tel:988"]').isVisible());
   await np.goto(base+'know-your-rights.html');assert((await np.locator('#work').textContent()).includes('180 calendar days'));
   await np.goto(base+'states/ohio.html');assert((await np.locator('main').textContent()).includes('Ohio Adult Protective Services'));assert(await np.locator('#crisis').count()===1);
   await np.goto(base+'local-help.html');assert(await np.locator('noscript').isVisible());
-  console.log('PASS front door browser: '+PAGES.length+' page types at 320, 360, 390 and 1280 pixels without sideways scrolling, also with WCAG text spacing applied, state carried from home, focus moves to results after a need button and stays put on selects, keyboard-opened guides, no default state, no storage and no-JS paths.');
+  console.log('PASS front door browser: '+PAGES.length+' page types at 320, 360, 390 and 1280 pixels without sideways scrolling, also with WCAG text spacing applied, state carried from home, focus moves to results after a need button and stays put on selects, a phone Menu button that opens, closes and works without JavaScript, keyboard-opened guides, no default state, no storage and no-JS paths.');
  }finally{await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exit(1)});

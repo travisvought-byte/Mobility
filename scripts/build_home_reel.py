@@ -251,7 +251,7 @@ def main():
         a, b = t.index('<!--reel-->'), t.index('<!--/reel-->') + len('<!--/reel-->')
         t = t[:a] + block + t[b:]
     else:
-        anchor = '<section id="needs"'
+        anchor = '<section id="start"'  # after the needs panel, before the next-step finder
         assert anchor in t, 'home page anchor missing'
         t = t.replace(anchor, block + anchor, 1)
     p.write_text(t)
