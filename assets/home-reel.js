@@ -13,10 +13,21 @@
     for(var i=0;i<n;i++){var d=Math.abs(slides[i].offsetLeft-track.offsetLeft-left);if(d<dist){dist=d;best=i;}}
     return best;
   }
+  function pos(i){return slides[i].offsetLeft-track.offsetLeft;}
+  function show(i){count.textContent=(i+1)+' of '+n;}
+  // target is the slide a button, arrow key or the timer asked for. If something stops the scroll part way
+  // (the browser settling the snap, a layout change), settle() finishes the move so the count and the slide agree.
+  var target=-1,t;
+  function settle(){
+    var c=current();
+    if(target>=0&&c!==target){c=target;target=-1;track.scrollTo({left:pos(c),behavior:'auto'});}
+    else target=-1;
+    show(c);
+  }
   function go(i){
-    i=(i+n)%n;
-    track.scrollTo({left:slides[i].offsetLeft-track.offsetLeft,behavior:reduce?'auto':'smooth'});
-    count.textContent=(i+1)+' of '+n;
+    i=(i+n)%n;target=i;
+    track.scrollTo({left:pos(i),behavior:reduce?'auto':'smooth'});
+    show(i);clearTimeout(t);t=setTimeout(settle,900);
   }
   function tick(){if(!held)go(current()+1);}
   function setPlaying(on){
@@ -29,7 +40,9 @@
     if(e.key==='ArrowRight'){e.preventDefault();go(current()+1);}
     else if(e.key==='ArrowLeft'){e.preventDefault();go(current()-1);}
   });
-  var t;track.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(function(){count.textContent=(current()+1)+' of '+n;},80);});
+  track.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(settle,150);});
+  // a swipe, drag or wheel is the visitor's own choice: follow it rather than finishing an earlier move
+  ['pointerdown','touchstart','wheel'].forEach(function(ev){track.addEventListener(ev,function(){target=-1;},{passive:true});});
   play.hidden=false;
   play.addEventListener('click',function(){setPlaying(!playing);});
   ['mouseenter','focusin','pointerdown'].forEach(function(ev){track.parentNode.addEventListener(ev,function(){held=true;});});
