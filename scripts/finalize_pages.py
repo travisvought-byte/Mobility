@@ -6,7 +6,7 @@ from site_parts import URGENT
 import ads as ADS
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','privacy.html','auction.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','privacy.html','auction.html','world.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -18,7 +18,8 @@ LUUL_SCRIPT_PAGES={'mobility-rights.html','disability-advocacy.html'}
 # page -> text the featured organization block is inserted before
 MIF_BEFORE={'index.html':'<section class="panel" id="partner-invite">','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program'}
 MAKER='Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>.'
-ORG={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#org','name':'Mobility Talk','url':BASE,'logo':BASE+'assets/social-card.png','email':'travis@vethomeguard.org','founder':{'@type':'Person','name':'Travis Vought','url':'https://travisvought.com/'},'areaServed':'US','description':'A free, national, source-linked guide to disability and mobility resources, rights and advocacy.'}
+WORLD=json.loads((ROOT/'data/world.json').read_text())
+ORG={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#org','name':'Mobility Talk','url':BASE,'logo':BASE+'assets/social-card.png','email':'travis@vethomeguard.org','founder':{'@type':'Person','name':'Travis Vought','url':'https://travisvought.com/'},'areaServed':['US']+[c['code'] for c in WORLD['countries']],'description':'A free, source-linked guide to disability and mobility resources, rights and advocacy: every U.S. state, plus a growing list of other countries.'}
 NAVBTN='<button type="button" class="navtoggle" aria-expanded="false" aria-controls="site-nav">Menu</button>'
 def unnav(t):
     """Take out the phone menu button and its scripts so the page can be rebuilt; finalize adds them back last."""
@@ -54,6 +55,9 @@ for name in PAGES:
         t=t.replace('</head>','<link rel="stylesheet" href="assets/site.css"></head>',1)
     t=re.sub(r'<a href="states/index\.html"[^>]*>All states</a>','',t)
     t=re.sub(r'(<a href="local-help\.html"[^>]*>Local help &amp; programs</a>)',lambda m:m.group(1)+'<a href="states/index.html">All states</a>',t,count=1)
+    # every main menu offers the worldwide page, right after All states (owner direction, November 19, 2026)
+    t=re.sub(r'<a href="world\.html"[^>]*>Worldwide</a>','',t)
+    t=re.sub(r'(<a href="states/index\.html"[^>]*>All states</a>)',lambda m:m.group(1)+'<a href="world.html">Worldwide</a>',t,count=1)
     t=re.sub(r'<a href="partner\.html"[^>]*>Partner with us</a>','',t)
     t=re.sub(r'(<nav aria-label="(?:Main|Back)">.*?)(</nav>)',lambda m:m.group(1)+'<a href="partner.html">Partner with us</a>'+m.group(2),t,count=1,flags=re.S)
     # every English page offers the Spanish help page, last in the main navigation
@@ -76,7 +80,9 @@ for name in PAGES:
     t=t.replace('Created and maintained by Travis Vought.',MAKER,1)
     t=t.replace("</head>",block+"</head>",1);p.write_text(t)
 STATE_PAGES=sorted(f'states/{q.name}' for q in (ROOT/'states').glob('*.html') if q.name!='index.html')
-ALL=PAGES+['states/index.html']+STATE_PAGES
+COUNTRY_PAGES=sorted(f'countries/{q.name}' for q in (ROOT/'countries').glob('*.html'))
+ALL=PAGES+['states/index.html']+STATE_PAGES+COUNTRY_PAGES
+SUB=('states/','countries/')
 # Visit counts: every page reports to the shared GoatCounter dashboard under /mobilitytalk.org/... paths,
 # so this site never mixes with the others there. No cookies; query strings are dropped.
 COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobilitytalk.org"+location.pathname},'
@@ -89,12 +95,12 @@ for name in ALL+['404.html']:
     # page does not jump; without JavaScript, or on pages without the shared stylesheet, the full menu shows as before.
     t=unnav(t)
     if 'assets/site.css' in t and '<nav aria-label="Main">' in t:
-        pre='../' if name.startswith('states/') else ''
+        pre='../' if name.startswith(SUB) else ''
         t=t.replace('<nav aria-label="Main">','<nav id="site-nav" aria-label="Main">'+NAVBTN,1)
         t=t.replace('</head>','<!--navjs--><script>document.documentElement.classList.add("navjs")</script><!--/navjs--></head>',1)
         t=t.replace('</body>','<!--navjs--><script src="'+pre+'assets/nav.js" defer></script><!--/navjs--></body>',1)
     # every page footer links to the privacy page, at the end of its first line (once)
-    pre='/' if name=='404.html' else ('../' if name.startswith('states/') else '')
+    pre='/' if name=='404.html' else ('../' if name.startswith(SUB) else '')
     t=re.sub(r' · <a class="privacy-link"[^>]*>[^<]*</a>','',t)
     link=(f' · <a class="privacy-link" href="{pre}privacy.html" hreflang="en">Privacidad (en inglés)</a>' if name=='espanol.html'
           else f' · <a class="privacy-link" href="{pre}privacy.html">Privacy</a>')
@@ -106,4 +112,4 @@ for name in ALL+['404.html']:
     p.write_text(t.replace('</head>',COUNTER+'</head>',1))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
-print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages, sitemap.xml and robots.txt.')
+print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages,',len(COUNTRY_PAGES),'country pages, sitemap.xml and robots.txt.')

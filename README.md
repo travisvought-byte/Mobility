@@ -2,7 +2,7 @@
 
 mobilitytalk.org: a mobility resources and advocacy directory and guide.
 
-A free, national, source-linked site for people with disabilities and the people who help them. It began with mobility barriers (wheelchair and equipment repair, coverage denials, home access, vehicles, transit and public access) and now covers disability broadly: benefits and health coverage, housing, rides, in-home help, work and school, vision and hearing services, rights and crisis lines. It lists programs for all 50 states and D.C., with a first set of listings for the five U.S. territories. It also helps people ask lawmakers for change.
+A free, source-linked site for people with disabilities and the people who help them, national in the United States and now adding other countries. It began with mobility barriers (wheelchair and equipment repair, coverage denials, home access, vehicles, transit and public access) and now covers disability broadly: benefits and health coverage, housing, rides, in-home help, work and school, vision and hearing services, rights and crisis lines. It lists programs for all 50 states and D.C., with a first set of listings for the five U.S. territories. It also helps people ask lawmakers for change.
 
 Created and maintained by Travis Vought. Corrections: travis@vethomeguard.org.
 
@@ -48,6 +48,12 @@ Territories (`TERRITORIES` in `scripts/build_mobility_routes.py`) appear in the 
 ## Crisis and shelter help
 
 Crisis help sits where it fits and is not repeated on every page (owner direction, November 17, 2026). The urgent strip, `URGENT` in `scripts/site_parts.py`, leads every page that lists programs: 988 by call or text, how to reach it by videophone or relay, 911, and a link to the crisis lines. The home page's strip is rewritten from the shared one on every build. Shelter help is in the directory under housing (211 and the National Call Center for Homeless Veterans) and in the Spanish page's shelter section, which lists the pages written in Spanish that send readers to those lines. `tests/crisis-help.cjs` checks all of it.
+
+## Worldwide pages
+
+Mobility Talk is going global, not only U.S. (owner direction, November 19, 2026). `world.html` lists each covered country with its emergency number, plus help that works in any country (Find A Helpline, Be My Eyes, and emergency help for U.S. citizens abroad). `countries/<slug>.html` gives each country its own page: the emergency number and a crisis line first (in place of the U.S. 988/911 strip), then where to start, disability payments, equipment and home grants, work, and rights bodies. The first eight countries are Australia, Canada, India, Ireland, New Zealand, the Philippines, South Africa and the United Kingdom.
+
+All of it is built by `scripts/build_world_pages.py` from `data/world.json`; do not edit the pages by hand. Each listing names the pages it was checked against and the date, prints its number the way the country writes it, and dials the `dial` digits (the builder stops if they differ). A listing read from a directory or news page rather than the program's own page carries `record_status: directory_listed` and shows the confirm-details note. The crisis lines and emergency numbers match Yoga Mom Talk's worldwide data, checked the same day. Every main menu links the worldwide page after "All states", and the home page points to it under the need grid. Country pages carry no ad slot. To add a country, add it to `data/world.json` and rebuild; `tests/world.cjs` checks every listing, number, source, link, menu and sitemap entry.
 
 ## Related
 Local county and veteran referrals stay in the [Veteran Resource Guide](https://github.com/travisvought-byte/vhg-veteran-resident-guide) (guide.vethomeguard.org). This site links to it for local help.

@@ -14,7 +14,8 @@ for(const f of pages){
  const s=fs.readFileSync(f,'utf8');
  for(const m of s.matchAll(/<a href="(tel:[^"]*)"[^>]*>([^<]*)</g)){
   const [,href,text]=m;n++;
-  assert(/^tel:(\+\d{6,15}|\d{3}|\d{10}|1\d{10})(,\d{1,6})?$/.test(href),f+': call link '+href+' is not a dialable number');
+  // world.html lists other countries' emergency numbers (000, 111, 112, 999, 10111); tests/world.cjs checks them against the data
+  assert((f==='world.html'?/^tel:\+?\d{3,15}$/:/^tel:(\+\d{6,15}|\d{3}|\d{10}|1\d{10})(,\d{1,6})?$/).test(href),f+': call link '+href+' is not a dialable number');
   const shown=text.replace(/^(Call|Llamar al|Dial)\s+/i,'').trim();
   if(/\d{3}.*\d{4}/.test(shown))assert.equal(href,expected(shown),f+': "'+text+'" dials '+href);
  }
