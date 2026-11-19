@@ -1,0 +1,4 @@
+{
+  "_readme": "Advertisements. Empty means no ad shows anywhere and the pages carry no ad markup. Each ad: slot (home, a topic page such as know-your-rights, state-<slug> such as state-ohio, every-topic or every-state), sponsor, text (200 characters at most), url (https), optional image (https or assets/...) with alt, optional start and end dates (YYYY-MM-DD). Crisis and help pages (the directory, the help list, the Spanish page) never take an ad. Rules and placement: scripts/ads.py. Rebuild with npm run build after any change.",
+  "ads": []
+}

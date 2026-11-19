@@ -3,9 +3,10 @@
 import html,json,re
 from pathlib import Path
 from site_parts import URGENT
+import ads as ADS
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','privacy.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -81,6 +82,7 @@ ALL=PAGES+['states/index.html']+STATE_PAGES
 COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobilitytalk.org"+location.pathname},'
          'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
          '<script data-goatcounter="https://travisvought.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
+AD_LIST=ADS.load()
 for name in ALL+['404.html']:
     p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
     # Phones: the main menu folds behind a Menu button, with Español left showing. The class is set in the head so the
@@ -91,6 +93,15 @@ for name in ALL+['404.html']:
         t=t.replace('<nav aria-label="Main">','<nav id="site-nav" aria-label="Main">'+NAVBTN,1)
         t=t.replace('</head>','<!--navjs--><script>document.documentElement.classList.add("navjs")</script><!--/navjs--></head>',1)
         t=t.replace('</body>','<!--navjs--><script src="'+pre+'assets/nav.js" defer></script><!--/navjs--></body>',1)
+    # every page footer links to the privacy page, at the end of its first line (once)
+    pre='/' if name=='404.html' else ('../' if name.startswith('states/') else '')
+    t=re.sub(r' · <a class="privacy-link"[^>]*>[^<]*</a>','',t)
+    link=(f' · <a class="privacy-link" href="{pre}privacy.html" hreflang="en">Privacidad (en inglés)</a>' if name=='espanol.html'
+          else f' · <a class="privacy-link" href="{pre}privacy.html">Privacy</a>')
+    t,n=re.subn(r'(<footer[^>]*>\s*<p>.*?)(</p>)',lambda m:m.group(1)+link+m.group(2),t,count=1,flags=re.S)
+    assert n==1,name+' has no footer line for the privacy link'
+    # advertising: only where data/ads.json has an active ad for this page's slot; otherwise nothing is written
+    t=ADS.apply(t,name,AD_LIST)
     assert t.count('</head>')==1,name
     p.write_text(t.replace('</head>',COUNTER+'</head>',1))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')
