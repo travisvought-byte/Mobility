@@ -21,7 +21,7 @@
    "deadline": null,
    "note": "A complaint is not the same as a lawsuit and does not guarantee an investigation or a remedy. Your state Protection and Advocacy agency can help you decide how to proceed.",
    "records": ["us-ada-information-line", "us-ada-file-complaint", "us-ada-service-animals"],
-   "more": [{"label": "Your state’s equal-access law and complaint routes", "href": "mobility-rights.html"}, {"label": "Your regional ADA Center and Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}]
+   "more": [{"label": "Your state’s equal-access law and complaint routes", "href": "mobility-rights.html"}, {"label": "Your regional ADA Center and Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}, {"label": "Service animals: what staff may ask and when a dog can be asked to leave", "href": "service-animals.html"}]
   },
   {
    "id": "housing",
@@ -31,7 +31,7 @@
    "steps": ["Write down what you asked for and how the provider answered, and keep copies.", "Say how the change you need connects to your disability.", "Report it on the HUD page, call the HUD hotline or contact a local fair housing center."],
    "deadline": "Complaints to HUD are generally filed within one year of the discrimination. Confirm the deadline with HUD.",
    "records": ["us-hud-fair-housing-complaint"],
-   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}]
+   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}, {"label": "Service and assistance animals in housing", "href": "service-animals.html"}]
   },
   {
    "id": "early-intervention",
@@ -82,7 +82,7 @@
    "steps": ["At the airport, ask for the airline’s Complaint Resolution Official.", "If the problem is not fixed, call the DOT hotline for air travelers with disabilities.", "After the trip, file a written or online complaint with DOT. Keep photos, repair estimates and receipts."],
    "deadline": null,
    "records": ["us-dot-air-travel-disability-hotline", "us-tsa-cares"],
-   "more": []
+   "more": [{"label": "Flying with a service animal", "href": "service-animals.html"}]
   },
   {
    "id": "phones-relay",

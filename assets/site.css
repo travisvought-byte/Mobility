@@ -186,6 +186,9 @@ article,.card,.panel,.statelist li,.sheet-item,.rights-row,.featured-org>*,.filt
 @media(max-width:850px){.grid,.list,.route,.tiers,.handout-controls,.featured-org,.finder{grid-template-columns:minmax(0,1fr)}
 }
 
+/* service animals page: numbered source citations */
+a.cite{margin-left:.2em;white-space:nowrap}
+.sources li{margin-bottom:.4em;overflow-wrap:anywhere}
 /* A footer that follows <main> (state pages, the directory, the guides) lines up with the page content instead of
    touching the edge of the screen. Footers written inside <main> already sit within its padding. */
 main+footer{max-width:1124px;margin:12px auto 0;padding:22px 22px 30px}

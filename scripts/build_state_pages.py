@@ -97,7 +97,8 @@ def state_page(code,name,recs,national):
         if w:s+='<div class="grid">'+''.join(card(r) for r in w)+'</div>'
         if l:
             s+=f'<h3>County and regional programs ({len(l)})</h3><ul class="statelist">'+''.join(local_li(r) for r in l)+'</ul>'
-        if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a></p>'
+        if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a> · <a href="../service-animals.html">Service animals: your rights and where to get a trained dog</a></p>'
+        if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
         secs.append(s+'</section>')
     toc=''.join(f'<a href="#{k.replace("_","-")}">{E(CATS[k])}</a>' for k in ORDER if any(r['category']==k for r in mine))
     nat=''.join(f'<li><strong>{E(r["name"])}</strong> · '+' · '.join(contact(r,True))+'</li>' for r in national if r.get('phone'))
