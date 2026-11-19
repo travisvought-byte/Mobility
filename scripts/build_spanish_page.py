@@ -7,12 +7,11 @@ Run via `npm run build` (from the scripts directory, like the other page builder
 """
 import html,json,re
 from pathlib import Path
+from site_parts import tel
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 NEW=' (se abre en otra pestaña)'
 digits=lambda s:re.sub(r'\D','',str(s or ''))
-def tel(p):
-    d=re.sub(r'[^0-9+]','',str(p));return 'tel:'+d if d else None
 def item(it,recs):
     r=recs[it['record']]
     blob=' '.join(str(r.get(k) or '') for k in ('phone','phone_note','next_step','contact_how','email','description'))+' '+' '.join(r.get('constraints') or [])

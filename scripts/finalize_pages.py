@@ -15,12 +15,17 @@ LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
 LUUL_PAGES={'index.html':('after-mif',False),'local-help.html':('before-mif',True),'mobility-rights.html':('<section id="route-result"',True),'disability-advocacy.html':('<section class="featured-org" aria-labelledby="featured-title">',True)}
 LUUL_SCRIPT_PAGES={'mobility-rights.html','disability-advocacy.html'}
 # page -> text the featured organization block is inserted before
-MIF_BEFORE={'index.html':'<section><h2>Ways to use this site</h2>','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program'}
+MIF_BEFORE={'index.html':'<section class="panel" id="partner-invite">','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section class="panel"><h2>Before you spend anything','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program'}
 MAKER='Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>.'
 ORG={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#org','name':'Mobility Talk','url':BASE,'logo':BASE+'assets/social-card.png','email':'travis@vethomeguard.org','founder':{'@type':'Person','name':'Travis Vought','url':'https://travisvought.com/'},'areaServed':'US','description':'A free, national, source-linked guide to disability and mobility resources, rights and advocacy.'}
+NAVBTN='<button type="button" class="navtoggle" aria-expanded="false" aria-controls="site-nav">Menu</button>'
+def unnav(t):
+    """Take out the phone menu button and its scripts so the page can be rebuilt; finalize adds them back last."""
+    t=re.sub(r'<!--navjs-->.*?<!--/navjs-->','',t,flags=re.S).replace(NAVBTN,'')
+    return t.replace('<nav id="site-nav" aria-label="Main">','<nav aria-label="Main">')
 def clean(s):return html.unescape(re.sub(r'\s+',' ',s)).strip()
 for name in PAGES:
-    p=ROOT/name;t=p.read_text()
+    p=ROOT/name;t=unnav(p.read_text())
     t=re.sub(r'<!--seo-->.*?<!--/seo-->','',t,flags=re.S)
     t=re.sub(r'<link rel="canonical"[^>]*>','',t);t=re.sub(r'<meta property="og:[^>]*>','',t)
     t=re.sub(r'<!--mif-->.*?<!--/mif-->','',t,flags=re.S);t=re.sub(r'<!--luul-->.*?<!--/luul-->','',t,flags=re.S);t=re.sub(r'<!--luulj-->.*?<!--/luulj-->','',t,flags=re.S)
@@ -78,6 +83,14 @@ COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobility
          '<script data-goatcounter="https://travisvought.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
 for name in ALL+['404.html']:
     p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
+    # Phones: the main menu folds behind a Menu button, with Español left showing. The class is set in the head so the
+    # page does not jump; without JavaScript, or on pages without the shared stylesheet, the full menu shows as before.
+    t=unnav(t)
+    if 'assets/site.css' in t and '<nav aria-label="Main">' in t:
+        pre='../' if name.startswith('states/') else ''
+        t=t.replace('<nav aria-label="Main">','<nav id="site-nav" aria-label="Main">'+NAVBTN,1)
+        t=t.replace('</head>','<!--navjs--><script>document.documentElement.classList.add("navjs")</script><!--/navjs--></head>',1)
+        t=t.replace('</body>','<!--navjs--><script src="'+pre+'assets/nav.js" defer></script><!--/navjs--></body>',1)
     assert t.count('</head>')==1,name
     p.write_text(t.replace('</head>',COUNTER+'</head>',1))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')

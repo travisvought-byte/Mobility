@@ -1,5 +1,7 @@
 'use strict';
 (() => {
+ // An extension is dialed after a pause and a lettered number becomes its keypad digits, so Call reaches the right line
+ const tel=p=>{const m=String(p).split(/\s*(?:ext\.?|extension|x)\s*(?=\d)/i);const k='22233344455566677778889999';const d=m[0].toUpperCase().replace(/[A-Z]/g,c=>k[c.charCodeAt(0)-65]).replace(/[^0-9+]/g,'');const x=m.length>1?m[1].replace(/\D/g,''):'';return d?'tel:'+d+(x?','+x:''):null;};
  const $=id=>document.getElementById(id),data=JSON.parse($('mobility-route-data').textContent);
  document.documentElement.classList.add('mobility-ready');
  const states=data.state_names,issues=new Map(data.issues.map(i=>[i.id,i])),sources=new Map(data.sources.map(s=>[s.id,s]));
@@ -57,7 +59,7 @@
   const where=x.scope==='national'?'Every state':x.scope==='statewide'?'Statewide':'Serves '+x.counties.slice(0,4).join(', ')+(x.counties.length>4?' +'+(x.counties.length-4)+' more':'')+(x.counties.length===1?' County':' counties');
   li.append(el('span',' · '+where,'small'));
   const row=el('p',undefined,'route-local-contact');
-  if(x.phone){const a=el('a','Call '+x.phone);const d=String(x.phone).replace(/[^0-9+]/g,'');if(d)a.href='tel:'+d;row.append(a,document.createTextNode(' '));}
+  if(x.phone){const a=el('a','Call '+x.phone);const t=tel(x.phone);if(t)a.href=t;row.append(a,document.createTextNode(' '));}
   if(x.email){const a=el('a','Email');a.href='mailto:'+x.email;row.append(a,document.createTextNode(' '));}
   const site=x.web&&/^https:\/\//.test(x.web)?x.web:x.url;if(site&&/^https?:\/\//.test(site))row.append(link(LINK_LABEL[x.link_kind]||'Source page',site));
   li.append(row);
