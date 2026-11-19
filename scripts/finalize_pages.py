@@ -6,7 +6,7 @@ from site_parts import URGENT
 import ads as ADS
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','privacy.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','privacy.html','auction.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
