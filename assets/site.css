@@ -106,10 +106,10 @@ input[type=text]:focus-visible{outline:3px solid #bb8e36;outline-offset:3px}
 /* All-disabilities front door (Nov 2026): urgent strip, relay note, need grid, who-it-is-for row, before-you-call blocks */
 .vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
 
-.urgent{background:#fff;border:2px solid #8a2a1f;border-left-width:10px;border-radius:10px;padding:14px 20px;margin:0 0 28px}
-.urgent h2{margin:0 0 4px;font:700 21px/1.3 system-ui,sans-serif;color:#7a1f15}
-.urgent p{margin:4px 0;max-width:none}
-.urgent a{font-weight:700;color:#183449}
+.urgent,.emergency{background:#fff;border:2px solid #8a2a1f;border-left-width:10px;border-radius:10px;padding:14px 20px;margin:0 0 28px}
+.urgent h2,.emergency h2{margin:0 0 4px;font:700 21px/1.3 system-ui,sans-serif;color:#7a1f15}
+.urgent p,.emergency p{margin:4px 0;max-width:none}
+.urgent a,.emergency a{font-weight:700;color:#183449}
 
 .relay{margin:14px 0 0;font-size:16px;max-width:none}
 
@@ -159,10 +159,10 @@ select:disabled{background:#eef1ee;color:#52665c}
 .whorow a{font-size:15px;padding:6px 12px}
 .rights-row dl{grid-template-columns:1fr;gap:2px 0}
 .rights-row dd{margin:0 0 10px}
-.urgent{padding:12px 14px}
+.urgent,.emergency{padding:12px 14px}
 }
 @media print{.needgrid,.whorow,.needstate{display:none}
-.urgent{border:1px solid #000}
+.urgent,.emergency{border:1px solid #000}
 .prep{border:0;padding:0}
 }
 
@@ -195,7 +195,7 @@ main+footer{max-width:1124px;margin:12px auto 0;padding:22px 22px 30px}
 @media print{main+footer{max-width:none;padding:12px 0 0}}
 /* Phone and text links in the urgent strip stay on one line, so a number never breaks in the middle.
    Only the strip (an aside): the Spanish page's crisis section shares the class and has longer link text that must wrap. */
-aside.urgent a[href^="tel:"],aside.urgent a[href^="sms:"]{white-space:nowrap}
+aside.urgent a[href^="tel:"],aside.urgent a[href^="sms:"],aside.emergency a[href^="tel:"]{white-space:nowrap}
 .reel{margin:0 0 36px}.reel-head h2{margin:0 0 4px}.reel-head .lead{margin:0 0 14px}.reel-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;-webkit-overflow-scrolling:touch}.reel-track:focus-visible{outline:3px solid #bb8e36;outline-offset:4px}.reel-slide{flex:0 0 min(88%,520px);scroll-snap-align:start;margin:0;background:#fff;border:1px solid var(--line);border-top:4px solid #bb8e36;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}.reel-slide figure{margin:0;display:flex;flex-direction:column;flex:1}.reel-slide svg{display:block;width:100%;height:auto}.reel-slide figcaption{padding:14px 18px 18px;font:600 19px/1.45 Georgia,serif;color:var(--navy)}.reel-slide figcaption a{display:block;margin-top:8px;font:600 16px/1.4 system-ui,sans-serif}.reel-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.reel-controls button{min-width:48px}#reel-count{min-width:5.5em;text-align:center;font-weight:700}@media print{.reel{display:none}}
 /* Home page guides (November 2026 reorganization): one compact list in place of the old "Ways to use this site" cards */
 .guidegrid{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.guidegrid li{margin:0;max-width:none}.guidegrid a{display:block;height:100%;background:#fff;border:1px solid var(--line);border-left:6px solid var(--navy);border-radius:10px;padding:14px 16px;text-decoration:none;color:#20313a}.guidegrid a:hover{border-left-color:var(--gold);box-shadow:0 4px 10px rgba(0,0,0,.12)}.guidegrid strong{display:block;color:var(--navy);font-size:19px;line-height:1.3;margin-bottom:4px;text-decoration:underline;text-underline-offset:3px}.guidegrid span{display:block;font-size:16px;line-height:1.5;color:#42525b}@media(max-width:850px){.guidegrid{grid-template-columns:1fr;gap:8px}}@media print{.guidegrid{display:block}}

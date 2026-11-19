@@ -1,0 +1,711 @@
+{
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request: Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them.",
+ "reviewed_on": "2026-11-19",
+ "sections": {
+  "help-now": "Crisis and someone to talk to",
+  "start": "Where to start",
+  "money": "Disability payments and benefits",
+  "equipment-home": "Equipment, home changes and getting around",
+  "work": "Work",
+  "rights": "Rights, discrimination and advocacy"
+ },
+ "worldwide": [
+  {
+   "id": "world-findahelpline",
+   "name": "Find A Helpline",
+   "org": "ThroughLine",
+   "what": "A free directory of crisis and support lines in more than 130 countries. Pick your country and what you want to talk about, and it shows lines you can call, text or chat with.",
+   "how": "Choose your country on the site. Most lines are free and many are open any hour.",
+   "url": "https://findahelpline.com/",
+   "sources": [
+    "https://findahelpline.com/",
+    "https://findahelpline.com/about"
+   ],
+   "reviewed_on": "2026-11-19"
+  },
+  {
+   "id": "world-be-my-eyes",
+   "name": "Be My Eyes",
+   "org": "Be My Eyes",
+   "what": "A free app for people who are blind or have low vision. A sighted volunteer looks through your phone's camera and tells you what they see, or an AI describes a photo. The company says it works in about 150 countries and 180 languages.",
+   "how": "Download the app, choose your language, and start a video call or send a photo. It is free.",
+   "url": "https://www.bemyeyes.com/",
+   "sources": [
+    "https://bemyeyes.com/bme-app",
+    "https://www.bemyeyes.com/mobile-app"
+   ],
+   "reviewed_on": "2026-11-19"
+  },
+  {
+   "id": "world-us-citizens",
+   "name": "U.S. citizens abroad: emergency help",
+   "org": "U.S. Department of State",
+   "what": "For Americans living or traveling outside the U.S. The State Department helps U.S. citizens abroad with emergencies, including crime, arrest and lost passports.",
+   "how": "Contact the nearest U.S. embassy, or call any hour. From the U.S. and Canada, call 1-888-407-4747.",
+   "url": "https://travel.state.gov/helpabroad",
+   "phone": "+1 202-501-4444",
+   "dial": "+12025014444",
+   "phone_note": "From outside the U.S. and Canada, any hour",
+   "sources": [
+    "https://travel.state.gov/helpabroad",
+    "https://www.usa.gov/emergency-assistance-abroad"
+   ],
+   "reviewed_on": "2026-11-19"
+  }
+ ],
+ "countries": [
+  {
+   "code": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "emergency": {
+    "number": "000",
+    "label": "Police, fire and ambulance",
+    "source": "https://1800respect.org.au/calling-1800respect"
+   },
+   "relay": "Deaf, hard of hearing or speech disability: use the National Relay Service. Call 133 677 (TTY or voice) or 1300 555 727 (Speak and Listen) and ask for the number you need.",
+   "relay_source": "https://humanrights.gov.au/our-work/disability-rights/complaints",
+   "resources": [
+    {
+     "id": "au-lifeline",
+     "section": "help-now",
+     "name": "Lifeline crisis support",
+     "org": "Lifeline Australia",
+     "what": "Free, confidential crisis support any hour for anyone in Australia who feels overwhelmed, is in emotional distress or is thinking about suicide.",
+     "how": "Call, text 0477 13 11 14, or chat online. Through TIS on 131 450 you can ask for Lifeline in your language.",
+     "phone": "13 11 14",
+     "dial": "131114",
+     "url": "https://www.lifeline.org.au/crisis-support/",
+     "sources": [
+      "https://www.lifeline.org.au/crisis-support/",
+      "https://www.lifeline.org.au/get-help/services/crisis-support"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "au-disability-gateway",
+     "section": "start",
+     "name": "Disability Gateway",
+     "org": "Australian Government Department of Social Services",
+     "what": "A free, Australia-wide information line for people with disability, families and carers. A real person helps you find services for income, equipment, housing, transport, work, health and rights, and can transfer you to counselling or advocacy. Anyone can call, whether or not they are on the NDIS.",
+     "how": "Call Monday to Friday, 8am to 8pm (AEST/AEDT). For another language, call TIS on 131 450 and ask for the Disability Gateway.",
+     "phone": "1800 643 787",
+     "dial": "1800643787",
+     "url": "https://www.disabilitygateway.gov.au/",
+     "sources": [
+      "https://www.disabilitygateway.gov.au/sites/default/files/documents/2024-03/4566-dl-brochurefirst.pdf",
+      "https://www.disabilitygateway.gov.au/sites/default/files/documents/2023-05/3546-information-brochure.pdf",
+      "https://www.fcfcoa.gov.au/support-services/disability-support"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "au-ndis",
+     "section": "money",
+     "name": "National Disability Insurance Scheme (NDIS)",
+     "org": "National Disability Insurance Agency",
+     "what": "The national scheme that funds supports for people with permanent and significant disability. The NDIS can help you apply, or connect you with a local partner who will.",
+     "how": "Call the participant line Monday to Friday, 8am to 8pm local time, or use the webchat. First Nations Connect: 1800 411 640.",
+     "phone": "1800 800 110",
+     "dial": "1800800110",
+     "url": "https://www.ndis.gov.au/contact",
+     "sources": [
+      "https://www.ndis.gov.au/contact",
+      "https://www.ndis.gov.au/contact-us"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "au-ahrc",
+     "section": "rights",
+     "name": "Australian Human Rights Commission: disability discrimination complaints",
+     "org": "Australian Human Rights Commission",
+     "what": "Looks into and helps resolve complaints about disability discrimination under the Disability Discrimination Act. Making a complaint is free, and someone such as an advocate can complain for you.",
+     "how": "Call the National Information Service if you are not sure you can complain, or lodge a complaint online. Through the National Relay Service, ask to be connected to the Commission. For an interpreter, call TIS on 131 450.",
+     "phone": "1300 656 419",
+     "dial": "1300656419",
+     "url": "https://humanrights.gov.au/complaints/complaints-forms-and-guides",
+     "sources": [
+      "https://humanrights.gov.au/complaints/complaints-forms-and-guides",
+      "https://humanrights.gov.au/our-work/disability-rights/complaints",
+      "https://www.humanrights.gov.au/complaints/complaint-guides/what-you-can-complain-about/complaints-under-disability-discrimination"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "CA",
+   "slug": "canada",
+   "name": "Canada",
+   "emergency": {
+    "number": "911",
+    "label": "Police, fire and ambulance",
+    "source": "https://centraleasthealthline.ca/printService.aspx?id=164216"
+   },
+   "resources": [
+    {
+     "id": "ca-988",
+     "section": "help-now",
+     "name": "9-8-8 Suicide Crisis Helpline",
+     "org": "9-8-8 Suicide Crisis Helpline",
+     "what": "Call or text 9-8-8 any hour, anywhere in Canada, if you are thinking about suicide or are worried about someone. Free, in English and French.",
+     "how": "Call or text 988. If 988 does not work on your phone, call 1-833-456-4566.",
+     "phone": "988",
+     "dial": "988",
+     "text": "988",
+     "url": "https://988.ca/",
+     "sources": [
+      "https://pe.211.ca/result/988-suicide-crisis-helpline--87590905",
+      "https://info-bhn.cioc.ca/record/SIM0071?Number=0"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ca-disability-benefit",
+     "section": "money",
+     "name": "Canada Disability Benefit",
+     "org": "Service Canada",
+     "what": "A monthly payment for working-age people with disabilities, 18 to 64, who have low income. You must already be approved for the Disability Tax Credit.",
+     "how": "Apply online, by phone, or at a Service Canada Centre. If you do not have the Disability Tax Credit yet, apply for it first through the Canada Revenue Agency. TTY: 1-833-467-2700.",
+     "phone": "1-833-486-3007",
+     "dial": "18334863007",
+     "url": "https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit/apply.html",
+     "links": [
+      {
+       "label": "Disability Tax Credit (Canada Revenue Agency)",
+       "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html"
+      }
+     ],
+     "sources": [
+      "https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit.html",
+      "https://www.uhn.ca/Krembil/Clinics/Epilepsy_Clinic/Documents/Canada-Disability-Benefit.pdf",
+      "https://orillia.cioc.ca/record/BAR5382"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ca-cpp-disability",
+     "section": "money",
+     "name": "Canada Pension Plan disability benefits",
+     "org": "Service Canada",
+     "what": "A monthly payment if you paid into the Canada Pension Plan and can no longer work regularly at any job because of a severe and prolonged disability. Your children may also get benefits.",
+     "how": "Apply online, or call for an application kit. TTY: 1-800-255-4786. From outside Canada and the United States, call collect 1-613-957-1954.",
+     "phone": "1-800-277-9914",
+     "dial": "18002779914",
+     "url": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-disability-benefit.html",
+     "sources": [
+      "https://www.canada.ca/en/employment-social-development/corporate/contact/cpp.html",
+      "https://www.cleo.on.ca/en/publications/cppdisability/all"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ca-chrc",
+     "section": "rights",
+     "name": "Canadian Human Rights Commission",
+     "org": "Canadian Human Rights Commission",
+     "what": "Takes discrimination complaints against federally regulated organizations, such as federal government departments, banks, airlines and phone companies. For other employers, landlords, stores and services, complain to your province's or territory's human rights agency. Filing is free and you do not need a lawyer.",
+     "how": "Call to check that the Commission is the right place, then fill in its complaint form. Lines are open Monday to Friday, 8am to 8pm Eastern. TTY: 1-888-643-3304.",
+     "phone": "1-888-214-1090",
+     "dial": "18882141090",
+     "url": "https://www.chrc-ccdp.gc.ca/resources/publications/discrimination-what-can-i-do-about-it",
+     "sources": [
+      "https://www.chrc-ccdp.gc.ca/resources/publications/discrimination-what-can-i-do-about-it",
+      "https://halton.cioc.ca/record/IMP0143?PrintMd=on"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "IN",
+   "slug": "india",
+   "name": "India",
+   "emergency": {
+    "number": "112",
+    "label": "Police, fire and ambulance",
+    "source": "https://pib.gov.in/PressReleasePage.aspx?PRID=1933794"
+   },
+   "resources": [
+    {
+     "id": "in-telemanas",
+     "section": "help-now",
+     "name": "Tele-MANAS mental health helpline",
+     "org": "Ministry of Health and Family Welfare",
+     "what": "Free mental health support by phone any hour, from the national tele-mental health programme, in many Indian languages.",
+     "how": "Dial 14416, or 1-800-891-4416.",
+     "phone": "14416",
+     "dial": "14416",
+     "sources": [
+      "https://pib.gov.in/PressReleasePage.aspx?PRID=2022057",
+      "https://dghs.mohfw.gov.in/national-mental-health-programme.php"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "in-udid",
+     "section": "start",
+     "name": "Disability certificate and UDID card",
+     "org": "Department of Empowerment of Persons with Disabilities",
+     "what": "One national disability certificate and Unique Disability ID card, issued under the Rights of Persons with Disabilities Act, 2016. Many schemes ask for it, including free or low-cost aids and devices under ADIP.",
+     "how": "Apply free on the Swavlamban card portal: register, choose a government hospital in your district, and attend the medical assessment there. You can track your application on the same site.",
+     "url": "https://www.swavlambancard.gov.in/",
+     "sources": [
+      "https://depwd.gov.in/unique-disability-id-udid/",
+      "https://services.india.gov.in/service/detail/apply-for-unique-disability-id-udid-card",
+      "https://niepid.nic.in/en/adip/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "in-adip",
+     "section": "equipment-home",
+     "name": "ADIP scheme: aids and assistive devices",
+     "org": "Department of Empowerment of Persons with Disabilities",
+     "what": "Government help to buy or be fitted with aids and assistive devices, given through ALIMCO, the National Institutes, Composite Regional Centres, District Disability Rehabilitation Centres and other implementing agencies. A UDID card is required.",
+     "how": "Apply through one of those agencies or register on the ADIP portal. For replacement or repair of a device from ALIMCO, call its toll-free line.",
+     "phone": "1800-180-5129",
+     "dial": "18001805129",
+     "phone_note": "ALIMCO toll-free, for replacement or repair",
+     "url": "https://adip.depwd.gov.in/",
+     "sources": [
+      "https://adip.depwd.gov.in/files/FAQ_English.pdf",
+      "https://depwd.gov.in/adip/",
+      "https://niepid.nic.in/en/adip/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "in-ccpd",
+     "section": "rights",
+     "name": "Chief Commissioner for Persons with Disabilities",
+     "org": "Office of the Chief Commissioner for Persons with Disabilities (Divyangjan)",
+     "what": "Takes complaints when a person with a disability is denied rights under the Rights of Persons with Disabilities Act, 2016, for example by a government body or employer. Each state also has a State Commissioner.",
+     "how": "Send a written complaint by email or post, or bring it in person. Say who you are, what happened, where, and which organization it was.",
+     "phone": "011-20892364",
+     "dial": "01120892364",
+     "email": "ccpd@nic.in",
+     "url": "https://ccdisabilities.nic.in/",
+     "sources": [
+      "https://ccpd.nic.in/?p=6990",
+      "https://cdnbbsr.s3waas.gov.in/s39fb7b048c96d44a0337f049e0a61ff06/uploads/2024/12/202412171192022387.pdf",
+      "https://nyaaya.org/resource/guide-for-addressing-barriers-to-digital-accessibility-for-persons-with-disabilities/"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "IE",
+   "slug": "ireland",
+   "name": "Ireland",
+   "emergency": {
+    "number": "112",
+    "label": "Police, fire and ambulance (999 works too). Free from any phone",
+    "source": "https://www.gov.ie/en/service/89da6-how-to-contact-emergency-services-in-ireland"
+   },
+   "resources": [
+    {
+     "id": "ie-samaritans",
+     "section": "help-now",
+     "name": "Samaritans",
+     "org": "Samaritans Ireland",
+     "what": "Someone to talk to, free, any time of day or night, whatever you are going through. You do not have to be suicidal to call.",
+     "how": "Call 116 123 from any phone.",
+     "phone": "116 123",
+     "dial": "116123",
+     "url": "https://www.samaritans.org/",
+     "sources": [
+      "https://www.samaritans.org/how-we-can-help-you/contact",
+      "https://www.samaritans.org/how-we-can-help/write-an-email/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ie-citizens-information",
+     "section": "start",
+     "name": "Citizens Information Phone Service",
+     "org": "Citizens Information Board",
+     "what": "Free, confidential information on public services and entitlements, including disability payments, grants and services. Local Citizens Information Centres can also help you fill in forms.",
+     "how": "Call Monday to Friday, 9am to 8pm. Calls cost the same as a landline call. From outside Ireland, call +353 21 229 8178.",
+     "phone": "0818 07 4000",
+     "dial": "0818074000",
+     "url": "https://www.citizensinformation.ie/",
+     "sources": [
+      "https://www.citizensinformationboard.ie/en/notices/contact.html",
+      "https://citizensinformationboard.ie/en/services/citizensinformation"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ie-disability-allowance",
+     "section": "money",
+     "name": "Disability Allowance",
+     "org": "Department of Social Protection",
+     "what": "A weekly payment for people aged 16 to 65 with a disability expected to last at least a year that substantially limits the work they can do. It is means tested, and you must live in Ireland. You can keep attending school while you get it.",
+     "how": "Fill in the application form on the gov.ie page, or get one at your Intreo centre or Citizens Information Centre, and send it with your supporting documents to the Disability Allowance Section.",
+     "url": "https://www.gov.ie/en/service/df6811-disability-allowance",
+     "sources": [
+      "https://www.gov.ie/en/service/df6811-disability-allowance",
+      "https://www.gov.ie/en/publication/c075c7-operational-guidelines-disability-allowance"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ie-housing-adaptation-grant",
+     "section": "equipment-home",
+     "name": "Housing Adaptation Grant for Disabled People",
+     "org": "Your local authority (county or city council)",
+     "what": "A means-tested grant toward changes that make a private home suitable for a disabled person, such as access and moving around inside. The maximum grant is €40,000. Social housing tenants use a separate scheme run by their council.",
+     "how": "Get the application form from your local authority's housing grants page or office, have your doctor complete the medical section, and return it to the council.",
+     "url": "https://www.gov.ie/en/service/3f186-housing-adaptation-grant-for-people-with-a-disability",
+     "sources": [
+      "https://www.gov.ie/en/service/3f186-housing-adaptation-grant-for-people-with-a-disability",
+      "https://www.gov.ie/en/press-release/c1356-ministers-obrien-and-dillon-announce-commencement-of-revised-housing-adaptation-grants-of-up-to-40000",
+      "https://localgov.ie/grants-and-funding/housing-adaptation-grant-for-people-with-a-disability",
+      "https://www.echolive.ie/corkviews/arid-41567737.html"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ie-national-advocacy-service",
+     "section": "rights",
+     "name": "National Advocacy Service for People with Disabilities",
+     "org": "Citizens Information Board",
+     "what": "An independent, confidential and free advocacy service. An advocate can speak up for you or help you be heard when dealing with services.",
+     "how": "Call or email info@advocacy.ie. For discrimination at work or in services, IHREC's Your Rights pages explain the law; complaints go to the Workplace Relations Commission.",
+     "phone": "0761 07 3000",
+     "dial": "0761073000",
+     "email": "info@advocacy.ie",
+     "links": [
+      {
+       "label": "Your Rights: disability discrimination (IHREC)",
+       "url": "https://www.ihrec.ie/your-rights/"
+      }
+     ],
+     "sources": [
+      "https://www.ihrec.ie/your-rights/pubs/disability",
+      "https://www.ihrec.ie/your-rights/",
+      "https://www.ihrec.ie/about/contact"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "NZ",
+   "slug": "new-zealand",
+   "name": "New Zealand",
+   "emergency": {
+    "number": "111",
+    "label": "Police, fire and ambulance",
+    "source": "https://womensrefuge.org.nz/?p=6165"
+   },
+   "relay": "Deaf, hard of hearing or speech disability: use New Zealand Relay to reach any number listed here.",
+   "relay_url": "https://www.nzrelay.co.nz/",
+   "relay_source": "https://www.disabilitysupport.govt.nz/about-us/contact-us",
+   "resources": [
+    {
+     "id": "nz-1737",
+     "section": "help-now",
+     "name": "1737, Need to talk?",
+     "org": "Whakarongorau Aotearoa",
+     "what": "Free call or text any hour to talk with a trained counsellor, or with a peer support worker, about feeling down, anxious or overwhelmed.",
+     "how": "Call or text 1737.",
+     "phone": "1737",
+     "dial": "1737",
+     "text": "1737",
+     "url": "https://1737.org.nz/",
+     "sources": [
+      "https://healthpoint.co.nz/mental-health-addictions/mental-health/1737-need-to-talk/print",
+      "https://findahelpline.com/organizations/1737-need-to-talk"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "nz-disability-support-services",
+     "section": "start",
+     "name": "Disability Support Services",
+     "org": "Ministry of Social Development",
+     "what": "The government's disability support service, including needs assessment (through NASC), Enabling Good Lives, carer support, and equipment and modification services. Your first point of contact is usually your provider, your NASC or your Enabling Good Lives site.",
+     "how": "Call Monday, Tuesday, Thursday and Friday 8am to 5pm, Wednesday 9:30am to 5pm, or email info@disabilitysupport.govt.nz.",
+     "phone": "0800 566 601",
+     "dial": "0800566601",
+     "email": "info@disabilitysupport.govt.nz",
+     "url": "https://www.disabilitysupport.govt.nz/disabled-people/assessment-and-funding",
+     "sources": [
+      "https://www.disabilitysupport.govt.nz/about-us/contact-us",
+      "https://disabilitysupport.govt.nz/",
+      "https://www.disabilitysupport.govt.nz/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "nz-work-and-income",
+     "section": "money",
+     "name": "Work and Income: Disability Allowance and Supported Living Payment",
+     "org": "Work and Income (Ministry of Social Development)",
+     "what": "Disability Allowance is a weekly payment for regular, ongoing costs because of a disability; you do not have to be on a benefit to get it. Supported Living Payment is for people permanently and severely restricted in their ability to work because of a health condition, injury or disability, or who are totally blind.",
+     "how": "Call Monday to Friday 7am to 6pm, or Saturday 8am to 1pm. A health practitioner fills in a medical certificate for either payment.",
+     "phone": "0800 559 009",
+     "dial": "0800559009",
+     "url": "https://www.workandincome.govt.nz/",
+     "sources": [
+      "https://www.workandincome.govt.nz/documents/about-this-site/alternate-formats/plain-language-disability-allowance.docx",
+      "https://www.workandincome.govt.nz/documents/about-this-site/alternate-formats/plain-language-supported-living-payment.docx"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "nz-human-rights-commission",
+     "section": "rights",
+     "name": "Te Kāhui Tika Tangata Human Rights Commission",
+     "org": "Human Rights Commission",
+     "what": "A free, confidential information and dispute resolution service for discrimination complaints, including disability discrimination under the Human Rights Act 1993.",
+     "how": "Call the InfoLine or use the online form on the Commission's website.",
+     "phone": "0800 496 877",
+     "dial": "0800496877",
+     "url": "https://tikatangata.org.nz/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://tikatangata.org.nz/cms/assets/Documents/Questions-and-Complaints-Booklets/TKTT-HRC-Complaints-Booklet-2024-Digital-FINAL.pdf",
+      "https://ageconcerncan.org.nz/listings/human-rights-commission"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "PH",
+   "slug": "philippines",
+   "name": "Philippines",
+   "emergency": {
+    "number": "911",
+    "label": "Police, fire, medical and rescue",
+    "source": "https://newsinfo.inquirer.net/996682/eo-makes-911-countrys-emergency-hotline-number"
+   },
+   "resources": [
+    {
+     "id": "ph-ncmh",
+     "section": "help-now",
+     "name": "NCMH Crisis Hotline",
+     "org": "National Center for Mental Health",
+     "what": "The government's mental health crisis line, open any hour, for anyone in emotional distress or thinking about suicide.",
+     "how": "Dial 1553 toll-free from a landline. From a mobile, call 0919 057 1553 (Smart/TNT) or 0917 899 8727 (Globe/TM).",
+     "phone": "1553",
+     "dial": "1553",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://thelance.letran.edu.ph/Home/ReadMore/6374",
+      "https://www.who.int/philippines/news/detail/10-09-2020-doh-and-who-promote-holistic-mental-health-wellness-in-light-of-world-suicide-prevention-day"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ph-pwd-id",
+     "section": "start",
+     "name": "PWD ID card",
+     "org": "Your city or municipality (PDAO), with the National Council on Disability Affairs",
+     "what": "The identification card for persons with disability. Under Republic Act 10754 it gives at least a 20% discount and VAT exemption on many goods and services, such as medicines and medical and dental services. It is registered in the Philippine Registry for Persons with Disabilities.",
+     "how": "Apply at the Persons with Disability Affairs Office (PDAO) or the social welfare office of your city or municipality, with the application form and a certificate of disability from a doctor where the disability is not apparent. To report a fake PWD ID, email NCDA.",
+     "email": "council@ncda.gov.ph",
+     "url": "https://ncda.gov.ph/disability-laws/implementing-rules-and-regulations-irr/irr-of-ra-10754-an-act-expanding-the-benefits-and-privileges-of-persons-with-disability-pwd/",
+     "sources": [
+      "https://ncda.gov.ph/disability-laws/implementing-rules-and-regulations-irr/irr-of-ra-10754-an-act-expanding-the-benefits-and-privileges-of-persons-with-disability-pwd/",
+      "https://ncda.gov.ph/2009/07/16/apply-fo-pwd-id-card/",
+      "https://dswd.gov.ph/?p=83794",
+      "https://ncda.gov.ph/wp-content/uploads/2024/04/NCDA-CITIZENS-CHARTER-2024-HANDBOOK-ARTA-31MAR2024.pdf"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "ZA",
+   "slug": "south-africa",
+   "name": "South Africa",
+   "emergency": {
+    "number": "10111",
+    "label": "Police. From a cellphone, 112. Ambulance, 10177",
+    "source": "https://www.westerncape.gov.za/local-government/know-who-you-can-call-emergency"
+   },
+   "resources": [
+    {
+     "id": "za-sadag",
+     "section": "help-now",
+     "name": "Suicide Crisis Helpline",
+     "org": "South African Depression and Anxiety Group",
+     "what": "A toll-free crisis line, open any hour, for anyone thinking about suicide or worried about someone.",
+     "how": "Call toll-free from any network.",
+     "phone": "0800 567 567",
+     "dial": "0800567567",
+     "url": "https://www.sadag.org/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.ewn.co.za/2025/09/10/what-it-takes-to-be-at-the-coalface-of-a-suicide-crisis-helpline",
+      "https://www.citizen.co.za/business/mental-health-support-group-in-south-africa-spends-r150k-per-month-on-suicide-helpline/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "za-sassa-disability-grant",
+     "section": "money",
+     "name": "Disability Grant",
+     "org": "South African Social Security Agency (SASSA)",
+     "what": "A monthly grant if a physical or mental disability makes you unfit to work for more than six months. It is temporary (6 to 12 months) or permanent, depending on a medical assessment by a SASSA doctor. A caregiver of a child under 18 who needs permanent care can apply for the Care Dependency Grant instead.",
+     "how": "Apply in person at your nearest SASSA office; the form is not online. Bring your ID and any medical reports. Applying is free. Email: GrantEnquiries@sassa.gov.za.",
+     "phone": "0800 60 10 11",
+     "dial": "0800601011",
+     "email": "GrantEnquiries@sassa.gov.za",
+     "url": "https://www.gov.za/services/social-benefits/disability-grant",
+     "sources": [
+      "https://www.gov.za/services/social-benefits/disability-grant",
+      "https://www.sanews.gov.za/south-africa/disability-grant-applicants-can-lodge-appeal-sassa",
+      "https://help.unhcr.org/southafrica/get-help/disability/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "za-sahrc",
+     "section": "rights",
+     "name": "South African Human Rights Commission",
+     "org": "South African Human Rights Commission",
+     "what": "Takes complaints about human rights violations, including against people with disabilities, which is one of its focus areas. Complaining is free, and there are offices in all nine provinces.",
+     "how": "Use the online complaint form, email complaints@sahrc.org.za, call the head office, or visit a provincial office.",
+     "phone": "011 877 3600",
+     "dial": "0118773600",
+     "email": "complaints@sahrc.org.za",
+     "url": "https://www.sahrc.org.za/",
+     "sources": [
+      "https://sahrc.org.za/index.php/contact-details",
+      "https://www.sahrc.org.za/home/21/files/Complaints%20Handling%20Procedures%20-%20SAHRC%20-%20Public%20-%201%20January%202018.pdf",
+      "https://sahrc.org.za/index.php/focus-areas/disability-older-persons/disability"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "GB",
+   "slug": "united-kingdom",
+   "name": "United Kingdom",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and ambulance",
+    "source": "https://nationaldahelpline.org.uk"
+   },
+   "relay": "Deaf, hard of hearing or speech disability: with Relay UK, dial 18001 and then the number you need.",
+   "relay_source": "https://www.gov.uk/pip/how-to-claim",
+   "resources": [
+    {
+     "id": "gb-samaritans",
+     "section": "help-now",
+     "name": "Samaritans",
+     "org": "Samaritans",
+     "what": "Someone to talk to, free, any time of day or night, from any phone. You do not have to be suicidal to call.",
+     "how": "Call 116 123.",
+     "phone": "116 123",
+     "dial": "116123",
+     "url": "https://www.samaritans.org/",
+     "sources": [
+      "https://www.samaritans.org/how-we-can-help-you/contact",
+      "https://samaritans.org/how-we-can-help/contact-samaritan/talk-us-phone/"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "gb-pip",
+     "section": "money",
+     "name": "Personal Independence Payment (PIP)",
+     "org": "Department for Work and Pensions",
+     "what": "A tax-free benefit for people aged 16 or over who have not reached State Pension age, to help with the extra costs of long-term ill health or disability. Older people claim Attendance Allowance, and children under 16 get Disability Living Allowance.",
+     "how": "Start a claim by phone, Monday to Friday, 8am to 5pm, or online in some areas. Relay UK: 18001 then 0800 917 2222. From abroad: +44 191 218 7766. In Scotland, apply for Adult Disability Payment instead; Northern Ireland has its own claim line on nidirect.",
+     "phone": "0800 917 2222",
+     "dial": "08009172222",
+     "url": "https://www.gov.uk/pip/how-to-claim",
+     "sources": [
+      "https://www.gov.uk/pip/how-to-claim",
+      "https://www.gov.uk/financial-help-disabled/disability-and-sickness-benefits"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "gb-scotland-adp",
+     "section": "money",
+     "name": "Adult Disability Payment (Scotland)",
+     "org": "Social Security Scotland",
+     "what": "Scotland's benefit for disabled working-age adults, in place of PIP, to help with the extra costs of a disability or long-term health condition.",
+     "how": "Apply online at mygov.scot, or call free to apply by phone and paper form. British Sign Language users can call through Contact Scotland BSL.",
+     "phone": "0800 182 2222",
+     "dial": "08001822222",
+     "url": "https://www.mygov.scot/adult-disability-payment/how-to-apply",
+     "sources": [
+      "https://www.mygov.scot/adult-disability-payment/how-to-apply",
+      "https://www.socialsecurity.gov.scot/asset-storage/production/downloads/Adult-Disability-Payment-factsheet-Mar-2025.pdf"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "gb-disabled-facilities-grant",
+     "section": "equipment-home",
+     "name": "Disabled Facilities Grant",
+     "org": "Your local council",
+     "what": "A council grant toward changes to your home so you can keep living there. Up to £30,000 in England, £36,000 in Wales and £25,000 in Northern Ireland. Not available in Scotland. It usually depends on household income and savings, but disabled children under 18 can get one without their parents' income being counted.",
+     "how": "Apply to your council. Do not start the work before the council approves your application, or you might not get any grant.",
+     "url": "https://www.gov.uk/disabled-facilities-grants",
+     "sources": [
+      "https://www.gov.uk/disabled-facilities-grants",
+      "https://www.gov.uk/disabled-facilities-grants/what-youll-get"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "gb-blue-badge",
+     "section": "equipment-home",
+     "name": "Blue Badge parking",
+     "org": "Your local council",
+     "what": "Parking help for disabled people with severe walking difficulties who travel as drivers or passengers. A badge costs up to £10 in England and £20 in Scotland, is free in Wales, and usually lasts up to 3 years.",
+     "how": "Apply online; your council decides, usually within 12 weeks. Have a recent digital photo, proof of identity and address, and proof of any benefits ready. Northern Ireland has its own way to apply on nidirect.",
+     "url": "https://www.gov.uk/apply-blue-badge",
+     "sources": [
+      "https://www.gov.uk/apply-blue-badge",
+      "https://www.gov.uk/financial-help-disabled/vehicles-and-transport"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "gb-access-to-work",
+     "section": "work",
+     "name": "Access to Work",
+     "org": "Department for Work and Pensions",
+     "what": "Help to get or stay in work if you have a physical or mental health condition or disability. It can pay for specialist equipment, support workers, travel to work, vehicle adaptations, workplace changes, mental health support and communication support at job interviews.",
+     "how": "Check eligibility and apply on GOV.UK.",
+     "url": "https://www.gov.uk/access-to-work",
+     "sources": [
+      "https://www.gov.uk/access-to-work"
+     ],
+     "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "gb-eass",
+     "section": "rights",
+     "name": "Equality Advisory Support Service (EASS)",
+     "org": "Equality Advisory Support Service",
+     "what": "A free helpline on discrimination and your rights under the Equality Act 2010, for England, Scotland and Wales. It can explain the law, help you try to resolve the problem informally, and tell you about your options.",
+     "how": "Call Monday to Friday 9am to 7pm, or Saturday 10am to 2pm. Textphone: 0808 800 0084. There is also a contact form and BSL interpretation on the EASS website.",
+     "phone": "0808 800 0082",
+     "dial": "08088000082",
+     "url": "https://www.equalityadvisoryservice.com/",
+     "sources": [
+      "https://www.gov.uk/equality-advisory-support-service",
+      "https://www.equalityhumanrights.com/en/contact-us/equality-advisory-and-support-service",
+      "https://www.disabilityscot.org.uk/?p=25065",
+      "https://www.citizensadvice.org.uk/wales/law-and-courts/discrimination/check-if-youre-protected-from-discrimination/equality-advisory-support-service-discrimination-helpline/"
+     ],
+     "reviewed_on": "2026-11-19"
+    }
+   ]
+  }
+ ]
+}

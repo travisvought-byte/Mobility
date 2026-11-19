@@ -112,7 +112,7 @@ def apply(t, name, ads):
     ad = pick(ads, name)
     if not ad:
         return t
-    pre = '../' if name.startswith('states/') else ''
+    pre = '../' if name.startswith(('states/', 'countries/')) else ''
     end = t.find('</main>')
     foot = t.find('<footer', t.find('<main'))
     at = foot if 0 <= foot < end else end
