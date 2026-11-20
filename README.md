@@ -74,3 +74,15 @@ Data CC BY 4.0, code MIT. See `LICENSE`.
 The site may carry ads, kept apart from nonprofit sponsorship (owner direction, November 19, 2026). `partner.html#advertising` states who can advertise and the ground rules; `privacy.html#ads` says how ad networks may use cookies. The "No paid placement" and "No commissions" promises stand.
 
 Ads live in `data/ads.json`, which is empty by default; with no active ad, no page carries any ad markup. `scripts/ads.py` holds the rules and `scripts/finalize_pages.py` applies them: at most one ad on the home page and on each topic guide and state page (slots `home`, a topic page name, `state-<slug>`, `every-topic`, `every-state`), placed after the main content and never inside a list, card or help section, labeled "Advertisement", with `rel="sponsored noopener"`, and styled by `assets/ads.css`, which loads only when an ad shows. The directory, the printable help list, the Spanish page, the 404, about, partner and privacy pages never take an ad, and an ad aimed at any other slot stops the build. Start and end dates take effect when the pages are rebuilt, so rebuild after an ad starts or ends (the CI check flags pages that are out of date). `tests/ads.cjs` checks the privacy page, the partner section, that the empty file leaves no markup, and runs fixture ads through the builder without touching the pages.
+
+## Visual layer
+
+A visual pass (November 20, 2026) made the pages friendlier without changing any fact on them:
+
+- Small line icons, one per kind of help, drawn as inline SVG (`ICON_PATHS` and `icon()` in `scripts/site_parts.py`; no icon font or outside file). They sit on the home page's need grid (added by `scripts/finalize_pages.py`) and on each state page's group headings. Every icon is hidden from screen readers and sits beside words that say the same thing.
+- State pages open with one tile per group of programs: its icon, its name and how many listings the group shows below ("12 listed"), counted from the page itself.
+- On program cards, Call is a filled button and the website and email links are outlined buttons, each with a small icon drawn in `assets/site.css` (hidden in Windows high contrast mode). Every button is at least 44 pixels tall.
+- Dark mode follows the visitor's device setting (`assets/site.css`, `assets/disability-advocacy.css`, `assets/mobility-routes.css`, `assets/ads.css`), on screen only; printing stays black on white. The keyboard focus ring is darker in light mode so it stands out on the cream page.
+- Hover lifts and smooth scrolling stop when the visitor asks for reduced motion.
+
+`tests/visual.cjs` checks the icons, the tile counts against the listings and the dark colors; `tests/visual-browser.cjs` checks every visible line of text on 19 pages against WCAG AA contrast in light and dark mode, phone widths, the Call button, the focus ring and reduced motion.

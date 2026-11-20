@@ -17,3 +17,15 @@ input[type=text]{font:inherit;width:100%;min-height:48px;padding:12px;border:1px
 
 /* Reflow safety (WCAG 1.4.10, 1.4.12): an overlong word wraps instead of pushing the page sideways when text spacing is increased */
 body{overflow-wrap:break-word}
+
+/* Dark mode follows the visitor's device setting, matching the rest of the site (screen only; printing stays black on white) */
+:root{color-scheme:light dark}
+@media screen and (prefers-color-scheme:dark){
+:root{--paper:#10181d;--ink:#e3eaee;--line:#33454f}
+a{color:#8fcbe8}h2,.problem-grid strong{color:#dbe7ef}.eyebrow,.large-type{color:#a8dcc0}header .eyebrow,.featured-org .eyebrow{color:var(--gold)}
+.compose,.topic,.start-options a,.problem-grid>a{background:#1a252c}.problem-grid>a:hover{background:#203038}.notice{background:#203038}
+select,textarea,input[type=text]{background:#1a252c;color:var(--ink);border-color:#71848e}.small{color:#a7b6bd}.featured-org .small{color:#e2eaed}
+.secondary{background:#2b5372}.skip{background:#1a252c;color:var(--ink)}
+a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline-color:#e7cc88}
+.featured-org{box-shadow:0 0 0 1px #33454f}
+}
