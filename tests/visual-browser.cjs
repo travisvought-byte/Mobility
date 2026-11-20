@@ -2,7 +2,7 @@
 // phones never scroll sideways, the jump tiles and contact buttons render as buttons, and reduced motion turns transitions off.
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),http=require('node:http');
 const {chromium}=require('playwright');
-const PAGES=['index.html','states/ohio.html','states/guam.html','states/index.html','local-help.html?state=OH','know-your-rights.html','espanol.html','blind-low-vision.html','service-animals.html',
+const PAGES=['index.html','states/ohio.html','states/guam.html','states/index.html','local-help.html?state=OH','know-your-rights.html','espanol.html','blind-low-vision.html','service-animals.html','caregiver-respite.html',
  'ramps-home-access.html','mobility-independence.html','mobility-rights.html?state=OH','disability-advocacy.html','partner.html','about.html','privacy.html','handout.html?state=OH','world.html','countries/canada.html'];
 (async()=>{
  const root=path.resolve(__dirname,'..');const TYPES={'.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg'};

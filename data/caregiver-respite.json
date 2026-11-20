@@ -1,0 +1,123 @@
+{
+ "note": "Caregiver and respite help, national. Every statement names the official page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). Hours and other details the source page did not show are left out. General information, not medical or legal advice.",
+ "checked_on": "2026-11-20",
+ "checked_label": "November 20, 2026",
+ "sources": {
+  "va-csp-home": {"title": "VA Caregiver Support Program", "publisher": "U.S. Department of Veterans Affairs", "url": "https://www.caregiver.va.gov/", "page_date": "page last updated November 13, 2026", "checked": "2026-11-20"},
+  "va-csl": {"title": "Caregiver Support Line (CSL)", "publisher": "U.S. Department of Veterans Affairs, Caregiver Support Program", "url": "https://www.caregiver.va.gov/help_landing.asp", "page_date": "page last updated July 2, 2026", "checked": "2026-11-20"},
+  "va-pgcss": {"title": "Program of General Caregiver Support Services (PGCSS)", "publisher": "U.S. Department of Veterans Affairs, Caregiver Support Program", "url": "https://www.caregiver.va.gov/care_caregivers.asp", "page_date": "page last updated September 14, 2026", "checked": "2026-11-20"},
+  "va-pcafc": {"title": "The Program of Comprehensive Assistance for Family Caregivers", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/", "page_date": "page last updated November 10, 2026", "checked": "2026-11-20"},
+  "va-pcafc-csp": {"title": "Program of Comprehensive Assistance for Family Caregivers (PCAFC)", "publisher": "U.S. Department of Veterans Affairs, Caregiver Support Program", "url": "https://www.caregiver.va.gov/support/support_benefits.asp", "page_date": "page last updated October 9, 2026", "checked": "2026-11-20"},
+  "va-1010cg": {"title": "VA Form 10-10CG: Application for Comprehensive Assistance for Family Caregivers Program", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/forms/10-10cg/", "page_date": "page last updated November 4, 2026", "checked": "2026-11-20"},
+  "va-csp-teams": {"title": "Caregiver support teams", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/resources/caregiver-support-teams/", "page_date": "page last updated July 9, 2025", "checked": "2026-11-20"},
+  "va-respite-gec": {"title": "Respite Care", "publisher": "U.S. Department of Veterans Affairs, Geriatrics and Extended Care", "url": "https://www.va.gov/geriatrics/pages/Respite_Care.asp", "page_date": "page last updated September 3, 2026", "checked": "2026-11-20"},
+  "va-respite-csp": {"title": "Respite Care", "publisher": "U.S. Department of Veterans Affairs, Caregiver Support Program", "url": "https://www.caregiver.va.gov/support/Respite.asp", "page_date": "page last updated July 7, 2026", "checked": "2026-11-20"},
+  "va-vdc": {"title": "Veteran-Directed Care", "publisher": "U.S. Department of Veterans Affairs, Geriatrics and Extended Care", "url": "https://www.va.gov/geriatrics/pages/Veteran-Directed_Care.asp", "page_date": "page last updated March 6, 2026", "checked": "2026-11-20"},
+  "eldercare-home": {"title": "Eldercare Locator", "publisher": "Administration for Community Living", "url": "https://eldercare.acl.gov/home", "page_date": "no date shown on the page", "checked": "2026-11-20"},
+  "acl-aaa": {"title": "Area Agencies on Aging", "publisher": "Administration for Community Living", "url": "https://acl.gov/programs/aging-and-disability-networks/area-agencies-aging", "page_date": "page last modified August 12, 2024", "checked": "2026-11-20"},
+  "acl-nfcsp": {"title": "National Family Caregiver Support Program", "publisher": "Administration for Community Living", "url": "https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program", "page_date": "page last modified March 18, 2026", "checked": "2026-11-20"},
+  "arch-locator": {"title": "Find a Respite Provider (ARCH National Respite Locator)", "publisher": "ARCH National Respite Network and Resource Center", "url": "https://archrespite.org/caregiver-resources/respitelocator/", "page_date": "no date shown on the page", "checked": "2026-11-20"},
+  "medicaid-1915c": {"title": "Home & Community-Based Services 1915(c)", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/home-community-based-services-1915c", "page_date": "no date shown on the page", "checked": "2026-11-20"},
+  "medicaid-authorities": {"title": "Home & Community Based Services Authorities", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities", "page_date": "no date shown on the page", "checked": "2026-11-20"},
+  "medicaid-self-directed": {"title": "Self-Directed Services", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/long-term-services-supports/self-directed-services", "page_date": "no date shown on the page", "checked": "2026-11-20"},
+  "medicaid-1915j": {"title": "Self-Directed Personal Assistant Services 1915(j)", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/self-directed-personal-assistant-services-1915-j", "page_date": "no date shown on the page", "checked": "2026-11-20"},
+  "usagov-caregiver": {"title": "Get paid as a caregiver for a family member", "publisher": "USAGov", "url": "https://www.usa.gov/disability-caregiver", "page_date": "page last updated November 17, 2025", "checked": "2026-11-20"}
+ },
+ "sections": [
+  {"id": "respite", "title": "Respite care: finding a break", "icon": "daily_living",
+   "lead": "Respite means someone else gives care for a while so you can take a break.",
+   "points": [
+    {"text": "Respite is a period of rest or a break from caregiving. It can last a few hours or a few days.", "src": ["va-respite-csp"]},
+    {"text": "Paid respite can happen at home (a worker comes to you), at an adult day program, or as a short stay in a nursing home.", "src": ["va-respite-gec", "va-respite-csp"]},
+    {"text": "If your state has a State Respite Coalition or a Lifespan Respite program, ARCH says to contact it first. It can tell you about respite providers and ways to pay for respite.", "src": ["arch-locator"]},
+    {"text": "ARCH does not give respite care itself, and a listing in its locator is not an endorsement. ARCH does not check providers’ backgrounds, references or experience, so check any provider before you hire them.", "src": ["arch-locator"]}
+   ],
+   "cards": [
+    {"id": "arch-locator-card", "name": "ARCH National Respite Locator", "org": "ARCH National Respite Network and Resource Center",
+     "text": "A free search that helps parents, family caregivers and professionals find respite services in their state and local area. It lists mainly home care agencies, assisted living, and state or community agencies. It is not a complete list of every respite program.",
+     "next": "Search the locator for your state, or look for your state’s respite coalition or Lifespan Respite program on the same page.",
+     "record": "us-arch-respite-locator", "phone": "703-256-2084", "phone_on_source": "703.256.2084", "phone_label": "ARCH office", "phone_src": "arch-locator",
+     "links": [{"label": "Search the Respite Locator", "href": "https://archrespite.org/caregiver-resources/respitelocator/"}],
+     "src": ["arch-locator"]}
+   ]},
+  {"id": "aging", "title": "Eldercare Locator and Area Agencies on Aging", "icon": "navigation",
+   "lead": "One call or one website visit can connect you to caregiver help near you.",
+   "points": [
+    {"text": "An Area Agency on Aging is a public or private nonprofit agency that a state names to serve older people in one area: a city, a county or several counties. Local names vary.", "src": ["acl-aaa"]},
+    {"text": "Through the National Family Caregiver Support Program, the federal government gives grants to states and territories to help family members and other unpaid caregivers.", "src": ["acl-nfcsp"]},
+    {"text": "That program pays for five kinds of help: information about services, help getting those services, counseling, support groups and caregiver training, respite care, and some extra services on a limited basis.", "src": ["acl-nfcsp"]},
+    {"text": "It serves people caring for someone 60 or older; people caring for someone of any age with Alzheimer’s disease or a related disorder; relatives 55 or older (not parents) raising a child under 18; and relatives 55 or older, parents included, caring for an adult aged 18 to 59 with a disability.", "src": ["acl-nfcsp"]},
+    {"text": "The Eldercare Locator connects you to your local and state Area Agencies on Aging and to community groups that support older adults and caregivers.", "src": ["acl-nfcsp", "acl-aaa"]}
+   ],
+   "cards": [
+    {"id": "eldercare-card", "name": "Eldercare Locator", "org": "Administration for Community Living",
+     "text": "A free public service of the Administration for Community Living that connects older adults and their families to services. Call or text trained staff, chat online on the website, or send an email.",
+     "next": "Give your ZIP code or your city and state, and ask for your Area Agency on Aging and its family caregiver support and respite services.",
+     "record": "us-eldercare-locator", "phone": "1-800-677-1116", "phone_on_source": "1-800-677-1116", "phone_label": "Call or text", "phone_src": "eldercare-home",
+     "email": "eldercarelocator@usaging.org",
+     "links": [{"label": "Eldercare Locator website", "href": "https://eldercare.acl.gov/home"}],
+     "src": ["eldercare-home", "acl-aaa"]}
+   ]},
+  {"id": "va", "title": "VA help for people caring for a veteran", "icon": "veterans",
+   "lead": "VA’s Caregiver Support Program has two programs: the Program of General Caregiver Support Services (PGCSS) and the Program of Comprehensive Assistance for Family Caregivers (PCAFC). PCAFC has stricter rules.",
+   "lead_src": ["va-csp-home"],
+   "points": [],
+   "cards": [
+    {"id": "va-csl-card", "name": "VA Caregiver Support Line", "org": "U.S. Department of Veterans Affairs",
+     "text": "For caregivers, family members, friends, veterans and community partners. Staff share information about support services, give short-term counseling to help with stress and burnout, and can refer you to the Caregiver Support Program team at your local VA.",
+     "next": "Call if you are not sure which VA program fits, or to reach your local VA caregiver team.",
+     "phone": "1-855-260-3274", "phone_on_source": "1-855-260-3274", "phone_label": "Monday to Friday, 8 a.m. to 8 p.m. Eastern. TTY: 711", "phone_src": "va-csp-home",
+     "links": [{"label": "About the Caregiver Support Line", "href": "https://www.caregiver.va.gov/help_landing.asp"}],
+     "src": ["va-csl", "va-csp-home", "va-pcafc"]},
+    {"id": "pgcss-card", "name": "Program of General Caregiver Support Services (PGCSS)", "org": "VA Caregiver Support Program",
+     "text": "For caregivers of veterans of any era who are enrolled in VA health care. The veteran needs help with one or more activities of daily living, or needs supervision or protection because of a neurological or other impairment or injury. You do not have to be related to the veteran or live with them. It offers skills training, online and mobile support, one-to-one coaching, group support, peer support mentoring, and resources and referrals.",
+     "next": "There is no formal application. Contact the Caregiver Support Program team at the veteran’s VA facility, or ask the veteran’s VA provider for a referral. You complete an intake, and the veteran must agree to list you as their caregiver in their health record.",
+     "links": [{"label": "About PGCSS", "href": "https://www.caregiver.va.gov/care_caregivers.asp"}, {"label": "Find your VA caregiver support team", "href": "https://www.va.gov/resources/caregiver-support-teams/"}],
+     "src": ["va-pgcss", "va-csp-home", "va-csp-teams"]},
+    {"id": "pcafc-card", "name": "Program of Comprehensive Assistance for Family Caregivers (PCAFC)", "org": "VA Caregiver Support Program",
+     "text": "For family caregivers of veterans who had a serious injury or illness incurred or made worse in the line of duty, in any era. The veteran must have a VA disability rating of 70% or higher, be discharged (or have a date of medical discharge), be enrolled in VA health care, and need at least 6 months of continuous, in-person personal care. The caregiver must be at least 18 and be a family member, or live full time with the veteran (or be willing to). A veteran can name 1 primary and up to 2 secondary caregivers.",
+     "more": "All approved caregivers can get education and training, mental health counseling, and certain travel benefits. Primary caregivers may also get a monthly stipend, CHAMPVA health coverage if they have no other health plan, legal and financial planning help, and at least 30 days of respite care a year.",
+     "next": "The veteran and caregiver apply together on VA Form 10-10CG: online, by mail, or in person with the caregiver support team at the nearest VA medical center. VA says not to send medical records with the application.",
+     "links": [{"label": "About PCAFC on VA.gov", "href": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/"}, {"label": "VA Form 10-10CG", "href": "https://www.va.gov/forms/10-10cg/"}],
+     "src": ["va-pcafc", "va-pcafc-csp", "va-1010cg"]},
+    {"id": "va-respite-card", "name": "VA respite care for veterans", "org": "VA Geriatrics and Extended Care",
+     "text": "VA pays for care for a short time when a family caregiver needs a break: a worker comes to the home, the veteran goes to an adult day health care program, or the veteran has a short stay in a VA Community Living Center or a community nursing home. All enrolled veterans are eligible if they meet the clinical criteria and the service is available. A copay may be charged, based on service-connected disability status and financial information.",
+     "next": "Ask the veteran’s VA social worker or case manager to help complete the Application for Extended Care Benefits (VA Form 10-10EC).",
+     "links": [{"label": "About VA respite care", "href": "https://www.va.gov/geriatrics/pages/Respite_Care.asp"}],
+     "src": ["va-respite-gec"]}
+   ]},
+  {"id": "medicaid", "title": "Medicaid home and community-based services", "icon": "benefits",
+   "lead": "Medicaid can pay for care at home in many states. Each state runs its own programs, so the answer comes from your state.",
+   "points": [
+    {"text": "Medicaid home and community-based services (HCBS) waivers serve people who want long-term care at home or in the community instead of in an institution.", "src": ["medicaid-1915c"]},
+    {"text": "Forty-seven states and D.C. run at least one of these waivers, called 1915(c) waivers.", "src": ["medicaid-authorities"]},
+    {"text": "Each state chooses who its waivers serve. Medicaid.gov names older adults, children who depend on medical technology, people with behavioral conditions and people with intellectual disabilities. A waiver can also be aimed at an age group or a diagnosis, such as autism, epilepsy, cerebral palsy, traumatic brain injury or HIV/AIDS.", "src": ["medicaid-1915c"]},
+    {"text": "Services a waiver can cover include personal care, adult day health services, habilitation and respite care.", "src": ["medicaid-1915c"]},
+    {"text": "Each state chooses the most people a waiver will serve, so ask whether there is a wait.", "src": ["medicaid-1915c"]},
+    {"text": "To learn what your state offers and how to apply, contact your state Medicaid office.", "src": ["usagov-caregiver"]}
+   ],
+   "after": "<p>Your state’s Medicaid agency is listed on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?category=benefits\">Benefits and health coverage</a> in the directory.</p>"},
+  {"id": "paid", "title": "Getting paid to care for a family member", "icon": "funding",
+   "lead": "Some programs pay a family member or friend to give care. Who can be paid, and how much, depends on the program and the state.",
+   "points": [
+    {"text": "Medicaid: if the person already gets Medicaid, their state may let a family member or friend become a paid caregiver, often through a consumer-directed personal assistance program. Requirements and pay vary by state.", "src": ["usagov-caregiver"]},
+    {"text": "In Medicaid self-directed services, the person getting care (or their representative) can have the authority to recruit, hire, train and supervise the people who give their care.", "src": ["medicaid-self-directed"]},
+    {"text": "Under one Medicaid option for self-directed personal assistance, a state may choose to let people hire legally liable relatives, such as parents or spouses.", "src": ["medicaid-1915j"]},
+    {"text": "VA: primary caregivers in the comprehensive caregiver program (PCAFC) may get a monthly stipend. See the VA section above.", "src": ["va-pcafc"]},
+    {"text": "VA: Veteran-Directed Care gives a veteran a budget for home and community-based services. With a counselor, the veteran hires their own workers, which might include a family member or neighbor. Enrolled veterans can get it if they are eligible for community care, meet the clinical criteria and it is offered where they live. Ask the veteran’s VA social worker.", "src": ["va-vdc"]},
+    {"text": "VA: Aid and Attendance adds monthly payments to a VA pension for veterans and survivors who qualify, which can help pay for a caregiver.", "src": ["usagov-caregiver"]},
+    {"text": "Long-term care insurance: some policies let family members be paid as caregivers. Ask the insurance agent to confirm the benefits in writing.", "src": ["usagov-caregiver"]},
+    {"text": "Paid family leave: some states have programs that pay you to take time off work to care for a family member. Ask your state labor office.", "src": ["usagov-caregiver"]}
+   ]},
+  {"id": "self-care", "title": "Taking care of yourself", "icon": "peer_support",
+   "lead": "Caregivers need support too. These are free places to start.",
+   "points": [
+    {"text": "VA describes three kinds of respite: self-guided, informal and formal. Formal respite is short-term paid help from a professional.", "src": ["va-respite-csp"]},
+    {"text": "Caregivers of veterans can call the VA Caregiver Support Line for short-term counseling to help with stress and burnout and to learn coping skills.", "src": ["va-csl"]},
+    {"text": "PGCSS offers peer support mentoring, group support and one-to-one coaching for caregivers of veterans.", "src": ["va-pgcss"]},
+    {"text": "The National Family Caregiver Support Program pays for counseling, support groups and caregiver training. The Eldercare Locator can help you find them near you.", "src": ["acl-nfcsp"]},
+    {"text": "If you are a veteran, or you care for one, and you are in crisis: call 988 and press 1, or text 838255, to reach the Veterans Crisis Line.", "src": ["va-respite-csp"]}
+   ],
+   "after": "<p>Also on this site: <a href=\"local-help.html?category=peer_support\">Support groups and helplines</a> · <a href=\"local-help.html?category=daily_living\">In-home help in your state</a></p>"}
+ ]
+}

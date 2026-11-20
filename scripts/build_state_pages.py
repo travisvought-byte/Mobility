@@ -98,6 +98,7 @@ def state_page(code,name,recs,national):
         if l:
             s+=f'<h3>County and regional programs ({len(l)})</h3><ul class="statelist">'+''.join(local_li(r) for r in l)+'</ul>'
         if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a> · <a href="../service-animals.html">Service animals: your rights and where to get a trained dog</a></p>'
+        if k=='daily_living':s+='<p class="meta">Caring for a family member or a veteran? Respite, VA caregiver programs and paid family care: <a href="../caregiver-respite.html">Caregiver and respite help</a></p>'
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
         secs.append(s+'</section>')
         counts.append((k,len(w)+len(l)))
@@ -113,12 +114,12 @@ def state_page(code,name,recs,national):
         intro=f'<p>{n} programs and agencies listed for {E(place)} so far, plus national lines. Each lists how to reach it and links to its own page.</p>'
         actions=(f'<div class="actions"><a class="button" href="../local-help.html?state={code}">Filter by need</a><a class="button secondary" href="../handout.html?state={code}">Print a help list</a><a class="button secondary" href="../know-your-rights.html">Know your rights</a></div>'
           f'<p class="meta">This list covers the main public agencies for {E(place)}; fewer community programs are listed than for the states. The federal <a href="https://dial.acl.gov/home" rel="noopener" target="_blank">DIAL database (new tab)</a> lists the Centers for Independent Living, assistive technology program, developmental disabilities council and Protection and Advocacy agency in each territory.</p>')
-        everywhere=f'<section class="panel"><h2>National lines</h2><p>These lines serve the whole country. Ask each one whether it serves {E(place)}.</p><ul class="statelist">{nat}</ul></section>'
+        everywhere=f'<section class="panel"><h2>National lines</h2><p>These lines serve the whole country. Ask each one whether it serves {E(place)}.</p><ul class="statelist">{nat}</ul>'+CARE+'</section>'
     else:
         intro=(f'<p>{n} programs and agencies in {E(name)}: {len(wide)} that serve the whole state and {len(local)} that serve specific counties'+(f' across {len(counties)} counties' if counties else '')+'. Each lists how to reach it and links to its own page. Start with the group that matches what you need.</p>')
         actions=(f'<div class="actions"><a class="button" href="../local-help.html?state={code}">Filter by county or need</a><a class="button secondary" href="../handout.html?state={code}">Print a help list</a><a class="button secondary" href="../mobility-rights.html?state={code}">Find your next step</a><a class="button secondary" href="../know-your-rights.html">Know your rights</a><a class="button secondary" href="../disability-advocacy.html?state={code}">Advocacy letters</a></div>'
           f'<p class="meta">Looking for nursing-home, aging or veterans benefits help in {E(name)}? Use the <a href="https://guide.vethomeguard.org/{guide_page}">Veteran Resource Guide for {E(name)}</a>.</p>')
-        everywhere=f'<section class="panel"><h2>Available in every state</h2><p>These national lines help wherever you live, including {E(name)}.</p><ul class="statelist">{nat}</ul></section>'
+        everywhere=f'<section class="panel"><h2>Available in every state</h2><p>These national lines help wherever you live, including {E(name)}.</p><ul class="statelist">{nat}</ul>'+CARE+'</section>'
     body=(f'<header>{NAV}<small>{E(name.upper())} · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources in {E(place)}</h1>{intro}</header>\n'
       f'<main id="main">{urgent}<section class="panel">{actions}{RELAY}</section>'
       f'<nav class="toc tiles" aria-label="Jump to a group of programs">{toc}</nav>'
@@ -126,6 +127,7 @@ def state_page(code,name,recs,national):
       +(extra and '<!--luul-->'+up(extra)+'<!--/luul-->')+'<!--mif-->'+MIF+'<!--/mif-->'
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: "+name)}">Tell us</a> and it will be checked against the program’s own page.</p></section></main>{FOOT}</body></html>')
     return path,head(f'Disability and mobility resources in {place}',desc,path)+body,n
+CARE='<p class="meta" id="caregiver-link">Caring for a family member or a veteran? <a href="../caregiver-respite.html">Caregiver and respite help</a>: finding a break, VA caregiver programs, Medicaid home care and paid family care.</p>'
 def index_page(rows,trows):
     li=lambda rs:''.join(f'<li><a href="{slug(nm)}.html">{E(nm)}</a> <span class="meta">{n} programs</span></li>' for code,nm,n in rs)
     desc='Disability and mobility resources for every U.S. state, D.C. and the U.S. territories: benefits, equipment, ramps, rides, in-home help, work, vision and hearing services, rights and legal help, and developmental disability agencies.'
