@@ -88,9 +88,12 @@ SUB=('states/','countries/')
 COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobilitytalk.org"+location.pathname},'
          'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
          '<script data-goatcounter="https://travisvought.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
+# Site icon for browser tabs, bookmarks and search results (the 404 page uses root paths; it is served at any depth).
+def icon(pre):return f'<!--icon--><link rel="icon" href="{pre}favicon.svg" type="image/svg+xml"><link rel="icon" href="{pre}favicon.ico" sizes="48x48"><link rel="apple-touch-icon" href="{pre}apple-touch-icon.png"><!--/icon-->'
 AD_LIST=ADS.load()
 for name in ALL+['404.html']:
     p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
+    t=re.sub(r'<!--icon-->.*?<!--/icon-->','',t,flags=re.S)
     # Phones: the main menu folds behind a Menu button, with Español left showing. The class is set in the head so the
     # page does not jump; without JavaScript, or on pages without the shared stylesheet, the full menu shows as before.
     t=unnav(t)
@@ -109,7 +112,7 @@ for name in ALL+['404.html']:
     # advertising: only where data/ads.json has an active ad for this page's slot; otherwise nothing is written
     t=ADS.apply(t,name,AD_LIST)
     assert t.count('</head>')==1,name
-    p.write_text(t.replace('</head>',COUNTER+'</head>',1))
+    p.write_text(t.replace('</head>',icon(pre)+COUNTER+'</head>',1))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
 print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages,',len(COUNTRY_PAGES),'country pages, sitemap.xml and robots.txt.')

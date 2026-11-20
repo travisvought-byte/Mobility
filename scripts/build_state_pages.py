@@ -104,6 +104,8 @@ def state_page(code,name,recs,national):
     nat=''.join(f'<li><strong>{E(r["name"])}</strong> · '+' · '.join(contact(r,True))+'</li>' for r in national if r.get('phone'))
     extra=LUUL.replace('ALSO FEATURED &middot; WASHINGTON','FEATURED IN WASHINGTON',1) if code=='WA' else ''
     gcode=code.lower()
+    # Ohio is the guide's home page; there is no oh.html.
+    guide_page='?state=OH' if code=='OH' else f'{gcode}.html'
     urgent=up(URGENT).replace('local-help.html?category=crisis',f'local-help.html?state={code}&amp;category=crisis')
     if terr:
         intro=f'<p>{n} programs and agencies listed for {E(place)} so far, plus national lines. Each lists how to reach it and links to its own page.</p>'
@@ -113,7 +115,7 @@ def state_page(code,name,recs,national):
     else:
         intro=(f'<p>{n} programs and agencies in {E(name)}: {len(wide)} that serve the whole state and {len(local)} that serve specific counties'+(f' across {len(counties)} counties' if counties else '')+'. Each lists how to reach it and links to its own page. Start with the group that matches what you need.</p>')
         actions=(f'<div class="actions"><a class="button" href="../local-help.html?state={code}">Filter by county or need</a><a class="button secondary" href="../handout.html?state={code}">Print a help list</a><a class="button secondary" href="../mobility-rights.html?state={code}">Find your next step</a><a class="button secondary" href="../know-your-rights.html">Know your rights</a><a class="button secondary" href="../disability-advocacy.html?state={code}">Advocacy letters</a></div>'
-          f'<p class="meta">Looking for nursing-home, aging or veterans benefits help in {E(name)}? Use the <a href="https://guide.vethomeguard.org/{gcode}.html">Veteran Resource Guide for {E(name)}</a>.</p>')
+          f'<p class="meta">Looking for nursing-home, aging or veterans benefits help in {E(name)}? Use the <a href="https://guide.vethomeguard.org/{guide_page}">Veteran Resource Guide for {E(name)}</a>.</p>')
         everywhere=f'<section class="panel"><h2>Available in every state</h2><p>These national lines help wherever you live, including {E(name)}.</p><ul class="statelist">{nat}</ul></section>'
     body=(f'<header>{NAV}<small>{E(name.upper())} · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources in {E(place)}</h1>{intro}</header>\n'
       f'<main id="main">{urgent}<section class="panel">{actions}{RELAY}</section>'

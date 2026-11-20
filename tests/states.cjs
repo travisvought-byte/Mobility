@@ -44,7 +44,7 @@ for(const f of files){
  if(!terr)assert.equal(d.querySelectorAll('a[href^="tel:"]').length>=10,true,code+' phone links');
  for(const a of d.querySelectorAll('a[href^="tel:"]'))assert(/^tel:\+?\d{3,}/.test(a.getAttribute('href')),code+' bad tel '+a.getAttribute('href'));
  if(!terr){assert(d.querySelector('a[href="../handout.html?state='+code+'"]'),code+' handout link');
-  assert(d.querySelector('a[href="https://guide.vethomeguard.org/'+code.toLowerCase()+'.html"]'),code+' guide link');assert(d.querySelector('details.prep'),code+' before-you-call guide');}
+  assert(d.querySelector('a[href="https://guide.vethomeguard.org/'+(code==='OH'?'?state=OH':code.toLowerCase()+'.html')+'"]'),code+' guide link');assert(d.querySelector('details.prep'),code+' before-you-call guide');}
  else assert(d.querySelector('a[href="https://dial.acl.gov/home"]'),code+' points to the DIAL database');
  const luul=!!d.querySelector('.featured-org--also');if(code==='WA')waLuul=luul?1:0;else assert(!luul,code+' must not carry Light Upon Light');
  total+=mine.length;
