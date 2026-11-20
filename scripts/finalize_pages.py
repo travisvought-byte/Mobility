@@ -2,7 +2,7 @@
 """Add canonical and social tags and the visit counter to every page, and write sitemap.xml and robots.txt. Idempotent."""
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT
+from site_parts import URGENT,icon
 import ads as ADS
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
@@ -25,6 +25,15 @@ def unnav(t):
     """Take out the phone menu button and its scripts so the page can be rebuilt; finalize adds them back last."""
     t=re.sub(r'<!--navjs-->.*?<!--/navjs-->','',t,flags=re.S).replace(NAVBTN,'')
     return t.replace('<nav id="site-nav" aria-label="Main">','<nav aria-label="Main">')
+NEED_ICON={'know-your-rights.html':'rights_legal','states/index.html':'map_pin','espanol.html':'language'}
+def needgrid_icons(ul):
+    ul=re.sub(r'<svg class="ic".*?</svg>','',ul,flags=re.S)
+    def one(m):
+        href=html.unescape(m.group(2));cat=re.search(r'category=([a-z_]+)',href)
+        k=cat.group(1) if cat else NEED_ICON.get(href.split('?')[0])
+        assert k and icon(k),'home need grid link has no icon: '+href
+        return m.group(1)+icon(k)
+    return re.sub(r'(<li><a [^>]*href="([^"]+)"[^>]*>)',one,ul)
 def clean(s):return html.unescape(re.sub(r'\s+',' ',s)).strip()
 for name in PAGES:
     p=ROOT/name;t=unnav(p.read_text())
@@ -51,6 +60,8 @@ for name in PAGES:
     if name=='index.html':
         assert t.count('<aside class="urgent"')==1,name
         t=re.sub(r'<aside class="urgent".*?</aside>',lambda m:URGENT,t,count=1,flags=re.S)
+        # each need on the home grid gets the same small icon its group carries on the state pages
+        t=re.sub(r'<ul class="needgrid" id="needgrid">.*?</ul>',lambda m:needgrid_icons(m.group(0)),t,count=1,flags=re.S)
     if name in ('index.html','mobility-independence.html') and 'assets/site.css' not in t:
         t=t.replace('</head>','<link rel="stylesheet" href="assets/site.css"></head>',1)
     t=re.sub(r'<a href="states/index\.html"[^>]*>All states</a>','',t)

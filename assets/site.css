@@ -203,3 +203,62 @@ aside.urgent a[href^="tel:"],aside.urgent a[href^="sms:"],aside.emergency a[href
 .navtoggle{display:none}
 @media(max-width:600px){.navjs header nav .navtoggle{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin:0;padding:8px 18px;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.5);border-radius:10px;font:600 16px/1.2 system-ui,sans-serif;grid-column:1/-1}.navjs header nav:not(.open){display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0}.navjs header nav:not(.open) a:not([lang=es]){display:none}.navjs header nav:not(.open) a[lang=es]{background:transparent}.navjs header nav.open .navtoggle{justify-self:start}}
 @media print{.navtoggle{display:none!important}}
+
+/* Visual pass (November 20, 2026): icons, jump tiles, contact buttons, clearer focus. Every icon is decorative and sits
+   beside words that say the same thing; nothing is told by color or picture alone. Motion is covered by the reduced-motion rule above. */
+:root{--focus:#8a6416;--tint:#e8eeea;--card:#fff;--ink:#20313a;--muted:#52665c;--head:#183449;--icon-bg:#e8eeea;--icon:#335947;--i-phone:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 3.5h3.2l1.6 4.2-2.1 1.3a11 11 0 0 0 5.3 5.3l1.3-2.1 4.2 1.6V17a2.5 2.5 0 0 1-2.7 2.5A15.5 15.5 0 0 1 2.5 6.2 2.5 2.5 0 0 1 5 3.5z'/%3E%3C/svg%3E");--i-mail:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Cpath d='M3.5 6.5l8.5 6.5 8.5-6.5'/%3E%3C/svg%3E");--i-sms:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 5h16v11H9l-5 4z'/%3E%3Cpath d='M8 10.5h.01M12 10.5h.01M16 10.5h.01'/%3E%3C/svg%3E");--i-ext:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 4h6v6M20 4l-9 9M18 14v4.5c0 .8-.7 1.5-1.5 1.5h-11c-.8 0-1.5-.7-1.5-1.5v-11C4 6.7 4.7 6 5.5 6H10'/%3E%3C/svg%3E")}
+header,.featured-org,.give{--focus:#e7cc88}
+:is(a,button,input,select,textarea,summary,[tabindex],h2,.need,.tile):focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+svg.ic,svg.tic,svg.hic{display:block;flex:none;box-sizing:border-box;border-radius:12px;background:var(--icon-bg);color:var(--icon)}
+/* home: a small icon on each need */
+.needgrid a{display:grid;grid-template-columns:auto minmax(0,1fr);grid-auto-rows:auto;column-gap:12px;row-gap:2px;align-content:center;align-items:center}
+.needgrid a .ic{grid-column:1;grid-row:1/span 2;width:42px;height:42px;padding:9px}.needgrid a span{grid-column:2}
+.needgrid a.now .ic{background:#fbe9e6;color:#8a2a1f}
+/* state pages: one tile per group of programs, with its icon and how many are listed below */
+.toc.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,232px),1fr));gap:10px;margin:22px 0 30px}
+.toc.tiles a{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:12px;align-items:center;min-height:68px;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--head);font-size:16px;line-height:1.3;transition:transform .12s,box-shadow .12s,border-color .12s}
+.toc.tiles .tic{grid-row:1/span 2;width:42px;height:42px;padding:9px}.toc.tiles .tl{align-self:end;font-weight:700;overflow-wrap:anywhere}.toc.tiles .tn{align-self:start;font-weight:400;font-size:14px;color:var(--muted)}
+.toc.tiles a:hover,.toc.tiles a:focus-visible{background:var(--card);color:var(--head);border-color:var(--green);box-shadow:0 4px 12px rgba(24,52,73,.12);transform:translateY(-1px)}.toc.tiles a:hover .tl{text-decoration:underline;text-underline-offset:3px}
+h2.cat-h{display:flex;align-items:center;gap:14px}h2.cat-h .hic{width:46px;height:46px;padding:10px}
+/* program cards: Call, website and email as clear buttons with a small icon */
+.card .contact{gap:8px;margin-top:10px}
+.card .contact a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border:2px solid var(--green);border-radius:999px;background:var(--card);color:#2a4a3b;font-size:16px;line-height:1.25;text-decoration:none}
+.card .contact a[href^="tel:"]{background:var(--green);color:#fff}
+.card .contact a::before{content:"";flex:none;width:18px;height:18px;background:currentColor;-webkit-mask:var(--ci,var(--i-ext)) center/contain no-repeat;mask:var(--ci,var(--i-ext)) center/contain no-repeat}
+.card .contact a[href^="tel:"]{--ci:var(--i-phone)}.card .contact a[href^="mailto:"]{--ci:var(--i-mail)}.card .contact a[href^="sms:"]{--ci:var(--i-sms)}
+.card .contact a:hover{text-decoration:underline;text-underline-offset:3px;background:var(--tint)}.card .contact a[href^="tel:"]:hover{background:#2a4a3b}
+@media(max-width:600px){.needgrid a{grid-template-columns:minmax(0,1fr);row-gap:6px;align-content:start}.needgrid a .ic{grid-row:auto;width:32px;height:32px;padding:6px;border-radius:9px}.needgrid a span{grid-column:1}
+.toc.tiles{grid-template-columns:minmax(0,1fr);gap:6px}.toc.tiles a{grid-template-columns:auto minmax(0,1fr) auto;min-height:52px;padding:6px 12px;font-size:16px}.toc.tiles .tic{grid-row:auto;width:34px;height:34px;padding:7px}.toc.tiles .tl,.toc.tiles .tn{align-self:center}.toc.tiles .tn{white-space:nowrap}
+h2.cat-h{gap:10px}h2.cat-h .hic{width:40px;height:40px;padding:8px}.card .contact a{font-size:15px;padding:8px 14px}}
+@media(forced-colors:active){.card .contact a::before{display:none}svg.ic,svg.tic,svg.hic{background:none}}
+@media print{.toc.tiles{display:none}h2.cat-h .hic,.needgrid .ic{display:none}.card .contact a{border:0;padding:0;min-height:0;background:none;color:#000}.card .contact a::before{display:none}}
+/* Dark mode follows the visitor's device setting (screen only; printing stays black on white). Every pair of text and
+   background colors here meets WCAG AA; tests/visual.cjs checks the main ones. */
+:root{color-scheme:light dark}
+@media screen and (prefers-color-scheme:dark){
+:root{--paper:#10181d;--line:#33454f;--card:#1a252c;--tint:#203038;--ink:#e3eaee;--muted:#a7b6bd;--head:#dbe7ef;--focus:#e7cc88;--icon-bg:#22363a;--icon:#a8dcc0}
+body{background:var(--paper);color:var(--ink)}a{color:#8fcbe8}h2{color:var(--head)}
+article,.card,.draft,.prep,.rights-row,.statelist li,.sheet,.needgrid a,.guidegrid a,.whorow a,.reel-slide,.urgent,.emergency,.need{background:var(--card)}
+article,.card{box-shadow:none}article:hover{box-shadow:0 8px 20px rgba(0,0,0,.45)}
+.panel,.notice-ref{background:var(--tint)}
+textarea,select,input[type=search],input[type=text]{background:var(--card);color:var(--ink);border-color:#71848e}select:disabled{background:#1e2a30;color:#8a9aa2}
+.label,.cat-head p,.card .org,.card .meta,.prep .meta,.rights-row .meta,.tier .price span,.sheet-foot,footer,.needgrid a span,.guidegrid span{color:var(--muted)}
+.lead,.sheet-desc{color:#c9d5db}.eyebrow{color:#e7cc88}
+.prep summary,.prep h3,.prep h4,.rights-row dt,.tier .price,.sheet-h,.needgrid a,.guidegrid strong,.reel-slide figcaption{color:var(--head)}.guidegrid a{color:var(--ink)}
+.badge{background:#24383a;color:#b5e0c8}.badge.warn{background:#3b3018;color:#f1d48a}.badge.who{background:#22344a;color:#c5d8ef}
+.secondary{background:#2b5372}.secondary:hover{background:#346385}
+.urgent,.emergency{border-color:#d0645a}.urgent h2,.emergency h2,.rights-row .deadline{color:#f3b0a6}.urgent a,.emergency a{color:#8fcbe8}
+.needgrid a{border-left-color:#4f8a6c}.needgrid a.now{border-left-color:#d0645a}.needgrid a.now .ic{background:#3a2522;color:#f3b0a6}.guidegrid a{border-left-color:#3d6a8a}
+.need{color:#a8dcc0;border-color:#6aa486}.need:hover{background:var(--tint)}.need[aria-pressed=true]{background:#335947;color:#fff;border-color:#a8dcc0}.need:disabled{background:#1e2a30;color:#8a9aa2;border-color:#33454f}
+.whorow a{color:#a8dcc0;border-color:#71848e}.whorow a:hover,.whorow a:focus{background:#335947;color:#fff}
+.toc a{background:var(--tint);color:#a8dcc0}.toc a:hover,.toc a:focus{background:#335947;color:#fff}
+.toc.tiles a:hover,.toc.tiles a:focus-visible{box-shadow:0 4px 12px rgba(0,0,0,.45)}
+.card .contact a{color:#a8dcc0;border-color:#6aa486}.card .contact a[href^="tel:"]{background:#335947;color:#fff}.card .contact a[href^="tel:"]:hover{background:#3a7556}
+.skip{background:var(--card);color:var(--ink)}
+.co{stroke:#10181d}.co:focus-visible{stroke:#e7cc88}.sw{border-color:#71848e}
+.tile:hover{background:#2b5372}
+.featured-org{box-shadow:0 0 0 1px #33454f}
+/* the auction page sets its own colors after this file, so these carry the page root for priority */
+:root .bidbox{background:var(--card)}:root .lot figcaption,:root .bidform .note{color:var(--muted)}:root .facts dt{color:var(--head)}:root .high{color:#a8dcc0}:root .countdown{color:#e7cc88}:root .error{color:#f3b0a6}
+:root .bidform input{background:var(--card);color:var(--ink);border-color:#71848e}
+}

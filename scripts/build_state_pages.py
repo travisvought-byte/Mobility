@@ -7,7 +7,7 @@ Every page is generated; do not edit the output by hand. Run via `npm run build`
 import html,json,re
 from pathlib import Path
 from build_mobility_routes import STATES,TERRITORIES
-from site_parts import URGENT,RELAY,ABOUT_LINK,guides,prep_html,tel
+from site_parts import URGENT,RELAY,ABOUT_LINK,guides,prep_html,tel,icon
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'states'
 BASE='https://mobilitytalk.org/'
@@ -88,19 +88,21 @@ def state_page(code,name,recs,national):
     kinds=', '.join(CATS[k].lower().replace('&','and') for k in ORDER if any(r['category']==k for r in mine))
     desc=(f'{n} disability programs and agencies in {place}, with phone numbers and official pages: {kinds}.')[:300]
     p=slug(name);path=f'states/{p}.html'
-    secs=[]
+    secs=[];counts=[]
     for k in ORDER:
         w=sorted([r for r in wide if r['category']==k],key=sort_key);l=sorted([r for r in local if r['category']==k],key=sort_key)
         if not (w or l):continue
         g=GUIDES['guides'].get(k) or {}
-        s=f'<section id="{k.replace("_","-")}"><h2>{E(CATS[k])}</h2>'+(f'<p class="lead">{E(g["blurb"])}</p>' if g.get('blurb') else '')+prep_html(g,3)
+        s=f'<section id="{k.replace("_","-")}"><h2 class="cat-h">{icon(k,"hic")}{E(CATS[k])}</h2>'+(f'<p class="lead">{E(g["blurb"])}</p>' if g.get('blurb') else '')+prep_html(g,3)
         if w:s+='<div class="grid">'+''.join(card(r) for r in w)+'</div>'
         if l:
             s+=f'<h3>County and regional programs ({len(l)})</h3><ul class="statelist">'+''.join(local_li(r) for r in l)+'</ul>'
         if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a> · <a href="../service-animals.html">Service animals: your rights and where to get a trained dog</a></p>'
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
         secs.append(s+'</section>')
-    toc=''.join(f'<a href="#{k.replace("_","-")}">{E(CATS[k])}</a>' for k in ORDER if any(r['category']==k for r in mine))
+        counts.append((k,len(w)+len(l)))
+    # Jump tiles: one per group on this page, with its icon and how many listings the group shows below (counted from the page itself)
+    toc=''.join(f'<a href="#{k.replace("_","-")}">{icon(k,"tic")}<span class="tl">{E(CATS[k])}</span><span class="tn">{c} listed</span></a>' for k,c in counts)
     nat=''.join(f'<li><strong>{E(r["name"])}</strong> · '+' · '.join(contact(r,True))+'</li>' for r in national if r.get('phone'))
     extra=LUUL.replace('ALSO FEATURED &middot; WASHINGTON','FEATURED IN WASHINGTON',1) if code=='WA' else ''
     gcode=code.lower()
@@ -119,7 +121,7 @@ def state_page(code,name,recs,national):
         everywhere=f'<section class="panel"><h2>Available in every state</h2><p>These national lines help wherever you live, including {E(name)}.</p><ul class="statelist">{nat}</ul></section>'
     body=(f'<header>{NAV}<small>{E(name.upper())} · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources in {E(place)}</h1>{intro}</header>\n'
       f'<main id="main">{urgent}<section class="panel">{actions}{RELAY}</section>'
-      f'<nav class="toc" aria-label="Jump to a group of programs">{toc}</nav>'
+      f'<nav class="toc tiles" aria-label="Jump to a group of programs">{toc}</nav>'
       +''.join(secs)+everywhere
       +(extra and '<!--luul-->'+up(extra)+'<!--/luul-->')+'<!--mif-->'+MIF+'<!--/mif-->'
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: "+name)}">Tell us</a> and it will be checked against the program’s own page.</p></section></main>{FOOT}</body></html>')

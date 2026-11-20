@@ -1,5 +1,5 @@
 /* Advertisement slot: loaded only on a page that shows an ad. Dashed border, grey ground and a plain label set it
-   apart from program cards (white, solid gold top border), so it never reads as a listing. The site has no dark mode, so neither does this. */
+   apart from program cards (white, solid gold top border), so it never reads as a listing. In dark mode the slot stays dashed and grey, in the dark palette, so it never stands out more than the listings. */
 .ad-slot{margin:36px 0;padding:14px 18px 16px;border:2px dashed #8a948f;border-radius:8px;background:#eceeec;color:#20313a;font-size:16px;line-height:1.5;max-width:760px}
 .ad-label{margin:0 0 8px;font:700 13px/1.2 system-ui,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#4a565c}
 .ad-link{display:block;color:#20313a;text-decoration:none}
@@ -10,3 +10,4 @@
 .ad-newtab{color:#4a565c;font-size:14px}
 .ad-note{margin:10px 0 0;font-size:14px;color:#4a565c}
 @media print{.ad-slot{display:none}}
+@media screen and (prefers-color-scheme:dark){.ad-slot{background:#1d272c;border-color:#7d8a84;color:#e3eaee}.ad-link{color:#e3eaee}.ad-sponsor{color:#8fcbe8}.ad-label,.ad-newtab,.ad-note{color:#b4c0c5}.ad-link:focus-visible{outline-color:#e7cc88}}
