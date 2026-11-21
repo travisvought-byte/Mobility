@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -6785,6 +6785,417 @@
      "url": "https://health.gov.gy/service/rehabilitation-disability-services/",
      "sources": [
       "https://health.gov.gy/service/rehabilitation-disability-services/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CN",
+   "slug": "china",
+   "name": "China",
+   "emergency": {
+    "number": "120",
+    "label": "Ambulance. Police: 110; fire: 119",
+    "source": "https://www.gov.uk/foreign-travel-advice/china/getting-help"
+   },
+   "resources": [
+    {
+     "id": "cn-12356",
+     "section": "help-now",
+     "name": "12356 psychological assistance hotline",
+     "org": "National Health Commission",
+     "what": "China's nationwide psychological assistance hotline (心理援助热线), set up by the National Health Commission. Each city-level area runs at least one line, staffed for at least 18 hours a day, and all 31 provinces had opened 12356 by May 1, 2025, when it came into nationwide use. Whether calls are free is not stated.",
+     "how": "Call 12356. In an emergency, call 120 for an ambulance or 110 for the police.",
+     "phone": "12356",
+     "dial": "12356",
+     "sources": [
+      "https://english.www.gov.cn/news/202412/26/content_WS676c9202c6d0868f4e8ee46c.html",
+      "https://en.nhc.gov.cn/2025-02/14/c_86392.htm",
+      "https://www.news.cn/politics/20250508/b45e439c15bb4732858ad5c7640e9ba9/c.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cn-two-subsidies",
+     "section": "money",
+     "name": "Living allowance and nursing allowance for people with disabilities",
+     "org": "Ministry of Civil Affairs, Ministry of Finance and China Disabled Persons' Federation",
+     "what": "Two national allowances (残疾人两项补贴): a living allowance for people with disabilities in low-income (dibao) households, which local governments may extend to households just above that line, and a nursing allowance for people with severe disabilities. You need a valid disability certificate. Payment starts in the month you apply once you are found eligible.",
+     "how": "Apply at your township or street (subdistrict) office or the county civil affairs department; someone can apply for you. If you live away from your registered home, you can apply where you live and the case is sent to your home area, which must decide within 10 working days.",
+     "url": "https://www.gov.cn/zhengce/zhengceku/2021-09/15/content_5637554.htm",
+     "sources": [
+      "https://www.gov.cn/zhengce/zhengceku/2021-09/15/content_5637554.htm"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "RU",
+   "slug": "russia",
+   "name": "Russia",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/russia/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ru-emercom-psy",
+     "section": "help-now",
+     "name": "EMERCOM psychological help line",
+     "org": "Ministry of Emergency Situations (EMERCOM of Russia)",
+     "what": "A free, anonymous psychological help line answered around the clock by the ministry's psychologists, running since 2006. Only long-distance charges apply. The ministry also answers questions online.",
+     "how": "Call +7 (495) 989-50-50 at any hour. In an emergency, call 112.",
+     "phone": "+7 (495) 989-50-50",
+     "dial": "+74959895050",
+     "sources": [
+      "https://psi.mchs.gov.ru/deyatelnost/distancionnaya-pomoshch-naseleniyu?export=pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ru-sfr-tsr",
+     "section": "equipment-home",
+     "name": "Technical means of rehabilitation (TSR)",
+     "org": "Social Fund of Russia (SFR)",
+     "what": "People with a recognised disability get the equipment listed in their individual rehabilitation programme (IPRA), such as wheelchairs and other aids, from the Social Fund. The fund buys the item and you collect it or have it delivered at no cost, or you can take an electronic certificate (valid for a year for most items) and buy it yourself, paying any difference. Equipment bought on your own after January 1, 2025 is no longer refunded.",
+     "how": "Apply through the Gosuslugi portal, at a multifunctional centre (MFC) or at a Social Fund client office. The fund's national contact centre is 8-800-10-000-01.",
+     "phone": "8-800-10-000-01",
+     "dial": "88001000001",
+     "url": "https://sfr.gov.ru/branches/spb/info/~2026/11/12/14951?info_category=1",
+     "sources": [
+      "https://sfr.gov.ru/branches/spb/info/~2026/11/12/14951?info_category=1"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BY",
+   "slug": "belarus",
+   "name": "Belarus",
+   "emergency": {
+    "number": "103",
+    "label": "Ambulance. Police: 102; fire: 101",
+    "source": "https://www.gov.uk/foreign-travel-advice/belarus/getting-help"
+   },
+   "resources": [
+    {
+     "id": "by-133",
+     "section": "help-now",
+     "name": "Emergency psychological help line 133",
+     "org": "Health care system of Belarus",
+     "what": "A national emergency psychological support line, answered 24 hours a day by psychologists from the health care system. Calls are free from all telephone operators. For children and teenagers in crisis, the national children's line 8-801-100-16-11 is also open 24 hours a day.",
+     "how": "Call 133 at any hour. In an emergency, call 103 for an ambulance or 102 for the police.",
+     "phone": "133",
+     "dial": "133",
+     "sources": [
+      "https://lepel.vitebsk-region.gov.by/kruglosutochnaya-liniya-ekstrennoy-psikhologicheskoy-pomoshchi.php/en",
+      "https://verkhnedvinsk.vitebsk-region.gov.by/novosti-regiona-item-7722-v-belarusi-rabotaet-kruglosutochnaya-liniya-ekstrennoj-psikhologicheskoj-pomoshchi/en",
+      "https://minzdrav.gov.by/en/dlya-belorusskikh-grazhdan/ekstrennaya-psikhologicheskaya-pomoshch.php"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "by-tsr",
+     "section": "equipment-home",
+     "name": "Technical means of social rehabilitation",
+     "org": "Local social protection services",
+     "what": "Aids from the State Register of technical means of social rehabilitation (Council of Ministers Resolution No. 1722 of 2007), given to people living in Belarus on the basis of a disabled person's individual rehabilitation programme or a medical advisory commission (VKK) conclusion. Some items are free and others carry a 20%, 25% or 50% charge.",
+     "how": "Bring your rehabilitation programme or VKK conclusion, your passport and your disability certificate to the social service that issues technical aids where you live (in Gomel, the city's centre for social services).",
+     "url": "https://gomelisp.gov.by/tehnicheskie-sredstva-socialnoj-reabilitacii/?print=pdf",
+     "sources": [
+      "https://gomelisp.gov.by/tehnicheskie-sredstva-socialnoj-reabilitacii/?print=pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CI",
+   "slug": "cote-d-ivoire",
+   "name": "Côte d'Ivoire",
+   "emergency": {
+    "number": "185",
+    "label": "Ambulance (SAMU). Police: 110, 111 or 170; fire: 180",
+    "source": "https://www.gov.uk/foreign-travel-advice/cote-d-ivoire/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ci-143",
+     "section": "help-now",
+     "name": "143, Ministry of Health line",
+     "org": "Ministère de la Santé, de l'Hygiène Publique et de la Couverture Maladie Universelle",
+     "what": "The Ministry of Health's free, anonymous call centre (ligne verte). Callers in distress are put through to psychologists of the National Mental Health Programme (PNSM). The WHO reported in 2023 that it answers five days a week; daily hours are not stated. The state news agency reported it still running in August 2025.",
+     "how": "Call 143. In an emergency, call 185 for an ambulance or 110, 111 or 170 for the police.",
+     "phone": "143",
+     "dial": "143",
+     "sources": [
+      "https://www.afro.who.int/node/18343",
+      "https://www.aip.ci/cote-divoire-aip-sante-mentale-le-pnsm-renforce-les-competences-des-prestataires-dassistance-en-ligne/?amp=1"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "ci-cnps-invalidite",
+     "section": "money",
+     "name": "Pension d'invalidité (disability pension)",
+     "org": "Caisse Nationale de Prévoyance Sociale (CNPS)",
+     "what": "A monthly pension from the CNPS for salaried workers who have lost at least two-thirds of their capacity to work through illness or an accident that is not work-related, after at least 15 years of insured work. It is worked out like the retirement pension and paid at any age, without the early-retirement reduction.",
+     "how": "File a claim with the CNPS as for a retirement pension (request form, work certificates, payslips, ID, bank details) and add a medical report confirming the disability. A CNPS medical adviser confirms the degree of disability.",
+     "url": "https://www.cnps.ci/wp-content/uploads/2021/04/ASSURANCE-VIEILLESSE-AV.pdf",
+     "sources": [
+      "https://www.cnps.ci/wp-content/uploads/2021/04/ASSURANCE-VIEILLESSE-AV.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "SR",
+   "slug": "suriname",
+   "name": "Suriname",
+   "emergency": {
+    "number": "115",
+    "label": "Ambulance, fire and police (ambulance also 113, fire also 110)",
+    "source": "https://www.gov.uk/foreign-travel-advice/suriname/getting-help"
+   },
+   "resources": [
+    {
+     "id": "sr-114",
+     "section": "help-now",
+     "name": "Helpline 114",
+     "org": "Ministry of Health, Welfare and Labour",
+     "what": "Suriname's mental health crisis line, launched on June 5, 2026 by the Ministry of Health, Welfare and Labour with PAHO/WHO support, for anyone in emotional distress, with suicidal thoughts or in a mental health crisis. It is free, confidential and anonymous and open around the clock.",
+     "how": "Call 114 at any hour. In an emergency, call 115.",
+     "phone": "114",
+     "dial": "114",
+     "sources": [
+      "https://www.paho.org/en/news/6-6-2026-help-just-phone-call-away-launch-helpline-114"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "sr-mmeb",
+     "section": "money",
+     "name": "Financial assistance for people with disabilities (MmeB)",
+     "org": "Ministry of Social Affairs and Housing",
+     "what": "Monthly financial assistance (financiële bijstand) for registered people with disabilities, paid out by the ministry's AUSV payment service to clients with a valid decision (beschikking). The ministry announces payment dates and places in public notices. The amount is not stated in those notices.",
+     "how": "Ask the Ministry of Social Affairs and Housing (Sozavo) office in your district about registering. To collect a payment, bring your valid decision and ID card; someone collecting for you needs a stamped authorisation from the district head and both ID cards.",
+     "url": "https://gov.sr/wp-content/uploads/2024/10/Bekendmaking-algehele-distributie.pdf",
+     "sources": [
+      "https://gov.sr/wp-content/uploads/2024/10/Bekendmaking-algehele-distributie.pdf",
+      "https://gov.sr/wp-content/uploads/2024/08/Bekendmaking-MMEB-ZWHH-Wayambo-2024.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MZ",
+   "slug": "mozambique",
+   "name": "Mozambique",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, fire and police (fire also 198)",
+    "source": "https://www.gov.uk/foreign-travel-advice/mozambique/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mz-116",
+     "section": "help-now",
+     "name": "Linha Fala Criança 116",
+     "org": "Linha Fala Criança",
+     "what": "Mozambique's child helpline, which UNICEF and the Ombudsman support and which opened a new office in Cabo Delgado in 2025. Children, and adults worried about a child, can call it. Its hours and cost are not stated. It is not a general mental health line.",
+     "how": "Call 116. In an emergency, call 112.",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://www.unicef.org/mozambique/en/stories/new-delegation-ombudsman-and-child-help-line-inaugurated-cabo-delgado"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "mz-pssb",
+     "section": "money",
+     "name": "Programa Subsídio Social Básico (Basic Social Subsidy)",
+     "org": "Instituto Nacional de Acção Social (INAS)",
+     "what": "Monthly cash transfers and psychosocial support from INAS for people with disabilities who cannot work, are poor and have no means of support. A health professional must certify the incapacity, and households are assessed with a poverty test. People with disabilities stay in the programme with periodic reassessment. A missing ID document does not stop you getting it.",
+     "how": "Ask your community leader or the district INAS delegation to be put on the list of possible beneficiaries; INAS staff then visit your home to check eligibility.",
+     "url": "https://un.social-protection.org/gimi/Media.action?id=18882",
+     "sources": [
+      "https://un.social-protection.org/gimi/Media.action?id=18882"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "AO",
+   "slug": "angola",
+   "name": "Angola",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance. Police: 110; fire: 118",
+    "source": "https://www.gov.uk/foreign-travel-advice/angola/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ao-15015",
+     "section": "help-now",
+     "name": "SOS Criança 15015",
+     "org": "Instituto Nacional da Criança (INAC)",
+     "what": "Angola's line for reporting violence against children and other violations of people's rights, run by the National Children's Institute (INAC). It recorded about 32,000 incidents in 2024. Its hours and cost are not stated. It is not a general mental health line.",
+     "how": "Call 15015. In an emergency, call 112 for an ambulance or 110 for the police.",
+     "phone": "15015",
+     "dial": "15015",
+     "sources": [
+      "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Angola/measures/Helpline%2015015%20--%20L%C3%ADnea%2015015",
+      "https://www.unicef.org/angola/media/5596/file/Protec%C3%A7%C3%A3o%20Crian%C3%A7a%202025.pdf"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "ao-masfamu-ajudas",
+     "section": "equipment-home",
+     "name": "Mobility aids and technical aids for persons with disabilities",
+     "org": "Ministério da Acção Social, Família e Promoção da Mulher (MASFAMU)",
+     "what": "A government programme, budgeted in the 2024 state budget, that gives persons with disabilities mobility aids (meios de locomoção) and technical aids (ajudas técnicas). Some provincial governments also buy mobility equipment for people with physical disabilities.",
+     "how": "Ask the social action office of your municipality or MASFAMU.",
+     "url": "https://www.unicef.org/angola/media/4461/file/Defici%C3%AAncia%20e%20Inclus%C3%A3o_An%C3%A1lise%20Or%C3%A7amental_2024.pdf.pdf",
+     "sources": [
+      "https://www.unicef.org/angola/media/4461/file/Defici%C3%AAncia%20e%20Inclus%C3%A3o_An%C3%A1lise%20Or%C3%A7amental_2024.pdf.pdf"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "AD",
+   "slug": "andorra",
+   "name": "Andorra",
+   "emergency": {
+    "number": "116",
+    "label": "Ambulance. Police: 110; fire: 118; mountain rescue: 112",
+    "source": "https://www.gov.uk/foreign-travel-advice/andorra/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ad-177",
+     "section": "help-now",
+     "name": "Línia verda 177",
+     "org": "Ministeri de Salut",
+     "what": "Andorra's suicide prevention line, opened by the Ministry of Health on September 10, 2024 for anyone at risk of suicide or having suicidal thoughts, and part of the national suicide prevention strategy for 2025 to 2030. Its hours and cost are not stated.",
+     "how": "Call 177. In an emergency, call 116 for an ambulance or 110 for the police.",
+     "phone": "177",
+     "dial": "177",
+     "sources": [
+      "https://www.govern.ad/ca/tematiques/salut/salut-mental-i-addiccions/estrategia-nacional-de-prevencio-i-lluita-contra-el-suicidi"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ad-cass-invalidesa",
+     "section": "money",
+     "name": "Pensió d'invalidesa (invalidity pension)",
+     "org": "Caixa Andorrana de Seguretat Social (CASS)",
+     "what": "A CASS pension for insured people who lose at least 60% of their earning capacity through illness or an accident outside work. It pays 50% of the theoretical retirement pension if you can keep working and 100% if you cannot. The contribution period needed depends on your age (12 months under 21, up to 120 months over 57). For a work accident or occupational illness, no contribution period is needed.",
+     "how": "Ask CASS about a claim; you must be insured with CASS when the illness or accident happens.",
+     "url": "https://www.cass.ad/sites/default/files/arxius/20260708_WEB_Presentaci%C3%B3_Invalidesa.pdf",
+     "sources": [
+      "https://www.cass.ad/sites/default/files/arxius/20260708_WEB_Presentaci%C3%B3_Invalidesa.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "LI",
+   "slug": "liechtenstein",
+   "name": "Liechtenstein",
+   "emergency": {
+    "number": "112",
+    "label": "European emergency number. Ambulance: 144; police: 117; fire: 118",
+    "source": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-bevoelkerungsschutz/sicher-informiert-im-notfall_mai-2026.pdf"
+   },
+   "resources": [
+    {
+     "id": "li-143",
+     "section": "help-now",
+     "name": "Die Dargebotene Hand 143",
+     "org": "Die Dargebotene Hand",
+     "what": "The emotional support line that Liechtenstein's Office of Social Services lists for people in Liechtenstein. The Canton of Zurich describes it as open around the clock, completely anonymous, and also reachable by chat and email. Young people can call 147, the helpline for children and adolescents.",
+     "how": "Call 143 at any hour. In an emergency, call 112 or 144 for an ambulance.",
+     "phone": "143",
+     "dial": "143",
+     "sources": [
+      "https://www.integration.li/en/life/health",
+      "https://www.zh.ch/de/wirtschaft-arbeit/arbeitsbedingungen/arbeitsssicherheit-gesundheitsschutz/psychosoziale-risiken-arbeitsplatz/anlaufstellen-fuer-arbeitnehmende-zum-betrieblichen-gesundheitsschutz/angebote/dargebotene-hand-tel-143.html"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "li-iv",
+     "section": "money",
+     "name": "Invalidenversicherung (IV, disability insurance)",
+     "org": "Liechtensteinische AHV-IV-FAK-Anstalten",
+     "what": "Disability insurance for everyone who lives or works in Liechtenstein. It pays for help getting into or back into work (career advice, job placement, retraining, with a daily allowance), aids such as wheelchairs, hearing aids, prostheses and vehicles, a pension (quarter, half or full, from 40% disability) when work integration cannot succeed, and a helplessness allowance for people who constantly need help from others.",
+     "how": "Register with the AHV-IV-FAK-Anstalten, Gerberweg 2, Vaduz, before any integration measure starts. Forms are at ahv.li, at the Anstalten and at municipal offices.",
+     "phone": "+423 238 28 33",
+     "dial": "+4232382833",
+     "email": "iv-li@ahv.li",
+     "url": "https://www.ahv.li/fileadmin/user_upload/Dokumente/Online-Schalter/MB/AHV-IV-FAK-MB-3-01--Leistungen_IV.pdf",
+     "sources": [
+      "https://www.ahv.li/fileadmin/user_upload/Dokumente/Online-Schalter/MB/AHV-IV-FAK-MB-3-01--Leistungen_IV.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "LC",
+   "slug": "saint-lucia",
+   "name": "Saint Lucia",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/st-lucia/getting-help"
+   },
+   "resources": [
+    {
+     "id": "lc-203",
+     "section": "help-now",
+     "name": "National Helpline 203",
+     "org": "Ministry of Health",
+     "what": "The Ministry of Health's free national helpline for people in suicidal crisis or emotional distress, and for mental, social and emotional problems. Trained health professionals answer 24 hours a day, seven days a week, and can refer you to counselling, social work or psychiatry. The ministry was still pointing people to it in December 2024.",
+     "how": "Call 203 at any hour, from a landline or mobile. In an emergency, call the emergency number at the top of this page.",
+     "phone": "203",
+     "dial": "203",
+     "sources": [
+      "https://www.govt.lc/news/national-helpline-available-round-the-clock",
+      "https://www.govt.lc/news/national-health-helpline-launched",
+      "https://externalaffairs.govt.lc/news/ministry-of-health-issues-call-to-combat-loneliness-among-seniors-during-holiday-season"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lc-nic-invalidity",
+     "section": "money",
+     "name": "Invalidity benefit",
+     "org": "National Insurance Corporation",
+     "what": "Under the National Insurance Corporation Act, an insured person certified as an invalid gets an invalidity pension if they have the required contributions, are under pensionable age and no longer qualify for sickness benefit, or a one-time invalidity grant if they do not meet those conditions. The pension continues while the invalidity lasts.",
+     "how": "Claim from the National Insurance Corporation with a medical certificate stating that your incapacity is likely to be permanent. The corporation may ask for an examination by its panel doctor.",
+     "url": "https://attorneygeneralchambers.com/laws-of-saint-lucia/national-insurance-corporation-act/section-45",
+     "sources": [
+      "https://attorneygeneralchambers.com/laws-of-saint-lucia/national-insurance-corporation-act/section-45"
      ],
      "reviewed_on": "2026-11-21"
     }
