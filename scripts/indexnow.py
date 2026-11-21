@@ -24,6 +24,7 @@ from pathlib import Path
 
 ENDPOINT = 'https://api.indexnow.org/IndexNow'
 LIMIT = 10000
+UA = 'Mozilla/5.0 (compatible; indexnow-sender/1.0)'
 
 
 def sitemap_urls(root: Path):
@@ -55,16 +56,22 @@ def changed_between(old: Path, new: Path):
 def wait_for_key(host: str, key: str, minutes: int = 15):
     url = f'https://{host}/{key}.txt'
     deadline = time.time() + minutes * 60
+    last = 'no answer yet'
     while True:
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={'Cache-Control': 'no-cache'}), timeout=20) as r:
-                if r.read().decode('utf-8', 'replace').strip() == key:
+            req = urllib.request.Request(url, headers={'Cache-Control': 'no-cache', 'User-Agent': UA})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                body = r.read().decode('utf-8', 'replace').strip()
+                if body == key:
                     print(f'key file is live at {url}')
                     return True
-        except (urllib.error.URLError, OSError):
-            pass
+                last = f'{r.status} from {r.geturl()}, but the file does not hold the key'
+        except urllib.error.HTTPError as e:
+            last = f'{e.code} {e.reason} from {e.geturl()}'
+        except (urllib.error.URLError, OSError) as e:
+            last = f'could not connect: {getattr(e, "reason", e)}'
         if time.time() > deadline:
-            print(f'::warning::key file {url} is not live yet; skipping this round')
+            print(f'::warning::key file {url} is not live yet ({last}); skipping this round')
             return False
         time.sleep(20)
 
