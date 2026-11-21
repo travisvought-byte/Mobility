@@ -84,7 +84,7 @@ for(const c of W.countries){
  }
  for(const a of d.querySelectorAll('a[href^="#"]'))assert(d.getElementById(a.getAttribute('href').slice(1)),f+' anchor '+a.getAttribute('href'));
  for(const a of d.querySelectorAll('a[target=_blank]'))assert(/noopener/.test(a.rel)&&/new tab/.test(a.textContent),f+' new tab links say so');
- for(const a of d.querySelectorAll('a[href^="tel:"]'))assert(/^tel:[*+]?\d{3,15}$/.test(a.getAttribute('href')),f+' bad tel '+a.getAttribute('href'));
+ for(const a of d.querySelectorAll('a[href^="tel:"]'))assert(/^tel:[*+]?\d{2,15}$/.test(a.getAttribute('href')),f+' bad tel '+a.getAttribute('href')); // two digits: Senegal's 15
  assert(d.querySelector('#site-nav a[href="../world.html"][aria-current="page"]')&&d.querySelector('button.navtoggle'),f+' menu');
  assert(d.querySelector('footer a.privacy-link[href="../privacy.html"]'),f+' privacy link');
  assert(/<!--gc-->/.test(html)&&!/ad-slot/.test(html),f+' counts visits and carries no ad');
