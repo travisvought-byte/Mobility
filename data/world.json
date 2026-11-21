@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -3713,6 +3713,617 @@
      "sources": [
       "https://www.dhr.go.cr/servicios/proceso_como_denunciar/Denuncia_escrita_proceso.pdf",
       "https://dhr.go.cr/mecanismo_nacional_discapacidad/boletines_discapacidad/boletines_2026_discapacidad/boletines_26/44_Boletin-%20Julio_2026.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "FI",
+   "slug": "finland",
+   "name": "Finland",
+   "emergency": {
+    "number": "112",
+    "label": "The single emergency number for police, ambulance, fire and emergency social services, free and open 24 hours a day",
+    "source": "https://www.suomi.fi/services/phoneservice/112-emergency-number-in-finland-emergency-response-centre-agency-finland/c7cad442-1820-4854-8d40-48536e6d7fcd"
+   },
+   "resources": [
+    {
+     "id": "fi-mieli-crisis-helpline",
+     "section": "help-now",
+     "name": "MIELI Crisis Helpline (Kriisipuhelin)",
+     "org": "MIELI Mental Health Finland",
+     "what": "Crisis support by phone. The Finnish-language line is open 24 hours a day, every day; there are also lines in Swedish and English.",
+     "how": "Call 09 2525 0111 for Finnish, at any hour. Swedish: 09 2525 0112. English: 09 2525 0116, Mondays 16:00 to 20:00 and Thursdays and Fridays 9:00 to 13:00. MIELI does not charge for calls; your operator’s normal rate applies.",
+     "phone": "09 2525 0111",
+     "dial": "0925250111",
+     "url": "https://mieli.fi/en/contact-information/",
+     "sources": [
+      "https://mieli.fi/en/contact-information/",
+      "https://mieli.fi/en/support-and-help/suicidal-thoughts-and-self-destructiveness/dealing-with-suicidal-thoughts/",
+      "https://www.oph.fi/fi/oppimateriaali/kouluikaisten-terveyden-polku/henkinen-ja-sosiaalinen-hyvinvointi/auttajatahoja"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fi-kela-disability-allowance",
+     "section": "money",
+     "name": "Disability allowance for persons aged 16 or over",
+     "org": "Kela (the Social Insurance Institution of Finland)",
+     "what": "A tax-free monthly payment when a doctor has diagnosed a chronic illness or disability that limits your functioning for at least 12 months and brings extra costs or a need for help or guidance. Your income and assets do not affect it. There are three rates: €110.49, €257.82 and €499.93 a month. From 1 January 2027 the lower age limit rises to 18.",
+     "how": "Apply in the OmaKela e-service on form EV 256e with a medical statement (BC) issued in the last 6 months, or by post, by phone or at a Kela service point. Kela can pay up to 6 months back. Kela publishes its instructions in English.",
+     "phone": "020 634 2650",
+     "dial": "0206342650",
+     "url": "https://kela.fi/disability-allowance-for-adults",
+     "sources": [
+      "https://kela.fi/disability-allowance-for-adults"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fi-traficom-parking-card",
+     "section": "equipment-home",
+     "name": "Parking card for people with reduced mobility",
+     "org": "Traficom (Finnish Transport and Communications Agency)",
+     "what": "A personal card that lets the vehicle you are driving or riding in park in disabled spaces, in paid spaces free of charge and in some no-parking areas. A doctor must assess that you cannot move around independently, or your sight must be severely impaired; it can also be issued to someone who often has to be driven and cannot manage alone afterwards. A Finnish card can be used in all EU countries.",
+     "how": "Get a medical certificate on Traficom form F123, then apply in Traficom’s My e-Services (Personal services, then Services for people with reduced mobility) and pay the fee there, or apply in person at an Ajovarma service point by appointment. Applications sent by post are not processed. The card arrives by post in about two weeks. You can apply for exemption from the base vehicle tax at the same time.",
+     "url": "https://traficom.fi/en/transport/drivers-and-vehicles/traffic-tips/apply-parking-card-people-reduced-mobility",
+     "sources": [
+      "https://traficom.fi/en/transport/drivers-and-vehicles/traffic-tips/apply-parking-card-people-reduced-mobility"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fi-non-discrimination-ombudsman",
+     "section": "rights",
+     "name": "Non-Discrimination Ombudsman (Yhdenvertaisuusvaltuutettu)",
+     "org": "Non-Discrimination Ombudsman",
+     "what": "Advice and instructions about discrimination, including on the basis of disability or state of health, and help investigating suspected cases.",
+     "how": "Call the customer service line, Tuesdays to Thursdays 10:00 to 12:00. In Finnish, Swedish or English, and other languages if needed; sign-language users can send a video by email.",
+     "phone": "0295 666 817",
+     "dial": "0295666817",
+     "url": "https://yhdenvertaisuusvaltuutettu.fi/en/customer-service",
+     "sources": [
+      "https://yhdenvertaisuusvaltuutettu.fi/en/customer-service",
+      "https://www.suomi.fi/services/phoneservice/the-non-discrimination-ombudsmans-offices-customer-service-helpline-non-discrimination-ombudsman/deb4ad92-52db-434a-b4cd-6b07732c7a16"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "GR",
+   "slug": "greece",
+   "name": "Greece",
+   "emergency": {
+    "number": "112",
+    "label": "The single European emergency number for the police, fire service, coastguard and ambulance (EKAV), free and open 24 hours a day. Operators answer in Greek, English and French",
+    "source": "https://civilprotection.gov.gr/sites/default/files/2024-02/FAQ_112_%CE%B1%CE%B3%CE%B3%CE%BB%CE%B9%CE%BA%CF%8C_%CE%B5%CE%B9%CF%83%CE%B5%CF%81%CF%87%CF%8C%CE%BC%CE%B5%CE%BD%CE%BF_%CF%83%CE%BA%CE%AD%CE%BB%CE%BF%CF%82.pdf"
+   },
+   "relay": "Deaf or speech-impaired: you can also reach 112 by text message (SMS or MMS), or by email at contact@112.gov.gr.",
+   "relay_source": "https://civilprotection.gov.gr/sites/default/files/2024-02/FAQ_112_%CE%B1%CE%B3%CE%B3%CE%BB%CE%B9%CE%BA%CF%8C_%CE%B5%CE%B9%CF%83%CE%B5%CF%81%CF%87%CF%8C%CE%BC%CE%B5%CE%BD%CE%BF_%CF%83%CE%BA%CE%AD%CE%BB%CE%BF%CF%82.pdf",
+   "resources": [
+    {
+     "id": "gr-ekka-197",
+     "section": "help-now",
+     "name": "Line 197 for urgent psychosocial support",
+     "org": "National Centre for Social Solidarity (EKKA)",
+     "what": "A free national line for adults and families in crisis, answered by social workers and psychologists 24 hours a day, every day of the year. It offers counselling and emotional support, information on welfare and mental health services, and can arrange urgent social help. It also takes reports of neglect or abuse of older or disabled adults.",
+     "how": "Call 197, free from landlines and mobiles, at any hour.",
+     "phone": "197",
+     "dial": "197",
+     "sources": [
+      "https://0183.syzefxis.gov.gr/images/KOINONIKON-PAREMBASEON/%CE%A0%CE%91%CE%A1%CE%9F%CE%A5%CE%A3%CE%99%CE%91%CE%A3%CE%97_%CE%A4%CE%97%CE%9B._%CE%93%CE%A1%CE%91%CE%9C%CE%9C%CE%A9%CE%9D.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gr-klimaka-1018",
+     "section": "help-now",
+     "name": "Suicide intervention line 1018",
+     "org": "Klimaka",
+     "what": "A suicide intervention line open 24 hours a day, 7 days a week.",
+     "how": "Call 1018 from a mobile or landline anywhere in Greece, at the local call rate.",
+     "phone": "1018",
+     "dial": "1018",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://mentalcare.upatras.gr/en/?p=1645",
+      "https://findahelpline.com/organizations/1018-24"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gr-opeka-mobility-allowance",
+     "section": "money",
+     "name": "Mobility allowance (επίδομα κίνησης)",
+     "org": "OPEKA (Organisation of Welfare Benefits and Social Solidarity)",
+     "what": "A welfare allowance for people certified with a disability of 80% or more because of amputation of both legs or both arms, or paralysis of both legs, who live legally and permanently in Greece and do not get a mobility allowance from another body.",
+     "how": "Apply in person or by post through a municipal Community Centre (Κέντρο Κοινότητας) or an OPEKA regional office, with your ID, a signed declaration, a Greek bank account in your name and your disability certification (the KEPA decision). It cannot be done online. It is free. In Greek.",
+     "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A7%CE%BF%CF%81%CE%AE%CE%B3%CE%B7%CF%83%CE%B7_%CE%B5%CF%80%CE%B9%CE%B4%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82_%CE%BA%CE%AF%CE%BD%CE%B7%CF%83%CE%B7%CF%82_%CF%83%CE%B5_%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D%CF%82%2C_%CF%84%CE%B5%CF%84%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D%CF%82_%CE%BA%CE%B1%CE%B9_%CE%B1%CE%BA%CF%81%CF%89%CF%84%CE%B7%CF%81%CE%B9%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CF%85%CF%82",
+     "sources": [
+      "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A7%CE%BF%CF%81%CE%AE%CE%B3%CE%B7%CF%83%CE%B7_%CE%B5%CF%80%CE%B9%CE%B4%CF%8C%CE%BC%CE%B1%CF%84%CE%BF%CF%82_%CE%BA%CE%AF%CE%BD%CE%B7%CF%83%CE%B7%CF%82_%CF%83%CE%B5_%CF%80%CE%B1%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D%CF%82%2C_%CF%84%CE%B5%CF%84%CF%81%CE%B1%CF%80%CE%BB%CE%B7%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D%CF%82_%CE%BA%CE%B1%CE%B9_%CE%B1%CE%BA%CF%81%CF%89%CF%84%CE%B7%CF%81%CE%B9%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CF%85%CF%82"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CZ",
+   "slug": "czech-republic",
+   "name": "Czech Republic",
+   "emergency": {
+    "number": "112",
+    "label": "The single European emergency number, free and open 24 hours a day. Ambulance: 155, fire: 150, police: 158",
+    "source": "https://portal.gov.cz/en/sluzby-vs/emergency-calls-S2824"
+   },
+   "resources": [
+    {
+     "id": "cz-116123",
+     "section": "help-now",
+     "name": "First psychological aid line (linka první psychické pomoci)",
+     "org": "116 123, a European helpline number listed on the government portal",
+     "what": "A first psychological aid line, open around the clock. Calls to 116 numbers are free.",
+     "how": "Call 116 123, free, at any hour.",
+     "phone": "116 123",
+     "dial": "116123",
+     "sources": [
+      "https://portal.gov.cz/informace/116-numbers--harmonised-services-of-social-value-INF-415"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cz-prispevek-na-peci",
+     "section": "money",
+     "name": "Care allowance (příspěvek na péči)",
+     "org": "Úřad práce ČR (Labour Office) and the Ministry of Labour and Social Affairs",
+     "what": "A monthly payment for people from age one who, because of a long-term health condition, need help with basic needs such as getting around, communicating, eating or personal hygiene. It is set by degree of dependency: for adults 1,300, 5,400 or 14,800 Kč, and 23,000 or 27,000 Kč at the highest degree; for under-18s 4,900, 8,200 or 16,100 Kč, and 23,000 or 27,000 Kč.",
+     "how": "Apply in writing on the ministry’s form at a Labour Office contact point for where you have permanent residence, saying who will help you. A social worker visits you at home before your degree of dependency is assessed. The Labour Office call centre is free. In Czech.",
+     "phone": "800 779 900",
+     "dial": "800779900",
+     "url": "https://mpsv.gov.cz/up-cz/prispevek-na-peci",
+     "sources": [
+      "https://mpsv.gov.cz/up-cz/prispevek-na-peci"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cz-ombudsman-discrimination",
+     "section": "rights",
+     "name": "Public Defender of Rights (Veřejný ochránce práv)",
+     "org": "Public Defender of Rights (the ombudsman)",
+     "what": "The ombudsman assesses whether you were discriminated against, including because of disability, explains your rights, and if it recommends going to court may arrange free legal representation.",
+     "how": "Call the hotline every day, 8:00 to 16:00, email podatelna@ochrance.cz, or write to Údolní 39, 602 00 Brno. Describe what happened and keep any evidence.",
+     "phone": "542 542 888",
+     "dial": "542542888",
+     "email": "podatelna@ochrance.cz",
+     "url": "https://www.ochrance.cz/en/letaky/en-discrimination/en-discrimination.pdf",
+     "sources": [
+      "https://www.ochrance.cz/en/letaky/en-discrimination/en-discrimination.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "RO",
+   "slug": "romania",
+   "name": "Romania",
+   "emergency": {
+    "number": "112",
+    "label": "The single emergency number for police, fire, ambulance, SMURD and gendarmerie, free from fixed and mobile phones. Calls are also taken in the main international languages",
+    "source": "https://www.ancom.ro/en/112_4519"
+   },
+   "relay": "Deaf or speech-impaired: if you have registered in advance with the national 112 system, call 112 from your registered mobile and then report the emergency by free text message to 113.",
+   "relay_source": "https://orasuldarmanesti.ro/continut/fisiere/2023/02/Modul_de_utilizare_a_serviciului_113.pdf",
+   "resources": [
+    {
+     "id": "ro-telverde-antisuicid",
+     "section": "help-now",
+     "name": "TelVerde Antisuicid",
+     "org": "Alianța Română de Prevenție a Suicidului (ARPS)",
+     "what": "A free counselling line for adults at risk of suicide, run by a non-profit. It is not open around the clock; at other times, call the emergency number.",
+     "how": "Call 0800 801 200, free, on Friday, Saturday and Sunday from 19:00 to 07:00.",
+     "phone": "0800 801 200",
+     "dial": "0800801200",
+     "url": "https://www.antisuicid.ro/",
+     "sources": [
+      "https://www.antisuicid.ro/",
+      "https://findahelpline.com/organizations/telverde-antisuicid"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ro-disability-certificate",
+     "section": "start",
+     "name": "Disability certificate (certificat de încadrare în grad de handicap)",
+     "org": "ANPD and the DGASPC of your county or Bucharest sector",
+     "what": "The assessment that sets your degree of disability and opens the payments and facilities below. The assessment can be done at home if you cannot travel.",
+     "how": "Send your file to the DGASPC where you live, in person, by registered post or by email, or through your town hall: the application form, ID, a social inquiry from the town hall, proof of income, a current report from your specialist and, the first time, a letter from your family doctor. You are assessed within 60 days and the certificate is posted to you. In Romanian.",
+     "url": "https://anpd.gov.ro/web/dizabilitate/evaluarea-in-grad-de-handicap/",
+     "sources": [
+      "https://anpd.gov.ro/web/dizabilitate/evaluarea-in-grad-de-handicap/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ro-monthly-allowance",
+     "section": "money",
+     "name": "Monthly allowance and complementary personal budget",
+     "org": "ANPD (Autoritatea Națională pentru Protecția Drepturilor Persoanelor cu Dizabilități)",
+     "what": "Adults with a severe (grav) degree get a monthly allowance of 419 lei plus a complementary personal budget of 180 lei; a marked (accentuat) degree brings 317 lei plus 132 lei; a medium degree brings a personal budget of 72 lei. Income does not affect them. Severe and marked degrees also bring free urban public transport and free intercity trips each year, and parking is free in spaces reserved for disabled people.",
+     "how": "These rights come with the disability certificate above. In Romanian.",
+     "url": "https://anpd.gov.ro/web/dizabilitate/beneficii-si-facilitati/",
+     "sources": [
+      "https://anpd.gov.ro/web/dizabilitate/beneficii-si-facilitati/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "TR",
+   "slug": "turkey",
+   "name": "Turkey",
+   "emergency": {
+    "number": "112",
+    "label": "The single emergency number for police, health emergencies, fire, gendarmerie, coast guard, forest fires and AFAD, free from home, mobile and pay phones at any time",
+    "source": "https://www.112.gov.tr/kurumlar/112.gov.tr/IcSite/aksaray/Tanitim/AcilDurumKlavuzu.pdf"
+   },
+   "resources": [
+    {
+     "id": "tr-alo-183",
+     "section": "help-now",
+     "name": "ALO 183 Social Support Line",
+     "org": "Ministry of Family and Social Services",
+     "what": "Guidance and counselling about services for families, women, children, disabled and older people, and a line to report neglect, abuse or violence; urgent cases are passed to emergency teams. Open 24 hours a day, 7 days a week.",
+     "how": "Call 183, free from inside Turkey. Calls are also answered in Kurdish and Arabic. Deaf and speech-impaired callers can make a sign-language video call to 0 549 381 0 183 (weekdays 8:00 to 24:00, Saturdays 8:00 to 17:00) or send a free SMS to 183 with name, ID number and request.",
+     "phone": "183",
+     "dial": "183",
+     "url": "https://www.aile.gov.tr/alo-183/alo183pages/hakkinda/",
+     "sources": [
+      "https://www.aile.gov.tr/alo-183/alo183pages/hakkinda/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tr-evde-bakim",
+     "section": "money",
+     "name": "Home care support (evde bakım desteği)",
+     "org": "Ministry of Family and Social Services",
+     "what": "Support for the care at home of a person with a severe disability (marked “ağır engelli” on the hospital disability health board report) who cannot live without another person’s help, when the household’s average income per person is below two-thirds of the monthly net minimum wage.",
+     "how": "Apply to the Provincial Directorate of Family and Social Services or the Social Service Centre where the disabled person lives, or to the District Governorship where there is neither. You need the disability health board report, a care board report and an income test. In Turkish.",
+     "url": "https://aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/sosyal-yardimlar/q-0004/",
+     "sources": [
+      "https://aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/sosyal-yardimlar/q-0004/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tr-discrimination",
+     "section": "rights",
+     "name": "Complaints about disability discrimination",
+     "org": "Human Rights and Equality Institution of Türkiye (TİHEK) and the Ombudsman Institution (KDK)",
+     "what": "If you think you were discriminated against because of disability in education, justice, health, transport, social services or similar services, you can apply to TİHEK free of charge. For discrimination by a public body you can also apply free of charge to the Ombudsman Institution (KDK). Discrimination can also be reported to the police or a prosecutor as a crime.",
+     "how": "The ministry’s guidance page explains the routes; apply to TİHEK or the KDK directly. In Turkish.",
+     "url": "https://aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/engellilerin-haklarina-iliskin-sozlesme/q-0008/",
+     "sources": [
+      "https://aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/engellilerin-haklarina-iliskin-sozlesme/q-0008/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "AE",
+   "slug": "united-arab-emirates",
+   "name": "United Arab Emirates",
+   "emergency": {
+    "number": "999",
+    "label": "Police. For an ambulance, call 998; for the fire department (Civil Defence), call 997",
+    "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-emergencies/important-phone-numbers-"
+   },
+   "resources": [
+    {
+     "id": "ae-800-sakina",
+     "section": "help-now",
+     "name": "800 SAKINA mental health support line",
+     "org": "Department of Health – Abu Dhabi, with Sakina (SEHA)",
+     "what": "A mental health support line open 24 hours a day to anyone in the community, offering psychological first aid and access to qualified mental health professionals for anxiety, panic, stress and sleep problems, with services for children and families.",
+     "how": "Call 800 725462 (800-SAKINA), at any hour. In Arabic or English.",
+     "phone": "800 725462",
+     "dial": "800725462",
+     "url": "https://www.doh.gov.ae/en/news/doh-activates-247-mental-health-support-hotline-800-sakina-%28725462%29",
+     "sources": [
+      "https://www.doh.gov.ae/en/news/doh-activates-247-mental-health-support-hotline-800-sakina-%28725462%29"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ae-pod-card",
+     "section": "start",
+     "name": "People of Determination card",
+     "org": "Ministry of Community Empowerment (MOCE)",
+     "what": "A personal card issued by the ministry to people with disabilities (called people of determination in the UAE), so they can take part in education, work, health care and social life on equal terms.",
+     "how": "Apply to the ministry with your Emirates ID, a passport-style photo on a white background, and a medical or psychological diagnosis report approved by a People of Determination welfare and rehabilitation centre. The ministry’s line is toll-free.",
+     "phone": "800623",
+     "dial": "800623",
+     "url": "https://moce.gov.ae/en/w/apply-for-a-new-pod-card",
+     "sources": [
+      "https://moce.gov.ae/en/w/apply-for-a-new-pod-card"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "EG",
+   "slug": "egypt",
+   "name": "Egypt",
+   "emergency": {
+    "number": "123",
+    "label": "Ambulance. For the police, call 122; for fire and civil defence, call 180",
+    "source": "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/bsg/20191022/Documents/Yasmina%20Alaa%20-%20Emergency%20Numbers.pdf"
+   },
+   "resources": [
+    {
+     "id": "eg-105-psychological-support",
+     "section": "help-now",
+     "name": "Psychological support hotline 105",
+     "org": "Ministry of Health and Population (mental health and addiction treatment administration)",
+     "what": "Consultations by phone from psychiatrists, psychologists, social workers and nurses, 24 hours a day, every day. The ministry’s mental health line was joined to 105 in March 2026.",
+     "how": "Call 105, at any hour.",
+     "phone": "105",
+     "dial": "105",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.maspero.eg/egypt/2026/04/14/945139/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%AE%D8%B7-%D8%A7%D9%84%D8%B3%D8%A7%D8%AE%D9%86-%D9%84%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A--%D8%AA%D8%B7%D9%88%D8%B1-%D9%85%D8%B3%D8%AA%D9%85%D8%B1-%D9%88%D8%AB%D9%82%D8%A9-%D9%85%D8%AA%D8%B2%D8%A7%D9%8A%D8%AF%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B7%D9%86%D9%8A%D9%86"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "eg-ncpd",
+     "section": "rights",
+     "name": "National Council for Persons with Disabilities (NCPD)",
+     "org": "National Council for Persons with Disabilities",
+     "what": "Takes complaints and questions from disabled people and their families across Egypt, studies them legally and follows them up with government and private bodies. Its complaints portal lets you track a complaint, and it takes requests for sign-language interpretation.",
+     "how": "Call the hotline 16736, call 02 2453 0081, email info@ncpd.gov.eg, or register a complaint on the council’s complaints portal with your national ID number, phone number and email, a clear account of the problem and a photo of your ID card. In Arabic.",
+     "phone": "16736",
+     "dial": "16736",
+     "email": "info@ncpd.gov.eg",
+     "url": "https://ncpd.gov.eg/complaints/",
+     "sources": [
+      "https://ncpd.gov.eg/complaints/",
+      "https://ncpd.gov.eg/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "ID",
+   "slug": "indonesia",
+   "name": "Indonesia",
+   "emergency": {
+    "number": "112",
+    "label": "The single emergency number joining police, ambulance and fire, brought in across districts and cities in stages",
+    "source": "https://setkab.go.id/?p=91258"
+   },
+   "resources": [
+    {
+     "id": "id-healing119",
+     "section": "help-now",
+     "name": "Healing119 mental health line",
+     "org": "Ministry of Health (Kementerian Kesehatan)",
+     "what": "Free emotional support and basic consultation from licensed health workers, 24 hours a day, for Indonesian citizens. If you cannot get through, the lines may be busy.",
+     "how": "Call 119 and choose extension 8, or use the call or WhatsApp button on the healing119.id website. No registration is needed.",
+     "phone": "119",
+     "dial": "119",
+     "phone_note": "Choose extension 8.",
+     "sources": [
+      "https://kesprimkom.kemkes.go.id/assets/uploads/contents/others/FAQ_Cegah_Bunuh_Diri%2C_Dukung_Kesehatan_Jiwa__Kenali_Layanan_Healing119.id.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "id-kemensos-171",
+     "section": "start",
+     "name": "Ministry of Social Affairs command centre 171",
+     "org": "Kementerian Sosial (Ministry of Social Affairs)",
+     "what": "The ministry’s command centre number. Disabled people can call it to ask for help: in one case the ministry describes, a blind caller was assessed by a regional centre and given an adaptive cane and business capital under its ATENSI programme.",
+     "how": "Call 171. The ministry’s page does not give hours or call costs.",
+     "phone": "171",
+     "dial": "171",
+     "sources": [
+      "https://kemensos.go.id/en/call-171-visually-impaired-person-get-advanced-sticks-and-business-capital-from-mosa"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "TH",
+   "slug": "thailand",
+   "name": "Thailand",
+   "emergency": {
+    "number": "1669",
+    "label": "Emergency medical services. The general emergency hotline is 191",
+    "source": "https://www.thailand.go.th/issue-focus-detail/009-017"
+   },
+   "resources": [
+    {
+     "id": "th-1323",
+     "section": "help-now",
+     "name": "Mental health hotline 1323",
+     "org": "Ministry of Public Health",
+     "what": "Free mental health consultation with experts, open 24 hours a day, every day, for people in Thailand and visitors. English-language services are available for foreign nationals.",
+     "how": "Call 1323, free, at any hour.",
+     "phone": "1323",
+     "dial": "1323",
+     "url": "https://www.thailand.go.th/event-detail/--3---24-",
+     "sources": [
+      "https://www.thailand.go.th/event-detail/--3---24-"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "th-1479-welfare",
+     "section": "money",
+     "name": "Welfare help for people with disabilities",
+     "org": "Ministry of Social Development and Human Security",
+     "what": "Registered people with disabilities facing hardship, such as living alone or without family support, can ask for help in goods or cash of up to 3,000 baht at a time, up to 3 times a year.",
+     "how": "Apply at a Disability Service Centre in your province or in Bangkok with your disability ID card or certificate, a bank book and a copy of the applicant’s ID. There is a home visit, then a committee decides. Disabled persons hotline: 1479; social assistance hotline: 1300.",
+     "phone": "1479",
+     "dial": "1479",
+     "url": "https://www.thailand.go.th/issue-focus-detail/001_01_188?hl=en",
+     "sources": [
+      "https://www.thailand.go.th/issue-focus-detail/001_01_188?hl=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "VN",
+   "slug": "vietnam",
+   "name": "Vietnam",
+   "emergency": {
+    "number": "113",
+    "label": "Police and emergency line. Calls to 113 asking for medical help are passed to health staff on duty, who can send an emergency medical team",
+    "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/42-byt.signed.pdf"
+   },
+   "resources": [
+    {
+     "id": "vn-ngay-mai",
+     "section": "help-now",
+     "name": "Ngày Mai hotline",
+     "org": "Ngày Mai, a volunteer non-profit",
+     "what": "Free psychological first aid and emotional support by phone from volunteers. It is not open around the clock; in an emergency, call 113.",
+     "how": "Call 096 306 1414, Wednesday to Sunday, 13:00 to 20:30. In Vietnamese; English is also listed.",
+     "phone": "096 306 1414",
+     "dial": "0963061414",
+     "url": "https://duongdaynongngaymai.vn/",
+     "sources": [
+      "https://duongdaynongngaymai.vn/",
+      "https://befrienders.org/?p=7722"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "vn-social-allowance",
+     "section": "money",
+     "name": "Monthly social allowance for people with disabilities (trợ cấp xã hội hàng tháng)",
+     "org": "People’s Committee of your commune or ward",
+     "what": "A monthly payment for people with disabilities who qualify, worked out from the national social assistance base rate of 500,000 dong a month (since 1 July 2024). Provinces can set a higher rate.",
+     "how": "Apply at the one-stop desk (bộ phận một cửa) of the People’s Committee where you live, in person, by post or online where offered, with the application form, your ID card and your disability certificate (giấy xác nhận khuyết tật). There is no fee. In Vietnamese.",
+     "url": "https://hcc.nghean.gov.vn/tin-tong-hop/chinh-phu-nang-muc-chuan-tro-giup-xa-hoi-1417.html",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://hcc.nghean.gov.vn/tin-tong-hop/chinh-phu-nang-muc-chuan-tro-giup-xa-hoi-1417.html",
+      "https://tanyen.bacgiang.gov.vn/documents/22783/16460367/120230405162815.pdf/94dbd5cd-e967-44a2-bd43-323b402821ca"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "UY",
+   "slug": "uruguay",
+   "name": "Uruguay",
+   "emergency": {
+    "number": "911",
+    "label": "Police, fire and medical emergencies (SAME 105) anywhere in the country, through one command centre. There is also a 9-1-1 app",
+    "source": "https://www.gub.uy/ministerio-interior/comunicacion/noticias/servicio-emergencia-9-1-1-consta-tres-pilares-fundamentales-para-su"
+   },
+   "resources": [
+    {
+     "id": "uy-suicide-prevention-line",
+     "section": "help-now",
+     "name": "Suicide prevention line (Línea de prevención del suicidio)",
+     "org": "Government of Uruguay (Ministry of Public Health)",
+     "what": "A free, confidential line open 24 hours a day, 7 days a week, answered by professionals such as psychologists and nurses. It offers listening, support and information, and arranges help in an emergency.",
+     "how": "Call 0800 0767 from any phone, or *0767 from a mobile, free, at any hour. In Spanish.",
+     "phone": "0800 0767",
+     "dial": "08000767",
+     "phone_note": "From a mobile you can also dial *0767.",
+     "sources": [
+      "https://www.gub.uy/presidencia/comunicacion/noticias/dia-nacional-prevencion-suicidio-2026",
+      "https://www.gub.uy/presidencia/comunicacion/noticias/estado-uruguayo-brinda-atencion-telefonica-especializada-para-prevencion-del"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "uy-bps-pension-invalidez",
+     "section": "money",
+     "name": "Disability pension (pensión por invalidez)",
+     "org": "Banco de Previsión Social (BPS)",
+     "what": "A monthly pension for people with a total incapacity, as assessed by a BPS doctor, who have lived in Uruguay for at least 10 of the last 20 years (children are exempt from this). With a severe incapacity finding there is no means test; otherwise your own and your family’s income is checked.",
+     "how": "Apply at a BPS branch, weekdays 9:15 to 16:00, or ask by phone: 0800 1997 from a landline or *1997 from a mobile, weekdays 8:00 to 18:00. In Spanish.",
+     "phone": "0800 1997",
+     "dial": "08001997",
+     "url": "https://www.bps.gub.uy/20545/pension-por-invalidez.html",
+     "sources": [
+      "https://www.bps.gub.uy/20545/pension-por-invalidez.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "uy-inddhh",
+     "section": "rights",
+     "name": "National Human Rights Institution and Ombudsman (INDDHH)",
+     "org": "Institución Nacional de Derechos Humanos y Defensoría del Pueblo",
+     "what": "Anyone can bring a complaint to the INDDHH, free of charge, when their rights have been violated, including through discrimination. It also runs a monitoring mechanism on disability issues.",
+     "how": "Call (598 2) 1948, email denuncias@inddhh.gub.uy, or visit Bv. Artigas 1532, Montevideo; complaints are taken weekdays 10:00 to 16:00. The number shown is for urgent complaints. In Spanish.",
+     "phone": "091 364 764",
+     "dial": "091364764",
+     "email": "denuncias@inddhh.gub.uy",
+     "url": "https://www.gub.uy/institucion-nacional-derechos-humanos-uruguay/igualdadynodiscriminacion",
+     "sources": [
+      "https://www.gub.uy/institucion-nacional-derechos-humanos-uruguay/igualdadynodiscriminacion",
+      "https://www.gub.uy/institucion-nacional-derechos-humanos-uruguay/sites/institucion-nacional-derechos-humanos-uruguay/files/documentos/publicaciones/Cuatriptico_INDDHH%20FINAL.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "GT",
+   "slug": "guatemala",
+   "name": "Guatemala",
+   "emergency": {
+    "number": "122",
+    "label": "Cuerpo Voluntario de Bomberos (volunteer firefighters), for medical and other emergencies",
+    "source": "https://bomberosvoluntarios.org.gt/en-services/medical-emergencies"
+   },
+   "resources": [
+    {
+     "id": "gt-1582-te-escucha",
+     "section": "help-now",
+     "name": "1582 Te Escucha",
+     "org": "FUNDEGUA (Fundación Desarrolla Guatemala para la Educación y la Salud)",
+     "what": "A free crisis and suicide prevention line, open 24 hours a day since 10 October 2026, with referrals to other services.",
+     "how": "Call 1582, or send a WhatsApp message to 3007-1582. It is free for the caller.",
+     "phone": "1582",
+     "dial": "1582",
+     "url": "https://fundegua.org.gt/linea-1582",
+     "sources": [
+      "https://fundegua.org.gt/linea-1582"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gt-igss-pension-invalidez",
+     "section": "money",
+     "name": "IGSS disability pension (pensión por invalidez)",
+     "org": "Instituto Guatemalteco de Seguridad Social (IGSS)",
+     "what": "A pension for insured workers whose disability is confirmed by the IGSS. If it is caused by illness, you need 36 contributions paid in the 6 years before the disability began; if it is caused by an accident, you must have been covered when it happened and have 3 months of contributions in the 6 months before.",
+     "how": "Bring your DPI and the completed work history form (IVS-102) to the IGSS at 7.ª avenida 22-72, zona 1, Centro Cívico, Guatemala City; in the metropolitan area, book through CATAFI, and elsewhere go to your nearest IGSS office. Update your details, including your NIT, first. It is free and you do not need a lawyer or agent. In Spanish.",
+     "phone": "2412-1255",
+     "dial": "24121255",
+     "url": "https://www.igssgt.org/wp-content/uploads/2026/01/Requisitos-Solicitud-de-Pension-Invalidez-Programa-IVS-IGSS-Rev-2026.pdf",
+     "phone_note": "IGSS switchboard: 1522.",
+     "sources": [
+      "https://www.igssgt.org/wp-content/uploads/2026/01/Requisitos-Solicitud-de-Pension-Invalidez-Programa-IVS-IGSS-Rev-2026.pdf"
      ],
      "reviewed_on": "2026-11-21"
     }
