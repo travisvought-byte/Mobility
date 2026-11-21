@@ -95,37 +95,36 @@ function drawNeeds(s){
 }
 // After a need is chosen with a button, take the reader to the list (the chips redraw, so focus would be lost anyway)
 function toResults(){const h=$('results-h');if(!h)return;h.setAttribute('tabindex','-1');if(h.scrollIntoView)h.scrollIntoView();h.focus({preventScroll:true});}
+// The map (assets/help-map.js, with Leaflet) follows the filters, and choosing on it sets them.
+// Without it (no JavaScript map support, or the file did not load) the section stays hidden and the menus do the same job.
+function pickCounty(state,c){const box=$('f-county');if(![...box.options].some(o=>o.value===c))fillCounties(state,c);box.value=(low(box.value)===low(c))?'':c;render();}
+function pickState(code){$('f-state').value=code;fillCounties(code,'');render();}
+function stateCounts(s){const n={};for(const r of main){if(r.state==='US'||r.category==='veterans')continue;if(s.category&&r.category!==s.category)continue;if(s.audience&&!(r.audience||[]).includes(s.audience))continue;n[r.state]=(n[r.state]||0)+1;}return n;}
 function paintMap(m,s){
-  const sec=$('statemap'),box=$('map-wrap'),NS='http://www.w3.org/2000/svg';
-  const name=STATES[s.state]||s.state,cnt={};let statewide=0,local=0;
-  for(const r of main){if(r.state!==s.state||r.category==='veterans')continue;if(s.category&&r.category!==s.category)continue;if(s.audience&&!(r.audience||[]).includes(s.audience))continue;
+  const sec=$('statemap'),name=STATES[s.state]||s.state,cnt={};let statewide=0,local=0;
+  if(s.state)for(const r of main){if(r.state!==s.state||r.category==='veterans')continue;if(s.category&&r.category!==s.category)continue;if(s.audience&&!(r.audience||[]).includes(s.audience))continue;
     if(r.scope==='counties'){local++;for(const c of r.counties||[])cnt[nk(c)]=(cnt[nk(c)]||0)+1;}else statewide++;}
-  box.textContent='';
-  const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox',m.viewBox.join(' '));svg.setAttribute('role','group');svg.setAttribute('aria-label','County map of '+name);svg.setAttribute('class','statesvg');
-  const pick=c=>{const box2=$('f-county');if(![...box2.options].some(o=>o.value===c))fillCounties(s.state,c);box2.value=(low(box2.value)===low(c))?'':c;render();};
-  for(const c of m.counties){
-    const n=cnt[nk(c.n)]||0,lvl=n===0?0:n===1?1:n<=3?2:n<=6?3:4;
-    const p=document.createElementNS(NS,'path');p.setAttribute('d',c.d);p.setAttribute('class','co c'+lvl+(s.county&&nk(s.county)===nk(c.n)?' sel':''));
-    p.setAttribute('tabindex','0');p.setAttribute('role','button');p.setAttribute('aria-label',c.n+': '+n+(n===1?' local program':' local programs')+'. Select to filter the list.');
-    const ti=document.createElementNS(NS,'title');ti.textContent=c.n+' ('+n+')';p.append(ti);
-    p.addEventListener('click',()=>pick(c.n));p.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick(c.n);}});
-    svg.append(p);
-  }
-  if(!local){sec.hidden=true;return;}
-  box.append(svg);
-  $('map-h').textContent='Map of resources in '+name;
-  $('map-summary').textContent=statewide+' '+(statewide===1?'program serves':'programs serve')+' all of '+name+' (listed below). '+local+' '+(local===1?'program serves':'programs serve')+' specific counties. Select a county to narrow the list.';
   sec.hidden=false;
+  if(!s.state){$('map-h').textContent='Map of help in every state';$('map-summary').textContent='Choose a state on the map or in the list beside it, or use your location, to see its programs and how many serve each county.';$('map-legend').hidden=true;$('map-shade').hidden=true;}
+  else{$('map-h').textContent='Map of resources in '+name;$('map-legend').hidden=false;$('map-shade').hidden=false;
+    $('map-summary').textContent=local?statewide+' '+(statewide===1?'program serves':'programs serve')+' all of '+name+' (listed below). '+local+' '+(local===1?'program serves':'programs serve')+' specific counties. Select a county to narrow the list.'
+      :'All '+statewide+' '+(statewide===1?'program':'programs')+' listed for '+name+' serve the whole '+(TERRITORIES.has(s.state)?'territory':'state')+', so no county is shaded. Select a county to add its veterans service office, where one is listed.';}
+  const ok=window.MTMap.help({state:s.state,county:s.county,geo:m,counts:cnt,stateCounts:s.state?null:stateCounts(s),names:STATES,
+    onState:pickState,onCounty:c=>pickCounty(s.state,c),
+    onLocate:(st,county,geo)=>{if(geo&&Array.isArray(geo.counties))mapCache[st]=geo;$('f-state').value=st;fillCounties(st,county);render();}});
+  if(!ok)sec.hidden=true;
 }
+let pendingCounty=q.get('county')||'';
 function drawMap(s){
   const sec=$('statemap');if(!sec)return;
-  if(!s.state||TERRITORIES.has(s.state)||!main.some(r=>r.state===s.state)){sec.hidden=true;return;}
+  if(!window.MTMap||!window.MTMap.ok()||!mainOk){sec.hidden=true;return;}
+  if(!s.state){paintMap(null,s);return;}
   if(mapCache[s.state]){paintMap(mapCache[s.state],s);return;}
   const tok=++mapTok;
-  fetch('data/maps/'+s.state+'.json').then(r=>r.ok?r.json():null).catch(()=>null).then(m=>{
-    if(!m||!Array.isArray(m.counties)||!Array.isArray(m.viewBox)){sec.hidden=true;return;}
+  (window.MTMap.counties||(st=>fetch('data/geo/'+st+'.json').then(r=>r.json())))(s.state).catch(()=>null).then(m=>{
+    if(!m||!Array.isArray(m.counties)){sec.hidden=true;return;}
     mapCache[s.state]=m;if(tok!==mapTok)return;
-    fillCounties(s.state,$('f-county').value);render();});
+    fillCounties(s.state,$('f-county').value||pendingCounty);pendingCounty='';render();});
 }
 function render(){
   const s=sel(),out=$('results');out.textContent='';
@@ -167,7 +166,7 @@ function init(){
   render();
 }
 function wire(){
-  $('f-state').addEventListener('change',()=>{fillCounties($('f-state').value,'');render();});
+  $('f-state').addEventListener('change',()=>{pendingCounty='';fillCounties($('f-state').value,'');render();});
   for(const id of ['f-county','f-cat','f-aud'])$(id).addEventListener('change',render);
   $('f-q').addEventListener('input',render);
   $('f-print').addEventListener('click',()=>window.print());

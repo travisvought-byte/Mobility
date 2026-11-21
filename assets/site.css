@@ -73,9 +73,26 @@ footer{color:#42525b;margin-top:12px}
 .tile:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @media(max-width:600px){.tilemap{gap:3px}.tile{font-size:12px;border-radius:5px;min-height:34px}}
 @media print{.tilemap{display:none}}
-.statemap .map-wrap{max-width:760px}.statesvg{width:100%;height:auto;max-height:70vh;display:block}
-.co{stroke:#fff;stroke-width:.6;cursor:pointer;transition:opacity .1s}.co:hover{opacity:.8}.co:focus-visible{outline:none;stroke:#183449;stroke-width:2.2}
-.co.c0{fill:#dfe6e1}.co.c1{fill:#b9d3c4}.co.c2{fill:#7fb095}.co.c3{fill:#4a8a68}.co.c4{fill:#276244}.co.sel{stroke:#bb8e36;stroke-width:2.4}
+/* The help map (assets/help-map.js): real outlines over OpenStreetMap, with the same places listed beside it */
+.mapbody{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(260px,1fr);gap:18px;align-items:start;margin-top:10px}
+.map-wrap{height:min(64vh,560px);min-height:360px;border-radius:8px;border:1px solid #abb8b1;background:#dfe7e3;z-index:0}
+.map-wrap:focus-visible{outline:3px solid var(--focus,#8a6420);outline-offset:3px}
+.map-tools{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0}.map-tools [hidden],.statemap .legend[hidden],.homemapcol[hidden]{display:none}.map-tools button{min-height:48px}
+.maplist{background:#fff;border:1px solid var(--line);border-radius:8px;padding:4px 14px 10px;max-height:min(72vh,640px);overflow:auto}
+.maplist h3{font-size:19px;margin:10px 0 6px;position:sticky;top:0;background:#fff;padding:4px 0;z-index:1}
+.maphits{list-style:none;margin:0;padding:0}.maphits li{margin:0;border-bottom:1px solid #e3e8e4}
+.maphit{all:unset;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;width:100%;min-height:52px;padding:8px 10px;cursor:pointer;border-radius:6px;color:#183449}
+.maphit .mh-name{font-weight:700;line-height:1.3}.maphit .mh-sub{font-size:15px;color:#4f6259;line-height:1.35}
+.maphit:hover{background:#e8eeea}.maphit:focus-visible{outline:3px solid var(--focus,#8a6420);outline-offset:-3px}
+.maphit[aria-pressed=true]{background:#335947;color:#fff}.maphit[aria-pressed=true] .mh-sub{color:#fff}
+.leaflet-container{font:16px/1.4 system-ui,sans-serif}
+.leaflet-bar a,.leaflet-bar a:hover{width:40px;height:40px;line-height:38px;font-size:24px;color:#183449}
+.leaflet-control-attribution{font-size:13px;background:#fff!important;color:#34454e}.leaflet-control-attribution a{color:#215b76}
+.leaflet-tooltip{font-size:15px;color:#183449;border-color:#abb8b1}
+.has-map .home-map{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;align-items:start}
+.has-map .home-map .tilemap{margin-top:0}.home-map .map-wrap{height:min(56vh,440px);min-height:300px}
+@media(max-width:850px){.mapbody,.has-map .home-map{grid-template-columns:1fr}.map-wrap{height:52vh;min-height:300px}.maplist{max-height:50vh}}
+@media print{.mapbody,.map-tools,.home-map .map-wrap{display:none}}
 .legend{font-size:14px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}.sw{display:inline-block;width:18px;height:18px;border-radius:3px;border:1px solid #c5cfc9}.sw.c0{background:#dfe6e1}.sw.c1{background:#b9d3c4}.sw.c2{background:#7fb095}.sw.c3{background:#4a8a68}.sw.c4{background:#276244}
 @media print{.statemap{display:none}}
 /* Partner page */
@@ -255,7 +272,13 @@ textarea,select,input[type=search],input[type=text]{background:var(--card);color
 .toc.tiles a:hover,.toc.tiles a:focus-visible{box-shadow:0 4px 12px rgba(0,0,0,.45)}
 .card .contact a{color:#a8dcc0;border-color:#6aa486}.card .contact a[href^="tel:"]{background:#335947;color:#fff}.card .contact a[href^="tel:"]:hover{background:#3a7556}
 .skip{background:var(--card);color:var(--ink)}
-.co{stroke:#10181d}.co:focus-visible{stroke:#e7cc88}.sw{border-color:#71848e}
+.sw{border-color:#71848e}
+.map-wrap{background:#1c272d;border-color:#71848e}.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.9)}
+.maplist,.maplist h3{background:var(--card)}.maphits li{border-color:var(--line)}.maphit{color:var(--head)}.maphit .mh-sub{color:var(--muted)}.maphit:hover{background:var(--tint)}
+.maphit[aria-pressed=true]{background:#335947;color:#fff}.maphit[aria-pressed=true] .mh-sub{color:#e3eaee}
+.leaflet-bar a,.leaflet-bar a:hover{background:var(--card);color:var(--ink);border-color:var(--line)}.leaflet-bar a.leaflet-disabled{background:#1e2a30;color:#8a9aa2}
+.leaflet-control-attribution{background:var(--card)!important;color:var(--ink)}.leaflet-control-attribution a{color:#8fcbe8}
+.leaflet-tooltip{background:var(--card);color:var(--ink);border-color:#71848e}.leaflet-tooltip-top:before{border-top-color:#71848e}
 .tile:hover{background:#2b5372}
 .featured-org{box-shadow:0 0 0 1px #33454f}
 /* the auction page sets its own colors after this file, so these carry the page root for priority */
