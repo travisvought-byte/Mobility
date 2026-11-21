@@ -1,6 +1,6 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request: Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them.",
- "reviewed_on": "2026-11-19",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them.",
+ "reviewed_on": "2026-11-20",
  "sections": {
   "help-now": "Crisis and someone to talk to",
   "start": "Where to start",
@@ -518,6 +518,42 @@
       "https://ncda.gov.ph/wp-content/uploads/2024/04/NCDA-CITIZENS-CHARTER-2024-HANDBOOK-ARTA-31MAR2024.pdf"
      ],
      "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "ph-aics",
+     "section": "equipment-home",
+     "name": "AICS medical and assistive device help",
+     "org": "Department of Social Welfare and Development (DSWD)",
+     "what": "Assistance to Individuals in Crisis Situations (AICS) gives one-time financial help to people facing a crisis, including medical help that can cover medicine and assistive devices. DSWD says it is not only for the poor.",
+     "how": "Go to a DSWD Crisis Intervention Unit or your local social welfare office with a valid ID, a medical certificate or clinical abstract, a prescription or request for the device, and a price quotation. A social worker assesses your situation.",
+     "phone": "(02) 8962 2513",
+     "dial": "0289622513",
+     "phone_note": "DSWD Crisis Intervention Unit, Quezon City, weekdays 8am to 5pm",
+     "email": "ciu@dswd.gov.ph",
+     "url": "https://crisis-intervention.dswd.gov.ph/",
+     "sources": [
+      "https://crisis-intervention.dswd.gov.ph/",
+      "https://fo11.dswd.gov.ph/aicsinfo/",
+      "https://aics.dswd.gov.ph/wp-content/uploads/2023/08/AICS-Citizens-Charter-Onsite.pdf"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ph-chr",
+     "section": "rights",
+     "name": "Commission on Human Rights",
+     "org": "Commission on Human Rights of the Philippines",
+     "what": "The national human rights institution. It takes complaints and gives legal help, and monitors the rights of persons with disabilities under the Magna Carta for Persons with Disability and the UN disability rights convention.",
+     "how": "Call the head office (press 2) or its Public Assistance and Complaints Desk on 0936 068 0982 (Globe) or 0920 506 1194 (Smart), or email publicassistance@chr.gov.ph.",
+     "phone": "(02) 8925 3886",
+     "dial": "0289253886",
+     "email": "publicassistance@chr.gov.ph",
+     "url": "https://chr.gov.ph/contact-us/",
+     "sources": [
+      "https://chr.gov.ph/contact-us/",
+      "https://chr-observatories.uwazi.io/page/bm6wdiujhw9"
+     ],
+     "reviewed_on": "2026-11-20"
     }
    ]
   },
@@ -565,6 +601,24 @@
       "https://help.unhcr.org/southafrica/get-help/disability/"
      ],
      "reviewed_on": "2026-11-19"
+    },
+    {
+     "id": "za-care-dependency-grant",
+     "section": "money",
+     "name": "Care Dependency Grant",
+     "org": "South African Social Security Agency (SASSA)",
+     "what": "A monthly grant for the parent or caregiver of a child under 18 with a severe disability who needs full-time care. It is means tested, and a medical assessment must confirm the disability.",
+     "how": "Apply free at your nearest SASSA office with your ID, the child's birth certificate and the medical reports. Forms are not online.",
+     "phone": "0800 60 10 11",
+     "dial": "0800601011",
+     "email": "GrantEnquiries@sassa.gov.za",
+     "url": "https://www.sassa.gov.za/",
+     "sources": [
+      "https://www.westerncape.gov.za/home-page-feature/apply-social-grant",
+      "https://www.gov.za/node/727509",
+      "https://legalfundi.com/plm-subchapers/care-dependency-grant-cdg/"
+     ],
+     "reviewed_on": "2026-11-20"
     },
     {
      "id": "za-sahrc",
@@ -704,6 +758,340 @@
       "https://www.citizensadvice.org.uk/wales/law-and-courts/discrimination/check-if-youre-protected-from-discrimination/equality-advisory-support-service-discrimination-helpline/"
      ],
      "reviewed_on": "2026-11-19"
+    }
+   ]
+  },
+  {
+   "code": "JM",
+   "slug": "jamaica",
+   "name": "Jamaica",
+   "emergency": {
+    "number": "119",
+    "label": "Police. For an ambulance or the fire service, dial 110",
+    "source": "https://jis.gov.jm/keep-emergency-numbers-close-says-jfb/"
+   },
+   "resources": [
+    {
+     "id": "jm-new-life",
+     "section": "help-now",
+     "name": "Mental Health and Suicide Prevention Helpline (888-NEW-LIFE)",
+     "org": "Ministry of Health and Wellness",
+     "what": "The Ministry of Health's free helpline for anyone in Jamaica who is struggling, including anyone thinking about suicide.",
+     "how": "Call 888-NEW-LIFE (888-639-5433). It is toll-free.",
+     "phone": "888-639-5433",
+     "dial": "8886395433",
+     "url": "https://www.moh.gov.jm/",
+     "sources": [
+      "https://jis.gov.jm/prioritise-your-mental-health/",
+      "https://www.moh.gov.jm/health-ministry-boosts-community-mental-health-care/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "jm-jcpd",
+     "section": "start",
+     "name": "Register with the Jamaica Council for Persons with Disabilities (JCPD)",
+     "org": "Jamaica Council for Persons with Disabilities",
+     "what": "The government agency for people with disabilities. Registering is what opens its grants and services, and only registered members get benefits such as disability parking stickers and access to the share of National Housing Trust homes set aside for people with disabilities.",
+     "how": "Register through the I Am Able: My JCPD app (Android), at the JCPD head office at 1C-1F Pawsey Road, Kingston 5, or with a social worker at a Ministry of Labour and Social Security parish office. Call 876-515-9069 or 876-447-0444, or email jcpd@jcpd.gov.jm.",
+     "phone": "876-515-9069",
+     "dial": "8765159069",
+     "email": "jcpd@jcpd.gov.jm",
+     "url": "https://www.jcpd.gov.jm/",
+     "sources": [
+      "https://jis.gov.jm/jcpd-head-office-relocation-under-way/",
+      "https://jis.gov.jm/persons-with-disabilities-encouraged-to-register-with-the-jcpd/",
+      "https://mlss.gov.jm/wp-content/uploads/2021/11/JCPD-2017_Disabilities-Act-8hx11-fin.pdf"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "jm-jcpd-grants",
+     "section": "equipment-home",
+     "name": "JCPD Assistive Aid and Economic Empowerment grants",
+     "org": "Jamaica Council for Persons with Disabilities",
+     "what": "Registered members, or their caregivers, can apply for help buying assistive aids such as wheelchairs, hearing aids, white canes and prostheses, and for grants to start a small business. In June 2026 the JCPD said assistive aid help runs up to J$300,000 and business grants from J$50,000 to J$250,000, depending on the need.",
+     "how": "Register with the JCPD first, then apply in the I Am Able: My JCPD app or at a JCPD or parish office.",
+     "url": "https://www.jcpd.gov.jm/",
+     "sources": [
+      "https://jis.gov.jm/jcpd-urges-persons-with-disabilities-to-use-i-am-able-app/",
+      "https://jamaica-gleaner.com/article/news/20261110/jcpd-disburses-329-million-grants-date-fiscal-year",
+      "https://jis.gov.jm/hundreds-living-disabilities-get-help-jcpd/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "jm-disabilities-rights-tribunal",
+     "section": "rights",
+     "name": "Discrimination complaints and the Disabilities Rights Tribunal",
+     "org": "Jamaica Council for Persons with Disabilities",
+     "what": "Under the Disabilities Act, 2014 (in force since 2022), you can complain to the JCPD about disability discrimination. The JCPD investigates and tries mediation; if that does not settle it, the case goes to the Disabilities Rights Tribunal, which decides it.",
+     "how": "Make a written complaint to the JCPD on its complaint form, in person, by email to jcpd@jcpd.gov.jm, or in the I Am Able: My JCPD app. There is a time limit, so complain soon after it happens.",
+     "phone": "876-447-0444",
+     "dial": "8764470444",
+     "email": "jcpd@jcpd.gov.jm",
+     "sources": [
+      "https://jis.gov.jm/disabilities-rights-tribunal-settles-complaints/",
+      "https://jis.gov.jm/jcpd-urges-persons-with-disabilities-to-use-i-am-able-app/",
+      "https://jis.gov.jm/jcpd-head-office-relocation-under-way/",
+      "https://jamaica-gleaner.com/article/news/20260909/disabilities-act-yet-break-down-barriers-few-successes-recorded-tribunal"
+     ],
+     "reviewed_on": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "code": "KE",
+   "slug": "kenya",
+   "name": "Kenya",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and ambulance. 112 and 911 also work",
+    "source": "https://nationalpolice.go.ke/sites/default/files/2025-07/NPS%20poster%20-%20SERVICE%20STANDARDS_0.pdf"
+   },
+   "resources": [
+    {
+     "id": "ke-red-cross-1199",
+     "section": "help-now",
+     "name": "Kenya Red Cross 1199",
+     "org": "Kenya Red Cross Society",
+     "what": "A free 24-hour line run by the Kenya Red Cross. Its counsellors give emotional and psychosocial support to people in distress.",
+     "how": "Dial 1199. If it does not connect, call the Red Cross on +254 703 037 000.",
+     "phone": "1199",
+     "dial": "1199",
+     "url": "https://www.redcross.or.ke/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://lifeline-international.com/?p=3351",
+      "https://pscentre.org/?p=39214"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ke-ncpwd",
+     "section": "start",
+     "name": "Register with the National Council for Persons with Disabilities (NCPWD)",
+     "org": "National Council for Persons with Disabilities",
+     "what": "Registration with NCPWD is free and is the key to its services: assistive devices, education help, economic empowerment grants, job placement, legal advice and the income tax exemption. You need a disability assessment report from a government-gazetted hospital, signed by the county medical director.",
+     "how": "Get assessed at a gazetted hospital, then register on eCitizen (ncpwd.ecitizen.go.ke) with the report, your national ID or a child's birth certificate, and a passport photo. Or ask at your county NCPWD office.",
+     "phone": "0800 724 333",
+     "dial": "0800724333",
+     "email": "info@ncpwd.go.ke",
+     "url": "https://ncpwd.go.ke/faq/",
+     "sources": [
+      "https://ncpwd.go.ke/faq/",
+      "https://ncpwd.go.ke/privacy-policy/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ke-pwsd-ct",
+     "section": "money",
+     "name": "Inua Jamii cash transfer for persons with severe disabilities",
+     "org": "State Department for Social Protection",
+     "what": "Regular payments to households caring for a person with a severe disability who needs permanent care, through the Inua Jamii programme. Recipients must not be in another government cash transfer programme.",
+     "how": "Ask your local social development officer about enrolment, or email inuajamii@socialprotection.go.ke. Paid recipients can check and withdraw funds by dialling *222#.",
+     "email": "inuajamii@socialprotection.go.ke",
+     "url": "https://socialprotection.go.ke/",
+     "sources": [
+      "https://socialprotection.go.ke/node/216",
+      "https://socialprotection.go.ke/sites/default/files/press%20release/FEBRUARY%20INUA%20JAMII%20PRESS%20RELEASE.pdf",
+      "https://ncpwd.go.ke/faq/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ke-ncpwd-devices",
+     "section": "equipment-home",
+     "name": "NCPWD assistive devices",
+     "org": "National Council for Persons with Disabilities",
+     "what": "Registered members can apply for assistive devices, including motorized wheelchairs. For a motorized wheelchair, NCPWD covers up to KES 100,000 and you pay anything above that.",
+     "how": "Fill in the assistive device form, get a recommendation from the right professional (a physiotherapist or orthopaedic technologist, an audiologist, or an ophthalmologist), attach your NCPWD card, ID and assessment report, and hand it in at your county NCPWD office.",
+     "phone": "0800 724 333",
+     "dial": "0800724333",
+     "url": "https://ncpwd.go.ke/faq/",
+     "sources": [
+      "https://ncpwd.go.ke/faq/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ke-tax-exemption",
+     "section": "money",
+     "name": "Income tax exemption for persons with disabilities",
+     "org": "National Council for Persons with Disabilities, with the Kenya Revenue Authority",
+     "what": "Registered persons with disabilities who have taxable income can be exempted from tax on the first KES 150,000 of income a month.",
+     "how": "Apply through the NCPWD portal on eCitizen with your NCPWD certificate, KRA PIN, a valid tax compliance certificate and the other listed documents. NCPWD says it takes one to three months.",
+     "url": "https://www.kra.go.ke/individual/special-needs/learn-about-tax-exemption/people-with-disability",
+     "sources": [
+      "https://www.kra.go.ke/individual/special-needs/learn-about-tax-exemption/people-with-disability",
+      "https://www.kra.go.ke/individual/special-needs",
+      "https://ncpwd.go.ke/faq/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ke-knchr",
+     "section": "rights",
+     "name": "Kenya National Commission on Human Rights",
+     "org": "Kenya National Commission on Human Rights",
+     "what": "Takes complaints about human rights violations, including against persons with disabilities. It monitors Kenya's duties under the UN disability rights convention and the Persons with Disabilities Act, 2025.",
+     "how": "Call the toll-free line and say you want to lodge a complaint; the Commission calls you back at its cost. You can also SMS 22359, email complaints@knchr.org, or complain on the website.",
+     "phone": "0800 720 627",
+     "dial": "0800720627",
+     "email": "complaints@knchr.org",
+     "url": "https://www.knchr.org/",
+     "sources": [
+      "https://www.knchr.org/Frequently-Asked-Questions",
+      "https://www.knchr.org/Articles/PgrID/2432/PageID/3/d/d67e92"
+     ],
+     "reviewed_on": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "code": "MX",
+   "slug": "mexico",
+   "name": "Mexico",
+   "emergency": {
+    "number": "911",
+    "label": "Police, fire and medical emergencies across the country",
+    "source": "https://www.gob.mx/cms/uploads/attachment/file/831549/Reporte_Yo_AYUDO_al_9-1-1.pdf"
+   },
+   "resources": [
+    {
+     "id": "mx-linea-de-la-vida",
+     "section": "help-now",
+     "name": "Línea de la Vida",
+     "org": "Comisión Nacional de Salud Mental y Adicciones (CONASAMA)",
+     "what": "Mexico's free national line for anyone in emotional crisis, thinking about suicide, or dealing with addiction, open any hour.",
+     "how": "Call 800 911 2000 from any phone in Mexico. The line is in Spanish.",
+     "phone": "800 911 2000",
+     "dial": "8009112000",
+     "url": "https://www.gob.mx/conasama/articulos/linea-de-la-vida-800-911-2000",
+     "sources": [
+      "https://www.gob.mx/conasama/articulos/linea-de-la-vida-800-911-2000",
+      "https://findahelpline.com/organizations/linea-de-la-vida"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "mx-pension-discapacidad",
+     "section": "money",
+     "name": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
+     "org": "Secretaría de Bienestar",
+     "what": "A federal pension paid every two months to people with a permanent disability. In states that signed agreements with the federal government it covers ages 0 to 64; elsewhere the age range is narrower. At 65, recipients move to the older adults' pension.",
+     "how": "Registration opens at set times at Módulos del Bienestar (find yours at ubicatumodulo.bienestar.gob.mx). Bring a birth certificate, official ID, CURP, recent proof of address and, where your state asks for it, a disability certificate. For questions, call the Línea del Bienestar.",
+     "phone": "800 639 4264",
+     "dial": "8006394264",
+     "phone_note": "Línea del Bienestar: weekdays 8:00 to 21:00, weekends and holidays 9:00 to 13:00",
+     "url": "https://www.gob.mx/bienestar/acciones-y-programas/pension-para-el-bienestar-de-las-personas-con-discapacidad-permanente",
+     "links": [
+      {
+       "label": "2026 operating rules (DOF)",
+       "url": "https://dof.gob.mx/nota_detalle_popup.php?codigo=5780064"
+      }
+     ],
+     "sources": [
+      "https://www.gob.mx/bienestar/acciones-y-programas/pension-para-el-bienestar-de-las-personas-con-discapacidad-permanente",
+      "https://dof.gob.mx/nota_detalle_popup.php?codigo=5780064",
+      "https://www.gob.mx/cms/uploads/attachment/file/811399/GuiaContraloriaAM2023.pdf",
+      "https://www.infobae.com/mexico/2026/03/18/pension-del-bienestar-para-personas-con-discapacidad-2026-estos-son-los-documentos-que-necesitas-para-registrarte-antes-de-la-fecha-limite/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "mx-dif-rehab",
+     "section": "equipment-home",
+     "name": "DIF rehabilitation centres (CRI, CREE and UBR)",
+     "org": "Sistema Nacional DIF and state and municipal DIF systems",
+     "what": "The DIF family-services system runs rehabilitation centres across the country: Centros de Rehabilitación Integral (CRI), Centros de Rehabilitación y Educación Especial (CREE) and local Unidades Básicas de Rehabilitación (UBR). They offer therapy and rehabilitation for people with temporary or permanent disabilities, and many help with functional aids.",
+     "how": "Ask your municipal or state DIF office for the nearest CRI, CREE or UBR. Services and costs are set by each state.",
+     "url": "https://www.gob.mx/difnacional",
+     "sources": [
+      "https://www.asf.gob.mx/Trans/Informes/IR2022b/Documentos/Auditorias/2022_0377_a.pdf",
+      "https://www.jornada.com.mx/2018/09/12/sociedad/040n2soc",
+      "https://chihuahua.gob.mx/sites/default/atach2/noticias/adjuntos/2025-07/Inauguran%20DIF%20Estatal%20y%20Ayuntamiento%20de%20Meoqui%20Centro%20de%20Rehabilitaci%C3%B3n%20Integral.docx_.pdf"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "mx-conapred",
+     "section": "rights",
+     "name": "CONAPRED: discrimination complaints",
+     "org": "Consejo Nacional para Prevenir la Discriminación",
+     "what": "The national council against discrimination. It takes complaints when a person, business or public office treats you unfairly because of a disability, and disability is one of the most common reasons people complain to it.",
+     "how": "Call toll-free from outside Mexico City (in the city, 55 5262 1490), Monday to Thursday 9:00 to 17:30 and Friday 9:00 to 15:00, or file a complaint online.",
+     "phone": "800 543 0033",
+     "dial": "8005430033",
+     "url": "https://www.conapred.gob.mx/quejas/presenta-tu-queja-en-linea",
+     "sources": [
+      "https://www.conapred.gob.mx/",
+      "https://www.unotv.com/nacional/conapred-presenta-guia-de-mejora-de-servicios-para-transformar-vidas/"
+     ],
+     "reviewed_on": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "code": "NG",
+   "slug": "nigeria",
+   "name": "Nigeria",
+   "emergency": {
+    "number": "112",
+    "label": "National emergency number, free from any network",
+    "source": "https://technologytimes.ng/nigeria-adopts-112-as-national-emergency-number/"
+   },
+   "resources": [
+    {
+     "id": "ng-she-writes-woman",
+     "section": "help-now",
+     "name": "She Writes Woman mental health helpline",
+     "org": "She Writes Woman",
+     "what": "A free mental health line for anyone in Nigeria who is struggling emotionally.",
+     "how": "Call 0800 800 2000.",
+     "phone": "0800 800 2000",
+     "dial": "08008002000",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://nigeriahealthwatch.com/articles/press-release/0800-800-2000-she-writes-woman-mental-health-initiative-launches-toll-free-mental-health-helpline/",
+      "https://nigeriahealthwatch.com/articles/torchlight/she-writes-woman-giving-mental-health-a-voice-in-nigeria/"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ng-ncpwd",
+     "section": "start",
+     "name": "National Commission for Persons with Disabilities (NCPWD)",
+     "org": "National Commission for Persons with Disabilities",
+     "what": "The federal agency set up by the Discrimination Against Persons with Disabilities (Prohibition) Act, 2018. It registers persons with disabilities, links them to social protection programmes, promotes affordable assistive technology and takes up cases where the Act is not being followed, including discrimination.",
+     "how": "Call or email the Commission, or visit its head office at Plot 79 Ralph Shodeinde Street, Central Business District, Abuja.",
+     "phone": "0803 254 2453",
+     "dial": "08032542453",
+     "email": "info@ncpwd.gov.ng",
+     "url": "https://ncpwd.gov.ng/",
+     "sources": [
+      "https://ncpwd.gov.ng/",
+      "https://ncpwd.gov.ng/Apps/Web/mandate",
+      "https://ncpwd.gov.ng/Apps/Web/hrm"
+     ],
+     "reviewed_on": "2026-11-20"
+    },
+    {
+     "id": "ng-nhrc",
+     "section": "rights",
+     "name": "National Human Rights Commission",
+     "org": "National Human Rights Commission",
+     "what": "Takes complaints about human rights violations, free of charge, at its headquarters and state offices, including violations against persons with disabilities.",
+     "how": "Call the toll-free line or the short code 6472, file a complaint online, or write to the Executive Secretary at any NHRC office.",
+     "phone": "0800 647 2428",
+     "dial": "08006472428",
+     "url": "https://report.nhrc.gov.ng/app/complaint",
+     "sources": [
+      "https://www.nigeriarights.gov.ng/",
+      "https://nigeriarights.gov.ng/about/nhrc-mandate.html"
+     ],
+     "reviewed_on": "2026-11-20"
     }
    ]
   }
