@@ -139,6 +139,7 @@ def emergency_box(c):
 def country_page(c):
     place = the(c['name'])
     n = len(c['resources'])
+    checked = max(r['reviewed_on'] for r in c['resources'])
     kinds = [SECTIONS[k].lower() for k in SECTIONS if any(r['section'] == k for r in c['resources'])]
     title = f'Disability resources in {place}'
     desc = (f'Disability help in {place}: {", ".join(kinds)}. Phone numbers and official pages, each checked against its source.')[:300]
@@ -157,7 +158,7 @@ def country_page(c):
             relay += f' <a href="{E(c["relay_url"])}" rel="noopener" target="_blank">Relay service website{NEW_TAB}</a>'
         relay += '</p>'
     intro = (f'<p>Mobility Talk began in the United States and is now adding other countries. These are the first listings for {E(place)}: '
-             f'{n} national programs and lines, each checked against its own page or an official directory on {E(DATA["reviewed_on"])}. '
+             f'{n} national programs and lines, each checked against its own page or an official directory (most recently on {E(checked)}). '
              'Local and regional services are not listed yet.</p>')
     body = (f'<header>{nav("../", "world.html")}<small>{E(c["name"].upper())} · DISABILITY RESOURCES</small><h1>{E(title)}</h1>{intro}</header>\n'
             f'<main id="main">{emergency_box(c)}'
