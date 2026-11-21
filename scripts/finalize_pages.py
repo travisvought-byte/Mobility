@@ -98,7 +98,7 @@ SUB=('states/','countries/')
 # so this site never mixes with the others there. No cookies; query strings are dropped.
 COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobilitytalk.org"+location.pathname},'
          'referrer:function(){try{var u=new URL(document.referrer);return u.origin+u.pathname}catch(e){return ""}}};</script>'
-         '<script data-goatcounter="https://travisvought.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
+         '<script data-goatcounter="https://vhg-guide.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
 # Site icon for browser tabs, bookmarks and search results (the 404 page uses root paths; it is served at any depth).
 def icon(pre):return f'<!--icon--><link rel="icon" href="{pre}favicon.svg" type="image/svg+xml"><link rel="icon" href="{pre}favicon.ico" sizes="48x48"><link rel="apple-touch-icon" href="{pre}apple-touch-icon.png"><!--/icon-->'
 AD_LIST=ADS.load()
