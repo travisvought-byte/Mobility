@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -4324,6 +4324,407 @@
      "phone_note": "IGSS switchboard: 1522.",
      "sources": [
       "https://www.igssgt.org/wp-content/uploads/2026/01/Requisitos-Solicitud-de-Pension-Invalidez-Programa-IVS-IGSS-Rev-2026.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "HU",
+   "slug": "hungary",
+   "name": "Hungary",
+   "emergency": {
+    "number": "112",
+    "label": "The free European emergency number; tell the operator exactly where you are. Deaf or hard of hearing people can send an SMS to the police on +36 20 9000 107",
+    "source": "https://www.police.hu/en/ugyintezes/mit-tegyek"
+   },
+   "resources": [
+    {
+     "id": "hu-lesz-116-123",
+     "section": "help-now",
+     "name": "Telephone emotional first aid (Lelki Elsősegély Telefonszolgálat) 116-123",
+     "org": "Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége (LESZ)",
+     "what": "Someone to talk to when you are in crisis or need emotional support, 24 hours a day, every day.",
+     "how": "Call 116-123, at any hour. It is free from every network inside Hungary. In Hungarian. You can also write in English to the email address the association gives on its site; it says it replies within 72 hours.",
+     "phone": "116-123",
+     "dial": "116123",
+     "url": "https://sos116-123.hu/",
+     "sources": [
+      "https://sos116-123.hu/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "hu-meosz",
+     "section": "rights",
+     "name": "MEOSZ (National Federation of Associations of People with Physical Disabilities)",
+     "org": "Mozgáskorlátozottak Egyesületeinek Országos Szövetsége",
+     "what": "A national federation that speaks up for people with mobility impairments: it puts proposals on benefits to the government and has reported to the Ombudsman on wheelchair access to trains.",
+     "how": "Call 06-1-388-2387 or 06-1-388-2388, email meosz@meosz.hu, or write to 1032 Budapest, San Marco u. 76. The site does not list opening hours. In Hungarian.",
+     "phone": "06-1-388-2387",
+     "dial": "0613882387",
+     "email": "meosz@meosz.hu",
+     "url": "https://www.meosz.hu/kapcsolat/",
+     "sources": [
+      "https://www.meosz.hu/kapcsolat/",
+      "https://www.meosz.hu/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "HR",
+   "slug": "croatia",
+   "name": "Croatia",
+   "emergency": {
+    "number": "112",
+    "label": "The single emergency number for police, ambulance, fire, mountain rescue and sea rescue, free and open 24 hours a day by phone or text message. You can report an emergency in Croatian, English, German, Italian, Hungarian or Slovak",
+    "source": "https://gov.hr/en/112-single-european-emergency-number/1184"
+   },
+   "resources": [
+    {
+     "id": "hr-plavi-telefon",
+     "section": "help-now",
+     "name": "Plavi telefon helpline (Linija pomoći Plavi telefon)",
+     "org": "Plavi telefon",
+     "what": "A free helpline for children, young people and adults anywhere in Croatia. It is not open around the clock.",
+     "how": "Call 01 4833 888, Monday to Friday 09:00 to 20:00. In a crisis outside those hours, call 112. The website is in Croatian.",
+     "phone": "01 4833 888",
+     "dial": "014833888",
+     "url": "https://www.plavi-telefon.hr/",
+     "sources": [
+      "https://www.plavi-telefon.hr/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "hr-inkluzivni-dodatak",
+     "section": "money",
+     "name": "Inclusive allowance (inkluzivni dodatak)",
+     "org": "Croatian Institute for Social Work (Hrvatski zavod za socijalni rad)",
+     "what": "A monthly payment that helps disabled children and adults take part in society on an equal basis. It is paid at five levels of support: €720, €480, €432, €162 or €138 a month, depending on the degree of disability. It is not paid to people living in a care home or organised housing, or to people receiving the personal disability allowance (osobna invalidnina) or certain care allowances.",
+     "how": "Apply to the regional office (područni ured) of the Croatian Institute for Social Work. The Institute sets your level of support after an assessment by the Institute for Medical Expertise (Zavod za vještačenje). The government page is in Croatian.",
+     "url": "https://www.gov.hr/hr/pravo-na-inkluzivni-dodatak/2559",
+     "sources": [
+      "https://www.gov.hr/hr/pravo-na-inkluzivni-dodatak/2559"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "hr-posi",
+     "section": "rights",
+     "name": "Ombudsperson for Persons with Disabilities (Pravobranitelj za osobe s invaliditetom)",
+     "org": "Ombudsperson for Persons with Disabilities",
+     "what": "Takes individual complaints from disabled people and people acting for them. The office reviews your case, warns anyone found violating your rights and recommends how to fix it, can ask for slow proceedings to be speeded up, and tells you which institution to turn to. In cases of discrimination, violence or abuse it reports to the state attorney.",
+     "how": "Call 01 6102 170 or 01 6177 901, email ured@posi.hr, or write to or visit Savska cesta 41/3, 10000 Zagreb. In Croatian.",
+     "phone": "01 6102 170",
+     "dial": "016102170",
+     "email": "ured@posi.hr",
+     "url": "https://posi.hr/kada-i-kako-postupamo/",
+     "sources": [
+      "https://posi.hr/kada-i-kako-postupamo/",
+      "https://posi.hr/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "UA",
+   "slug": "ukraine",
+   "name": "Ukraine",
+   "emergency": {
+    "number": "112",
+    "label": "The single emergency number, free of charge. Deaf people and people with speech impairments can text 112. You can also call 101 for the rescue service, 102 for the police and 103 for an ambulance",
+    "source": "https://www.kmu.gov.ua/news/mvs-bezbariernist-iak-liudiam-iz-porushenniam-slukhu-ta-movlennia-zdiisnyty-vyklyk-na-sluzhbu-112"
+   },
+   "resources": [
+    {
+     "id": "ua-la-strada-116-123",
+     "section": "help-now",
+     "name": "National hotline 116 123",
+     "org": "La Strada-Ukraine",
+     "what": "A free national hotline with psychological and legal consultations, for domestic violence, human trafficking and gender discrimination. La Strada-Ukraine also runs a free psychological support line for men, 2345, from 14:00 to 06:00, and a children and youth line, 0 800 500 225 or 116 111.",
+     "how": "Call 0 800 500 335 from a landline or mobile, or 116 123 from a mobile. You can also write on Telegram. The organisation's page does not give the hours. In Ukrainian.",
+     "phone": "0 800 500 335",
+     "dial": "0800500335",
+     "url": "https://la-strada.org.ua/garyachi-liniyi",
+     "sources": [
+      "https://la-strada.org.ua/garyachi-liniyi",
+      "https://la-strada.org.ua/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ua-childhood-disability-assistance",
+     "section": "money",
+     "name": "State assistance for people disabled from childhood and children with disabilities",
+     "org": "Pension Fund of Ukraine",
+     "what": "A monthly payment for adults disabled since childhood, for as long as the disability lasts, and for disabled children under 18. It is set as a share of the subsistence minimum: 100% for group I, 80% for group II and 60% for group III, and 70% for a child. Refugees in Ukraine can apply too. The service is free and a decision takes 10 days.",
+     "how": "Apply at a Pension Fund office, by registered post, or at your local administrative services centre (TsNAP). Diia's online version of the service showed as temporarily unavailable when checked. The Pension Fund's contact centre is 0 800 503 753. In Ukrainian.",
+     "phone": "0 800 503 753",
+     "dial": "0800503753",
+     "url": "https://diia.gov.ua/services/dopomoga-lyudini-z-invalidnistyu-z-ditinstva-ta-dityam-z-invalidnistyu",
+     "sources": [
+      "https://diia.gov.ua/services/dopomoga-lyudini-z-invalidnistyu-z-ditinstva-ta-dityam-z-invalidnistyu",
+      "https://www.pfu.gov.ua/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ua-ombudsman",
+     "section": "rights",
+     "name": "Ukrainian Parliament Commissioner for Human Rights (Ombudsman)",
+     "org": "Ombudsman of Ukraine",
+     "what": "Takes appeals about human rights, including those of disabled people; its published cases include one where a disabled person's stopped assistance was recalculated and more than 50,000 hryvnias were paid after its check.",
+     "how": "Call the free hotline 1678, Monday to Thursday 9:00 to 18:00 and Friday 9:00 to 16:45 (from abroad, +380 44 299 7408), or email hotline@ombudsman.gov.ua. The office warns that power cuts can briefly interrupt the line. In Ukrainian.",
+     "phone": "1678",
+     "dial": "1678",
+     "email": "hotline@ombudsman.gov.ua",
+     "url": "https://ombudsman.gov.ua/en/news/tags/osoba-z-invalidnistyu",
+     "sources": [
+      "https://ombudsman.gov.ua/en/news/tags/osoba-z-invalidnistyu"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "SA",
+   "slug": "saudi-arabia",
+   "name": "Saudi Arabia",
+   "emergency": {
+    "number": "997",
+    "label": "Ambulance (Saudi Red Crescent). For the police, call 999; for civil defence, call 998",
+    "source": "https://www.cst.gov.sa/en/about/Numbering"
+   },
+   "resources": [
+    {
+     "id": "sa-psychological-consultation-center",
+     "section": "help-now",
+     "name": "Psychological Consultation Center call line",
+     "org": "Ministry of Health",
+     "what": "Connects callers anywhere in the Kingdom with mental health professionals. It is not open around the clock.",
+     "how": "Call 920033360, 8:00 a.m. to 8:00 p.m. (Saturdays 1:00 p.m. to 8:00 p.m.). In an emergency, call 997. The Ministry's Qareboon app offers mental health counselling by text.",
+     "phone": "920033360",
+     "dial": "920033360",
+     "url": "https://www.moh.gov.sa/en/ministry/information-and-services/pages/psychiatry.aspx",
+     "sources": [
+      "https://www.moh.gov.sa/en/ministry/information-and-services/pages/psychiatry.aspx"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sa-hrsd-disability-services",
+     "section": "money",
+     "name": "Monthly financial aid, assistive devices and daily care for persons with disabilities",
+     "org": "Ministry of Human Resources and Social Development",
+     "what": "Disabled people registered with the Ministry whose disability has been assessed can apply for a monthly financial aid payment, for assistive devices, and for daily social care. You can also ask for your disability assessment to be updated, appeal if your aid is stopped, and university students with disabilities can apply for a grant.",
+     "how": "Apply through the Ministry's e-services (eservices.hrsd.gov.sa). The Ministry's page is in Arabic.",
+     "url": "https://www.hrsd.gov.sa/empowering-people-special-needs",
+     "sources": [
+      "https://www.hrsd.gov.sa/empowering-people-special-needs"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sa-traffic-facilities-card",
+     "section": "equipment-home",
+     "name": "Traffic facilities card and transport fare discount card",
+     "org": "Ministry of Human Resources and Social Development",
+     "what": "The traffic facilities card lets a disabled person enter public facility car parks and use reserved disabled spaces across the Kingdom. The fare discount card gives Saudi disabled people and their companions 50% off government transport.",
+     "how": "Apply on the national portal my.gov.sa: service 12346 for the traffic facilities card and service 12345 for the fare discount card. The Ministry's page is in Arabic.",
+     "url": "https://www.hrsd.gov.sa/empowering-people-special-needs",
+     "sources": [
+      "https://www.hrsd.gov.sa/empowering-people-special-needs"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "RW",
+   "slug": "rwanda",
+   "name": "Rwanda",
+   "emergency": {
+    "number": "112",
+    "label": "Emergency. For an ambulance, call 912; for traffic accidents, call 113",
+    "source": "https://www.gov.rw/emergency"
+   },
+   "resources": [
+    {
+     "id": "rw-rbc-114",
+     "section": "help-now",
+     "name": "Health call centre 114",
+     "org": "Rwanda Biomedical Centre (RBC)",
+     "what": "RBC's mental health service tells people to call 114, its call centre with operators trained in different health fields. It is open Monday to Saturday, not around the clock.",
+     "how": "Call 114, Monday to Saturday. RBC's page does not give the times. In an emergency, call 112.",
+     "phone": "114",
+     "dial": "114",
+     "url": "https://rbc.gov.rw/beta/?p=6347",
+     "sources": [
+      "https://rbc.gov.rw/beta/?p=6347",
+      "https://www.gov.rw/emergency"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "rw-ncpd",
+     "section": "start",
+     "name": "National Council of Persons with Disabilities (NCPD)",
+     "org": "National Council of Persons with Disabilities",
+     "what": "The national body for disability advocacy and for including disabled people in mainstream services. Through IremboGov it issues free recommendation letters that support disabled people in taking part in activities that benefit them.",
+     "how": "Email info@ncpd.gov.rw, or visit the council in Kacyiru, Kigali. To get a recommendation letter, apply on IremboGov under Governance, NCPD Services, with your NCPD disability card and a document showing the reason; it takes 2 days and no Irembo account is needed.",
+     "email": "info@ncpd.gov.rw",
+     "url": "https://www.ncpd.gov.rw/",
+     "sources": [
+      "https://www.ncpd.gov.rw/",
+      "https://support.irembo.gov.rw/en/support/solutions/articles/47001268515-how-to-apply-for-issuing-recommendation-letters-to-persons-with-disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "LK",
+   "slug": "sri-lanka",
+   "name": "Sri Lanka",
+   "emergency": {
+    "number": "119",
+    "label": "Police emergency call centre, for emergencies that need an immediate response",
+    "source": "https://www.police.lk/?p=18161"
+   },
+   "resources": [
+    {
+     "id": "lk-1926-mental-health-helpline",
+     "section": "help-now",
+     "name": "National Mental Health Helpline 1926",
+     "org": "National Institute of Mental Health",
+     "what": "The national mental health helpline run from the National Institute of Mental Health.",
+     "how": "Call 1926. The Institute's pages do not give its hours; for other questions, call the Institute on 011 2578234.",
+     "phone": "1926",
+     "dial": "1926",
+     "url": "https://nimh.health.gov.lk/en/1926-national-mental-health-helpline/",
+     "sources": [
+      "https://nimh.health.gov.lk/en/1926-national-mental-health-helpline/",
+      "https://nimh.health.gov.lk/en/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lk-1990-suwa-seriya",
+     "section": "help-now",
+     "name": "1990 Suwa Seriya free ambulance",
+     "org": "1990 Suwa Seriya Foundation",
+     "what": "A free 24-hour emergency ambulance service covering the whole island, run by a foundation fully owned by the Government of Sri Lanka.",
+     "how": "Call 1990, at any hour. It is free.",
+     "phone": "1990",
+     "dial": "1990",
+     "url": "https://www.1990.lk/about-us/",
+     "sources": [
+      "https://www.1990.lk/about-us/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lk-hrcsl",
+     "section": "rights",
+     "name": "Human Rights Commission of Sri Lanka (HRCSL)",
+     "org": "Human Rights Commission of Sri Lanka",
+     "what": "Takes complaints from a victim or group of victims of a violation, or threatened violation, of fundamental rights, or from someone representing them.",
+     "how": "Call the hotline 1996, or complain in person, by post, by email to secretary@hrcsl.lk, by fax or with the online form. Complaint forms are free from the head office (14 R. A. De Mel Mawatha, Colombo 4; 011 2505580), regional offices or the website. In Sinhala, Tamil or English.",
+     "phone": "1996",
+     "dial": "1996",
+     "email": "secretary@hrcsl.lk",
+     "url": "https://hrcsl.lk/make-a-complaint/",
+     "sources": [
+      "https://hrcsl.lk/make-a-complaint/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "NP",
+   "slug": "nepal",
+   "name": "Nepal",
+   "emergency": {
+    "number": "100",
+    "label": "Police. Tourists can call the toll-free Tourist Police hotline, 1144",
+    "source": "https://nepalpolice.gov.np/tourist-police"
+   },
+   "resources": [
+    {
+     "id": "np-1166-suicide-prevention",
+     "section": "help-now",
+     "name": "National Suicide Prevention Helpline 1166",
+     "org": "Ministry of Health and Population, at the Mental Hospital, Lagankhel (operated by TPO Nepal with WHO support)",
+     "what": "Counsellors answer round the clock. Calls through the national telecom operator are free; callers on private operators pay standard rates.",
+     "how": "Call 1166, at any hour.",
+     "phone": "1166",
+     "dial": "1166",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.who.int/southeastasia/news/feature-stories/detail/nepal-suicide-prevention-helpline"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "np-nfdn",
+     "section": "rights",
+     "name": "National Federation of the Disabled Nepal (NFDN)",
+     "org": "National Federation of the Disabled Nepal",
+     "what": "The national umbrella body of organisations of persons with disabilities, with more than 350 member organisations, working to promote and protect disabled people's rights. Its site has a grievance and feedback channel.",
+     "how": "Call +977 1 5331159 or visit Bhrikutimandap, Kathmandu.",
+     "phone": "+977 1 5331159",
+     "dial": "+97715331159",
+     "url": "https://nfdn.org.np/",
+     "sources": [
+      "https://nfdn.org.np/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "TW",
+   "slug": "taiwan",
+   "name": "Taiwan",
+   "emergency": {
+    "number": "119",
+    "label": "Fire, disaster relief and ambulance, 24 hours a day",
+    "source": "https://www.fire.ntpc.gov.tw/eng/PageDoc?fid=233"
+   },
+   "resources": [
+    {
+     "id": "tw-1925-anxin",
+     "section": "help-now",
+     "name": "1925 Anxin (peace of mind) line (安心專線)",
+     "org": "Ministry of Health and Welfare",
+     "what": "Free psychological counselling by phone, 24 hours a day, every day of the year.",
+     "how": "Call 1925 from a landline or mobile, at any hour. It is free. The Ministry's page is in Chinese.",
+     "phone": "1925",
+     "dial": "1925",
+     "url": "https://mohw.gov.tw/cp-16-50587-1.html",
+     "sources": [
+      "https://mohw.gov.tw/cp-16-50587-1.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tw-1957-welfare-line",
+     "section": "start",
+     "name": "1957 welfare consultation line (1957福利諮詢專線)",
+     "org": "Ministry of Health and Welfare",
+     "what": "A free line for questions about disability welfare and other social welfare, including social assistance, emergency aid and National Pension insurance. Staff give advice and refer you on.",
+     "how": "Call 1957, every day 8:00 to 22:00, Lunar New Year included. Social workers speak Mandarin, Taiwanese, Hakka and English. Deaf, hard of hearing and speech-impaired people can use the LINE text service or online consultation.",
+     "phone": "1957",
+     "dial": "1957",
+     "url": "https://mohw.gov.tw/cp-16-77519-1.html",
+     "sources": [
+      "https://mohw.gov.tw/cp-16-77519-1.html",
+      "https://mohw.gov.tw/cp-16-21130-1.html"
      ],
      "reviewed_on": "2026-11-21"
     }
