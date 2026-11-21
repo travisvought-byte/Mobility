@@ -46,7 +46,8 @@ def validate():
             assert re.fullmatch(r'\d{4}-\d{2}-\d{2}', r.get('reviewed_on', '')), r['id'] + ' reviewed_on'
             assert r.get('phone') or r.get('url') or r.get('email'), r['id'] + ' has no way to reach it'
             if r.get('phone'):
-                assert re.fullmatch(r'\+?\d{3,15}', r['dial']), r['id'] + ' dial'
+                # a leading * is a mobile short code, such as Chile's *4141 crisis line
+                assert re.fullmatch(r'[*+]?\d{3,15}', r['dial']), r['id'] + ' dial'
                 assert digits(r['phone']) == digits(r['dial']), r['id'] + ': dial does not match the printed number'
             for u in [r.get('url')] + [l['url'] for l in r.get('links', [])]:
                 assert u is None or u.startswith('https://'), r['id'] + ' link'
@@ -90,7 +91,7 @@ def card(r, place=''):
 
 
 def the(name):
-    return ('the ' if name in ('United Kingdom', 'Philippines', 'Bahamas') else '') + name
+    return ('the ' if name in ('United Kingdom', 'Philippines', 'Bahamas', 'Netherlands') else '') + name
 
 
 def nav(pre, current):
@@ -178,7 +179,7 @@ def world_page():
                    f'<a href="tel:{E(c["emergency"]["number"])}">{E(c["emergency"]["number"])}</a> · {len(c["resources"])} listings</span></li>'
                    for c in countries)
     names = ', '.join(c['name'] for c in countries[:-1]) + ' and ' + countries[-1]['name']
-    names = names.replace('Philippines', 'the Philippines').replace('United Kingdom', 'the United Kingdom').replace('Bahamas', 'the Bahamas')
+    names = names.replace('Philippines', 'the Philippines').replace('United Kingdom', 'the United Kingdom').replace('Bahamas', 'the Bahamas').replace('Netherlands', 'the Netherlands')
     cards = ''.join(card(r) for r in DATA['worldwide'])
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
             '<title>Disability help outside the United States | Mobility Talk</title>'
