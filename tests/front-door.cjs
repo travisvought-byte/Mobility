@@ -329,8 +329,8 @@ const TERR=['AS','GU','MP','PR','VI'];
   assert(/two different TDD numbers/.test(byId.get('de-dart-paratransit').phone_note),'Delaware leaves out the conflicting TDD numbers and says why');
   const NJC=recs.filter(r=>/^nj-county-paratransit-/.test(r.id));assert.equal(NJC.length,21,'all 21 New Jersey counties');
   for(const r of NJC){assert(r.scope==='counties'&&r.counties.length===1&&/^\d{3}-\d{3}-\d{4}$/.test(r.phone)&&/Disability Information Hub/.test(r.phone_note),r.id+' county line');}
-  assert.deepEqual(NJC.map(r=>r.counties[0]).sort(),JSON.parse(fs.readFileSync('data/maps/NJ.json','utf8')).counties.map(c=>c.n).sort(),'county names match the New Jersey map');
-  const MDL=recs.filter(r=>/^md-lots-/.test(r.id)),mdNames=new Set(JSON.parse(fs.readFileSync('data/maps/MD.json','utf8')).counties.map(c=>c.n));
+  assert.deepEqual(NJC.map(r=>r.counties[0]).sort(),JSON.parse(fs.readFileSync('data/geo/NJ.json','utf8')).counties.map(c=>c.n).sort(),'county names match the New Jersey map');
+  const MDL=recs.filter(r=>/^md-lots-/.test(r.id)),mdNames=new Set(JSON.parse(fs.readFileSync('data/geo/MD.json','utf8')).counties.map(c=>c.n));
   assert(MDL.length>=15,'Maryland county transit systems');for(const r of MDL){assert(r.scope==='counties'&&r.counties.every(c=>mdNames.has(c))&&r.url==='https://www.mta.maryland.gov/lots'&&r.contact_how,r.id+' Maryland county system');if(r.web)assert(/^https:\/\//.test(r.web),r.id+' link');}
   // energy assistance: one public inquiry line per state that the federal list gives one for; the national listing stays visible
   const LI=recs.filter(r=>/-liheap-energy-assistance$/.test(r.id));assert.equal(LI.length,43,'43 state energy assistance lines');

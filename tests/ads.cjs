@@ -5,7 +5,7 @@ const pages=[...fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9
 
 // ---- privacy page: exists, dated, accurate about the counter, the host and ads, and linked from every footer
 {const d=doc('privacy.html'),t=d.querySelector('main').textContent.replace(/\s+/g,' ');
- assert(/November 19, 2026/.test(d.querySelector('header').textContent),'privacy page is dated');
+ assert(/November 21, 2026/.test(d.querySelector('header').textContent),'privacy page is dated');
  assert(/GoatCounter/.test(t)&&/without cookies/.test(t)&&/does not store the IP address/.test(t),'visit counter described');
  assert(/not the part after a question mark/.test(t),'query strings are not counted, as the counter is set up');
  const gc=fs.readFileSync('index.html','utf8');assert(/data-goatcounter="https:\/\/travisvought\.goatcounter\.com\/count"/.test(gc)&&/location\.pathname/.test(gc)&&/u\.origin\+u\.pathname/.test(gc),'the counter setup the privacy page describes is the one on the pages');
