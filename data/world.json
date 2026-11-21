@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -6302,13 +6302,13 @@
      "section": "help-now",
      "name": "Lifeline Fiji 1543",
      "org": "Lifeline Fiji",
-     "what": "Lifeline Fiji's national crisis toll-free code, for anyone in crisis or thinking about suicide. The UNFPA mental health directory lists it as a 24/7 toll-free crisis helpline.",
+     "what": "Lifeline Fiji's national crisis toll-free code, for anyone in crisis or thinking about suicide. The President of Fiji, speaking in 2023, described Lifeline Fiji's helpline as a nationwide 24-hour toll-free crisis intervention line with qualified crisis workers.",
      "how": "Call 1543 at any hour. In an emergency, call the emergency number at the top of this page.",
      "phone": "1543",
      "dial": "1543",
      "sources": [
       "https://www.parliament.gov.fj/?p=7250",
-      "https://mhsp-dev.unfpa.org/node/33466"
+      "https://www.fiji.gov.fj/he-president-ratu-wiliame-katoniveres-remarks-at-the-lifeline-fiji-gala/"
      ],
      "reviewed_on": "2026-11-21",
      "record_status": "directory_listed"
@@ -6323,6 +6323,468 @@
      "url": "https://www.fiji.gov.fj/lemeki-commends-government-for-providing-assistance-to-persons-with-disability/",
      "sources": [
       "https://www.fiji.gov.fj/lemeki-commends-government-for-providing-assistance-to-persons-with-disability/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BZ",
+   "slug": "belize",
+   "name": "Belize",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police (also 90)",
+    "source": "https://www.gov.uk/foreign-travel-advice/belize/getting-help"
+   },
+   "resources": [
+    {
+     "id": "bz-moh-care",
+     "section": "help-now",
+     "name": "Ministry of Health and Wellness hotline 0-800-MOH-CARE",
+     "org": "Ministry of Health and Wellness",
+     "what": "The Ministry of Health and Wellness hotline. In its suicide prevention message the ministry told anyone who needs help to call it, and it was still the ministry's public hotline in May 2026. It is a general health hotline, not a dedicated crisis line, and the ministry does not state its hours.",
+     "how": "Call 0-800-664-2273 (0-800-MOH-CARE). For an appointment, the mental health clinics at public hospitals also take patients. In an emergency, call the emergency number at the top of this page.",
+     "phone": "0-800-664-2273",
+     "dial": "08006642273",
+     "sources": [
+      "https://www.pressoffice.gov.bz/mohw-observes-world-suicide-prevention-day-2021/",
+      "https://www.pressoffice.gov.bz/wp-content/uploads/2026/05/May-19-PR131-26-MoHW-Advises-Vigilance-Following-Measles-Cases.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bz-ssb-invalidity",
+     "section": "money",
+     "name": "Invalidity Benefit",
+     "org": "Social Security Board",
+     "what": "A monthly pension from the Social Security Board for insured people under 60 who are medically certified as permanently unable to do any work because of illness, after 26 weeks of sickness. It runs from $47 to $288 a week. People who have paid at least 26 contributions but do not qualify for the pension can get a one-time Invalidity Grant.",
+     "how": "Fill in form INV1 and send it with a medical certificate from a registered Belize doctor, your Social Security card, passport or birth certificate and bank details, within 13 weeks of the 26th week of illness. A Social Security medical board will assess you.",
+     "url": "https://socialsecurity.org.bz/long-term-invalidity/",
+     "email": "info@socialsecurity.org.bz",
+     "sources": [
+      "https://socialsecurity.org.bz/long-term-invalidity/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bz-ncpd",
+     "section": "rights",
+     "name": "National Commission for Persons with Disabilities",
+     "org": "Ministry of Human Development, Family Support and Gender Affairs",
+     "what": "Launched in September 2026 under the Disabilities Act, 2024, which protects the rights of persons with disabilities in education, employment, health care and accessibility and against discrimination. The commission brings together government, civil society, labour and the private sector to put the Act into practice, chaired by the Chief Executive Officer of the Ministry of Human Development, Family Support and Gender Affairs.",
+     "how": "Contact the Ministry of Human Development, Family Support and Gender Affairs about the commission and your rights under the Disabilities Act.",
+     "url": "https://www.pressoffice.gov.bz/?p=18442",
+     "sources": [
+      "https://www.pressoffice.gov.bz/?p=18442"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "NI",
+   "slug": "nicaragua",
+   "name": "Nicaragua",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/nicaragua/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ni-133",
+     "section": "help-now",
+     "name": "Línea 133",
+     "org": "Ministerio de la Familia",
+     "what": "The Ministry of the Family's line, which UNICEF lists as Nicaragua's helpline for violence against children and adolescents. The National Police still gave 133 in its public notices in 2026. Its hours are not stated. It is not a general mental health line.",
+     "how": "Call 133. In an emergency, call the emergency number at the top of this page.",
+     "phone": "133",
+     "dial": "133",
+     "sources": [
+      "https://www.unicef.org/lac/lineas-de-ayuda-casos-violencia",
+      "https://www.policia.gob.ni/wp-content/uploads/2026/03/Resultados-del-Plan-de-Prevencion-y-Seguridad-dirigido-a-Madres-de-Familias-del-jueves-5-al-miercoles-11-de-marzo-2026.pdf"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "ni-todos-con-voz",
+     "section": "start",
+     "name": "Programa Todos con Voz",
+     "org": "Ministerio de Salud (MINSA)",
+     "what": "The Ministry of Health's national disability program. It visits people with disabilities at home at least twice a year, offers medical, psychological and rehabilitation care, delivers assistive devices to people's homes after an assessment of need, and issues a disability ID card. You must be in the ministry's register of persons with disabilities.",
+     "how": "Ask at your local health centre (centro de salud) to be registered with Todos con Voz.",
+     "url": "https://www.minsa.gob.ni/sites/default/files/2022-10/Satisfacci%C3%B3n%20de%20las%20personas%20con%20discapacidad%20sobre%20la%20implementaci%C3%B3bn%20de%20las%20principales%20intervenciones%20del%20Programa%20todos%20con%20Voz.pdf",
+     "sources": [
+      "https://www.minsa.gob.ni/sites/default/files/2022-10/Satisfacci%C3%B3n%20de%20las%20personas%20con%20discapacidad%20sobre%20la%20implementaci%C3%B3bn%20de%20las%20principales%20intervenciones%20del%20Programa%20todos%20con%20Voz.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "SN",
+   "slug": "senegal",
+   "name": "Senegal",
+   "emergency": {
+    "number": "15",
+    "label": "Ambulance. Police: 17; fire: 18; in the countryside the military police on 123 may respond faster",
+    "source": "https://www.gov.uk/foreign-travel-advice/senegal/getting-help"
+   },
+   "resources": [
+    {
+     "id": "sn-116",
+     "section": "help-now",
+     "name": "Child protection line 116",
+     "what": "A line for reporting violence against and exploitation of children (also promoted as Wallu Allo 116), listed in the government's child protection reports. Its hours and cost are not stated. It is not a general mental health line.",
+     "how": "Call 116. In an emergency, call 17 for the police or 15 for an ambulance.",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://www.vie-publique.sn/documents/8499/rapport-annuel-2025-cellule-appui-protection-enfance-cape",
+      "https://knowledge.unwomen.org/sites/default/files/2024-10/a-79-500-submission-senegal-fr.pdf"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "sn-carte-egalite",
+     "section": "start",
+     "name": "Carte d'égalité des chances (equal opportunity card)",
+     "org": "Ministère de la Santé et de l'Action sociale",
+     "what": "A card created by the 2010 social orientation law on disability (loi d’orientation sociale n° 2010-15). It gives people with disabilities access to seven basic services: health, rehabilitation, education, training, transport, employment and finance. The Ministry of Health and Social Action issued 23,037 cards in 2024 and also supplies assistive devices through its rehabilitation programme.",
+     "how": "Ask the social action service (service de l’action sociale) in your department, or the Ministry of Health and Social Action.",
+     "url": "https://primature.sn/actions-et-realisations/sante-et-protection-sociale/cartes-degalite-des-chances",
+     "sources": [
+      "https://primature.sn/actions-et-realisations/sante-et-protection-sociale/cartes-degalite-des-chances",
+      "https://social.desa.un.org/sites/default/files/inline-files/8.2%20Faty%20Presentation.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "LB",
+   "slug": "lebanon",
+   "name": "Lebanon",
+   "emergency": {
+    "number": "112",
+    "label": "Police. Ambulance: 140; fire: 175",
+    "source": "https://www.gov.uk/foreign-travel-advice/lebanon/getting-help"
+   },
+   "resources": [
+    {
+     "id": "lb-1564",
+     "section": "help-now",
+     "name": "1564, the Lifeline",
+     "org": "Ministry of Public Health, with Embrace",
+     "what": "Lebanon's national hotline for psychological support and suicide prevention, run with Embrace and available 24/7, for anyone in severe distress or thinking about self-harm or suicide. Staff are trained and supervised by mental health professionals and can refer you to mental health services.",
+     "how": "Call 1564 at any hour. In an emergency, call 112, or 140 for an ambulance.",
+     "phone": "1564",
+     "dial": "1564",
+     "sources": [
+      "https://moph.gov.lb/en/view/75556/1564-the-lifeline"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lb-disability-card",
+     "section": "start",
+     "name": "Personal Disability Card",
+     "org": "Ministry of Social Affairs",
+     "what": "The Ministry of Social Affairs' disability card, issued and renewed at its eight Rights and Access Centres. Holders registered in the Rights and Access programme could get the National Disability Allowance, which started in 2023 as a pilot paying US$40 a month for 12 months.",
+     "how": "Visit a Rights and Access Centre of the Ministry of Social Affairs to get or renew the card and to ask whether the allowance is open.",
+     "url": "https://www.unicef.org/lebanon/national-disability-allowance",
+     "sources": [
+      "https://www.ilo.org/resource/news/minister-social-affairs-european-union-unicef-and-ilo-visited-rights-and",
+      "https://www.unicef.org/lebanon/national-disability-allowance"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "AZ",
+   "slug": "azerbaijan",
+   "name": "Azerbaijan",
+   "emergency": {
+    "number": "103",
+    "label": "Ambulance. Police: 102; fire: 101",
+    "source": "https://www.gov.uk/foreign-travel-advice/azerbaijan/getting-help"
+   },
+   "resources": [
+    {
+     "id": "az-116111",
+     "section": "help-now",
+     "name": "Children's Hotline and Women's Helpline 116111",
+     "org": "State Committee for Family, Women and Children Affairs",
+     "what": "A short number answered 24 hours a day for the Children's Hotline and the Women's Helpline, set up with the State Committee for Family, Women and Children Affairs. It gives psychological, emotional and social support to children and to women in crisis or facing violence, and refers callers to legal, medical and shelter services. It is not a general adult mental health line.",
+     "how": "Call 116111 at any hour. In an emergency, call 102 for the police or 103 for an ambulance.",
+     "phone": "116111",
+     "dial": "116111",
+     "sources": [
+      "https://family.gov.az/en/post/3126/24-saat-fealiyyet-gosterecek-qadin-destek-xetti-xidmeti-yaradilib",
+      "https://azertag.az/en/xeber/_azerbaijan_children_hotline_publishes_results_for_2024-3405475"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "az-disability-allowance",
+     "section": "money",
+     "name": "Allowance for persons with disabilities",
+     "org": "Ministry of Labour and Social Protection of Population",
+     "what": "A monthly allowance for people with a disability determined by the state who are not entitled to a labour pension: 300 manat for an 81 to 100 percent loss of bodily functions, 250 manat for 61 to 80 percent and 180 manat for 31 to 60 percent. It is now mostly assigned automatically.",
+     "how": "If it was not assigned automatically, apply at your local State Social Protection Fund office or a DOST centre with an identity document. Call centre: 142.",
+     "phone": "142",
+     "dial": "142",
+     "url": "https://sosial.gov.az/en/services/key-activities/social-allowances-and-benefits/social-benefits/monthly-allowances/allowance-for-persons-with-disabilities",
+     "sources": [
+      "https://sosial.gov.az/en/services/key-activities/social-allowances-and-benefits/social-benefits/monthly-allowances/allowance-for-persons-with-disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "az-dost-devices",
+     "section": "equipment-home",
+     "name": "Free wheelchairs, prostheses and rehabilitation aids",
+     "org": "DOST Agency",
+     "what": "People with disabilities get prosthetic and orthopaedic products, wheelchairs and other rehabilitation aids free of charge, paid for by the state, along with medicines, dentures and sanatorium treatment under Cabinet of Ministers rules.",
+     "how": "Ask at a DOST centre, through Mobile DOST or on e-social.gov.az. Call centre: 142.",
+     "phone": "142",
+     "dial": "142",
+     "url": "https://dost.gov.az/en/page/elillikle-bagli-umumi-melumatlar",
+     "sources": [
+      "https://dost.gov.az/en/page/elillikle-bagli-umumi-melumatlar"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "UZ",
+   "slug": "uzbekistan",
+   "name": "Uzbekistan",
+   "emergency": {
+    "number": "112",
+    "label": "The unified emergency number since 2024; ambulance 103, fire 101 and police 102 also still work",
+    "source": "https://www.gov.uk/foreign-travel-advice/uzbekistan/getting-help"
+   },
+   "resources": [
+    {
+     "id": "uz-1146",
+     "section": "help-now",
+     "name": "Helpline 1146",
+     "what": "A short trust helpline listed by the government and the Ombudsman for people who have suffered harassment or violence. Its hours are not stated. It is not a general mental health line.",
+     "how": "Call 1146. In an emergency, call 112, or 102 for the police.",
+     "phone": "1146",
+     "dial": "1146",
+     "sources": [
+      "https://baraka.gov.uz/en/welfare-category/reporting-an-incident-of-harassment-and-violence/",
+      "https://ombudsman.uz/en/docs/tazyiq-va-zoravonlikdan-jabrlangan-shaxslar-qayerga-murojaat-qilishlari-kerak-2"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "uz-social-protection",
+     "section": "start",
+     "name": "National Agency of Social Protection",
+     "what": "The national agency for disability. It establishes disability, supplies prosthetic and orthopaedic products and rehabilitation equipment, runs rehabilitation centres, and supports employment and home-based social services. Pensions, allowances, wheelchairs, hearing and visual aids, rehabilitation, sanatorium treatment and medicines are provided on the findings of medical and social expert commissions.",
+     "how": "Ask the agency’s office in your district. Sanatorium referrals can be applied for on my.gov.uz.",
+     "url": "https://ihma.uz/en/agency-category/national-agency-of-social-protection-under-the-president-of-the-republic-of-uzbekistan/",
+     "sources": [
+      "https://ihma.uz/en/agency-category/national-agency-of-social-protection-under-the-president-of-the-republic-of-uzbekistan/",
+      "https://gov.uz/en/shakhrisabzgov/pages/nogironligi-bo-lgan-shaxslarga-imtiyozlar"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BN",
+   "slug": "brunei",
+   "name": "Brunei",
+   "emergency": {
+    "number": "991",
+    "label": "Ambulance. Police: 993; fire: 995; search and rescue: 998",
+    "source": "https://www.gov.uk/foreign-travel-advice/brunei/getting-help"
+   },
+   "resources": [
+    {
+     "id": "bn-145",
+     "section": "help-now",
+     "name": "Talian Harapan 145",
+     "org": "Ministry of Health",
+     "what": "The Ministry of Health's hope line for emotional and crisis support and information about mental health services.",
+     "how": "Call 145. In an emergency, call 991 for an ambulance or 993 for the police.",
+     "phone": "145",
+     "dial": "145",
+     "sources": [
+      "https://moh.gov.bn/services/psychology-services/",
+      "https://moh.gov.bn/?p=1565"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bn-psychology",
+     "section": "start",
+     "name": "Community psychology services",
+     "org": "Ministry of Health",
+     "what": "The Ministry of Health's Community Psychology Division sees people in health centres by appointment.",
+     "how": "Ask your nearest public or private clinic or hospital for a referral.",
+     "url": "https://moh.gov.bn/services/psychology-services/",
+     "sources": [
+      "https://moh.gov.bn/services/psychology-services/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bn-disability-allowance",
+     "section": "money",
+     "name": "Disability allowance",
+     "org": "Department of Community Development (JAPEM)",
+     "what": "A monthly allowance under the Old Age and Disability Pensions law for residents aged 15 or older who are unable to work because of a physical or mental disability, including blind people, with extra for some dependants. It is run by the Department of Community Development (JAPEM) of the Ministry of Culture, Youth and Sports. Check the current amount with JAPEM.",
+     "how": "Ask the Department of Community Development (JAPEM).",
+     "url": "https://ssa.gov/policy/docs/progdesc/ssptw/2018-2019/asia/brunei.html",
+     "sources": [
+      "https://ssa.gov/policy/docs/progdesc/ssptw/2018-2019/asia/brunei.html",
+      "https://social.desa.un.org/sites/default/files/migrated/15/2019/11/Brunei_Old-Age-and-Disability-Pensions-Law-New-Version-1984.pdf"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "BT",
+   "slug": "bhutan",
+   "name": "Bhutan",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance. Police: 113; fire: 110",
+    "source": "https://www.gov.uk/foreign-travel-advice/bhutan/getting-help"
+   },
+   "resources": [
+    {
+     "id": "bt-1098",
+     "section": "help-now",
+     "name": "Helpline 1098 for women and children",
+     "org": "PEMA",
+     "what": "Bhutan's national helpline for women and children, open 24 hours a day, seven days a week, and free. It is run by PEMA, the state agency for mental health and child protection. It is not a general adult mental health line.",
+     "how": "Call 1098 at any hour. In an emergency, call 112 for an ambulance or 113 for the police.",
+     "phone": "1098",
+     "dial": "1098",
+     "sources": [
+      "https://thepema.gov.bt/faqs"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bt-pema",
+     "section": "start",
+     "name": "PEMA mental health services",
+     "org": "PEMA",
+     "what": "PEMA is Bhutan's national agency for mental health and child protection. It supports anyone with mental health concerns, runs recovery support groups, skills development and job placement, and is planning interim protection shelters.",
+     "how": "Contact PEMA through its website.",
+     "url": "https://thepema.gov.bt/services",
+     "sources": [
+      "https://thepema.gov.bt/services",
+      "https://thepema.gov.bt/faqs"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MV",
+   "slug": "maldives",
+   "name": "Maldives",
+   "emergency": {
+    "number": "102",
+    "label": "Ambulance. Police: 119; fire: 118",
+    "source": "https://www.gov.uk/foreign-travel-advice/maldives/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mv-1677",
+     "section": "help-now",
+     "name": "National Mental Health Helpline 1677",
+     "org": "National Mental Health Department",
+     "what": "A free and confidential helpline answered 24/7 by the National Mental Health Department, for anyone who needs support or someone to listen.",
+     "how": "Call 1677 at any hour. In an emergency, call 119 for the police or 102 for an ambulance.",
+     "phone": "1677",
+     "dial": "1677",
+     "sources": [
+      "https://blogs.presidency.gov.mv/daily-blogs/national-mental-health-helpline-offers-247-confidential-support"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mv-disability-allowance",
+     "section": "money",
+     "name": "National Disability Registry and Disability Allowance",
+     "org": "National Social Protection Agency",
+     "what": "A monthly cash allowance for Maldivians with disabilities who are registered in the National Disability Registry under the Disability Act (8/2010). It is not means-tested and has no conditions or contributions. It is run by the National Social Protection Agency.",
+     "how": "Register in the National Disability Registry and apply through the oneGov portal, or ask the National Social Protection Agency.",
+     "url": "https://one.gov.mv/support/guidelines/disability-allowance-197",
+     "sources": [
+      "https://one.gov.mv/support/guidelines/disability-allowance-197"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "GY",
+   "slug": "guyana",
+   "name": "Guyana",
+   "emergency": {
+    "number": "911",
+    "label": "Police. Fire: 912; ambulance: 913",
+    "source": "https://www.gov.uk/foreign-travel-advice/guyana/getting-help"
+   },
+   "resources": [
+    {
+     "id": "gy-suicide-helpline",
+     "section": "help-now",
+     "name": "Inter-agency Suicide Prevention Helpline",
+     "what": "Guyana's suicide prevention helpline, open 24/7. You can also call or text 600-7896 or 623-4444. The Ministry of Human Services and Social Security also runs a toll-free suicide prevention hotline on 914.",
+     "how": "Call 223-0001 or 223-0009 at any hour, or text 600-7896. In an emergency, call the emergency number at the top of this page.",
+     "phone": "223-0001",
+     "dial": "2230001",
+     "text": "600-7896",
+     "sources": [
+      "https://gro.moha.gov.gy/world-suicide-prevention-day-2025-youre-not-alone-help-is-available/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gy-nis-invalidity",
+     "section": "money",
+     "name": "Invalidity Benefit",
+     "org": "National Insurance Scheme",
+     "what": "A National Insurance Scheme pension for insured people under 60 who have been unable to work for at least 26 weeks, not because of a work injury, and are likely to stay so. It needs at least 150 paid contributions and 250 paid or credited, and is never less than 40 percent of the minimum wage. People with at least 50 contributions who do not qualify can get a one-time grant.",
+     "how": "Fill in the Claim for Invalidity Benefit form and take it to your nearest National Insurance office.",
+     "url": "https://nis.org.gy/invalidity_benefit",
+     "sources": [
+      "https://nis.org.gy/invalidity_benefit"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gy-rehab",
+     "section": "equipment-home",
+     "name": "Rehabilitation and Disability Services",
+     "org": "Ministry of Health",
+     "what": "The Ministry of Health's programme for physiotherapy, occupational therapy, speech and language therapy and audiology, including the Ptolemy Reid Rehabilitation Centre and the National Commission on Disability.",
+     "how": "Call the programme on 223-7087, or ask at your health centre.",
+     "phone": "223-7087",
+     "dial": "2237087",
+     "url": "https://health.gov.gy/service/rehabilitation-disability-services/",
+     "sources": [
+      "https://health.gov.gy/service/rehabilitation-disability-services/"
      ],
      "reviewed_on": "2026-11-21"
     }
