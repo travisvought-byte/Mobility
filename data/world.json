@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -2849,6 +2849,870 @@
      "record_status": "directory_listed",
      "sources": [
       "https://www.elperuano.pe/noticia/221550-programa-contigo-deposito-pension-de-s300-para-106-mil-personas-con-discapacidad-severa"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "PT",
+   "slug": "portugal",
+   "name": "Portugal",
+   "emergency": {
+    "number": "112",
+    "label": "The single European emergency number, free and open at any hour",
+    "source": "https://eportugal.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/cuidados-de-saude-em-portugal/contactos-de-emergencia-em-portugal"
+   },
+   "resources": [
+    {
+     "id": "pt-sns24-psychological",
+     "section": "help-now",
+     "name": "SNS 24 psychological counselling line",
+     "org": "SNS 24, Portugal’s national health service line",
+     "what": "Counselling by phone from psychologists, open 24 hours a day, every day, through the national health line. Since 2022 it also answers in English.",
+     "how": "Call 808 24 24 24 and choose option 4. In Portuguese or English.",
+     "phone": "808 24 24 24",
+     "dial": "808242424",
+     "sources": [
+      "https://portugal.gov.pt/pt/gc23/comunicacao/noticias/linha-de-apoio-psicologico-do-sns-24-ja-atendeu-mais-de-240-mil-chamadas",
+      "https://www.gov.pt/noticias/linha-de-aconselhamento-psicologico-do-sns-24-disponivel-em-ingles"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pt-inr-information",
+     "section": "start",
+     "name": "Information and mediation for people with disabilities",
+     "org": "Instituto Nacional para a Reabilitação (INR)",
+     "what": "Free advice from the national rehabilitation institute on the rights, benefits and services open to disabled people and their families, with referral and mediation when you are dealing with public or private bodies.",
+     "how": "Call 217 929 500 or 215 952 770, or go in person to the INR or to a town council that works with it. Services are in Portuguese.",
+     "phone": "217 929 500",
+     "dial": "217929500",
+     "url": "https://www.gov.pt/servicos/pedir-informacao-e-mediacao-para-pessoas-com-deficiencia",
+     "sources": [
+      "https://www.gov.pt/servicos/pedir-informacao-e-mediacao-para-pessoas-com-deficiencia"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pt-psi",
+     "section": "money",
+     "name": "Social Benefit for Inclusion (Prestação Social para a Inclusão)",
+     "org": "Segurança Social (social security)",
+     "what": "A monthly payment for disabled people with a certified degree of incapacity of 60% or more, with an extra component for people on low incomes. It is open from birth; if you apply at 55 or over, the disability must have begun before 55. You need the multi-purpose medical incapacity certificate (Atestado Médico de Incapacidade Multiuso), or proof that you have asked for it.",
+     "how": "Apply on the Segurança Social portal after you sign in, at any Segurança Social service desk, or by post to the district centre for where you live. The Segurança Social line is open weekdays, 9:00 to 18:00 (also 300 502 502). In Portuguese.",
+     "phone": "210 545 400",
+     "dial": "210545400",
+     "url": "https://www.gov.pt/servicos/requerer-a-prestacao-social-para-a-inclusao",
+     "sources": [
+      "https://www.gov.pt/servicos/requerer-a-prestacao-social-para-a-inclusao",
+      "https://www.seg-social.pt/storage1/files/8003-PrestacaoSocialInclusao-v1-28-QDA69RWT8wU2I9wsHoY_wA.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pt-parking-card",
+     "section": "equipment-home",
+     "name": "Parking card for people with disabilities (Cartão de estacionamento)",
+     "org": "Instituto da Mobilidade e dos Transportes (IMT)",
+     "what": "A parking card that belongs to the person, not the car, so it can be used in any vehicle carrying you. It lets the vehicle use spaces reserved for disabled people. It is for people with a permanent motor or physical disability, an intellectual disability or autism, each at 60% incapacity or more, a visual impairment of 95% or more, and some others.",
+     "how": "Apply online on IMTonline (sign in with your Citizen Card, Chave Móvel Digital or tax login), choose the parking card under “Outros”, and upload your proof as a PDF. The card is posted to you. In Portuguese.",
+     "url": "https://www.gov.pt/servicos/pedir-o-cartao-de-estacionamento-para-pessoas-com-deficiencia",
+     "sources": [
+      "https://www.gov.pt/servicos/pedir-o-cartao-de-estacionamento-para-pessoas-com-deficiencia",
+      "https://www.imt-ip.pt/wp-content/uploads/2025/07/Manual-Utilizador-Estacionamento-Pessoas-deficiencia.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pt-inr-discrimination",
+     "section": "rights",
+     "name": "Complaints about disability discrimination",
+     "org": "Instituto Nacional para a Reabilitação (INR)",
+     "what": "The INR takes complaints about discrimination because of disability and about places that do not meet accessibility rules, and passes them to the body that must act. You can also write in the complaints book (Livro de Reclamações) of any place that serves the public.",
+     "how": "Fill in the complaint form on the INR’s website and email it to inr@inr.mtsss.pt. In Portuguese.",
+     "email": "inr@inr.mtsss.pt",
+     "url": "https://www.gov.pt/servicos/apresentar-queixa-por-discriminacao-em-razao-da-deficiencia",
+     "sources": [
+      "https://www.gov.pt/servicos/apresentar-queixa-por-discriminacao-em-razao-da-deficiencia"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BE",
+   "slug": "belgium",
+   "name": "Belgium",
+   "emergency": {
+    "number": "112",
+    "label": "Fire brigade, ambulance or police. For urgent police help you can also call 101",
+    "source": "https://112.be/en/how-call/how-call-112"
+   },
+   "resources": [
+    {
+     "id": "be-zelfmoordlijn-1813",
+     "section": "help-now",
+     "name": "Zelfmoordlijn 1813",
+     "org": "Zelfmoordlijn 1813",
+     "what": "A free, anonymous line for anyone thinking about suicide or worried about someone, open 24 hours a day. There is also a chat in the evenings.",
+     "how": "Call 1813, any hour. Chat runs every day from 17:00 to midnight, and on Wednesdays from noon. In Dutch.",
+     "phone": "1813",
+     "dial": "1813",
+     "url": "https://www.zelfmoord1813.be",
+     "sources": [
+      "https://www.zelfmoord1813.be",
+      "https://findahelpline.com/organizations/zelfmoordlijn-1813"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "be-prevention-suicide",
+     "section": "help-now",
+     "name": "Suicide prevention listening line (Ligne d’écoute)",
+     "org": "Centre de Prévention du Suicide",
+     "what": "A free, anonymous listening line run by volunteers of the Centre de Prévention du Suicide, open 24 hours a day.",
+     "how": "Call 0800 32 123. In French.",
+     "phone": "0800 32 123",
+     "dial": "080032123",
+     "url": "https://www.preventionsuicide.be",
+     "sources": [
+      "https://www.preventionsuicide.be",
+      "https://findahelpline.com/organizations/centre-de-prevention-du-suicide"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "be-dg-han",
+     "section": "money",
+     "name": "Disability allowances and recognition (DG Personnes handicapées)",
+     "org": "Federal Public Service Social Security, Directorate-General Persons with Disabilities",
+     "what": "The federal office that recognises disability and pays allowances to disabled adults: the income replacement allowance (allocation de remplacement de revenus) if you are 18 to 66 and your earning capacity has fallen by at least two-thirds, and the integration allowance for the extra costs of taking part in daily life. It also issues certificates for social and tax benefits and the disability parking card.",
+     "how": "Call Monday, Wednesday, Thursday and Friday, 8:30 to 12:30, or Tuesday, 13:00 to 16:00. Your commune or CPAS can help you apply. Follow your file online in MyHandicap. In French, Dutch or German.",
+     "phone": "02 202 02 02",
+     "dial": "022020202",
+     "url": "https://handicap.belgium.be/fr",
+     "sources": [
+      "https://handicap.belgium.be/fr",
+      "https://be.brussels/en/assistance-social-health/disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "be-unia",
+     "section": "rights",
+     "name": "Unia",
+     "org": "Unia, the Interfederal Centre for Equal Opportunities",
+     "what": "Belgium’s equality body. You can report discrimination because of a disability to it, for example being treated differently because you use a wheelchair.",
+     "how": "Call free on 0800 12 800 or use the reporting form on its website. Its site has pages in English.",
+     "phone": "0800 12 800",
+     "dial": "080012800",
+     "url": "https://www.unia.be/en/",
+     "sources": [
+      "https://www.unia.be/fr",
+      "https://www.wallonie.be/fr/demarches/signaler-une-discrimination"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "SE",
+   "slug": "sweden",
+   "name": "Sweden",
+   "emergency": {
+    "number": "112",
+    "label": "Emergency number for ambulance, fire and police",
+    "source": "https://www.sosalarm.se/en/112-and-other-important-numbers/important-phone-numbers/112--swedens-emergency-number-for-urgent-assistance/112-for-speech-and-hearing-impaired/"
+   },
+   "relay": "Deaf, hard of hearing or speech-impaired: register in advance with SOS Alarm to reach 112 by text (SMS112), call through the text telephone service at texttelefoni.se, or reach 112 with sign-language interpreting through Bildtelefoni.net.",
+   "relay_url": "https://www.sosalarm.se/en/112-and-other-important-numbers/important-phone-numbers/112--swedens-emergency-number-for-urgent-assistance/112-for-speech-and-hearing-impaired/",
+   "relay_source": "https://www.sosalarm.se/en/112-and-other-important-numbers/important-phone-numbers/112--swedens-emergency-number-for-urgent-assistance/112-for-speech-and-hearing-impaired/",
+   "resources": [
+    {
+     "id": "se-mind-90101",
+     "section": "help-now",
+     "name": "Självmordslinjen (Suicide Hotline)",
+     "org": "Mind",
+     "what": "An anonymous line for people with thoughts of suicide, answered by volunteers 24 hours a day, every day. You can also chat.",
+     "how": "Call 90101. Mind publishes this information in English; its page does not say which languages the volunteers speak.",
+     "phone": "90101",
+     "dial": "90101",
+     "url": "https://mind.se/en/are-you-experiencing-suicidal-thoughts/",
+     "sources": [
+      "https://mind.se/en/are-you-experiencing-suicidal-thoughts/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "se-merkostnadsersattning",
+     "section": "money",
+     "name": "Additional cost allowance (merkostnadsersättning)",
+     "org": "Försäkringskassan (Swedish Social Insurance Agency)",
+     "what": "A tax-free monthly payment for extra costs caused by a disability that has lasted or will last at least a year. Each cost is assessed on its own, and your extra costs need to come to at least 14,800 kronor a year. You apply yourself from 18 (parents apply for 18 to 21 year olds still at school).",
+     "how": "Add up your extra costs, get a medical statement, then apply through the e-service or on form 3085. A decision normally takes about five months. Customer service is open Monday to Friday, 8:00 to 16:00. In Swedish.",
+     "phone": "0771-524 524",
+     "dial": "0771524524",
+     "url": "https://www.forsakringskassan.se/privatperson/funktionsnedsattning/merkostnadsersattning-for-vuxna",
+     "sources": [
+      "https://www.forsakringskassan.se/privatperson/funktionsnedsattning/merkostnadsersattning-for-vuxna"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "se-parking-permit",
+     "section": "equipment-home",
+     "name": "Disabled parking permit (parkeringstillstånd för rörelsehindrade)",
+     "org": "Your municipality (kommun), under rules from Transportstyrelsen",
+     "what": "A permit for people with a lasting disability that makes it very hard to get around on their own, as a driver or as a passenger who needs the driver’s help. It is valid across Sweden for up to five years and lets you park longer where parking is limited, and in reserved spaces.",
+     "how": "Apply to the municipality where you are registered. The municipality may not charge a fee for handling the application. In Swedish.",
+     "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/",
+     "sources": [
+      "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "se-do",
+     "section": "rights",
+     "name": "Equality Ombudsman (Diskrimineringsombudsmannen, DO)",
+     "org": "Diskrimineringsombudsmannen",
+     "what": "The government agency that takes complaints about discrimination, including because of a disability (functional impairment).",
+     "how": "Use the complaint form on do.se, email do@do.se or call. DO can also be reached by sign-language interpreted call, text telephone or interpreted phone call. Its site has pages in English.",
+     "phone": "08-120 20 700",
+     "dial": "0812020700",
+     "email": "do@do.se",
+     "url": "https://www.do.se/choose-language/english",
+     "sources": [
+      "https://www.do.se/choose-language/english",
+      "https://www.informationsverige.se/en/om-sverige/individens-rattigheter-och-skyldigheter/diskriminering.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "NO",
+   "slug": "norway",
+   "name": "Norway",
+   "emergency": {
+    "number": "113",
+    "label": "Ambulance and medical emergencies. Police: 112. Fire: 110",
+    "source": "https://www.halden.kommune.no/new-in-town/healthcare-and-emergency-services/"
+   },
+   "resources": [
+    {
+     "id": "no-mental-helse-116123",
+     "section": "help-now",
+     "name": "Mental Helse Helpline (Hjelpetelefonen)",
+     "org": "Mental Helse",
+     "what": "A listening line for anyone who needs someone to talk to, open 24 hours a day. Its web chat is open around the clock too.",
+     "how": "Call 116 123. In Norwegian or English.",
+     "phone": "116 123",
+     "dial": "116123",
+     "sources": [
+      "https://www.helsenorge.no/en/psykisk-helse/do-you-need-someone-to-talk-to/",
+      "https://findahelpline.com/organizations/mental-helse-hjelpetelefonen"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "no-kirkens-sos",
+     "section": "help-now",
+     "name": "Kirkens SOS",
+     "org": "Kirkens SOS",
+     "what": "A crisis line answered by volunteers, open 24 hours a day for anyone.",
+     "how": "Call 22 40 00 40.",
+     "phone": "22 40 00 40",
+     "dial": "22400040",
+     "sources": [
+      "https://www.helsenorge.no/en/psykisk-helse/do-you-need-someone-to-talk-to/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "no-uforetrygd",
+     "section": "money",
+     "name": "Disability benefit (uføretrygd)",
+     "org": "Nav",
+     "what": "For people aged 18 to 67 whose earning capacity is reduced, usually by at least 50%, mainly because of long-term illness or injury, and who were members of the national insurance scheme for the five years before. Lower thresholds apply in some cases, such as an approved work injury.",
+     "how": "Your local Nav office first assesses your ability to work with you; then you apply online on nav.no. Processing takes about six months. In Norwegian.",
+     "url": "https://www.nav.no/uforetrygd",
+     "sources": [
+      "https://www.nav.no/uforetrygd"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "no-nav-mobility-aids",
+     "section": "equipment-home",
+     "name": "Mobility aids from Nav (hjelpemidler)",
+     "org": "Nav and its assistive technology centres",
+     "what": "Manual and electric wheelchairs, scooters, rollators, standing frames, bed and transfer equipment and car grants (bilstønad) for people with a lasting (over two years) and significant loss of motor function, when the aid is needed for daily life, care at home, school or work.",
+     "how": "Check your rights and find the forms on nav.no, or contact your regional assistive technology centre (hjelpemiddelsentral). Nav’s phone line is open weekdays, 9:00 to 11:15 and 12:15 to 14:30. In Norwegian.",
+     "phone": "55 55 11 11",
+     "dial": "55551111",
+     "url": "https://www.nav.no/bevegelse",
+     "sources": [
+      "https://www.nav.no/bevegelse"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "no-ldo",
+     "section": "rights",
+     "name": "Equality and Anti-Discrimination Ombud (LDO)",
+     "org": "Likestillings- og diskrimineringsombudet",
+     "what": "Free guidance for anyone who thinks they have been discriminated against, including because of a disability. Employers and organisations can ask too.",
+     "how": "Call the advice line Monday to Thursday, 12:30 to 14:30, or Friday, 9:00 to 11:00, or write through its secure contact forms. Its site has a page in English.",
+     "phone": "23 15 73 00",
+     "dial": "23157300",
+     "url": "https://ldo.no/ldo-english-page",
+     "sources": [
+      "https://ldo.no/ldo-english-page"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "DK",
+   "slug": "denmark",
+   "name": "Denmark",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, fire and police. For non-urgent police matters, call 114",
+    "source": "https://lifeindenmark.borger.dk/healthcare/Emergencies"
+   },
+   "resources": [
+    {
+     "id": "dk-livslinien",
+     "section": "help-now",
+     "name": "Livslinien",
+     "org": "Livslinien",
+     "what": "An anonymous line for people with thoughts of suicide and for those worried about someone. It is open every day of the year from 9:00 to 5:00 the next morning, not around the clock. A chat is open in the evenings and weekend afternoons.",
+     "how": "Call 70 201 201 between 9:00 and 5:00. Chat runs Monday to Friday, 17:00 to 21:00, and Saturday and Sunday, 13:00 to 17:00. Its website is in Danish.",
+     "phone": "70 201 201",
+     "dial": "70201201",
+     "url": "https://www.livslinien.dk",
+     "sources": [
+      "https://www.livslinien.dk",
+      "https://findahelpline.com/organizations/livslinien"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "dk-fortidspension",
+     "section": "money",
+     "name": "Disability pension (førtidspension)",
+     "org": "Your municipality (kommune); paid by Udbetaling Danmark",
+     "what": "For people whose ability to work is permanently reduced so much that they cannot work on ordinary terms. You must meet residence rules. The municipality decides, after a resource clarification process and a rehabilitation plan made with you.",
+     "how": "Contact your municipality to start. Once it is granted, Udbetaling Danmark pays it to your NemKonto. The life in Denmark guide explains it in English.",
+     "url": "https://lifeindenmark.borger.dk/pension/disability-pension",
+     "sources": [
+      "https://lifeindenmark.borger.dk/pension/disability-pension"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "dk-handicapbil",
+     "section": "equipment-home",
+     "name": "Support for a car (støtte til handicapbil)",
+     "org": "Your municipality (kommune)",
+     "what": "An interest-free loan towards the cheapest suitable car (up to 231,000 kroner in 2026) for people whose lasting physical or mental disability makes them depend on a car to work, study or take part in activities. You can also get help with adaptations such as hand controls or a swivel seat, and with driving lessons. Parents can apply for a disabled child.",
+     "how": "Apply to your municipality through the “Ansøg om støtte til bil” self-service on borger.dk, or contact the municipality if you cannot apply online. In Danish.",
+     "url": "https://www.borger.dk/handicap/hj%C3%A6lpemidler/stoette-til-handicapbil",
+     "sources": [
+      "https://www.borger.dk/handicap/hj%C3%A6lpemidler/stoette-til-handicapbil"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "dk-diskriminationslinjen",
+     "section": "rights",
+     "name": "Diskriminationslinjen (Discrimination Helpline)",
+     "org": "Danish Institute for Human Rights",
+     "what": "Free legal advice if you have been discriminated against, including because of a disability, or are unsure whether you have. Its lawyers can help with complaints to the Equal Treatment Board (Ligebehandlingsnævnet).",
+     "how": "Call Monday to Thursday, 12:00 to 15:00, or email diskriminationslinjen@humanrights.dk with “Diskriminationslinjen” in the subject. In Danish.",
+     "phone": "32 69 86 66",
+     "dial": "32698666",
+     "email": "diskriminationslinjen@humanrights.dk",
+     "url": "https://menneskeret.dk/diskriminationslinjen",
+     "sources": [
+      "https://menneskeret.dk/diskriminationslinjen",
+      "https://www.borger.dk/handicap/rettigheder-raad-og-organisationer-for-personer-med-handicap"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CH",
+   "slug": "switzerland",
+   "name": "Switzerland",
+   "emergency": {
+    "number": "112",
+    "label": "European emergency number, answered by the police control centre. Ambulance: 144. Fire: 118. Police: 117",
+    "source": "https://www.ch.ch/en/safety-and-justice/emergencies-and-danger"
+   },
+   "resources": [
+    {
+     "id": "ch-143",
+     "section": "help-now",
+     "name": "Die Dargebotene Hand / La Main Tendue (Tel 143)",
+     "org": "Die Dargebotene Hand",
+     "what": "An anonymous listening line open 24 hours a day for anyone who needs to talk. An English-language crisis line runs every evening.",
+     "how": "Call 143, any hour; a call costs 20 to 70 centimes. In German, French or Italian. In English, call 0800 143 000, daily from 18:00 to 23:00.",
+     "phone": "143",
+     "dial": "143",
+     "url": "https://www.143.ch",
+     "sources": [
+      "https://www.zh.ch/de/wirtschaft-arbeit/arbeitsbedingungen/arbeitsssicherheit-gesundheitsschutz/psychosoziale-risiken-arbeitsplatz/anlaufstellen-fuer-arbeitnehmende-zum-betrieblichen-gesundheitsschutz/angebote/dargebotene-hand-tel-143.html",
+      "https://www.ch.ch/en/safety-and-justice/emergencies-and-danger",
+      "https://chat.findahelpline.com/organizations/verband-tel-143-die-dargebotene-hand"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ch-pro-infirmis",
+     "section": "start",
+     "name": "Pro Infirmis social counselling",
+     "org": "Pro Infirmis",
+     "what": "Free counselling for disabled people and their relatives across Switzerland, covering housing, work, money and daily life, with a centre in every canton.",
+     "how": "Choose your canton on the Pro Infirmis website to find the advice centre near you. In German, French or Italian, and in easy language.",
+     "url": "https://www.proinfirmis.ch/",
+     "sources": [
+      "https://www.proinfirmis.ch/",
+      "https://www.beobachter.ch/beratung/rechtsratgeber/versicherungen/invalidenversicherung-iv/verfahren-bei-der-invalidenversicherung/adressen-rechtsberatungsstellen"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ch-iv",
+     "section": "money",
+     "name": "Disability insurance (Invalidenversicherung IV / assurance-invalidité AI)",
+     "org": "The IV office of your canton",
+     "what": "Compulsory insurance for everyone living or working in Switzerland. It pays first for help to stay in or return to work, medical measures and aids such as a wheelchair or hearing aid; a pension if you are on average at least 40% unable to work for a year; a helplessness allowance if you need help with daily tasks; and an assistance contribution to help you keep living at home.",
+     "how": "Register with the IV office of the canton where you live (cross-border workers: where you work) on the registration form. Do not wait: a late registration can cost you benefits. In German, French or Italian.",
+     "url": "https://ch.ch/de/invalidenversicherung-iv",
+     "sources": [
+      "https://ch.ch/de/invalidenversicherung-iv"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ch-procap-legal",
+     "section": "rights",
+     "name": "Procap legal advice on social insurance",
+     "org": "Procap",
+     "what": "Advice and legal support on disability insurance (IV), accident insurance, occupational pensions and supplementary benefits. It is free for Procap members.",
+     "how": "Call the legal service, or find a regional advice centre on procap.ch. Non-members can ask about the terms. In German.",
+     "phone": "062 206 88 77",
+     "dial": "0622068877",
+     "url": "https://www.procap.ch/de/ueber-uns/beratungs-und-fachstellen/sozialversicherungen.html",
+     "sources": [
+      "https://www.procap.ch/fileadmin/files/procap/Publikationen/Dokumente/Items/Rechtsberatung/Procap_Rechtsberatung-Sozialversicherungen_A6-5_DE_BF.pdf",
+      "https://www.beobachter.ch/beratung/rechtsratgeber/versicherungen/invalidenversicherung-iv/verfahren-bei-der-invalidenversicherung/adressen-rechtsberatungsstellen"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "AT",
+   "slug": "austria",
+   "name": "Austria",
+   "emergency": {
+    "number": "144",
+    "label": "Ambulance (Rettung). For the police, call 133",
+    "source": "https://www.gesundheit.gv.at/leben/suizidpraevention/anlaufstellen/notrufnummern.html"
+   },
+   "resources": [
+    {
+     "id": "at-telefonseelsorge-142",
+     "section": "help-now",
+     "name": "TelefonSeelsorge (Notruf 142)",
+     "org": "TelefonSeelsorge",
+     "what": "A free listening line open every day around the clock, with email and chat counselling too.",
+     "how": "Call 142, any hour; there is no charge from any phone in Austria. In German.",
+     "phone": "142",
+     "dial": "142",
+     "sources": [
+      "https://www.gesundheit.gv.at/leben/suizidpraevention/anlaufstellen/notrufnummern.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "at-behindertenpass",
+     "section": "start",
+     "name": "Disability pass (Behindertenpass)",
+     "org": "Sozialministeriumservice (SMS)",
+     "what": "An official photo ID that proves a degree of disability of at least 50%. It brings discounts, and from 70% a half-price fare on Austrian Federal Railways (ÖBB). It is also the first step to the disabled parking card. It pays no money itself.",
+     "how": "Apply to the regional office of the Sozialministeriumservice with a photo and your medical records or earlier decisions. If you have no assessment yet, an SMS doctor estimates your degree of disability, usually from your documents. In German.",
+     "url": "https://www.oesterreich.gv.at/themen/menschen_mit_behinderungen/rehabilitation/behindertenpass",
+     "sources": [
+      "https://www.oesterreich.gv.at/themen/menschen_mit_behinderungen/rehabilitation/behindertenpass",
+      "https://www.oesterreich.gv.at/themen/menschen_mit_behinderungen/rehabilitation/Seite.1170300.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "at-pflegegeld",
+     "section": "money",
+     "name": "Care allowance (Pflegegeld)",
+     "org": "Austrian federal care allowance",
+     "what": "A monthly allowance, in seven levels, for people who need more than 65 hours of care and support a month because of a physical, mental, psychological or sensory disability expected to last at least six months, whatever the cause. You must normally live in Austria.",
+     "how": "The responsible body sets your level after an expert assessment, usually an announced home visit by a doctor or nurse. The government’s help portal explains where to apply. In German.",
+     "url": "https://www.oesterreich.gv.at/themen/pflege/4/Seite.360512.html",
+     "sources": [
+      "https://www.oesterreich.gv.at/themen/pflege/4/Seite.360512.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "at-parkausweis-29b",
+     "section": "equipment-home",
+     "name": "Disabled parking card (Parkausweis nach § 29b StVO)",
+     "org": "Sozialministeriumservice (SMS)",
+     "what": "A parking card for people whose disability pass carries the entry that they cannot use public transport because of a permanent loss of mobility. In most provinces, cardholders park free.",
+     "how": "Apply to the Sozialministeriumservice on its digital or paper form with a passport photo. The government portal has the details in English.",
+     "url": "https://www.oesterreich.gv.at/en/themen/menschen_mit_behinderungen/kfz_und_behinderung/Seite.1260200.html",
+     "sources": [
+      "https://www.oesterreich.gv.at/en/themen/menschen_mit_behinderungen/kfz_und_behinderung/Seite.1260200.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "at-behindertenanwaltschaft",
+     "section": "rights",
+     "name": "Federal Disability Ombudsperson (Behindertenanwältin)",
+     "org": "Anwaltschaft für Gleichbehandlungsfragen für Menschen mit Behinderungen",
+     "what": "Free advice, support and representation if you feel you have been discriminated against because of a disability under federal equality or employment law. It can also run conciliation proceedings for you at the Sozialministeriumservice.",
+     "how": "Call free on 0800 80 80 16, every day from 9:00 to 12:00, email office@behindertenanwalt.gv.at, or come to a consultation day in your province. In German.",
+     "phone": "0800 80 80 16",
+     "dial": "0800808016",
+     "email": "office@behindertenanwalt.gv.at",
+     "url": "https://www.oesterreich.gv.at/themen/menschen_mit_behinderungen/gleichstellung-von-menschen-mit-behinderungen/Seite.1875000.html",
+     "sources": [
+      "https://www.oesterreich.gv.at/themen/menschen_mit_behinderungen/gleichstellung-von-menschen-mit-behinderungen/Seite.1875000.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "JP",
+   "slug": "japan",
+   "name": "Japan",
+   "emergency": {
+    "number": "119",
+    "label": "Fire and ambulance. For the police, call 110",
+    "source": "https://www.pref.miyagi.jp/soshiki/syoubou/netto119.html"
+   },
+   "relay": "Deaf or speech-impaired: where your local fire department has joined Net119, you can report a fire or medical emergency from your phone’s browser and continue by text chat.",
+   "relay_source": "https://www.pref.miyagi.jp/soshiki/syoubou/netto119.html",
+   "resources": [
+    {
+     "id": "jp-yorisoi",
+     "section": "help-now",
+     "name": "Yorisoi Hotline (よりそいホットライン)",
+     "org": "Listed by the Ministry of Health, Labour and Welfare",
+     "what": "A free line open 24 hours a day for any worry. The recorded guidance lets you choose specialist help, including help in foreign languages.",
+     "how": "Call 0120-279-338, free. From Fukushima Prefecture, call 0120-279-226; from an IP phone, 050-3655-0279. Choose a foreign language in the guidance if you need one.",
+     "phone": "0120-279-338",
+     "dial": "0120279338",
+     "sources": [
+      "https://www.mhlw.go.jp/mamorouyokokoro/soudan/tel/index.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "jp-tell-lifeline",
+     "section": "help-now",
+     "name": "TELL Lifeline",
+     "org": "TELL",
+     "what": "A free, confidential English-language support line for anyone in Japan, with chat as well. It is not open around the clock.",
+     "how": "Call 0800-300-8355, free. Phone hours: Saturday 9:00 through Monday 23:00, Tuesday to Thursday 9:00 to 23:00, and Friday 9:00 to 2:00. Chat opens daily from 16:00. In English.",
+     "phone": "0800-300-8355",
+     "dial": "08003008355",
+     "url": "https://telljp.com/lifeline/",
+     "sources": [
+      "https://telljp.com/lifeline/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "jp-shogaisha-techo",
+     "section": "start",
+     "name": "Disability certificates (障害者手帳)",
+     "org": "Ministry of Health, Labour and Welfare; your city, town or village office",
+     "what": "Three certificates: for physical disability (身体障害者手帳), intellectual disability (療育手帳) and mental illness (精神障害者保健福祉手帳). Any of them opens support under the Comprehensive Support Act for persons with disabilities, and they bring discounts such as reduced JR fares and toll roads, depending on the certificate.",
+     "how": "Ask the disability welfare desk at your city, town or village office. The physical disability certificate needs a report from a designated doctor and a photo. In Japanese.",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/shougaishahukushi/techou.html",
+     "sources": [
+      "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/shougaishahukushi/techou.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "jp-jinken-110",
+     "section": "rights",
+     "name": "Human rights consultation line (みんなの人権110番)",
+     "org": "Ministry of Justice human rights bureaus",
+     "what": "A national phone line for advice about human rights problems, including discrimination against disabled people.",
+     "how": "Call weekdays, 8:30 to 17:15. In Japanese.",
+     "phone": "0570-003-110",
+     "dial": "0570003110",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.gov-online.go.jp/article/201309/entry-9015.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "KR",
+   "slug": "south-korea",
+   "name": "South Korea",
+   "emergency": {
+    "number": "119",
+    "label": "Fire, disasters and medical emergencies, answered by the National Fire Agency. You can also report to 119 by text message with photos, through the 119 reporting app or by video call",
+    "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148925594"
+   },
+   "resources": [
+    {
+     "id": "kr-109",
+     "section": "help-now",
+     "name": "Suicide prevention line 109 (자살예방 상담전화)",
+     "org": "Government of the Republic of Korea",
+     "what": "The national suicide prevention counselling line, answered by trained counsellors 24 hours a day.",
+     "how": "Call 109, any hour. The government page describing it is in Korean and does not say which other languages are offered.",
+     "phone": "109",
+     "dial": "109",
+     "sources": [
+      "https://m.korea.kr/news/reporterView.do?newsId=148933092"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "kr-129",
+     "section": "start",
+     "name": "Health and Welfare Call Centre 129 (보건복지상담센터)",
+     "org": "Ministry of Health and Welfare",
+     "what": "The national line for questions about health and welfare programmes, including the disability pension. There is also a chat with its counsellors.",
+     "how": "Call 129 with no area code. In Korean.",
+     "phone": "129",
+     "dial": "129",
+     "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/counseling/02/index.html",
+     "sources": [
+      "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/customer/counseling/02/index.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "kr-disability-pension",
+     "section": "money",
+     "name": "Disability pension (장애인연금)",
+     "org": "Ministry of Health and Welfare",
+     "what": "A monthly pension for severely disabled people aged 18 or over on low incomes and assets (in 2025, up to 1.38 million won a month for a single person). It paid up to 432,510 won a month in 2025.",
+     "how": "Apply at your local community service centre (읍·면·동 행정복지센터) or online through Bokjiro. Questions: call 129. In Korean.",
+     "url": "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1307729_1118.html",
+     "sources": [
+      "https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1307729_1118.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "kr-nhrck",
+     "section": "rights",
+     "name": "National Human Rights Commission of Korea",
+     "org": "National Human Rights Commission of Korea (NHRCK)",
+     "what": "Takes complaints about unlawful discrimination, including because of a disability, under the Act on the Prohibition of Discrimination against Persons with Disabilities.",
+     "how": "Call 1331 in Seoul and Gyeonggi, or 02-1331 elsewhere. You can also send a complaint by mail, fax or email to hoso@humanrights.go.kr; an English complaint form is on its site.",
+     "phone": "1331",
+     "dial": "1331",
+     "email": "hoso@humanrights.go.kr",
+     "url": "https://case.humanrights.go.kr/global/language_english.do",
+     "phone_note": "Outside Seoul and Gyeonggi-do, dial 02-1331.",
+     "sources": [
+      "https://case.humanrights.go.kr/global/language_english.do"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "IL",
+   "slug": "israel",
+   "name": "Israel",
+   "emergency": {
+    "number": "101",
+    "label": "Magen David Adom ambulance. Police: 100. Fire and rescue: 102",
+    "source": "https://www.gov.il/BlobFolder/generalpage/firststeps_guides/he/lan%20lifnot%20-he.pdf"
+   },
+   "relay": "Deaf or speech-impaired: you can reach Magen David Adom by text message at 052-7000101 or by fax at 1-800-500-101.",
+   "relay_source": "https://www.gov.il/BlobFolder/generalpage/firststeps_guides/he/lan%20lifnot%20-he.pdf",
+   "resources": [
+    {
+     "id": "il-eran-1201",
+     "section": "help-now",
+     "name": "ERAN emotional first aid",
+     "org": "ERAN",
+     "what": "A volunteer emotional support line, open 24 hours a day, every day of the year, anonymously. Chat, WhatsApp and text are open from 8:00 to 2:00 in Hebrew, Arabic and Russian.",
+     "how": "Call 1201, any hour. The phone line is in Hebrew; for other languages, use the chat or ERAN’s helpline for new immigrants.",
+     "phone": "1201",
+     "dial": "1201",
+     "url": "https://en.eran.org.il/our-services/",
+     "sources": [
+      "https://en.eran.org.il/our-services/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "il-general-disability",
+     "section": "money",
+     "name": "General disability pension",
+     "org": "National Insurance Institute (Bituach Leumi)",
+     "what": "A monthly pension for residents from 18 to retirement age who do not work or earn little, with a medical disability of at least 60% (or 40% with several impairments) set by a National Insurance doctor, and whose earning capacity is reduced by at least half.",
+     "how": "Claim online or at a branch by appointment. The call centre is *6050, or 04-8812345. Its site explains the pension in English.",
+     "phone": "*6050",
+     "dial": "*6050",
+     "url": "https://www.btl.gov.il/English%20Homepage/Benefits/Disability%20Insurance/Pages/Whoisentitledtoamonthlydisabilitypension.aspx",
+     "sources": [
+      "https://www.btl.gov.il/English%20Homepage/Benefits/Disability%20Insurance/Pages/Whoisentitledtoamonthlydisabilitypension.aspx"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "EC",
+   "slug": "ecuador",
+   "name": "Ecuador",
+   "emergency": {
+    "number": "911",
+    "label": "ECU 911, the single emergency number, free and open 24 hours a day",
+    "source": "https://www.gob.ec/ecu-911/tramites/solicitud-atencion-emergencia-traves-diferentes-mecanismos-alerta"
+   },
+   "resources": [
+    {
+     "id": "ec-171-mental-health",
+     "section": "help-now",
+     "name": "Mental health line 171, option 6",
+     "org": "Ministerio de Salud Pública (MSP)",
+     "what": "The health ministry’s mental health line, answered by specialist staff every day including holidays, from 7:00 to 20:00. It is not open around the clock; at other times, call the emergency number.",
+     "how": "Call 171 and choose option 6, between 7:00 and 20:00. In Spanish.",
+     "phone": "171",
+     "dial": "171",
+     "sources": [
+      "https://www.salud.gob.ec/a-traves-de-la-linea-171-msp-ofrece-atencion-en-salud-mental/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ec-disability-certificate",
+     "section": "start",
+     "name": "Disability certificate (calificación de discapacidad)",
+     "org": "Ministerio de Salud Pública (MSP)",
+     "what": "The free medical, psychological and social assessment that certifies a disability of 30% or more, for Ecuadorians and foreigners living in Ecuador. It opens the door to disability benefits and aids, and your ID card can then show your disability at no cost.",
+     "how": "After a clinical assessment, the health professional sets your appointment at an MSP health centre. Bring the signed application, your ID or passport and reports from authorised professionals. Deaf people can book by video with sign-language help: call 171, option 4, 8:00 to 14:00. In Spanish.",
+     "url": "https://www.gob.ec/msp/tramites/emision-certificado-calificacion-recalificacion-discapacidad-establecimiento-salud",
+     "sources": [
+      "https://www.gob.ec/msp/tramites/emision-certificado-calificacion-recalificacion-discapacidad-establecimiento-salud"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ec-bono-jgl",
+     "section": "money",
+     "name": "Joaquín Gallegos Lara benefit (Bono Joaquín Gallegos Lara)",
+     "org": "Government of Ecuador (social development ministry)",
+     "what": "A monthly payment of 240 dollars, made to the person who cares for someone with a severe disability (intellectual or psychosocial 65% or more, physical 75% or more), a catastrophic or rare illness, or a child with HIV, who lives in critical economic hardship or extreme poverty.",
+     "how": "Take the beneficiary’s ID, a recent utility bill, a sketch of how to find the home and the disability certificate to your nearest district office, weekdays 8:00 to 16:30. It is free. In Spanish.",
+     "phone": "(02) 3983100",
+     "dial": "023983100",
+     "email": "atencionbjgl@desarrollohumano.gob.ec",
+     "url": "https://www.gob.ec/mies/tramites/registro-solicitud-al-bono-joaquin-gallegos-lara",
+     "phone_note": "Ask for extension 5206.",
+     "sources": [
+      "https://www.gob.ec/mies/tramites/registro-solicitud-al-bono-joaquin-gallegos-lara"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ec-ayudas-tecnicas",
+     "section": "equipment-home",
+     "name": "Wheelchairs and other aids (ayudas técnicas)",
+     "org": "Ministerio de Salud Pública (MSP)",
+     "what": "Free wheelchairs, canes, prostheses, orthoses and other aids for people with a certified disability who need them, after a prescription from an MSP health professional. A home visit is possible if you cannot travel.",
+     "how": "Call 171, option 4, and say it is for an aid prescription. Go to your appointment, then collect the aid from the provincial office. In Spanish.",
+     "phone": "171",
+     "dial": "171",
+     "url": "https://www.gob.ec/msp/tramites/entrega-ayudas-tecnicas-personas-discapacidad",
+     "sources": [
+      "https://www.gob.ec/msp/tramites/entrega-ayudas-tecnicas-personas-discapacidad"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ec-conadis",
+     "section": "rights",
+     "name": "National Council for Disability Equality (CONADIS)",
+     "org": "Consejo Nacional para la Igualdad de Discapacidades",
+     "what": "Free advice and guidance when the rights of a disabled person are threatened or violated, for disabled people, their families and anyone in Ecuador.",
+     "how": "Use the online form, email informacion@consejodiscapacidades.gob.ec, or visit the Quito office or a provincial office, weekdays 8:00 to 16:30. In Spanish.",
+     "phone": "(593 2) 2433 860",
+     "dial": "+59322433860",
+     "email": "informacion@consejodiscapacidades.gob.ec",
+     "url": "https://www.gob.ec/conadis/tramites/atencion-requerimiento-asesoria-orientacion-casos-amenaza-violacion-derechos-medidas-accion-afirmativa",
+     "phone_note": "Ask for extension 101.",
+     "sources": [
+      "https://www.gob.ec/conadis/tramites/atencion-requerimiento-asesoria-orientacion-casos-amenaza-violacion-derechos-medidas-accion-afirmativa"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CR",
+   "slug": "costa-rica",
+   "name": "Costa Rica",
+   "emergency": {
+    "number": "911",
+    "label": "Emergencies that threaten life, property or the environment. You can also report through the Emergencias 9-1-1 CR app",
+    "source": "https://www.mep.go.cr/sites/default/files/2026-05/ReporteIncidentes911CentrosLaboralesMEP2026.pdf"
+   },
+   "resources": [
+    {
+     "id": "cr-aqui-estoy",
+     "section": "help-now",
+     "name": "Línea Aquí Estoy",
+     "org": "Colegio de Profesionales en Psicología de Costa Rica",
+     "what": "A free emotional support line from the professional college of psychologists. It is not open around the clock; in an emergency, call the emergency number.",
+     "how": "Call 800-AQESTOY (800-2737869), Monday to Friday 14:00 to 22:00, or Saturday 9:00 to 16:00.",
+     "phone": "800-2737869",
+     "dial": "8002737869",
+     "url": "https://aquiestoy.cr/",
+     "sources": [
+      "https://aquiestoy.cr/",
+      "https://findahelpline.com/organizations/linea-aqui-estoy-del-colegio-de-profesionales-en-psicologia"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cr-defensoria",
+     "section": "rights",
+     "name": "Defensoría de los Habitantes",
+     "org": "Defensoría de los Habitantes de la República",
+     "what": "The national ombudsman. It takes complaints when a public institution fails or violates people’s rights, and it is the national body that monitors the UN disability convention. Most of the disability complaints it receives concern health services, pensions and due process.",
+     "how": "Call free on 800-258-7474 (switchboard 4000-8500), email correspondencia@dhr.go.cr, use the complaint form on its website, or visit its San José office. In Spanish.",
+     "phone": "800-258-7474",
+     "dial": "8002587474",
+     "email": "correspondencia@dhr.go.cr",
+     "sources": [
+      "https://www.dhr.go.cr/servicios/proceso_como_denunciar/Denuncia_escrita_proceso.pdf",
+      "https://dhr.go.cr/mecanismo_nacional_discapacidad/boletines_discapacidad/boletines_2026_discapacidad/boletines_26/44_Boletin-%20Julio_2026.pdf"
      ],
      "reviewed_on": "2026-11-21"
     }
