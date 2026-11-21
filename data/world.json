@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -1974,6 +1974,881 @@
      "sources": [
       "https://magneticmediatv.com/2020/05/bahamas-social-agencies-work-hand-in-hand-to-ensure-access-for-the-disabled/",
       "https://undp.org/node/370776"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "DE",
+   "slug": "germany",
+   "name": "Germany",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance and fire brigade. For the police, call 110",
+    "source": "https://gesund.bund.de/wege-im-gesundheitswesen/dfsfd/default-acb501b0d0f8632093873bb2dabc0c1b/soforthilfe"
+   },
+   "resources": [
+    {
+     "id": "de-telefonseelsorge",
+     "section": "help-now",
+     "name": "TelefonSeelsorge",
+     "org": "TelefonSeelsorge",
+     "what": "A free, anonymous listening line for anyone in crisis or emotional distress, open around the clock. You can also write by email or chat.",
+     "how": "Call 0800 111 0 111 or 0800 111 0 222, or the European number 116 123. The service is in German.",
+     "phone": "0800 111 0 111",
+     "dial": "08001110111",
+     "sources": [
+      "https://www.bundesregierung.de/breg-de/aktuelles/hilfs-und-krisentelefone-1873618",
+      "https://gesund.bund.de/wege-im-gesundheitswesen/dfsfd/default-acb501b0d0f8632093873bb2dabc0c1b/soforthilfe",
+      "https://findahelpline.com/organizations/telefonseelsorge"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "de-bmas-disability-line",
+     "section": "start",
+     "name": "Citizens’ line for people with disabilities (Bürgertelefon)",
+     "org": "Federal Ministry of Labour and Social Affairs (BMAS)",
+     "what": "The federal labour ministry’s information line for questions about disability. Deaf people can reach the ministry in German Sign Language through its sign-language video phone, or by email at info.gehoerlos@bmas.bund.de.",
+     "how": "Call Monday to Thursday, 8:00 to 17:00, or Friday, 8:00 to 12:00. The line is in German.",
+     "phone": "030 221 911 006",
+     "dial": "030221911006",
+     "url": "https://www.bmas.de/DE/Service/Kontakt/Buergertelefon/buergertelefon.html",
+     "links": [
+      {
+       "label": "Sign-language video phone",
+       "url": "https://www.gebaerdentelefon.de/bmas"
+      }
+     ],
+     "sources": [
+      "https://www.bmas.de/DE/Service/Kontakt/Buergertelefon/buergertelefon.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "de-eutb",
+     "section": "start",
+     "name": "Independent participation counselling (EUTB)",
+     "org": "Ergänzende unabhängige Teilhabeberatung, funded by BMAS",
+     "what": "Free counselling centres across Germany for disabled people, people at risk of disability and their families. Advisers, some of them disabled, help with money, living independently, wheelchairs and other aids, interpreters and taking part in community life. The centres are not run by service providers, and they do not take on court cases.",
+     "how": "Find the centre nearest you on teilhabeberatung.de. Counselling is in German; the ministry publishes a brochure about it in English.",
+     "url": "https://www.teilhabeberatung.de",
+     "links": [
+      {
+       "label": "English brochure",
+       "url": "https://bmas.de/DE/Service/Publikationen/Broschueren/a772e-ergaenzende-unabhaengige-teilhabeberatung-englisch.html"
+      }
+     ],
+     "sources": [
+      "https://www.teilhabeberatung.de/sites/default/files/media/uploads/Faltblatt%20Leichte%20Sprache_2026_0.pdf",
+      "https://bmas.de/DE/Service/Publikationen/Broschueren/a772e-ergaenzende-unabhaengige-teilhabeberatung-englisch.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "de-schwerbehindertenausweis",
+     "section": "start",
+     "name": "Severe disability ID card (Schwerbehindertenausweis)",
+     "org": "Versorgungsamt (disability assessment office) where you live",
+     "what": "The office assesses your degree of disability (Grad der Behinderung, GdB). With a GdB of at least 50 you count as severely disabled and get the ID card. Depending on the conditions, it can mean free local public transport or lower vehicle tax.",
+     "how": "Apply to the Versorgungsamt for where you live, on its form or online where offered. You sign a release so the office can request your medical records, which costs you nothing. Offices and forms differ by state, and the process is in German.",
+     "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99015013012000",
+     "links": [
+      {
+       "label": "Example: Hamburg’s application page",
+       "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/behinderung/anerkennung/erstantrag-schwerbehinderte-43368"
+      }
+     ],
+     "sources": [
+      "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/themen/behinderung/anerkennung/erstantrag-schwerbehinderte-43368",
+      "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99015013012000"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "de-schlichtungsstelle-bgg",
+     "section": "rights",
+     "name": "Conciliation Service under the Disability Equality Act (Schlichtungsstelle BGG)",
+     "org": "Office of the Federal Government Commissioner for Matters relating to Persons with Disabilities",
+     "what": "Free out-of-court conciliation when a federal public body fails on accessibility or discriminates because of a disability, or when you, or you with your service dog, are refused entry to a place open to the public. You do not need a lawyer or proof of your degree of disability. It does not cover state or local authorities, private shops’ accessibility or private-sector job disputes.",
+     "how": "Apply in writing, through the contact form, or in person by appointment (Monday to Friday, 9:00 to 12:00). Applications by phone are not possible. Its website has pages in English.",
+     "phone": "030 18 527-2805",
+     "dial": "030185272805",
+     "email": "info@schlichtungsstelle-bgg.de",
+     "url": "https://www.schlichtungsstelle-bgg.de/Webs/SchliBGG/EN/home/english-node.html",
+     "sources": [
+      "https://www.schlichtungsstelle-bgg.de/Webs/SchliBGG/EN/service/contact/contact.html",
+      "https://www.schlichtungsstelle-bgg.de/Webs/SchliBGG/EN/home/english-node.html",
+      "https://evz.de/en/shopping-internet/alternative-dispute-resolution/adr-bodies-in-germany/persons-with-disabilities.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "FR",
+   "slug": "france",
+   "name": "France",
+   "emergency": {
+    "number": "112",
+    "label": "European emergency number. In France, 15 is medical emergencies (SAMU), 17 the police and 18 the fire brigade",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+   },
+   "relay": "Deaf, hard of hearing, deafblind or aphasic: contact 114 by text message, video, chat or the urgence 114 app. It is free and open at any hour.",
+   "relay_source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954",
+   "resources": [
+    {
+     "id": "fr-3114",
+     "section": "help-now",
+     "name": "3114: national suicide prevention line",
+     "org": "Numéro national de prévention du suicide",
+     "what": "A free line open around the clock anywhere in France, for anyone thinking about suicide and for worried family and friends. Nurses and psychologists trained in crisis care answer, and they can send emergency help with the SAMU when needed.",
+     "how": "Call 3114. The line is in French.",
+     "phone": "3114",
+     "dial": "3114",
+     "url": "https://www.sante.fr/le-numero-national-de-prevention-du-suicide-0",
+     "sources": [
+      "https://www.sante.fr/le-numero-national-de-prevention-du-suicide-0",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fr-mdph",
+     "section": "start",
+     "name": "MDPH: departmental disability office",
+     "org": "Maison départementale des personnes handicapées",
+     "what": "Each département has an MDPH, the single place to get information and apply for disability help. Its commission (CDAPH) decides on the AAH allowance, the disability compensation benefit (PCH), the mobility inclusion card and recognition as a disabled worker (RQTH). The MDPH for the département where you have lived for more than three months handles your file.",
+     "how": "Find your MDPH by postcode in the directory on Mon Parcours Handicap. Many accept applications online. Services are in French.",
+     "url": "https://www.monparcourshandicap.gouv.fr/aides/la-maison-departementale-des-personnes-handicapees-mdph-missions-et-fonctionnement",
+     "sources": [
+      "https://www.monparcourshandicap.gouv.fr/aides/la-maison-departementale-des-personnes-handicapees-mdph-missions-et-fonctionnement"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fr-0800-360-360",
+     "section": "start",
+     "name": "Local support line for disabled people and carers",
+     "what": "A free line that puts disabled people and carers in touch with local advice and support on health care, transport, school and housing.",
+     "how": "Call 0 800 360 360. The line is in French.",
+     "phone": "0 800 360 360",
+     "dial": "0800360360",
+     "url": "https://www.monparcourshandicap.gouv.fr/information-et-orientation/vos-numeros-utiles",
+     "sources": [
+      "https://www.monparcourshandicap.gouv.fr/information-et-orientation/vos-numeros-utiles"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fr-aah",
+     "section": "money",
+     "name": "Allocation aux adultes handicapés (AAH)",
+     "org": "Decided by the MDPH; paid by the CAF or MSA",
+     "what": "A monthly allowance for disabled adults with low incomes. You need an incapacity rate of at least 80%, or 50% to 79% with a substantial and lasting barrier to finding work, and you usually need to be 20 or over. The maximum was €1,041.59 a month in mainland France when this was checked.",
+     "how": "Apply to your MDPH, online where it offers that or by post on the official form. The commission has four months to answer; no answer by then counts as a refusal. In French.",
+     "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12242",
+     "sources": [
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F12242"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fr-cmi-stationnement",
+     "section": "equipment-home",
+     "name": "Mobility inclusion card for parking (CMI stationnement)",
+     "what": "Lets you park free and with no time limit in public on-street spaces, and use disabled parking spaces, as driver or passenger. It is for people whose walking is very limited (for example, under 200 metres) or who need someone with them to get around because of a mental, cognitive, psychiatric or visual impairment, lasting at least a year. The card is free.",
+     "how": "Under 60, apply to your MDPH on form Cerfa 15692 with ID, proof of address and a medical certificate. At 60 or over, ask for it in your APA application. The old parking card stays valid until 31 December 2026. In French.",
+     "url": "https://www.monparcourshandicap.gouv.fr/aides/la-carte-mobilite-inclusion-mention-stationnement",
+     "sources": [
+      "https://www.monparcourshandicap.gouv.fr/aides/la-carte-mobilite-inclusion-mention-stationnement"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fr-defenseur-des-droits",
+     "section": "rights",
+     "name": "Défenseur des droits",
+     "org": "Défenseur des droits",
+     "what": "The independent rights authority defends people free of charge when their rights are not respected, including disability discrimination at work, in housing and at school. Disability is one of the most common reasons people turn to it.",
+     "how": "Call Monday to Friday, 8:30 to 19:30, use the online form, or book a free meeting with one of its local delegates. For discrimination, its platform also answers on 3928 (local rate, weekdays 9:30 to 19:00) and by chat; deaf people can use the Acceo service. In French.",
+     "phone": "09 69 39 00 00",
+     "dial": "0969390000",
+     "url": "https://www.monparcourshandicap.gouv.fr/principaux-interlocuteurs/le-defenseur-des-droits",
+     "sources": [
+      "https://www.monparcourshandicap.gouv.fr/principaux-interlocuteurs/le-defenseur-des-droits",
+      "https://www.monparcourshandicap.gouv.fr/information-et-orientation/vos-numeros-utiles"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "ES",
+   "slug": "spain",
+   "name": "Spain",
+   "emergency": {
+    "number": "112",
+    "label": "Any emergency, including when a life is in danger",
+    "source": "https://www.sanidad.gob.es/en/linea024/home.htm"
+   },
+   "resources": [
+    {
+     "id": "es-024",
+     "section": "help-now",
+     "name": "024: line for suicidal behaviour",
+     "org": "Ministerio de Sanidad",
+     "what": "A free, confidential national line, open 24 hours a day, every day, for anyone thinking about suicide and for family and friends. Its professionals listen, give emotional support and refer you to health services, or to 112 in an emergency.",
+     "how": "Call 024. The line is in Spanish. Deaf callers can reach it in Spanish Sign Language through the SVisual video interpreting service.",
+     "phone": "024",
+     "dial": "024",
+     "url": "https://www.sanidad.gob.es/linea024/",
+     "sources": [
+      "https://www.sanidad.gob.es/en/linea024/home.htm"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "es-disability-degree",
+     "section": "start",
+     "name": "Recognised degree of disability (certificado de discapacidad)",
+     "org": "Your autonomous community; IMSERSO in Ceuta and Melilla",
+     "what": "A team assesses your disability and gives it a percentage. A degree of 33% or more is what counts as having a disability for things like income tax relief. The recognised degree is valid across Spain.",
+     "how": "Apply to the department in charge in your autonomous community, in person, by post or online. In Ceuta and Melilla, apply to the IMSERSO regional office. In Spanish.",
+     "url": "https://sid-inico.usal.es/noticias/como-solicitar-el-grado-de-discapacidad-el-imserso-te-lo-explica/",
+     "sources": [
+      "https://sid-inico.usal.es/noticias/como-solicitar-el-grado-de-discapacidad-el-imserso-te-lo-explica/",
+      "https://sede.agenciatributaria.gob.es/Sede/eu_es/ayuda/manuales-videos-folletos/manuales-practicos/manual-especifico-personas-discapacidad/irpf-2025/personas-discapacidad.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "es-pnc-invalidez",
+     "section": "money",
+     "name": "Non-contributory invalidity pension (PNC de invalidez)",
+     "org": "Run by the autonomous communities; rules set by IMSERSO",
+     "what": "A pension for people aged 18 to 64 with a disability or chronic illness of 65% or more, who have lived legally in Spain for five years (the last two in a row) and do not have enough income. In 2025 the full amount was €564.70 a month. People with 75% or more who need another person’s help get a supplement.",
+     "how": "Apply to the social services of your autonomous community, which manages the pension. In Spanish.",
+     "url": "https://creap.imserso.es/documents/d/global/pncresumen2025",
+     "sources": [
+      "https://creap.imserso.es/documents/d/global/pncresumen2025",
+      "https://castillalamancha.es/sites/default/files/documentos/pdf/20250129/folleto_pnc_facil_lectura_2025.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "es-parking-card",
+     "section": "equipment-home",
+     "name": "Parking card for people with reduced mobility",
+     "what": "Lets people with a disability and reduced mobility park in reserved spaces anywhere in Spain; a card from any region is valid nationwide. A one-year provisional card exists for people with a very serious illness who cannot wait for an assessment.",
+     "how": "Ask the public administration that issues the card where you live. In Spanish.",
+     "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=3500",
+     "sources": [
+      "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=3500"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "es-oadis",
+     "section": "rights",
+     "name": "Office for Disability Care (OADIS)",
+     "org": "Ministerio de Derechos Sociales",
+     "what": "Advises on and studies complaints from disabled people about discrimination in public administration, goods and services open to the public, buildings and streets, transport, cultural heritage or the justice system, when the problem reaches two or more autonomous communities. It does not cover employment, dependency benefits or matters already in court.",
+     "how": "Send your complaint or question in writing through the online form. In Spanish.",
+     "url": "https://www.rpdiscapacidad.gob.es/organismos/oadis.htm",
+     "links": [
+      {
+       "label": "Online form",
+       "url": "https://ope.mscbs.es/opeWebPE/inicioClave.action"
+      }
+     ],
+     "sources": [
+      "https://www.rpdiscapacidad.gob.es/organismos/oadis.htm",
+      "https://www.dsca.gob.es/en/derechos-sociales/discapacidad/derechos-personas-discapacidad"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "es-cermi",
+     "section": "rights",
+     "name": "CERMI: Spanish Committee of Representatives of Persons with Disabilities",
+     "org": "CERMI",
+     "what": "The national platform that speaks for disabled people in Spain, with more than 800 member organisations. It offers legal guidance to disabled people, their families and organisations that meet its requirements.",
+     "how": "Call or email to ask about legal guidance. In Spanish.",
+     "phone": "91 429 03 17",
+     "dial": "914290317",
+     "email": "cermi@cermi.es",
+     "url": "https://www.cermi.es/es/orientacion",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://sid-inico.usal.es/centros_servicios/orientacion-juridica-cermi-comite-espanol-de-representantes-de-personas-con-discapacidad/",
+      "https://www.cermi.es/es/orientacion"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "IT",
+   "slug": "italy",
+   "name": "Italy",
+   "emergency": {
+    "number": "112",
+    "label": "Any emergency. The older numbers still work too: 113 police, 115 fire brigade, 118 ambulance",
+    "source": "https://www.ausl.mo.it/media/scheda_nue_feb26.pdf"
+   },
+   "relay": "Deaf: the free 112Sordi service works across Italy, with text chat and location sharing. The free Where ARE U app can also reach 112 by voice call, silent call or chat.",
+   "relay_source": "https://www.ausl.mo.it/media/scheda_nue_feb26.pdf",
+   "resources": [
+    {
+     "id": "it-telefono-amico",
+     "section": "help-now",
+     "name": "Telefono Amico Italia",
+     "org": "Telefono Amico Italia",
+     "what": "A listening line answered by trained volunteers for anyone who feels alone or distressed, or is thinking about suicide. It is open every day from 9:00 to midnight, not 24 hours. You can also write on WhatsApp.",
+     "how": "Call 02 2327 2327; the service is free and you pay only the normal cost of the call. Or message 324 011 7252 on WhatsApp. In Italian.",
+     "phone": "02 2327 2327",
+     "dial": "0223272327",
+     "url": "https://www.telefonoamico.it",
+     "sources": [
+      "https://www.telefonoamico.it/z_site2021/wp-content/uploads/CS_2024_PrevenzioneSuicidio.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "it-invalidita-civile",
+     "section": "money",
+     "name": "Civil invalidity recognition (invalidità civile)",
+     "org": "INPS",
+     "what": "Recognition of civil invalidity is the first step to Italy’s disability payments, such as the monthly allowance for partly disabled people aged 18 to 67 with low incomes. The application and your doctor’s medical certificate go to INPS online.",
+     "how": "Ask your doctor for the medical certificate, then apply online to INPS. For help with INPS online services, call its contact centre. In Italian.",
+     "phone": "803 164",
+     "dial": "803164",
+     "phone_note": "INPS contact centre. Its other number is 06 164 164.",
+     "url": "https://ats-brianza.it/invalidita-civile",
+     "sources": [
+      "https://ats-brianza.it/invalidita-civile",
+      "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "it-cude",
+     "section": "equipment-home",
+     "name": "European disabled parking permit (CUDE)",
+     "what": "Lets the holder use disabled parking, and is valid across Italy and in the European Union. It is for people whose walking ability is seriously reduced, and for blind people.",
+     "how": "Get a certificate from the forensic medicine office of your local health authority (ASL), then apply to your town council (Comune). Permanent permits last five years. In Italian.",
+     "url": "https://lentepubblica.it/cittadini-e-imprese/contrassegno-disabili/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://lentepubblica.it/cittadini-e-imprese/contrassegno-disabili/",
+      "https://comune.matera.it/wp-content/uploads/2025/01/domanda_rilascio_Contrassegno_Unificato_Disabili_Europeo_CUDE.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "it-garante",
+     "section": "rights",
+     "name": "National Authority for the Rights of Persons with Disabilities",
+     "org": "Autorità Garante nazionale dei diritti delle persone con disabilità",
+     "what": "An independent national authority set up in 2024. Its work includes countering direct and indirect discrimination against disabled people. In 2025 it took up more than 1,300 reports, mostly about school.",
+     "how": "See its website for how to send a report. In Italian.",
+     "url": "https://www.garantedisabilita.it/",
+     "sources": [
+      "https://cultura.gov.it/comunicato/online-il-sito-dellautorita-garante-nazionale-dei-diritti-delle-persone-con-disabilita",
+      "https://www.pressenza.com/it/2026/04/presentata-la-prima-relazione-dellautorita-garante-nazionale-dei-diritti-delle-persone-con-disabilita/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "NL",
+   "slug": "netherlands",
+   "name": "Netherlands",
+   "emergency": {
+    "number": "112",
+    "label": "Police, fire brigade and ambulance",
+    "source": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/alarmnummer-112/112-bellen-doven-slechthorenden"
+   },
+   "relay": "Deaf, hard of hearing or speech-impaired: text 112 at any hour through the relay service, use the Tolkcontact app, or chat with the control room in the 112NL app. To text 112 directly, register once by texting “aanmelden” to 112.",
+   "relay_source": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/alarmnummer-112/112-bellen-doven-slechthorenden",
+   "resources": [
+    {
+     "id": "nl-113",
+     "section": "help-now",
+     "name": "113 Suicide Prevention (113 Zelfmoordpreventie)",
+     "org": "Stichting 113 Zelfmoordpreventie",
+     "what": "Free, anonymous help around the clock for anyone thinking about suicide. It also offers help online.",
+     "how": "Call 113. The service is in Dutch.",
+     "phone": "113",
+     "dial": "113",
+     "url": "https://www.113.nl/",
+     "sources": [
+      "https://www.rijksoverheid.nl/contact/contactgids/stichting-113-zelfmoordpreventie"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "nl-wmo",
+     "section": "start",
+     "name": "Support from your municipality (Wmo)",
+     "org": "Your gemeente (municipality)",
+     "what": "Under the Social Support Act (Wmo 2015), your municipality must help if you cannot manage on your own or take part in society and the people around you cannot help. Support can include a wheelchair for long-term use, regional transport, home adaptations such as a stairlift, household help and respite care. Some support has a personal contribution.",
+     "how": "Contact your municipality. It works out with you what you need, usually in a conversation. You can take the support as a personal budget (pgb) and arrange it yourself. In Dutch.",
+     "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorg-en-ondersteuning-thuis/ondersteuning-gemeente-wmo-2015",
+     "sources": [
+      "https://www.rijksoverheid.nl/vraag-en-antwoord/zorg-en-ondersteuning-thuis/ondersteuning-gemeente-wmo-2015"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "nl-wajong",
+     "section": "money",
+     "name": "Wajong benefit for young disabled people",
+     "org": "UWV",
+     "what": "Income for people who can never work because of an illness or disability they had at 18, or that began between 18 and 30 after at least six months of study in the year before. You must live in the Netherlands. UWV assesses whether you can work.",
+     "how": "Apply to UWV. You cannot apply while living abroad. In Dutch.",
+     "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/wajong/wanneer-heb-ik-recht-op-wajong",
+     "sources": [
+      "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/wajong/wanneer-heb-ik-recht-op-wajong",
+      "https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/wajong/wajong-ondersteuning-voor-jonggehandicapten"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "nl-parking-card",
+     "section": "equipment-home",
+     "name": "Disabled parking card (gehandicaptenparkeerkaart)",
+     "what": "For people who have not been able to walk more than 100 metres on their own, even with a cane or rollator, for at least six months. There are cards for drivers and for passengers who need a driver’s help door to door. It is a European card, valid in all EU countries, for up to five years.",
+     "how": "Apply to your municipality; a medical examiner decides. If you are not registered with a Dutch municipality, apply to the CBR. Each municipality sets its own fee. In Dutch.",
+     "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/verkeersveiligheid/hoe-vraag-ik-een-gehandicaptenparkeerkaart-aan",
+     "sources": [
+      "https://www.rijksoverheid.nl/vraag-en-antwoord/verkeersveiligheid/hoe-vraag-ik-een-gehandicaptenparkeerkaart-aan"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "nl-college-rechten-mens",
+     "section": "rights",
+     "name": "Netherlands Institute for Human Rights (College voor de Rechten van de Mens)",
+     "org": "College voor de Rechten van de Mens",
+     "what": "The national human rights institute rules on discrimination complaints, including under the law on equal treatment on grounds of disability or chronic illness, for example when a needed adjustment is refused.",
+     "how": "File a complaint on its complaint form, or call Monday to Friday, 10:00 to 16:00. In Dutch.",
+     "phone": "030 888 38 88",
+     "dial": "0308883888",
+     "url": "https://www.mensenrechten.nl/",
+     "links": [
+      {
+       "label": "Complaint form",
+       "url": "https://klachtenformulier.mensenrechten.nl"
+      }
+     ],
+     "sources": [
+      "https://www.rijksoverheid.nl/contact/contactgids/college-voor-de-rechten-van-de-mens-commissie-gelijke-behandeling-cgb",
+      "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/leven-met-een-beperking/gelijke-rechten-mensen-met-beperking-of-chronische-ziekte"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "PL",
+   "slug": "poland",
+   "name": "Poland",
+   "emergency": {
+    "number": "112",
+    "label": "Emergency number",
+    "source": "https://www.gov.pl/web/zdrowie/gdzie-uzyskac-pomoc-psychologiczna-i-psychiatryczna"
+   },
+   "resources": [
+    {
+     "id": "pl-centrum-wsparcia",
+     "section": "help-now",
+     "name": "Support centre for adults in mental crisis (Centrum Wsparcia)",
+     "org": "Fundacja Itaka",
+     "what": "A free line, open 24 hours, for adults in a mental or emotional crisis.",
+     "how": "Call 800 70 2222. You can also call 116 123, the national advice line for people in emotional crisis, also open 24 hours. Both are in Polish.",
+     "phone": "800 70 2222",
+     "dial": "800702222",
+     "url": "https://www.gov.pl/web/zdrowie/gdzie-uzyskac-pomoc-psychologiczna-i-psychiatryczna",
+     "sources": [
+      "https://www.gov.pl/web/zdrowie/gdzie-uzyskac-pomoc-psychologiczna-i-psychiatryczna"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pl-orzeczenie",
+     "section": "start",
+     "name": "Disability degree certificate (orzeczenie o stopniu niepełnosprawności)",
+     "org": "District disability assessment team (powiatowy zespół do spraw orzekania o niepełnosprawności)",
+     "what": "Formal confirmation of disability for people over 16, at a mild, moderate or significant degree. It is the key to many kinds of help, such as care benefits, a parking card, rehabilitation funding, extra leave and transport discounts, though most have extra conditions of their own. The service is free.",
+     "how": "Have your doctor fill in the medical certificate, then take the application and your medical records to the team for where you live. You will be invited to an assessment, and the decision usually comes within 14 days of it. You can appeal within 14 days. In Polish.",
+     "url": "https://www.gov.pl/web/gov/uzyskaj-orzeczenie-o-stopniu-niepelnosprawnosci",
+     "sources": [
+      "https://www.gov.pl/web/gov/uzyskaj-orzeczenie-o-stopniu-niepelnosprawnosci"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pl-pfron-equipment",
+     "section": "equipment-home",
+     "name": "PFRON funding for orthopaedic items, aids and rehabilitation equipment",
+     "org": "PFRON, through district family support centres (PCPR)",
+     "what": "Helps pay for orthopaedic items, aids and rehabilitation equipment, on top of the National Health Fund (NFZ) refund, for people with a disability certificate. Household income must be below set limits: 50% of the average wage per person, or 65% for someone living alone.",
+     "how": "Apply to your district family support centre (PCPR) with a prescription, a price quote showing the NFZ share and proof of income. In Warsaw, apply to the city’s centre for disabled people. In Polish.",
+     "url": "https://warszawa19115.pl/-/dofinansowanie-zaopatrzenia-w-sprzet-rehabilitacyjny-przedmioty-ortopedyczne-i-srodki-pomocnicze",
+     "sources": [
+      "https://warszawa19115.pl/-/dofinansowanie-zaopatrzenia-w-sprzet-rehabilitacyjny-przedmioty-ortopedyczne-i-srodki-pomocnicze",
+      "https://samorzad.gov.pl/web/pcpr-kutno/sprzet-rehabilitacyjny2"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pl-parking-card",
+     "section": "equipment-home",
+     "name": "Parking card (karta parkingowa)",
+     "what": "Lets you use disabled parking spaces in Poland and abroad. Your disability certificate must include the right to a parking card; with a moderate degree, it must carry code 04-O, 05-R or 10-N. The card costs 21 zł and lasts as long as your certificate, up to five years.",
+     "how": "Apply in person to your district or city disability assessment team with your final certificate, a 35 × 45 mm photo and proof of payment. In Polish.",
+     "url": "https://www.gov.pl/web/gov/uzyskaj-karte-parkingowa",
+     "sources": [
+      "https://www.gov.pl/web/gov/uzyskaj-karte-parkingowa"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pl-rpo",
+     "section": "rights",
+     "name": "Commissioner for Human Rights (Rzecznik Praw Obywatelskich)",
+     "org": "Biuro Rzecznika Praw Obywatelskich",
+     "what": "Checks whether public institutions respect your rights, and handles complaints about unequal treatment, including on grounds of disability. It also monitors how Poland applies the UN disability convention. Complaints are free.",
+     "how": "Call the free citizens’ helpline from any phone in Poland, use the online complaint form, or email biurorzecznika@brpo.gov.pl. In Polish.",
+     "phone": "800 676 676",
+     "dial": "800676676",
+     "email": "biurorzecznika@brpo.gov.pl",
+     "url": "https://www.rpo.gov.pl/kontakt",
+     "sources": [
+      "https://samorzad.gov.pl/web/powiat-hajnowski/skorzystaj-z-infolinii-obywatelskiej-rzecznika-praw-obywatelskich"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BR",
+   "slug": "brazil",
+   "name": "Brazil",
+   "emergency": {
+    "number": "192",
+    "label": "Ambulance (SAMU), free from any phone at any hour",
+    "source": "https://www.gov.br/saude/pt-br/composicao/saes/samu-192"
+   },
+   "resources": [
+    {
+     "id": "br-cvv",
+     "section": "help-now",
+     "name": "CVV (Centro de Valorização da Vida)",
+     "org": "Centro de Valorização da Vida",
+     "what": "Emotional support and suicide prevention, 24 hours a day, from trained volunteers. Calls are free under an agreement with the Ministry of Health. You can also chat online.",
+     "how": "Call 188. In Portuguese.",
+     "phone": "188",
+     "dial": "188",
+     "links": [
+      {
+       "label": "Chat",
+       "url": "https://cvv.org.br/chat"
+      }
+     ],
+     "sources": [
+      "https://cvv.org.br/wp-content/uploads/2026/08/RelatorioCVV_2Tri_2026.pdf",
+      "https://www.conass.org.br/prevencao-ao-suicidio-conta-com-ligacao-gratuita-em-todo-pais/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "br-bpc",
+     "section": "money",
+     "name": "BPC: continuous cash benefit for disabled people (BPC/LOAS)",
+     "org": "INSS",
+     "what": "Pays one minimum wage a month to disabled people whose family income is no more than a quarter of the minimum wage per person. You do not need to have paid into INSS. It is for Brazilians and Portuguese nationals, and your CadÚnico registration must have been updated in the last two years. There is no 13th payment.",
+     "how": "Apply in the Meu INSS app or at gov.br/meuinss. If the system is down, or to book an in-person visit, call 135. Applying is free. In Portuguese.",
+     "phone": "135",
+     "dial": "135",
+     "url": "https://www.gov.br/pt-br/servicos/solicitar-beneficio-assistencial-a-pessoa-com-deficiencia",
+     "sources": [
+      "https://www.gov.br/pt-br/servicos/solicitar-beneficio-assistencial-a-pessoa-com-deficiencia"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "br-parking-credential",
+     "section": "equipment-home",
+     "name": "Digital parking credential for disabled people",
+     "org": "Senatran (National Traffic Secretariat)",
+     "what": "Lets you use parking spaces reserved for disabled people anywhere in Brazil. The credential is now issued digitally in the Carteira Digital de Trânsito (CDT) app, and can be linked to one vehicle at a time, yours or someone else’s.",
+     "how": "In the CDT app, go to Condutor, then Credencial de Estacionamento, then Credencial PCD, and tap Emitir Credencial. Your disability is checked against Ministry of Human Rights and INSS records. In Portuguese.",
+     "url": "https://serpro.gov.br/menu/noticias/noticias-2024/credencial-de-estacionamento-digital",
+     "sources": [
+      "https://serpro.gov.br/menu/noticias/noticias-2024/credencial-de-estacionamento-digital"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "br-disque-100",
+     "section": "rights",
+     "name": "Disque 100 (Human Rights Line)",
+     "org": "Ministry of Human Rights and Citizenship",
+     "what": "A free line, open 24 hours every day, for reporting human rights violations, including against disabled people.",
+     "how": "Dial 100 free from any phone, or send a WhatsApp message to +55 61 99611-0100. There is also a video service in Libras (Brazilian Sign Language). In Portuguese.",
+     "phone": "100",
+     "dial": "100",
+     "url": "https://www.gov.br/mdh/pt-br/servicos/denunciar-violacao-de-direitos-humanos-disque-100",
+     "links": [
+      {
+       "label": "Libras video call",
+       "url": "https://atendelibras.mdh.gov.br/acesso"
+      }
+     ],
+     "sources": [
+      "https://www.gov.br/mdh/pt-br/servicos/denunciar-violacao-de-direitos-humanos-disque-100"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "AR",
+   "slug": "argentina",
+   "name": "Argentina",
+   "emergency": {
+    "number": "911",
+    "label": "Police and ambulance. Fire brigade: 100. In the City of Buenos Aires and parts of Buenos Aires Province, 107 is the SAME ambulance",
+    "source": "https://www.argentina.gob.ar/tema/emergencias"
+   },
+   "resources": [
+    {
+     "id": "ar-salud-mental-0800",
+     "section": "help-now",
+     "name": "National mental health urgent support line",
+     "org": "Ministerio de Salud de la Nación",
+     "what": "A free, confidential line open 24 hours every day across the country, answered by trained mental health professionals. It helps with suicide risk, self-harm and crises linked to substance use, violence or disasters, and can send emergency services.",
+     "how": "Call 0800 999 0091. In Spanish. The government also lists 135 as a suicide prevention line.",
+     "phone": "0800 999 0091",
+     "dial": "08009990091",
+     "url": "https://www.argentina.gob.ar/dispositivo-0800",
+     "sources": [
+      "https://www.argentina.gob.ar/dispositivo-0800",
+      "https://www.argentina.gob.ar/tema/emergencias"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ar-cud",
+     "section": "start",
+     "name": "Certificado Único de Discapacidad (CUD)",
+     "org": "Secretaría Nacional de Discapacidad",
+     "what": "A free national document certifying disability, issued after an assessment by an interdisciplinary board. It gives access to full coverage of rehabilitation linked to the disability, free travel on public ground transport, family allowances and some tax and toll exemptions.",
+     "how": "Gather your medical reports, use the online check to see what to bring and where to go, book an appointment with the evaluation board, then collect the CUD in person. It also appears in the Mi Argentina app. In Spanish.",
+     "url": "https://www.argentina.gob.ar/solicitar-el-certificado-unico-de-discapacidad",
+     "sources": [
+      "https://www.argentina.gob.ar/solicitar-el-certificado-unico-de-discapacidad"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ar-pension-invalidez",
+     "section": "money",
+     "name": "Non-contributory pension for work disability (pensión no contributiva por invalidez laboral)",
+     "org": "Secretaría Nacional de Discapacidad, applied for through ANSES",
+     "what": "A pension for people with a total and permanent disability (work capacity reduced by 66% or more) who have no other pension or registered job and not enough income. Foreign residents need 10 years of residence. Applying is free; do not pay agents or lawyers to do it.",
+     "how": "Get the digital official medical certificate (CMO) at a public hospital or health centre, then apply in Mi ANSES or at an ANSES office. Check on your case on WhatsApp at +54 11 3910-1010. In Spanish.",
+     "url": "https://www.argentina.gob.ar/solicitar-una-pension-no-contributiva-por-invalidez-x",
+     "sources": [
+      "https://www.argentina.gob.ar/solicitar-una-pension-no-contributiva-por-invalidez-x"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ar-simbolo-acceso",
+     "section": "equipment-home",
+     "name": "International Symbol of Access for vehicles",
+     "org": "Secretaría Nacional de Discapacidad",
+     "what": "A free digital symbol, linked to a number plate, for the vehicle a person with a valid CUD travels in. It lets that vehicle drive and park under each town’s traffic rules. You do not need to own a car.",
+     "how": "Request it in Mi Argentina, under Mis Trámites, with your CUD and the plate number. Questions go to simbolos@senadis.gob.ar. In Spanish.",
+     "email": "simbolos@senadis.gob.ar",
+     "url": "https://www.argentina.gob.ar/obtener-simbolo-automotor",
+     "sources": [
+      "https://www.argentina.gob.ar/obtener-simbolo-automotor"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CO",
+   "slug": "colombia",
+   "name": "Colombia",
+   "emergency": {
+    "number": "123",
+    "label": "Single emergency line",
+    "source": "https://www.portafolio.co/tendencias/sociales/no-solo-es-el-123-la-lista-de-todas-las-lineas-de-emergencia-en-colombia-619322"
+   },
+   "resources": [
+    {
+     "id": "co-106",
+     "section": "help-now",
+     "name": "Línea 106 mental health line",
+     "org": "Ministerio de Salud y Protección Social",
+     "what": "A free, confidential line open 24 hours, 7 days a week. Mental health professionals listen, give first support and point you to help.",
+     "how": "Dial 106 from a landline or mobile. Video calls can also be booked. In Spanish.",
+     "phone": "106",
+     "dial": "106",
+     "url": "https://minsalud.gov.co/salud/publica/salud-mental/Paginas/linea-106.aspx",
+     "sources": [
+      "https://minsalud.gov.co/salud/publica/salud-mental/Paginas/linea-106.aspx",
+      "https://www.fomag.gov.co/wp-content/uploads/2026/06/directorio-salud-mental-prevencion-suicidio-minsalud-4-11.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "co-certificacion",
+     "section": "start",
+     "name": "Disability certification (certificación de discapacidad)",
+     "org": "Ministerio de Salud; requested through your municipal or district health secretariat",
+     "what": "A team of health and social professionals assesses you and issues a disability certificate, and your details go into the national register of disabled people (RLCPD).",
+     "how": "Ask your municipal or district health secretariat for a certification order, with your medical history and diagnosis from your treating doctor. The secretariat checks your papers within about four working days, and the assessing clinic must schedule you within 10 working days. For questions, call the Ministry. In Spanish.",
+     "phone": "01 8000 960020",
+     "dial": "018000960020",
+     "phone_note": "Ministry of Health, toll-free from outside Bogotá",
+     "url": "https://minsalud.gov.co/Proteccion-Social/promocion-social/Discapacidad/Paginas/certificacion.aspx",
+     "sources": [
+      "https://minsalud.gov.co/Proteccion-Social/promocion-social/Discapacidad/Paginas/certificacion.aspx"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "co-defensoria",
+     "section": "rights",
+     "name": "Defensoría del Pueblo",
+     "org": "Defensoría del Pueblo",
+     "what": "The national ombudsman takes complaints, free of charge, about human rights violations by public officials or service providers.",
+     "how": "Call the national toll-free line, or use the online services on its website. In Spanish.",
+     "phone": "01 8000 914 814",
+     "dial": "018000914814",
+     "url": "https://www.defensoria.gov.co",
+     "sources": [
+      "https://www.defensoria.gov.co/documents/20123/1259129/Protocolo+de+Servicios+de+la+Defensoria+del+Pueblo.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CL",
+   "slug": "chile",
+   "name": "Chile",
+   "emergency": {
+    "number": "131",
+    "label": "Ambulance (SAMU)",
+    "source": "https://www.minsal.cl/autoridades-sanitarias-destacan-labor-del-servicio-de-atencion-medica-de-urgencia/"
+   },
+   "resources": [
+    {
+     "id": "cl-4141",
+     "section": "help-now",
+     "name": "*4141 Suicide Prevention Line",
+     "org": "Ministerio de Salud (MINSAL)",
+     "what": "A free line, open 24 hours, Monday to Sunday, for anyone in a mental health crisis linked to suicide, including suicidal thoughts, intense emotional pain, panic or wanting to self-harm. A psychologist answers.",
+     "how": "Dial *4141 from a mobile phone on any network. In Spanish.",
+     "phone": "*4141",
+     "dial": "*4141",
+     "url": "https://www.minsal.cl/linea-de-atencion-4141-no-estas-solo-no-estas-sola/",
+     "sources": [
+      "https://www.minsal.cl/linea-de-atencion-4141-no-estas-solo-no-estas-sola/",
+      "https://www.minsal.cl/aclaracion-sobre-el-funcionamiento-de-la-linea-de-prevencion-del-suicidio-4141/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cl-rnd",
+     "section": "start",
+     "name": "National Disability Register and disability credential",
+     "org": "COMPIN and Registro Civil",
+     "what": "COMPIN assesses and certifies your disability, then the Registro Civil enters you in the National Disability Register (RND) and issues a credential. Registration is free. It opens the door to SENADIS programmes, reserved parking, housing subsidies, job inclusion benefits and more.",
+     "how": "Apply online at compin.cerofilas.gob.cl with your RUT and ClaveÚnica, or at your local COMPIN office, with the medical and social reports it asks for. COMPIN aims to decide in about 20 working days. In Spanish.",
+     "url": "https://senadis.gob.cl/descarga/i/6737",
+     "sources": [
+      "https://senadis.gob.cl/descarga/i/6737"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cl-ayudas-tecnicas",
+     "section": "equipment-home",
+     "name": "SENADIS assistive devices programme (Programa Regular de Ayudas Técnicas)",
+     "org": "SENADIS",
+     "what": "Pays for up to two assistive devices for disabled people aged 10 and over who are on the National Disability Register and in the most vulnerable 70% of the Registro Social de Hogares. It opens in yearly calls; the 2026 call closed on 7 April 2026.",
+     "how": "Watch for the next call, or email the programme. In Spanish.",
+     "email": "ayudastecnicas@senadis.cl",
+     "url": "https://chileatiende.gob.cl/fichas/140696/1/pdf",
+     "sources": [
+      "https://chileatiende.gob.cl/fichas/140696/1/pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "PE",
+   "slug": "peru",
+   "name": "Peru",
+   "emergency": {
+    "number": "105",
+    "label": "Police. Fire brigade: 116. Ambulance (SAMU): 106",
+    "source": "https://elperuano.pe/noticia/305020-del-105-al-911-gobierno-avanza-hacia-un-sistema-integrado-para-atender-emergencias-mas-rapido"
+   },
+   "resources": [
+    {
+     "id": "pe-113-salud-mental",
+     "section": "help-now",
+     "name": "Línea 113 Salud, option 5 (mental health)",
+     "org": "Ministerio de Salud (Minsa)",
+     "what": "A free mental health line open 24 hours every day across the country, answered by psychologists experienced in emotional crises.",
+     "how": "Call 113 and choose option 5. You can also write on WhatsApp or Telegram to 955 557 000. In Spanish.",
+     "phone": "113",
+     "dial": "113",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://andina.pe/agencia/noticia-linea-113-del-minsa-mas-60000-personas-recibieron-orientacion-psicologica-gratuita-1048068.aspx"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pe-conadis",
+     "section": "start",
+     "name": "Disability certificate and CONADIS registration card",
+     "org": "Ministry of Health centres and CONADIS",
+     "what": "First get a disability certificate from a health centre certified by the Ministry of Health; some tests may cost money. Then register with CONADIS, the national authority on disability, for its card, which unlocks benefits such as free public transport for severe disability and a vehicle sticker.",
+     "how": "Register online on the CONADIS platform by uploading your certificate. You get a digital card by email, and can collect a printed one in Lima or at a regional office. In Spanish.",
+     "url": "https://sirnpdpide.conadisperu.gob.pe",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://help.unhcr.org/peru/personas-con-discapacidad/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pe-contigo",
+     "section": "money",
+     "name": "Contigo pension for severe disability",
+     "org": "Programa Nacional Contigo (Ministry of Development and Social Inclusion)",
+     "what": "A pension for people with a severe disability living in poverty or extreme poverty who have no other income or pension, public or private.",
+     "how": "You need a disability certificate rated severe from a Ministry of Health centre and a current poverty rating, which you request from your district municipality. Your district’s OMAPED office can check whether you are enrolled. Payments are collected at Banco de la Nación. In Spanish.",
+     "url": "https://www.elperuano.pe/noticia/221550-programa-contigo-deposito-pension-de-s300-para-106-mil-personas-con-discapacidad-severa",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.elperuano.pe/noticia/221550-programa-contigo-deposito-pension-de-s300-para-106-mil-personas-con-discapacidad-severa"
      ],
      "reviewed_on": "2026-11-21"
     }
