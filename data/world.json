@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -5240,6 +5240,511 @@
      "email": "recepcion@conaipd.gob.sv",
      "sources": [
       "https://www.transparencia.gob.sv/institutions/conaipd/services/9716.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "EE",
+   "slug": "estonia",
+   "name": "Estonia",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, police and rescue, always available and free of charge",
+    "source": "https://www.112.ee/en/emergency-phone-number-112"
+   },
+   "resources": [
+    {
+     "id": "ee-116123-emotional-support",
+     "section": "help-now",
+     "name": "Emotional support helpline 116 123",
+     "org": "Social Insurance Board (Sotsiaalkindlustusamet)",
+     "what": "Free emotional support by phone, in Estonian, Russian and English. It is not open around the clock: counsellors answer every day from 10:00 to midnight. The state health portal adds that spiritual counsellors answer from 16:00 to 02:00.",
+     "how": "Call 116 123, every day 10:00 to 24:00. Outside those hours, call the victim support crisis line 116 006, which answers 24 hours a day. In an emergency, call 112.",
+     "phone": "116 123",
+     "dial": "116123",
+     "url": "https://www.sotsiaalkindlustusamet.ee/en/child-and-adult-need-help/mental-health-crisis",
+     "sources": [
+      "https://www.sotsiaalkindlustusamet.ee/en/child-and-adult-need-help/mental-health-crisis",
+      "https://www.terviseportaal.ee/en/arstiabi/vaimne-tervis/spetsialistid-ja-abivimalused"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ee-116006-victim-crisis",
+     "section": "help-now",
+     "name": "Victim support crisis helpline 116 006",
+     "org": "Social Insurance Board (Sotsiaalkindlustusamet)",
+     "what": "Crisis counselling 24 hours a day, every day, in Estonian, Russian and English. The state health portal also lists it for chat and email.",
+     "how": "Call 116 006 at any hour. In an emergency, call 112.",
+     "phone": "116 006",
+     "dial": "116006",
+     "url": "https://sotsiaalkindlustusamet.ee/en/child-and-adult-need-help/support-victims/mental-health-care-support-recovery-trauma",
+     "sources": [
+      "https://sotsiaalkindlustusamet.ee/en/child-and-adult-need-help/support-victims/mental-health-care-support-recovery-trauma",
+      "https://www.terviseportaal.ee/en/arstiabi/vaimne-tervis/spetsialistid-ja-abivimalused"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ee-working-age-disability-allowance",
+     "section": "money",
+     "name": "Allowance for a person of working age with disabilities",
+     "org": "Social Insurance Board (Sotsiaalkindlustusamet)",
+     "what": "A monthly allowance of 29 to 100 euros for people aged 16 to old-age pension age whose severity of disability has been determined. The amount depends on the severity and on which function is affected (for example 42 euros for a moderate motor disability, 50 euros for severe and 100 euros for profound).",
+     "how": "Apply to the Social Insurance Board through its self-service portal, by digitally signed email, by post to Paldiski mnt 80, 15092 Tallinn, or at a customer service office. Information line: +372 612 1360.",
+     "phone": "+372 612 1360",
+     "dial": "+3726121360",
+     "url": "https://www.sotsiaalkindlustusamet.ee/en/disability-and-welfare-services/benefits-disabled-people/allowance-person-working-age-disabilities",
+     "sources": [
+      "https://www.sotsiaalkindlustusamet.ee/en/disability-and-welfare-services/benefits-disabled-people/allowance-person-working-age-disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ee-equality-commissioner",
+     "section": "rights",
+     "name": "Gender Equality and Equal Treatment Commissioner",
+     "org": "Soolise võrdõiguslikkuse ja võrdse kohtlemise volinik",
+     "what": "An independent commissioner who advises and helps people who feel discriminated against. For disability, the Equal Treatment Act protects you in work, in related education and in membership of employee or employer associations.",
+     "how": "Call +372 626 9059, use the contact form on the commissioner's website, or write to Kiriku 4, Tallinn 15071.",
+     "phone": "+372 626 9059",
+     "dial": "+3726269059",
+     "url": "https://www.volinik.ee/en/sul-huvi/equal-treatment",
+     "sources": [
+      "https://www.volinik.ee/en/sul-huvi/equal-treatment"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "LV",
+   "slug": "latvia",
+   "name": "Latvia",
+   "emergency": {
+    "number": "112",
+    "label": "Fire and rescue, police, emergency medical services and the gas emergency service, free of charge from anywhere in Latvia at any time",
+    "source": "https://www.vugd.gov.lv/en/services/single-emergency-number-112"
+   },
+   "resources": [
+    {
+     "id": "lv-116123",
+     "section": "help-now",
+     "name": "Psycho-emotional support line 116123",
+     "org": "National Health Service (Nacionālais veselības dienests)",
+     "what": "A telephone line for psycho-emotional support for adults, completely free and available 24 hours a day, in Latvian, Russian and English. Through it, any adult resident of Latvia can also get up to 10 free consultations with a certified psychologist.",
+     "how": "Call 116123 at any hour. Children and teenagers can call the Child and Adolescent Helpline 116111, and victims of crime the helpline 116006. In an emergency, call 112.",
+     "phone": "116123",
+     "dial": "116123",
+     "url": "https://www.vmnvd.gov.lv/en/toll-free-unified-crisis-line-116123",
+     "sources": [
+      "https://www.vmnvd.gov.lv/en/toll-free-unified-crisis-line-116123"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lv-vdeavk",
+     "section": "start",
+     "name": "State Medical Commission for the Assessment of Health Condition and Working Ability (VDEAVK)",
+     "org": "Veselības un darbspēju ekspertīzes ārstu valsts komisija",
+     "what": "The state medical commission for assessing health and working ability. Its page on support for persons with disabilities covers benefits for adults and for families of a child with a disability, the disabled person's parking card, free intercity public transport, exemption from vehicle operating tax and the invalidity pension, with a booklet that summarises them.",
+     "how": "Call +371 6761 4885 or +371 2963 2807, email pasts@vdeavk.gov.lv, use the question form on its website, or write to Ventspils iela 53, Rīga, LV-1002.",
+     "phone": "+371 6761 4885",
+     "dial": "+37167614885",
+     "email": "pasts@vdeavk.gov.lv",
+     "url": "https://www.vdeavk.gov.lv/en/support-persons-disabilities",
+     "sources": [
+      "https://www.vdeavk.gov.lv/en/support-persons-disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lv-disability-pension",
+     "section": "money",
+     "name": "Disability pension (invaliditātes pensija)",
+     "org": "State Social Insurance Agency (VSAA)",
+     "what": "A pension for socially insured people living in Latvia, below retirement age, whose disability has been determined in Latvia and who have at least three years of insurance. It is paid in full while you work. From 1 January 2026, Group III is 213 euros a month (255 euros for a disability since childhood); Groups I and II depend on past earnings and insurance, with minimums of 340.80 and 298.20 euros. Disability caused by a work accident or occupational disease is handled separately.",
+     "how": "Apply on the Latvija.gov.lv portal, at any VSAA customer service centre with your passport or ID card, or by email with a secure electronic signature. Applying is free and takes up to 22 working days. Apply from the date your disability is determined: a late application is paid back at most 6 months. VSAA: +371 6450 7020.",
+     "phone": "+371 6450 7020",
+     "dial": "+37164507020",
+     "url": "https://vsaa.gov.lv/en/services/disability-pension",
+     "sources": [
+      "https://vsaa.gov.lv/en/services/disability-pension",
+      "https://www.lm.gov.lv/en/disability-pension"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lv-ombudsman",
+     "section": "rights",
+     "name": "Ombudsman of the Republic of Latvia (Tiesībsargs)",
+     "org": "Tiesībsarga birojs",
+     "what": "Handles discrimination (unequal treatment without an objective reason) and the rights of people with long-term physical, mental, intellectual or sensory impairments.",
+     "how": "Submit an application online, by email to tiesibsargs@tiesibsargs.lv (signed with a secure electronic signature), through the Latvija.lv e-address, by post, or in person at Baznīcas iela 25, Rīga, LV-1010, Monday to Friday 9:00 to 17:00.",
+     "email": "tiesibsargs@tiesibsargs.lv",
+     "url": "https://www.tiesibsargs.lv/en/contacts/application/",
+     "sources": [
+      "https://www.tiesibsargs.lv/en/contacts/application/",
+      "https://www.tiesibsargs.lv/en"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "SI",
+   "slug": "slovenia",
+   "name": "Slovenia",
+   "emergency": {
+    "number": "112",
+    "label": "The single European emergency number, free from any phone, for medical help and firefighters. Police: 113",
+    "source": "https://akos-rs.si/en/users/explore/emergency-call-numbers"
+   },
+   "resources": [
+    {
+     "id": "si-116123",
+     "section": "help-now",
+     "name": "Emotional support helpline 116 123",
+     "org": "Association of Slovenian Helpline Advisers for Mental Distress",
+     "what": "Slovenia's telecoms regulator lists 116 123 as the emotional support helpline for people in mental distress. The child helpline 116 111 is listed beside it.",
+     "how": "Call 116 123. The regulator's list does not give its hours. In an emergency, call 112.",
+     "phone": "116 123",
+     "dial": "116123",
+     "url": "https://akos-rs.si/en/users/explore/emergency-call-numbers",
+     "sources": [
+      "https://akos-rs.si/en/users/explore/emergency-call-numbers"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "si-attendance-allowance",
+     "section": "money",
+     "name": "Assistance and attendance allowance (dodatek za pomoč in postrežbo)",
+     "org": "Pension and Disability Insurance Institute of Slovenia (ZPIZ)",
+     "what": "A benefit for pensioners who need another person's help with basic daily needs, and for some people working in Slovenia who are blind, partially sighted or have a physical disability. Being blind or partially sighted, or having at least 70 percent reduced ability to move, can qualify.",
+     "how": "Your doctor, you, or your legal or authorised representative files the claim with ZPIZ, with your medical records; ZPIZ's website has an online form. In Slovenian.",
+     "url": "https://e-uprava.gov.si/en/podrocja/labour-retirement/retirement/dodatek-za-pomoc-in-postezbo.html?lang=en",
+     "sources": [
+      "https://e-uprava.gov.si/en/podrocja/labour-retirement/retirement/dodatek-za-pomoc-in-postezbo.html?lang=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "si-equality-advocate",
+     "section": "rights",
+     "name": "Advocate of the Principle of Equality (Zagovornik načela enakosti)",
+     "org": "Zagovornik načela enakosti",
+     "what": "An independent state body that gives independent help, advice and legal aid to people who have been discriminated against, in the public and private sectors. In its annual report, disability was among the grounds of discrimination it found, and most of its 127 recommendations concerned the rights of people with disabilities.",
+     "how": "Call 01 473 55 31 or write to Železna cesta 16, 1000 Ljubljana. In Slovenian.",
+     "phone": "01 473 55 31",
+     "dial": "014735531",
+     "url": "https://www.gov.si/drzavni-organi/drugi-drzavni-organi/zagovornik-nacela-enakosti/",
+     "sources": [
+      "https://www.gov.si/drzavni-organi/drugi-drzavni-organi/zagovornik-nacela-enakosti/",
+      "https://www.gov.si/novice/2024-07-10-ministrstvo-prejelo-letno-porocilo-zagovornika-nacela-enakosti/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "IS",
+   "slug": "iceland",
+   "name": "Iceland",
+   "emergency": {
+    "number": "112",
+    "label": "The national emergency number, on call 24 hours all year round. You can also reach it by text message (SMS), the 112 Iceland app or web chat",
+    "source": "https://www.112.is/en"
+   },
+   "resources": [
+    {
+     "id": "is-1717",
+     "section": "help-now",
+     "name": "Red Cross helpline 1717 (Hjálparsíminn 1717)",
+     "org": "Icelandic Red Cross",
+     "what": "A confidential phone line and web chat for anyone who needs someone to talk to, about anything causing concern, including anxiety, depression, suicidal thoughts, abuse and loneliness. Open 24 hours and free; ask to speak English if you do not speak Icelandic.",
+     "how": "Call 1717 at any hour, or use the web chat. In an emergency, call 112.",
+     "phone": "1717",
+     "dial": "1717",
+     "url": "https://112.is/en/resources/1717",
+     "sources": [
+      "https://112.is/en/resources/1717"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "is-disability-pension",
+     "section": "money",
+     "name": "Disability pension (örorkulífeyrir)",
+     "org": "Social Insurance Administration (Tryggingastofnun, TR)",
+     "what": "For people aged 18 to 67 assessed, through an integrated expert assessment, as able to take part in the labour market to only 0 to 25 percent. The full pension before tax is 416,950 krónur a month, or 486,076 with the household allowance; income above 105,200 krónur a month reduces it. People already on a disability pension can ask to move to a partial disability pension.",
+     "how": "Your doctor sends a medical certificate to TR; the application then appears on Ísland.is for you to complete and submit, and TR's letters and decision come to My Pages. TR: 560 4400, weekdays 10:00 to 15:00, Hlíðasmári 11, 201 Kópavogur.",
+     "phone": "560 4400",
+     "dial": "5604400",
+     "url": "https://island.is/en/new-disability-pensions",
+     "sources": [
+      "https://island.is/en/new-disability-pensions"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "is-disability-rights-protection",
+     "section": "rights",
+     "name": "Rights protection for people with disabilities (Réttindagæsla fatlaðs fólks)",
+     "org": "Réttindagæsla fatlaðs fólks",
+     "what": "Rights advocates who protect the legal and human rights of disabled people: they look into how a case was handled, attend meetings or police questioning with you, prepare complaints and appeals, and help people who need support with legal capacity or want a personal spokesperson.",
+     "how": "Call 554-8100, weekdays 9:00 to 16:00 (you can leave a message outside those hours), or email rettindagaesla@mannrettindi.is.",
+     "phone": "554-8100",
+     "dial": "5548100",
+     "email": "rettindagaesla@mannrettindi.is",
+     "url": "https://island.is/en/rights-protection-for-people-with-disabilities",
+     "sources": [
+      "https://island.is/en/rights-protection-for-people-with-disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "LU",
+   "slug": "luxembourg",
+   "name": "Luxembourg",
+   "emergency": {
+    "number": "112",
+    "label": "Fire brigade or ambulance, free of charge, 24 hours a day, from landlines and mobiles. Police: 113",
+    "source": "https://guichet.public.lu/en/citoyens/sante/services-urgence/appel-urgence.html"
+   },
+   "resources": [
+    {
+     "id": "lu-sos-detresse",
+     "section": "help-now",
+     "name": "SOS Détresse",
+     "org": "SOS Détresse",
+     "what": "Psychological support by phone. Luxembourg's police list it under psychological support in their directory of help for victims.",
+     "how": "Call 454 545. The police list does not give its hours. In an emergency, call 112.",
+     "phone": "454 545",
+     "dial": "454545",
+     "url": "https://police.public.lu/en/aide-aux-victimes/liste-organisation/sos-detresse.html",
+     "sources": [
+      "https://police.public.lu/en/aide-aux-victimes/liste-organisation/sos-detresse.html"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lu-rpgh",
+     "section": "money",
+     "name": "Allowance for the severely disabled (RPGH)",
+     "org": "National Solidarity Fund (FNS) and the ADEM Medical Commission",
+     "what": "An income for adults living in Luxembourg whose disability is so severe that they cannot work: at least 30 percent reduced work capacity before age 65, and work either medically ruled out or impossible to adapt. Its gross amount equals the social inclusion income (REVIS); other income counts against it. Non-EU, EEA or Swiss nationals need 5 years of legal residence in the last 20.",
+     "how": "Get the application form from the secretariat of the Medical Commission at ADEM, then email it with a recent medical report and the other documents to commissionmedicale@adem.etat.lu. The Commission decides within 2 months, then the FNS checks age, residence and income. ADEM: 247 88 888. FNS: 49 10 81 1.",
+     "phone": "247 88 888",
+     "dial": "24788888",
+     "email": "commissionmedicale@adem.etat.lu",
+     "url": "https://guichet.public.lu/en/citoyens/aides/travail/inscription-handicape-adem/revenu-personne-gravement-handicapee.html",
+     "sources": [
+      "https://guichet.public.lu/en/citoyens/aides/travail/inscription-handicape-adem/revenu-personne-gravement-handicapee.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lu-cet",
+     "section": "rights",
+     "name": "Centre for Equal Treatment (CET)",
+     "org": "Centre pour l'égalité de traitement",
+     "what": "An independent body that promotes, analyses and monitors equal treatment without discrimination on grounds including disability, race or ethnic origin, gender, sexual orientation, religion or belief, and age.",
+     "how": "Email info@cet.lu, call 28 37 36 35, or write to 65, route d'Arlon, L-1140 Luxembourg. You can write in Luxembourgish, French, German or English.",
+     "phone": "28 37 36 35",
+     "dial": "28373635",
+     "email": "info@cet.lu",
+     "sources": [
+      "https://guichet.public.lu/en/citoyens/justice/lanceurs-alerte/alerte-cet.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MT",
+   "slug": "malta",
+   "name": "Malta",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, fire and police",
+    "source": "https://help.unhcr.org/malta/where-to-seek-help/emergency-services-and-helplines/"
+   },
+   "resources": [
+    {
+     "id": "mt-1579",
+     "section": "help-now",
+     "name": "Mental Health Helpline 1579",
+     "org": "Mental Health Services, Ministry for Health",
+     "what": "A 24-hour national helpline giving free emotional support, advice and practical guidance to anyone in need, including people in crisis and people worried about a family member or friend. It is answered by psychology professionals from Mental Health Services.",
+     "how": "Call 1579 at any hour. In an emergency, call 112.",
+     "phone": "1579",
+     "dial": "1579",
+     "url": "https://health.gov.mt/mental-health-helpline1579/",
+     "sources": [
+      "https://health.gov.mt/mental-health-helpline1579/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mt-disability-assistance",
+     "section": "money",
+     "name": "Disability Assistance and Severe Disability Assistance",
+     "org": "Department of Social Security",
+     "what": "Non-contributory payments for people aged 16 to under 65 whose disability began before 60, rated by the Inter-Professional Board: 45 to 59 percent for Disability Assistance, 60 to 74 percent for Severe Disability Assistance, and 75 percent or more for Increased Severe Disability Assistance. There is no means test, so you can qualify while working. Paid every four weeks.",
+     "how": "Your treating specialist applies for you through the online Medical Report form; the Inter-Professional Board then assesses you.",
+     "url": "https://socialsecurity.gov.mt/en/information-and-applications-for-benefits-and-services/non-contributory-benefits/disability-assistance/",
+     "sources": [
+      "https://socialsecurity.gov.mt/en/information-and-applications-for-benefits-and-services/non-contributory-benefits/disability-assistance/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mt-crpd-complaint",
+     "section": "rights",
+     "name": "Report disability discrimination to the CRPD",
+     "org": "Commission for the Rights of Persons with Disability (CRPD)",
+     "what": "People with disabilities, and family members directly affected, can report discrimination on the grounds of disability. The report is vetted within 10 days and assessed within 30, with a decision within 180 days.",
+     "how": "Fill in the online e-form on servizz.gov.mt.",
+     "url": "https://www.servizz.gov.mt/en/Pages/Inclusion_-Equality-and-Social-Welfare/Social-Inclusion/People-with-Disability/WEB-04428/default.aspx",
+     "sources": [
+      "https://www.servizz.gov.mt/en/Pages/Inclusion_-Equality-and-Social-Welfare/Social-Inclusion/People-with-Disability/WEB-04428/default.aspx"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "CY",
+   "slug": "cyprus",
+   "name": "Cyprus",
+   "emergency": {
+    "number": "112",
+    "label": "The single European emergency number, for police, ambulance and fire",
+    "source": "https://dim-aglantzia1-lef.schools.ac.cy/data/uploads/anakoinwseis_odigoi/2026-2027/afisa_grammes_stirixis_voitheias.pdf"
+   },
+   "resources": [
+    {
+     "id": "cy-samaritans",
+     "section": "help-now",
+     "name": "Cyprus Samaritans",
+     "org": "Cyprus Samaritans",
+     "what": "Emotional support for adults aged 18 and over. The Youth Board of Cyprus lists it among free helplines.",
+     "how": "Call 8000 7773 (free). The official list does not give its hours. Children and teenagers can call 116111. In an emergency, call 112.",
+     "phone": "8000 7773",
+     "dial": "80007773",
+     "url": "https://onek.org.cy/en/mental-health/",
+     "sources": [
+      "https://onek.org.cy/en/mental-health/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cy-ombudsman",
+     "section": "rights",
+     "name": "Commissioner for Administration and the Protection of Human Rights (Ombudsman)",
+     "org": "Office of the Commissioner for Administration and the Protection of Human Rights",
+     "what": "Examines complaints of discrimination, including when a public or private body violates your rights (for example to employment, education or health care) because of disability. You can complain for yourself or, with their consent, for someone else. It is free.",
+     "how": "Use the online form, email ombudsman@ombudsman.gov.cy, or deliver or post your complaint (2 Diagorou, Nicosia). Call 22 405500 to check whether the Office can look into your complaint.",
+     "phone": "22 405500",
+     "dial": "22405500",
+     "email": "ombudsman@ombudsman.gov.cy",
+     "url": "https://help.unhcr.org/cyprus/?p=125",
+     "sources": [
+      "https://help.unhcr.org/cyprus/?p=125"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "OM",
+   "slug": "oman",
+   "name": "Oman",
+   "emergency": {
+    "number": "9999",
+    "label": "Emergency",
+    "source": "https://gov.om/en/emergency-numbers"
+   },
+   "resources": [
+    {
+     "id": "om-al-masarra-emergency",
+     "section": "help-now",
+     "name": "Al Masarra Hospital psychiatric emergency",
+     "org": "Ministry of Health",
+     "what": "The Ministry of Health's psychiatric hospital in Muscat, open around the clock. Its emergency department supports people in a mental health crisis or with addiction withdrawal. This is a hospital emergency line, not a counselling helpline.",
+     "how": "Call 2487 3268, the hospital's number for psychiatry and addiction emergencies. The hospital is in Al-Heshya, Al Amerat, Muscat Governorate. In an emergency, call 9999.",
+     "phone": "2487 3268",
+     "dial": "24873268",
+     "url": "https://moh.gov.om/en/hospitals-directorates/hospitals/al-masarra-hospital/",
+     "sources": [
+      "https://moh.gov.om/en/hospitals-directorates/hospitals/al-masarra-hospital/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "om-disability-card",
+     "section": "start",
+     "name": "Card for persons with disabilities",
+     "org": "Government of Oman (gov.om)",
+     "what": "The card is the way in to other services: with it you can request assistive devices, a disabled parking permit, vocational rehabilitation and employment opportunities. It is free and takes 14 working days.",
+     "how": "First get a medical examination and a medical report from a Ministry of Health centre giving the type and level of the disability and when it began. Then apply with the medical examination form, the report, the card application form and the disabled person's data form.",
+     "url": "https://gov.om/en/w/government-services-for-persons-with-disabilities",
+     "sources": [
+      "https://gov.om/en/w/government-services-for-persons-with-disabilities"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MN",
+   "slug": "mongolia",
+   "name": "Mongolia",
+   "emergency": {
+    "number": "105",
+    "label": "Emergency response. Fire: 101; police: 102; ambulance: 103",
+    "source": "https://crc.gov.mn/list/harilcaa-holboony-jlchilgee/en?show=196"
+   },
+   "resources": [
+    {
+     "id": "mn-108-child-helpline",
+     "section": "help-now",
+     "name": "108 Child Helpline",
+     "org": "General Authority for Child and Family Development and Protection",
+     "what": "Mongolia's children's emergency line, under the Ministry of Family, Labour and Social Protection. In December 2025 the government merged child protection response services and temporary shelter into the 108 centre, which gives rapid child protection help, counselling and information. No general crisis line for adults could be confirmed on an official page.",
+     "how": "Call 108. The ministry's pages do not give its hours. In an emergency, call 105.",
+     "phone": "108",
+     "dial": "108",
+     "url": "https://mlsp.gov.mn/eng/content/detail/2016",
+     "sources": [
+      "https://mlsp.gov.mn/eng/content/detail/2016",
+      "https://mlsp.gov.mn/eng/content/detail/1663"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mn-social-welfare-pension",
+     "section": "money",
+     "name": "Social welfare pension for adults with disabilities",
+     "org": "Ministry of Family, Labour and Social Protection",
+     "what": "Under the Law on Social Welfare (article 12.1.3), adults with disabilities who have lost 50 percent or more of their ability to work can get a monthly social welfare pension. The law also provides care allowances for people caring for disabled children and for citizens who need constant care.",
+     "how": "The law text does not say where to apply. The ministry's public relations division can be reached on +976 51 266324 or international@mlsp.gov.mn.",
+     "phone": "+976 51 266324",
+     "dial": "+97651266324",
+     "email": "international@mlsp.gov.mn",
+     "url": "https://legalinfo.mn/en/edtl/16959948290871",
+     "sources": [
+      "https://legalinfo.mn/en/edtl/16959948290871",
+      "https://mlsp.gov.mn/eng/content/detail/1809"
      ],
      "reviewed_on": "2026-11-21"
     }
