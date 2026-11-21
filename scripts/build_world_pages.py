@@ -90,7 +90,7 @@ def card(r, place=''):
 
 
 def the(name):
-    return ('the ' if name in ('United Kingdom', 'Philippines') else '') + name
+    return ('the ' if name in ('United Kingdom', 'Philippines', 'Bahamas') else '') + name
 
 
 def nav(pre, current):
@@ -178,7 +178,7 @@ def world_page():
                    f'<a href="tel:{E(c["emergency"]["number"])}">{E(c["emergency"]["number"])}</a> · {len(c["resources"])} listings</span></li>'
                    for c in countries)
     names = ', '.join(c['name'] for c in countries[:-1]) + ' and ' + countries[-1]['name']
-    names = names.replace('Philippines', 'the Philippines').replace('United Kingdom', 'the United Kingdom')
+    names = names.replace('Philippines', 'the Philippines').replace('United Kingdom', 'the United Kingdom').replace('Bahamas', 'the Bahamas')
     cards = ''.join(card(r) for r in DATA['worldwide'])
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
             '<title>Disability help outside the United States | Mobility Talk</title>'

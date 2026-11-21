@@ -1,6 +1,6 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them.",
- "reviewed_on": "2026-11-20",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them.",
+ "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
   "start": "Where to start",
@@ -1092,6 +1092,890 @@
       "https://nigeriarights.gov.ng/about/nhrc-mandate.html"
      ],
      "reviewed_on": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "code": "SG",
+   "slug": "singapore",
+   "name": "Singapore",
+   "emergency": {
+    "number": "995",
+    "label": "Ambulance and fire. For the police, call 999",
+    "source": "https://www.scdf.gov.sg/home/about-us/information-on-ems"
+   },
+   "relay": "Deaf, hard of hearing or speech-impaired: text 70995 for an ambulance or fire engine, or text 70999 for the police when it is not safe to talk.",
+   "relay_source": "https://www.scdf.gov.sg/home/about-us/information-on-ems",
+   "resources": [
+    {
+     "id": "sg-sos",
+     "section": "help-now",
+     "name": "Samaritans of Singapore (SOS)",
+     "org": "Samaritans of Singapore",
+     "what": "A 24-hour hotline for anyone in crisis, in distress or thinking about suicide. Its CareText service on WhatsApp is also open at any hour.",
+     "how": "Call 1767. To write instead, send a WhatsApp message to 9151 1767.",
+     "phone": "1767",
+     "dial": "1767",
+     "url": "https://sos.org.sg",
+     "sources": [
+      "https://sos.org.sg",
+      "https://www.tal.sg/tafep/workplace-fairness/individuals"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sg-sg-enable",
+     "section": "start",
+     "name": "SG Enable and the Enabling Guide",
+     "org": "SG Enable",
+     "what": "SG Enable runs several of Singapore's disability schemes, including the Assistive Technology Fund and the Taxi Subsidy Scheme. Its Enabling Guide website lists the schemes for assistive technology, transport, care and work in one place.",
+     "how": "Call the hotline on weekdays, 9am to 5.30pm, or email contactus@sgenable.sg.",
+     "phone": "1800 8585 885",
+     "dial": "18008585885",
+     "email": "contactus@sgenable.sg",
+     "url": "https://www.enablingguide.sg/",
+     "sources": [
+      "https://enablingguide.sg/contact-us",
+      "https://www.enablingguide.sg/schemes-grants-and-support-services-administered-by-sg-enable",
+      "https://www.sgenable.sg/your-first-stop/schemes-grants"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sg-atf",
+     "section": "equipment-home",
+     "name": "Assistive Technology Fund (ATF)",
+     "org": "SG Enable",
+     "what": "Pays up to 90% of the cost of devices such as wheelchairs and hearing aids, including repairs, upgrades and replacements, up to S$40,000 in a lifetime. It is for Singapore citizens and permanent residents with a permanent disability and a monthly household income of S$4,800 or less per person.",
+     "how": "A therapist or social worker at a public hospital or social service agency assesses what you need and applies for you. If no one is looking after you yet, ask a polyclinic to refer you to a public hospital.",
+     "phone": "1800 8585 885",
+     "dial": "18008585885",
+     "url": "https://www.enablingguide.sg/im-looking-for-disability-support/assistive-technology/assistive-technology-fund",
+     "sources": [
+      "https://www.enablingguide.sg/im-looking-for-disability-support/assistive-technology/assistive-technology-fund",
+      "https://www.msf.gov.sg/what-we-do/help-those-in-need/article/programmes/Assistive-Technology-Fund-ATF"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sg-taxi-subsidy",
+     "section": "equipment-home",
+     "name": "Taxi Subsidy Scheme",
+     "org": "SG Enable",
+     "what": "Pays part of taxi fares to school, work or SG Enable-supported training for people with a permanent physical, visual or intellectual disability, or autism, who cannot use public transport. It is for citizens and permanent residents with a monthly household income of S$4,800 or less per person who do not own a vehicle.",
+     "how": "Apply online with Singpass, or email the form and documents to tss@sgenable.sg. SG Enable says it decides within 15 working days of getting everything.",
+     "phone": "1800 8585 885",
+     "dial": "18008585885",
+     "email": "tss@sgenable.sg",
+     "url": "https://www.enablingguide.sg/im-looking-for-disability-support/transport/taxi-subsidy-scheme",
+     "sources": [
+      "https://www.enablingguide.sg/im-looking-for-disability-support/transport/taxi-subsidy-scheme"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sg-pwd-concession-card",
+     "section": "equipment-home",
+     "name": "Persons with Disabilities Concession Card",
+     "org": "SG Enable and SimplyGo",
+     "what": "Up to 55% off adult bus and train fares, plus monthly passes for unlimited travel, for citizens and permanent residents aged 7 to under 60 with a verified permanent disability.",
+     "how": "Check on SupportGoWhere, with Singpass, whether your disability is already verified. If not, have a registered healthcare professional fill in a Disability Verification Form and submit it there. Then apply through SimplyGo.",
+     "phone": "1800 8585 885",
+     "dial": "18008585885",
+     "url": "https://www.enablingguide.sg/im-looking-for-disability-support/transport/persons-with-disabilities-concession-card",
+     "sources": [
+      "https://www.enablingguide.sg/im-looking-for-disability-support/transport/persons-with-disabilities-concession-card"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sg-tafep",
+     "section": "work",
+     "name": "Tripartite Alliance for Fair and Progressive Employment Practices (TAFEP)",
+     "org": "Tripartite Alliance Limited",
+     "what": "Helps workers who face discrimination at work, including because of a disability or a mental health condition. If it finds discrimination, it refers the employer to the Ministry of Manpower. The Workplace Fairness Act, which covers disability, is due to take effect by the end of 2027.",
+     "how": "Try your employer's grievance process or your union first. If that does not fix it, report it on TAFEP's online form, or call on weekdays, 8.30am to 5.30pm; an officer may call you back.",
+     "phone": "6838 0969",
+     "dial": "68380969",
+     "url": "https://www.tal.sg/tafep/contact-us",
+     "sources": [
+      "https://www.tal.sg/tafep/workplace-fairness/individuals",
+      "https://www.tal.sg/tafep/contact-us"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sg-dpa",
+     "section": "rights",
+     "name": "Disabled People's Association (DPA)",
+     "org": "Disabled People's Association",
+     "what": "A cross-disability advocacy group led by and for people with disabilities. It speaks to decision-makers on disability policy and runs access guides and disability awareness training.",
+     "how": "Call or email to ask for help or to join as a member.",
+     "phone": "6791 1134",
+     "dial": "67911134",
+     "email": "hello@dpa.org.sg",
+     "url": "https://dpa.org.sg/",
+     "sources": [
+      "https://dpa.org.sg/faqs/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MY",
+   "slug": "malaysia",
+   "name": "Malaysia",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and rescue, health and civil defence. Free",
+    "source": "https://www.civildefence.gov.my/999-emergency-services/?lang=en"
+   },
+   "resources": [
+    {
+     "id": "my-befrienders-kl",
+     "section": "help-now",
+     "name": "Befrienders Kuala Lumpur",
+     "org": "Befrienders KL",
+     "what": "A free, private listening line, open 24 hours a day, every day, for anyone who feels lonely, in distress or is thinking about suicide.",
+     "how": "Call 03-7627 2929.",
+     "phone": "03-7627 2929",
+     "dial": "0376272929",
+     "url": "https://befrienders.org.my/",
+     "sources": [
+      "https://befrienders.org.my/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "my-heal-15555",
+     "section": "help-now",
+     "name": "Talian HEAL 15555",
+     "org": "Ministry of Health Malaysia",
+     "what": "The Ministry of Health's counselling line for emotional support and early crisis help, including for suicidal thoughts, depression, anxiety and stress. It is open every day from 8am to midnight.",
+     "how": "Dial 15555. Your mobile carrier may charge for the call.",
+     "phone": "15555",
+     "dial": "15555",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://findahelpline.com/organizations/talian-heal-15555-helpline",
+      "https://www.thestar.com.my/news/nation/2026/10/22/experts-good-call-to-run-helpline-round-the-clock"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "my-oku-registration",
+     "section": "start",
+     "name": "Register as a person with disabilities (OKU)",
+     "org": "Social Welfare Department (JKM)",
+     "what": "Malaysian citizens with a permanent physical, mental, learning, hearing, speech, vision or multiple disability, confirmed by a medical specialist, can register as OKU with the Social Welfare Department (JKM).",
+     "how": "Get a report from a medical specialist at a government or private hospital or clinic. Then apply online through MyDaftar OKU, or take the BPPOKU form, the report and a copy of your MyKad (or a child's birth certificate) to a JKM counter.",
+     "url": "https://www.malaysia.gov.my/en/topics/oku-registration",
+     "links": [
+      {
+       "label": "MyDaftar OKU (apply online)",
+       "url": "https://oku.jkm.gov.my/daftar_oku/create"
+      }
+     ],
+     "sources": [
+      "https://www.malaysia.gov.my/en/topics/oku-registration"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "my-perkeso-invalidity",
+     "section": "money",
+     "name": "PERKESO Invalidity Scheme",
+     "org": "Social Security Organisation (PERKESO / SOCSO)",
+     "what": "For insured employees who become permanently unable to earn a living because of an illness or injury from any cause, not only at work, as decided by a PERKESO Medical Board. It pays a monthly pension of 50% to 65% of average wages (at least RM475), RM500 a month more if you need someone with you at all times, and covers rehabilitation and aids such as wheelchairs, crutches, hearing aids and artificial limbs.",
+     "how": "Ask PERKESO about making an invalidity claim.",
+     "url": "https://perkeso.gov.my/en/uncategorised/56-invalidity-scheme.html",
+     "sources": [
+      "https://perkeso.gov.my/en/uncategorised/56-invalidity-scheme.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "my-suhakam",
+     "section": "rights",
+     "name": "Human Rights Commission of Malaysia (SUHAKAM)",
+     "org": "SUHAKAM",
+     "what": "Malaysia's national human rights commission. It takes complaints about human rights violations through its online complaint system.",
+     "how": "Complain online, call the Kuala Lumpur office on weekdays, or email humanrights@suhakam.org.my.",
+     "phone": "03-2612 5600",
+     "dial": "0326125600",
+     "email": "humanrights@suhakam.org.my",
+     "url": "https://suhakam.org.my/",
+     "links": [
+      {
+       "label": "Make a complaint",
+       "url": "https://aduan.suhakam.org.my/"
+      }
+     ],
+     "sources": [
+      "https://suhakam.org.my/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "GH",
+   "slug": "ghana",
+   "name": "Ghana",
+   "emergency": {
+    "number": "112",
+    "label": "Police, fire and ambulance",
+    "source": "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/2026/0414/Documents/Gifty%20Selby.pdf"
+   },
+   "resources": [
+    {
+     "id": "gh-mha-helpline",
+     "section": "help-now",
+     "name": "National Mental Health and Suicide Prevention Helpline",
+     "org": "Mental Health Authority",
+     "what": "A free 24-hour line from Ghana's Mental Health Authority, where you can talk to a counsellor about any mental health worry, including thoughts of suicide.",
+     "how": "Call 0800 678 678. It is toll-free.",
+     "phone": "0800 678 678",
+     "dial": "0800678678",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://findahelpline.com/countries/gh",
+      "https://www.newsghana.com.gh/ghana-launches-free-mental-health-support-after-national-tragedies/",
+      "https://ghanaiantimes.com.gh/mha-unveils-toll-free-no-for-psycho-social-support/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gh-ncpd",
+     "section": "start",
+     "name": "National Council on Persons with Disability (NCPD)",
+     "org": "Ministry of Gender, Children and Social Protection",
+     "what": "The government body set up under the Persons with Disability Act, 2006 (Act 715) to shape disability policy. It keeps the national register of persons with disability and of the organisations that serve them.",
+     "how": "Contact the Ministry, which the Council sits under, to ask about registering.",
+     "phone": "0302 688181",
+     "dial": "0302688181",
+     "phone_note": "Ministry of Gender, Children and Social Protection",
+     "email": "info@mogcsp.gov.gh",
+     "url": "https://www.mogcsp.gov.gh/national-council-for-persons-with-disabilityncpd/",
+     "sources": [
+      "https://www.mogcsp.gov.gh/national-council-for-persons-with-disabilityncpd/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gh-chraj",
+     "section": "rights",
+     "name": "Commission on Human Rights and Administrative Justice (CHRAJ)",
+     "org": "CHRAJ",
+     "what": "Takes complaints about human rights violations, including discrimination, free of charge. Complain within 12 months of what happened.",
+     "how": "Call the toll-free line, email info@chraj.gov.gh, or visit any CHRAJ office, weekdays 8am to 6pm. To report discrimination from any phone without data or credit, dial *920*59#; a case officer calls back within 48 hours.",
+     "phone": "0800 330 330",
+     "dial": "0800330330",
+     "email": "info@chraj.gov.gh",
+     "url": "https://chraj.gov.gh/faqs/",
+     "links": [
+      {
+       "label": "Discrimination reporting system",
+       "url": "https://sdrs.chraj.gov.gh/ussd-application"
+      }
+     ],
+     "sources": [
+      "https://chraj.gov.gh/faqs/",
+      "https://sdrs.chraj.gov.gh/ussd-application"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gh-gfd",
+     "section": "rights",
+     "name": "Ghana Federation of Disability Organisations (GFD)",
+     "org": "Ghana Federation of Disability Organisations",
+     "what": "The national umbrella of organisations of persons with disabilities, set up in 1987. It advocates for disability rights and helps its member organisations grow.",
+     "how": "Call its toll-free number.",
+     "phone": "0800 867 200",
+     "dial": "0800867200",
+     "url": "https://gfd.org.gh/",
+     "sources": [
+      "https://gfd.org.gh/",
+      "https://ghanayello.com/company/60937/Ghana_Federation_of_Disability_Organisations_GFD"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "UG",
+   "slug": "uganda",
+   "name": "Uganda",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and ambulance. 112 also works",
+    "source": "https://www.gov.uk/foreign-travel-advice/uganda/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ug-mhu-toll-free",
+     "section": "help-now",
+     "name": "Mental Health Uganda toll-free line",
+     "org": "Mental Health Uganda",
+     "what": "Free, confidential support from trained counsellors for anyone struggling with their mental health, with information and referrals to further care. You can talk in several local languages.",
+     "how": "Call 0800 21 21 21, Monday to Friday, 8:30am to 5pm. At other times, in an emergency, call 999.",
+     "phone": "0800 21 21 21",
+     "dial": "0800212121",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://findahelpline.com/organizations/mental-health-uganda-toll-free"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ug-special-grant",
+     "section": "money",
+     "name": "Special Grant for Persons with Disabilities",
+     "org": "Ministry of Gender, Labour and Social Development",
+     "what": "Grants for money-making projects run by groups of 5 to 15 people in the same sub-county: persons with disabilities aged 15 and over, carers of children with disabilities, or registered homes for persons with disabilities. Groups have used it for things like rearing animals, mobile money and buying and selling produce.",
+     "how": "Plan the project as a group, fill in the disability grant project application form, and hand it in at your sub-county through the community development officer.",
+     "url": "https://maracha.go.ug/node/154",
+     "sources": [
+      "https://maracha.go.ug/node/154"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ug-eoc",
+     "section": "rights",
+     "name": "Equal Opportunities Commission",
+     "org": "Equal Opportunities Commission",
+     "what": "Investigates and tries to settle complaints of discrimination, including because of disability. Complain within six months of what happened.",
+     "how": "Use the online complaint form, call the toll-free line, or email info@eoc.go.ug.",
+     "phone": "0800 100 440",
+     "dial": "0800100440",
+     "email": "info@eoc.go.ug",
+     "url": "https://www.eoc.go.ug/complaint-form/",
+     "sources": [
+      "https://eoc.go.ug"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ug-nudipu",
+     "section": "rights",
+     "name": "National Union of Disabled Persons of Uganda (NUDIPU)",
+     "org": "NUDIPU",
+     "what": "The national umbrella of organisations of persons with disabilities, formed in 1987. Its members are 146 district unions and 17 national disability organisations. It advocates for disability rights and runs training, business and job programmes.",
+     "how": "Call or email NUDIPU, or ask your district union of persons with disabilities.",
+     "phone": "0759 684 292",
+     "dial": "0759684292",
+     "email": "info@nudipu.org",
+     "url": "https://nudipu.org/",
+     "sources": [
+      "https://nudipu.org/",
+      "https://nudipu.org/wp-content/uploads/2025/11/REVISED-COPY-OF-THE-BROCHURE-ABOUT-NUDIPU.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "TZ",
+   "slug": "tanzania",
+   "name": "Tanzania",
+   "emergency": {
+    "number": "112",
+    "label": "Police, fire and ambulance",
+    "source": "https://www.smartraveller.gov.au/destinations/africa/tanzania"
+   },
+   "resources": [
+    {
+     "id": "tz-moh-199",
+     "section": "help-now",
+     "name": "Ministry of Health line 199",
+     "org": "Ministry of Health (Wizara ya Afya)",
+     "what": "The Ministry of Health's free line, which has a psychological support desk where you can get counselling. Most information is in Swahili.",
+     "how": "Call 199 for free, or send a text message to 15061.",
+     "phone": "199",
+     "dial": "199",
+     "sources": [
+      "https://www.moh.go.tz/storage/app/uploads/public/68c/10f/edd/68c10fedd2040161707121.pdf",
+      "https://findahelpline.com/organizations/199-afya-call-center"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tz-child-helpline",
+     "section": "help-now",
+     "name": "National Child Helpline 116",
+     "org": "C-Sema",
+     "what": "A free, confidential line open 24 hours for children and young people, and for adults worried about a child.",
+     "how": "Call 116, or send a WhatsApp message to +255 624 100 100.",
+     "phone": "116",
+     "dial": "116",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://findahelpline.com/countries/tz",
+      "https://www.therapyroute.com/article/suicide-hotlines-and-crisis-lines-in-tanzania-by-therapyroute"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tz-shivyawata",
+     "section": "rights",
+     "name": "Tanzania Federation of Disabled People's Organisations (SHIVYAWATA)",
+     "org": "SHIVYAWATA",
+     "what": "The national federation of organisations of persons with disabilities. It speaks for disabled people on policy and law.",
+     "how": "Call or email the federation in Dar es Salaam.",
+     "phone": "0718 645 526",
+     "dial": "0718645526",
+     "email": "info@shivyawata.or.tz",
+     "url": "https://shivyawata.or.tz/?lang=en",
+     "sources": [
+      "https://shivyawata.or.tz/?lang=en",
+      "https://www.adry.up.ac.za/section-b-country-reports-2023/tanzania"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tz-tlb",
+     "section": "rights",
+     "name": "Tanzania League of the Blind",
+     "org": "Tanzania League of the Blind",
+     "what": "A national membership organisation for people with visual impairment. It advocates for their rights and supports education, assistive technology, digital skills and job training.",
+     "how": "Call or email, Monday to Saturday, 9am to 6pm. The office is on Chui Street, Kariakoo, Dar es Salaam.",
+     "phone": "0655 688 833",
+     "dial": "0655688833",
+     "email": "info@tlb.or.tz",
+     "url": "https://tlb.or.tz",
+     "sources": [
+      "https://tlb.or.tz",
+      "https://www.adry.up.ac.za/section-b-country-reports-2023/tanzania"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "ZM",
+   "slug": "zambia",
+   "name": "Zambia",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and ambulance",
+    "source": "https://www.smartraveller.gov.au/destinations/africa/zambia"
+   },
+   "resources": [
+    {
+     "id": "zm-lifeline-933",
+     "section": "help-now",
+     "name": "Lifeline Zambia 933",
+     "org": "Lifeline/Childline Zambia",
+     "what": "A free 24-hour counselling line. Lifeline/Childline Zambia also does crisis support and suicide prevention work. Children can call Childline on 116.",
+     "how": "Call 933. It is toll-free.",
+     "phone": "933",
+     "dial": "933",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.unicef.org/zambia/stories/lifeline-zambias-children",
+      "https://lifeline-international.com/lifeline-childline-zambia/",
+      "https://findahelpline.com/organizations/lifeline-933"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "zm-zapd",
+     "section": "start",
+     "name": "Zambia Agency for Persons with Disabilities (ZAPD)",
+     "org": "Zambia Agency for Persons with Disabilities",
+     "what": "The government agency set up under the Persons with Disabilities Act, 2012. It keeps the national register of persons with disabilities and can run schemes for self-employment and jobs.",
+     "how": "Contact the head office on Leopards Hill Road, Lusaka, to register or to ask about its programmes.",
+     "phone": "+260 211 265 233",
+     "dial": "+260211265233",
+     "email": "Head.Office@zapd.org.zm",
+     "sources": [
+      "https://www.undp.org/sites/g/files/zskgke326/files/2024-02/zapd_strategic_plan.pdf",
+      "https://hrc.org.zm/wp-content/uploads/2025/11/Disability-and-Human-Rights-Brochure.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "zm-hrc",
+     "section": "rights",
+     "name": "Human Rights Commission",
+     "org": "Human Rights Commission of Zambia",
+     "what": "Investigates human rights complaints for free, including from persons with disabilities. The Persons with Disabilities Act, 2012 bans discrimination because of disability.",
+     "how": "Call the toll-free line 8181 from Airtel, MTN or Zamtel, send a WhatsApp message to 0954 443 010, email complaints@hrc.org.zm, or visit a provincial office.",
+     "phone": "8181",
+     "dial": "8181",
+     "email": "complaints@hrc.org.zm",
+     "url": "https://hrc.org.zm/",
+     "sources": [
+      "https://hrc.org.zm/wp-content/uploads/2025/11/Disability-and-Human-Rights-Brochure.pdf",
+      "https://hrc.org.zm/wp-content/uploads/2025/11/About-the-Human-Rights-Commission-Brochure.pdf"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "ZW",
+   "slug": "zimbabwe",
+   "name": "Zimbabwe",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and ambulance",
+    "source": "https://www.smartraveller.gov.au/destinations/africa/zimbabwe"
+   },
+   "resources": [
+    {
+     "id": "zw-youth-advocates-393",
+     "section": "help-now",
+     "name": "Youth Advocates Zimbabwe helpline 393",
+     "org": "Youth Advocates Zimbabwe",
+     "what": "A free 24-hour line where young people can talk to peers about suicide, depression, stress, abuse and other worries.",
+     "how": "Dial 393 from any mobile network, or call 0777 469 107. Children can also call Childline on 116.",
+     "phone": "393",
+     "dial": "393",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://findahelpline.com/organizations/youth-advocates-helpline",
+      "https://www.therapyroute.com/article/suicide-hotlines-and-crisis-lines-in-zimbabwe-by-therapyroute"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "zw-zhrc",
+     "section": "rights",
+     "name": "Zimbabwe Human Rights Commission",
+     "org": "Zimbabwe Human Rights Commission",
+     "what": "Takes and investigates complaints about human rights violations. The Persons with Disabilities Act, passed in 2025, bans discrimination because of disability and requires reasonable accommodation.",
+     "how": "Lodge a complaint on the website, email info@zhrc.org.zw, or call on weekdays, 8am to 5pm.",
+     "phone": "+263 77 183 8656",
+     "dial": "+263771838656",
+     "email": "info@zhrc.org.zw",
+     "url": "https://zhrc.org.zw/complaints-handling-and-investigations/",
+     "sources": [
+      "https://zhrc.org.zw/?p=2650",
+      "https://campaigning.sightsavers.org/news/2025/11/zimbabwe-passes-persons-with-disabilities-act/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "PK",
+   "slug": "pakistan",
+   "name": "Pakistan",
+   "emergency": {
+    "number": "1122",
+    "label": "Rescue 1122: ambulance and fire. Police: 15",
+    "source": "https://www.smartraveller.gov.au/destinations/asia/pakistan"
+   },
+   "resources": [
+    {
+     "id": "pk-rozan",
+     "section": "help-now",
+     "name": "Rozan Counseling Helpline",
+     "org": "Rozan",
+     "what": "Telephone counselling for emotional and mental health worries, with referrals to other services. Rozan also offers counselling in person, especially for women and children, and by email.",
+     "how": "Call 0304 111 1741, Monday to Friday, 9am to 5pm, or email helpline@rozan.org. In an emergency, call 1122 or 15.",
+     "phone": "0304 111 1741",
+     "dial": "03041111741",
+     "email": "helpline@rozan.org",
+     "url": "https://rozan.org/counseling-services/",
+     "sources": [
+      "https://rozan.org/counseling-services/",
+      "https://findahelpline.com/countries/pk"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pk-nadra-cnic",
+     "section": "start",
+     "name": "Identity card with the disability logo (NADRA)",
+     "org": "National Database and Registration Authority (NADRA)",
+     "what": "NADRA issues identity cards (CNICs) to persons with disabilities that carry the international disability logo and are valid for life. Pakistan Bait-ul-Mal accepts this card as proof of disability.",
+     "how": "Apply at a NADRA office. NADRA has said persons with disabilities are served without queueing and that it offers registration at home.",
+     "url": "https://pid.gov.pk/site/press_detail/21794",
+     "sources": [
+      "https://pid.gov.pk/site/press_detail/21794",
+      "https://pbm.gov.pk/projects.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pk-pbm-special-friends",
+     "section": "money",
+     "name": "Pakistan Bait-ul-Mal: help for families with a person with disabilities",
+     "org": "Pakistan Bait-ul-Mal",
+     "what": "Yearly cash help for families with a person with disabilities: Rs. 20,000 a year for one person with disabilities, Rs. 30,000 for two or more.",
+     "how": "Fill in the PBM application form and attach a copy of the CNIC (or a child's B-Form) and a disability certificate or a NADRA CNIC with the disability logo.",
+     "url": "https://pbm.gov.pk/projects.html",
+     "sources": [
+      "https://pbm.gov.pk/projects.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pk-pbm-devices",
+     "section": "equipment-home",
+     "name": "Pakistan Bait-ul-Mal: wheelchairs and assistive devices",
+     "org": "Pakistan Bait-ul-Mal",
+     "what": "Standard and customised wheelchairs, hearing aids, white canes and artificial limbs. People aged 60 and over can also get a standard wheelchair.",
+     "how": "Apply with a CNIC copy and a disability certificate. A standard wheelchair needs a government medical officer's recommendation; hearing aids and artificial limbs need an estimate from a government hospital. In some districts, including Islamabad, customised wheelchairs are applied for online.",
+     "url": "https://pbm.gov.pk/projects.html",
+     "sources": [
+      "https://pbm.gov.pk/projects.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "pk-punjab-adwc",
+     "section": "equipment-home",
+     "name": "Punjab Assistive Devices and Wheelchair Program",
+     "org": "Social Welfare and Bait-ul-Maal Department, Punjab",
+     "what": "For residents of Punjab: wheelchairs, prosthetics, orthotics and other assistive devices, fitted to each person after an assessment.",
+     "how": "Apply on the program's website or app, or at your nearest Social Welfare and Bait-ul-Maal office. You need a CNIC or B-Form and a Disability Assessment Certificate. For wheelchairs and artificial limbs, an orthopaedic specialist at a DHQ or teaching hospital assesses what you need.",
+     "phone": "1312",
+     "dial": "1312",
+     "phone_note": "Helpline for questions about applying",
+     "url": "https://adwc.punjab.gov.pk/",
+     "sources": [
+      "https://adwc.punjab.gov.pk/faqs",
+      "https://swd.punjab.gov.pk/node/1783"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BD",
+   "slug": "bangladesh",
+   "name": "Bangladesh",
+   "emergency": {
+    "number": "999",
+    "label": "Police, fire and ambulance. Free, any hour",
+    "source": "https://www.itu.int/net4/wsis/stocktaking/Prizes/2026/Details/15149061210000000"
+   },
+   "resources": [
+    {
+     "id": "bd-kaan-pete-roi",
+     "section": "help-now",
+     "name": "Kaan Pete Roi",
+     "org": "Kaan Pete Roi",
+     "what": "Bangladesh's emotional support and suicide prevention helpline. Trained volunteers listen in confidence to anyone in despair, alone or thinking about suicide.",
+     "how": "Call 09612 119911 any day from 3pm to 3am, except on holidays. In an emergency, call 999.",
+     "phone": "09612 119911",
+     "dial": "09612119911",
+     "email": "info@kaanpeteroi.org",
+     "url": "https://kaanpeteroi.org/helpline-service/",
+     "sources": [
+      "https://kaanpeteroi.org/helpline-service/",
+      "https://lifeline-international.com/?p=2624"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bd-disability-id",
+     "section": "start",
+     "name": "Disability identification and ID card",
+     "org": "Department of Social Services",
+     "what": "Under the Rights and Protection of Persons with Disabilities Act 2013, persons with disabilities are registered and given an identity card after a medical check. The card helps you join government programmes.",
+     "how": "Apply online at dis.gov.bd, or take the form to the Upazila or City Social Service Office where you live. You need a birth registration or national ID card, a mobile number and an email address. The office sets a date for the medical check and sends an SMS when your card is ready.",
+     "url": "https://www.dis.gov.bd/",
+     "sources": [
+      "https://dss.sherpur.gov.bd/en/site/page/gJE6-%E0%A7%A9%E0%A7%A9-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%95%E0%A6%B0%E0%A6%A3"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bd-disability-allowance",
+     "section": "money",
+     "name": "Disability allowance",
+     "org": "Department of Social Services, Ministry of Social Welfare",
+     "what": "A monthly allowance for persons with disabilities on low incomes who are over six years old. Local committees choose who gets it, with priority for older people, homeless people, women with multiple disabilities and poor children with intellectual disabilities.",
+     "how": "Ask at your Upazila Social Service Office.",
+     "url": "https://socialprotection.gov.bd/2017/03/allowance-for-financially-insolvent-persons-with-disabilities/",
+     "sources": [
+      "https://socialprotection.gov.bd/2017/03/allowance-for-financially-insolvent-persons-with-disabilities/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "TT",
+   "slug": "trinidad-and-tobago",
+   "name": "Trinidad and Tobago",
+   "emergency": {
+    "number": "999",
+    "label": "Police. Fire: 990. Ambulance: 811",
+    "source": "https://www.smartraveller.gov.au/destinations/americas/trinidad-and-tobago"
+   },
+   "resources": [
+    {
+     "id": "tt-lifeline",
+     "section": "help-now",
+     "name": "Lifeline Trinidad and Tobago",
+     "org": "Lifeline Trinidad and Tobago",
+     "what": "A free listening line, open 24 hours, for anyone in distress or thinking about suicide. The Ministry of Health lists it among its suicide help numbers.",
+     "how": "Call 800-5588 or 866-5433, both toll-free.",
+     "phone": "800-5588",
+     "dial": "8005588",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://health.gov.tt/suicide",
+      "https://findcarett.com/lifeline/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tt-disability-assistance-grant",
+     "section": "money",
+     "name": "Disability Assistance Grant",
+     "org": "Government of Trinidad and Tobago (social welfare)",
+     "what": "A monthly grant for adults 18 and over who are certified as permanently disabled and unable to work, have an income of no more than TT$12,000 a year, and have lived in Trinidad and Tobago for at least 3 years. A separate grant pays TT$1,500 a month for children under 18 with a disability.",
+     "how": "Get the forms at your Local Board (Social Welfare) Office. Adults need a medical report from a Government Medical Officer, national ID, birth certificate and a bank statement. For general help, call ttconnect on weekdays, 8am to 4pm.",
+     "phone": "800-8826",
+     "dial": "8008826",
+     "phone_note": "ttconnect hotline (800-TTCN)",
+     "url": "https://ttconnect.gov.tt/?p=644",
+     "sources": [
+      "https://ttconnect.gov.tt/?p=644"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tt-eoc",
+     "section": "rights",
+     "name": "Equal Opportunity Commission",
+     "org": "Equal Opportunity Commission",
+     "what": "Takes complaints of discrimination because of disability, among other grounds, in jobs, education, goods and services, and housing. Complain in writing within six months of what happened.",
+     "how": "Use the online complaint form, email the form to complaints@eoc.gov.tt, or drop it at the office at 55-57 Manic Street, Chaguanas.",
+     "phone": "672-0928",
+     "dial": "6720928",
+     "email": "complaints@eoc.gov.tt",
+     "url": "https://equalopportunity.gov.tt/faq.html",
+     "sources": [
+      "https://equalopportunity.gov.tt/faq.html"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BB",
+   "slug": "barbados",
+   "name": "Barbados",
+   "emergency": {
+    "number": "211",
+    "label": "Police. Ambulance: 511. Fire: 311",
+    "source": "https://www.visitbarbados.org/plan-your-trip/medical-services"
+   },
+   "resources": [
+    {
+     "id": "bb-lifeline",
+     "section": "help-now",
+     "name": "Lifeline Barbados",
+     "org": "Ministry of Health and Wellness",
+     "what": "A 24-hour mental health helpline run by the Ministry of Health and Wellness.",
+     "how": "Call 536-4500.",
+     "phone": "536-4500",
+     "dial": "5364500",
+     "sources": [
+      "https://health.gov.bb/News/Press-Releases/Barbados-Has-New-24-Hour-Mental-He",
+      "https://www.health.gov.bb/News/Press-Releases/Mental-Health-Hotline-A-Lifeline-F"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bb-ndu",
+     "section": "start",
+     "name": "Register with the National Disabilities Unit",
+     "org": "National Disabilities Unit",
+     "what": "The government unit for persons with disabilities uses its register to plan policies and programmes. Adults must be registered with it to use Call-A-Ride, which takes persons with disabilities to hospital appointments.",
+     "how": "Call 310-1650 and leave your contact details. Unit staff, carrying Unit picture IDs, will visit you to take the rest.",
+     "phone": "310-1650",
+     "dial": "3101650",
+     "url": "https://gisbarbados.gov.bb/blog/all-pwds-need-to-register/",
+     "sources": [
+      "https://gisbarbados.gov.bb/blog/all-pwds-need-to-register/",
+      "https://barbadosdisabled.org.bb/?p=8558"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bb-bcd",
+     "section": "equipment-home",
+     "name": "Barbados Council for the Disabled",
+     "org": "Barbados Council for the Disabled",
+     "what": "Helps people with all kinds of disabilities. Its services include accessible transport, sign language interpreters, Braille translation, beach wheelchairs and checks of how accessible a property is.",
+     "how": "Call the Council. It is at Harambee House, The Garrison, St Michael.",
+     "phone": "629-0574",
+     "dial": "6290574",
+     "sources": [
+      "https://barbadosdisabled.org.bb/?p=8558"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BS",
+   "slug": "bahamas",
+   "name": "Bahamas",
+   "emergency": {
+    "number": "919",
+    "label": "Police, fire and ambulance. 911 also works",
+    "source": "https://www.royalbahamaspolice.org/crimeprevention/emergencynumbers.html"
+   },
+   "resources": [
+    {
+     "id": "bs-crisis-centre",
+     "section": "help-now",
+     "name": "Bahamas Crisis Centre",
+     "org": "The Bahamas Crisis Centre",
+     "what": "A 24-hour hotline, answered by volunteers, for women, men and children facing domestic violence, abuse or any other crisis.",
+     "how": "Call 328-0922.",
+     "phone": "328-0922",
+     "dial": "3280922",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.royalbahamaspolice.org/crimeprevention/emergencynumbers.html",
+      "https://findahelpline.com/organizations/bahamas-crisis-centre"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bs-social-services",
+     "section": "start",
+     "name": "Department of Social Services",
+     "org": "Ministry of Social Services",
+     "what": "The government department whose work includes services for persons with disabilities. Its Disability Affairs Division helps persons with disabilities and their families.",
+     "how": "Call the Department, or visit it at Aventura Plaza, John F. Kennedy Drive and Bethel Avenue, Nassau.",
+     "phone": "397-8600",
+     "dial": "3978600",
+     "sources": [
+      "https://www.bahamas.gov.bs/wps/wcm/connect/mof_content/internet/all+contacts/agencies/government+ministries/ministry+of+social+services%2C+information+and+broadcasting",
+      "https://bahamascustoms.gov.bs/?p=4252"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bs-ncpd",
+     "section": "rights",
+     "name": "National Commission for Persons with Disabilities",
+     "org": "National Commission for Persons with Disabilities",
+     "what": "The national commission for persons with disabilities. Its AccessAbility app lets you register with the Commission for free and has a way to make complaints.",
+     "how": "Call or send a WhatsApp message to the Commission's line, or email Disabilitiescommission@bahamas.gov.bs.",
+     "phone": "376-8328",
+     "dial": "3768328",
+     "email": "Disabilitiescommission@bahamas.gov.bs",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://magneticmediatv.com/2020/05/bahamas-social-agencies-work-hand-in-hand-to-ensure-access-for-the-disabled/",
+      "https://undp.org/node/370776"
+     ],
+     "reviewed_on": "2026-11-21"
     }
    ]
   }
