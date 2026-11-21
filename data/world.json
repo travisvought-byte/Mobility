@@ -3477,8 +3477,8 @@
    "name": "South Korea",
    "emergency": {
     "number": "119",
-    "label": "Fire, rescue and ambulance, with interpretation. For the police, call 112",
-    "source": "https://www.mfat.govt.nz/en/countries-and-regions/asia/republic-of-korea-south/new-zealand-embassy/emergency-numbers-in-korea"
+    "label": "Fire, disasters and medical emergencies, answered by the National Fire Agency. You can also report to 119 by text message with photos, through the 119 reporting app or by video call",
+    "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148925594"
    },
    "resources": [
     {
@@ -3549,10 +3549,10 @@
    "emergency": {
     "number": "101",
     "label": "Magen David Adom ambulance. Police: 100. Fire and rescue: 102",
-    "source": "https://aisrael.org/en/essential-phone-numbers"
+    "source": "https://www.gov.il/BlobFolder/generalpage/firststeps_guides/he/lan%20lifnot%20-he.pdf"
    },
    "relay": "Deaf or speech-impaired: you can reach Magen David Adom by text message at 052-7000101 or by fax at 1-800-500-101.",
-   "relay_source": "https://aisrael.org/en/essential-phone-numbers",
+   "relay_source": "https://www.gov.il/BlobFolder/generalpage/firststeps_guides/he/lan%20lifnot%20-he.pdf",
    "resources": [
     {
      "id": "il-eran-1201",
@@ -3680,8 +3680,8 @@
    "name": "Costa Rica",
    "emergency": {
     "number": "911",
-    "label": "Emergencies",
-    "source": "https://aquiestoy.cr/"
+    "label": "Emergencies that threaten life, property or the environment. You can also report through the Emergencias 9-1-1 CR app",
+    "source": "https://www.mep.go.cr/sites/default/files/2026-05/ReporteIncidentes911CentrosLaboralesMEP2026.pdf"
    },
    "resources": [
     {
