@@ -36,6 +36,8 @@ def validate():
         assert digits(c['emergency']['number']) == c['emergency']['number'], c['code'] + ' emergency number is digits only'
         assert c['emergency']['source'].startswith('https://'), c['code']
         assert any(r['section'] == 'help-now' for r in c['resources']), c['code'] + ' needs a crisis line'
+        if c.get('us_state_slug'):
+            assert (ROOT / 'states' / (c['us_state_slug'] + '.html')).exists(), c['code'] + ' links a missing state page'
         records += [(r, c) for r in c['resources']]
     if True:
         for r, c in records:
@@ -142,7 +144,8 @@ def country_page(c):
     n = len(c['resources'])
     checked = max(r['reviewed_on'] for r in c['resources'])
     kinds = [SECTIONS[k].lower() for k in SECTIONS if any(r['section'] == k for r in c['resources'])]
-    title = f'Disability resources in {place}'
+    # A country that shares its name with a U.S. state (Georgia) says which one it is in its title and links the state page.
+    title = f'Disability resources in {c.get("title_name", place)}'
     desc = (f'Disability help in {place}: {", ".join(kinds)}. Phone numbers and official pages, each checked against its source.')[:300]
     secs, toc = [], []
     for k, label in SECTIONS.items():
@@ -161,6 +164,9 @@ def country_page(c):
     intro = (f'<p>Mobility Talk began in the United States and is now adding other countries. These are the first listings for {E(place)}: '
              f'{n} national programs and lines, each checked against its own page or an official directory (most recently on {E(checked)}). '
              'Local and regional services are not listed yet.</p>')
+    if c.get('us_state_slug'):
+        intro += (f'<p>This page is for the country of {E(place)}. Looking for the U.S. state? '
+                  f'<a href="../states/{E(c["us_state_slug"])}.html">{E(c["name"])} (U.S. state)</a>.</p>')
     body = (f'<header>{nav("../", "world.html")}<small>{E(c["name"].upper())} · DISABILITY RESOURCES</small><h1>{E(title)}</h1>{intro}</header>\n'
             f'<main id="main">{emergency_box(c)}'
             f'<section class="panel"><p>Numbers are written the way they are dialed inside {E(place)}. Calling from another country? Use the country code, and note that some free numbers only work inside the country.</p>{relay}'

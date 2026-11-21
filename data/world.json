@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -5745,6 +5745,584 @@
      "sources": [
       "https://legalinfo.mn/en/edtl/16959948290871",
       "https://mlsp.gov.mn/eng/content/detail/1809"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "GE",
+   "slug": "georgia",
+   "name": "Georgia",
+   "title_name": "Georgia (the country)",
+   "us_state_slug": "georgia",
+   "emergency": {
+    "number": "112",
+    "label": "Police, fire and rescue, and ambulance; call-takers answer 24 hours a day",
+    "source": "https://112.gov.ge/?p=1686"
+   },
+   "resources": [
+    {
+     "id": "ge-116006",
+     "section": "help-now",
+     "name": "Hotline 116 006",
+     "org": "Listed by the 112 emergency service",
+     "what": "A nationwide hotline for victims of violence against women and domestic violence. It is free, anonymous and open 24 hours a day, and answers in Georgian, English, Russian, Azerbaijani, Turkish, Armenian, Arabic and Persian. It is not a general mental health line.",
+     "how": "Call 116 006 at any hour. In an emergency, call 112.",
+     "phone": "116 006",
+     "dial": "116006",
+     "sources": [
+      "https://112.gov.ge/?p=7650"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ge-public-defender",
+     "section": "rights",
+     "name": "Public Defender of Georgia",
+     "org": "Public Defender (Ombudsman) of Georgia",
+     "what": "The Public Defender examines complaints from people who consider themselves victims of discrimination, and has a Department of Protection of the Rights of Persons with Disabilities. It also monitors the UN Convention on the Rights of Persons with Disabilities.",
+     "how": "Call the 24-hour hotline 1481, email info@ombudsman.ge, or send the complaint form to Irakli Paghava Street N6, Avlabari, Tbilisi 0144 or a regional office. The office is open Monday to Friday, 9:00 to 18:00.",
+     "phone": "1481",
+     "dial": "1481",
+     "url": "https://www.ombudsman.ge/eng/sakhalkho-damtsvelistvis-gantskhadebit-sachivrit-mimartva",
+     "email": "info@ombudsman.ge",
+     "sources": [
+      "https://www.ombudsman.ge/eng/sakhalkho-damtsvelistvis-gantskhadebit-sachivrit-mimartva",
+      "https://www.ombudsman.ge/eng/191127024126shezghuduli-shesadzlebloba"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "AM",
+   "slug": "armenia",
+   "name": "Armenia",
+   "emergency": {
+    "number": "112",
+    "label": "Rescue Service and other emergency help",
+    "source": "https://rescue.mia.gov.am/en/contact-details"
+   },
+   "resources": [
+    {
+     "id": "am-womens-support-center",
+     "section": "help-now",
+     "name": "Women's Support Center hotline",
+     "org": "Women's Support Center NGO",
+     "what": "A 24-hour hotline for anyone facing domestic violence, listed by UNHCR and in UNICEF Armenia's list of mental health and psychosocial support services. It is not a general mental health line.",
+     "how": "Call 099 887 808 at any hour. In an emergency, call 112.",
+     "phone": "099 887 808",
+     "dial": "099887808",
+     "sources": [
+      "https://help.unhcr.org/armenia/partners-and-contact-info/",
+      "https://www.unicef.org/armenia/en/stories/armenian-organizations-mental-health-and-psychosocial-support-services"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "am-far-child-line",
+     "section": "help-now",
+     "name": "FAR Children's Support Center line",
+     "org": "FAR Children's Support Center",
+     "what": "A free 0800 line for children and families, in UNICEF Armenia's list of mental health and psychosocial support services (list updated May 2024). UNICEF does not give its hours.",
+     "how": "Call 0800 61111. In an emergency, call 112.",
+     "phone": "0800 61111",
+     "dial": "080061111",
+     "sources": [
+      "https://www.unicef.org/armenia/en/stories/armenian-organizations-mental-health-and-psychosocial-support-services"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "am-disability-benefit",
+     "section": "money",
+     "name": "Disability benefit",
+     "org": "National Services Gateway of Armenia",
+     "what": "A monthly benefit for people with disabilities who are not entitled to a pension, and for children recognized as having disabilities: AMD 39,000 for a profound limitation, AMD 37,500 for severe and AMD 36,000 for moderate. Disability is recognized through a functionality assessment (a limitation of 25% or more). It is not paid to people living in state-run social protection institutions.",
+     "how": "First apply online for a functionality assessment, then apply for the benefit online with your ID, social security card and the disability certificate. Assistive devices and personal assistant services are requested at regional centres of the Unified Social Service.",
+     "url": "https://english.hartak.am/guides/disability-benefit",
+     "sources": [
+      "https://english.hartak.am/guides/disability-benefit"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "am-human-rights-defender",
+     "section": "rights",
+     "name": "Human Rights Defender of Armenia",
+     "org": "Human Rights Defender (Ombudsman)",
+     "what": "Armenia's ombudsman, which takes complaints when a public body has violated your rights, with a hotline that answers around the clock.",
+     "how": "Call the hotline 116 (or +374 96 116-100), or email ombuds@ombuds.am.",
+     "phone": "116",
+     "dial": "116",
+     "url": "https://www.ombuds.am/en_us/site/ApplyTeamAddress",
+     "email": "ombuds@ombuds.am",
+     "sources": [
+      "https://www.ombuds.am/en_us/site/ApplyTeamAddress"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "KZ",
+   "slug": "kazakhstan",
+   "name": "Kazakhstan",
+   "emergency": {
+    "number": "112",
+    "label": "Emergency and rescue service; police 102, fire 101, ambulance 103",
+    "source": "https://www.gov.uk/foreign-travel-advice/kazakhstan/getting-help"
+   },
+   "resources": [
+    {
+     "id": "kz-111",
+     "section": "help-now",
+     "name": "Contact centre 111",
+     "org": "Government contact centre (State Corporation \"Government for Citizens\")",
+     "what": "A round-the-clock line, with no breaks, weekends or holidays, for family problems and the rights of women and children. Operators give psychological support to people facing domestic violence, bullying and other problems, and can bring in operational teams to help.",
+     "how": "Call 111 at any hour. In an emergency, call 112.",
+     "phone": "111",
+     "dial": "111",
+     "sources": [
+      "https://oq.gov.kz/en/qazalemnews/527",
+      "https://www.gov.kz/memleket/entities/vko-kurchum/press/news/details/642134?lang=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "kz-ombudsman",
+     "section": "rights",
+     "name": "Ombudsman for Human Rights of Kazakhstan",
+     "org": "Ombudsman for Human Rights of the Republic of Kazakhstan",
+     "what": "Kazakhstan's human rights ombudsman takes appeals from citizens, including on the rights of persons with disabilities, which it reviewed in a September 2026 country report.",
+     "how": "Send an appeal through the E-Otinish system (eotinish.kz, with a digital signature) or dialog.egov.kz (no signature needed), or call the call centre on 8 (7172) 74-05-48. In-person reception: Mangilik El Avenue 8, entrance 15, Astana, Tuesday to Friday 10:00 to 16:00.",
+     "phone": "8 (7172) 74-05-48",
+     "dial": "87172740548",
+     "url": "https://www.gov.kz/memleket/entities/ombudsman?lang=ru",
+     "sources": [
+      "https://www.gov.kz/memleket/entities/ombudsman?lang=ru"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "AL",
+   "slug": "albania",
+   "name": "Albania",
+   "emergency": {
+    "number": "112",
+    "label": "Police; for an ambulance call 127, for fire 128",
+    "source": "https://www.gov.uk/foreign-travel-advice/albania/getting-help"
+   },
+   "resources": [
+    {
+     "id": "al-116117",
+     "section": "help-now",
+     "name": "National Counselling Line 116 117",
+     "org": "National Counselling Line for Victims of Domestic Violence",
+     "what": "A 24-hour national line for women and girls facing domestic violence, running since February 2017. It is not a general mental health line.",
+     "how": "Call 116 117 at any hour. In an emergency, call 112.",
+     "phone": "116 117",
+     "dial": "116117",
+     "sources": [
+      "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Albania/measures/National%20Counselling%20Line%20for%20Victims%20of%20Domestic%20Violence"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "al-116111",
+     "section": "help-now",
+     "name": "ALO 116 111 child helpline",
+     "org": "Albanian National Child Helpline",
+     "what": "The national child helpline, supported by UNICEF since 2010, for children and young people. UNICEF does not give its hours.",
+     "how": "Call 116 111. In an emergency, call 112.",
+     "phone": "116 111",
+     "dial": "116111",
+     "sources": [
+      "https://www.unicef.org/albania/frequently-asked-questions",
+      "https://www.unicef.org/albania/stories/new-service-model-online-support-childrens-victims-violence-neglect-and-abuse"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "al-kmd",
+     "section": "rights",
+     "name": "Commissioner for Protection from Discrimination",
+     "org": "Komisioneri për Mbrojtjen nga Diskriminimi",
+     "what": "Albania's equality body takes complaints about discrimination, including on grounds of disability, and keeps the information confidential.",
+     "how": "Call the free green line 0800 0606, use the complaint form on its website, email info@kmd.al, or visit Rruga \"Durrësit\" Nr. 27, Tirana (offices also in Shkodër, Korçë and Fier).",
+     "phone": "0800 0606",
+     "dial": "08000606",
+     "url": "https://www.kmd.al/",
+     "email": "info@kmd.al",
+     "sources": [
+      "https://www.kmd.al/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MK",
+   "slug": "north-macedonia",
+   "name": "North Macedonia",
+   "emergency": {
+    "number": "112",
+    "label": "All emergency services; the police, fire and ambulance numbers also still work",
+    "source": "https://help.unhcr.org/northmacedonia/?p=94"
+   },
+   "resources": [
+    {
+     "id": "mk-lastrada-sos",
+     "section": "help-now",
+     "name": "La Strada national SOS helpline",
+     "org": "La Strada / Open Gate",
+     "what": "A free 24-hour helpline for victims of human trafficking or sexual abuse, listed by UNHCR. It is not a general mental health line.",
+     "how": "Call 0800 11111 free at any hour. From abroad, call +389 2 2777 070. In an emergency, call 112.",
+     "phone": "0800 11111",
+     "dial": "080011111",
+     "sources": [
+      "https://help.unhcr.org/northmacedonia/?p=94"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "mk-kszd",
+     "section": "rights",
+     "name": "Commission for Prevention and Protection against Discrimination",
+     "org": "Комисија за спречување и заштита од дискриминација",
+     "what": "North Macedonia's equality body, which handles reports of discrimination, including on grounds of disability.",
+     "how": "Report discrimination through the Commission's website or email contact@kszd.mk. The office is at Dame Gruev 1, 1000 Skopje.",
+     "url": "https://kszd.mk/",
+     "email": "contact@kszd.mk",
+     "sources": [
+      "https://kszd.mk/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BA",
+   "slug": "bosnia-and-herzegovina",
+   "name": "Bosnia and Herzegovina",
+   "emergency": {
+    "number": "124",
+    "label": "Ambulance; police 122, fire 123",
+    "source": "https://www.gov.uk/foreign-travel-advice/bosnia-and-herzegovina/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ba-sos-1265",
+     "section": "help-now",
+     "name": "SOS line 1265",
+     "org": "Federal Ministry of Labour and Social Policy (Federation of BiH)",
+     "what": "A free SOS line for victims of violence in the Federation of Bosnia and Herzegovina, available 24 hours a day, seven days a week. Shelters and civil society organisations answer it, now with Federation funding. It is not a general mental health line.",
+     "how": "Call 1265 free at any hour. In an emergency, call 122 for the police or 124 for an ambulance.",
+     "phone": "1265",
+     "dial": "1265",
+     "sources": [
+      "https://fbihvlada.gov.ba/bs/ministar-delic-pravilnik-o-funkcionisanju-sos-telefonske-linije-za-pomoc-i-podrsku-zrtvama-nasilja-upucen-na-objavu-u-sluzbene-novine-federacije-bih",
+      "https://www.gcfbih.gov.ba/boljevako/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ba-ombudsman",
+     "section": "rights",
+     "name": "Human Rights Ombudsman of Bosnia and Herzegovina",
+     "org": "Institution of Human Rights Ombudsman of Bosnia and Herzegovina",
+     "what": "Its Department for the Protection of the Rights of Persons with Disabilities takes complaints when a person's dignity or autonomy is at risk, when they are discriminated against or denied equal opportunities, or when they are kept from taking part in society. Filing a complaint cannot lead to any sanction against you.",
+     "how": "Call the Sarajevo office on +387 33 666 006 or the Banja Luka head office on +387 51 303 992, or email sa.ombudsmen@ombudsmen.gov.ba. Offices: Dubrovačka 6, Sarajevo, and Akademika Jovana Surutke 13, Banja Luka.",
+     "phone": "+387 33 666 006",
+     "dial": "+38733666006",
+     "url": "https://www.ombudsmen.gov.ba/Default.aspx?id=11&lang=EN",
+     "email": "sa.ombudsmen@ombudsmen.gov.ba",
+     "sources": [
+      "https://www.ombudsmen.gov.ba/Default.aspx?id=11&lang=EN",
+      "https://www.ombudsmen.gov.ba/Default.aspx?id=13&lang=EN"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "slug": "montenegro",
+   "name": "Montenegro",
+   "emergency": {
+    "number": "112",
+    "label": "Emergency",
+    "source": "https://www.gov.uk/foreign-travel-advice/montenegro/getting-help"
+   },
+   "resources": [
+    {
+     "id": "me-116111",
+     "section": "help-now",
+     "name": "National SOS line for children and young people",
+     "org": "Mladost Children's Home, Bijela",
+     "what": "A free national SOS line for children and young people, answered by licensed professionals 24 hours a day, seven days a week.",
+     "how": "Call 116 111 at any hour. Parents can call the National SOS Parent Helpline on 080 888 888. In an emergency, call 112.",
+     "phone": "116 111",
+     "dial": "116111",
+     "sources": [
+      "https://unicef.org/montenegro/en/stories/sos-line-sanela-responds-children-247",
+      "https://www.unicef.org/montenegro/en/press-releases/suicides-are-preventable"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "me-ombudsman",
+     "section": "rights",
+     "name": "Protector of Human Rights and Freedoms",
+     "org": "Zaštitnik ljudskih prava i sloboda Crne Gore",
+     "what": "Montenegro's ombudsman takes complaints when a state or other body has violated your rights, handles discrimination, and is the independent mechanism for the UN Convention on the Rights of Persons with Disabilities. The procedure is free.",
+     "how": "Call +382 20 241 642, use the complaint form on the website, or visit Svetlane Kane Radević 3, Podgorica (reception Monday to Friday, 10:00 to 13:00). Complain within six months of learning of the violation, and within a year of it.",
+     "phone": "+382 20 241 642",
+     "dial": "+38220241642",
+     "url": "https://www.ombudsman.co.me/",
+     "sources": [
+      "https://www.ombudsman.co.me/"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MD",
+   "slug": "moldova",
+   "name": "Moldova",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, police and firefighters, available 24/7",
+    "source": "https://evo.gov.md/acasa/emergency-numbers?culture=en"
+   },
+   "resources": [
+    {
+     "id": "md-psychological-support",
+     "section": "help-now",
+     "name": "Free psychological support line",
+     "org": "Listed on the government services portal (EVO)",
+     "what": "Free phone counselling for stress, anxiety, panic attacks and other emotional crises. The portal does not give its hours.",
+     "how": "Call 068 157 984 or 060 925 267. In an emergency, call 112.",
+     "phone": "068 157 984",
+     "dial": "068157984",
+     "sources": [
+      "https://evo.gov.md/acasa/emergency-numbers?culture=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "md-116111",
+     "section": "help-now",
+     "name": "Child protection line 116 111",
+     "org": "Listed on the government services portal (EVO)",
+     "what": "A line for child protection. You can also call 0800 11116.",
+     "how": "Call 116 111. In an emergency, call 112.",
+     "phone": "116 111",
+     "dial": "116111",
+     "sources": [
+      "https://evo.gov.md/acasa/emergency-numbers?culture=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "md-violence-women",
+     "section": "help-now",
+     "name": "Line for women and girls facing violence",
+     "org": "Listed on the government services portal (EVO)",
+     "what": "Confidential help for women and girls affected by any kind of abuse: physical, psychological, sexual and more.",
+     "how": "Call 0800 88008. From abroad, call +373 22 240 624. In an emergency, call 112.",
+     "phone": "0800 88008",
+     "dial": "080088008",
+     "sources": [
+      "https://evo.gov.md/acasa/emergency-numbers?culture=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "md-disability-support",
+     "section": "start",
+     "name": "Support line for persons with disabilities",
+     "org": "Listed on the government services portal (EVO)",
+     "what": "Free information and psychological counselling for persons with disabilities.",
+     "how": "Call 0800 10808 or 060 601 549.",
+     "phone": "0800 10808",
+     "dial": "080010808",
+     "sources": [
+      "https://evo.gov.md/acasa/emergency-numbers?culture=en"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BH",
+   "slug": "bahrain",
+   "name": "Bahrain",
+   "emergency": {
+    "number": "999",
+    "label": "Police or ambulance",
+    "source": "https://www.gov.uk/government/publications/bahrain-mental-health-support-abroad/mental-health-support-for-uk-nationals-in-bahrain"
+   },
+   "resources": [
+    {
+     "id": "bh-998",
+     "section": "help-now",
+     "name": "Child Helpline 998",
+     "org": "Child Protection Centre, Ministry of Social Development",
+     "what": "A free, round-the-clock line to report a child up to 18 who is exposed to violence, abuse, neglect or danger, with counselling, listening and referral. It is for children, not a general adult crisis line.",
+     "how": "Call 998 at any hour, or email 998@social.gov.bh. In an emergency, call 999.",
+     "phone": "998",
+     "dial": "998",
+     "email": "998@social.gov.bh",
+     "sources": [
+      "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=3512",
+      "https://www.gov.uk/government/publications/bahrain-mental-health-support-abroad/mental-health-support-for-uk-nationals-in-bahrain"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bh-disability-allowance",
+     "section": "money",
+     "name": "Disability Allowance",
+     "org": "Ministry of Social Development",
+     "what": "A monthly allowance for Bahraini citizens (and non-Bahraini children of Bahraini mothers) living in Bahrain with a lifelong physical, mental, visual or hearing disability, autism, cerebral palsy or multiple disabilities, certified by a disability assessment committee.",
+     "how": "Register at any social centre with your ID, a bank statement showing your IBAN, the social service application form and an original medical report from a government hospital. It takes about 20 working days.",
+     "url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1193",
+     "sources": [
+      "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1193"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "TN",
+   "slug": "tunisia",
+   "name": "Tunisia",
+   "emergency": {
+    "number": "190",
+    "label": "Ambulance; police in towns 197, National Guard in rural areas 193, fire 198",
+    "source": "https://www.gov.uk/foreign-travel-advice/tunisia/getting-help"
+   },
+   "resources": [
+    {
+     "id": "tn-1809",
+     "section": "help-now",
+     "name": "Green line 1809",
+     "org": "Ministry of Family, Women, Childhood and Elderly Persons",
+     "what": "A free green line for listening, psychological help and guidance for children and families, staffed by psychologists. When UNICEF announced it in April 2020 it answered every day from 8:00 to midnight.",
+     "how": "Call 1809. In an emergency, call 190 for an ambulance or 197 for the police.",
+     "phone": "1809",
+     "dial": "1809",
+     "sources": [
+      "https://www.unicef.org/tunisia/communiqu%C3%A9s-de-presse/pendant-le-confinement-g%C3%A9n%C3%A9ral-vous-n%C3%AAtes-pas-seuls-nous-sommes-avec-vous"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "tn-disability-card",
+     "section": "start",
+     "name": "Disability card",
+     "org": "Ministry of Social Affairs",
+     "what": "The disability card is requested from your local Social Development Unit, by the person with a disability or a guardian. A social worker prepares a study of your social and economic situation, and the Regional Committee for Persons with Disabilities examines the file.",
+     "how": "Apply at your local Social Development Unit.",
+     "url": "https://www.social.gov.tn/en/attribution-disability-cards",
+     "sources": [
+      "https://www.social.gov.tn/en/attribution-disability-cards"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "MU",
+   "slug": "mauritius",
+   "name": "Mauritius",
+   "emergency": {
+    "number": "999",
+    "label": "Police, ambulance and fire (also 114 for an ambulance, 115 for fire)",
+    "source": "https://www.gov.uk/foreign-travel-advice/mauritius/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mu-139",
+     "section": "help-now",
+     "name": "Domestic violence hotline 139",
+     "org": "Ministry of Gender Equality and Family Welfare",
+     "what": "A free hotline, open 24 hours a day, every day, for reporting domestic violence. It is not a general mental health line. For family problems the ministry also runs hotline 119.",
+     "how": "Call 139 at any hour. In an emergency, call 999.",
+     "phone": "139",
+     "dial": "139",
+     "sources": [
+      "https://gender.govmu.org/Pages/Family-Welfare-and-Protection-Unit.aspx",
+      "https://gbvo.mric.mu/ministry-of-gender-equality-and-family-welfare/"
+     ],
+     "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mu-invalid-basic-pension",
+     "section": "money",
+     "name": "Invalid's Basic Pension",
+     "org": "Ministry of Social Integration, Social Security and National Solidarity",
+     "what": "A monthly pension of Rs 15,555 (from January 2026) for people under retirement age certified by a Medical Board or Medical Officer as at least 60 percent incapacitated for at least 12 months. Beneficiaries under 18 get an extra Rs 3,000 a month. It is not paid to inmates of subsidised charitable institutions.",
+     "how": "Register at the Social Security Office nearest you with your birth certificate, National Identity Card, medical certificates, bank details and a passport photo. For information, call 172 (9:00 to 16:00).",
+     "phone": "172",
+     "dial": "172",
+     "url": "https://socialsecurity.govmu.org/socialsecurity/?page_id=820",
+     "sources": [
+      "https://socialsecurity.govmu.org/socialsecurity/?page_id=820"
+     ],
+     "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "FJ",
+   "slug": "fiji",
+   "name": "Fiji",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police (fire also 910)",
+    "source": "https://www.gov.uk/foreign-travel-advice/fiji/getting-help"
+   },
+   "resources": [
+    {
+     "id": "fj-lifeline-1543",
+     "section": "help-now",
+     "name": "Lifeline Fiji 1543",
+     "org": "Lifeline Fiji",
+     "what": "Lifeline Fiji's national crisis toll-free code, for anyone in crisis or thinking about suicide. The UNFPA mental health directory lists it as a 24/7 toll-free crisis helpline.",
+     "how": "Call 1543 at any hour. In an emergency, call the emergency number at the top of this page.",
+     "phone": "1543",
+     "dial": "1543",
+     "sources": [
+      "https://www.parliament.gov.fj/?p=7250",
+      "https://mhsp-dev.unfpa.org/node/33466"
+     ],
+     "reviewed_on": "2026-11-21",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "fj-disability-allowance",
+     "section": "money",
+     "name": "Disability Allowance Scheme",
+     "org": "Ministry of Women, Children and Social Protection",
+     "what": "A monthly allowance from the government for people living with a permanent disability. The amount is set in the national budget each year.",
+     "how": "Ask the Ministry of Women, Children and Social Protection; its officials also register people on outreach visits.",
+     "url": "https://www.fiji.gov.fj/lemeki-commends-government-for-providing-assistance-to-persons-with-disability/",
+     "sources": [
+      "https://www.fiji.gov.fj/lemeki-commends-government-for-providing-assistance-to-persons-with-disability/"
      ],
      "reviewed_on": "2026-11-21"
     }
