@@ -3,7 +3,8 @@
 
 Each slide is a simple original drawing (inline SVG) with the joke as real text below it, so screen readers and
 search engines get the words and the picture is described in the drawing's title. The reel is written into
-index.html between <!--reel--> and <!--/reel-->, right after the crisis strip, which stays first on the page.
+index.html between <!--reel--> and <!--/reel-->, wherever those markers sit; since November 22, 2026 that is after the
+help tools and guides, above the featured organizations. The crisis strip stays first on the page.
 """
 import html
 import json
