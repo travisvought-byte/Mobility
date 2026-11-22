@@ -18,7 +18,7 @@ const TERR=['AS','GU','MP','PR','VI'];
  for(const a of who){const k=new URL(a.getAttribute('href'),'https://mobilitytalk.org/').searchParams.get('audience');assert(AUD.includes(k));assert.equal(a.textContent,data.audiences[k],'label matches the directory');assert(recs.filter(r=>r.audience.includes(k)).length>=3,'audience has records: '+k);}
  assert.equal(d.querySelectorAll('#need-state option[value]').length,1+STATES.length+TERR.length,'state select lists states, D.C. and territories');
  assert(d.querySelector('.urgent a[href="tel:988"]')&&d.querySelector('.urgent a[href="sms:988"]'),'urgent strip');
- assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),'urgent strip leads the page');
+ assert(d.querySelector('main').firstElementChild.querySelector('#map-title'),'the clickable state map leads the page (owner direction 2026-11-22)');
  assert(d.querySelector('#needs').compareDocumentPosition(d.querySelector('#start'))&4,'needs come before the equipment finder');
  // voice-control users say what they see: each map tile's accessible name contains its visible code
  const tiles=[...d.querySelectorAll('.tilemap a.tile')];assert.equal(tiles.length,51);for(const a of tiles)assert(a.getAttribute('aria-label').startsWith(a.textContent.trim()+', '),'tile name contains '+a.textContent);
@@ -307,8 +307,8 @@ const TERR=['AS','GU','MP','PR','VI'];
   // ---- home page reel (2026-11-17): clean, accessible, after the need finder, built from data/home-reel.json
  {const home=fs.readFileSync('index.html','utf8'),src=JSON.parse(fs.readFileSync('data/home-reel.json','utf8'));
   const d=new JSDOM(home).window.document,reel=d.querySelector('section.reel');assert(reel,'home reel present');
-  assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),'crisis strip still leads the page');
-  assert(reel.previousElementSibling&&reel.previousElementSibling.classList.contains('guides'),'reel sits right after the guides, below the help tools (home page reordered 2026-11-22)');
+  assert(d.querySelector('main > .side-help > aside.urgent'),'crisis lines sit in the small side note (owner direction 2026-11-22)');
+  assert(reel.previousElementSibling&&reel.previousElementSibling.querySelector('#map-title'),'reel sits right after the state map, at the top of the page (owner direction 2026-11-22)');
   const slides=[...reel.querySelectorAll('.reel-slide[role="group"]')];assert.equal(slides.length,src.slides.length,'one slide per entry');
   slides.forEach((f,i)=>{const svg=f.querySelector('svg[role="img"]'),t=svg&&svg.querySelector('title');
    assert(t&&t.textContent===src.slides[i].alt&&svg.getAttribute('aria-labelledby')===t.id,'slide '+(i+1)+' drawing is described');
@@ -359,9 +359,9 @@ const TERR=['AS','GU','MP','PR','VI'];
   assert(/nonprofit/.test(byId.get('ak-deaf-hard-of-hearing-agency').constraints.join(' ')),'Alaska says the Deaf Navigator is run by a nonprofit');
   assert(!/Merritt|Miranda/.test(JSON.stringify(byId.get('ak-deaf-hard-of-hearing-agency'))),'Alaska listing carries no staff names');
   assert(/American Sign Language/.test(byId.get('sc-deaf-hard-of-hearing-agency').description),'South Carolina says its counselors sign');}
-  // ---- home page organization (2026-11-18, reordered 2026-11-22): help tools first, stories and supporters below; one path, no repeated menus or state pickers
+  // ---- home page organization (2026-11-18; owner direction 2026-11-22): map and pictures first, then the finders and guides, supporters below, crisis lines as a small side note
  {const d=new JSDOM(fs.readFileSync('index.html','utf8')).window.document,main=d.querySelector('main');
-  const want=['urgent','needs','map','start','guides','reel','featured-org','featured-org.featured-org--also','partner-invite'];
+  const want=['map','reel','needs','start','guides','featured-org','featured-org.featured-org--also','partner-invite','side-help'];
   const mapIdx=[...main.children].indexOf(d.getElementById('map-title').closest('section')),pos=k=>k==='map'?mapIdx:[...main.children].findIndex(e=>(e.id||[...e.classList].join('.'))===k);
   for(let i=1;i<want.length;i++)assert(pos(want[i-1])>=0&&pos(want[i-1])<pos(want[i]),'home order: '+want[i-1]+' before '+want[i]);
   if(d.getElementById('auction-banner'))assert(pos('reel')<pos('auction-banner')&&pos('auction-banner')<pos('featured-org'),'a fundraiser banner sits with the supporters, below the help');
