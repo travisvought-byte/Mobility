@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -7552,6 +7552,309 @@
       "https://mwcsd.gov.ws/wp-content/uploads/2025/05/MWCSD-Annual-Report-23-24-Eng.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    }
+   ]
+  },
+  {
+   "code": "BO",
+   "slug": "bolivia",
+   "name": "Bolivia",
+   "emergency": {
+    "number": "118",
+    "label": "Ambulance. Police: 110; fire: 119",
+    "source": "https://www.gov.uk/foreign-travel-advice/bolivia/getting-help"
+   },
+   "resources": [
+    {
+     "id": "bo-familia-segura",
+     "section": "help-now",
+     "name": "Familia Segura",
+     "org": "UNICEF Bolivia",
+     "what": "A free, confidential line run by UNICEF Bolivia since 2020, where psychologists give emotional support to children, young people and adults, including for suicidal thoughts, family problems and violence. It is open every day from 6 a.m. to midnight, not 24 hours. You can also write to it on WhatsApp at 77797667.",
+     "how": "Call 800 11 30 40 from a landline or mobile, any day from 6 a.m. to midnight. In an emergency, call 118 for an ambulance or 110 for the police.",
+     "phone": "800 11 30 40",
+     "dial": "800113040",
+     "sources": [
+      "https://www.unicef.org/bolivia/familia-segura",
+      "https://www.unicef.org/bolivia/comunicados-prensa/yo-si-quiero-por-familia-segura-la-alianza-de-unicef-y-farmacorp-que-busca"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "bo-bono-discapacidad",
+     "section": "money",
+     "name": "Monthly disability payment (Bono de 250 bolivianos)",
+     "org": "Ministry of Labour, Employment and Social Security; Ministry of Health and Sports",
+     "what": "A monthly payment of 250 bolivianos for people whose disability is rated severe (grave) or very severe (muy grave). It depends on being in the national disability register (SIPRUNPCD) with a disability card (carnet). In October 2025 the Ministry of Health and Sports said 80,657 people received it. The Ministry of Labour's Eustaquio Moto Méndez platform draws up the lists of people who get it.",
+     "how": "Get assessed and registered for a disability card through the health system, then ask the Ministry of Labour's office in your department about the payment.",
+     "url": "https://www.gob.bo/tramites/moto-mendez",
+     "sources": [
+      "https://www.minsalud.gob.bo/8845-mas-de-118-000-personas-con-discapacidad-acceden-a-servicios-y-bonos-en-bolivia",
+      "https://www.gob.bo/tramites/moto-mendez"
+     ],
+     "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "CM",
+   "slug": "cameroon",
+   "name": "Cameroon",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance. Police: 117; fire: 119",
+    "source": "https://www.gov.uk/foreign-travel-advice/cameroon/getting-help"
+   },
+   "resources": [
+    {
+     "id": "cm-116",
+     "section": "help-now",
+     "name": "116 children's line",
+     "org": "Ministry of Women's Empowerment and the Family (Minproff)",
+     "what": "A free line set up by the Ministry of Women's Empowerment and the Family to report violence, abuse, exploitation, abandonment or forced marriage of a child. Its team includes social workers, lawyers and psychologists. It answers on working days from 7:30 a.m. to 6 p.m. It is a children's line, not a general mental health line.",
+     "how": "Call 116 on a working day between 7:30 a.m. and 6 p.m. In an emergency, call 112 for an ambulance or 117 for the police.",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://cameroon-tribune.cm/article.html/76017/fr.html/details_2"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "cm-carte-invalidite",
+     "section": "start",
+     "name": "National disability card (carte nationale d'invalidité)",
+     "org": "Ministry of Social Affairs (Minas)",
+     "what": "An official card for people with a permanent incapacity rate of 50% or more, issued by the minister in charge of persons with disabilities. Since September 2026 the card, together with registration in the national register of persons with disabilities, gives a 50% cut in fees at public vocational training centres.",
+     "how": "Ask the Ministry of Social Affairs (Minas) or its local social affairs office how to be assessed and apply for the card. For the training fee cut, ask the head of the training centre once you are admitted.",
+     "url": "https://cameroon-tribune.cm/article.html/80261/fr.html/details_2",
+     "sources": [
+      "https://www.prc.cm/files/e7/0f/3b/6ccd45456387ac207b4797c196318209.pdf",
+      "https://cameroon-tribune.cm/article.html/80261/fr.html/details_2"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "CD",
+   "slug": "democratic-republic-of-the-congo",
+   "name": "Democratic Republic of the Congo",
+   "emergency": {
+    "number": "112",
+    "label": "Police (Kinshasa). Fire (Kinshasa): 118. There is no general ambulance number; call a hospital directly",
+    "source": "https://www.gov.uk/foreign-travel-advice/democratic-republic-of-the-congo/getting-help"
+   },
+   "resources": [
+    {
+     "id": "cd-122",
+     "section": "help-now",
+     "name": "Green line 122",
+     "org": "Call centre presented by the President's special adviser on gender-based violence",
+     "what": "A free line, running since 2020 and presented in April 2026 by the office of the President's special adviser on youth, gender-based violence and trafficking, for victims and witnesses of gender-based violence. Its staff listen, record and follow up each case, and arrange free psychological, medical and legal help. Its hours are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 122. In an emergency in Kinshasa, call 112 for the police.",
+     "phone": "122",
+     "dial": "122",
+     "sources": [
+      "https://acp.cd/genre/lutte-contre-le-vbg-le-numero-vert-122-presente-comme-un-point-dappui/"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "cd-student-fees",
+     "section": "work",
+     "name": "Half fees for students with disabilities",
+     "org": "Ministry of Higher and University Education; Ministry for Persons Living with Disabilities and Other Vulnerable Persons",
+     "what": "An order of June 2, 2025 cuts academic fees and housing costs by half for students living with disabilities at all higher education institutions in the country, from the following academic year. It applies Organic Law 22/003 of 2022 on the rights of persons with disabilities.",
+     "how": "Ask your university or institute's administration how to claim the reduction.",
+     "url": "https://acp.cd/genre/rdc-le-gouvernement-reduit-a-moitie-les-frais-academiques-en-faveur-des-pvh/",
+     "sources": [
+      "https://acp.cd/genre/rdc-le-gouvernement-reduit-a-moitie-les-frais-academiques-en-faveur-des-pvh/"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "MH",
+   "slug": "marshall-islands",
+   "name": "Marshall Islands",
+   "emergency": {
+    "number": "6254142",
+    "label": "Ambulance (Majuro). Police: 625 8666",
+    "source": "https://www.gov.uk/foreign-travel-advice/marshall-islands/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mh-mental-health",
+     "section": "help-now",
+     "name": "Mental health support",
+     "org": "Ministry of Health and Human Services",
+     "what": "The number the Ministry of Health and Human Services gives for anyone who needs mental health support, or who knows someone who may need help. Its hours are not stated, so it may answer only in working hours.",
+     "how": "Call 625-3355. In an emergency, call the ambulance number at the top of this page or the Majuro hospital emergency room on 625-4144.",
+     "phone": "625-3355",
+     "dial": "6253355",
+     "sources": [
+      "https://rmihealth.org/news/latest-news/families-lead-the-way-in-mental-health-awareness.html",
+      "https://rmihealth.org/about/contact/majuro-hospital.html"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "mh-social-support",
+     "section": "money",
+     "name": "Social support scheme",
+     "org": "Government of the Marshall Islands",
+     "what": "Income support under the Social Support Scheme Act 2023 for older people and persons with disabilities, of at least $1,200 a year for each person. Everyone, including persons with disabilities, can also get a universal basic income of $800 a year. The government told the UN disability committee in March 2026 that there is no disability-specific social security allowance yet. The Disability Coordination Office works on inclusion and accessibility.",
+     "how": "Ask the government's Disability Coordination Office how to apply.",
+     "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2026/03/experts-committee-rights-persons-disabilities-congratulate",
+     "sources": [
+      "https://www.ungeneva.org/en/news-media/meeting-summary/2026/03/experts-committee-rights-persons-disabilities-congratulate"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "PW",
+   "slug": "palau",
+   "name": "Palau",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/palau/getting-help"
+   },
+   "resources": [
+    {
+     "id": "pw-behavioral-health",
+     "section": "help-now",
+     "name": "Division of Behavioral Health",
+     "org": "Ministry of Health and Human Services",
+     "what": "The Ministry of Health and Human Services' behavioral health division, which covers mental health. It also answers on 488-4573 and 488-1907. Its hours are not stated, so it may answer only in working hours.",
+     "how": "Call 488-4572. In an emergency, call the emergency number at the top of this page or the hospital emergency room on 488-2558.",
+     "phone": "488-4572",
+     "dial": "4884572",
+     "sources": [
+      "https://www.palaugov.pw/phone-numbers/",
+      "https://www.palaugov.pw/executive-branch/ministries/health/bureau-of-public-health/"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "pw-severely-disabled-fund",
+     "section": "money",
+     "name": "Palau Severely Disabled Assistance Fund",
+     "org": "Ministry of Health and Human Services",
+     "what": "A monthly payment for people with severe disabilities. From June 1, 2024 it is $250 a month for people who are homebound and $200 a month for wheelchair users and blind people who meet the criteria; 374 people, including 101 children, received it in August 2024. The ministry also issues a disability card that gives free consultations, treatment and medicine. Its Disability Unit is the government's disability focal point.",
+     "how": "Ask the Ministry of Health and Human Services' Bureau of Public Health on 488-2552.",
+     "phone": "488-2552",
+     "dial": "4882552",
+     "sources": [
+      "https://digitallibrary.un.org/record/4065272/files/CRPD_C_PLW_RQ_1-EN.pdf",
+      "https://www.palaugov.pw/executive-branch/ministries/health/bureau-of-public-health/"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "PA",
+   "slug": "panama",
+   "name": "Panama",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police. Ambulance and fire also 103; police also 104",
+    "source": "https://www.gov.uk/foreign-travel-advice/panama/getting-help"
+   },
+   "resources": [
+    {
+     "id": "pa-147",
+     "section": "help-now",
+     "name": "Línea 147",
+     "org": "Ministry of Social Development (MIDES)",
+     "what": "A free emotional support line run by the Ministry of Social Development, with psychologists and social workers available 24 hours a day where anyone can talk about how they feel and ask for help.",
+     "how": "Call 147 at any hour. In an emergency, call the emergency number at the top of this page.",
+     "phone": "147",
+     "dial": "147",
+     "sources": [
+      "https://www.paho.org/es/noticias/11-9-2024-ops-suma-aportes-campana-sensibilizacion-para-salud-mental-panama"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "pa-certificacion",
+     "section": "start",
+     "name": "Disability certification",
+     "org": "National Secretariat for Disability (SENADIS)",
+     "what": "The official certification of disability from the National Secretariat for Disability. You need the completed application form, a copy of your identity card or passport (a birth certificate and a parent's or guardian's identity card for a child) and a signed summary of your medical history on the form for your type of disability.",
+     "how": "Download the forms from the Panamá Digital page and apply to SENADIS.",
+     "url": "https://www.panamadigital.gob.pa/InformacionTramite/solicitud-de-certificacion-de-discapacidad",
+     "sources": [
+      "https://www.panamadigital.gob.pa/InformacionTramite/solicitud-de-certificacion-de-discapacidad"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "pa-angel-guardian",
+     "section": "money",
+     "name": "Ángel Guardián",
+     "org": "Ministry of Social Development (MIDES)",
+     "what": "A monthly cash payment from the Ministry of Social Development for people with severe disabilities who depend on others and live in extreme poverty. It was B/.80 a month in 2016; the current amount was not published on the pages checked. In February 2026, 136 more people joined it. MIDES adds people through its household surveys.",
+     "how": "Ask your nearest MIDES office how to be considered.",
+     "url": "https://sertv.gob.pa/mides-ingresa-1586-panamenos-a-los-ptmc/",
+     "sources": [
+      "https://sertv.gob.pa/mides-ingresa-1586-panamenos-a-los-ptmc/",
+      "https://sertv.gob.pa/nacionalfm/mides-beneficia-con-angel-guardian-a-personas-con-discapacidad-severa/"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "SM",
+   "slug": "san-marino",
+   "name": "San Marino",
+   "emergency": {
+    "number": "118",
+    "label": "Ambulance. Police: 112 or 113; fire: 115",
+    "source": "https://www.gov.uk/foreign-travel-advice/san-marino/getting-help"
+   },
+   "resources": [
+    {
+     "id": "sm-mental-health",
+     "section": "help-now",
+     "name": "Mental Health Service (UOC Salute Mentale)",
+     "org": "Social Security Institute (ISS)",
+     "what": "The public mental health service of the Social Security Institute, for prevention, treatment and rehabilitation, including eating disorders. Urgent visits are seen within 24 hours. It is open Monday, Wednesday and Thursday from 8 a.m. to 5:30 p.m., and Tuesday and Friday from 8 a.m. to 2 p.m. Out of hours, an on-call psychiatrist is available 24 hours a day through the hospital emergency department. It is a health service, not a counselling line.",
+     "how": "Call 0549 994593 for urgent matters during opening hours. Out of hours, go to the hospital emergency department or call the hospital on 0549 994111; in an emergency, call 118.",
+     "phone": "0549 994593",
+     "dial": "0549994593",
+     "sources": [
+      "https://www.iss.sm/on-line/home/dipartimento-socio-sanitario/assistenza-territoriale-e-salute-mentale/uoc-salute-mentale.html"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "sm-spazio-disabilita",
+     "section": "start",
+     "name": "Spazio Disabilità",
+     "org": "Social Security Institute (ISS)",
+     "what": "The Social Security Institute's desk that informs and supports people with disabilities and their families about services, benefits, paperwork and accessibility. Its disability unit also runs day centres, a residential unit, a workshop and supported job placements for residents with a diagnosed disability.",
+     "how": "Call 0549 994112 (or 0549 994110). Open Monday, Wednesday and Thursday 8 a.m. to 5:30 p.m.; Tuesday and Friday 8 a.m. to 2 p.m., by appointment.",
+     "phone": "0549 994112",
+     "dial": "0549994112",
+     "sources": [
+      "https://www.iss.sm/on-line/home/dipartimento-socio-sanitario/fragilita-tutela-infanzia-adolescenza-famiglia/uoc-disabilita-e-servizio-di-supporto-sociale.html"
+     ],
+     "reviewed_on": "2026-11-22"
     }
    ]
   }
