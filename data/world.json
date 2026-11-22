@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day; Benin, the Federated States of Micronesia, Gabon, Honduras, Kiribati, Kyrgyzstan, Tajikistan and Togo added after that the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -8234,6 +8234,372 @@
      "sources": [
       "https://www.finance.gov.sc/wp-content/uploads/2025/08/Budget-2025-Highlights-SOCIAL-PROTECTION-SECTOR.pdf",
       "https://www.nation.sc/archive/254226/agency-for-social-protection"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "BJ",
+   "slug": "benin",
+   "name": "Benin",
+   "emergency": {
+    "number": "118",
+    "label": "Fire and ambulance. Police: 117. Emergency response is very limited",
+    "source": "https://www.gov.uk/foreign-travel-advice/benin/getting-help"
+   },
+   "resources": [
+    {
+     "id": "bj-138",
+     "section": "help-now",
+     "name": "Child helpline 138 (Ligne d'Assistance aux Enfants)",
+     "org": "Ministry of Social Affairs and Microfinance",
+     "what": "A free line, open 24 hours a day from landlines and mobile phones, for reporting violence and abuse against children; anyone who sees or suffers violence against a child can call. The ministry launched it in March 2020 with UNICEF funding. It is a children’s line, not a general mental health line.",
+     "how": "Call 138, free, any hour. In an emergency, call 118 (fire and ambulance) or 117 (police).",
+     "url": "https://www.gouv.bj/article/559/protection-enfance-ministre-veronique-tognifode-mewanou-lance-138---ligne-assistance-enfants/",
+     "phone": "138",
+     "dial": "138",
+     "sources": [
+      "https://www.gouv.bj/article/559/protection-enfance-ministre-veronique-tognifode-mewanou-lance-138---ligne-assistance-enfants/"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "bj-carte-egalite-chances",
+     "section": "start",
+     "name": "Carte d'égalité des chances (equal opportunity card)",
+     "org": "Ministry of Family and Social Action",
+     "what": "The disability card that shows which rights and preferential measures a person with a disability can claim, based on their assessed level of disability. The cards are made by the national identification agency (ANIP) and handed out by the Ministry of Family and Social Action; in September 2026 the ministry said 4,000 new applications for 2026 would go to the interministerial commission on inclusion measures.",
+     "how": "Ask the Ministry of Family and Social Action, or an association in the federation of disability associations (FAPHB), how to apply.",
+     "url": "https://www.gouv.bj/article/3673/respect-engagements-gouvernement-nouvelles-cartes-egalite-chances-receptionnees-profit-personnes-handicapees/",
+     "sources": [
+      "https://www.gouv.bj/article/3673/respect-engagements-gouvernement-nouvelles-cartes-egalite-chances-receptionnees-profit-personnes-handicapees/"
+     ],
+     "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "TG",
+   "slug": "togo",
+   "name": "Togo",
+   "emergency": {
+    "number": "8200",
+    "label": "Ambulance. Police: 117 or 177; fire: 118",
+    "source": "https://www.gov.uk/foreign-travel-advice/togo/getting-help"
+   },
+   "resources": [
+    {
+     "id": "tg-1011",
+     "section": "help-now",
+     "name": "Allô 1011 green line",
+     "org": "Government of Togo",
+     "what": "A free national line, open 24 hours a day, that takes reports of violence against women, refers callers to help and arranges care. UNICEF reports that the platform also gives psychosocial support and online counselling on sexual and reproductive health. It is a violence line, not a general mental health line.",
+     "how": "Call 1011, free, any hour. In an emergency, call 117 (police) or 8200 (ambulance).",
+     "url": "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Togo/measures/Assistance%20t%C3%A9l%C3%A9phonique%20gratuite",
+     "phone": "1011",
+     "dial": "1011",
+     "sources": [
+      "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Togo/measures/Assistance%20t%C3%A9l%C3%A9phonique%20gratuite",
+      "https://www.unicef.org/media/136456/file/Togo-2022-COAR.pdf"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "tg-8284",
+     "section": "help-now",
+     "name": "Gender-based violence line 8284",
+     "org": "Government of Togo",
+     "what": "A toll-free line the government set up for reporting cases of gender-based violence, named in Togo’s 2024 progress report to UN Women. Its hours are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 8284, free. In an emergency, call 117 (police).",
+     "url": "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Togo/measures/Hotline%20on%20GBV%20--%20Num%C3%A9ro%20vert%20pour%20les%20cas%20de%20VBG",
+     "phone": "8284",
+     "dial": "8284",
+     "sources": [
+      "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Togo/measures/Hotline%20on%20GBV%20--%20Num%C3%A9ro%20vert%20pour%20les%20cas%20de%20VBG"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "tg-disability-directorate",
+     "section": "equipment-home",
+     "name": "Wheelchairs and tricycles, and the disability directorate",
+     "org": "Ministry of Social Action",
+     "what": "The government told the UN disability committee in 2023 that since 2012 it has handed out nearly 350 wheelchairs and tricycles a year to people with disabilities living in poverty, and that the social action ministry has a directorate for the protection of persons with disabilities. It also funds centres that teach children with disabilities.",
+     "how": "Ask the social action ministry’s directorate for the protection of persons with disabilities, or your regional social action office.",
+     "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2023/03/experts-committee-rights-persons-disabilities-commend-togo",
+     "sources": [
+      "https://www.ungeneva.org/en/news-media/meeting-summary/2023/03/experts-committee-rights-persons-disabilities-commend-togo"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "KG",
+   "slug": "kyrgyzstan",
+   "name": "Kyrgyzstan",
+   "emergency": {
+    "number": "103",
+    "label": "Ambulance. Police: 102; fire: 101",
+    "source": "https://www.gov.uk/foreign-travel-advice/kyrgyzstan/getting-help"
+   },
+   "resources": [
+    {
+     "id": "kg-111",
+     "section": "help-now",
+     "name": "Child Helpline 111",
+     "org": "Listed by UNICEF Kyrgyzstan",
+     "what": "A helpline where children, teenagers and parents can get psychological support and counselling, including advice on staying safe online; UNICEF also points parents and caregivers facing difficulties to it. Its hours and cost are not stated on UNICEF’s pages, which date from 2017 and 2019. It is a children’s line, not a general mental health line.",
+     "how": "Call 111. In an emergency, call 103 (ambulance) or 102 (police).",
+     "url": "https://www.unicef.org/kyrgyzstan/press-releases/kyrgyzstan-adolescents-feel-safe-internet",
+     "phone": "111",
+     "dial": "111",
+     "sources": [
+      "https://www.unicef.org/kyrgyzstan/press-releases/kyrgyzstan-adolescents-feel-safe-internet",
+      "https://www.unicef.org/kyrgyzstan/press-releases/international-migrants-day-unicef-calls-caregivers-and-institutions-ensure"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "kg-disability-tax",
+     "section": "money",
+     "name": "Lower income tax for persons with disabilities",
+     "org": "Ministry of Labor, Social Protection and Migration",
+     "what": "Since 2024, income tax for persons with disabilities in groups I and II is 5% instead of 10%, and the benefit was extended to people with hearing impairments in group III. Employers who hire persons with disabilities also get lower Social Fund contributions. A Council on the Affairs of Persons with Disabilities has been in place since 2020.",
+     "how": "Ask your employer or the tax service to apply the lower rate, with your disability group certificate.",
+     "url": "https://www.undp.org/kyrgyzstan/news/new-laws-protect-rights-people-disabilities",
+     "sources": [
+      "https://www.undp.org/kyrgyzstan/news/new-laws-protect-rights-people-disabilities"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "TJ",
+   "slug": "tajikistan",
+   "name": "Tajikistan",
+   "emergency": {
+    "number": "103",
+    "label": "Ambulance from a mobile (03 from a landline). Police: 102 (02); fire: 101 (01). Emergency services do not speak English",
+    "source": "https://www.gov.uk/foreign-travel-advice/tajikistan/getting-help"
+   },
+   "resources": [
+    {
+     "id": "tj-1313",
+     "section": "help-now",
+     "name": "Crisis Hotline 1313",
+     "org": "Committee on Women and the Family",
+     "what": "A line for preventing domestic violence, launched in 2018 by the government’s Committee on Women and the Family with Eurasia Foundation Tajikistan. Calls from mobile phones are free. It answers Monday to Friday from 8 a.m. to 5 p.m. and Saturday from 8 a.m. to noon, and is closed on Sunday. It is a violence line, not a general mental health line.",
+     "how": "Call 1313 from a mobile, free, during its hours. In an emergency, call 103 (ambulance) or 102 (police).",
+     "url": "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Tajikistan/measures/Crisis%20Hotline%201313",
+     "phone": "1313",
+     "dial": "1313",
+     "sources": [
+      "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Tajikistan/measures/Crisis%20Hotline%201313"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "tj-assistive-products",
+     "section": "equipment-home",
+     "name": "Free assistive products",
+     "org": "State Enterprise of Orthotics and Prosthetics",
+     "what": "Free assistive products such as wheelchairs, hearing aids and prosthetics from the State Enterprise of Orthotics and Prosthetics, under a national list of 30 essential products. WHO reports that a pilot in Rudaki district gave them out through health facilities, with repairs at primary health care workshops.",
+     "how": "Ask your district primary health care centre, or the State Enterprise of Orthotics and Prosthetics.",
+     "url": "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2023/improved-access-to-assistive-products-for-people-with-disabilities-in-tajikistan",
+     "sources": [
+      "https://www.who.int/about/accountability/results/who-results-report-2020-mtr/country-story/2023/improved-access-to-assistive-products-for-people-with-disabilities-in-tajikistan"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "KI",
+   "slug": "kiribati",
+   "name": "Kiribati",
+   "emergency": {
+    "number": "999",
+    "label": "Ambulance, fire and police. Ambulance also 994; police 992; fire 993",
+    "source": "https://www.gov.uk/foreign-travel-advice/kiribati/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ki-kwcsc",
+     "section": "help-now",
+     "name": "Kiribati Women and Children Support Centre",
+     "org": "Listed by the United Nations and UN Women",
+     "what": "Free, confidential counselling by trained counsellors for women and children affected by violence, with case coordination and referrals. The centre is in Bairiki, Tarawa, and also counsels by phone; when it opened in 2018 it announced a 191 helpline. Its hours are not stated. It is a violence support service, not a general mental health line.",
+     "how": "Call 750 21000, or the 191 helpline. In an emergency, call 999.",
+     "phone": "750 21000",
+     "dial": "75021000",
+     "sources": [
+      "https://pacific.un.org/sites/default/files/2024-04/Resource%20Book%20about%20DV%20for%20UN%20Staff%20in%20the%20Pacific_FINAL.pdf",
+      "https://asiapacific.unwomen.org/en/news-and-events/stories/2018/02/more-support-for-kiribati-women-and-children"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "ki-disability-allowance",
+     "section": "money",
+     "name": "Disability support allowance",
+     "org": "Ministry of Women, Youth, Sport and Social Affairs",
+     "what": "A monthly allowance for persons with disabilities, higher for severe disabilities; 2,569 people received it, the government told the UN disability committee in 2025. People with psychosocial disabilities who have had at least six months of treatment and cannot find work are eligible. The government also gives about 300 assistive devices a year through the Tungaru Rehabilitation Service and repairs wheelchairs free of charge.",
+     "how": "Ask the Ministry of Women, Youth, Sport and Social Affairs about the allowance, and the Tungaru Rehabilitation Service about devices.",
+     "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2025/08/examen-de-kiribati-au-crpd-le-pays-dispose-dun-cadre-pour-faire",
+     "sources": [
+      "https://www.ungeneva.org/en/news-media/meeting-summary/2025/08/examen-de-kiribati-au-crpd-le-pays-dispose-dun-cadre-pour-faire"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "FM",
+   "slug": "micronesia",
+   "name": "Federated States of Micronesia",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/federated-states-of-micronesia/getting-help"
+   },
+   "resources": [
+    {
+     "id": "fm-behavioral-health",
+     "section": "help-now",
+     "name": "Behavioral health office",
+     "org": "Department of Health and Social Affairs",
+     "what": "The national Department of Health and Social Affairs’ behavioral health office, which promotes mental health services and runs community mental health, substance abuse prevention and treatment, and opioid prevention programs. Its hours are not stated, so it may answer only in working hours. It is a government office, not a crisis line.",
+     "how": "Call 320 2619. In an emergency, call the emergency number at the top of this page.",
+     "url": "https://hsa.gov.fm/behavioral-health/",
+     "phone": "320 2619",
+     "dial": "3202619",
+     "sources": [
+      "https://hsa.gov.fm/behavioral-health/"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "fm-chuuk-counselling",
+     "section": "help-now",
+     "name": "Tongen Inepwineu Counselling Centre (Chuuk)",
+     "org": "Chuuk Women’s Council, listed by the United Nations",
+     "what": "A 24-hour counselling line run by the Chuuk Women’s Council in Weno, Chuuk State, with advocacy, counselling, and help getting to other services. The United Nations lists it for people facing domestic violence. It serves Chuuk State; it is a violence support line, not a general mental health line.",
+     "how": "Call 930 3495 or 930 3492, any hour. The centre’s landline is 330 3657. In an emergency, call the emergency number at the top of this page.",
+     "phone": "930 3495",
+     "dial": "9303495",
+     "sources": [
+      "https://pacific.un.org/sites/default/files/2024-04/Resource%20Book%20about%20DV%20for%20UN%20Staff%20in%20the%20Pacific_FINAL.pdf"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "fm-ssa-disability",
+     "section": "money",
+     "name": "Social Security disability benefits",
+     "org": "FSM Social Security Administration",
+     "what": "Monthly disability benefits for workers who cannot do any substantial paid work because of a medical condition expected to last at least 12 months, and who have been disabled for at least three full calendar months. You must be fully insured (from 2010, at least 45 quarters and $1,500 in contributions) and currently insured (20 of the last 25 quarters).",
+     "how": "Visit your state’s Social Security branch office with proof of age, your doctors’ and clinics’ details and your work history for the past 15 years; staff can help with the form.",
+     "url": "https://www.fsmssa.fm/?p=326",
+     "sources": [
+      "https://www.fsmssa.fm/?p=326"
+     ],
+     "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "HN",
+   "slug": "honduras",
+   "name": "Honduras",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/honduras/getting-help"
+   },
+   "resources": [
+    {
+     "id": "hn-114",
+     "section": "help-now",
+     "name": "Línea 114 Mujer Vivir sin Miedo",
+     "org": "Government of Honduras",
+     "what": "A national line for women facing violence, open 24 hours a day, every day of the year, with legal advice and guidance, psychosocial support and crisis intervention. It was relaunched in January 2024 and took 18,381 calls by the time of Honduras’s 2024 report to UN Women; the Secretary of Security names it, with 911, as the number for women and girls facing violence. Whether calls are free is not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 114, any hour. In danger right now, call the emergency number at the top of this page.",
+     "url": "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Honduras/measures/Relaunch%20of%20the%20Telephone%20Line%201-1-4%20%E2%80%9CMUJER%20Living%20Without%20Fear%E2%80%9D%20--%20Relanzamiento%20de%20la%20L%C3%ADnea%20Telef%C3%B3nica%201-1-4%20%E2%80%9CMUJER%20Vivir%20sin%20Miedo%22",
+     "phone": "114",
+     "dial": "114",
+     "sources": [
+      "https://data.unwomen.org/global-database-on-violence-against-women/country-profile/Honduras/measures/Relaunch%20of%20the%20Telephone%20Line%201-1-4%20%E2%80%9CMUJER%20Living%20Without%20Fear%E2%80%9D%20--%20Relanzamiento%20de%20la%20L%C3%ADnea%20Telef%C3%B3nica%201-1-4%20%E2%80%9CMUJER%20Vivir%20sin%20Miedo%22",
+      "https://www.undp.org/es/node/461741"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "hn-digedepdi",
+     "section": "start",
+     "name": "Directorate for Persons with Disabilities (DIGEDEPDI)",
+     "org": "Secretariat of Social Development (SEDESOL)",
+     "what": "The government’s main disability office, part of the Secretariat of Social Development and the national focal point for the UN disability convention. SEDESOL’s 2025–2035 disability policy says its social programs include grants and scholarships for children and adolescents with disabilities, and that 72 municipal disability units have been created but are not yet working.",
+     "how": "Ask SEDESOL’s Directorate for Persons with Disabilities (DIGEDEPDI) which support you can apply for.",
+     "url": "https://sedesol.gob.hn/wp-content/uploads/2026/01/POLITICA-PCD.pdf",
+     "sources": [
+      "https://sedesol.gob.hn/wp-content/uploads/2026/01/POLITICA-PCD.pdf"
+     ],
+     "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "GA",
+   "slug": "gabon",
+   "name": "Gabon",
+   "emergency": {
+    "number": "117",
+    "label": "Ambulance. Police and fire: 177. None of these numbers is guaranteed to work",
+    "source": "https://www.gov.uk/foreign-travel-advice/gabon/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ga-1404",
+     "section": "help-now",
+     "name": "Free line 1404 for violence against women",
+     "org": "Government of Gabon",
+     "what": "A free number, working since April 2021, that the government set up so people can report violence and victims can get support; it took more than 2,000 calls in its first nine months, Gabon told the UN women’s rights committee in 2022. Its hours are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 1404, free. In an emergency, call 117 (ambulance) or 177 (police).",
+     "url": "https://news.un.org/fr/story/2022/02/1114102",
+     "phone": "1404",
+     "dial": "1404",
+     "sources": [
+      "https://news.un.org/fr/story/2022/02/1114102"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "ga-child-disability-allowance",
+     "section": "money",
+     "name": "Annual allowance for children with disabilities",
+     "org": "Ministry of Social Affairs",
+     "what": "Children with disabilities counted in the national census of December 2023 can receive an annual allowance of 75,000 FCFA and use existing social protection, UNICEF reported in December 2024. The government also said it would put the disability card (carte d’invalidité) into effect.",
+     "how": "Ask the Ministry of Social Affairs, or your local social affairs office, whether your child is registered.",
+     "url": "https://www.unicef.org/gabon/communiqu%C3%A9s-de-presse/recensement-4-345-enfants-vivant-avec-un-handicap-peuvent-d%C3%A9sormais-acc%C3%A9der",
+     "sources": [
+      "https://www.unicef.org/gabon/communiqu%C3%A9s-de-presse/recensement-4-345-enfants-vivant-avec-un-handicap-peuvent-d%C3%A9sormais-acc%C3%A9der"
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
