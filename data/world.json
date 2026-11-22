@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -7855,6 +7855,388 @@
       "https://www.iss.sm/on-line/home/dipartimento-socio-sanitario/fragilita-tutela-infanzia-adolescenza-famiglia/uoc-disabilita-e-servizio-di-supporto-sociale.html"
      ],
      "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "AG",
+   "slug": "antigua-and-barbuda",
+   "name": "Antigua and Barbuda",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police. 999 also works",
+    "source": "https://www.gov.uk/foreign-travel-advice/antigua-and-barbuda/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ag-sarc",
+     "section": "help-now",
+     "name": "Support and Referral Centre crisis hotline",
+     "org": "Support and Referral Centre, hosted by the Directorate of Gender Affairs",
+     "what": "A 24-hour crisis hotline of the Support and Referral Centre (SARC), whose open house the Directorate of Gender Affairs hosted in November 2024. The centre offers counselling, legal referrals and community outreach in one place for survivors of gender-based violence. It is a violence line, not a general mental health line.",
+     "how": "Call 268-463-5555 at any hour. In an emergency, call 999 or 911.",
+     "url": "https://caribbean.unwomen.org/en/stories/news/2024/11/connecting-for-change-sarc-open-house-encourages-collaboration-to-combat-vawg",
+     "phone": "268-463-5555",
+     "dial": "2684635555",
+     "sources": [
+      "https://caribbean.unwomen.org/en/stories/news/2024/11/connecting-for-change-sarc-open-house-encourages-collaboration-to-combat-vawg"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "ag-peoples-benefit",
+     "section": "money",
+     "name": "People's Benefit Programme",
+     "org": "Government of Antigua and Barbuda (Community Development Department)",
+     "what": "A monthly benefit, running since 2009, for people with disabilities and people in economically vulnerable households (household income below about US$300 a month). In 2018 it was XCD 215 a month, paid onto a People's Benefit Card for food and personal items. It is run with PDV Caribe Antigua and Barbuda, and the amount and rules may have changed since.",
+     "how": "Ask the Community Development Department how to apply.",
+     "url": "https://dds.cepal.org/bpsnc/programme?id=163",
+     "sources": [
+      "https://dds.cepal.org/bpsnc/programme?id=163"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "GD",
+   "slug": "grenada",
+   "name": "Grenada",
+   "emergency": {
+    "number": "911",
+    "label": "Police and fire. Ambulance: 434 (St George's), 724 (Grenville), 774 (Carriacou)",
+    "source": "https://www.gov.gd/emergency-services"
+   },
+   "resources": [
+    {
+     "id": "gd-411",
+     "section": "help-now",
+     "name": "Domestic violence line 411",
+     "org": "Royal Grenada Police Force, listed by the Government of Grenada",
+     "what": "A short number, listed on the Government of Grenada's emergency services page, for reporting domestic violence to the police. Its hours are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 411. In an emergency, call the emergency number at the top of this page.",
+     "url": "https://www.gov.gd/emergency-services",
+     "phone": "411",
+     "dial": "411",
+     "sources": [
+      "https://www.gov.gd/emergency-services"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "gd-400",
+     "section": "help-now",
+     "name": "Sexual abuse line 400",
+     "org": "Royal Grenada Police Force, listed by the Government of Grenada",
+     "what": "A short number, listed by the Government of Grenada, for reporting sexual abuse to the police. Its hours are not stated.",
+     "how": "Call 400. In an emergency, call the emergency number at the top of this page.",
+     "url": "https://www.gov.gd/emergency-services",
+     "phone": "400",
+     "dial": "400",
+     "sources": [
+      "https://www.gov.gd/emergency-services"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "gd-677",
+     "section": "help-now",
+     "name": "Child abuse line 677",
+     "org": "Listed by the Government of Grenada",
+     "what": "A short number, listed by the Government of Grenada, for reporting a child being abused so the child can be protected. Its hours are not stated.",
+     "how": "Call 677.",
+     "url": "https://www.gov.gd/emergency-services",
+     "phone": "677",
+     "dial": "677",
+     "sources": [
+      "https://www.gov.gd/emergency-services"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "gd-nis-invalidity",
+     "section": "money",
+     "name": "Invalidity benefit",
+     "org": "National Insurance Scheme (NIS)",
+     "what": "A National Insurance benefit for insured people under pensionable age (now 63) who are permanently unable to work because of a disease, illness or disablement that a doctor certifies. With at least 150 paid contribution weeks it is a monthly pension of 27% to 60% of average insurable earnings; with at least 50 weeks it is a one-off grant. It depends on contributions, so it is not for people who have never paid in.",
+     "how": "Apply on the NIS web portal within three months of the doctor's diagnosis, or call NIS on 473-440-3309.",
+     "url": "https://nisgrenada.org/?p=531",
+     "phone": "473-440-3309",
+     "dial": "4734403309",
+     "sources": [
+      "https://nisgrenada.org/?p=531"
+     ],
+     "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "LA",
+   "slug": "laos",
+   "name": "Laos",
+   "emergency": {
+    "number": "1195",
+    "label": "Ambulance (also 030 525 7239). Police: 1191; fire: 1190",
+    "source": "https://www.gov.uk/foreign-travel-advice/laos/getting-help"
+   },
+   "resources": [
+    {
+     "id": "la-1362",
+     "section": "help-now",
+     "name": "Counselling and Protection Centre 1362",
+     "org": "Lao Women's Union",
+     "what": "The Lao Women's Union's Counselling and Protection Centre for women and children, which UNDP points people to if they have been subject to violence. Its hours and cost are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 1362. In an emergency, call the emergency number at the top of this page.",
+     "url": "https://www.undp.org/node/220526",
+     "phone": "1362",
+     "dial": "1362",
+     "sources": [
+      "https://www.undp.org/node/220526"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "la-rehab",
+     "section": "equipment-home",
+     "name": "Medical rehabilitation centres",
+     "org": "Ministry of Health",
+     "what": "The government told the UN disability committee in 2022 that it has set up five medical rehabilitation centres, with mobile clinics for remote areas, and works with international organisations to give assistive devices free of charge to persons with disabilities. It said persons with disabilities can use state health insurance, social security and social welfare, and that the Ministry of Labour and Social Welfare leads on disability.",
+     "how": "Ask your local health service about the nearest medical rehabilitation centre.",
+     "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2022/08/experts-committee-rights-persons-disabilities-welcome-lao",
+     "sources": [
+      "https://www.ungeneva.org/en/news-media/meeting-summary/2022/08/experts-committee-rights-persons-disabilities-welcome-lao",
+      "https://www.who.int/japan/news/feature-stories/detail/inclusive-health-and-rehabilitation-services-in-the-lao-people's-democratic-republic"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "LR",
+   "slug": "liberia",
+   "name": "Liberia",
+   "emergency": {
+    "number": "911",
+    "label": "Emergency. Calls may not be answered, so know the way to your nearest police station",
+    "source": "https://www.smartraveller.gov.au/destinations/africa/liberia"
+   },
+   "resources": [
+    {
+     "id": "lr-116",
+     "section": "help-now",
+     "name": "National GBV 116 Call Center",
+     "org": "Ministry of Gender, Children and Social Protection",
+     "what": "A toll-free national line, opened in December 2024 with World Bank support, for survivors of gender-based violence and anyone reporting abuse of women and girls. Trained responders offer counselling in confidence and refer callers to the police, health facilities and social services. Its hours are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 116. In an emergency, call the emergency number at the top of this page.",
+     "url": "https://mogcsp.gov.lr/?p=6449",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://mogcsp.gov.lr/?p=6449"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "lr-ncd",
+     "section": "start",
+     "name": "National Commission on Disabilities (NCD)",
+     "org": "Government of Liberia",
+     "what": "The government body for disability, funded from the national budget, which advocates for persons with disabilities and steered the national action plan on disability. In 2019 the government reported three rehabilitation centres with trained technicians, and said a national register of persons with disabilities was still needed.",
+     "how": "Ask the NCD about services and rehabilitation in your county.",
+     "url": "https://pmun.gov.lr/index.php/news-and-events/142-government-of-liberia-committed-to-ensuring-inclusive-society-develops-policies-and-programs-for-people-with-disabilities",
+     "sources": [
+      "https://pmun.gov.lr/index.php/news-and-events/142-government-of-liberia-committed-to-ensuring-inclusive-society-develops-policies-and-programs-for-people-with-disabilities",
+      "https://www.undp.org/node/245416"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "MG",
+   "slug": "madagascar",
+   "name": "Madagascar",
+   "emergency": {
+    "number": "117",
+    "label": "Ambulance or police from a mobile (17 from a landline). Fire: 118 from a mobile (18 from a landline)",
+    "source": "https://www.gov.uk/foreign-travel-advice/madagascar/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mg-147",
+     "section": "help-now",
+     "name": "Free lines 147 and 113",
+     "org": "Listed by the UN in Madagascar",
+     "what": "Free numbers (lignes vertes) for reporting any form of violence, named by the UN system in Madagascar in 2022. Their hours and who answers them are not stated. They are violence lines, not general mental health lines.",
+     "how": "Call 147 or 113, free. In an emergency, call 117 from a mobile.",
+     "url": "https://madagascar.un.org/fr/195543-situation-et-reponse-sur-les-actes-d%E2%80%99enlevement-d%E2%80%99enfants-de-jeunes-filles-et-de-femmes",
+     "phone": "147",
+     "dial": "147",
+     "sources": [
+      "https://madagascar.un.org/fr/195543-situation-et-reponse-sur-les-actes-d%E2%80%99enlevement-d%E2%80%99enfants-de-jeunes-filles-et-de-femmes"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "mg-assistive",
+     "section": "equipment-home",
+     "name": "Equipment for persons with disabilities",
+     "org": "Government of Madagascar",
+     "what": "In its November 2024 report to the UN Human Rights Council, the government said 19,616 persons with disabilities in 15 regions had been given equipment, including assistive devices such as wheelchairs, crutches and hearing aids, and 7,651 had received food, blankets and other materials. The 1997 law on the rights of people living with disabilities is being amended.",
+     "how": "Ask your local social services how to be considered.",
+     "url": "https://digitallibrary.un.org/record/4069448/files/A_HRC_WG.6_48_MDG_1-EN.pdf",
+     "sources": [
+      "https://digitallibrary.un.org/record/4069448/files/A_HRC_WG.6_48_MDG_1-EN.pdf"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "MW",
+   "slug": "malawi",
+   "name": "Malawi",
+   "emergency": {
+    "number": "998",
+    "label": "Ambulance. Police: 990 or 997; fire: 999. These numbers are unreliable, so ask local police for other numbers for your area",
+    "source": "https://www.gov.uk/foreign-travel-advice/malawi/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mw-116",
+     "section": "help-now",
+     "name": "National Child Helpline 116",
+     "org": "Listed by UNICEF Malawi",
+     "what": "A toll-free national line to report violence against a child or get help for a child. Its hours are not stated. It is a children's line, not a general mental health line. UNICEF also lists the police Mthetsa Nkhanza line, 932, for reporting violence.",
+     "how": "Call 116, free. In an emergency, call the emergency number at the top of this page.",
+     "url": "https://www.unicef.org/malawi/protecting-children-violence-everyones-responsibility",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://www.unicef.org/malawi/protecting-children-violence-everyones-responsibility"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    },
+    {
+     "id": "mw-social-cash-transfer",
+     "section": "money",
+     "name": "Social Cash Transfer Programme",
+     "org": "Government of Malawi",
+     "what": "The government told the UN disability committee in 2023 that around 30,000 persons with disabilities receive social cash transfers, and that the programme had been scaled up to all 28 districts. It also said it has funded a Disability Trust Fund for disability programmes since 2019/2020, and that assistive devices are on the essential list of medical equipment.",
+     "how": "Ask your district council how households are selected for the programme.",
+     "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2023/08/experts-committee-rights-persons-disabilities-acknowledge",
+     "sources": [
+      "https://www.ungeneva.org/en/news-media/meeting-summary/2023/08/experts-committee-rights-persons-disabilities-acknowledge"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "MC",
+   "slug": "monaco",
+   "name": "Monaco",
+   "emergency": {
+    "number": "112",
+    "label": "Ambulance, fire and police from a mobile. From a landline, dial 18",
+    "source": "https://www.gov.uk/foreign-travel-advice/monaco/getting-help"
+   },
+   "resources": [
+    {
+     "id": "mc-0800919010",
+     "section": "help-now",
+     "name": "Information line for victims of violence",
+     "org": "Government of Monaco, with the victim support association AVIP",
+     "what": "A free number for victims of any kind of violence, including domestic and sexual violence and harassment, from a landline or a mobile. It replaced the old 116 919. Its hours are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 0800 91 90 10, free. In an emergency, call 112.",
+     "url": "https://en.gouv.mc/A-la-Une-du-Portail/A-New-Information-Number-for-Victims-of-Violence-0800-91-90-10",
+     "phone": "0800 91 90 10",
+     "dial": "0800919010",
+     "sources": [
+      "https://en.gouv.mc/A-la-Une-du-Portail/A-New-Information-Number-for-Victims-of-Violence-0800-91-90-10"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "mc-disability-card",
+     "section": "start",
+     "name": "Priority card for people with disabilities",
+     "org": "Department of Social Welfare and Social Services (DASO)",
+     "what": "A card giving priority seating on public transport and in waiting areas, and priority in queues at places and events open to the public. It is for people granted disability status at 80% or more, or whose disability makes standing difficult.",
+     "how": "Get the form and medical certificate from DASO or its page, have your doctor fill in the certificate (dated within 3 months), and hand them in with a copy of your ID or residence permit and 2 ID photos. DASO is at 5 Promenade Honoré II, Hall A, 4th floor, open Monday to Friday, 9:30 a.m. to 5 p.m.",
+     "url": "https://monservicepublic.gouv.mc/en/themes/transport-and-mobility/access-traffic-and-parking/persons-with-reduced-mobility/how-to-request-a-priority-card-for-people-with-disabilities",
+     "phone": "98 98 41 00",
+     "dial": "98984100",
+     "sources": [
+      "https://monservicepublic.gouv.mc/en/themes/transport-and-mobility/access-traffic-and-parking/persons-with-reduced-mobility/how-to-request-a-priority-card-for-people-with-disabilities"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "mc-adult-disability-allowance",
+     "section": "money",
+     "name": "Disability allowance for adults",
+     "org": "Department of Social Welfare and Social Services (DASO)",
+     "what": "A means-tested allowance for adults living in Monaco who have been granted disability status and are no longer eligible for the special education allowance. Once you are told you have disability status, DASO's financial social support office contacts you for the means test.",
+     "how": "Call DASO on 98 98 41 00, Monday to Friday, 9:30 a.m. to 5 p.m.",
+     "url": "https://monservicepublic.gouv.mc/en/themes/social-health-and-families/aid/disabled-people/how-to-apply-for-the-disability-allowance-for-adults",
+     "phone": "98 98 41 00",
+     "dial": "98984100",
+     "sources": [
+      "https://monservicepublic.gouv.mc/en/themes/social-health-and-families/aid/disabled-people/how-to-apply-for-the-disability-allowance-for-adults"
+     ],
+     "reviewed_on": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "code": "SC",
+   "slug": "seychelles",
+   "name": "Seychelles",
+   "emergency": {
+    "number": "999",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/seychelles/getting-help"
+   },
+   "resources": [
+    {
+     "id": "sc-116",
+     "section": "help-now",
+     "name": "Child helpline 116",
+     "org": "Social Affairs Department",
+     "what": "A free helpline, launched in 2021, for children who are being abused or need advice and guidance; adults can call it to report child abuse. Calls are taken by confidential workers from the Social Affairs Department. Its hours are not stated. It is a children's line, not a general mental health line.",
+     "how": "Call 116, free. In an emergency, call 999.",
+     "url": "https://employment.gov.sc/media-centre/publications/449-new-helpline-for-children-in-distress",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://employment.gov.sc/media-centre/publications/449-new-helpline-for-children-in-distress"
+     ],
+     "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "sc-disability-benefit",
+     "section": "money",
+     "name": "Disability and invalidity benefits",
+     "org": "Agency for Social Protection",
+     "what": "Monthly benefits for people who had to stop work because of a long-term illness, injury or disability, and for children born with or who develop a disability; the Agency's Medical Board certifies who qualifies. The government's 2025 budget raised all disability benefits from SCR 5,750 to SCR 6,650 a month, and the invalidity benefit to SCR 6,150 (with a pension qualification) or SCR 6,650 (without).",
+     "how": "Ask the Agency for Social Protection about an assessment by its Medical Board.",
+     "url": "https://www.finance.gov.sc/wp-content/uploads/2025/08/Budget-2025-Highlights-SOCIAL-PROTECTION-SECTOR.pdf",
+     "sources": [
+      "https://www.finance.gov.sc/wp-content/uploads/2025/08/Budget-2025-Highlights-SOCIAL-PROTECTION-SECTOR.pdf",
+      "https://www.nation.sc/archive/254226/agency-for-social-protection"
+     ],
+     "reviewed_on": "2026-11-22",
+     "record_status": "directory_listed"
     }
    ]
   }
