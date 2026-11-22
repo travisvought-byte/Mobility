@@ -165,18 +165,22 @@ def country_page(c):
         if c.get('relay_url'):
             relay += f' <a href="{E(c["relay_url"])}" rel="noopener" target="_blank">Relay service website{NEW_TAB}</a>'
         relay += '</p>'
-    intro = (f'<p>Mobility Talk began in the United States and is now adding other countries. These are the first listings for {E(place)}: '
+    # The page opens on the emergency box and the listings; the relay note for callers without a voice stays
+    # up top; how far the listings go, how to dial and links to other countries sit in one panel after the listings (home page and country pages reordered, November 22, 2026).
+    about = (f'<p>Mobility Talk began in the United States and is now adding other countries. These are the first listings for {E(place)}: '
              f'{n} national programs and lines, each checked against its own page or an official directory (most recently on {E(checked)}). '
              'Local and regional services are not listed yet.</p>')
+    intro = ''
     if c.get('us_state_slug'):
         intro += (f'<p>This page is for the country of {E(place)}. Looking for the U.S. state? '
                   f'<a href="../states/{E(c["us_state_slug"])}.html">{E(c["name"])} (U.S. state)</a>.</p>')
     body = (f'<header>{nav("../", "world.html")}<small>{E(c["name"].upper())} · DISABILITY RESOURCES</small><h1>{E(title)}</h1>{intro}</header>\n'
-            f'<main id="main">{emergency_box(c)}'
-            f'<section class="panel"><p>Numbers are written the way they are dialed inside {E(place)}. Calling from another country? Use the country code, and note that some free numbers only work inside the country.</p>{relay}'
-            f'<div class="actions"><a class="button secondary" href="../world.html">Other countries</a><a class="button secondary" href="../states/index.html">United States: every state</a></div></section>'
+            f'<main id="main">{emergency_box(c)}{relay}'
             f'<nav class="toc" aria-label="Jump to a group of programs">{"".join(toc)}</nav>'
             + ''.join(secs)
+            + f'<section class="panel" aria-labelledby="about-h"><h2 id="about-h">About these listings</h2>{about}'
+              f'<p>Numbers are written the way they are dialed inside {E(place)}. Calling from another country? Use the country code, and note that some free numbers only work inside the country.</p>'
+              f'<div class="actions"><a class="button secondary" href="../world.html">Other countries</a><a class="button secondary" href="../states/index.html">United States: every state</a></div></section>'
             + f'<section><p>Know a national or local service in {E(place)} that should be here, or see something out of date? '
               f'<a href="mailto:{CORRECTIONS}?subject={E("Mobility Talk: " + c["name"])}">Tell us</a> and it will be checked against the program’s own page.</p></section>'
             f'</main>{foot("../")}</body></html>\n')

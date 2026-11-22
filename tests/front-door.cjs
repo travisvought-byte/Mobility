@@ -308,7 +308,7 @@ const TERR=['AS','GU','MP','PR','VI'];
  {const home=fs.readFileSync('index.html','utf8'),src=JSON.parse(fs.readFileSync('data/home-reel.json','utf8'));
   const d=new JSDOM(home).window.document,reel=d.querySelector('section.reel');assert(reel,'home reel present');
   assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),'crisis strip still leads the page');
-  assert.equal(reel.previousElementSibling&&reel.previousElementSibling.id,'needs','reel sits right after the need finder (home page reorganized 2026-11-18)');
+  assert(reel.previousElementSibling&&reel.previousElementSibling.classList.contains('guides'),'reel sits right after the guides, below the help tools (home page reordered 2026-11-22)');
   const slides=[...reel.querySelectorAll('.reel-slide[role="group"]')];assert.equal(slides.length,src.slides.length,'one slide per entry');
   slides.forEach((f,i)=>{const svg=f.querySelector('svg[role="img"]'),t=svg&&svg.querySelector('title');
    assert(t&&t.textContent===src.slides[i].alt&&svg.getAttribute('aria-labelledby')===t.id,'slide '+(i+1)+' drawing is described');
@@ -359,11 +359,13 @@ const TERR=['AS','GU','MP','PR','VI'];
   assert(/nonprofit/.test(byId.get('ak-deaf-hard-of-hearing-agency').constraints.join(' ')),'Alaska says the Deaf Navigator is run by a nonprofit');
   assert(!/Merritt|Miranda/.test(JSON.stringify(byId.get('ak-deaf-hard-of-hearing-agency'))),'Alaska listing carries no staff names');
   assert(/American Sign Language/.test(byId.get('sc-deaf-hard-of-hearing-agency').description),'South Carolina says its counselors sign');}
-  // ---- home page organization (2026-11-18): one path, no repeated menus or state pickers
+  // ---- home page organization (2026-11-18, reordered 2026-11-22): help tools first, stories and supporters below; one path, no repeated menus or state pickers
  {const d=new JSDOM(fs.readFileSync('index.html','utf8')).window.document,main=d.querySelector('main');
-  const want=['urgent','needs','reel','start','map','guides','featured-org','featured-org.featured-org--also','partner-invite'];
+  const want=['urgent','needs','map','start','guides','reel','featured-org','featured-org.featured-org--also','partner-invite'];
   const mapIdx=[...main.children].indexOf(d.getElementById('map-title').closest('section')),pos=k=>k==='map'?mapIdx:[...main.children].findIndex(e=>(e.id||[...e.classList].join('.'))===k);
   for(let i=1;i<want.length;i++)assert(pos(want[i-1])>=0&&pos(want[i-1])<pos(want[i]),'home order: '+want[i-1]+' before '+want[i]);
+  if(d.getElementById('auction-banner'))assert(pos('reel')<pos('auction-banner')&&pos('auction-banner')<pos('featured-org'),'a fundraiser banner sits with the supporters, below the help');
+  assert(d.getElementById('map-title').closest('section').querySelector('#world-line'),'the worldwide link sits with the state map');
   assert.equal(d.querySelectorAll('header .hero-actions a').length,1,'one clear action at the top');assert.equal(d.querySelector('header .hero-actions a').getAttribute('href'),'#needs');
   assert(!d.querySelector('.rtr')&&!/Ways to use this site/.test(main.textContent),'no repeated menu cards or separate advocacy panel on the home page');
   const g=[...d.querySelectorAll('.guidegrid a')].map(a=>a.getAttribute('href'));assert.deepEqual(g,['know-your-rights.html','ramps-home-access.html','mobility-independence.html#right-to-repair','disability-advocacy.html','blind-low-vision.html','deaf-hard-of-hearing.html'],'six guides, none repeating a tool already on the page');
