@@ -92,8 +92,12 @@ def card(r, place=''):
     return ''.join(out)
 
 
+# Country names that read with "the" in a sentence ("in the Solomon Islands"); the list and page titles keep the bare name.
+THE = ('United Kingdom', 'Philippines', 'Bahamas', 'Netherlands', 'Czech Republic', 'United Arab Emirates', 'Maldives', 'Solomon Islands')
+
+
 def the(name):
-    return ('the ' if name in ('United Kingdom', 'Philippines', 'Bahamas', 'Netherlands', 'Czech Republic', 'United Arab Emirates', 'Maldives') else '') + name
+    return ('the ' if name in THE else '') + name
 
 
 def nav(pre, current):
@@ -184,8 +188,7 @@ def world_page():
     rows = ''.join(f'<li><a href="countries/{c["slug"]}.html">{E(c["name"])}</a> <span class="meta">Emergency: '
                    f'<a href="tel:{E(c["emergency"]["number"])}">{E(c["emergency"]["number"])}</a> · {len(c["resources"])} listings</span></li>'
                    for c in countries)
-    names = ', '.join(c['name'] for c in countries[:-1]) + ' and ' + countries[-1]['name']
-    names = names.replace('Philippines', 'the Philippines').replace('United Kingdom', 'the United Kingdom').replace('Bahamas', 'the Bahamas').replace('Netherlands', 'the Netherlands').replace('Czech Republic', 'the Czech Republic').replace('United Arab Emirates', 'the United Arab Emirates').replace('Maldives', 'the Maldives')
+    names = ', '.join(the(c['name']) for c in countries[:-1]) + ' and ' + the(countries[-1]['name'])
     cards = ''.join(card(r) for r in DATA['worldwide'])
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
             '<title>Disability help outside the United States | Mobility Talk</title>'
