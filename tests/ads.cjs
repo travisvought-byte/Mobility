@@ -8,7 +8,7 @@ const pages=[...fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9
  assert(/November 21, 2026/.test(d.querySelector('header').textContent),'privacy page is dated');
  assert(/GoatCounter/.test(t)&&/without cookies/.test(t)&&/does not store the IP address/.test(t),'visit counter described');
  assert(/not the part after a question mark/.test(t),'query strings are not counted, as the counter is set up');
- const gc=fs.readFileSync('index.html','utf8');assert(/data-goatcounter="https:\/\/travisvought\.goatcounter\.com\/count"/.test(gc)&&/location\.pathname/.test(gc)&&/u\.origin\+u\.pathname/.test(gc),'the counter setup the privacy page describes is the one on the pages');
+ const gc=fs.readFileSync('index.html','utf8');assert(/data-goatcounter="https:\/\/vhg-guide\.goatcounter\.com\/count"/.test(gc)&&/location\.pathname/.test(gc)&&/u\.origin\+u\.pathname/.test(gc),'the counter setup the privacy page describes is the one on the pages');
  assert(d.querySelector('a[href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"]'),'GitHub privacy statement linked');
  assert(/Nothing you type or choose on this site is saved or sent/.test(t),'same promise as the front page');
  for(const u of ['https://adssettings.google.com','https://policies.google.com/technologies/ads','https://optout.aboutads.info'])assert(d.querySelector(`a[href="${u}"]`),'ad choice link '+u);
