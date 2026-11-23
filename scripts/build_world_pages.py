@@ -145,6 +145,21 @@ def emergency_box(c):
             f'<p>{lines}</p></aside>')
 
 
+SHORT_SECTIONS = {'help-now': 'crisis lines', 'start': 'where to start', 'money': 'disability payments', 'equipment-home': 'equipment and home grants', 'work': 'work', 'rights': 'rights and discrimination help'}
+
+
+def fit_desc(lead, items, limit=158, tail=''):
+    """Search results show about 155 characters, so end on a whole item instead of cutting a word."""
+    def join(xs):
+        return xs[0] if len(xs) == 1 else ', '.join(xs[:-1]) + ' and ' + xs[-1]
+    for k in range(len(items), 0, -1):
+        for t in (tail, ''):
+            d = lead + (join(items) if k == len(items) else ', '.join(items[:k]) + ' and more') + '.' + t
+            if len(d) <= limit:
+                return d
+    return lead.rstrip(', :') + '.'
+
+
 def country_page(c):
     place = the(c['name'])
     n = len(c['resources'])
@@ -152,7 +167,8 @@ def country_page(c):
     kinds = [SECTIONS[k].lower() for k in SECTIONS if any(r['section'] == k for r in c['resources'])]
     # A country that shares its name with a U.S. state (Georgia) says which one it is in its title and links the state page.
     title = f'Disability resources in {c.get("title_name", place)}'
-    desc = (f'Disability help in {place}: {", ".join(kinds)}. Phone numbers and official pages, each checked against its source.')[:300]
+    have = [SHORT_SECTIONS[k] for k in SECTIONS if any(r['section'] == k for r in c['resources'])]
+    desc = fit_desc(f'Disability help in {place}: the emergency number, ', have, tail=' Phone numbers and official sources.')
     secs, toc = [], []
     for k, label in SECTIONS.items():
         rs = [r for r in c['resources'] if r['section'] == k]
@@ -194,15 +210,14 @@ def world_page():
     rows = ''.join(f'<li><a href="countries/{c["slug"]}.html">{E(c["name"])}</a> <span class="meta">Emergency: '
                    f'<a href="tel:{E(c["emergency"]["number"])}">{E(c["emergency"]["number"])}</a> · {len(c["resources"])} listings</span></li>'
                    for c in countries)
-    names = ', '.join(the(c['name']) for c in countries[:-1]) + ' and ' + the(countries[-1]['name'])
     cards = ''.join(card(r) for r in DATA['worldwide'])
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
             '<title>Disability help outside the United States | Mobility Talk</title>'
-            f'<meta name="description" content="{E("Disability resources outside the United States: emergency numbers, crisis lines, disability benefits, equipment and home grants, and rights bodies for " + names + ", plus help that works in any country.")}">'
+            f'<meta name="description" content="{E(f"Disability help in {len(countries)} countries outside the U.S.: emergency numbers, crisis lines, disability benefits, equipment grants and rights bodies, from official sources.")}">'
             '<link rel="stylesheet" href="assets/site.css"></head>\n<body><a class="skip" href="#main">Skip to main content</a>\n')
     nav_local = '<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
     return (head + f'<header>{nav_local}<small>WORLDWIDE · DISABILITY RESOURCES</small><h1>Disability help outside the United States</h1>'
-            f'<p>Mobility Talk began as a guide for every U.S. state. It is going global, one country at a time. The first countries are {E(names)}. '
+            f'<p>Mobility Talk began as a guide for every U.S. state. It now covers {len(countries)} other countries, added one at a time as their listings are checked. Choose yours below. '
             'Each page starts with the emergency number and a crisis line, then lists where to start, disability payments, equipment and home grants, and who handles discrimination, all checked against official pages.</p></header>\n'
             '<main id="main"><aside class="emergency" aria-labelledby="emergency-h"><h2 id="emergency-h">In danger right now?</h2>'
             '<p>Call your country’s emergency number. The numbers for the countries listed here are below; each one is dialed from a phone inside that country.</p></aside>'

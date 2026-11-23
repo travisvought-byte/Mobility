@@ -19,8 +19,7 @@ digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
 NEW='<span class="vh"> (new tab)</span>'
 TITLE='Service animals: ADA rights, housing, air travel and trained dogs'
 H1='Service animals: your rights and where to get a trained dog'
-DESC=('What counts as a service animal under the ADA, the two questions staff may ask, housing and air travel rules, '
-      'how to file a complaint, and where to get a trained service dog, with official sources.')
+DESC=('Service animal rules under the ADA: the two questions staff may ask, housing and air travel, how to file a complaint and where to get a trained dog.')
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 FOOT=('<footer><p>Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a> · '+ABOUT_LINK+'</p>'
       '<p>Every statement on this page names the official page it comes from, with the date it was checked. This is general information, not legal advice. Nothing you choose here is saved or sent.</p></footer>')

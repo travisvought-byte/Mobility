@@ -79,6 +79,16 @@ def local_li(r):
 def the(code,name):
     """Place name as it reads in a sentence: 'the Northern Mariana Islands', 'the U.S. Virgin Islands'."""
     return ('the ' if code in ('MP','VI') else '')+name
+# Short words for the search-result description, most-searched needs first.
+SHORT={'benefits':'benefits','equipment':'equipment repair','ramps_home':'ramps','transportation':'rides','daily_living':'in-home help','housing':'housing','work_school':'jobs','rights_legal':'legal help','sensory':'vision and hearing','children':'kids','independent_living':'independent living centers','peer_support':'peer support','funding':'funding','navigation':'aging help','dd_board':'developmental disability agencies','crisis':'crisis lines'}
+SHORT_ORDER=list(SHORT)
+def fit_desc(lead,items,limit=158):
+    """Search results show about 155 characters, so end on a whole item instead of cutting a word."""
+    join=lambda xs:xs[0] if len(xs)==1 else ', '.join(xs[:-1])+' and '+xs[-1]
+    for k in range(len(items),0,-1):
+        d=lead+(join(items) if k==len(items) else ', '.join(items[:k])+' and more')+'.'
+        if len(d)<=limit:return d
+    return lead.rstrip(', :')+'.'
 def state_page(code,name,recs,national):
     terr=code in TERRITORIES;place=the(code,name)
     mine=[r for r in recs if r['state']==code and r['category']!='veterans']
@@ -86,7 +96,8 @@ def state_page(code,name,recs,national):
     counties=sorted({c for r in local for c in r.get('counties',[])})
     n=len(mine)
     kinds=', '.join(CATS[k].lower().replace('&','and') for k in ORDER if any(r['category']==k for r in mine))
-    desc=(f'{n} disability programs and agencies in {place}, with phone numbers and official pages: {kinds}.')[:300]
+    have={r['category'] for r in mine}
+    desc=fit_desc(f'{n} disability programs in {place} with phone numbers: ',[SHORT[k] for k in SHORT_ORDER if k in have])
     p=slug(name);path=f'states/{p}.html'
     secs=[];counts=[]
     for k in ORDER:
@@ -130,7 +141,7 @@ def state_page(code,name,recs,national):
 CARE='<p class="meta" id="caregiver-link">Caring for a family member or a veteran? <a href="../caregiver-respite.html">Caregiver and respite help</a>: finding a break, VA caregiver programs, Medicaid home care and paid family care.</p>'
 def index_page(rows,trows):
     li=lambda rs:''.join(f'<li><a href="{slug(nm)}.html">{E(nm)}</a> <span class="meta">{n} programs</span></li>' for code,nm,n in rs)
-    desc='Disability and mobility resources for every U.S. state, D.C. and the U.S. territories: benefits, equipment, ramps, rides, in-home help, work, vision and hearing services, rights and legal help, and developmental disability agencies.'
+    desc='Disability and mobility programs for every U.S. state, D.C. and the territories, with phone numbers: benefits, equipment, ramps, rides, in-home help and legal help.'
     return head('Disability and mobility resources by state',desc,'states/')+(f'<header>{NAV}<small>ALL STATES · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources by state</h1><p>Choose your state for a full list of programs and agencies, with phone numbers and official pages. Every state, the District of Columbia and the U.S. territories are listed.</p></header>'
       f'<main id="main">{up(URGENT)}<section aria-labelledby="st-h"><h2 id="st-h">States and D.C.</h2><ul class="statelist cols" id="state-list">{li(rows)}</ul></section>'
       f'<section aria-labelledby="terr-h"><h2 id="terr-h">U.S. territories</h2><p>Each territory lists its main public disability agencies, plus national lines. Fewer community programs are listed than for the states.</p><ul class="statelist cols" id="territory-list">{li(trows)}</ul></section><!--mif-->{MIF}<!--/mif--></main>{FOOT}</body></html>')
