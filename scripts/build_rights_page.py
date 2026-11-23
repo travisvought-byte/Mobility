@@ -52,7 +52,7 @@ def outputs():
         note=f'<p>{E(row["note"])}</p>' if row.get('note') else ''
         rows.append(f'<article class="rights-row" id="{E(row["id"])}"><h3>{E(row["title"])}</h3><p>{E(row["plain"])}</p><dl>{dl}</dl>{note}<p class="meta">Source pages checked {E(checked)}: {src_links}</p></article>')
     toc=''.join(f'<a href="#{E(r["id"])}">{E(r["title"])}</a>' for r in data['rows'])
-    desc='Disability rights in plain language: which office handles problems at work, in housing, school, health care, transportation, voting and benefits, the first steps and the deadlines.'
+    desc='Disability rights in plain language: which office handles problems at work, in housing, school, health care, travel and benefits, and the deadlines.'
     page=('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
       f'<title>Know your rights: which law, which office, what deadline | Mobility Talk</title><meta name="description" content="{E(desc)}"><link rel="stylesheet" href="assets/site.css"></head>\n'
       '<body><a class="skip" href="#main">Skip to main content</a>\n'

@@ -19,10 +19,9 @@ E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
 NEW='<span class="vh"> (new tab)</span>'
 PAGE='caregiver-respite.html'
-TITLE='Caregiver and respite help: VA caregiver support, respite and paid family care'
+TITLE='Caregiver and respite help: VA support and paid family care'
 H1='Caregiver and respite help'
-DESC=('Help for people who care for a disabled family member or a veteran: how to find respite, VA caregiver programs '
-      'and the Caregiver Support Line, the Eldercare Locator, Medicaid home care and paid family caregiving.')
+DESC=('Caring for a disabled family member or a veteran? Find respite, VA caregiver programs and support line, Medicaid home care and paid family caregiving.')
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 FOOT=('<footer><p>Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a> · '+ABOUT_LINK+'</p>'
       '<p>Every statement on this page names the official page it comes from, with the date it was checked. This is general information, not medical or legal advice. Nothing you choose here is saved or sent.</p></footer>')
