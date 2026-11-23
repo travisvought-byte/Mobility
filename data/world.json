@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day; Benin, the Federated States of Micronesia, Gabon, Honduras, Kiribati, Kyrgyzstan, Tajikistan and Togo added after that the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day; Benin, the Federated States of Micronesia, Gabon, Honduras, Kiribati, Kyrgyzstan, Tajikistan and Togo added after that the same day; Algeria, Dominica, Eswatini, Iran, Iraq, Saint Vincent and the Grenadines, Syria, Timor-Leste and Tonga added November 23, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -8603,6 +8603,440 @@
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
+    }
+   ]
+  },
+  {
+   "code": "DZ",
+   "slug": "algeria",
+   "name": "Algeria",
+   "emergency": {
+    "number": "17",
+    "label": "Police (or 1548). Ambulance: 1021; fire: 14",
+    "source": "https://www.gov.uk/foreign-travel-advice/algeria/getting-help"
+   },
+   "resources": [
+    {
+     "id": "dz-1111",
+     "section": "help-now",
+     "name": "Child protection green line 1111",
+     "org": "National Body for the Protection and Promotion of Childhood (ONPPE)",
+     "what": "A free national number, running since 2018, for reporting harm to a child. A child, a parent or anyone else can call. Psychologists, sociologists and legal specialists answer in shifts through the day; the caller’s identity is kept confidential and the call does not show on the itemised phone bill. It is a children’s line, not a general mental health line.",
+     "how": "Call 1111, free, from a landline or a mobile. In an emergency, call 17 (police) or 1021 (ambulance).",
+     "url": "https://network.onppe.dz/en/1111-green-number",
+     "phone": "1111",
+     "dial": "1111",
+     "sources": [
+      "https://network.onppe.dz/en/1111-green-number"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "dz-special-needs-card",
+     "section": "start",
+     "name": "Special needs card",
+     "org": "Ministry of National Solidarity, Family and Women’s Affairs",
+     "what": "The ministry’s card for people with special needs, including people with disabilities. Since August 2026 you can apply for a first card, change its details or replace a lost or damaged card online, on the National Portal of Digital Services, Algeria’s state radio reported.",
+     "how": "Apply on the National Portal of Digital Services, or ask the Ministry of National Solidarity.",
+     "url": "https://dzds.dz/ar-dz",
+     "sources": [
+      "https://news.radioalgerie.dz/en/node/89909"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "DM",
+   "slug": "dominica",
+   "name": "Dominica",
+   "emergency": {
+    "number": "999",
+    "label": "Ambulance, fire and police",
+    "source": "https://www.gov.uk/foreign-travel-advice/dominica/getting-help"
+   },
+   "resources": [
+    {
+     "id": "dm-gender-affairs",
+     "section": "help-now",
+     "name": "Bureau of Gender Affairs",
+     "org": "Government of Dominica",
+     "what": "The government office for gender affairs, which gives psychosocial support and works on the physical and emotional harm of gender-based violence, including abuse within the family. Its hours are not stated, so it may answer only in working hours. It is a government office, not a crisis line.",
+     "how": "Call 767-266-3344 or 767-448-7855. The office is at the corner of Church Street and Victoria Street, Roseau. In an emergency, call 999.",
+     "url": "https://genderaffairs.gov.dm/contact-us",
+     "phone": "767-266-3344",
+     "dial": "7672663344",
+     "sources": [
+      "https://genderaffairs.gov.dm/contact-us",
+      "https://communitydevelopment.gov.dm/blog/38-blog-post-1"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "dm-dss-invalidity",
+     "section": "money",
+     "name": "Invalidity Benefit",
+     "org": "Dominica Social Security",
+     "what": "One of Dominica Social Security’s long-term benefits, paid over an extended period to insured people with an invalidity; Social Security may ask its medical referee to assess the claimant’s condition. How much you get depends on the contributions you have paid and your average earnings, so it is not for people who have never paid in.",
+     "how": "Ask Dominica Social Security: call the Roseau head office on 767-255-8311 or the Portsmouth office on 767-255-8350.",
+     "url": "https://dss.dm/contributors/definition-ee/benefits-ee/",
+     "phone": "767-255-8311",
+     "dial": "7672558311",
+     "sources": [
+      "https://dss.dm/contributors/definition-ee/benefits-ee/"
+     ],
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "SZ",
+   "slug": "eswatini",
+   "name": "Eswatini",
+   "emergency": {
+    "number": "999",
+    "label": "Police. Ambulance: 977; fire: 933",
+    "source": "https://www.gov.uk/foreign-travel-advice/eswatini/getting-help"
+   },
+   "resources": [
+    {
+     "id": "sz-emergency-counselling",
+     "section": "help-now",
+     "name": "Emergency lines 999 and 977 for counselling and support",
+     "org": "Listed by the World Health Organization in Eswatini",
+     "what": "For emotional distress, depression, anxiety or thoughts of suicide, WHO in Eswatini says to go to your nearest health facility or call the toll-free emergency line 999 or 977 for counselling and support (November 2026). These are the country’s emergency numbers; no separate mental health line could be confirmed.",
+     "how": "Call 977 or 999, free, or go to your nearest health facility.",
+     "url": "https://afro.who.int/countries/eswatini/event/eswatini-walks-talk-stepping-together-mental-health",
+     "phone": "977",
+     "dial": "977",
+     "sources": [
+      "https://afro.who.int/countries/eswatini/event/eswatini-walks-talk-stepping-together-mental-health"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "sz-social-welfare",
+     "section": "start",
+     "name": "Social Welfare Department",
+     "org": "Deputy Prime Minister’s Office",
+     "what": "The government department for social welfare services to vulnerable groups, including persons with disabilities, with regional offices across the country. Eswatini pays disability grants: a 2026 UN report counts about E496 million spent on disability and elderly grants in 2024/25, and names a Disability Unit in the Deputy Prime Minister’s Office.",
+     "how": "Call the head office in Mbabane on 2404 2726, or a regional office: Mbabane 2404 4640, Manzini 2505 6444, Lubombo (Siteki) 3434 457.",
+     "url": "https://gov.sz/index.php/ministries-departments/the-deputy-prime-minister-s-office/social-welfare-department",
+     "phone": "2404 2726",
+     "dial": "24042726",
+     "sources": [
+      "https://gov.sz/index.php/ministries-departments/the-deputy-prime-minister-s-office/social-welfare-department",
+      "https://mptf.undp.org/sites/default/files/documents/2026-05/global_disability_fund_report_eswatini_eswatini.pdf"
+     ],
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "IR",
+   "slug": "iran",
+   "name": "Iran",
+   "emergency": {
+    "number": "110",
+    "label": "Police. Ambulance: 115; fire: 125",
+    "source": "https://www.gov.uk/foreign-travel-advice/iran/getting-help"
+   },
+   "resources": [
+    {
+     "id": "ir-123",
+     "section": "help-now",
+     "name": "Social emergency line 123",
+     "org": "State Welfare Organization, listed by UNHCR",
+     "what": "The national social emergency line, free and open 24 hours, 7 days a week.",
+     "how": "Call 123, free, any hour. In an emergency, call 115 (ambulance) or 110 (police).",
+     "url": "https://help.unhcr.org/iran/en/what-are-the-main-services-for-asylum-seekers-and-refugees-in-iran/psycho-social-support/",
+     "phone": "123",
+     "dial": "123",
+     "sources": [
+      "https://help.unhcr.org/iran/en/what-are-the-main-services-for-asylum-seekers-and-refugees-in-iran/psycho-social-support/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "ir-1480",
+     "section": "help-now",
+     "name": "Counselling line 1480",
+     "org": "State Welfare Organization, listed by UNHCR",
+     "what": "Free psychological support and counselling by phone, seven days a week from 8:00 to midnight.",
+     "how": "Call 1480, free, 8:00 to midnight.",
+     "url": "https://help.unhcr.org/iran/en/what-are-the-main-services-for-asylum-seekers-and-refugees-in-iran/psycho-social-support/",
+     "phone": "1480",
+     "dial": "1480",
+     "sources": [
+      "https://help.unhcr.org/iran/en/what-are-the-main-services-for-asylum-seekers-and-refugees-in-iran/psycho-social-support/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "ir-4030",
+     "section": "help-now",
+     "name": "Counselling line 4030",
+     "org": "Ministry of Health, listed by UNHCR",
+     "what": "Free psychological support and counselling by phone from the Ministry of Health. Its hours are not stated.",
+     "how": "Call 4030, free.",
+     "url": "https://help.unhcr.org/iran/en/what-are-the-main-services-for-asylum-seekers-and-refugees-in-iran/psycho-social-support/",
+     "phone": "4030",
+     "dial": "4030",
+     "sources": [
+      "https://help.unhcr.org/iran/en/what-are-the-main-services-for-asylum-seekers-and-refugees-in-iran/psycho-social-support/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "ir-swo",
+     "section": "start",
+     "name": "State Welfare Organization (Behzisti)",
+     "org": "Government of Iran",
+     "what": "The government body that helps people with disabilities, with rehabilitation services and work to prevent disability, an Iranian government page said in 2022. It also runs the 123 and 1480 lines above.",
+     "how": "Ask at your local State Welfare Organization office, or call 123.",
+     "url": "https://pakistan.mfa.gov.ir/en/newsview/693064",
+     "phone": "123",
+     "dial": "123",
+     "sources": [
+      "https://pakistan.mfa.gov.ir/en/newsview/693064"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "IQ",
+   "slug": "iraq",
+   "name": "Iraq",
+   "emergency": {
+    "number": "911",
+    "label": "Police. Ambulance: 122; fire: 115",
+    "source": "https://www.gov.uk/foreign-travel-advice/iraq/getting-help"
+   },
+   "resources": [
+    {
+     "id": "iq-119",
+     "section": "help-now",
+     "name": "Violence helpline 119 (Kurdistan Region)",
+     "org": "General Directorate for Combating Violence Against Women, Kurdistan Region, listed by UNHCR",
+     "what": "A line in the Kurdistan Region for anyone facing violence: women, girls, boys and men. It opened with UNFPA in 2018 as a 24-hour call centre where trained social workers and legal and psychosocial counsellors give support and counselling and refer callers to services near them. In the south and centre of Iraq, UNHCR says to call 911 for violence, child protection and mental health support. It is a violence line, not a general mental health line.",
+     "how": "In the Kurdistan Region, call 119. Elsewhere in Iraq, use the emergency number at the top of this page.",
+     "url": "https://help.unhcr.org/iraq/en/2025/07/09/unhcr-phased-out-services-heres-where-you-can-get-help/",
+     "phone": "119",
+     "dial": "119",
+     "sources": [
+      "https://help.unhcr.org/iraq/en/2025/07/09/unhcr-phased-out-services-heres-where-you-can-get-help/",
+      "https://iraq.unfpa.org/en/node/35851"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "iq-116",
+     "section": "help-now",
+     "name": "Child protection line 116 (Kurdistan Region)",
+     "org": "Listed by UNHCR",
+     "what": "A line in the Kurdistan Region for child protection and for family and child-related support, including psychosocial help. Its hours are not stated. It is a children’s and family line, not a general mental health line.",
+     "how": "In the Kurdistan Region, call 116.",
+     "url": "https://help.unhcr.org/iraq/en/2025/07/09/unhcr-phased-out-services-heres-where-you-can-get-help/",
+     "phone": "116",
+     "dial": "116",
+     "sources": [
+      "https://help.unhcr.org/iraq/en/2025/07/09/unhcr-phased-out-services-heres-where-you-can-get-help/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "iq-social-safety-net",
+     "section": "money",
+     "name": "Social Safety Net cash assistance",
+     "org": "Ministry of Labour and Social Affairs",
+     "what": "Cash assistance from the Ministry of Labour and Social Affairs’ Social Safety Programme for vulnerable groups in federal Iraq, including people with disabilities or special needs, who must show proof of their condition. UNHCR explains it for displaced people, returnees and refugees. Registering is free: never pay anyone to register.",
+     "how": "Register on the ministry’s online survey (spa.gov.iq/umbrella) with your identity and residency papers and proof of disability. If you think you were wrongly left out, call the ministry’s line 1018.",
+     "url": "https://help.unhcr.org/iraq/en/2023/05/07/ssn/",
+     "phone": "1018",
+     "dial": "1018",
+     "sources": [
+      "https://help.unhcr.org/iraq/en/2023/05/07/ssn/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "VC",
+   "slug": "saint-vincent-and-the-grenadines",
+   "name": "Saint Vincent and the Grenadines",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police. 999 also works; police landline: 457 1211",
+    "source": "https://www.gov.uk/foreign-travel-advice/st-vincent-and-the-grenadines/getting-help"
+   },
+   "resources": [
+    {
+     "id": "vc-gender-affairs",
+     "section": "help-now",
+     "name": "Gender Affairs Division",
+     "org": "Government of Saint Vincent and the Grenadines",
+     "what": "The government’s gender affairs office, to which it has asked the public to report gender-based violence and violence against women. It is open Monday to Friday, 8:00 a.m. to 4:15 p.m., and closed at weekends. It is a government office, not a crisis line.",
+     "how": "Call 784-457-2789 in office hours. In an emergency, call 911 or 999.",
+     "url": "https://mobilization.gov.vc/mobilization/index.php/gender-affairs/contact-information",
+     "phone": "784-457-2789",
+     "dial": "7844572789",
+     "sources": [
+      "https://mobilization.gov.vc/mobilization/index.php/gender-affairs/contact-information",
+      "https://mobilization.gov.vc/mobilization/index.php/37-news/226-gender-affairs-division-in-solidarity-with-the-national-commission-on-gender-based-violence"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "vc-public-assistance",
+     "section": "money",
+     "name": "Public assistance and monthly disability grants",
+     "org": "Government of Saint Vincent and the Grenadines",
+     "what": "The government pays monthly disability and social protection grants through its public assistance programme, and helps with school meals and transport, medical costs and utility bills; persons with disabilities who cannot leave home get care under the home help programme, the government’s information agency said in December 2024.",
+     "how": "Ask the Ministry of National Mobilisation about public assistance and home help.",
+     "url": "https://www.gov.vc/images/pdf_documents/Empowerng_Persons_with_Disabilities.pdf",
+     "sources": [
+      "https://www.gov.vc/images/pdf_documents/Empowerng_Persons_with_Disabilities.pdf"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "SY",
+   "slug": "syria",
+   "name": "Syria",
+   "emergency": {
+    "number": "112",
+    "label": "Police. Ambulance: 110; fire: 113",
+    "source": "https://www.smartraveller.gov.au/destinations/middle-east/syria"
+   },
+   "resources": [
+    {
+     "id": "sy-family-protection",
+     "section": "help-now",
+     "name": "Family Protection Unit helpline",
+     "org": "Family Protection Unit, supported by UNFPA, listed by UNHCR",
+     "what": "A free helpline, open 24 hours, 7 days a week, for people who have experienced violence: psychological support, legal advice, referral to the nearest mobile team or medical facility where possible, and a safe shelter for survivors of gender-based violence when needed and feasible. It is a violence line, not a general mental health line.",
+     "how": "Call 0119416 or 0951444190, free, any hour. In an emergency, call 112 (police) or 110 (ambulance).",
+     "url": "https://help.unhcr.org/syria/where-to-find-help/have-you-experienced-violence/",
+     "phone": "0119416",
+     "dial": "0119416",
+     "sources": [
+      "https://help.unhcr.org/syria/where-to-find-help/have-you-experienced-violence/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "sy-unhcr-care",
+     "section": "equipment-home",
+     "name": "Care programme and medical aids",
+     "org": "UNHCR and its partners",
+     "what": "Through its partners, UNHCR runs a care programme for persons with disabilities, older persons and their families and caregivers, to help them stay self-reliant and included, and gives some people medical aids such as crutches and wheelchairs; strict eligibility criteria apply. UNHCR services are free: never share bank details with anyone offering help.",
+     "how": "Ask at the UNHCR community centre nearest you; the UNHCR Syria help site lists them.",
+     "url": "https://help.unhcr.org/syria/where-to-find-help/support-for-persons-with-disabilities-and-older-persons/",
+     "sources": [
+      "https://help.unhcr.org/syria/where-to-find-help/support-for-persons-with-disabilities-and-older-persons/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "TL",
+   "slug": "timor-leste",
+   "name": "Timor-Leste",
+   "emergency": {
+    "number": "112",
+    "label": "Police (or +670 331 1380). Ambulance: 110; fire: 115. The UK government says these numbers are unreliable",
+    "source": "https://www.gov.uk/foreign-travel-advice/timor-leste/getting-help"
+   },
+   "resources": [
+    {
+     "id": "tl-12123",
+     "section": "help-now",
+     "name": "Mental health line 12123",
+     "org": "Listed by UNICEF",
+     "what": "A free mental health line (Liña Kontaktu Saúde Mental) on the child protection referral network contact list that UNICEF published in 2022. It answers Monday to Friday, 8:00 to 17:30, not at night or at weekends.",
+     "how": "Call 12123, free, Monday to Friday. In an emergency, call 112 (police) or 110 (ambulance).",
+     "url": "https://www.unicef.org/timorleste/documents/child-protection-referral-network-contact-list-timor-leste",
+     "phone": "12123",
+     "dial": "12123",
+     "sources": [
+      "https://www.unicef.org/timorleste/media/4826/file/Poster_Referral%20network_21June22.pdf",
+      "https://www.unicef.org/timorleste/documents/child-protection-referral-network-contact-list-timor-leste"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "tl-subsidy",
+     "section": "money",
+     "name": "Subsidy for older persons and persons with disabilities",
+     "org": "National Institute of Social Security (INSS)",
+     "what": "A government subsidy paid to older people and persons with disabilities, under the responsibility of the National Institute of Social Security. The Ombudsman for Human Rights and Justice monitored payments in Oé-Cusse in September 2025.",
+     "how": "Ask the National Institute of Social Security (INSS) or your local administrative post about the subsidy.",
+     "url": "https://www.pdhj.tl/en/pdhj-monitors-subsidy-payments-for-elderly-and-persons-with-disabilities-in-oe-cusse/",
+     "sources": [
+      "https://www.pdhj.tl/en/pdhj-monitors-subsidy-payments-for-elderly-and-persons-with-disabilities-in-oe-cusse/"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "TO",
+   "slug": "tonga",
+   "name": "Tonga",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police. Or police: 922; ambulance: 933; fire: 999",
+    "source": "https://www.gov.uk/foreign-travel-advice/tonga/getting-help"
+   },
+   "resources": [
+    {
+     "id": "to-wccc",
+     "section": "help-now",
+     "name": "Women and Children Crisis Centre",
+     "org": "Listed by the United Nations in the Pacific",
+     "what": "Counselling, case management, referrals and temporary shelter for women and children facing violence, with a toll-free line open 24 hours. The centre is on Taufa’ahau Road, Nuku’alofa. It is a violence support service, not a general mental health line.",
+     "how": "Call 0800444, free, any hour, or the centre on 22240. In an emergency, call 922 (police).",
+     "phone": "0800444",
+     "dial": "0800444",
+     "sources": [
+      "https://pacific.un.org/sites/default/files/2024-04/Resource%20Book%20about%20DV%20for%20UN%20Staff%20in%20the%20Pacific_FINAL.pdf"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "to-disability-welfare",
+     "section": "money",
+     "name": "Disability Welfare Scheme",
+     "org": "Social Protection and Disability Division, Ministry of Internal Affairs",
+     "what": "A monthly payment for persons with disabilities: T$50 (pa’anga) a month for mild, T$80 for moderate and T$100 for severe conditions. 2,502 people had received it by January 2023, the Government of Tonga reported in 2024. The Ministry of Internal Affairs’ Social Protection and Disability Division runs the scheme.",
+     "how": "Ask the Social Protection and Disability Division of the Ministry of Internal Affairs.",
+     "url": "https://unwomen.org/sites/default/files/2024-09/b30_report_tonga_en.pdf",
+     "sources": [
+      "https://unwomen.org/sites/default/files/2024-09/b30_report_tonga_en.pdf",
+      "https://pmo.gov.to/wp-content/uploads/2026/01/Final-MIA-CP-2025-2028.pdf"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
     }
    ]
   }
