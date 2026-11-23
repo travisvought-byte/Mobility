@@ -1,5 +1,5 @@
 {
- "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day; Benin, the Federated States of Micronesia, Gabon, Honduras, Kiribati, Kyrgyzstan, Tajikistan and Togo added after that the same day; Algeria, Dominica, Eswatini, Iran, Iraq, Saint Vincent and the Grenadines, Syria, Timor-Leste and Tonga added November 23, 2026): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
+ "note": "Disability help outside the United States, built into world.html and countries/<slug>.html by scripts/build_world_pages.py. Added November 19, 2026 at the owner's request (Jamaica, Kenya, Mexico and Nigeria added November 20, 2026; Bangladesh, Barbados, the Bahamas, Ghana, Malaysia, Pakistan, Singapore, Tanzania, Trinidad and Tobago, Uganda, Zambia and Zimbabwe added November 21, 2026; Argentina, Brazil, Chile, Colombia, France, Germany, Italy, the Netherlands, Peru, Poland and Spain added the same day; Austria, Belgium, Costa Rica, Denmark, Ecuador, Israel, Japan, Norway, Portugal, South Korea, Sweden and Switzerland added later the same day; the Czech Republic, Egypt, Finland, Greece, Guatemala, Indonesia, Romania, Thailand, Turkey, the United Arab Emirates, Uruguay and Vietnam added later still the same day; Croatia, Hungary, Nepal, Rwanda, Saudi Arabia, Sri Lanka, Taiwan and Ukraine added after that the same day; Botswana, Bulgaria, Cambodia, El Salvador, Hong Kong, Lithuania, Namibia, Paraguay, Qatar, Serbia and Slovakia added after that the same day; Cyprus, Estonia, Iceland, Latvia, Luxembourg, Malta, Mongolia, Oman and Slovenia added after that the same day; Albania, Armenia, Bahrain, Bosnia and Herzegovina, Fiji, Georgia, Kazakhstan, Mauritius, Moldova, Montenegro, North Macedonia and Tunisia added after that the same day; Azerbaijan, Belize, Bhutan, Brunei, Guyana, Lebanon, the Maldives, Nicaragua, Senegal and Uzbekistan added after that the same day; Andorra, Angola, Belarus, China, Côte d'Ivoire, Liechtenstein, Mozambique, Russia, Saint Lucia and Suriname added after that the same day; Burkina Faso, Lesotho, Saint Kitts and Nevis, Samoa, Sierra Leone, the Solomon Islands and Vanuatu added last the same day; Bolivia, Cameroon, the Democratic Republic of the Congo, the Marshall Islands, Palau, Panama and San Marino added November 22, 2026; Antigua and Barbuda, Grenada, Laos, Liberia, Madagascar, Malawi, Monaco and Seychelles added later the same day; Benin, the Federated States of Micronesia, Gabon, Honduras, Kiribati, Kyrgyzstan, Tajikistan and Togo added after that the same day; Algeria, Dominica, Eswatini, Iran, Iraq, Saint Vincent and the Grenadines, Syria, Timor-Leste and Tonga added November 23, 2026; the Dominican Republic, the Gambia, Jordan, Morocco, Papua New Guinea and the Republic of the Congo added later the same day): Mobility Talk is to become global, not only U.S. Every listing names the pages it was checked against and the date. 'phone' is printed the way the country writes it; 'dial' is the digits a phone in that country dials, or a full +country number for a line called from abroad. A listing taken from a directory or news page rather than the program's own page carries record_status 'directory_listed' and shows the confirm-details note. The crisis lines and emergency numbers were checked the same day for Yoga Mom Talk's worldwide pages and are kept in step with them. A 'dial' that starts with * is a mobile short code, such as Chile's *4141. Georgia is the country in the Caucasus: its 'title_name' puts '(the country)' in the page title and its 'us_state_slug' links the U.S. state page, so it is not confused with states/georgia.html.",
  "reviewed_on": "2026-11-21",
  "sections": {
   "help-now": "Crisis and someone to talk to",
@@ -9036,6 +9036,260 @@
       "https://pmo.gov.to/wp-content/uploads/2026/01/Final-MIA-CP-2025-2028.pdf"
      ],
      "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "DO",
+   "slug": "dominican-republic",
+   "name": "Dominican Republic",
+   "emergency": {
+    "number": "911",
+    "label": "Ambulance, fire and police. The UK government says 911 does not cover the whole country",
+    "source": "https://www.gov.uk/foreign-travel-advice/dominican-republic/getting-help"
+   },
+   "resources": [
+    {
+     "id": "do-linea-vida",
+     "section": "help-now",
+     "name": "Línea Vida",
+     "org": "Listed by UNFPA",
+     "what": "A free line, open 24 hours a day, every day, for reporting violence. UNFPA lists it on its leaflet for victims of violence in the Dominican Republic, with Línea Mujer (*212) for emergencies. It is a violence line, not a general mental health line.",
+     "how": "Call 809-200-1202, free, any hour. In an emergency, Línea Mujer is *212, also free and open any hour. In Spanish.",
+     "url": "https://dominicanrepublic.unfpa.org/sites/default/files/pub-pdf/victima_de_violencia_flyer.pdf",
+     "phone": "809-200-1202",
+     "dial": "8092001202",
+     "sources": [
+      "https://dominicanrepublic.unfpa.org/sites/default/files/pub-pdf/victima_de_violencia_flyer.pdf"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "do-conadis",
+     "section": "start",
+     "name": "Disability certificate and support devices",
+     "org": "Consejo Nacional de Discapacidad (CONADIS)",
+     "what": "CONADIS, the national disability council, assesses and registers persons with disabilities and issues the disability certificate (Valoración, Registro y Certificado de Discapacidad). It also assesses people for support devices and hands them out, gives legal help on disability rights, refers certified children to the Supérate programme and sends applications for solidarity pensions to the Dirección de Pensiones. Its 2024 service sheet said it had no support devices in stock to hand out that year.",
+     "how": "Ask CONADIS in Santo Domingo, near Avenida 27 de Febrero, for an assessment. In Spanish.",
+     "url": "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638872563317685941-Informe-de-Autoevaluacin-CONADIS-2025.pdf",
+     "sources": [
+      "https://www.sismap.gob.do/GestionPublica/uploads/evidencias/638872563317685941-Informe-de-Autoevaluacin-CONADIS-2025.pdf",
+      "https://sismap.gob.do/GestionPublica/uploads/evidencias/638556120378288289-Ficha-tcnica-CONADIS--2024-.pdf"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "GM",
+   "slug": "gambia",
+   "name": "Gambia",
+   "emergency": {
+    "number": "117",
+    "label": "Police. Medical emergencies: 116; fire and rescue: 118",
+    "source": "https://www.smartraveller.gov.au/destinations/africa/gambia"
+   },
+   "resources": [
+    {
+     "id": "gm-199",
+     "section": "help-now",
+     "name": "Gender-based violence helpline 199",
+     "org": "Gender Management Information System call centre, listed by UNFPA",
+     "what": "A call centre for survivors of gender-based violence, answered at any time and from anywhere in the Gambia, UNFPA reported in August 2023. Its cost is not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 199, any hour. In an emergency, call 117 (police) or 116 (medical).",
+     "url": "https://gambia.unfpa.org/en/node/163164",
+     "phone": "199",
+     "dial": "199",
+     "sources": [
+      "https://gambia.unfpa.org/en/node/163164"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "gm-disability-act",
+     "section": "rights",
+     "name": "Persons with Disabilities Act 2021",
+     "org": "Ministry of Gender, Children and Social Welfare",
+     "what": "The law that sets out the rights of persons with disabilities in the Gambia. It sets up an Advisory Council for Persons with Disabilities and a Disability Unit headed by the Director of Social Welfare, who keeps a national register of persons with disabilities; every local government authority also keeps a register and must help persons with disabilities to become self-reliant. It creates a National Fund for persons with disabilities, and gives private employers with ten or more employees with disabilities a 15 per cent tax deduction.",
+     "how": "Ask the Disability Unit of the Director of Social Welfare, or your local government authority, to be put on the register.",
+     "url": "https://mogcsw.gov.gm/wp-content/uploads/2024/09/Persons-with-Disabilities-Act-20211.pdf",
+     "sources": [
+      "https://mogcsw.gov.gm/wp-content/uploads/2024/09/Persons-with-Disabilities-Act-20211.pdf"
+     ],
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "JO",
+   "slug": "jordan",
+   "name": "Jordan",
+   "emergency": {
+    "number": "911",
+    "label": "The unified emergency number. Civil Defence: 199",
+    "source": "https://form.jordan.gov.jo/wps/portal/Home/Connect/ImportantNumbers"
+   },
+   "resources": [
+    {
+     "id": "jo-family-protection",
+     "section": "help-now",
+     "name": "Family Protection Department",
+     "org": "Listed by UNHCR",
+     "what": "The department that responds to violence in the family and to children at risk. UNHCR lists it with a WhatsApp number and says all the services it lists are free; it does not give hours for the WhatsApp line. It is a violence service reached through the emergency number, not a general mental health line.",
+     "how": "Call the unified emergency number and ask for Family Protection, or send a WhatsApp message to +962 790 193 193. Free.",
+     "url": "https://help.unhcr.org/jordan/en/helpful-services-unhcr/response-services-for-survivors-of-sexual-and-gender-based-violence-including-family-violence-and-children-at-risk/",
+     "phone": "911",
+     "dial": "911",
+     "sources": [
+      "https://help.unhcr.org/jordan/en/helpful-services-unhcr/response-services-for-survivors-of-sexual-and-gender-based-violence-including-family-violence-and-children-at-risk/",
+      "https://form.jordan.gov.jo/wps/portal/Home/Connect/ImportantNumbers"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "jo-disability-card",
+     "section": "start",
+     "name": "Disability identification card",
+     "org": "Higher Council for the Rights of Persons with Disabilities (HCD)",
+     "what": "The HCD issues the disability ID card. After it reworked the system, applications go through an online portal on the Sanad app and the HCD website, the Jordan News Agency reported in August 2026, while the council cleared a backlog; the urgent cases it named involved health insurance cover, university admission and domestic worker permit renewals. The council said it was setting up a hotline for questions but gave no number.",
+     "how": "Apply online through the Sanad app or the HCD website.",
+     "url": "https://hcd.gov.jo/EN/Pages/About_The_Council",
+     "sources": [
+      "https://www.petra.gov.jo/en/news/disability-council-addresses-id-card-backlog-after-system-overhaul",
+      "https://hcd.gov.jo/EN/Pages/About_The_Council"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "MA",
+   "slug": "morocco",
+   "name": "Morocco",
+   "emergency": {
+    "number": "19",
+    "label": "Police. Ambulance (SAMU) and fire service: 15",
+    "source": "https://www.sante.gov.ma/urgences/Pages/default.aspx"
+   },
+   "resources": [
+    {
+     "id": "ma-women-violence-unit",
+     "section": "help-now",
+     "name": "Central unit for women victims of violence",
+     "org": "Ministry of Solidarity, Social Development, Equality and Family",
+     "what": "The ministry’s central unit for the care of women victims of violence (Cellule centrale de prise en charge des femmes victimes de violence). It is a government office, not a crisis line: its hours and cost are not stated, so it may answer only in working hours.",
+     "how": "Call 05 37 27 65 66. In an emergency, call 19 (police) or 15 (ambulance).",
+     "url": "https://social.gov.ma/services-destines-aux-femmes/",
+     "phone": "05 37 27 65 66",
+     "dial": "0537276566",
+     "sources": [
+      "https://social.gov.ma/services-destines-aux-femmes/"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "ma-disability-services",
+     "section": "start",
+     "name": "Disability certificate and the Social Cohesion Support Fund",
+     "org": "Ministry of Solidarity, Social Development, Equality and Family",
+     "what": "The ministry lists its services for persons with disabilities: a disability certificate (certificat d’invalidité), requested online, and the Social Cohesion Support Fund (Fonds d’appui à la cohésion sociale), which helps with equipment and technical aids, schooling for children with disabilities, work and income-generating activities, and reception centres. It also lists reduced import duty on cars for persons with disabilities, public-sector job quotas, and help at stations, airports and ports.",
+     "how": "Request the certificate online at khadamty.social.gov.ma, and ask the ministry about the fund.",
+     "url": "https://social.gov.ma/services-destines-aux-personnes-handicapees/",
+     "sources": [
+      "https://social.gov.ma/services-destines-aux-personnes-handicapees/"
+     ],
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "PG",
+   "slug": "papua-new-guinea",
+   "name": "Papua New Guinea",
+   "emergency": {
+    "number": "112",
+    "label": "Police. Ambulance: 111; fire: 110",
+    "source": "https://www.gov.uk/foreign-travel-advice/papua-new-guinea/getting-help"
+   },
+   "resources": [
+    {
+     "id": "pg-1tok",
+     "section": "help-now",
+     "name": "1-Tok Kaunselin Helpim Lain",
+     "org": "Listed by UNFPA and the United Nations in Papua New Guinea",
+     "what": "Free phone counselling and referrals for anyone who is struggling and needs support, including people in a violent or abusive relationship. UNFPA says it is open 24 hours a day, 7 days a week, and free to call from Digicel.",
+     "how": "Call 7150 8000, free from Digicel, any hour. In an emergency, call 112 (police) or 111 (ambulance).",
+     "url": "https://png.unfpa.org/en/node/108667",
+     "phone": "7150 8000",
+     "dial": "71508000",
+     "sources": [
+      "https://png.unfpa.org/en/node/108667",
+      "https://papuanewguinea.un.org/en/node/96445"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "pg-disability-services-bill",
+     "section": "rights",
+     "name": "Disability Services Bill 2025 and National Policy on Disability",
+     "org": "Department for Community Development and Religion",
+     "what": "In July 2025 Parliament unanimously passed the Disability Services Bill 2025, a legal framework to protect the rights of persons with disabilities. The Department for Community Development and Religion led the groundwork and is putting it into practice with the United Nations. It follows the National Policy on Disability 2015–2025, the national plan for the disability sector. The official pages do not yet say how to register or apply for services.",
+     "how": "Ask the Department for Community Development and Religion.",
+     "url": "https://papuanewguinea.un.org/en/node/298982",
+     "sources": [
+      "https://papuanewguinea.un.org/en/node/298982",
+      "https://www.pmnec.gov.pg/prime-minister-marape-hails-passage-of-historic-disability-services-bill-as-a-50th-anniversary-gift-to-over-1-5-million-papua-new-guineans/",
+      "https://extranet.who.int/mindbank/item/7260"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "code": "CG",
+   "slug": "republic-of-the-congo",
+   "name": "Republic of the Congo",
+   "emergency": {
+    "number": "066654804",
+    "label": "Police (06 665 4804). There is no central number for emergency services, and the UK government says phone numbers can be unreliable",
+    "source": "https://www.gov.uk/foreign-travel-advice/congo/getting-help"
+   },
+   "resources": [
+    {
+     "id": "cg-1444",
+     "section": "help-now",
+     "name": "Emergency line 14 44 (violence)",
+     "org": "Government of the Republic of the Congo",
+     "what": "A short emergency number for reporting violence, in service since 5 March 2018. The government told UN Women in June 2024 that it had moved to a dedicated platform in 2023 and was being publicised in all twelve departments. Its hours and cost are not stated. It is a violence line, not a general mental health line.",
+     "how": "Call 14 44. In an emergency, call the police on 06 665 4804.",
+     "url": "https://unwomen.org/sites/default/files/2024-09/b30_report_congo_fr.pdf",
+     "phone": "14 44",
+     "dial": "1444",
+     "sources": [
+      "https://unwomen.org/sites/default/files/2024-09/b30_report_congo_fr.pdf"
+     ],
+     "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "cg-disability-law",
+     "section": "rights",
+     "name": "Law 18-2025 on the rights of persons living with disabilities",
+     "org": "Ministry of Social Affairs, Solidarity and Humanitarian Action",
+     "what": "Law no. 18-2025 of 25 July 2025 protects and promotes the rights of persons living with disabilities. It creates a disability card (carte d’invalidité), whose conditions and benefits a decree is to set; gives the right to health, rehabilitation and social protection; guarantees access to ordinary and specialised schooling; requires public bodies and public and private companies to reserve a quota of jobs; and gives fare reductions and priority on public transport, plus tax relief on imported assistive devices.",
+     "how": "Ask the ministry in charge of social action about the disability card and support.",
+     "url": "https://www.sgg.cg/textes-officiels/lois/2025/congo-loi-2025-18.pdf",
+     "sources": [
+      "https://www.sgg.cg/textes-officiels/lois/2025/congo-loi-2025-18.pdf"
+     ],
      "reviewed_on": "2026-11-23"
     }
    ]
