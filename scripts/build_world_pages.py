@@ -94,7 +94,7 @@ def card(r, place=''):
 
 # Country names that read with "the" in a sentence ("in the Solomon Islands"); the list and page titles keep the bare name.
 THE = ('United Kingdom', 'Philippines', 'Bahamas', 'Netherlands', 'Czech Republic', 'United Arab Emirates', 'Maldives', 'Solomon Islands',
-       'Marshall Islands', 'Democratic Republic of the Congo')
+       'Marshall Islands', 'Democratic Republic of the Congo', 'Federated States of Micronesia')
 
 
 def the(name):
