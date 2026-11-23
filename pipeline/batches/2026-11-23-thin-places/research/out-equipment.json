@@ -1,0 +1,709 @@
+[
+ {
+  "place": "AR",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "SOURCES Loan Closet",
+  "org": "SOURCES for Community Independent Living, Inc.",
+  "what": "Lends cleaned and refurbished durable medical equipment such as wheelchairs (manual and motorized), crutches, commodes, canes and transfer boards free of charge, with no eligibility requirement. Loans are usually short-term, for example after surgery or while your own equipment is being repaired.",
+  "next_step": "Call SOURCES and ask whether the loan closet has the item you need and how to pick it up.",
+  "scope": "counties",
+  "counties": [
+   "Benton",
+   "Washington",
+   "Madison",
+   "Carroll"
+  ],
+  "phone": "(479) 442-5600",
+  "url": "https://arsources.org/loancloset",
+  "sources": [
+   "https://arsources.org/loancloset"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own loan closet page says equipment is loaned free with no eligibility requirement and names the four counties served."
+ },
+ {
+  "place": "AR",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "ASCC Equipment Loan Program (Regional Loan Closets)",
+  "org": "Arkansas Spinal Cord Commission",
+  "what": "Runs 12 regional loan closets (Little Rock central office and each field office) that lend manual and power wheelchairs, walkers, portable ramps, cushions and bathroom equipment to ASCC clients for emergencies, temporary needs or to try an item before buying. All ASCC clients are eligible regardless of income.",
+  "next_step": "If you are an ASCC client, call your ASCC case manager (or the central office) and ask to borrow equipment from the nearest regional loan closet.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(501) 296-1788",
+  "url": "https://Healthy.arkansas.gov/images/uploads/pdf/ASCC_Equipment_Loan_Program.pdf",
+  "sources": [
+   "https://Healthy.arkansas.gov/images/uploads/pdf/ASCC_Equipment_Loan_Program.pdf"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "ASCC program sheet on the Arkansas health department site describes the 12 loan closets, equipment and eligibility and lists the central office phone."
+ },
+ {
+  "place": "DC",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Iona Loan Closet",
+  "org": "Iona (resources and support for aging adults and caregivers)",
+  "what": "Lends donated, lightly used equipment for free for as long as needed, including non-electric wheelchairs, transport chairs, rollator walkers, tub seats and transfer benches, commodes, grabbers and canes. Open to anyone in need; items must be picked up in person and availability is not guaranteed.",
+  "next_step": "Call Iona's front desk and ask whether the item you need is in the loan closet and which location to pick it up from.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(202) 895-9448",
+  "email": "frontdesk@iona.org",
+  "url": "https://iona.org/programs/loan-closet/",
+  "sources": [
+   "https://iona.org/programs/loan-closet/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment is free for as long as needed to anyone in need and lists phone and email."
+ },
+ {
+  "place": "DE",
+  "family": "at-funding",
+  "category": "equipment",
+  "name": "Assistive Devices Program",
+  "org": "Delaware Division of Services for Aging and Adults with Physical Disabilities (DSAAPD)",
+  "what": "Gives adults with disabilities funds to buy or rent new or used assistive devices, such as wheelchairs, shower or bath seats and specialized computers, when no other funding is available. Per-purchase and lifetime limits apply.",
+  "next_step": "Call the Delaware Aging and Disability Resource Center (ADRC) and ask to enroll in the DSAAPD Assistive Devices Program.",
+  "scope": "statewide",
+  "counties": [],
+  "url": "https://dhss.delaware.gov/dsaapd/assisttech/",
+  "sources": [
+   "https://dhss.delaware.gov/dsaapd/assisttech/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own state page says the program funds purchase or rental of new or used devices statewide, enrollment through the ADRC; no phone printed."
+ },
+ {
+  "place": "ID",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Medical Equipment Exchange",
+  "org": "Disability Action Center NW",
+  "what": "Gives donated durable medical equipment free of charge to people with temporary or permanent disabilities who could not otherwise afford it, including manual and power wheelchairs, scooters, bath benches, ramps, transfer boards, crutches and walkers. Offices are in Lewiston, Moscow and Post Falls (north Idaho).",
+  "next_step": "Call your nearest Disability Action Center NW office and ask about the Medical Equipment Exchange.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "800.475.0070",
+  "url": "https://dacnw.org/services/medical-equipment-exchange/",
+  "sources": [
+   "https://dacnw.org/services/medical-equipment-exchange/",
+   "https://dacnw.org/about/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment is provided free to people with disabilities and lists office phones including a toll-free line."
+ },
+ {
+  "place": "ID",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Assistive Technology and Equipment Loan Library",
+  "org": "Living Independently For Everyone (LIFE), Inc.",
+  "what": "Lends assistive technology and durable medical equipment for up to 3 months at no cost, including communication devices, iPads, transfer benches, shower chairs, walkers, wheelchairs and scooters; gently used equipment is also available. Offices are in Blackfoot, Idaho Falls, Burley and Pocatello (southeast Idaho).",
+  "next_step": "Call your nearest LIFE office and ask what equipment is available to borrow.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(208) 232-2747",
+  "email": "info@idlife.org",
+  "url": "https://idlife.org/assistive-technology/",
+  "sources": [
+   "https://idlife.org/assistive-technology/",
+   "https://idlife.org/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own assistive technology page says loans are up to 3 months at no cost to consumers and lists office phones and email."
+ },
+ {
+  "place": "IN",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Wheelchair Help",
+  "org": "Wheelchair Help",
+  "what": "Provides loaner wheelchairs, scooters, lift chairs, lifts, walkers and bath seats, plus help getting mobility equipment that Medicare, Medicaid and insurance do not cover. Services are limited to people within 50 miles of Elkhart.",
+  "next_step": "Call Wheelchair Help and ask about a loaner or other help with the equipment you need.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "574-295-2230",
+  "url": "https://www.wheelchairhelp.org/",
+  "sources": [
+   "https://www.wheelchairhelp.org/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own home page lists loaner and assistance programs, the 50-mile service limit, address and phone."
+ },
+ {
+  "place": "IN",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Equipment Loans",
+  "org": "Turnstone",
+  "what": "Lends gently used adaptive equipment free to people with disabilities, including wheelchairs, commodes, shower chairs, crutches, canes, walkers and grab bars, first come first served. Pick-up is at Turnstone in Fort Wayne; it does not deliver.",
+  "next_step": "Call Turnstone at least 48 hours before you want to pick up and ask whether the item is available.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(260) 483-2100",
+  "url": "https://turnstone.org/services/equipment-loans/",
+  "sources": [
+   "https://turnstone.org/services/equipment-loans/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own equipment loans page says loans are free to individuals with disabilities and lists phone and pick-up hours."
+ },
+ {
+  "place": "KS",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Medical Loan Closet",
+  "org": "Medical Loan Closet of Wichita",
+  "what": "Lends durable medical equipment such as wheelchairs, walkers, rollators, bed rails, lifts, commodes and bath stools to underserved people and people with insurance problems in the Wichita area. You sign a borrower agreement and pick items up at the store.",
+  "next_step": "Call the Medical Loan Closet to confirm the item is available and ask about any fee before you go.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(316) 779-8989",
+  "url": "https://medicalloancloset.com/index.php?alias=home",
+  "sources": [
+   "https://medicalloancloset.com/index.php?alias=home"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own home page describes loans to underserved people and lists Wichita address and phone; fees not stated."
+ },
+ {
+  "place": "KS",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Medical Equipment Loan Program",
+  "org": "Three Rivers, Inc. (Center for Independent Living)",
+  "what": "Lends medical equipment at no charge to anyone in need. Three Rivers is a center for independent living based in Wamego in northeast Kansas.",
+  "next_step": "Call Three Rivers and ask what medical equipment is available to borrow.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(785) 456-9915",
+  "url": "https://www.threeriversinc.org/medical-equipment-loan-program.html",
+  "sources": [
+   "https://www.threeriversinc.org/medical-equipment-loan-program.html"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment is lent at no charge to anyone in need and lists phone."
+ },
+ {
+  "place": "KS",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "PILR Loan Closet",
+  "org": "Prairie Independent Living Resource Center (PILR)",
+  "what": "Lends equipment such as toilet risers, walkers, wheelchairs, commodes, shower chairs, canes and video magnifiers for as long as there is a need, for a $5 application fee ($25 for power chairs or scooters).",
+  "next_step": "Call your local PILR office and ask whether the item you need is in the loan closet.",
+  "scope": "statewide",
+  "counties": [],
+  "url": "https://pilr.org/loan-closet/",
+  "sources": [
+   "https://pilr.org/loan-closet/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own loan closet page lists equipment and the $5/$25 application fee; no phone printed on that page."
+ },
+ {
+  "place": "LA",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Loaner Closet",
+  "org": "Southwest Louisiana Independence Center (SLIC)",
+  "what": "Lends durable medical equipment such as wheelchairs, walkers, shower chairs and hospital beds, based on availability, to help people stay safe and independent at home. SLIC has locations in Lake Charles, Lafayette and Leesville.",
+  "next_step": "Call SLIC and ask what is available in the Loaner Closet.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(337) 477-7194",
+  "email": "info@slic-la.org",
+  "url": "https://slic-la.org/services/",
+  "sources": [
+   "https://slic-la.org/services/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own services page describes the Loaner Closet and lists main office phone and email."
+ },
+ {
+  "place": "LA",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "GREEN Program (Giving Recycled/Reusable Equipment for Everyday Needs)",
+  "org": "New Horizons Independent Living Center",
+  "what": "Lends reused manual and power wheelchairs and durable medical equipment such as bedside toilets, shower benches, canes and crutches to people with disabilities. New Horizons serves the 29 parishes of North Louisiana from offices in Shreveport, Alexandria and Monroe.",
+  "next_step": "Contact the New Horizons office closest to you and ask about borrowing equipment through the GREEN program.",
+  "scope": "statewide",
+  "counties": [],
+  "url": "https://nhilc.org/services-and-programs/",
+  "sources": [
+   "https://nhilc.org/services-and-programs/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own services page describes the GREEN reuse/loan program and the 29-parish North Louisiana area; no program phone printed."
+ },
+ {
+  "place": "LA",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Equipment Library",
+  "org": "Families Helping Families of Northeast Louisiana",
+  "what": "Lends equipment commonly used by people with disabilities to families at no cost, from its building in Monroe. If an item is not on hand, staff will try to help you find it.",
+  "next_step": "Call Families Helping Families and ask whether the equipment you need is in the library.",
+  "scope": "counties",
+  "counties": [
+   "Ouachita",
+   "Richland",
+   "Franklin",
+   "Caldwell",
+   "Tensas",
+   "East Carroll",
+   "West Carroll",
+   "Madison",
+   "Union",
+   "Morehouse",
+   "Jackson",
+   "Lincoln"
+  ],
+  "phone": "318.361.0487",
+  "url": "http://fhfnela.org/equipment.php",
+  "sources": [
+   "http://fhfnela.org/equipment.php",
+   "https://seniorsmobility.org/?p=17540"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own equipment page says families borrow at no cost and lists phone and address; parish list from the SeniorsMobility Louisiana directory page."
+ },
+ {
+  "place": "ME",
+  "family": "assistive-tech",
+  "category": "equipment",
+  "name": "Assistive Technology Demo and Loan Libraries",
+  "org": "Pine Tree Society",
+  "what": "Lets anyone try and borrow assistive technology free, in person or by Zoom demo, including short-term loans while your own device is being repaired. Libraries are in Scarborough, Bath and Auburn.",
+  "next_step": "Call Pine Tree Society to book a demo and ask to borrow a device.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "207-386-5930",
+  "email": "communicationpathways@pinetreesociety.org",
+  "url": "https://www.pinetreesociety.org/new-assistive-technology-demo-and-loan-libraries-increase-access-to-life-changing-tools/",
+  "sources": [
+   "https://www.pinetreesociety.org/new-assistive-technology-demo-and-loan-libraries-increase-access-to-life-changing-tools/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page says the libraries are free and open to anyone, lists three locations, demo phone and email."
+ },
+ {
+  "place": "ME",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Medical Equipment Loan Closet",
+  "org": "No Place Like Home",
+  "what": "Lends medical equipment free to eligible seniors in its community, first come first served, including walkers, rollators, canes, crutches, commodes, shower chairs, transfer benches and bed rails. Open Tuesday, Thursday and Saturday 11 a.m. to noon in Kennebunk.",
+  "next_step": "Call No Place Like Home and ask whether the item you need is available and whether you qualify.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(207) 558-2270",
+  "url": "https://www.nplhmaine.org/medical-equipment-loan-closet",
+  "sources": [
+   "https://www.nplhmaine.org/medical-equipment-loan-closet"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own loan closet page says loans are free for eligible seniors and lists Kennebunk location, hours and phone."
+ },
+ {
+  "place": "MS",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Recycle for Rehab",
+  "org": "Methodist Rehabilitation",
+  "what": "Collects new and used durable medical equipment, such as wheelchairs, walkers, canes and shower chairs, and provides it to patients who have no funding or are waiting for funding approval.",
+  "next_step": "Call Methodist Rehabilitation's Recycle for Rehab contact and ask how a patient can request equipment.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(601) 364-3374",
+  "url": "https://methodistrehab.org/services/additional/recycle-for-rehab/",
+  "sources": [
+   "https://methodistrehab.org/services/additional/recycle-for-rehab/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment goes to patients without funding; the listed phone is the donations contact."
+ },
+ {
+  "place": "MS",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Second Time Around",
+  "org": "North Mississippi Medical Center Rehabilitation Institute",
+  "what": "Collects new and used durable medical equipment, such as electric wheelchairs, shower chairs, walkers, canes and crutches, and makes it available to patients who cannot afford it, including uninsured patients or those whose insurance does not cover items like bath equipment. Based in Tupelo.",
+  "next_step": "Call the Rehabilitation Institute and ask how to request equipment from Second Time Around.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(662) 377-4058",
+  "url": "https://nmhs.net/ways-to-give/medical-equipment",
+  "sources": [
+   "https://nmhs.net/ways-to-give/medical-equipment"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page describes the program for patients who cannot afford equipment; the listed phone is for donations."
+ },
+ {
+  "place": "ND",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Adaptive Equipment Services",
+  "org": "Life Skills and Transition Center (LSTC), ND Health and Human Services",
+  "what": "Custom-builds or modifies equipment so people with disabilities of all ages can move around and live more independently, on a sliding fee scale, and runs a free loan program for gently used equipment through ND AT4ALL. Loaned equipment can be delivered or picked up in Grafton.",
+  "next_step": "Fill out the LSTC Adaptive Equipment Services request form and ask about a free equipment loan or a custom build estimate.",
+  "scope": "statewide",
+  "counties": [],
+  "url": "https://www.hhs.nd.gov/adaptive-equipment-services",
+  "sources": [
+   "https://www.hhs.nd.gov/adaptive-equipment-services"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own state page describes custom equipment on a sliding fee scale and a free loan program open to North Dakotans; no phone printed."
+ },
+ {
+  "place": "ND",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "HERO (Healthcare Equipment Recycling Organization)",
+  "org": "HERO Fargo",
+  "what": "Nonprofit that sells affordable, gently used medical equipment for recovery, mobility and daily living from its Fargo store, and recycles donated equipment.",
+  "next_step": "Call HERO and ask what equipment is in stock and whether reduced-cost help is available.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(701) 212-1921",
+  "email": "Request@HeroFargo.org",
+  "url": "http://www.herofargo.org/",
+  "sources": [
+   "http://www.herofargo.org/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own home page describes affordable used equipment, Fargo address, phone and email."
+ },
+ {
+  "place": "NE",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Equipment Loan Program",
+  "org": "ALS in the Heartland",
+  "what": "Loans or buys equipment at no charge for people with ALS, including walkers, rollators, manual wheelchairs, patient lifts, shower chairs, commodes and daily-living aids, plus help with communication devices. Serves Nebraska and Iowa from Omaha.",
+  "next_step": "Call ALS in the Heartland and ask about an equipment loan.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "402-592-2374",
+  "url": "https://alsintheheartland.org/what-we-do/equipment-loan-program.html",
+  "sources": [
+   "https://alsintheheartland.org/what-we-do/equipment-loan-program.html",
+   "https://alsintheheartland.org/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment is loaned or purchased at no charge and lists phone and address."
+ },
+ {
+  "place": "NE",
+  "family": "assistive-tech",
+  "category": "equipment",
+  "name": "Tech Tools Technology Library",
+  "org": "United Cerebral Palsy of Nebraska",
+  "what": "Free lending library of hundreds of adapted toys, tools and devices for children, teens and adults, with 10 locations around Nebraska including Omaha, Lincoln, Fremont, Norfolk and Grand Island.",
+  "next_step": "Call UCP of Nebraska and ask how to become a Tech Tools member and borrow devices.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "402-502-3572",
+  "email": "kori@ucpnebraska.org",
+  "url": "https://ucpnebraska.org/programs-services/tech-tools-technology/",
+  "sources": [
+   "https://ucpnebraska.org/programs-services/tech-tools-technology/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page says tools are available at no cost statewide and lists locations, phone and email."
+ },
+ {
+  "place": "NM",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Back In Use",
+  "org": "Adelante",
+  "what": "Gives inspected, cleaned durable medical equipment such as wheelchairs, walkers and hospital beds free of charge to people with disabilities, seniors and people who are underinsured. Some devices require disability documentation.",
+  "next_step": "Call Adelante's new equipment request line and ask for an item from Back In Use.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "505.445.5332",
+  "url": "https://goadelante.org/disability-services/assistive-equipment-biu/",
+  "sources": [
+   "https://goadelante.org/disability-services/assistive-equipment-biu/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment is free to the end user and lists request and donation phones."
+ },
+ {
+  "place": "NM",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Equipment Loan",
+  "org": "Coming Home Connection",
+  "what": "Gives out donated new and gently used medical equipment and supplies, such as walkers and wheelchairs, free for the asking; borrowers are asked to pass items on when done. Based in Santa Fe.",
+  "next_step": "Call Coming Home Connection and ask whether the equipment you need is available.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(505) 988 2468",
+  "email": "info@cominghomeconnection.org",
+  "url": "https://www.cominghomeconnection.org/services/",
+  "sources": [
+   "https://www.cominghomeconnection.org/services/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own services page says items are available free for the asking and lists phone and email."
+ },
+ {
+  "place": "RI",
+  "family": "assistive-tech",
+  "category": "equipment",
+  "name": "TechACCESS of Rhode Island",
+  "org": "TechACCESS of Rhode Island",
+  "what": "Assistive technology center in Cranston offering free device demonstrations and device loans, and a pick-up and drop-off site for the state's adaptive telephone equipment loan program (ATEL).",
+  "next_step": "Call TechACCESS and ask about borrowing a device or arranging a demonstration.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(401) 463-0202",
+  "email": "techaccess@techaccess-ri.org",
+  "url": "https://www.techaccess-ri.org/demonstrations/",
+  "sources": [
+   "https://www.techaccess-ri.org/demonstrations/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page lists free demonstrations, device loans link, ATEL pick-up role, address, phone and email; loan terms not stated."
+ },
+ {
+  "place": "SC",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "MedNeed of SC",
+  "org": "MedNeed of SC",
+  "what": "Charity that provides medical equipment, including wheelchairs, hospital beds, walkers, ramps, shower chairs, commodes and some pediatric equipment, to uninsured and low-income people of all ages anywhere in South Carolina. You must show medical necessity and inability to pay.",
+  "next_step": "Call MedNeed of SC and ask how to apply for the equipment you need.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "803-622-7827",
+  "email": "medneedofsc@yahoo.com",
+  "url": "http://www.medneedofsc.com/home",
+  "sources": [
+   "http://www.medneedofsc.com/home"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own home page states statewide service, eligibility, phone, email and mailing address."
+ },
+ {
+  "place": "SC",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Refurbished Durable Medical Equipment",
+  "org": "AccessAbility",
+  "what": "Provides refurbished durable medical equipment to people with disabilities in need, and also rents refurbished equipment for a fee.",
+  "next_step": "Call AccessAbility and ask whether refurbished equipment is available for you at no cost.",
+  "scope": "counties",
+  "counties": [
+   "Berkeley",
+   "Charleston",
+   "Dorchester",
+   "Orangeburg",
+   "Williamsburg"
+  ],
+  "phone": "843-225-5080",
+  "email": "info@abilitysc.org",
+  "url": "https://www.abilitysc.org/what-we-can-do/",
+  "sources": [
+   "https://www.abilitysc.org/what-we-can-do/",
+   "https://seniorsmobility.org/free-medical-equipment/free-medical-equipment-in-south-carolina/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own services page lists refurbished DME for people with disabilities in need, phone and email; county list from the SeniorsMobility South Carolina directory page."
+ },
+ {
+  "place": "SC",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Spartanburg Shares Equipment Loan Program",
+  "org": "Spartanburg Shares, A Medical Loan Closet",
+  "what": "Lends medical and mobility equipment such as walkers, wheelchairs, crutches, commodes, shower seats, transfer boards and patient lifts free for 90 days. Based in Spartanburg.",
+  "next_step": "Call Spartanburg Shares and ask whether the item you need is available to borrow.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(864) 504-3699",
+  "email": "info@spartanburgshares.org",
+  "url": "https://www.spartanburgshares.org/equipment-needed",
+  "sources": [
+   "https://www.spartanburgshares.org/equipment-needed"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page says items are lent free for 90 days and lists phone and email."
+ },
+ {
+  "place": "TN",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Equipment Exchange",
+  "org": "United Cerebral Palsy of Middle Tennessee",
+  "what": "Gives donated durable medical and adaptive equipment, such as wheelchairs, scooters, walkers, bath benches, specialized strollers and car seats, standers and gait trainers, to people throughout Tennessee with little or no insurance, regardless of diagnosis. Items are given as is, first requested first served.",
+  "next_step": "Fill out the Equipment Exchange application or call the program director and ask to be put on the list for the item you need.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "615-242-4091, Ext. 105",
+  "email": "Margaret_Eighmy@ucpnashville.org",
+  "url": "https://www.ucpmidtn.org/equipment-exchange/",
+  "sources": [
+   "https://www.ucpmidtn.org/equipment-exchange/"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page describes eligibility, statewide service, application process, phone and email."
+ },
+ {
+  "place": "TN",
+  "family": "at-reuse",
+  "category": "equipment",
+  "name": "Project ProCure",
+  "org": "Cookeville Regional Charitable Foundation",
+  "what": "Provides donated new and used medical equipment, such as wheelchairs, walkers, hospital beds, braces and hearing aids, at no cost to underinsured, uninsured and low-income patients and families who are screened as unable to afford it.",
+  "next_step": "Contact Cookeville Regional Charitable Foundation and ask how to apply to Project ProCure.",
+  "scope": "statewide",
+  "counties": [],
+  "url": "https://cookevilleregionalcharity.org/project-procure",
+  "sources": [
+   "https://cookevilleregionalcharity.org/project-procure"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says equipment is provided at no cost after screening; no phone printed on that page."
+ },
+ {
+  "place": "VT",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Durable Medical Equipment Loan Program",
+  "org": "Putney Community Cares, Inc.",
+  "what": "Lends donated used medical equipment free of charge, mainly to low-income seniors and people with disabilities, including wheelchairs, walkers, commodes, canes, crutches and shower chairs. No geographic restrictions, though most borrowers are in Vermont; hospital beds and power chairs are not stocked.",
+  "next_step": "Call Putney Community Cares and ask whether the item you need is available or to join the waitlist.",
+  "scope": "statewide",
+  "counties": [],
+  "phone": "(802) 387-5593",
+  "url": "https://www.putneycommunitycares.org/durable-medical-equipment-loan",
+  "sources": [
+   "https://www.putneycommunitycares.org/durable-medical-equipment-loan"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own program page says loans are free, describes who it serves and lists phone."
+ },
+ {
+  "place": "WV",
+  "family": "loan-closet",
+  "category": "equipment",
+  "name": "Assistive Technology Loaner Program",
+  "org": "Mountain State Centers for Independent Living",
+  "what": "Lends assistive technology devices for short periods to consumers and the public, for example while you look for funding to buy one, and helps with funding applications and referrals.",
+  "next_step": "Contact Mountain State Centers for Independent Living and ask to borrow a device through the loaner program.",
+  "scope": "statewide",
+  "counties": [],
+  "url": "http://mtstcil.org/services/wvats.html",
+  "sources": [
+   "http://mtstcil.org/services/wvats.html"
+  ],
+  "reviewed_on": "2026-11-23",
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page describes short-term device loans and funding help; no phone for the center printed on that page."
+ },
+ {
+  "skipped": [
+   {
+    "place": "HI",
+    "what": "Aloha Independent Living Hawaii equipment giveaways",
+    "why": "Home page failed to load; only an old news post read, with no area code on the phone; no other Hawaii lender beyond the existing ATRC listing found before the search limit was reached"
+   },
+   {
+    "place": "DE",
+    "what": "Nonprofit loan closets",
+    "why": "No Delaware nonprofit loan closet with its own page found before the search limit (directory showed only DATI, already listed)"
+   },
+   {
+    "place": "RI",
+    "what": "Masonic Robert J. Allen Medical Equipment Distribution Center; Ocean State Center for Independent Living loans",
+    "why": "Own pages failed to load"
+   },
+   {
+    "place": "SC",
+    "what": "Hospice & Community Care Caring Closet",
+    "why": "Own page failed to load"
+   },
+   {
+    "place": "KS",
+    "what": "ILRC Medical Equipment Recycling Network (Wichita)",
+    "why": "Own page failed to load"
+   },
+   {
+    "place": "KS",
+    "what": "Capper Foundation John K. Knoll Mobility Bank",
+    "why": "Own page gives no area, phone or cost"
+   },
+   {
+    "place": "TN",
+    "what": "STAR Center DME; Signal Centers device loans; SPARK medical equipment loan",
+    "why": "Own pages errored or did not describe the program"
+   },
+   {
+    "place": "ND",
+    "what": "NDAD Healthcare Equipment Loan Program",
+    "why": "Own pages read did not describe loan terms"
+   },
+   {
+    "place": "NE",
+    "what": "League of Human Dignity equipment loans; AOWN DME loans",
+    "why": "League page did not describe loans; AOWN page gives no phone or area"
+   },
+   {
+    "place": "VT",
+    "what": "C.I.D.E.R. equipment lending closet",
+    "why": "Own page failed to load"
+   },
+   {
+    "place": "MULTI",
+    "what": "ALS Association regional DME loan programs",
+    "why": "als.org program pages do not state which states or region they serve"
+   },
+   {
+    "place": "ALL",
+    "what": "Further research",
+    "why": "Shared web search budget for this turn ran out midway; RI, WV, VT, DE and HI got fewer candidates than intended"
+   }
+  ]
+ }
+]

@@ -56,6 +56,10 @@ Mobility Talk is going global, not only U.S. (owner direction, November 19, 2026
 
 All of it is built by `scripts/build_world_pages.py` from `data/world.json`; do not edit the pages by hand. Each listing names the pages it was checked against and the date, prints its number the way the country writes it, and dials the `dial` digits (the builder stops if they differ). A listing read from a directory or news page rather than the program's own page carries `record_status: directory_listed` and shows the confirm-details note. The crisis lines and emergency numbers match Yoga Mom Talk's worldwide data, checked the same day. Every main menu links the worldwide page after "All states", and the home page points to it under the need grid. Country pages carry no ad slot. A country whose name reads with "the" in a sentence (the Bahamas, the Solomon Islands) is listed in the builder's `THE` tuple, which the country page and the world page's list of names both use. To add a country, add it to `data/world.json` and rebuild; `tests/world.cjs` checks every listing, number, source, link, menu and sitemap entry.
 
+## Data pipeline
+
+Listings are mined in repeatable batches (November 23, 2026): `pipeline/registry.json` names the source families and where to look, `scripts/mining/stage.py` normalizes and deduplicates researcher output into `pipeline/batches/<date>-<name>/candidates.csv`, `scripts/mining/promote.py` publishes the new rows, and `scripts/mining/coverage.py` writes `docs/COVERAGE.md`, the list of thin places and missing families that sets the next batch. `scripts/mining/fetch_open_data.py` stages open data (the FTA National Transit Database) for review. How to run it from cold: `docs/DATA-PIPELINE.md`.
+
 ## Related
 Local county and veteran referrals stay in the [Veteran Resource Guide](https://github.com/travisvought-byte/vhg-veteran-resident-guide) (guide.vethomeguard.org). This site links to it for local help.
 

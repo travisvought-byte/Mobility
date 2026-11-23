@@ -1658,6 +1658,23 @@
       "https://campaigning.sightsavers.org/news/2025/11/zimbabwe-passes-persons-with-disabilities-act/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "zw-disability-agency-ministry-of-public-service-lab",
+     "section": "start",
+     "name": "Disability Affairs, Department of Social Development",
+     "org": "Ministry of Public Service, Labour and Social Welfare",
+     "what": "Through district Social Welfare offices it helps persons with disabilities with medical treatment vouchers (AMTO), assistive devices such as wheelchairs and crutches through the Disability Fund, loans and grants, school fees under BEAM and vocational training at National Rehabilitation Centres.",
+     "how": "Apply at your Department of Social Welfare district office with a birth certificate, national ID and proof of disability from a government hospital, or call the toll-free line 1980.",
+     "phone": "1980",
+     "dial": "1980",
+     "email": "support@mpslsw.gov.zw",
+     "url": "https://mpslsw.gov.zw/?page_id=4460",
+     "sources": [
+      "https://mpslsw.gov.zw/?page_id=4460",
+      "https://www.mpslsw.gov.zw/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -3583,6 +3600,20 @@
       "https://www.btl.gov.il/English%20Homepage/Benefits/Disability%20Insurance/Pages/Whoisentitledtoamonthlydisabilitypension.aspx"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "il-equality-body-ministry-of-justice-state-of-i",
+     "section": "rights",
+     "name": "Commission for Equal Rights of Persons with Disabilities",
+     "org": "Ministry of Justice, State of Israel",
+     "what": "Handles inquiries and complaints about discrimination against disabled people and about accessibility; it can investigate, take civil or criminal action, and give advice and representation in employment matters.",
+     "how": "Contact the Commission's public inquiries unit, or submit an inquiry or complaint through its gov.il service pages.",
+     "url": "https://www.gov.il/he/service/complaint_discrimination_inaccessibility_people_with_disabilities",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.kolzchut.org.il/he/נציבות_שוויון_זכויות_לאנשים_עם_מוגבלות"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -3715,6 +3746,20 @@
       "https://dhr.go.cr/mecanismo_nacional_discapacidad/boletines_discapacidad/boletines_2026_discapacidad/boletines_26/44_Boletin-%20Julio_2026.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cr-disability-agency-government-of-costa-rica",
+     "section": "start",
+     "name": "Consejo Nacional de Personas con Discapacidad (CONAPDIS) (National Council of Persons with Disabilities)",
+     "org": "Government of Costa Rica",
+     "what": "National disability council that issues disability certification (certificación de discapacidad) and the disability card; first-time applicants attach a medical certificate or similar document from the CCSS.",
+     "how": "Apply to CONAPDIS for disability certification with a CCSS medical certificate, epicrisis or a report from your treating specialist.",
+     "url": "https://www.conapdis.go.cr/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.mtss.go.cr/prensa/comunicados/2023/julio/conapdis_certificaciones.html"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4053,6 +4098,21 @@
       "https://moce.gov.ae/en/w/apply-for-a-new-pod-card"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ae-nhri-national-human-rights-institut",
+     "section": "rights",
+     "name": "National Human Rights Institution (NHRI)",
+     "org": "UAE National Human Rights Institution",
+     "what": "The UAE's national human rights institution; the government's official portal directs human rights complaints to it.",
+     "how": "Use the institution's website, or report a human rights issue through the channels listed on the u.ae 'Report discrimination' page.",
+     "url": "https://www.nhriuae.com/en",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://u.ae/en/information-and-services/justice-safety-and-the-law/justice-eservices-and-updates/report-discrimination",
+      "https://www.mediaoffice.ae/en/news/2022/May/09-05/UAE-National-Human-Rights-Institution"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4097,6 +4157,22 @@
       "https://ncpd.gov.eg/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "eg-disability-agency-ministry-of-social-solidarity",
+     "section": "start",
+     "name": "بطاقة الخدمات المتكاملة للأشخاص ذوي الإعاقة (Integrated Services Card for Persons with Disabilities)",
+     "org": "Ministry of Social Solidarity",
+     "what": "A card for persons with disabilities that gives access to benefits such as the 5% government jobs quota, free hospital examinations, school and university inclusion, and customs and tax exemptions on assistive devices and a vehicle.",
+     "how": "Apply online for a first card or check a request on the Ministry's card portal, or call the card hotline 15044.",
+     "phone": "15044",
+     "dial": "15044",
+     "url": "https://rdis.moss.gov.eg/EDR/OnlineRegistration/OnlineHome",
+     "sources": [
+      "https://rdis.moss.gov.eg/EDR/OnlineRegistration/OnlineHome",
+      "https://www.moss.gov.eg/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4138,6 +4214,22 @@
       "https://kemensos.go.id/en/call-171-visually-impaired-person-get-advanced-sticks-and-business-capital-from-mosa"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "id-nhri-komnas-ham",
+     "section": "rights",
+     "name": "Komnas HAM (Komisi Nasional Hak Asasi Manusia, National Human Rights Commission)",
+     "org": "Komnas HAM",
+     "what": "Indonesia's national human rights institution; it monitors and investigates human rights and has a complaints and mediation function.",
+     "how": "File a complaint through the Komnas HAM online complaint portal (pengaduan.komnasham.go.id) or write to the commission.",
+     "email": "info@komnasham.go.id",
+     "url": "https://www.komnasham.go.id/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.asiapacificforum.net/members/indonesia",
+      "https://pengaduan.komnasham.go.id/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4180,6 +4272,22 @@
       "https://www.thailand.go.th/issue-focus-detail/001_01_188?hl=en"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "th-nhri-national-human-rights-commissi",
+     "section": "rights",
+     "name": "National Human Rights Commission of Thailand",
+     "org": "Office of the National Human Rights Commission of Thailand",
+     "what": "Takes complaints about human rights violations, including from people whose rights have been violated. Complaints can be made by letter, phone, hotline, in person, fax or online.",
+     "how": "Call the 1377 hotline, file online at complaints.nhrc.or.th, or visit the office in Lak Si, Bangkok.",
+     "phone": "1377",
+     "dial": "1377",
+     "email": "saraban@nhrc.or.th",
+     "url": "https://nhrc.or.th/en/faq",
+     "sources": [
+      "https://nhrc.or.th/en/faq"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4326,6 +4434,22 @@
       "https://www.igssgt.org/wp-content/uploads/2026/01/Requisitos-Solicitud-de-Pension-Invalidez-Programa-IVS-IGSS-Rev-2026.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "gt-nhri-procuradur-a-de-los-derechos-h",
+     "section": "rights",
+     "name": "Procurador de los Derechos Humanos (PDH) (Human Rights Ombudsman)",
+     "org": "Procuraduría de los Derechos Humanos de Guatemala",
+     "what": "Guatemala's human rights ombudsman ensures respect for people's rights and takes complaints (denuncias) from anyone who has suffered a human rights violation.",
+     "how": "Call the complaints line 1555 or use the denuncia and call-center links on the PDH website.",
+     "phone": "1555",
+     "dial": "1555",
+     "url": "https://www.pdh.org.gt/",
+     "sources": [
+      "https://www.pdh.org.gt/",
+      "https://help.unhcr.org/guatemala/en/unhcr-in-guatemala/national-institutions-we-work-with/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4370,6 +4494,22 @@
       "https://www.meosz.hu/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "hu-disability-benefit-fogyat-koss-gi-t-mogat-s-disab",
+     "section": "money",
+     "name": "Fogyatékossági támogatás (Disability support)",
+     "org": "Magyar Államkincstár (Hungarian State Treasury) and the government offices (kormányhivatal)",
+     "what": "A monthly support payment for severely disabled adults aged 18 or older, covering motor, visual, hearing and intellectual disability, severe autism and chromosomal disorders.",
+     "how": "Submit the application form with a GP referral and medical proof to the government office for your area, in person at a kormányablak, by post or electronically; call 1811 for information.",
+     "phone": "1811",
+     "dial": "1811",
+     "url": "https://kormanyhivatalok.hu/csaladtamogatasok",
+     "sources": [
+      "https://kormanyhivatalok.hu/csaladtamogatasok",
+      "https://www.meosz.hu/wp-content/uploads/2022/05/fogyatekossagi-tamogataas-menekulteknek_hu.docx.pdf"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4583,6 +4723,23 @@
       "https://support.irembo.gov.rw/en/support/solutions/articles/47001268515-how-to-apply-for-issuing-recommendation-letters-to-persons-with-disabilities"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "rw-nhri-national-commission-for-human",
+     "section": "rights",
+     "name": "National Commission for Human Rights (NCHR)",
+     "org": "National Commission for Human Rights, Republic of Rwanda",
+     "what": "Receives, examines and investigates complaints about human rights violations; its monitoring covers persons with disabilities among other groups.",
+     "how": "File a complaint online through the 'file a complaint' option on the Commission's website, or call the toll-free line 3430.",
+     "phone": "3430",
+     "dial": "3430",
+     "email": "info@cndp.org.rw",
+     "url": "https://www.cndp.org.rw/",
+     "sources": [
+      "https://www.cndp.org.rw/news-details/announcement-1",
+      "https://www.cndp.org.rw/1/human-rights-protection"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4727,6 +4884,20 @@
       "https://mohw.gov.tw/cp-16-21130-1.html"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "tw-nhri-national-human-rights-commissi",
+     "section": "rights",
+     "name": "National Human Rights Commission (國家人權委員會)",
+     "org": "National Human Rights Commission, Control Yuan",
+     "what": "Takes complaints from people who have experienced human rights violations, torture or discrimination, and runs Taiwan's independent mechanism for monitoring the Convention on the Rights of Persons with Disabilities (CRPD).",
+     "how": "File a complaint online through the NHRC Complaint Filing System, by email or post using the complaint form, or in person at the Complaint Receipt Center on the 1st floor of the Control Yuan (weekdays 9:00-12:00 and 13:30-17:00).",
+     "url": "https://nhrc.cy.gov.tw/en-US/Feedback_Process.aspx?n=9925&sms=0",
+     "sources": [
+      "https://nhrc.cy.gov.tw/en-US/Feedback_Process.aspx?n=9925&sms=0",
+      "https://nhrc.cy.gov.tw/en-US/cp.aspx?n=9899"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4944,6 +5115,22 @@
       "https://ravnopravnost.gov.rs/wp-content/download/flajer_engleski.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "rs-disability-benefit-republi-ki-fond-za-penzijsko-i",
+     "section": "money",
+     "name": "Novčana naknada za pomoć i negu drugog lica (Attendance allowance)",
+     "org": "Republički fond za penzijsko i invalidsko osiguranje (PIO Fund)",
+     "what": "A monthly cash allowance for insured people and pensioners who need another person's help with basic daily needs, such as blind people, people who cannot move around, eat or dress without help, and people on dialysis; it does not depend on income.",
+     "how": "Use the application form from the PIO Fund website's forms section; the Fund's medical body assesses the need for care.",
+     "phone": "0700/017-017",
+     "dial": "0700017017",
+     "email": "kontakt@pio.rs",
+     "url": "https://www.pio.rs/sr/novchane-naknade",
+     "sources": [
+      "https://www.pio.rs/sr/novchane-naknade"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -4989,6 +5176,19 @@
       "https://www.msdf.gov.qa/en/media-center/news-list/social-development-launches-whom-it-may-concern-certificate-people"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "qa-disability-agency-ministry-of-social-development",
+     "section": "start",
+     "name": "Yusr national digital platform for persons with disabilities",
+     "org": "Ministry of Social Development and Family (MSDF), developed with Mada Center for Assistive Technology",
+     "what": "A single digital gateway giving persons with disabilities, their families and caregivers access to specialised services and accessible information from the relevant authorities.",
+     "how": "Go to yusr.msdf.gov.qa.",
+     "url": "https://yusr.msdf.gov.qa",
+     "sources": [
+      "https://msdf.gov.qa/en/media-center/news-list/occasion-international-day-persons-disabilities-ministry-social-development"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5033,6 +5233,23 @@
       "https://www.swd.gov.hk/en/svcdesk/faqs/rehabilita"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "hk-equality-body-equal-opportunities-commission",
+     "section": "rights",
+     "name": "Equal Opportunities Commission (EOC)",
+     "org": "Equal Opportunities Commission, Hong Kong",
+     "what": "Takes complaints of disability discrimination under the Disability Discrimination Ordinance; the hotline or email can help you prepare a written complaint.",
+     "how": "Lodge a written complaint by the EOC online form, fax, post or in person, or call the enquiry hotline for help.",
+     "phone": "2511 8211",
+     "dial": "25118211",
+     "email": "complaint@eoc.org.hk",
+     "url": "https://www.eoc.org.hk",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://clic.org.hk/en/topics/antiDiscrimination/how_to_complain/q1"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5075,6 +5292,21 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "kh-dpo-federation-cambodian-disabled-people-s-or",
+     "section": "rights",
+     "name": "Cambodian Disabled People's Organisation (CDPO)",
+     "org": "Cambodian Disabled People's Organisation",
+     "what": "The national membership network of disabled people's organizations (56 member DPOs and federations, including Women with Disabilities Forums) that advocates for disability rights and keeps a directory of DPOs.",
+     "how": "Call or email the Phnom Penh office (Mon-Fri 8:00-12:00, 13:30-17:00).",
+     "email": "admin@cdpo.org",
+     "url": "https://www.cdpo.org/",
+     "sources": [
+      "https://www.cdpo.org/",
+      "https://ccc-cambodia.org/en/ngodb/ngo-information/88"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5116,6 +5348,23 @@
       "https://mgecw.gov.na/disability-grant"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "na-ombudsman-office-of-the-ombudsman",
+     "section": "rights",
+     "name": "Office of the Ombudsman",
+     "org": "Office of the Ombudsman, Namibia",
+     "what": "Investigates complaints from individuals about human rights violations and maladministration in the public sector.",
+     "how": "Lodge a complaint in person, by phone or email, through the online complaint form, by Facebook message or by SMS.",
+     "phone": "061 207 3111",
+     "dial": "0612073111",
+     "email": "office@ombudsman.org.na",
+     "url": "https://ombudsman.org.na/",
+     "sources": [
+      "https://ombudsman.org.na/mandate-overview/",
+      "https://ombudsman.org.na/contact-us"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5158,6 +5407,21 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bw-ombudsman-office-of-the-ombudsman",
+     "section": "rights",
+     "name": "Office of the Ombudsman",
+     "org": "Government of Botswana",
+     "what": "Investigates complaints of improper administrative conduct by public authorities and recommends remedies where a complainant has suffered injustice, as an alternative to the courts.",
+     "how": "Call the toll-free line or visit the Gaborone office (Main Mall) or regional offices in Francistown, Maun and Tsabong, 07:30-16:30 weekdays.",
+     "phone": "0800 600 014",
+     "dial": "0800600014",
+     "url": "https://www.gov.bw/ministries/office-ombudsman",
+     "sources": [
+      "https://www.gov.bw/ministries/office-ombudsman"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5200,6 +5464,21 @@
       "https://www.ip.gov.py/ip/2026/06/19/certificados-de-discapacidad-gestionados-a-traves-del-portal-paraguay-superan-25-000-tramites-digitales/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "py-ombudsman-defensor-a-del-pueblo-ombudsma",
+     "section": "rights",
+     "name": "Defensoría del Pueblo (Ombudsman)",
+     "org": "Defensoría del Pueblo de la República del Paraguay",
+     "what": "Takes complaints from anyone who has suffered an unjust situation or a violation of their human rights.",
+     "how": "Fill in the online complaint form (denuncia) on its website, write by email, message by WhatsApp, or visit the office in Asunción.",
+     "email": "defensoria@defensoriadelpueblo.gov.py",
+     "url": "https://defensoriadelpueblo.gov.py/denuncias.html",
+     "sources": [
+      "https://defensoriadelpueblo.gov.py/denuncias.html",
+      "https://www.ip.gov.py/ip/2026/06/16/defensoria-del-pueblo-recuerda-acciones-ante-embargos-por-pagares-irregulares/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5662,6 +5941,22 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cy-disability-agency-ministry-of-labour-welfare-and",
+     "section": "start",
+     "name": "Department for Social Inclusion of Persons with Disabilities (Τμήμα Κοινωνικής Ενσωμάτωσης Ατόμων με Αναπηρίες)",
+     "org": "Ministry of Labour, Welfare and Social Insurance, Republic of Cyprus",
+     "what": "The national disability department; it carries out disability and functioning assessments and certification and grants social benefits to persons with disabilities.",
+     "how": "Call or email the department.",
+     "phone": "22815082",
+     "dial": "22815082",
+     "email": "info@dsid.mlsi.gov.cy",
+     "url": "https://www.eudisabilitycard.gov.cy/el/about-us",
+     "sources": [
+      "https://www.eudisabilitycard.gov.cy/el/about-us"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5702,6 +5997,20 @@
       "https://gov.om/en/w/government-services-for-persons-with-disabilities"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "om-nhri-oman-human-rights-commission-o",
+     "section": "rights",
+     "name": "Oman Human Rights Commission (OHRC)",
+     "org": "Oman Human Rights Commission",
+     "what": "Receives and follows up reports of human rights issues in Oman, and runs work on the rights of persons with disabilities such as sign language programmes and training on the disability convention.",
+     "how": "Submit a report through the online complaint form (written or voice) on the Commission's website.",
+     "url": "https://ohrc.om/",
+     "sources": [
+      "https://ohrc.om/",
+      "https://ohrc.om/complaint/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5747,6 +6056,20 @@
       "https://mlsp.gov.mn/eng/content/detail/1809"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mn-nhri-national-human-rights-commissi",
+     "section": "rights",
+     "name": "National Human Rights Commission of Mongolia",
+     "org": "National Human Rights Commission of Mongolia",
+     "what": "Independent national human rights institution that receives complaints about human rights violations; children and people with limited legal capacity can complain through a guardian or representative.",
+     "how": "File a complaint in writing or in person, or through the Commission's official email or hotline, generally within two years of the violation.",
+     "url": "https://nhrcm.gov.mn/en/page/17",
+     "sources": [
+      "https://nhrcm.gov.mn/en/page/17",
+      "https://nhrcm.gov.mn/en/page/35"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -5906,6 +6229,19 @@
       "https://www.gov.kz/memleket/entities/ombudsman?lang=ru"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "kz-disability-benefit-ministry-of-labour-and-social",
+     "section": "money",
+     "name": "Государственное социальное пособие по инвалидности (State social disability benefit)",
+     "org": "Ministry of Labour and Social Protection of the Population",
+     "what": "A free state service that assigns the monthly state social benefit for disability.",
+     "how": "Apply online through the eGov portal with an electronic signature, at a 'Government for Citizens' service centre, or at a regional labour and social protection office.",
+     "url": "https://www.gov.kz/services/3000",
+     "sources": [
+      "https://www.gov.kz/services/3000"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6006,6 +6342,23 @@
       "https://kszd.mk/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mk-disability-agency-government-of-north-macedonia",
+     "section": "start",
+     "name": "Министерство за социјална политика, демографија и млади (Ministry of Social Policy, Demography and Youth)",
+     "org": "Government of North Macedonia",
+     "what": "Ministry responsible for social protection, including protection of people with developmental disabilities, civilian and war-disabled persons, and pension and disability insurance.",
+     "how": "Contact the ministry by phone or email, or at 14 Dame Gruev Str., Skopje.",
+     "phone": "02 3117 288",
+     "dial": "023117288",
+     "email": "mtsp@mtsp.gov.mk",
+     "url": "https://www.mtsp.gov.mk/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://vlada.mk/en-GB/vlada/ministerstva/ministerstvo-za-socijalna-politika-demografija-i-mladi"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6202,6 +6555,21 @@
       "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1193"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bh-nhri-national-institution-for-human",
+     "section": "rights",
+     "name": "National Institution for Human Rights",
+     "org": "National Institution for Human Rights, Kingdom of Bahrain",
+     "what": "Bahrain's independent national human rights body; it receives and examines complaints from individuals, relatives and representatives and monitors places of detention.",
+     "how": "Contact the institution by phone to make a complaint.",
+     "phone": "80001144",
+     "dial": "80001144",
+     "url": "https://www.nihr.org.bh/EN/About/Brief",
+     "sources": [
+      "https://www.nihr.org.bh/EN/About/Brief"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6284,6 +6652,23 @@
       "https://socialsecurity.govmu.org/socialsecurity/?page_id=820"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mu-nhri-national-human-rights-commissi",
+     "section": "rights",
+     "name": "National Human Rights Commission (NHRC)",
+     "org": "National Human Rights Commission, Mauritius",
+     "what": "Mauritius's national human rights institution; its Human Rights Division takes complaints from the public through a complaint form.",
+     "how": "Use the 'Make a Complaint' form on its website, or call or email the Human Rights Division (3rd Floor, Ebene Heights, Ebene).",
+     "phone": "460-5148",
+     "dial": "4605148",
+     "email": "hrd-nhrc@govmu.org",
+     "url": "https://nhrc.govmu.org/",
+     "sources": [
+      "https://nhrc.govmu.org/",
+      "https://www.adry.up.ac.za/country-reports-2014/mauritius"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6325,6 +6710,22 @@
       "https://www.fiji.gov.fj/lemeki-commends-government-for-providing-assistance-to-persons-with-disability/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "fj-nhri-fiji-human-rights-and-anti-dis",
+     "section": "rights",
+     "name": "Fiji Human Rights and Anti-Discrimination Commission (FHRADC)",
+     "org": "Fiji Human Rights and Anti-Discrimination Commission",
+     "what": "Fiji's national human rights and anti-discrimination body takes complaints through an online form and has a disability rights section explaining the Rights of Persons with Disabilities Act 2018, including disability discrimination.",
+     "how": "Lodge a complaint with the online form on the website, call 330 8577, or visit Level 2 Naibati House, 9 Goodenough Street, Suva.",
+     "phone": "330 8577",
+     "dial": "3308577",
+     "url": "https://www.fhradc.org.fj/",
+     "sources": [
+      "https://www.fhradc.org.fj/",
+      "https://www.fhradc.org.fj/disability-right/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6461,6 +6862,21 @@
       "https://social.desa.un.org/sites/default/files/inline-files/8.2%20Faty%20Presentation.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "sn-ombudsman-m-diature-de-la-r-publique-du",
+     "section": "rights",
+     "name": "Médiateur de la République (Ombudsman of the Republic)",
+     "org": "Médiature de la République du Sénégal",
+     "what": "Independent authority that takes written complaints from any person who believes a public body (state administration, local authority or public service organisation) failed them; referral is free.",
+     "how": "Send a written complaint (réclamation) or visit 22 Rue Vincens angle Faidherbe, Dakar, Monday to Friday 8:00-16:00.",
+     "email": "mediateur@mediaturedelarepublique.sn",
+     "url": "https://www.mediaturedelarepublique.sn",
+     "sources": [
+      "https://www.mediaturedelarepublique.sn",
+      "https://www.vie-publique.sn/etat-senegal/mediateur-de-la-republique"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6502,6 +6918,22 @@
      ],
      "reviewed_on": "2026-11-21",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "lb-nhri-national-human-rights-commissi",
+     "section": "rights",
+     "name": "الهيئة الوطنية لحقوق الإنسان (National Human Rights Commission)",
+     "org": "National Human Rights Commission of Lebanon",
+     "what": "Lebanon's national human rights institution; it takes human rights complaints and has a committee on the rights of persons with disabilities.",
+     "how": "Submit a complaint on the online form (victim, or a representative or family member with consent), or call the office or hotline in Beirut.",
+     "email": "info@nhrclb.org",
+     "url": "https://nhrclb.org/submit-a-complaint",
+     "sources": [
+      "https://nhrclb.org/",
+      "https://nhrclb.org/submit-a-complaint",
+      "https://nhrclb.org/contact-us"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6599,6 +7031,23 @@
       "https://gov.uz/en/shakhrisabzgov/pages/nogironligi-bo-lgan-shaxslarga-imtiyozlar"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "uz-ombudsman-ombudsman-of-the-republic-of-u",
+     "section": "rights",
+     "name": "Authorized Person of the Oliy Majlis for Human Rights (Ombudsman)",
+     "org": "Ombudsman of the Republic of Uzbekistan",
+     "what": "The national human rights ombudsman receives citizens' appeals, including complaints about officials' actions, labour and legal matters, at its central office and through regional representatives.",
+     "how": "Call the short number 1096 or (71) 200-10-96, email ombudsman1@umail.uz, or visit the Tashkent office or a regional representative's reception (Mon-Fri 09:00-13:00, 14:00-18:00).",
+     "phone": "1096",
+     "dial": "1096",
+     "email": "ombudsman1@umail.uz",
+     "url": "https://ombudsman.uz/en/contact",
+     "sources": [
+      "https://ombudsman.uz/en/contact",
+      "https://ombudsman.uz/en/news/2026/02/19/fuqarolar-murojaatlari-qabul-qilinmoqda"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6694,6 +7143,22 @@
       "https://thepema.gov.bt/faqs"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "bt-dpo-federation-disabled-people-s-organization",
+     "section": "rights",
+     "name": "Disabled People's Organization of Bhutan (DPOB)",
+     "org": "Disabled People's Organization of Bhutan (formerly Disabled Persons' Association of Bhutan)",
+     "what": "Bhutan's national organization run by persons with disabilities; it registers members and runs advocacy, health, education, skills, community and Deaf programmes.",
+     "how": "Register as a member or contact the office in Thimphu by phone or email.",
+     "phone": "02-339996",
+     "dial": "02339996",
+     "email": "info@dpobhutan.org",
+     "url": "https://dpobhutan.org/",
+     "sources": [
+      "https://dpobhutan.org/?p=59"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6733,6 +7198,24 @@
       "https://one.gov.mv/support/guidelines/disability-allowance-197"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "mv-nhri-human-rights-commission-of-the",
+     "section": "rights",
+     "name": "Human Rights Commission of the Maldives (HRCM)",
+     "org": "Human Rights Commission of the Maldives",
+     "what": "Takes human rights complaints and is listed on its own disability page among the agencies that assist persons with disabilities.",
+     "how": "Call the 1424 hotline, submit a complaint through the website, or visit the office in Malé (08:00-14:00).",
+     "phone": "1424",
+     "dial": "1424",
+     "email": "info@hrcm.org.mv",
+     "url": "https://hrcm.org.mv/",
+     "sources": [
+      "https://hrcm.org.mv/",
+      "https://hrcm.org.mv/dv/contact",
+      "https://hrcm.org.mv/dv/disability"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6828,6 +7311,23 @@
       "https://www.gov.cn/zhengce/zhengceku/2021-09/15/content_5637554.htm"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "cn-dpo-federation-china-disabled-persons-federat",
+     "section": "rights",
+     "name": "中国残疾人联合会 (China Disabled Persons' Federation, CDPF)",
+     "org": "China Disabled Persons' Federation",
+     "what": "National federation that represents and safeguards the rights and interests of persons with disabilities; disabled persons' federations run legal aid stations and a nationwide 12385 service hotline for persons with disabilities.",
+     "how": "Call the 12385 hotline for persons with disabilities or contact your local disabled persons' federation.",
+     "phone": "12385",
+     "dial": "12385",
+     "url": "https://www.cdpf.org.cn",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://www.chinaservicesinfo.com/s/201907/26/WS5d3a5e0a498ed6fd11ca247f/protecting-the-rights-and-interests-of-persons-with-disabilities-in-the-prc_3.html",
+      "https://en.wikipedia.org/wiki/China_Disabled_Persons%27_Federation"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6869,6 +7369,19 @@
       "https://sfr.gov.ru/branches/spb/info/~2026/11/12/14951?info_category=1"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ru-dpo-federation-all-russian-society-of-disable",
+     "section": "rights",
+     "name": "Всероссийское общество инвалидов (ВОИ) (All-Russian Society of Disabled People)",
+     "org": "All-Russian Society of Disabled People",
+     "what": "A national membership organization of people with disabilities with UN ECOSOC consultative status; its site offers free legal help information and guidance on registering disability and getting assistive devices.",
+     "how": "Contact the Moscow office by phone or use the citizen appeals page on the website.",
+     "url": "https://www.voi.ru/",
+     "sources": [
+      "https://www.voi.ru/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -6951,6 +7464,23 @@
       "https://www.cnps.ci/wp-content/uploads/2021/04/ASSURANCE-VIEILLESSE-AV.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ci-nhri-conseil-national-des-droits-de",
+     "section": "rights",
+     "name": "Conseil National des Droits de l'Homme (CNDH) (National Human Rights Council)",
+     "org": "Conseil National des Droits de l'Homme de Côte d'Ivoire",
+     "what": "Receives complaints and reports of human rights violations and carries out non-judicial investigations into them; it has a complaints department (Département des requêtes) and a green line for reporting.",
+     "how": "Call the Council or visit its office at Cocody 2 Plateaux Vallon, Rue J95, Abidjan.",
+     "phone": "27 22 52 00 99",
+     "dial": "2722520099",
+     "email": "infos.ci.cndh@gmail.com",
+     "url": "https://www.cndh.ci/",
+     "sources": [
+      "https://www.cndh.ci/qui-sommes-nous/",
+      "https://www.cndh.ci/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7113,6 +7643,23 @@
       "https://www.cass.ad/sites/default/files/arxius/20260708_WEB_Presentaci%C3%B3_Invalidesa.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ad-ombudsman-raonador-del-ciutad-citizen-s",
+     "section": "rights",
+     "name": "Raonador del Ciutadà (Citizen's Ombudsman)",
+     "org": "Institució del Raonador del Ciutadà del Principat d'Andorra",
+     "what": "Andorra's ombudsman: handles complaints and claims against Andorran institutions and bodies, and does human rights promotion work.",
+     "how": "Use the online complaint form on the website or call the free number 18003030 (Monday to Friday, 8:00-15:00).",
+     "phone": "18003030",
+     "dial": "18003030",
+     "email": "info@raonadordelciutada.ad",
+     "url": "https://www.raonadordelciutada.ad/",
+     "sources": [
+      "https://www.raonadordelciutada.ad/",
+      "https://www.theioi.org/ioi-members/europe/principat-d-andorra/institucio-del-raonador-del-ciutada-del-principat-d-andorra"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7157,6 +7704,22 @@
       "https://www.ahv.li/fileadmin/user_upload/Dokumente/Online-Schalter/MB/AHV-IV-FAK-MB-3-01--Leistungen_IV.pdf"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "li-equality-body-liechtensteiner-behinderten-ve",
+     "section": "rights",
+     "name": "Liechtensteiner Behinderten-Verband (LBV) and its Büro für die Gleichstellung von Menschen mit Behinderungen (Office for the Equality of People with Disabilities)",
+     "org": "Liechtensteiner Behinderten-Verband",
+     "what": "The national disability association hosts the equality office that is the contact point for official matters such as grants and complaints; the association also helps with legal and insurance matters, building advice, wheelchair transport and financial assistance.",
+     "how": "Call or email the LBV office in Schaan (Wiesengass 17), Monday to Friday 8:00-11:30 and 13:30-16:00.",
+     "email": "lbv@lbv.li",
+     "url": "https://www.lbv.li/index.html",
+     "sources": [
+      "https://www.lbv.li/index.html",
+      "https://www.llv.li/en/individuals/building-and-living/equal-opportunities/disability",
+      "https://www.llv.li/en/individuals/family-marriage-partnership/help-for-families/disabilities"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7198,6 +7761,22 @@
       "https://attorneygeneralchambers.com/laws-of-saint-lucia/national-insurance-corporation-act/section-45"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "lc-dpo-federation-national-council-of-and-for-pe",
+     "section": "rights",
+     "name": "National Council of and For Persons with Disabilities (NCPD)",
+     "org": "National Council of and For Persons with Disabilities",
+     "what": "An umbrella organization coordinating disability groups across Saint Lucia that works for equal rights and also makes subsidized prosthetic legs, offers physical therapy and referrals, and distributes mobility aids.",
+     "how": "Call or email the office at Apricot Lane, Carellie, Castries.",
+     "email": "ncpdinc@yahoo.com",
+     "url": "https://pmd.govt.lc/statutory-body/the-national-council-of-and-for-persons-with-disabilities/",
+     "record_status": "directory_listed",
+     "sources": [
+      "https://pmd.govt.lc/statutory-body/the-national-council-of-and-for-persons-with-disabilities/",
+      "https://www.govt.lc/news/ncpd-opens-modern-artificial-leg-manufacture-center-in-saint-lucia"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7238,6 +7817,20 @@
       "https://www.gov.ls/uncategorized/government-allocates-millions-for-disability-grant/"
      ],
      "reviewed_on": "2026-11-21"
+    },
+    {
+     "id": "ls-ombudsman-office-of-the-ombudsman",
+     "section": "rights",
+     "name": "Office of the Ombudsman",
+     "org": "Office of the Ombudsman, Lesotho",
+     "what": "Receives and investigates complaints from anyone who feels wronged by a government agency, statutory corporation or their officials.",
+     "how": "Contact the office at Moposo House, Maseru, by phone or email.",
+     "email": "omb@ombudsman.org.ls",
+     "url": "https://ombudsman.org.ls/",
+     "sources": [
+      "https://ombudsman.org.ls/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7280,6 +7873,19 @@
      ],
      "reviewed_on": "2026-11-21",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "kn-ombudsman-office-of-the-ombudsman",
+     "section": "rights",
+     "name": "Office of the Ombudsman",
+     "org": "Government of St. Kitts and Nevis",
+     "what": "Investigates citizens' complaints about the administrative actions of government departments and public bodies, decides whether there was maladministration and makes recommendations; set up to protect and enforce citizens' rights.",
+     "how": "Contact the Office of the Ombudsman through the Government of St. Kitts and Nevis (Government Headquarters, Church Street, Basseterre).",
+     "url": "https://www.gov.kn/office-of-the-ombudsman-about-us/",
+     "sources": [
+      "https://www.gov.kn/office-of-the-ombudsman-about-us/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7438,6 +8044,21 @@
      ],
      "reviewed_on": "2026-11-21",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "sl-nhri-human-rights-commission-of-sie",
+     "section": "rights",
+     "name": "Human Rights Commission of Sierra Leone (HRCSL)",
+     "org": "Human Rights Commission of Sierra Leone",
+     "what": "Sierra Leone's national human rights institution, set up in 2004; its remit includes protecting the rights of persons with disabilities, and in 2024 it agreed a complaints-handling arrangement with the National Commission for Persons with Disability.",
+     "how": "Contact the Commission in Freetown by phone, or through its website.",
+     "url": "https://www.hrcsl.org/",
+     "sources": [
+      "https://www.hrcsl.org/",
+      "https://www.adry.up.ac.za/country-reports-2024/sierra-leone",
+      "https://achpr.au.int/sw/taxonomy/term/551"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7593,6 +8214,22 @@
       "https://www.gob.bo/tramites/moto-mendez"
      ],
      "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "bo-ombudsman-defensor-a-del-pueblo-ombudsma",
+     "section": "rights",
+     "name": "Defensoría del Pueblo (Ombudsman)",
+     "org": "Defensoría del Pueblo del Estado Plurinacional de Bolivia",
+     "what": "Bolivia's ombudsman takes complaints through a complaint form and its Sistema de Servicio al Pueblo, has a section on persons with disabilities, and offers service in Bolivian Sign Language.",
+     "how": "Call the free line 800 10 8004, email correspondencia@defensoria.gob.bo, use the complaint form on the website, or visit Calle Colombia N°440, Zona San Pedro, La Paz.",
+     "phone": "800 10 8004",
+     "dial": "800108004",
+     "email": "correspondencia@defensoria.gob.bo",
+     "url": "https://www.defensoria.gob.bo/",
+     "sources": [
+      "https://www.defensoria.gob.bo/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7635,6 +8272,21 @@
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "cm-nhri-cameroon-human-rights-commissi",
+     "section": "rights",
+     "name": "Commission des Droits de l'Homme du Cameroun (Cameroon Human Rights Commission)",
+     "org": "Cameroon Human Rights Commission",
+     "what": "Cameroon's institution for the promotion and protection of human rights and the prevention of torture, created by law in 2019; it refers cases brought before it to the justice authorities.",
+     "how": "Contact the Commission in Yaoundé by phone or email.",
+     "email": "cdhc@cdhc.cm",
+     "url": "https://www.cdhc.cm/index.php?lang=eng",
+     "sources": [
+      "https://www.cdhc.cm/index.php?lang=eng",
+      "https://reporting.acerwc.africa/es/node/817"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7676,6 +8328,21 @@
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "cd-nhri-commission-nationale-des-droit",
+     "section": "rights",
+     "name": "Commission Nationale des Droits de l'Homme (CNDH-RDC) (National Human Rights Commission)",
+     "org": "Commission Nationale des Droits de l'Homme, République démocratique du Congo",
+     "what": "Receives and handles complaints about human rights violations.",
+     "how": "File a complaint with the online form on the 'Déposer une plainte' page, or visit the office on Boulevard du 30 juin, Kinshasa (Monday to Friday, 8:00-16:00).",
+     "email": "contact@cndh.cd",
+     "url": "https://cndh.cd/",
+     "sources": [
+      "https://cndh.cd/",
+      "https://national-cases.acerwc.africa/fr/node/822"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -7855,6 +8522,19 @@
       "https://www.iss.sm/on-line/home/dipartimento-socio-sanitario/fragilita-tutela-infanzia-adolescenza-famiglia/uoc-disabilita-e-servizio-di-supporto-sociale.html"
      ],
      "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "sm-at-program-istituto-per-la-sicurezza-soci",
+     "section": "equipment-home",
+     "name": "Orthopaedic devices and prostheses (Istituto per la Sicurezza Sociale)",
+     "org": "Istituto per la Sicurezza Sociale (ISS)",
+     "what": "San Marino's social security institute supplies or reimburses medical materials, orthopaedic devices and prostheses on specialist prescription, subject to eligibility.",
+     "how": "Get a specialist's prescription and submit it with clinical documents and invoices to the ISS unit that handles reimbursements.",
+     "url": "https://www.iss.sm/on-line/home/dedicato-a/documento49159198.html",
+     "sources": [
+      "https://www.iss.sm/on-line/home/dedicato-a/documento49159198.html"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -8096,6 +8776,22 @@
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "mg-nhri-cnidh-madagascar",
+     "section": "rights",
+     "name": "Commission Nationale Indépendante des Droits de l'Homme (CNIDH, National Independent Human Rights Commission)",
+     "org": "CNIDH Madagascar",
+     "what": "Madagascar's national human rights institution; it receives and examines complaints about human rights violations.",
+     "how": "Complain by letter, email, the website form, phone or in person at the office in Antananarivo; phone or oral complaints must be confirmed in writing.",
+     "email": "service.protection@cnidh-madagascar.org",
+     "url": "https://www.cnidh-madagascar.org/",
+     "sources": [
+      "https://www.cnidh-madagascar.org/protection/",
+      "https://cnidh-madagascar.org/nous-contacter/",
+      "https://www.cnidh-madagascar.org/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -8138,6 +8834,20 @@
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "mw-nhri-malawi-human-rights-commission",
+     "section": "rights",
+     "name": "Malawi Human Rights Commission (MHRC)",
+     "org": "Malawi Human Rights Commission",
+     "what": "Takes complaints from anyone concerned about a human rights violation, abuse of power or maladministration by public institutions; disability and elderly rights is one of its thematic areas.",
+     "how": "File a complaint online at complaints.mhrcmw.org, message the 24/7 WhatsApp line, or visit H.B. House, Lilongwe.",
+     "email": "info@mhrcmw.org",
+     "url": "https://mhrcmw.org/",
+     "sources": [
+      "https://mhrcmw.org/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -8380,6 +9090,20 @@
      ],
      "reviewed_on": "2026-11-22",
      "record_status": "directory_listed"
+    },
+    {
+     "id": "kg-ombudsman-akyikatchy-ombudsman-of-the-ky",
+     "section": "rights",
+     "name": "Akyikatchy (Ombudsman) of the Kyrgyz Republic",
+     "org": "Institute of the Akyikatchy (Ombudsman)",
+     "what": "Provides parliamentary oversight of citizens' rights and freedoms and considers signed written appeals about rights violations by state bodies.",
+     "how": "Send a signed written appeal with your full name and address, a description of the decision or action and copies of relevant documents.",
+     "url": "https://ombudsman.kg/en",
+     "sources": [
+      "https://ombudsman.kg/en/about",
+      "https://ombudsman.kg/en/node/3629"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -8561,6 +9285,21 @@
       "https://sedesol.gob.hn/wp-content/uploads/2026/01/POLITICA-PCD.pdf"
      ],
      "reviewed_on": "2026-11-22"
+    },
+    {
+     "id": "hn-nhri-conadeh",
+     "section": "rights",
+     "name": "Comisionado Nacional de los Derechos Humanos (CONADEH) (National Human Rights Commissioner)",
+     "org": "CONADEH",
+     "what": "Honduras's national human rights institution receives complaints (quejas) about human rights violations and reports on the barriers persons with disabilities face.",
+     "how": "Submit a complaint through the online form on the CONADEH website or visit the central office at Colonia Humuya, avenida Sabana, edificio San José Anexo, Tegucigalpa.",
+     "url": "https://www.conadeh.hn/",
+     "sources": [
+      "https://www.conadeh.hn/",
+      "https://conadeh.hn/?page_id=184",
+      "https://conadeh.hn/?page_id=3264"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -8729,6 +9468,19 @@
      "sources": [
       "https://gov.sz/index.php/ministries-departments/the-deputy-prime-minister-s-office/social-welfare-department",
       "https://mptf.undp.org/sites/default/files/documents/2026-05/global_disability_fund_report_eswatini_eswatini.pdf"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "sz-nhri-government-of-eswatini",
+     "section": "rights",
+     "name": "Commission on Human Rights and Public Administration",
+     "org": "Government of Eswatini",
+     "what": "Investigates complaints of violations of constitutional rights and freedoms, and complaints of injustice, abuse of power or unfair treatment by public officers or failures in public services.",
+     "how": "File a complaint in writing through the office of the commissioner at Mbabane Office Park, Sibekelo Building (P.O. Box 8795, Mbabane), or call the office.",
+     "url": "https://gov.sz/index.php/departments-sp-1312751175/human-rights-commission",
+     "sources": [
+      "https://gov.sz/index.php/departments-sp-1312751175/human-rights-commission"
      ],
      "reviewed_on": "2026-11-23"
     }
@@ -8910,6 +9662,23 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "vc-disability-agency-government-of-saint-vincent-an",
+     "section": "start",
+     "name": "Ministry of National Mobilisation, Social Development, Gender Affairs and Persons with Disabilities",
+     "org": "Government of Saint Vincent and the Grenadines",
+     "what": "The ministry responsible for persons with disabilities; in March 2025 the government announced a disability unit within it to provide support, advocacy and services.",
+     "how": "Contact the ministry on Halifax Street, Kingstown, by phone or email. On the main line, ask for extension 3863.",
+     "phone": "(784) 456-1111",
+     "dial": "7844561111",
+     "email": "office.mobilisation@gov.vc",
+     "url": "https://mobilization.gov.vc/mobilization/index.php/37",
+     "sources": [
+      "https://mobilization.gov.vc/mobilization/index.php/37",
+      "https://mobilization.gov.vc/mobilization/images/stories/PDF/DISABILITY_UNIT_TO_BECOME_OPERATIONALISED.pdf"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -8995,6 +9764,22 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "tl-ombudsman-provedoria-dos-direitos-humano",
+     "section": "rights",
+     "name": "Provedor de Direitos Humanos e Justiça (PDHJ, Ombudsman for Human Rights and Justice)",
+     "org": "Provedoria dos Direitos Humanos e Justiça",
+     "what": "Takes complaints from people whose rights were violated by a decision, action or official of a public authority, and reports of poor governance.",
+     "how": "Complain online, phone the Dili headquarters, write to or visit Dili or a regional office (Baucau, Maliana, RAEOA, Manufahi), or use the complaint box at district administration offices.",
+     "phone": "3331184",
+     "dial": "3331184",
+     "email": "info@pdhj.tl",
+     "url": "https://www.pdhj.tl/en/",
+     "sources": [
+      "https://www.pdhj.tl/en/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -9036,6 +9821,23 @@
       "https://pmo.gov.to/wp-content/uploads/2026/01/Final-MIA-CP-2025-2028.pdf"
      ],
      "record_status": "directory_listed",
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "to-ombudsman-office-of-the-ombudsman-tonga",
+     "section": "rights",
+     "name": "Office of the Ombudsman Tonga",
+     "org": "Office of the Ombudsman, Kingdom of Tonga",
+     "what": "Investigates complaints about administrative actions and decisions of any government ministry, department, organisation or public enterprise.",
+     "how": "Complain by letter, email, phone (toll-free 0800-662) or the online complaint form at form.ombudsman.to.",
+     "phone": "0800-662",
+     "dial": "0800662",
+     "email": "info1+website@ombudsman.to",
+     "url": "https://ombudsman.to/",
+     "sources": [
+      "https://ombudsman.to/",
+      "https://ombudsman.to/who-we-are/history/"
+     ],
      "reviewed_on": "2026-11-23"
     }
    ]
@@ -9080,6 +9882,23 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "do-ombudsman-defensor-del-pueblo-ombudsman",
+     "section": "rights",
+     "name": "Defensor del Pueblo (Ombudsman)",
+     "org": "Defensor del Pueblo de la República Dominicana",
+     "what": "Takes complaints (reclamaciones) against public institutions and public service providers and gives citizens guidance on their rights.",
+     "how": "Call or WhatsApp, email, or visit the office on Av. 27 de Febrero in Santo Domingo, Monday to Friday 8 a.m. to 4 p.m.",
+     "phone": "(809) 381-4777",
+     "dial": "8093814777",
+     "email": "info@defensordelpueblo.gob.do",
+     "url": "https://defensordelpueblo.gob.do/",
+     "sources": [
+      "https://defensordelpueblo.gob.do/servicios/",
+      "https://defensordelpueblo.gob.do/contactos/"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -9119,6 +9938,23 @@
      "url": "https://mogcsw.gov.gm/wp-content/uploads/2024/09/Persons-with-Disabilities-Act-20211.pdf",
      "sources": [
       "https://mogcsw.gov.gm/wp-content/uploads/2024/09/Persons-with-Disabilities-Act-20211.pdf"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "gm-nhri-national-human-rights-commissi",
+     "section": "rights",
+     "name": "National Human Rights Commission (NHRC) of The Gambia",
+     "org": "National Human Rights Commission, The Gambia",
+     "what": "Receives complaints of human rights violations, which can be reported confidentially, and works to advance the rights of persons with disabilities.",
+     "how": "File a complaint online through the 'File a Complaint' form on the website and track it on the Complaint Dashboard, or contact the Secretariat in Kotu.",
+     "phone": "5200272",
+     "dial": "5200272",
+     "email": "info@gm-nhrc.org",
+     "url": "https://www.gm-nhrc.org/",
+     "sources": [
+      "https://www.gm-nhrc.org/",
+      "https://www.gm-nhrc.org/news/4d97384d-321d-11ef-a991-02a8a26af761"
      ],
      "reviewed_on": "2026-11-23"
     }
@@ -9165,6 +10001,34 @@
      ],
      "record_status": "directory_listed",
      "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "jo-nhri-national-centre-for-human-righ",
+     "section": "rights",
+     "name": "المركز الوطني لحقوق الإنسان (National Centre for Human Rights, NCHR)",
+     "org": "National Centre for Human Rights, Jordan",
+     "what": "Jordan's national human rights institution; it receives human rights complaints from all residents of Jordan.",
+     "how": "Submit a complaint on the NCHR online complaint platform, or call or email the Centre.",
+     "email": "mail@nchr.org.jo",
+     "url": "https://nchr.org.jo/en/complaint-platform/",
+     "sources": [
+      "https://nchr.org.jo/?p=374"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "jo-disability-council-higher-council-for-the-rights",
+     "section": "rights",
+     "name": "المجلس الأعلى لحقوق الأشخاص ذوي الإعاقة (Higher Council for the Rights of Persons with Disabilities, HCD)",
+     "org": "Higher Council for the Rights of Persons with Disabilities",
+     "what": "Statutory council under Law No. 20 of 2017 that promotes the rights of persons with disabilities in Jordan, monitors whether government complies with the law, and gives accessibility and inclusion advice.",
+     "how": "See the Council's website for its work and reports.",
+     "url": "https://hcd.gov.jo/EN/ListDetails/Global_Disability_Summit_2025/2137/10",
+     "sources": [
+      "https://hcd.gov.jo/EN/ListDetails/Global_Disability_Summit_2025/2137/10",
+      "https://hcd.gov.jo/EBV4.0/Root_Storage/AR/Factsheet_Eng.docx"
+     ],
+     "reviewed_on": "2026-11-23"
     }
    ]
   },
@@ -9203,6 +10067,23 @@
      "url": "https://social.gov.ma/services-destines-aux-personnes-handicapees/",
      "sources": [
       "https://social.gov.ma/services-destines-aux-personnes-handicapees/"
+     ],
+     "reviewed_on": "2026-11-23"
+    },
+    {
+     "id": "ma-nhri-conseil-national-des-droits-de",
+     "section": "rights",
+     "name": "Mécanisme national de protection des droits des personnes en situation de handicap (National Mechanism for the Protection of the Rights of Persons with Disabilities)",
+     "org": "Conseil National des Droits de l'Homme (CNDH)",
+     "what": "Hosted by Morocco's National Human Rights Council, it accepts complaints from persons with disabilities who are victims of rights violations (or from their representatives or third parties), investigates them and decides on each case.",
+     "how": "Contact the CNDH in Rabat by phone or email, or write to 22, Rue Riyad, Quartier Riyad, BP 21527, Rabat.",
+     "phone": "05.37.54.00.00",
+     "dial": "0537540000",
+     "email": "cndh@cndh.org.ma",
+     "url": "https://cndh.ma/en/national-mechanism-protection-rights-persons-disabilities",
+     "sources": [
+      "https://cndh.ma/en/national-mechanism-protection-rights-persons-disabilities",
+      "https://cndh.ma/ar/contacter-le-cndh"
      ],
      "reviewed_on": "2026-11-23"
     }
