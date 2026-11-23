@@ -20,6 +20,11 @@ Each ad in data/ads.json:
   end      optional last day shown, YYYY-MM-DD. The site is static: a dated ad appears or drops off when the
            pages are next rebuilt, and the CI check flags pages that are out of date.
 
+Google AdSense: data/ads.json may also hold "adsense_client" (ca-pub- and 16 digits). When it is set, the pages that may
+carry an ad (the home page, the topic guides and the state pages) plus the country pages load Google's ad code in the
+head, asking for non-personalized ads before the code loads; the crisis and help pages above never do. ads.txt at the
+site root names the same publisher. Empty means no Google code anywhere and no ads.txt.
+
 For tests: python3 scripts/ads.py --ads FILE --page NAME [--today YYYY-MM-DD] < page.html > page-with-ad.html
 """
 import argparse, datetime, html, json, re, sys
@@ -36,6 +41,7 @@ STATE_SLUGS = sorted(p.stem for p in (ROOT / 'states').glob('*.html') if p.name 
 SLOTS = {'home', 'every-topic', 'every-state', *TOPICS, *('state-' + s for s in STATE_SLUGS)}
 FIELDS = {'slot', 'sponsor', 'text', 'url', 'image', 'alt', 'start', 'end'}
 DATE = re.compile(r'\d{4}-\d{2}-\d{2}$')
+CLIENT = re.compile(r'ca-pub-\d{16}$')
 E = lambda s: html.escape(s, quote=True)
 
 
@@ -72,6 +78,36 @@ def load(path=ADS_FILE, today=None):
     return [a for a in ads if (not a.get('start') or a['start'] <= today) and (not a.get('end') or today <= a['end'])]
 
 
+def load_client(path=ADS_FILE):
+    """The AdSense publisher ID, or '' for none."""
+    path = Path(path)
+    data = json.loads(path.read_text()) if path.exists() else {}
+    client = (data.get('adsense_client') or '') if isinstance(data, dict) else ''
+    assert client == '' or (isinstance(client, str) and CLIENT.match(client)), \
+        'data/ads.json: adsense_client must look like ca-pub-1234567890123456, or be empty'
+    return client
+
+
+def network_ok(name):
+    """Whether a page may load Google's ad code: a page that takes an ad slot, or a country page. Never a help page."""
+    return bool(slots_for(name)) or (name.startswith('countries/') and name.endswith('.html'))
+
+
+def network_head(client):
+    """Google's ad code for <head>, non-personalized ads asked for before the code loads. Empty without a client."""
+    if not client:
+        return ''
+    return (f'<!--adnet--><meta name="google-adsense-account" content="{E(client)}">'
+            '<script>(window.adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;</script>'
+            f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={E(client)}" '
+            'crossorigin="anonymous"></script><!--/adnet-->')
+
+
+def ads_txt(client):
+    """The ads.txt line for the publisher, or '' for none."""
+    return f'google.com, pub-{client[len("ca-pub-"):]}, DIRECT, f08c47fec0942fa0\n' if client else ''
+
+
 def slots_for(name):
     """Slot ids a page takes, most specific first; [] for pages that never carry an ad."""
     if name in NO_ADS:
@@ -105,10 +141,17 @@ def render(ad, pre=''):
             f'<a href="{pre}privacy.html#ads">About ads</a></p></aside>')
 
 
-def apply(t, name, ads):
-    """Take out any earlier ad, then place the page's ad (if any) after the main content. Idempotent."""
+def apply(t, name, ads, client=''):
+    """Take out any earlier ad and ad code, then place the page's ad (if any) after the main content and Google's
+    code (if set and allowed here) in the head. Idempotent."""
     t = re.sub(r'<!--ad-->.*?<!--/ad-->', '', t, flags=re.S)
     t = re.sub(r'<!--adcss-->.*?<!--/adcss-->', '', t, flags=re.S)
+    t = re.sub(r'<!--adnet-->.*?<!--/adnet-->', '', t, flags=re.S)
+    if client and network_ok(name):
+        assert t.count('</head>') == 1, name
+        # just before the site icon when the page already has one (as finalize_pages.py writes it), else before </head>
+        at = '<!--icon-->' if '<!--icon-->' in t else '</head>'
+        t = t.replace(at, network_head(client) + at, 1)
     ad = pick(ads, name)
     if not ad:
         return t
@@ -128,4 +171,4 @@ if __name__ == '__main__':
     ap.add_argument('--page', required=True)
     ap.add_argument('--today')
     a = ap.parse_args()
-    sys.stdout.write(apply(sys.stdin.read(), a.page, load(a.ads, a.today)))
+    sys.stdout.write(apply(sys.stdin.read(), a.page, load(a.ads, a.today), load_client(a.ads)))

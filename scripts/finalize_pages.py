@@ -101,7 +101,7 @@ COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobility
          '<script data-goatcounter="https://vhg-guide.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><!--/gc-->')
 # Site icon for browser tabs, bookmarks and search results (the 404 page uses root paths; it is served at any depth).
 def icon(pre):return f'<!--icon--><link rel="icon" href="{pre}favicon.svg" type="image/svg+xml"><link rel="icon" href="{pre}favicon.ico" sizes="48x48"><link rel="apple-touch-icon" href="{pre}apple-touch-icon.png"><!--/icon-->'
-AD_LIST=ADS.load()
+AD_LIST=ADS.load();AD_CLIENT=ADS.load_client()
 for name in ALL+['404.html']:
     p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
     t=re.sub(r'<!--icon-->.*?<!--/icon-->','',t,flags=re.S)
@@ -121,9 +121,12 @@ for name in ALL+['404.html']:
     t,n=re.subn(r'(<footer[^>]*>\s*<p>.*?)(</p>)',lambda m:m.group(1)+link+m.group(2),t,count=1,flags=re.S)
     assert n==1,name+' has no footer line for the privacy link'
     # advertising: only where data/ads.json has an active ad for this page's slot; otherwise nothing is written
-    t=ADS.apply(t,name,AD_LIST)
+    t=ADS.apply(t,name,AD_LIST,AD_CLIENT)
     assert t.count('</head>')==1,name
     p.write_text(t.replace('</head>',icon(pre)+COUNTER+'</head>',1))
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{BASE if n=="index.html" else (BASE+'states/' if n=='states/index.html' else BASE+n)}</loc></url>\n' for n in ALL)+'</urlset>\n')
+# ads.txt names the AdSense publisher, or is removed when there is none
+if AD_CLIENT:(ROOT/'ads.txt').write_text(ADS.ads_txt(AD_CLIENT))
+else:(ROOT/'ads.txt').unlink(missing_ok=True)
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
 print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages,',len(COUNTRY_PAGES),'country pages, sitemap.xml and robots.txt.')

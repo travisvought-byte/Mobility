@@ -15,7 +15,7 @@ jobs:
           python3 scripts/build_disability_advocacy.py
           (cd scripts && python3 build_local_pages.py && python3 build_world_pages.py)
           python3 scripts/finalize_pages.py
-          git diff --exit-code -- '*.html' sitemap.xml robots.txt
+          git diff --exit-code -- '*.html' sitemap.xml robots.txt ads.txt
       - name: Check public mobility data and staged law research
         run: |
           python3 tests/mobility_routes.py

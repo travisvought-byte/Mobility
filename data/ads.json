@@ -1,4 +1,5 @@
 {
-  "_readme": "Advertisements. Empty means no ad shows anywhere and the pages carry no ad markup. Each ad: slot (home, a topic page such as know-your-rights, state-<slug> such as state-ohio, every-topic or every-state), sponsor, text (200 characters at most), url (https), optional image (https or assets/...) with alt, optional start and end dates (YYYY-MM-DD). Crisis and help pages (the directory, the help list, the Spanish page) never take an ad. Rules and placement: scripts/ads.py. Rebuild with npm run build after any change.",
+  "_readme": "Advertisements. Empty means no ad shows anywhere and the pages carry no ad markup. Each ad: slot (home, a topic page such as know-your-rights, state-<slug> such as state-ohio, every-topic or every-state), sponsor, text (200 characters at most), url (https), optional image (https or assets/...) with alt, optional start and end dates (YYYY-MM-DD). Crisis and help pages (the directory, the help list, the Spanish page) never take an ad. Rules and placement: scripts/ads.py. adsense_client is the Google AdSense publisher ID: when set, Google's ad code (non-personalized ads only) loads on the pages that may carry an ad and the country pages, never on crisis or help pages, and ads.txt names it. Rebuild with npm run build after any change.",
+  "adsense_client": "ca-pub-9220804879239310",
   "ads": []
 }
