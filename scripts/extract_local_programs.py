@@ -116,6 +116,26 @@ for dup,(keep,fill) in DUPLICATE_OF.items():
     if not k: print('duplicate merge: no record',keep); continue
     for f,v in fill.items():
         if not k.get(f): k[f]=v
+# The guide added each state's own ADRC record (November 2026); it replaces the older pointer to ACL's national finder.
+# Carry over only contact details the guide's record lacks.
+for st in PLACES:
+    k=out.get(st.lower()+'-adrc'); d=out.get(st.lower()+'-nwd-adrc')
+    if k and d:
+        out.pop(st.lower()+'-nwd-adrc')
+        for f in ('phone','phone_note','email','web'):
+            if d.get(f) and not k.get(f): k[f]=d[f]
+# County names as the map writes them: the guide spells out Alaska's "Borough", "Census Area" and "Municipality"
+_geo={}
+def map_county(st,c):
+    if st not in _geo:
+        g=ROOT/'data/geo'/(st+'.json')
+        _geo[st]={x['n'] for x in json.load(open(g))['counties']} if g.exists() else set()
+    if c in _geo[st] or not _geo[st]: return c
+    bare=re.sub(r'\s+(City and Borough|Census Area|Borough|Municipality)$','',c)
+    if bare in _geo[st]: return bare
+    # Alaska split Valdez-Cordova into Chugach and Copper River in 2019; the map still draws the older area
+    return 'Valdez-Cordova' if st=='AK' and bare in ('Chugach','Copper River') and 'Valdez-Cordova' in _geo[st] else c
+for r in out.values(): r['counties']=list(dict.fromkeys(map_county(r['state'],c) for c in r.get('counties') or []))
 # Medicaid rides have no public line: members call the number on their card
 for r in out.values():
     if 'nemt' in r['id'] and r['category']=='transportation' and not (r.get('phone') or r.get('email') or r.get('web') or r.get('contact_how')):

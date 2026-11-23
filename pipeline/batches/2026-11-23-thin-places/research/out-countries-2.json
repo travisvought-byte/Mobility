@@ -1,0 +1,324 @@
+[
+ {
+  "place": "IL",
+  "family": "equality-body",
+  "section": "rights",
+  "name": "Commission for Equal Rights of Persons with Disabilities",
+  "org": "Ministry of Justice, State of Israel",
+  "what": "Handles inquiries and complaints about discrimination against disabled people and about accessibility; it can investigate, take civil or criminal action, and give advice and representation in employment matters.",
+  "how": "Contact the Commission's public inquiries unit, or submit an inquiry or complaint through its gov.il service pages.",
+  "url": "https://www.gov.il/he/service/complaint_discrimination_inaccessibility_people_with_disabilities",
+  "sources": [
+   "https://www.kolzchut.org.il/he/נציבות_שוויון_זכויות_לאנשים_עם_מוגבלות"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "Kol Zchut rights guide describes the Commission's complaint, enforcement and advice role; gov.il service pages would not load; its phone entry looked incomplete so none is given.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "ID",
+  "family": "nhri",
+  "section": "rights",
+  "name": "Komnas HAM (Komisi Nasional Hak Asasi Manusia, National Human Rights Commission)",
+  "org": "Komnas HAM",
+  "what": "Indonesia's national human rights institution; it monitors and investigates human rights and has a complaints and mediation function.",
+  "how": "File a complaint through the Komnas HAM online complaint portal (pengaduan.komnasham.go.id) or write to the commission.",
+  "email": "info@komnasham.go.id",
+  "url": "https://www.komnasham.go.id/",
+  "sources": [
+   "https://www.asiapacificforum.net/members/indonesia",
+   "https://pengaduan.komnasham.go.id/"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "Asia Pacific Forum member page lists mandate, complaints and mediation sub-committee, website and email; own site would not load except the online complaint portal title.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "HU",
+  "family": "disability-benefit",
+  "section": "money",
+  "name": "Fogyatékossági támogatás (Disability support)",
+  "org": "Magyar Államkincstár (Hungarian State Treasury) and the government offices (kormányhivatal)",
+  "what": "A monthly support payment for severely disabled adults aged 18 or older, covering motor, visual, hearing and intellectual disability, severe autism and chromosomal disorders.",
+  "how": "Submit the application form with a GP referral and medical proof to the government office for your area, in person at a kormányablak, by post or electronically; call 1811 for information.",
+  "phone": "1811",
+  "url": "https://kormanyhivatalok.hu/csaladtamogatasok",
+  "sources": [
+   "https://kormanyhivatalok.hu/csaladtamogatasok",
+   "https://www.meosz.hu/wp-content/uploads/2022/05/fogyatekossagi-tamogataas-menekulteknek_hu.docx.pdf"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Government offices page lists disability support with ways to apply and call centre 1811; MEOSZ guide gives eligibility and documents needed.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "RS",
+  "family": "disability-benefit",
+  "section": "money",
+  "name": "Novčana naknada za pomoć i negu drugog lica (Attendance allowance)",
+  "org": "Republički fond za penzijsko i invalidsko osiguranje (PIO Fund)",
+  "what": "A monthly cash allowance for insured people and pensioners who need another person's help with basic daily needs, such as blind people, people who cannot move around, eat or dress without help, and people on dialysis; it does not depend on income.",
+  "how": "Use the application form from the PIO Fund website's forms section; the Fund's medical body assesses the need for care.",
+  "phone": "0700/017-017",
+  "email": "kontakt@pio.rs",
+  "url": "https://www.pio.rs/sr/novchane-naknade",
+  "sources": [
+   "https://www.pio.rs/sr/novchane-naknade"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "PIO Fund cash benefits page describes the allowance, eligibility, how to apply, contact line and email.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "NA",
+  "family": "ombudsman",
+  "section": "rights",
+  "name": "Office of the Ombudsman",
+  "org": "Office of the Ombudsman, Namibia",
+  "what": "Investigates complaints from individuals about human rights violations and maladministration in the public sector.",
+  "how": "Lodge a complaint in person, by phone or email, through the online complaint form, by Facebook message or by SMS.",
+  "phone": "061 207 3111",
+  "phone_intl": "+264 61 207 3111",
+  "email": "office@ombudsman.org.na",
+  "url": "https://ombudsman.org.na/",
+  "sources": [
+   "https://ombudsman.org.na/mandate-overview/",
+   "https://ombudsman.org.na/contact-us"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own mandate page covers human rights complaints from individuals; contact page lists Windhoek phone, email and regional offices.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "CY",
+  "family": "disability-agency",
+  "section": "start",
+  "name": "Department for Social Inclusion of Persons with Disabilities (Τμήμα Κοινωνικής Ενσωμάτωσης Ατόμων με Αναπηρίες)",
+  "org": "Ministry of Labour, Welfare and Social Insurance, Republic of Cyprus",
+  "what": "The national disability department; it carries out disability and functioning assessments and certification and grants social benefits to persons with disabilities.",
+  "how": "Call or email the department.",
+  "phone": "22815082",
+  "email": "info@dsid.mlsi.gov.cy",
+  "url": "https://www.eudisabilitycard.gov.cy/el/about-us",
+  "sources": [
+   "https://www.eudisabilitycard.gov.cy/el/about-us"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Department's About page on its European Disability Card site lists its responsibilities, phone and email.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "KZ",
+  "family": "disability-benefit",
+  "section": "money",
+  "name": "Государственное социальное пособие по инвалидности (State social disability benefit)",
+  "org": "Ministry of Labour and Social Protection of the Population",
+  "what": "A free state service that assigns the monthly state social benefit for disability.",
+  "how": "Apply online through the eGov portal with an electronic signature, at a 'Government for Citizens' service centre, or at a regional labour and social protection office.",
+  "url": "https://www.gov.kz/services/3000",
+  "sources": [
+   "https://www.gov.kz/services/3000"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Government services page names the ministry, application channels and processing time.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "BH",
+  "family": "nhri",
+  "section": "rights",
+  "name": "National Institution for Human Rights",
+  "org": "National Institution for Human Rights, Kingdom of Bahrain",
+  "what": "Bahrain's independent national human rights body; it receives and examines complaints from individuals, relatives and representatives and monitors places of detention.",
+  "how": "Contact the institution by phone to make a complaint.",
+  "phone": "80001144",
+  "phone_intl": "+973-17-111666",
+  "url": "https://www.nihr.org.bh/EN/About/Brief",
+  "sources": [
+   "https://www.nihr.org.bh/EN/About/Brief"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own About page says it receives complaints from individuals and shows phone numbers.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "BT",
+  "family": "dpo-federation",
+  "section": "rights",
+  "name": "Disabled People's Organization of Bhutan (DPOB)",
+  "org": "Disabled People's Organization of Bhutan (formerly Disabled Persons' Association of Bhutan)",
+  "what": "Bhutan's national organization run by persons with disabilities; it registers members and runs advocacy, health, education, skills, community and Deaf programmes.",
+  "how": "Register as a member or contact the office in Thimphu by phone or email.",
+  "phone": "02-339996",
+  "email": "info@dpobhutan.org",
+  "url": "https://dpobhutan.org/",
+  "sources": [
+   "https://dpobhutan.org/?p=59"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own About page describes the organization, programmes and contact details.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "MG",
+  "family": "nhri",
+  "section": "rights",
+  "name": "Commission Nationale Indépendante des Droits de l'Homme (CNIDH, National Independent Human Rights Commission)",
+  "org": "CNIDH Madagascar",
+  "what": "Madagascar's national human rights institution; it receives and examines complaints about human rights violations.",
+  "how": "Complain by letter, email, the website form, phone or in person at the office in Antananarivo; phone or oral complaints must be confirmed in writing.",
+  "phone_intl": "+261 34 11 589 59",
+  "email": "service.protection@cnidh-madagascar.org",
+  "url": "https://www.cnidh-madagascar.org/",
+  "sources": [
+   "https://www.cnidh-madagascar.org/protection/",
+   "https://cnidh-madagascar.org/nous-contacter/",
+   "https://www.cnidh-madagascar.org/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own Protection page says it receives complaints and lists ways to file; contact page lists the protection service phone and email.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "KG",
+  "family": "ombudsman",
+  "section": "rights",
+  "name": "Akyikatchy (Ombudsman) of the Kyrgyz Republic",
+  "org": "Institute of the Akyikatchy (Ombudsman)",
+  "what": "Provides parliamentary oversight of citizens' rights and freedoms and considers signed written appeals about rights violations by state bodies.",
+  "how": "Send a signed written appeal with your full name and address, a description of the decision or action and copies of relevant documents.",
+  "url": "https://ombudsman.kg/en",
+  "sources": [
+   "https://ombudsman.kg/en/about",
+   "https://ombudsman.kg/en/node/3629"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own pages describe the rights oversight role and what an appeal must contain; no contact details shown.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "LS",
+  "family": "ombudsman",
+  "section": "rights",
+  "name": "Office of the Ombudsman",
+  "org": "Office of the Ombudsman, Lesotho",
+  "what": "Receives and investigates complaints from anyone who feels wronged by a government agency, statutory corporation or their officials.",
+  "how": "Contact the office at Moposo House, Maseru, by phone or email.",
+  "phone_intl": "+2662231 6425",
+  "email": "omb@ombudsman.org.ls",
+  "url": "https://ombudsman.org.ls/",
+  "sources": [
+   "https://ombudsman.org.ls/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own home page explains complaints from aggrieved persons and lists address, phone and email.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "CM",
+  "family": "nhri",
+  "section": "rights",
+  "name": "Commission des Droits de l'Homme du Cameroun (Cameroon Human Rights Commission)",
+  "org": "Cameroon Human Rights Commission",
+  "what": "Cameroon's institution for the promotion and protection of human rights and the prevention of torture, created by law in 2019; it refers cases brought before it to the justice authorities.",
+  "how": "Contact the Commission in Yaoundé by phone or email.",
+  "phone_intl": "+237 242 22 61 17",
+  "email": "cdhc@cdhc.cm",
+  "url": "https://www.cdhc.cm/index.php?lang=eng",
+  "sources": [
+   "https://www.cdhc.cm/index.php?lang=eng",
+   "https://reporting.acerwc.africa/es/node/817"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own home page gives its protection mandate, address, phone and email; ACERWC profile says it refers cases brought before it.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "SM",
+  "family": "assistive-tech",
+  "section": "equipment-home",
+  "name": "Orthopaedic devices and prostheses (Istituto per la Sicurezza Sociale)",
+  "org": "Istituto per la Sicurezza Sociale (ISS)",
+  "what": "San Marino's social security institute supplies or reimburses medical materials, orthopaedic devices and prostheses on specialist prescription, subject to eligibility.",
+  "how": "Get a specialist's prescription and submit it with clinical documents and invoices to the ISS unit that handles reimbursements.",
+  "url": "https://www.iss.sm/on-line/home/dedicato-a/documento49159198.html",
+  "sources": [
+   "https://www.iss.sm/on-line/home/dedicato-a/documento49159198.html"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own ISS citizen guide describes supply and reimbursement of devices and prostheses and the procedure.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "VC",
+  "family": "disability-agency",
+  "section": "start",
+  "name": "Ministry of National Mobilisation, Social Development, Gender Affairs and Persons with Disabilities",
+  "org": "Government of Saint Vincent and the Grenadines",
+  "what": "The ministry responsible for persons with disabilities; in March 2025 the government announced a disability unit within it to provide support, advocacy and services.",
+  "how": "Contact the ministry on Halifax Street, Kingstown, by phone or email.",
+  "phone": "(784) 456-1111, Ext: 3863",
+  "email": "office.mobilisation@gov.vc",
+  "url": "https://mobilization.gov.vc/mobilization/index.php/37",
+  "sources": [
+   "https://mobilization.gov.vc/mobilization/index.php/37",
+   "https://mobilization.gov.vc/mobilization/images/stories/PDF/DISABILITY_UNIT_TO_BECOME_OPERATIONALISED.pdf"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Ministry page lists contacts; ministry PDF announces the planned disability unit (not yet confirmed operating).",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "DO",
+  "family": "ombudsman",
+  "section": "rights",
+  "name": "Defensor del Pueblo (Ombudsman)",
+  "org": "Defensor del Pueblo de la República Dominicana",
+  "what": "Takes complaints (reclamaciones) against public institutions and public service providers and gives citizens guidance on their rights.",
+  "how": "Call or WhatsApp, email, or visit the office on Av. 27 de Febrero in Santo Domingo, Monday to Friday 8 a.m. to 4 p.m.",
+  "phone": "(809) 381-4777",
+  "email": "info@defensordelpueblo.gob.do",
+  "url": "https://defensordelpueblo.gob.do/",
+  "sources": [
+   "https://defensordelpueblo.gob.do/servicios/",
+   "https://defensordelpueblo.gob.do/contactos/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own services page describes the complaints service; contacts page lists phone, WhatsApp, email and address.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "skipped": [
+   {
+    "place": "BY",
+    "what": "rights: national federation of disability organizations (Belarusian Society of Disabled)",
+    "why": "No own site or reputable directory page found before the search budget ran out"
+   },
+   {
+    "place": "AO",
+    "what": "rights: Provedor de Justiça (Ombudsman)",
+    "why": "No own website found; only an AI-drafted third-party summary, not used"
+   },
+   {
+    "place": "GA",
+    "what": "rights: Commission nationale des droits de l'homme / Médiateur de la République",
+    "why": "No own website or reputable directory page found"
+   },
+   {
+    "place": "NI",
+    "what": "rights: Procuraduría para la Defensa de los Derechos Humanos",
+    "why": "No own website found; search budget ran out before trying the money section"
+   },
+   {
+    "place": "PG",
+    "what": "start: national disability agency or resource centre",
+    "why": "No traceable official page found; only a DPO email on a Pacific Disability Forum list, and PNG already has a rights entry"
+   },
+   {
+    "place": "IL",
+    "what": "Commission for Equal Rights call centre phone",
+    "why": "gov.il pages would not load and the directory showed an incomplete number, so no phone given"
+   }
+  ]
+ }
+]

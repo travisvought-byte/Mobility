@@ -1,0 +1,5105 @@
+{
+ "registry_updated_on": "2026-11-23",
+ "us_summary": {
+  "places": 56,
+  "listings": 3704,
+  "evidence": {
+   "directory_listed": 726,
+   "news_reported": 13,
+   "official_search_extract_only": 1520,
+   "official_source_reviewed": 1445
+  },
+  "family_gaps": {
+   "local-transit": 55,
+   "equipment-reuse": 21,
+   "adrc": 5,
+   "section-5310": 5,
+   "nemt": 5,
+   "older-blind": 3,
+   "cil": 2,
+   "parking-placard": 2,
+   "talking-book-library": 1
+  }
+ },
+ "world_summary": {
+  "countries": 164,
+  "listings": 530,
+  "section_gaps": {
+   "work": 161,
+   "equipment-home": 125,
+   "start": 91,
+   "money": 72,
+   "rights": 46
+  }
+ },
+ "us": {
+  "AL": {
+   "name": "Alabama",
+   "listings": 50,
+   "county_listings": 13,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 2,
+    "equipment": 2,
+    "funding": 5,
+    "housing": 1,
+    "independent_living": 10,
+    "navigation": 6,
+    "ramps_home": 2,
+    "rights_legal": 4,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 2,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 9,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 2,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "AK": {
+   "name": "Alaska",
+   "listings": 48,
+   "county_listings": 13,
+   "by_category": {
+    "benefits": 1,
+    "children": 5,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 2,
+    "funding": 2,
+    "housing": 1,
+    "independent_living": 13,
+    "navigation": 4,
+    "ramps_home": 3,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 10,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 4,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "AZ": {
+   "name": "Arizona",
+   "listings": 51,
+   "county_listings": 17,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 2,
+    "funding": 2,
+    "housing": 2,
+    "independent_living": 6,
+    "navigation": 5,
+    "peer_support": 6,
+    "ramps_home": 3,
+    "rights_legal": 7,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 5,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "AR": {
+   "name": "Arkansas",
+   "listings": 41,
+   "county_listings": 6,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 3,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 6,
+    "navigation": 4,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 5,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "CA": {
+   "name": "California",
+   "listings": 158,
+   "county_listings": 111,
+   "by_category": {
+    "benefits": 1,
+    "children": 12,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 22,
+    "equipment": 8,
+    "funding": 6,
+    "housing": 1,
+    "independent_living": 29,
+    "navigation": 8,
+    "peer_support": 15,
+    "ramps_home": 7,
+    "rights_legal": 32,
+    "sensory": 9,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 3,
+    "silc": 1,
+    "cil": 28,
+    "at-program": 3,
+    "equipment-reuse": 7,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 5,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "CO": {
+   "name": "Colorado",
+   "listings": 90,
+   "county_listings": 55,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 35,
+    "equipment": 3,
+    "funding": 2,
+    "housing": 2,
+    "independent_living": 15,
+    "navigation": 6,
+    "ramps_home": 5,
+    "rights_legal": 4,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 14,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "CT": {
+   "name": "Connecticut",
+   "listings": 49,
+   "county_listings": 9,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 4,
+    "equipment": 3,
+    "funding": 5,
+    "housing": 2,
+    "independent_living": 9,
+    "navigation": 3,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 2,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 8,
+    "at-program": 2,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "DE": {
+   "name": "Delaware",
+   "listings": 43,
+   "county_listings": 7,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 4,
+    "equipment": 3,
+    "funding": 2,
+    "housing": 2,
+    "independent_living": 4,
+    "navigation": 3,
+    "peer_support": 1,
+    "ramps_home": 3,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 3,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 1,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "DC": {
+   "name": "District of Columbia",
+   "listings": 34,
+   "county_listings": 2,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 2,
+    "funding": 1,
+    "housing": 2,
+    "independent_living": 3,
+    "navigation": 5,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 4,
+    "transportation": 3,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 2,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "FL": {
+   "name": "Florida",
+   "listings": 103,
+   "county_listings": 67,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 7,
+    "equipment": 4,
+    "funding": 3,
+    "housing": 2,
+    "independent_living": 17,
+    "navigation": 6,
+    "peer_support": 10,
+    "ramps_home": 1,
+    "rights_legal": 25,
+    "sensory": 15,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 16,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 10,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "GA": {
+   "name": "Georgia",
+   "listings": 59,
+   "county_listings": 23,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 7,
+    "equipment": 2,
+    "funding": 5,
+    "housing": 2,
+    "independent_living": 10,
+    "navigation": 6,
+    "peer_support": 2,
+    "ramps_home": 3,
+    "rights_legal": 5,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 9,
+    "at-program": 2,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "HI": {
+   "name": "Hawaii",
+   "listings": 42,
+   "county_listings": 11,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 7,
+    "equipment": 1,
+    "funding": 2,
+    "housing": 1,
+    "independent_living": 5,
+    "navigation": 4,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 4,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "ID": {
+   "name": "Idaho",
+   "listings": 54,
+   "county_listings": 21,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 7,
+    "equipment": 3,
+    "funding": 2,
+    "housing": 2,
+    "independent_living": 15,
+    "navigation": 4,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 14,
+    "at-program": 2,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "IL": {
+   "name": "Illinois",
+   "listings": 66,
+   "county_listings": 29,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 3,
+    "funding": 6,
+    "housing": 2,
+    "independent_living": 22,
+    "navigation": 5,
+    "ramps_home": 4,
+    "rights_legal": 5,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 22,
+    "at-program": 2,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 2,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "IN": {
+   "name": "Indiana",
+   "listings": 62,
+   "county_listings": 22,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 9,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 11,
+    "navigation": 5,
+    "peer_support": 1,
+    "ramps_home": 5,
+    "rights_legal": 3,
+    "sensory": 7,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 10,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "IA": {
+   "name": "Iowa",
+   "listings": 51,
+   "county_listings": 15,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 8,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 2,
+    "independent_living": 9,
+    "navigation": 4,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 8,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "KS": {
+   "name": "Kansas",
+   "listings": 84,
+   "county_listings": 50,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 28,
+    "equipment": 4,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 21,
+    "navigation": 3,
+    "peer_support": 1,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 20,
+    "at-program": 1,
+    "equipment-reuse": 4,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 2,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "KY": {
+   "name": "Kentucky",
+   "listings": 77,
+   "county_listings": 40,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 14,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 1,
+    "independent_living": 16,
+    "navigation": 12,
+    "peer_support": 1,
+    "ramps_home": 4,
+    "rights_legal": 3,
+    "sensory": 7,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 0,
+    "at-program": 2,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "cil",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "LA": {
+   "name": "Louisiana",
+   "listings": 46,
+   "county_listings": 14,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 10,
+    "equipment": 3,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 5,
+    "navigation": 3,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 4,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "ME": {
+   "name": "Maine",
+   "listings": 40,
+   "county_listings": 4,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 3,
+    "funding": 3,
+    "housing": 2,
+    "independent_living": 3,
+    "navigation": 4,
+    "peer_support": 1,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 2,
+    "at-program": 2,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "MD": {
+   "name": "Maryland",
+   "listings": 76,
+   "county_listings": 40,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 5,
+    "equipment": 3,
+    "funding": 3,
+    "housing": 3,
+    "independent_living": 14,
+    "navigation": 3,
+    "peer_support": 2,
+    "ramps_home": 5,
+    "rights_legal": 4,
+    "sensory": 5,
+    "transportation": 22,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 13,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "MA": {
+   "name": "Massachusetts",
+   "listings": 84,
+   "county_listings": 46,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 24,
+    "equipment": 2,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 17,
+    "navigation": 6,
+    "peer_support": 3,
+    "ramps_home": 4,
+    "rights_legal": 3,
+    "sensory": 7,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 16,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 2,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 1,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "MI": {
+   "name": "Michigan",
+   "listings": 139,
+   "county_listings": 103,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 47,
+    "equipment": 4,
+    "funding": 4,
+    "housing": 1,
+    "independent_living": 14,
+    "navigation": 24,
+    "peer_support": 10,
+    "ramps_home": 4,
+    "rights_legal": 3,
+    "sensory": 17,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 13,
+    "at-program": 1,
+    "equipment-reuse": 4,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 12,
+    "phone-equipment": 1,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "MN": {
+   "name": "Minnesota",
+   "listings": 55,
+   "county_listings": 16,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 3,
+    "funding": 6,
+    "housing": 2,
+    "independent_living": 12,
+    "navigation": 6,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 7,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 11,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "MS": {
+   "name": "Mississippi",
+   "listings": 45,
+   "county_listings": 9,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 2,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 9,
+    "navigation": 3,
+    "peer_support": 1,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 8,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "MO": {
+   "name": "Missouri",
+   "listings": 72,
+   "county_listings": 37,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 13,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 1,
+    "independent_living": 22,
+    "navigation": 5,
+    "peer_support": 1,
+    "ramps_home": 2,
+    "rights_legal": 4,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 21,
+    "at-program": 2,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "MT": {
+   "name": "Montana",
+   "listings": 46,
+   "county_listings": 14,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 13,
+    "navigation": 4,
+    "rights_legal": 3,
+    "sensory": 4,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 12,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "NE": {
+   "name": "Nebraska",
+   "listings": 50,
+   "county_listings": 13,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 4,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 1,
+    "independent_living": 9,
+    "navigation": 3,
+    "ramps_home": 5,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 8,
+    "at-program": 2,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "NV": {
+   "name": "Nevada",
+   "listings": 40,
+   "county_listings": 7,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 3,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 2,
+    "independent_living": 4,
+    "navigation": 3,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 3,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "NH": {
+   "name": "New Hampshire",
+   "listings": 35,
+   "county_listings": 2,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 1,
+    "equipment": 2,
+    "funding": 4,
+    "housing": 1,
+    "independent_living": 3,
+    "navigation": 4,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 2,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "NJ": {
+   "name": "New Jersey",
+   "listings": 95,
+   "county_listings": 58,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 9,
+    "equipment": 4,
+    "funding": 4,
+    "housing": 3,
+    "independent_living": 22,
+    "navigation": 6,
+    "peer_support": 1,
+    "ramps_home": 4,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 25,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 21,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 22,
+    "parking-placard": 1
+   },
+   "missing": [],
+   "score": 1.0
+  },
+  "NM": {
+   "name": "New Mexico",
+   "listings": 48,
+   "county_listings": 12,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 3,
+    "funding": 2,
+    "housing": 1,
+    "independent_living": 11,
+    "navigation": 3,
+    "ramps_home": 4,
+    "rights_legal": 4,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 10,
+    "at-program": 1,
+    "equipment-reuse": 3,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "NY": {
+   "name": "New York",
+   "listings": 121,
+   "county_listings": 82,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 10,
+    "equipment": 10,
+    "funding": 1,
+    "housing": 2,
+    "independent_living": 38,
+    "navigation": 12,
+    "peer_support": 3,
+    "ramps_home": 16,
+    "rights_legal": 9,
+    "sensory": 7,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 3,
+    "silc": 2,
+    "cil": 36,
+    "at-program": 4,
+    "equipment-reuse": 9,
+    "ada-center": 1,
+    "adrc": 0,
+    "talking-book-library": 3,
+    "phone-equipment": 1,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "adrc",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "NC": {
+   "name": "North Carolina",
+   "listings": 51,
+   "county_listings": 14,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 4,
+    "equipment": 2,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 9,
+    "navigation": 4,
+    "peer_support": 1,
+    "ramps_home": 2,
+    "rights_legal": 6,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 7,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "ND": {
+   "name": "North Dakota",
+   "listings": 50,
+   "county_listings": 17,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 9,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 10,
+    "navigation": 4,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 9,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 1,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "OH": {
+   "name": "Ohio",
+   "listings": 183,
+   "county_listings": 144,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 88,
+    "equipment": 9,
+    "funding": 6,
+    "housing": 2,
+    "independent_living": 14,
+    "navigation": 31,
+    "peer_support": 2,
+    "ramps_home": 12,
+    "rights_legal": 3,
+    "sensory": 4,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 12,
+    "at-program": 1,
+    "equipment-reuse": 7,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "OK": {
+   "name": "Oklahoma",
+   "listings": 44,
+   "county_listings": 7,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 5,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 7,
+    "navigation": 4,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 6,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "OR": {
+   "name": "Oregon",
+   "listings": 49,
+   "county_listings": 15,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 4,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 2,
+    "independent_living": 13,
+    "navigation": 4,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 12,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "PA": {
+   "name": "Pennsylvania",
+   "listings": 196,
+   "county_listings": 154,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 49,
+    "equipment": 18,
+    "funding": 3,
+    "housing": 3,
+    "independent_living": 17,
+    "navigation": 61,
+    "peer_support": 6,
+    "ramps_home": 10,
+    "rights_legal": 10,
+    "sensory": 7,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 16,
+    "at-program": 3,
+    "equipment-reuse": 14,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 3,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "RI": {
+   "name": "Rhode Island",
+   "listings": 37,
+   "county_listings": 4,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 2,
+    "funding": 2,
+    "housing": 2,
+    "independent_living": 5,
+    "navigation": 4,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 3,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 4,
+    "at-program": 2,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "SC": {
+   "name": "South Carolina",
+   "listings": 78,
+   "county_listings": 44,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 33,
+    "equipment": 3,
+    "funding": 2,
+    "housing": 1,
+    "independent_living": 5,
+    "navigation": 5,
+    "peer_support": 5,
+    "ramps_home": 3,
+    "rights_legal": 4,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 4,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "SD": {
+   "name": "South Dakota",
+   "listings": 47,
+   "county_listings": 12,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 2,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 14,
+    "navigation": 4,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 13,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "TN": {
+   "name": "Tennessee",
+   "listings": 48,
+   "county_listings": 11,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 4,
+    "equipment": 3,
+    "funding": 3,
+    "housing": 2,
+    "independent_living": 7,
+    "navigation": 5,
+    "peer_support": 2,
+    "ramps_home": 1,
+    "rights_legal": 4,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 6,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "TX": {
+   "name": "Texas",
+   "listings": 116,
+   "county_listings": 77,
+   "by_category": {
+    "benefits": 1,
+    "children": 6,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 40,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 25,
+    "navigation": 10,
+    "peer_support": 2,
+    "ramps_home": 3,
+    "rights_legal": 6,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 2,
+    "silc": 1,
+    "cil": 24,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "UT": {
+   "name": "Utah",
+   "listings": 46,
+   "county_listings": 8,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 4,
+    "funding": 6,
+    "housing": 1,
+    "independent_living": 7,
+    "navigation": 4,
+    "ramps_home": 2,
+    "rights_legal": 4,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 6,
+    "at-program": 4,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "VT": {
+   "name": "Vermont",
+   "listings": 44,
+   "county_listings": 11,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 11,
+    "equipment": 2,
+    "funding": 2,
+    "housing": 1,
+    "independent_living": 3,
+    "navigation": 4,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 2,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "VA": {
+   "name": "Virginia",
+   "listings": 113,
+   "county_listings": 73,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 41,
+    "equipment": 4,
+    "funding": 4,
+    "housing": 2,
+    "independent_living": 18,
+    "navigation": 6,
+    "ramps_home": 9,
+    "rights_legal": 4,
+    "sensory": 13,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 17,
+    "at-program": 2,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 7,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "WA": {
+   "name": "Washington",
+   "listings": 47,
+   "county_listings": 15,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "dd_board": 3,
+    "equipment": 3,
+    "funding": 4,
+    "housing": 1,
+    "independent_living": 5,
+    "navigation": 5,
+    "peer_support": 2,
+    "ramps_home": 3,
+    "rights_legal": 4,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 4,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "WV": {
+   "name": "West Virginia",
+   "listings": 40,
+   "county_listings": 7,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 1,
+    "funding": 2,
+    "housing": 1,
+    "independent_living": 4,
+    "navigation": 5,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 10,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 3,
+    "at-program": 1,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 4,
+    "phone-equipment": 2,
+    "older-blind": 2,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "WI": {
+   "name": "Wisconsin",
+   "listings": 61,
+   "county_listings": 20,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 2,
+    "equipment": 5,
+    "funding": 6,
+    "housing": 3,
+    "independent_living": 17,
+    "navigation": 5,
+    "ramps_home": 2,
+    "rights_legal": 3,
+    "sensory": 6,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 16,
+    "at-program": 1,
+    "equipment-reuse": 2,
+    "ada-center": 1,
+    "adrc": 2,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "local-transit"
+   ],
+   "score": 0.94
+  },
+  "WY": {
+   "name": "Wyoming",
+   "listings": 36,
+   "county_listings": 3,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "daily_living": 1,
+    "dd_board": 1,
+    "equipment": 2,
+    "funding": 3,
+    "housing": 1,
+    "independent_living": 4,
+    "navigation": 4,
+    "ramps_home": 1,
+    "rights_legal": 3,
+    "sensory": 5,
+    "transportation": 4,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 3,
+    "at-program": 1,
+    "equipment-reuse": 1,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 2,
+    "older-blind": 1,
+    "section-5310": 1,
+    "nemt": 1,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "local-transit"
+   ],
+   "score": 0.89
+  },
+  "AS": {
+   "name": "American Samoa",
+   "listings": 14,
+   "county_listings": 0,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 1,
+    "equipment": 1,
+    "independent_living": 2,
+    "navigation": 2,
+    "rights_legal": 2,
+    "sensory": 1,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 1,
+    "at-program": 1,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 0,
+    "talking-book-library": 0,
+    "phone-equipment": 1,
+    "older-blind": 0,
+    "section-5310": 0,
+    "nemt": 0,
+    "local-transit": 0,
+    "parking-placard": 0
+   },
+   "missing": [
+    "equipment-reuse",
+    "adrc",
+    "talking-book-library",
+    "older-blind",
+    "section-5310",
+    "nemt",
+    "local-transit",
+    "parking-placard"
+   ],
+   "score": 0.56
+  },
+  "GU": {
+   "name": "Guam",
+   "listings": 19,
+   "county_listings": 0,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 2,
+    "equipment": 1,
+    "housing": 1,
+    "independent_living": 1,
+    "navigation": 3,
+    "rights_legal": 2,
+    "sensory": 3,
+    "transportation": 1,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 0,
+    "at-program": 1,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 1,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 1,
+    "section-5310": 0,
+    "nemt": 0,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "cil",
+    "equipment-reuse",
+    "section-5310",
+    "nemt",
+    "local-transit"
+   ],
+   "score": 0.72
+  },
+  "MP": {
+   "name": "Northern Mariana Islands",
+   "listings": 17,
+   "county_listings": 0,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 1,
+    "equipment": 1,
+    "housing": 1,
+    "independent_living": 3,
+    "navigation": 2,
+    "rights_legal": 2,
+    "sensory": 2,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 2,
+    "at-program": 1,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 0,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 0,
+    "section-5310": 0,
+    "nemt": 0,
+    "local-transit": 0,
+    "parking-placard": 0
+   },
+   "missing": [
+    "equipment-reuse",
+    "adrc",
+    "older-blind",
+    "section-5310",
+    "nemt",
+    "local-transit",
+    "parking-placard"
+   ],
+   "score": 0.61
+  },
+  "PR": {
+   "name": "Puerto Rico",
+   "listings": 20,
+   "county_listings": 1,
+   "by_category": {
+    "benefits": 1,
+    "children": 4,
+    "crisis": 1,
+    "equipment": 1,
+    "housing": 1,
+    "independent_living": 4,
+    "navigation": 2,
+    "rights_legal": 2,
+    "sensory": 2,
+    "transportation": 1,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 3,
+    "at-program": 1,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 0,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 0,
+    "section-5310": 0,
+    "nemt": 0,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "adrc",
+    "older-blind",
+    "section-5310",
+    "nemt",
+    "local-transit"
+   ],
+   "score": 0.67
+  },
+  "VI": {
+   "name": "U.S. Virgin Islands",
+   "listings": 18,
+   "county_listings": 1,
+   "by_category": {
+    "benefits": 1,
+    "children": 3,
+    "crisis": 1,
+    "equipment": 1,
+    "housing": 1,
+    "independent_living": 2,
+    "navigation": 2,
+    "rights_legal": 2,
+    "sensory": 3,
+    "transportation": 1,
+    "work_school": 1
+   },
+   "families": {
+    "medicaid-agency": 1,
+    "vr-agency": 1,
+    "pa-agency": 1,
+    "dd-council": 1,
+    "ucedd": 1,
+    "silc": 1,
+    "cil": 1,
+    "at-program": 1,
+    "equipment-reuse": 0,
+    "ada-center": 1,
+    "adrc": 0,
+    "talking-book-library": 1,
+    "phone-equipment": 1,
+    "older-blind": 1,
+    "section-5310": 0,
+    "nemt": 0,
+    "local-transit": 0,
+    "parking-placard": 1
+   },
+   "missing": [
+    "equipment-reuse",
+    "adrc",
+    "section-5310",
+    "nemt",
+    "local-transit"
+   ],
+   "score": 0.72
+  }
+ },
+ "countries": {
+  "AU": {
+   "name": "Australia",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "CA": {
+   "name": "Canada",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 2,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "IN": {
+   "name": "India",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "IE": {
+   "name": "Ireland",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "NZ": {
+   "name": "New Zealand",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "PH": {
+   "name": "Philippines",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "ZA": {
+   "name": "South Africa",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 2,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "GB": {
+   "name": "United Kingdom",
+   "listings": 7,
+   "by_section": {
+    "equipment-home": 2,
+    "help-now": 1,
+    "money": 2,
+    "rights": 1,
+    "work": 1
+   },
+   "missing": [
+    "start"
+   ],
+   "directory_only": 0
+  },
+  "JM": {
+   "name": "Jamaica",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "KE": {
+   "name": "Kenya",
+   "listings": 6,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 2,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "MX": {
+   "name": "Mexico",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "NG": {
+   "name": "Nigeria",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "SG": {
+   "name": "Singapore",
+   "listings": 7,
+   "by_section": {
+    "equipment-home": 3,
+    "help-now": 1,
+    "rights": 1,
+    "start": 1,
+    "work": 1
+   },
+   "missing": [
+    "money"
+   ],
+   "directory_only": 0
+  },
+  "MY": {
+   "name": "Malaysia",
+   "listings": 5,
+   "by_section": {
+    "help-now": 2,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "GH": {
+   "name": "Ghana",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "rights": 2,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "UG": {
+   "name": "Uganda",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 2
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "TZ": {
+   "name": "Tanzania",
+   "listings": 4,
+   "by_section": {
+    "help-now": 2,
+    "rights": 2
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "ZM": {
+   "name": "Zambia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "ZW": {
+   "name": "Zimbabwe",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "PK": {
+   "name": "Pakistan",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 2,
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "BD": {
+   "name": "Bangladesh",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "TT": {
+   "name": "Trinidad and Tobago",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "BB": {
+   "name": "Barbados",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "BS": {
+   "name": "Bahamas",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "DE": {
+   "name": "Germany",
+   "listings": 5,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 3
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "FR": {
+   "name": "France",
+   "listings": 6,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 2
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "ES": {
+   "name": "Spain",
+   "listings": 6,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 2,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "IT": {
+   "name": "Italy",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "NL": {
+   "name": "Netherlands",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "PL": {
+   "name": "Poland",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 2,
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "BR": {
+   "name": "Brazil",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "AR": {
+   "name": "Argentina",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "CO": {
+   "name": "Colombia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "CL": {
+   "name": "Chile",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "PE": {
+   "name": "Peru",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 3
+  },
+  "PT": {
+   "name": "Portugal",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "BE": {
+   "name": "Belgium",
+   "listings": 4,
+   "by_section": {
+    "help-now": 2,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "SE": {
+   "name": "Sweden",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "NO": {
+   "name": "Norway",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 2,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "DK": {
+   "name": "Denmark",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "CH": {
+   "name": "Switzerland",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "AT": {
+   "name": "Austria",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "JP": {
+   "name": "Japan",
+   "listings": 4,
+   "by_section": {
+    "help-now": 2,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "KR": {
+   "name": "South Korea",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "IL": {
+   "name": "Israel",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "EC": {
+   "name": "Ecuador",
+   "listings": 5,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "CR": {
+   "name": "Costa Rica",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "FI": {
+   "name": "Finland",
+   "listings": 4,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "GR": {
+   "name": "Greece",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "CZ": {
+   "name": "Czech Republic",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "RO": {
+   "name": "Romania",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "TR": {
+   "name": "Turkey",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "AE": {
+   "name": "United Arab Emirates",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "EG": {
+   "name": "Egypt",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "ID": {
+   "name": "Indonesia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "TH": {
+   "name": "Thailand",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "VN": {
+   "name": "Vietnam",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "UY": {
+   "name": "Uruguay",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "GT": {
+   "name": "Guatemala",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "HU": {
+   "name": "Hungary",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "HR": {
+   "name": "Croatia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "UA": {
+   "name": "Ukraine",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "SA": {
+   "name": "Saudi Arabia",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "RW": {
+   "name": "Rwanda",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "LK": {
+   "name": "Sri Lanka",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "NP": {
+   "name": "Nepal",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "TW": {
+   "name": "Taiwan",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "SK": {
+   "name": "Slovakia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "BG": {
+   "name": "Bulgaria",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "LT": {
+   "name": "Lithuania",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "RS": {
+   "name": "Serbia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "QA": {
+   "name": "Qatar",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "HK": {
+   "name": "Hong Kong",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "KH": {
+   "name": "Cambodia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "NA": {
+   "name": "Namibia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "BW": {
+   "name": "Botswana",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "PY": {
+   "name": "Paraguay",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "SV": {
+   "name": "El Salvador",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "EE": {
+   "name": "Estonia",
+   "listings": 4,
+   "by_section": {
+    "help-now": 2,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "LV": {
+   "name": "Latvia",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "SI": {
+   "name": "Slovenia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "IS": {
+   "name": "Iceland",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "LU": {
+   "name": "Luxembourg",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "MT": {
+   "name": "Malta",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "CY": {
+   "name": "Cyprus",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "OM": {
+   "name": "Oman",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "MN": {
+   "name": "Mongolia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "GE": {
+   "name": "Georgia",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "AM": {
+   "name": "Armenia",
+   "listings": 4,
+   "by_section": {
+    "help-now": 2,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "KZ": {
+   "name": "Kazakhstan",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "AL": {
+   "name": "Albania",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "MK": {
+   "name": "North Macedonia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "BA": {
+   "name": "Bosnia and Herzegovina",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "ME": {
+   "name": "Montenegro",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "MD": {
+   "name": "Moldova",
+   "listings": 4,
+   "by_section": {
+    "help-now": 3,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "BH": {
+   "name": "Bahrain",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "TN": {
+   "name": "Tunisia",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "MU": {
+   "name": "Mauritius",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "FJ": {
+   "name": "Fiji",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "BZ": {
+   "name": "Belize",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "NI": {
+   "name": "Nicaragua",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "SN": {
+   "name": "Senegal",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "LB": {
+   "name": "Lebanon",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "AZ": {
+   "name": "Azerbaijan",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "UZ": {
+   "name": "Uzbekistan",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "BN": {
+   "name": "Brunei",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "BT": {
+   "name": "Bhutan",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "MV": {
+   "name": "Maldives",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "GY": {
+   "name": "Guyana",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "CN": {
+   "name": "China",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "RU": {
+   "name": "Russia",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "BY": {
+   "name": "Belarus",
+   "listings": 2,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "CI": {
+   "name": "Côte d'Ivoire",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "SR": {
+   "name": "Suriname",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "MZ": {
+   "name": "Mozambique",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "AO": {
+   "name": "Angola",
+   "listings": 2,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "AD": {
+   "name": "Andorra",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "LI": {
+   "name": "Liechtenstein",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "LC": {
+   "name": "Saint Lucia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "LS": {
+   "name": "Lesotho",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "KN": {
+   "name": "Saint Kitts and Nevis",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "SB": {
+   "name": "Solomon Islands",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 2
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 3
+  },
+  "BF": {
+   "name": "Burkina Faso",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 3
+  },
+  "SL": {
+   "name": "Sierra Leone",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "VU": {
+   "name": "Vanuatu",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "WS": {
+   "name": "Samoa",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "BO": {
+   "name": "Bolivia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "CM": {
+   "name": "Cameroon",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "CD": {
+   "name": "Democratic Republic of the Congo",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "work": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home"
+   ],
+   "directory_only": 2
+  },
+  "MH": {
+   "name": "Marshall Islands",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "PW": {
+   "name": "Palau",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "PA": {
+   "name": "Panama",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "SM": {
+   "name": "San Marino",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "AG": {
+   "name": "Antigua and Barbuda",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "GD": {
+   "name": "Grenada",
+   "listings": 4,
+   "by_section": {
+    "help-now": 3,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "LA": {
+   "name": "Laos",
+   "listings": 2,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "LR": {
+   "name": "Liberia",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "MG": {
+   "name": "Madagascar",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "MW": {
+   "name": "Malawi",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "MC": {
+   "name": "Monaco",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "SC": {
+   "name": "Seychelles",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "BJ": {
+   "name": "Benin",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "TG": {
+   "name": "Togo",
+   "listings": 3,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 2
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 3
+  },
+  "KG": {
+   "name": "Kyrgyzstan",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "TJ": {
+   "name": "Tajikistan",
+   "listings": 2,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "KI": {
+   "name": "Kiribati",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "FM": {
+   "name": "Federated States of Micronesia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "HN": {
+   "name": "Honduras",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "GA": {
+   "name": "Gabon",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "DZ": {
+   "name": "Algeria",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "DM": {
+   "name": "Dominica",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 0
+  },
+  "SZ": {
+   "name": "Eswatini",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "IR": {
+   "name": "Iran",
+   "listings": 4,
+   "by_section": {
+    "help-now": 3,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 4
+  },
+  "IQ": {
+   "name": "Iraq",
+   "listings": 3,
+   "by_section": {
+    "help-now": 2,
+    "money": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 3
+  },
+  "VC": {
+   "name": "Saint Vincent and the Grenadines",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "start": 1
+   },
+   "missing": [
+    "equipment-home",
+    "work",
+    "rights"
+   ],
+   "directory_only": 1
+  },
+  "SY": {
+   "name": "Syria",
+   "listings": 2,
+   "by_section": {
+    "equipment-home": 1,
+    "help-now": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "work",
+    "rights"
+   ],
+   "directory_only": 2
+  },
+  "TL": {
+   "name": "Timor-Leste",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "TO": {
+   "name": "Tonga",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "money": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "DO": {
+   "name": "Dominican Republic",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "GM": {
+   "name": "Gambia",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 2
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  },
+  "JO": {
+   "name": "Jordan",
+   "listings": 4,
+   "by_section": {
+    "help-now": 1,
+    "rights": 2,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "MA": {
+   "name": "Morocco",
+   "listings": 3,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1,
+    "start": 1
+   },
+   "missing": [
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 0
+  },
+  "PG": {
+   "name": "Papua New Guinea",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 2
+  },
+  "CG": {
+   "name": "Republic of the Congo",
+   "listings": 2,
+   "by_section": {
+    "help-now": 1,
+    "rights": 1
+   },
+   "missing": [
+    "start",
+    "money",
+    "equipment-home",
+    "work"
+   ],
+   "directory_only": 1
+  }
+ }
+}

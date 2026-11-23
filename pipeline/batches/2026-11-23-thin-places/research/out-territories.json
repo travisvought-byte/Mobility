@@ -1,0 +1,671 @@
+[
+ {
+  "place": "PR",
+  "family": "ucedd",
+  "category": "navigation",
+  "name": "Instituto de Deficiencias en el Desarrollo (Puerto Rico University Center for Excellence in Developmental Disabilities)",
+  "org": "University of Puerto Rico, Medical Sciences Campus, Graduate School of Public Health",
+  "what": "Puerto Rico's federally designated university center on developmental disabilities. It trains professionals and gives community training and technical assistance to people with disabilities and families, and runs programs such as a child development center and the Puerto Rico Family-to-Family Center.",
+  "next_step": "Call the center and ask what training, early-childhood or family support programs it can connect you with.",
+  "phone": "787-754-4377",
+  "url": "https://rcm1.rcm.upr.edu/institutodeficiencias/",
+  "sources": [
+   "https://rcm1.rcm.upr.edu/institutodeficiencias/",
+   "https://www.aucd.org/directory-center?id=62"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page describes IDD services and programs; AUCD directory lists it as Puerto Rico's UCEDD with main phone 787-754-4377 and toll-free 866-754-4300.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "GU",
+  "family": "ucedd",
+  "category": "navigation",
+  "name": "Guam CEDDERS (University of Guam Center for Excellence in Developmental Disabilities Education, Research & Service)",
+  "org": "University of Guam",
+  "what": "Guam's university center on developmental disabilities. It runs assistive technology help (GSAT), newborn hearing screening follow-up (Guam EHDI), disability awareness training and language access work for Deaf and hard of hearing people.",
+  "next_step": "Call Guam CEDDERS and ask which of its projects or trainings fits your situation.",
+  "phone": "(671) 735-2481",
+  "url": "https://www.guamcedders.org",
+  "sources": [
+   "https://www.guamcedders.org",
+   "https://www.aucd.org/directory-center?id=27"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site lists projects and phone (671) 735-2481, TTY (671) 734-6531; AUCD directory confirms UCEDD designation.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "VI",
+  "family": "ucedd",
+  "category": "navigation",
+  "name": "Virgin Islands University Center for Excellence in Developmental Disabilities (VIUCEDD)",
+  "org": "University of the Virgin Islands",
+  "what": "A federally funded university center on developmental disabilities. It provides training, research, information and community services such as direct services, technical assistance and model programs for people with disabilities in the Virgin Islands.",
+  "next_step": "Call the University of the Virgin Islands and ask for VIUCEDD about its community services and trainings.",
+  "phone": "(340) 776-9200",
+  "url": "https://viucedd.uvi.edu/information-for/about-us.html",
+  "sources": [
+   "https://viucedd.uvi.edu/information-for/about-us.html"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own About Us page describes four core functions; lists St. Thomas campus (340) 776-9200 and St. Croix campus (340) 778-1620.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "AS",
+  "family": "ucedd",
+  "category": "navigation",
+  "name": "University Center for Excellence in Developmental Disabilities (UCEDD), American Samoa Community College",
+  "org": "American Samoa Community College",
+  "what": "Works to improve quality of life for people with developmental disabilities of all ages through training, technical assistance to individuals and families, research and information, with focus areas including early intervention, health, employment, housing, transportation and assistive technology.",
+  "next_step": "Contact American Samoa Community College and ask for the UCEDD about technical assistance for you or your family.",
+  "url": "https://aan-cmc.amsamoa.edu/specialprograms/ucedd.html",
+  "sources": [
+   "https://aan-cmc.amsamoa.edu/specialprograms/ucedd.html"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own ASCC program page states mission and focus areas; no phone shown on the page.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "MP",
+  "family": "ucedd",
+  "category": "navigation",
+  "name": "CNMI University Center for Excellence in Developmental Disabilities (UCEDD)",
+  "org": "Northern Marianas College (part of the Pacific Basin University Centers for Excellence)",
+  "what": "The CNMI's university center on developmental disabilities. It does training, community services, research and information sharing for people with disabilities and families who are unserved or underserved.",
+  "next_step": "Call Northern Marianas College's UCEDD and ask about its community services and trainings.",
+  "phone": "(670) 234-5498 Ext. 6801/6808",
+  "url": "https://www.marianas.edu/ucedd",
+  "sources": [
+   "https://www.marianas.edu/ucedd"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own NMC page describes the UCEDD and lists phone (670) 234-5498 Ext. 6801/6808.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "PR",
+  "family": "ada-center",
+  "category": "rights_legal",
+  "name": "Northeast ADA Center",
+  "org": "Yang-Tan Institute on Employment and Disability, Cornell University (ADA National Network, Region 2)",
+  "what": "Free information, technical assistance and training on the Americans with Disabilities Act for people in New York, New Jersey, Puerto Rico and the U.S. Virgin Islands, with Spanish-language service.",
+  "next_step": "Call the toll-free line and ask an ADA question about your rights at work, in public places or with local government.",
+  "phone": "1-800-949-4232",
+  "email": "northeastada@cornell.edu",
+  "url": "https://www.northeastada.org",
+  "sources": [
+   "https://www.northeastada.org",
+   "https://adata.org/region/northeast-ada-center/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site says it serves Puerto Rico and the US Virgin Islands; toll-free 1-800-949-4232 offers voice, TTY and Spanish there.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "VI",
+  "family": "ada-center",
+  "category": "rights_legal",
+  "name": "Northeast ADA Center",
+  "org": "Yang-Tan Institute on Employment and Disability, Cornell University (ADA National Network, Region 2)",
+  "what": "Free information, technical assistance and training on the Americans with Disabilities Act for people in New York, New Jersey, Puerto Rico and the U.S. Virgin Islands, with Spanish-language service.",
+  "next_step": "Call the toll-free line and ask an ADA question about your rights at work, in public places or with local government.",
+  "phone": "1-800-949-4232",
+  "email": "northeastada@cornell.edu",
+  "url": "https://www.northeastada.org",
+  "sources": [
+   "https://www.northeastada.org",
+   "https://adata.org/region/northeast-ada-center/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site says it serves Puerto Rico and the US Virgin Islands; toll-free 1-800-949-4232 offers voice, TTY and Spanish there.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "GU",
+  "family": "ada-center",
+  "category": "rights_legal",
+  "name": "Pacific ADA Center",
+  "org": "ADA National Network, Region 9",
+  "what": "Free answers to ADA questions, training and webinars for people in the Pacific region, which includes Guam, American Samoa and the Northern Mariana Islands.",
+  "next_step": "Call and ask a technical assistance specialist your ADA question.",
+  "phone": "(800) 949-4232",
+  "email": "info@adapacific.org",
+  "url": "https://www.adapacific.org",
+  "sources": [
+   "https://www.adapacific.org",
+   "https://adapacific.org/our-region",
+   "https://adata.org/region/pacific-ada-center/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own region page lists American Samoa, Guam and CNMI in its service area; home page lists (800) 949-4232 and info@adapacific.org.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "AS",
+  "family": "ada-center",
+  "category": "rights_legal",
+  "name": "Pacific ADA Center",
+  "org": "ADA National Network, Region 9",
+  "what": "Free answers to ADA questions, training and webinars for people in the Pacific region, which includes Guam, American Samoa and the Northern Mariana Islands.",
+  "next_step": "Call and ask a technical assistance specialist your ADA question.",
+  "phone": "(800) 949-4232",
+  "email": "info@adapacific.org",
+  "url": "https://www.adapacific.org",
+  "sources": [
+   "https://www.adapacific.org",
+   "https://adapacific.org/our-region",
+   "https://adata.org/region/pacific-ada-center/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own region page lists American Samoa, Guam and CNMI in its service area; home page lists (800) 949-4232 and info@adapacific.org.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "MP",
+  "family": "ada-center",
+  "category": "rights_legal",
+  "name": "Pacific ADA Center",
+  "org": "ADA National Network, Region 9",
+  "what": "Free answers to ADA questions, training and webinars for people in the Pacific region, which includes Guam, American Samoa and the Northern Mariana Islands.",
+  "next_step": "Call and ask a technical assistance specialist your ADA question.",
+  "phone": "(800) 949-4232",
+  "email": "info@adapacific.org",
+  "url": "https://www.adapacific.org",
+  "sources": [
+   "https://www.adapacific.org",
+   "https://adapacific.org/our-region",
+   "https://adata.org/region/pacific-ada-center/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own region page lists American Samoa, Guam and CNMI in its service area; home page lists (800) 949-4232 and info@adapacific.org.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "PR",
+  "family": "silc",
+  "category": "independent_living",
+  "name": "Consejo Estatal de Vida Independiente (CEVI) (Statewide Independent Living Council)",
+  "org": "Consejo Estatal de Vida Independiente de Puerto Rico",
+  "what": "Puerto Rico's statewide independent living council. It writes and monitors the three-year State Plan for Independent Living with the island's independent living centers.",
+  "next_step": "Call CEVI to ask about the State Plan for Independent Living, public meetings, or which independent living center serves your town.",
+  "phone": "787-757-8346",
+  "url": "https://cevipr.org/",
+  "sources": [
+   "https://cevipr.org/",
+   "https://www.ilru.org/projects/silc-net/silc-directory-results"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site describes CEVI's role and lists phone 787-757-8346 and Mercantil Plaza office in San Juan.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "GU",
+  "family": "silc",
+  "category": "independent_living",
+  "name": "Guam Statewide Independent Living Council (SILC)",
+  "org": "Guam SILC, supported by the Department of Integrated Services for Individuals with Disabilities (DISID)",
+  "what": "Guam's council that develops, monitors and evaluates the three-year State Plan for Independent Living, which sets independent living services priorities.",
+  "next_step": "Call DISID and ask how to reach the SILC, see the current independent living plan, or attend a council meeting.",
+  "phone": "(671) 475-4624",
+  "url": "https://disid.guam.gov/?p=2724",
+  "sources": [
+   "https://disid.guam.gov/?p=2724",
+   "https://ilru.org/projects/silc-net/silc-directory-results/GU"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "DISID SILC page describes the council and lists DISID phone (671) 475-4624; ILRU lists SILC local phone (671) 929-3554.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "VI",
+  "family": "silc",
+  "category": "independent_living",
+  "name": "Virgin Islands Statewide Independent Living Council",
+  "org": "Virgin Islands Statewide Independent Living Council",
+  "what": "The territory's statewide independent living council, which plans and monitors independent living services for people with disabilities in the Virgin Islands.",
+  "next_step": "Call the council and ask about the independent living plan and how to take part.",
+  "phone": "(340) 719-1256",
+  "email": "silcvi1256@gmail.com",
+  "url": "https://www.ilru.org/projects/silc-net/silc-directory-results",
+  "sources": [
+   "https://www.ilru.org/projects/silc-net/silc-directory-results"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "ILRU SILC directory lists the council at P.O. Box 4840, Kingshill, phone (340) 719-1256; no own website listed.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "AS",
+  "family": "silc",
+  "category": "independent_living",
+  "name": "American Samoa Statewide Independent Living Council (SILC)",
+  "org": "American Samoa SILC",
+  "what": "American Samoa's statewide independent living council, which plans and monitors independent living services in the territory.",
+  "next_step": "Call the council and ask about the independent living plan and services in American Samoa.",
+  "phone": "(684) 699-5990",
+  "url": "https://www.ilru.org/projects/silc-net/silc-directory-results",
+  "sources": [
+   "https://www.ilru.org/projects/silc-net/silc-directory-results"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "ILRU SILC directory lists the council at P.O. Box 4561, Pago Pago, phone (684) 699-5990, TTY (684) 699-1381; no own website.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "MP",
+  "family": "silc",
+  "category": "independent_living",
+  "name": "CNMI State Independent Living Council (SILC)",
+  "org": "CNMI SILC, with the CNMI Office of Vocational Rehabilitation",
+  "what": "A Governor-appointed council, mostly people with disabilities from Saipan, Tinian and Rota, that shapes the three-year independent living plan and does systems advocacy and public education.",
+  "next_step": "Call and ask about the SILC's meetings, the independent living plan, or how to join the council.",
+  "phone": "(670) 322-6537/8",
+  "email": "info@ovrgov.net",
+  "url": "https://www.ovrgov.net/ovr/statewide-independent-living-council",
+  "sources": [
+   "https://www.ovrgov.net/ovr/statewide-independent-living-council",
+   "https://www.ilru.org/projects/silc-net/silc-directory-results"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "OVR's SILC page describes the council, lists phone (670) 322-6537/8 and info@ovrgov.net.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "PR",
+  "family": "cil",
+  "category": "independent_living",
+  "name": "Movimiento para el Alcance de Vida Independiente (MAVI) (Movement for the Attainment of Independent Living)",
+  "org": "MAVI",
+  "what": "An independent living center that offers independent living and supported employment programs, benefits counseling (WIPA), sign language courses, support groups, equipment donations and advocacy.",
+  "next_step": "Call MAVI and ask about independent living services, supported employment or benefits counseling in your municipality.",
+  "phone": "787-758-7901",
+  "email": "infomavipr@gmail.com",
+  "url": "https://mavi-pr.org/",
+  "scope": "counties",
+  "counties": [
+   "Bayamón",
+   "Carolina",
+   "Cataño",
+   "Guaynabo",
+   "San Juan",
+   "Toa Baja",
+   "Trujillo Alto",
+   "Arecibo",
+   "Barceloneta",
+   "Camuy",
+   "Ciales",
+   "Corozal",
+   "Florida",
+   "Hatillo",
+   "Lares",
+   "Manatí",
+   "Morovis",
+   "Quebradillas",
+   "Utuado",
+   "Vega Alta",
+   "Vega Baja"
+  ],
+  "sources": [
+   "https://mavi-pr.org/",
+   "https://www.ilru.org/cil-directory/pr"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site lists programs, phone 787-758-7901 and email; ILRU directory lists Metro and North service municipalities.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "PR",
+  "family": "cil",
+  "category": "independent_living",
+  "name": "Centro Ponceño de Vida Independiente (CEPVI) (Ponce Center for Independent Living)",
+  "org": "Centro Ponceño de Vida Independiente",
+  "what": "A center for independent living based in Ponce that serves people with disabilities.",
+  "next_step": "Call CEPVI and ask what independent living services it offers and which towns it covers.",
+  "phone": "(787) 848-5240",
+  "email": "cepvi2012@gmail.com",
+  "url": "https://www.ilru.org/cil-directory/pr",
+  "sources": [
+   "https://www.ilru.org/cil-directory/pr"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "ILRU CIL directory lists CEPVI at 4708 Luna Street, Ponce, phone (787) 848-5240, accessible (787) 848-5577; own site would not load.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "VI",
+  "family": "cil",
+  "category": "independent_living",
+  "name": "Virgin Islands Association for Independent Living (VIAIL)",
+  "org": "VI Association for Independent Living",
+  "what": "A center for independent living offering peer counseling, independent living skills training, advocacy, assistive technology and mobility training, home modification help, sign language interpreting, benefits planning, equipment rental and wheelchair-bus transportation.",
+  "next_step": "Call the St. Thomas or St. Croix office and ask for an intake for independent living services.",
+  "phone": "(340) 777-4978",
+  "email": "inquiry@independentlivingvi.org",
+  "url": "https://independentlivingvi.org/",
+  "scope": "counties",
+  "counties": [
+   "St. Thomas",
+   "St. Croix"
+  ],
+  "sources": [
+   "https://independentlivingvi.org/",
+   "https://www.ilru.org/projects/cil-net/cil-center-and-association-directory-results/VI"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site lists services and offices: St. Thomas (340) 777-4978, St. Croix (340) 778-7992; ILRU lists the inquiry email.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "AS",
+  "family": "cil",
+  "category": "independent_living",
+  "name": "Samoa Center for Independent Living",
+  "org": "Samoa Center for Independent Living",
+  "what": "American Samoa's center for independent living, serving people with disabilities on Tutuila and Manu'a.",
+  "next_step": "Call the center and ask about independent living services and peer support.",
+  "phone": "(684) 633-1804",
+  "url": "https://www.ilru.org/projects/cil-net/cil-center-and-association-directory-results/AS",
+  "scope": "counties",
+  "counties": [
+   "Tutuila",
+   "Manu'a"
+  ],
+  "sources": [
+   "https://www.ilru.org/projects/cil-net/cil-center-and-association-directory-results/AS"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "ILRU CIL directory lists the center (P.O. Box 3492, Pago Pago, (684) 633-1804; second entry (684) 699-1372) serving Manu'a and Tutuila; no website.",
+  "reviewed_on": "2026-11-23"
+ },
+ {
+  "place": "MP",
+  "family": "cil",
+  "category": "independent_living",
+  "name": "Center for Living Independently (CLI-CNMI)",
+  "org": "Center for Living Independently",
+  "what": "The CNMI's federally funded center for independent living. It offers independent living skills training, peer counseling, advocacy, information and referral, youth transition help, and veteran-directed in-home care.",
+  "next_step": "Call CLI and ask for independent living services or information on disability programs in the CNMI.",
+  "phone": "(670) 322-4303/4304",
+  "url": "https://clicnmi.org/",
+  "sources": [
+   "https://clicnmi.org/",
+   "https://www.ilru.org/projects/cil-net/cil-center-and-association-directory-results/MP"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own site lists services and phone (670) 322-4303/4304, Capitol Hill, Saipan.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "PR",
+  "family": "talking-book-library",
+  "category": "sensory",
+  "name": "El Servicio Nacional de Bibliotecas para Ciegos (Puerto Rico talking book library)",
+  "org": "National Library Service for the Blind and Print Disabled network library for Puerto Rico",
+  "what": "Puerto Rico's network library of the Library of Congress talking book program, which lends free audiobooks, braille and playback equipment to people who cannot read standard print.",
+  "next_step": "Call the toll-free number and ask how to sign up for free talking books and a player.",
+  "phone": "(800) 981-8008",
+  "url": "https://www.loc.gov/nls/find-your-library",
+  "sources": [
+   "https://www.loc.gov/nls/find-your-library",
+   "https://www.loc.gov/nls/about/network-libraries"
+  ],
+  "record_status": "directory_listed",
+  "evidence_note": "NLS Find Your Library lists 705 Calle Hoare, San Juan, phone (787) 723-2519, toll-free (800) 981-8008; no own website listed.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "GU",
+  "family": "talking-book-library",
+  "category": "sensory",
+  "name": "Guam Public Library for the Blind and Physically Handicapped",
+  "org": "Guam Public Library System",
+  "what": "Lends recorded (talking) books and magazines, braille and large-type books to people who are blind, have low vision, a reading disability, or cannot hold a book or turn pages; a doctor must certify eligibility.",
+  "next_step": "Call the library and ask how to apply for talking book service.",
+  "phone": "(671) 475-4751",
+  "email": "gpls@gpls.guam.gov",
+  "url": "https://gpls.guam.gov/services/library-for-blind/",
+  "sources": [
+   "https://gpls.guam.gov/services/library-for-blind/",
+   "https://www.loc.gov/nls/find-your-library"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own GPLS page describes eligibility and formats, phone (671) 475-4751, TTY (671) 479-0016; NLS lists it as Guam's network library.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "MP",
+  "family": "talking-book-library",
+  "category": "sensory",
+  "name": "Guam Public Library for the Blind (serves the CNMI)",
+  "org": "Guam Public Library System",
+  "what": "The Guam Public Library System's library for the blind also serves the Northern Mariana Islands, lending recorded books and magazines, braille and large type to eligible readers certified by a doctor.",
+  "next_step": "Call the Guam library and ask how a CNMI resident signs up for talking book service.",
+  "phone": "(671) 475-4751",
+  "email": "gpls@gpls.guam.gov",
+  "url": "https://gpls.guam.gov/services/library-for-blind/",
+  "sources": [
+   "https://gpls.guam.gov/services/library-for-blind/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own GPLS page says it also serves the CNMI and the Federated States of Micronesia.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "VI",
+  "family": "talking-book-library",
+  "category": "sensory",
+  "name": "Virgin Islands Regional Library for the Blind and Physically Handicapped (Talking Books Library)",
+  "org": "Virgin Islands Department of Planning and Natural Resources, Division of Libraries",
+  "what": "Free audiobooks, braille and large print with loaned playback equipment, BARD downloads and free mail delivery for Virgin Islands residents of any age who cannot use standard print.",
+  "next_step": "Call the library and ask for an application; a teacher, doctor, nurse, librarian or social worker certifies it.",
+  "phone": "(340) 718-2250",
+  "email": "regional.library@dpnr.vi.gov",
+  "url": "https://www.usvipubliclibraries.com/libraryregional",
+  "sources": [
+   "https://www.usvipubliclibraries.com/libraryregional",
+   "https://www.loc.gov/nls/find-your-library"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Own page lists services, eligibility, phone (340) 718-2250 and email; NLS lists it as the VI network library.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "PR",
+  "family": "tedp",
+  "category": "sensory",
+  "name": "iCanConnect Puerto Rico (National Deaf-Blind Equipment Distribution Program)",
+  "org": "Perkins School for the Blind with the Puerto Rico Assistive Technology Program (UPR)",
+  "what": "Free communication equipment such as smartphones, tablets, computers and braille devices, plus assessment and training, for people with both significant vision and hearing loss who meet income guidelines.",
+  "next_step": "Call and ask for an iCanConnect application (English or Spanish).",
+  "phone": "(855) 449-2999",
+  "email": "icanconnect@upr.edu",
+  "url": "https://www.icanconnect.org/how-to-apply/puerto-rico/",
+  "sources": [
+   "https://www.icanconnect.org/how-to-apply/puerto-rico"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Program page lists PRATP as in-territory contact: (787) 474-9999, toll-free (855) 449-2999, VRS (787) 523-8681, icanconnect@upr.edu.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "VI",
+  "family": "tedp",
+  "category": "sensory",
+  "name": "iCanConnect U.S. Virgin Islands (National Deaf-Blind Equipment Distribution Program)",
+  "org": "Perkins School for the Blind with the UVI Center for Excellence in Developmental Disabilities",
+  "what": "Free communication equipment such as smartphones, tablets, computers and braille devices, plus assessment and training, for people with both significant vision and hearing loss who meet income guidelines.",
+  "next_step": "Call the UVI contact and ask for an iCanConnect application.",
+  "phone": "(340) 692-4267",
+  "url": "https://www.icanconnect.org/how-to-apply/us-virgin-islands/",
+  "sources": [
+   "https://www.icanconnect.org/how-to-apply/us-virgin-islands/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Program page names UVI CEDD as in-territory partner, phone (340) 692-4267, 2 John Brewers Bay, St. Thomas.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "GU",
+  "family": "tedp",
+  "category": "sensory",
+  "name": "iCanConnect Guam (National Deaf-Blind Equipment Distribution Program)",
+  "org": "Helen Keller National Center for DeafBlind Youths and Adults",
+  "what": "Free communication technology and equipment for eligible Guam residents who are deafblind or have combined hearing and vision loss.",
+  "next_step": "Call the national iCanConnect line and ask for the application for your territory.",
+  "phone": "800-825-4595",
+  "url": "https://www.icanconnect.org/how-to-apply/guam/",
+  "sources": [
+   "https://www.icanconnect.org/how-to-apply/guam/",
+   "https://www.icanconnect.org/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Program page says HKNC administers iCanConnect in Guam, lists videophone 951-208-6548 and general line 800-825-4595.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "AS",
+  "family": "tedp",
+  "category": "sensory",
+  "name": "iCanConnect American Samoa (National Deaf-Blind Equipment Distribution Program)",
+  "org": "Helen Keller National Center for DeafBlind Youths and Adults",
+  "what": "Free communication technology and equipment for eligible American Samoa residents who are deafblind or have combined hearing and vision loss.",
+  "next_step": "Call the national iCanConnect line and ask for the application for your territory.",
+  "phone": "800-825-4595",
+  "url": "https://www.icanconnect.org/how-to-apply/as/",
+  "sources": [
+   "https://www.icanconnect.org/how-to-apply/as/",
+   "https://www.icanconnect.org/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Program page says HKNC administers iCanConnect in American Samoa, lists videophone 951-208-6548 and general line 800-825-4595.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "MP",
+  "family": "tedp",
+  "category": "sensory",
+  "name": "iCanConnect Northern Mariana Islands (National Deaf-Blind Equipment Distribution Program)",
+  "org": "Helen Keller National Center for DeafBlind Youths and Adults",
+  "what": "Free communication technology and equipment for eligible Northern Mariana Islands residents who are deafblind or have combined hearing and vision loss.",
+  "next_step": "Call the national iCanConnect line and ask for the application for your territory.",
+  "phone": "800-825-4595",
+  "url": "https://www.icanconnect.org/how-to-apply/nmi/",
+  "sources": [
+   "https://www.icanconnect.org/how-to-apply/nmi/",
+   "https://www.icanconnect.org/"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "Program page says HKNC administers iCanConnect in Northern Mariana Islands, lists videophone 951-208-6548 and general line 800-825-4595.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "place": "GU",
+  "family": "adrc",
+  "category": "navigation",
+  "name": "Guam Aging and Disability Resource Center (ADRC), Division of Senior Citizens",
+  "org": "Guam Department of Public Health and Social Services, Division of Senior Citizens",
+  "what": "The Division of Senior Citizens lists an Aging and Disability Resource Center among its services, alongside Medicare counseling, case management, in-home services, meals, caregiver support, an ombudsman and adult protective services.",
+  "next_step": "Call the Division of Senior Citizens and ask for the Aging and Disability Resource Center.",
+  "phone": "(671) 735-7415",
+  "email": "biba.seniorcitizens@dphss.guam.gov",
+  "url": "https://dphss.guam.gov/dphss-divisions/division-senior-citizens-dsc",
+  "sources": [
+   "https://dphss.guam.gov/dphss-divisions/division-senior-citizens-dsc",
+   "https://dphss.guam.gov/useful-dphss-info/contacts-directory"
+  ],
+  "record_status": "official_source_reviewed",
+  "evidence_note": "DSC page names the ADRC as a service; DPHSS contacts directory lists DSC phones (671) 735-7415, (671) 735-7421 and email.",
+  "reviewed_on": "2026-11-23",
+  "scope": "statewide",
+  "counties": []
+ },
+ {
+  "skipped": [
+   {
+    "place": "AS",
+    "what": "Talking-book (NLS) library",
+    "why": "NLS Find Your Library and network-library pages list no library for American Samoa; Hawaii's library page does not say it serves AS."
+   },
+   {
+    "place": "PR/GU/VI/AS/MP",
+    "what": "Telecommunications relay program contacts",
+    "why": "FCC TRS points-of-contact page lists only an outdated Sprint/Telecommunications Bureau contact for PR and 'NA' for the other territories; no current own page found."
+   },
+   {
+    "place": "PR/GU/VI/AS/MP",
+    "what": "Separate AT reuse programs",
+    "why": "Device reuse in the territories is run by the already-listed state AT programs; no separately named reuse program found."
+   },
+   {
+    "place": "PR/VI/AS/MP",
+    "what": "Aging and Disability Resource Center",
+    "why": "No named ADRC page found on a territory or ACL site in the time available."
+   },
+   {
+    "place": "PR/AS/MP",
+    "what": "Older Individuals Who Are Blind program",
+    "why": "Only a generic national NEI listing found; no territory-specific program page read."
+   },
+   {
+    "place": "GU",
+    "what": "Named center for independent living",
+    "why": "ILRU CIL directory says no CIL is listed for Guam."
+   }
+  ]
+ }
+]

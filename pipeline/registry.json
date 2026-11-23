@@ -1,0 +1,472 @@
+{
+ "note": "Source families Mobility Talk mines, what each place should have, and where to look. Read by scripts/mining/coverage.py; see docs/DATA-PIPELINE.md. A source listed here is where to start looking, not evidence: every listing still names the page it was checked against.",
+ "updated_on": "2026-11-23",
+ "evidence_levels": {
+  "official_source_reviewed": "Read on the organization’s or government’s own page, and that page supports the listing.",
+  "directory_listed": "Supported only by a directory or list page that was read (a government list, a national network’s member list). Shown with a note.",
+  "official_search_extract_only": "Older guide records taken from official search results; to be re-read on the own page.",
+  "news_reported": "Supported only by a news report; to be confirmed."
+ },
+ "families": [
+  {
+   "id": "medicaid-agency",
+   "label": "State Medicaid agency",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "medicaid-agency"
+   },
+   "category": "benefits",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "Medicaid.gov state contacts",
+     "url": "https://www.medicaid.gov/about-us/where-can-people-get-help-with-medicaid-chip",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "vr-agency",
+   "label": "Vocational rehabilitation agency",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "vr-agency|-vr$"
+   },
+   "category": "work_school",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "RSA state VR agency list",
+     "url": "https://rsa.ed.gov/about/states",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "pa-agency",
+   "label": "Protection and Advocacy agency",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "pa-ndrn|protection-advocacy|-rights$|disability-rights"
+   },
+   "category": "rights_legal",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "NDRN member agencies",
+     "url": "https://www.ndrn.org/about/ndrn-member-agencies/",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "dd-council",
+   "label": "Developmental Disabilities Council",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "dd-council"
+   },
+   "category": "navigation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "NACDD council directory",
+     "url": "https://nacdd.org/councils/",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "ucedd",
+   "label": "University Center for Excellence in Developmental Disabilities",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "ucedd"
+   },
+   "category": "navigation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "AUCD network directory",
+     "url": "https://www.aucd.org/directory/directory.cfm?program=UCEDD",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "silc",
+   "label": "Statewide Independent Living Council",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "-silc$"
+   },
+   "category": "independent_living",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "ILRU CIL and SILC directory",
+     "url": "https://www.ilru.org/projects/cil-net/cil-center-and-association-directory",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "cil",
+   "label": "Named Center for Independent Living",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "-cil-"
+   },
+   "category": "independent_living",
+   "cadence_days": 180,
+   "sources": [
+    {
+     "name": "ILRU CIL directory",
+     "url": "https://www.ilru.org/projects/cil-net/cil-center-and-association-directory",
+     "kind": "network-directory",
+     "method": "agent_read"
+    },
+    {
+     "name": "ACL CIL program",
+     "url": "https://acl.gov/programs/aging-and-disability-networks/centers-independent-living",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "at-program",
+   "label": "State Assistive Technology Act program",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "at-program|at-act|atap|-at$",
+    "name": "assistive tech|technology (access|assistance|resource)|tech act|techowl",
+    "ids": [
+     "ar-ican",
+     "ks-atk-kee-reuse",
+     "la-latan",
+     "me-maine-cite-alltech",
+     "mn-star",
+     "ms-project-start",
+     "mt-montech",
+     "nd-assistive",
+     "ne-atp-reuse",
+     "ok-able-tech-reuse"
+    ]
+   },
+   "category": "equipment",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "AT3 Center state AT programs",
+     "url": "https://www.at3center.net/state-at-programs",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "equipment-reuse",
+   "label": "Equipment loan, reuse or repair (local)",
+   "applies_to": "us",
+   "expect": 2,
+   "match": {
+    "id": "reuse|loan|closet|repair|recycl",
+    "name": "reuse|loan|closet|repair|recycl|lending",
+    "same_category": true
+   },
+   "category": "equipment",
+   "cadence_days": 120,
+   "sources": [
+    {
+     "name": "AT3 Center state AT programs (reuse)",
+     "url": "https://www.at3center.net/state-at-programs",
+     "kind": "network-directory",
+     "method": "agent_read"
+    },
+    {
+     "name": "Each program’s own page",
+     "kind": "own-page",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "ada-center",
+   "label": "Regional ADA Center",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "ada-center"
+   },
+   "category": "rights_legal",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "ADA National Network regions",
+     "url": "https://adata.org/find-your-region",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "adrc",
+   "label": "Aging and Disability Resource Center / No Wrong Door",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "adrc|nwd"
+   },
+   "category": "navigation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "ACL No Wrong Door",
+     "url": "https://acl.gov/programs/connecting-people-services/aging-and-disability-resource-centers-programno-wrong-door",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "talking-book-library",
+   "label": "NLS talking-book library",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "nls"
+   },
+   "category": "sensory",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "NLS network library directory",
+     "url": "https://www.loc.gov/nls/find-a-library/",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "phone-equipment",
+   "label": "Telephone equipment distribution / iCanConnect",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "tedp|icanconnect"
+   },
+   "category": "sensory",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "iCanConnect state programs",
+     "url": "https://www.icanconnect.org/",
+     "kind": "network-directory",
+     "method": "agent_read"
+    },
+    {
+     "name": "TEDPA state list",
+     "url": "https://www.tedpa.org/",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "older-blind",
+   "label": "Vision rehabilitation for blind people / older blind program",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "rsa-blind|older-blind|-blind$"
+   },
+   "category": "sensory",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "RSA state VR agency list",
+     "url": "https://rsa.ed.gov/about/states",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "section-5310",
+   "label": "Section 5310 transportation for older adults and people with disabilities",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "5310"
+   },
+   "category": "transportation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "National RTAP / FTA 5310",
+     "url": "https://www.transit.dot.gov/funding/grants/enhanced-mobility-seniors-individuals-disabilities-section-5310",
+     "kind": "federal-directory",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "nemt",
+   "label": "Medicaid rides (NEMT)",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "nemt"
+   },
+   "category": "transportation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "State Medicaid agency pages",
+     "kind": "own-page",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "local-transit",
+   "label": "Local transit and ADA paratransit providers",
+   "applies_to": "us",
+   "expect": 3,
+   "match": {
+    "id": "paratransit|transit-agency|ntd-",
+    "name": "paratransit|dial-a-ride|transit authority|transit district",
+    "same_category": true
+   },
+   "category": "transportation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "FTA National Transit Database, reporter agency information",
+     "url": "https://data.transportation.gov/d/ccvf-fykn",
+     "kind": "open-data",
+     "method": "open_data_script",
+     "note": "Fetched by scripts/mining/fetch_open_data.py; staged for review, not promoted automatically."
+    }
+   ]
+  },
+  {
+   "id": "parking-placard",
+   "label": "Disability parking placard",
+   "applies_to": "us",
+   "expect": 1,
+   "match": {
+    "id": "placard"
+   },
+   "category": "transportation",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "State motor vehicle agency pages",
+     "kind": "own-page",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "world-start",
+   "label": "National disability agency, council or one-stop information service",
+   "applies_to": "country",
+   "expect": 1,
+   "section": "start",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "Government’s own disability pages",
+     "kind": "own-page",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "world-money",
+   "label": "Disability payment and the agency that runs it",
+   "applies_to": "country",
+   "expect": 1,
+   "section": "money",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "SSA Social Security Programs Throughout the World",
+     "url": "https://www.ssa.gov/policy/docs/progdesc/ssptw/",
+     "kind": "federal-directory",
+     "method": "agent_read",
+     "note": "Use to find the program and agency; list from the agency’s own page."
+    }
+   ]
+  },
+  {
+   "id": "world-equipment-home",
+   "label": "Wheelchairs, assistive devices, home changes and transport",
+   "applies_to": "country",
+   "expect": 1,
+   "section": "equipment-home",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "WHO assistive technology country capacity",
+     "url": "https://www.who.int/health-topics/assistive-technology",
+     "kind": "intergovernmental",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "world-work",
+   "label": "Job help for disabled people",
+   "applies_to": "country",
+   "expect": 1,
+   "section": "work",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "Government’s own employment service pages",
+     "kind": "own-page",
+     "method": "agent_read"
+    }
+   ]
+  },
+  {
+   "id": "world-rights",
+   "label": "Human rights institution, ombudsman, equality body or national federation of disabled people’s organizations",
+   "applies_to": "country",
+   "expect": 1,
+   "section": "rights",
+   "cadence_days": 365,
+   "sources": [
+    {
+     "name": "GANHRI accreditation chart",
+     "url": "https://ganhri.org/membership/",
+     "kind": "intergovernmental",
+     "method": "agent_read"
+    },
+    {
+     "name": "International Disability Alliance members",
+     "url": "https://www.internationaldisabilityalliance.org/",
+     "kind": "network-directory",
+     "method": "agent_read"
+    }
+   ]
+  }
+ ]
+}
