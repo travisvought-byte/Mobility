@@ -53,13 +53,18 @@ for(const c of W.countries){
  assert(d.querySelector('meta[property="og:image"]')&&d.querySelector('meta[name=description]'),f+' social and description');
  const ld=JSON.parse(d.querySelector('script[type="application/ld+json"]').textContent);
  assert.equal(ld['@type'],'BreadcrumbList');assert.equal(ld.itemListElement[1].item,'https://mobilitytalk.org/world.html');
- // the country's own emergency number leads the page, not the U.S. strip
- assert.equal(main.firstElementChild.tagName,'ASIDE',f+' emergency box first');
- assert(main.firstElementChild.classList.contains('emergency')&&main.firstElementChild.querySelector(`a[href="tel:${c.emergency.number}"]`),f+' emergency number');
+ // the country's own emergency number is on the page in a small side note (owner direction, November 22 and 23, 2026), not the U.S. strip
+ const em=main.querySelector(':scope > .side-help > aside.emergency');
+ assert(em&&em.querySelector(`a[href="tel:${c.emergency.number}"]`),f+' emergency number in the side note');
+ assert(!main.firstElementChild.classList.contains('emergency')&&!main.firstElementChild.classList.contains('side-help'),f+' the side note is not a banner at the top');
+ // the opening speaks to the visitor and lists what is there for that country, each group linked
+ const lede=d.querySelector('header .lede');assert(lede&&lede.textContent.includes(c.name.replace(/^(the )/,'')),f+' opening');
+ for(const k of ['start','money','equipment-home','work','rights'])if(c.resources.some(r=>r.section===k))assert(d.querySelector(`header .lede-list a[href="#${k}"]`)&&d.getElementById(k),f+' opening links '+k);
+ assert(!/\b\d+ (national programs|listings)\b/.test(d.body.textContent),f+' states no count of listings');
  assert(!d.querySelector('aside.urgent'),f+' no U.S. urgent strip');
  if(c.code!=='CA')assert(!d.querySelector('a[href="tel:988"],a[href="tel:911"],a[href="tel:711"]')||c.emergency.number==='911',f+' no U.S. numbers');
  const crisis=c.resources.find(r=>r.section==='help-now');
- assert(main.firstElementChild.querySelector(`a[href="tel:${crisis.dial}"]`),f+' crisis line in the emergency box');
+ assert(em.querySelector(`a[href="tel:${crisis.dial}"]`),f+' crisis line in the side note');
  // every listing, with its number, sources and date
  for(const r of c.resources){
   const card=[...d.querySelectorAll('article.card')].find(a=>a.querySelector('h3').textContent===r.name);
@@ -95,4 +100,4 @@ const roots=fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9a-f]
 for(const f of roots)assert(doc(f).querySelector('nav[aria-label="Main"] a[href="world.html"],nav[aria-label="Back"] a[href="world.html"]'),f+' menu links Worldwide');
 for(const f of fs.readdirSync('states').filter(f=>f.endsWith('.html')))assert(doc('states/'+f).querySelector('#site-nav a[href="../world.html"]'),'states/'+f+' menu links Worldwide');
 assert(doc('index.html').querySelector('#world-line a[href="world.html"]'),'home page points to the worldwide page');
-console.log(`PASS world: world.html and ${files.length} country pages, ${listings} listings with ${calls} call links that dial the number shown, sources and dates on every card, each page led by its own emergency number and crisis line, sitemap, menus, privacy link, visit counter and no ads.`);
+console.log(`PASS world: world.html and ${files.length} country pages, ${listings} listings with ${calls} call links that dial the number shown, sources and dates on every card, each page opening with what is listed there and carrying its own emergency number and crisis line in a side note, sitemap, menus, privacy link, visit counter and no ads.`);

@@ -2,7 +2,7 @@
 """Add canonical and social tags and the visit counter to every page, and write sitemap.xml and robots.txt. Idempotent."""
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,icon
+from site_parts import URGENT,icon,LANDING,lede,iam
 import ads as ADS
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
@@ -40,6 +40,18 @@ for name in PAGES:
     t=re.sub(r'<!--seo-->.*?<!--/seo-->','',t,flags=re.S)
     t=re.sub(r'<link rel="canonical"[^>]*>','',t);t=re.sub(r'<meta property="og:[^>]*>','',t)
     t=re.sub(r'<!--mif-->.*?<!--/mif-->','',t,flags=re.S);t=re.sub(r'<!--luul-->.*?<!--/luul-->','',t,flags=re.S);t=re.sub(r'<!--luulj-->.*?<!--/luulj-->','',t,flags=re.S)
+    # Landing copy (data/landing.json): the page's title, description and heading where given, and the opening it speaks
+    # to its visitor with, so each page reads as written for the person most likely to arrive on it (November 23, 2026).
+    L=LANDING.get(name)
+    if L:
+        if L.get('title'):t=re.sub(r'<title>.*?</title>',lambda m:'<title>'+html.escape(L['title'],quote=False)+'</title>',t,count=1,flags=re.S)
+        if L.get('description'):t=re.sub(r'<meta name="description" content="[^"]*">',lambda m:'<meta name="description" content="'+html.escape(L['description'],quote=True)+'">',t,count=1)
+        if L.get('h1'):t=re.sub(r'(<h1[^>]*>).*?(</h1>)',lambda m:m.group(1)+L['h1']+m.group(2),t,count=1,flags=re.S)
+        assert t.count('<!--lede-->')==1,name+' needs one <!--lede--> block for its landing copy'
+        t=re.sub(r'<!--lede-->.*?<!--/lede-->',lambda m:lede(L['intro'],L.get('actions',[]),plain='assets/site.css' not in t and name!='index.html'),t,count=1,flags=re.S)
+        if L.get('iam'):
+            assert t.count('<!--iam-->')==1,name+' needs one <!--iam--> block'
+            t=re.sub(r'<!--iam-->.*?<!--/iam-->',lambda m:iam(L['iam']),t,count=1,flags=re.S)
     place,wa_only=LUUL_PAGES.get(name,(None,False))
     blk=''
     if place:

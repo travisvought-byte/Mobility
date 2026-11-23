@@ -1,4 +1,5 @@
-// Visual layer (November 20, 2026): icons, jump tiles with counts, contact buttons and dark mode.
+// Visual layer (November 20, 2026): icons, jump tiles, contact buttons and dark mode. Tiles carried listing counts until
+// November 23, 2026, when the owner asked that no page state counts of listings.
 // Checks that the pictures only repeat what the words say, that the counts match what each page lists,
 // that nothing new is loaded from outside the site, and that the dark colors meet WCAG AA.
 const assert=require('node:assert/strict'),fs=require('node:fs'),{JSDOM}=require('jsdom');
@@ -23,7 +24,7 @@ for(const f of fs.readdirSync('states').filter(f=>f.endsWith('.html')&&f!=='inde
   const sec=d.getElementById(a.getAttribute('href').slice(1));assert.equal(sec,secs[i],f+' tiles follow the page order');
   const label=a.querySelector('.tl').textContent,h2=sec.querySelector('h2');assert.equal(h2.textContent,label,f+' tile names its group exactly');
   const shown=sec.querySelectorAll(':scope > .grid > article.card').length+sec.querySelectorAll(':scope > ul.statelist > li').length;
-  assert.equal(a.querySelector('.tn').textContent,shown+' listed',f+' '+label+' count matches the listings shown');assert(shown>0);
+  assert(!a.querySelector('.tn')&&!/\d/.test(a.textContent),f+' '+label+' tile states no count of listings (owner rule, November 23, 2026)');assert(shown>0,f+' '+label+' group lists programs');
   decorative(a.querySelector('svg.tic'),f+' tile '+label);decorative(h2.querySelector('svg.hic'),f+' heading '+label);tiles++;
  });
  pages++;
@@ -58,4 +59,4 @@ for(const f of ['assets/disability-advocacy.css','assets/mobility-routes.css','a
 // printing stays black on white
 assert(!/@media\s*\(prefers-color-scheme:dark\)/.test(css),'dark mode is limited to screens');
 
-console.log(`PASS visual: 16 home icons, ${tiles} jump tiles on ${pages} state pages with counts that match the listings shown, decorative icons only, no outside fonts or images, reduced motion, dark mode contrast.`);
+console.log(`PASS visual: 16 home icons, ${tiles} jump tiles on ${pages} state pages, each naming a group that lists programs and stating no count, decorative icons only, no outside fonts or images, reduced motion, dark mode contrast.`);

@@ -1,0 +1,137 @@
+{
+  "note": "Landing copy for the root pages: who most likely arrives on each page from search, and what the page says to them first (owner direction, November 23, 2026: every landing page speaks to the person who is there). scripts/finalize_pages.py applies it: 'title', 'description' and 'h1' replace the page's own when given (h1 may hold <br>), and 'intro' and 'actions' fill the <!--lede--> block in the page header. 'audience' records who the page is written for; it is not shown. Every intro must be true to what that page itself lists, with no counts of listings. State pages are written by scripts/build_state_pages.py and country pages by scripts/build_world_pages.py from their own data; 'states/index.html' is read there. 'iam' is the home page's 'I'm here as' chooser; each link opens a page or filter that already exists.",
+  "pages": {
+    "index.html": {
+      "audience": "Anyone with a disability, or helping someone who has one, who is not yet sure where to start.",
+      "intro": "Wheelchair broken? Coverage denied? Need a ramp, a ride, help at home or an interpreter? You are not the only one. Pick your state and what you need, and we will show you who can help, what to have ready and what the rules say.",
+      "actions": [{"label": "Find help near me", "href": "#needs"}],
+      "iam": [
+        {"label": "Wheelchair or mobility aid user", "href": "local-help.html?audience=mobility"},
+        {"label": "Blind or low vision", "href": "blind-low-vision.html"},
+        {"label": "Deaf, hard of hearing or DeafBlind", "href": "deaf-hard-of-hearing.html"},
+        {"label": "Family caregiver", "href": "caregiver-respite.html"},
+        {"label": "Parent of a child with a disability", "href": "local-help.html?category=children"},
+        {"label": "Veteran", "href": "local-help.html?audience=veterans"},
+        {"label": "Older adult", "href": "local-help.html?audience=older"},
+        {"label": "Facing discrimination", "href": "know-your-rights.html"},
+        {"label": "Stuck at home without a ramp", "href": "ramps-home-access.html"},
+        {"label": "Service dog handler", "href": "service-animals.html"},
+        {"label": "Social worker, nurse or case manager", "href": "handout.html"},
+        {"label": "Outside the United States", "href": "world.html"},
+        {"label": "Hablo español", "href": "espanol.html", "lang": "es"}
+      ]
+    },
+    "local-help.html": {
+      "audience": "Someone who wants a phone number for a program near them, often searching for their county.",
+      "title": "Find disability programs near you, by state and county | Mobility Talk",
+      "intro": "Looking for help close to home? Choose your state, your county if you like, and what you need. Each program shows who to call, what to have ready and a link to its own page, for every state, D.C. and the U.S. territories.",
+      "actions": []
+    },
+    "know-your-rights.html": {
+      "audience": "Someone who was turned away, let go, denied a home, a ride or a benefit, or treated unfairly because of a disability.",
+      "h1": "Treated unfairly?<br>Know your rights.",
+      "intro": "If an employer, landlord, school, hospital, airline or agency treated you unfairly because of a disability, find what happened to you below. Each situation says which office handles it, what to do first and, where the source states one, how long you have.",
+      "actions": [
+        {"label": "At work", "href": "#work"},
+        {"label": "Housing", "href": "#housing"},
+        {"label": "A business or public place", "href": "#public-places"},
+        {"label": "Benefits said no", "href": "#benefit-denials"}
+      ]
+    },
+    "ramps-home-access.html": {
+      "audience": "Someone who cannot get in and out of their own home safely, or a family member arranging a ramp or bathroom change.",
+      "title": "Ramps and home modifications: who pays and how to apply | Mobility Talk",
+      "description": "Can't get in and out of your home safely? Who pays for or builds ramps and home changes: VA grants, Medicaid waivers, DD agencies and local programs.",
+      "intro": "If steps stand between you and your own front door, or your bathroom no longer works for you, more than one program can pay for or build the changes. Start with the route that fits you, and get approval before any work begins.",
+      "actions": [
+        {"label": "Find ramp and home programs near me", "href": "local-help.html?category=ramps_home"},
+        {"label": "Veterans: VA grant checklists", "href": "#va-hisa"}
+      ]
+    },
+    "mobility-independence.html": {
+      "audience": "A wheelchair or mobility equipment user whose chair is broken or no longer fits, and people who back the right to repair.",
+      "title": "Wheelchair repair and the right to repair and adapt | Mobility Talk",
+      "description": "Wheelchair broken or no longer fits? Find repair and reuse programs, see where wheelchair repair laws stand, and ask your lawmakers for the right to repair.",
+      "intro": "When your wheelchair breaks or stops fitting you, daily life can stop with it. Find repair and reuse programs near you, see where wheelchair repair laws stand, and tell lawmakers what would help.",
+      "actions": [
+        {"label": "Take a simple action", "href": "#actions"},
+        {"label": "Repair and reuse programs near me", "href": "local-help.html?category=equipment"},
+        {"label": "Right to repair", "href": "#right-to-repair"}
+      ]
+    },
+    "mobility-rights.html": {
+      "audience": "A wheelchair or equipment user facing a stalled repair, a coverage denial, an inaccessible home, vehicle or bus, or a place that turned them away.",
+      "title": "Wheelchair repair, coverage denied or no ride? Your next step | Mobility Talk",
+      "intro": "Waiting weeks on a wheelchair repair, turned down for equipment, or unable to get on the bus? Choose your state and what is in the way. You will see what the rules say, questions to ask and a message you can make your own.",
+      "actions": [{"label": "Find my next step", "href": "#finder"}]
+    },
+    "disability-advocacy.html": {
+      "audience": "A disabled person, family member or ally who wants to ask state or federal lawmakers for change.",
+      "title": "Disability advocacy: ask lawmakers for repair, coverage and access | Mobility Talk",
+      "intro": "Tired of waiting on repairs, coverage, a ride or an accessible home? Choose the change you want to see, learn who can act, and send your state or federal lawmakers a message in your own words.",
+      "actions": [
+        {"label": "Find my next step", "href": "#start"},
+        {"label": "Ask for a policy change", "href": "#compose"},
+        {"label": "Explore five issues", "href": "#topics"}
+      ]
+    },
+    "blind-low-vision.html": {
+      "audience": "Someone who is blind, has low vision or is losing their sight, and their family.",
+      "intro": "Blind, losing your sight, or helping someone who is? Start with the free national services, then find your state for its talking-book and braille library, help for older adults with vision loss and the other programs listed there.",
+      "actions": [
+        {"label": "National services", "href": "#nat-h"},
+        {"label": "Programs in my state", "href": "#states-h"}
+      ]
+    },
+    "deaf-hard-of-hearing.html": {
+      "audience": "Someone who is Deaf, hard of hearing or DeafBlind, and their family.",
+      "intro": "Deaf, hard of hearing, DeafBlind, or family of someone who is? Find relay and captioned calls, free phone equipment, your state's office for deaf and hard of hearing people, and iCanConnect equipment for DeafBlind people.",
+      "actions": [
+        {"label": "National services", "href": "#nat-h"},
+        {"label": "Programs in my state", "href": "#states-h"},
+        {"label": "DeafBlind: iCanConnect", "href": "#deafblind"}
+      ]
+    },
+    "service-animals.html": {
+      "audience": "Someone who handles a service dog, is hoping to get one, or was told their dog is not allowed.",
+      "intro": "Have a service dog, or hoping to get one? Here is what staff may and may not ask, where your dog can go, your rights in rented housing and on planes, how to complain and where to find a trained dog. Each statement links to the official source it comes from.",
+      "actions": [
+        {"label": "The two questions staff may ask", "href": "#two-questions"},
+        {"label": "File a complaint", "href": "#complain"},
+        {"label": "Get a trained dog", "href": "#get-a-dog"}
+      ]
+    },
+    "caregiver-respite.html": {
+      "audience": "A family member or friend looking after someone with a disability or illness, including a veteran, who needs a break or more help.",
+      "intro": "Looking after a family member, friend or veteran with a disability or illness, and in need of a break? Find respite near you, the public programs that help caregivers, and how some families get paid for care. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Find a break (respite)", "href": "#respite"},
+        {"label": "Caring for a veteran", "href": "#va"},
+        {"label": "Getting paid to care", "href": "#paid"}
+      ]
+    },
+    "espanol.html": {
+      "audience": "Una persona con discapacidad, o su familia, que prefiere recibir ayuda en español.",
+      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. El resto de este sitio está en inglés por ahora.",
+      "actions": [
+        {"label": "Ayuda en su zona", "href": "#local-h"},
+        {"label": "Beneficios y Medicare", "href": "#beneficios-h"},
+        {"label": "Bebés y niños pequeños", "href": "#ninos-h"},
+        {"label": "Sus derechos", "href": "#derechos-h"}
+      ]
+    },
+    "world.html": {
+      "audience": "A disabled person or family living outside the United States.",
+      "intro": "Living with a disability outside the United States, or helping someone who is? Choose your country for where to start, disability payments, equipment and who handles discrimination, each checked against official pages, with the emergency number and a crisis line on every page.",
+      "actions": [
+        {"label": "Choose my country", "href": "#countries-h"},
+        {"label": "Help that works in any country", "href": "#anywhere-h"}
+      ]
+    },
+    "states/index.html": {
+      "audience": "Someone who searched for disability resources in their state and wants the whole list in one place.",
+      "intro": "Choose your state on the map or in the list. Each state page groups its programs by what you need, with phone numbers and a link to each program's own page.",
+      "actions": [{"label": "States and D.C. list", "href": "#st-h"}, {"label": "U.S. territories", "href": "#terr-h"}]
+    }
+  }
+}

@@ -13,7 +13,7 @@ the visit counter.
 """
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,RELAY,ABOUT_LINK,tel,icon
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,tel,icon
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
@@ -73,21 +73,21 @@ def outputs():
     unused=set(S)-set(order);assert not unused,f'sources never cited: {sorted(unused)}'
     srcs='<ol class="sources">'+''.join(f'<li id="src-{E(i)}">{E(S[i]["publisher"])}: {ext(S[i]["url"],S[i]["title"])}. {E(S[i]["page_date"][0].upper()+S[i]["page_date"][1:])}; checked {E(S[i]["checked"])}.</li>' for i in order)+'</ol>'
     checked=d['checked_label']
-    intro=('<p>For anyone who looks after a family member, friend or veteran with a disability or illness: where to find a break, '
-           'which public programs help caregivers, and how some families get paid for care. Each statement links to the official page it comes from.</p>'
+    # the opening is filled from data/landing.json by finalize_pages.py
+    intro=('<!--lede--><!--/lede-->'
            f'<p class="meta" id="checked-line">Sources checked {E(checked)}.</p>')
     page=('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
       f'<title>{E(TITLE)} | Mobility Talk</title><meta name="description" content="{E(DESC)}"><link rel="stylesheet" href="assets/site.css"></head>\n'
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
       f'<header>{NAV}<small>CAREGIVERS · RESPITE · VETERANS · EVERY STATE</small><h1>{E(H1)}</h1>{intro}</header>\n'
-      f'<main id="main">{URGENT}<section class="panel" aria-labelledby="start-h"><h2 id="start-h">On this page</h2>'
+      f'<main id="main"><section class="panel" aria-labelledby="start-h"><h2 id="start-h">On this page</h2>'
       f'<nav class="toc" aria-label="Jump to a section">{"".join(toc)}<a href="#sources">Sources</a></nav>'
       '<p>Not sure where to start? Call the Eldercare Locator for help near you. If the person you care for is a veteran enrolled in VA health care, also call the VA Caregiver Support Line. Both numbers are below.</p>'
       f'{RELAY}</section>'
       +''.join(secs)
       +f'<section id="sources" class="panel" aria-labelledby="sources-h"><h2 id="sources-h">Sources</h2><p>Sources checked {E(checked)}. Each page was read on the date shown. Programs and rules change, so check the source before you rely on it.</p>{srcs}</section>'
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: Caregiver and respite page")}">Tell us</a> and it will be checked against the official source.</p></section>'
-      f'</main>{FOOT}</body></html>\n')
+      f'{SIDE_HELP}</main>{FOOT}</body></html>\n')
     return {PAGE:page}
 if __name__=='__main__':
     for p,t in outputs().items():(ROOT/p).write_text(t)

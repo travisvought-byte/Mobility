@@ -29,3 +29,6 @@ select,textarea,input[type=text]{background:#1a252c;color:var(--ink);border-colo
 a:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline-color:#e7cc88}
 .featured-org{box-shadow:0 0 0 1px #33454f}
 }
+
+/* Landing openings (November 23, 2026): secondary actions in the page header read as buttons, not as plain text */
+header .hero-actions .button.secondary{background:transparent;border:2px solid rgba(255,255,255,.75)}

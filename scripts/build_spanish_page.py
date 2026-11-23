@@ -31,18 +31,26 @@ def item(it,recs):
     if link:bits.append(f'<a href="{E(link)}" rel="noopener" target="_blank">{E(it.get("link_label") or "Sitio web")}{NEW}</a>')
     assert bits,it['record']
     return f'<article class="card"><h3>{E(it["name"])}</h3><p>{E(it["text"])}</p><div class="contact">'+''.join(bits)+'</div></article>'
+# The crisis lines as a small side note in Spanish, like the English pages' note
+SIDE=('<div class="side-help"><aside class="urgent" aria-labelledby="urgente-h"><h2 id="urgente-h">¿En crisis o en peligro ahora?</h2>'
+      '<p><a href="tel:988">Llame al 988</a> o <a href="sms:988">envíe un texto al 988</a>, a cualquier hora. Si hay peligro inmediato, llame al 911.</p>'
+      '<p><a href="#ahora-h">Líneas de crisis en español</a> · <a href="local-help.html?category=crisis" hreflang="en">Todas las líneas (en inglés)</a></p></aside></div>')
 def outputs():
     d=json.loads((ROOT/'data/ayuda-espanol.json').read_text())
     recs={r['id']:r for r in json.loads((ROOT/'data/local-programs.json').read_text())['records']}
-    body=''
+    body='';later=''
     for s in d['sections']:
         for it in s['items']:assert it['record'] in recs,f'no directory record {it["record"]}'
         cards=''.join(item(it,recs) for it in s['items'])
         intro=f'<p>{E(s["intro"])}</p>' if s.get('intro') else ''
+        # Crisis and shelter lines sit after the everyday help, with a small side note (owner direction, November 22-23, 2026)
         if s.get('urgent'):
-            body+=f'<section class="urgent" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
+            later+=f'<section class="urgent" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
+        elif s['id']=='refugio':
+            later+=f'<section aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
         else:
             body+=f'<section aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
+    body+=later
     i=d['interpreter']
     body+=(f'<section class="panel" aria-labelledby="interprete-h"><h2 id="interprete-h">{E(i["title"])}</h2><p>{E(i["text"])}</p>'
            f'<p><strong lang="en">{E(i["phrase_en"])}</strong><br>({E(i["phrase_es"])})</p></section>')
@@ -58,8 +66,8 @@ def outputs():
     page=('<!doctype html>\n<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
           f'<title>{E(d["title"])}</title><meta name="description" content="{E(d["description"])}"><link rel="stylesheet" href="assets/site.css"></head>\n'
           '<body><a class="skip" href="#main">Saltar al contenido principal</a>\n'
-          f'<header>{nav}<small>AYUDA EN ESPAÑOL · TODO EL PAÍS</small><h1>{E(d["h1"])}</h1><p>{E(d["lead"])}</p></header>\n'
-          f'<main id="main">{body}</main>{foot}</body></html>\n')
+          f'<header>{nav}<small>AYUDA EN ESPAÑOL · TODO EL PAÍS</small><h1>{E(d["h1"])}</h1><!--lede--><!--/lede--></header>\n'
+          f'<main id="main">{body}{SIDE}</main>{foot}</body></html>\n')
     return {'espanol.html':page}
 if __name__=='__main__':
     for p,t in outputs().items():(ROOT/p).write_text(t)

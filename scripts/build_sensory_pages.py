@@ -10,7 +10,7 @@ social and structured-data tags, the featured organization block and the visit c
 import html,json,re
 from pathlib import Path
 from build_mobility_routes import STATES,TERRITORIES
-from site_parts import URGENT,RELAY,ABOUT_LINK,guides,prep_html
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,guides,prep_html
 from build_state_pages import card,contact,sort_key,slug,the
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
@@ -82,15 +82,14 @@ def build(name,cfg,recs):
         secs.append(f'<section class="state-group" id="{sid}" aria-labelledby="{sid}-h"><h3 id="{sid}-h">{E(pname)}</h3>{groups}'
                     f'<p class="meta"><a href="states/{slug(pname)}.html">Everything else listed for {E(the(code,pname))}</a></p></section>')
     n_states=len(secs)
-    intro=(f'<p>{len(nat)} national services and {count} state and local programs for people who are {"blind or have low vision" if cfg["aud_key"]=="blind" else "deaf, hard of hearing or DeafBlind"}, '
-           f'in {n_states} states and territories. Each listing says how to reach the program, links to its own page and, where the program says so, who it serves and how to start.</p>')
+    # the opening is filled from data/landing.json by finalize_pages.py; listing counts are not shown (owner rule)
     natcards='<div class="grid">'+''.join(card(r) for r in nat)+'</div>'
     rights=''.join(f'<li><a href="know-your-rights.html#{k}">{E(t)}</a></li>' for k,t in cfg['rights'])
     page=('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
       f'<title>{E(cfg["title"])} | Mobility Talk</title><meta name="description" content="{E(cfg["desc"])}"><link rel="stylesheet" href="assets/site.css"></head>\n'
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
-      f'<header>{NAV}<small>{E(cfg["small"])}</small><h1>{E(cfg["h1"])}</h1>{intro}</header>\n'
-      f'<main id="main">{URGENT}<section class="panel" aria-labelledby="start-h"><h2 id="start-h">How to use this page</h2>'
+      f'<header>{NAV}<small>{E(cfg["small"])}</small><h1>{E(cfg["h1"])}</h1><!--lede--><!--/lede--></header>\n'
+      f'<main id="main"><section class="panel" aria-labelledby="start-h"><h2 id="start-h">How to use this page</h2>'
       '<ol><li>Start with the national services below. Most are free and work wherever you live.</li><li>Then find your state for the agencies and programs there.</li><li>Open “Who it serves and how to start” on any listing to see what the program itself says about who qualifies and the first step.</li></ol>'
       f'{prep_html(GUIDE,3)}{RELAY}{cfg["deafblind"]}</section>'
       f'<section aria-labelledby="nat-h"><h2 id="nat-h">National services</h2><p class="lead">These serve people in every state.</p>{natcards}</section>'
@@ -100,7 +99,7 @@ def build(name,cfg,recs):
       f'<section class="panel" aria-labelledby="rights-h"><h2 id="rights-h">If you are turned away or refused help</h2><p>The <a href="know-your-rights.html">Know your rights</a> page says which office handles each kind of problem, the first steps and any deadline the source states.</p><ul>{rights}</ul>'
       f'<p>Also on this site: <a href="{cfg["other"]}">{E(cfg["other_label"])}</a> · <a href="service-animals.html">Service animals and your rights</a> · <a href="local-help.html?audience={cfg["aud_key"]}">Filter the full directory</a> · <a href="states/index.html">Every state’s full list</a></p></section>'
       f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: "+cfg["h1"])}">Tell us</a> and it will be checked against the program’s own page.</p></section>'
-      f'</main>{FOOT}</body></html>\n')
+      f'{SIDE_HELP}</main>{FOOT}</body></html>\n')
     return page
 def outputs():
     recs=[r for r in DATA['records'] if r['category']!='veterans']

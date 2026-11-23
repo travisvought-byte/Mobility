@@ -17,7 +17,7 @@ for(const [f,cfg] of Object.entries(PAGES)){
  const ld=JSON.parse(d.querySelector('script[type="application/ld+json"]').textContent);assert.equal(ld['@type'],'BreadcrumbList',f+' breadcrumb');assert.equal(ld.itemListElement.at(-1).item,'https://mobilitytalk.org/'+f);
  assert(/gc\.zgo\.at\/count\.js/.test(html),f+' visit counter');
  assert.equal(d.querySelectorAll('.featured-org:not(.featured-org--also)').length,1,f+' features MIF once');
- assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),f+' urgent strip leads');
+ assert(d.querySelector('main > .side-help > aside.urgent')&&!d.querySelector('main').firstElementChild.classList.contains('urgent'),f+' crisis lines sit in the small side note, not a banner at the top');
  assert(!/undefined|null<|\[object/.test(html),f+' no template leaks');
  const nat=recs.filter(r=>r.state==='US'&&has(r,cfg.nat));
  const cards=[...d.querySelectorAll('#nat-h ~ .grid .card h3')].map(h=>h.textContent);

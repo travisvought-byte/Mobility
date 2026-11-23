@@ -12,7 +12,7 @@ organization block and the visit counter.
 """
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,RELAY,ABOUT_LINK
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
@@ -79,13 +79,12 @@ def outputs():
     srcs='<ol class="sources">'+''.join(f'<li id="src-{E(i)}">{E(S[i]["publisher"])}: {ext(S[i]["url"],S[i]["title"])}. {E(S[i]["page_date"][0].upper()+S[i]["page_date"][1:])}; checked {E(S[i]["checked"])}.</li>' for i in order)+'</ol>'
     ld={'@context':'https://schema.org','@type':'FAQPage','mainEntity':[{'@type':'Question','name':f['q'],'acceptedAnswer':{'@type':'Answer','text':f['a']}} for f in d['faq']]}
     faqld='<!--faqld--><script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace('<','\\u003c')+'</script><!--/faqld-->'
-    intro=('<p>What the law says about service animals in stores, restaurants, hotels, hospitals and government buildings, in rented homes and on planes. '
-           'Each statement links to the official source it comes from, with the date we checked it.</p>')
+    intro='<!--lede--><!--/lede-->'  # filled from data/landing.json by finalize_pages.py
     page=('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
       f'<title>{E(TITLE)} | Mobility Talk</title><meta name="description" content="{E(DESC)}"><link rel="stylesheet" href="assets/site.css">{faqld}</head>\n'
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
       f'<header>{NAV}<small>SERVICE ANIMALS · ADA · HOUSING · AIR TRAVEL · EVERY STATE</small><h1>{E(H1)}</h1>{intro}</header>\n'
-      f'<main id="main">{URGENT}<section class="panel" aria-labelledby="start-h"><h2 id="start-h">On this page</h2>'
+      f'<main id="main"><section class="panel" aria-labelledby="start-h"><h2 id="start-h">On this page</h2>'
       f'<nav class="toc" aria-label="Jump to a section">{"".join(toc)}<a href="#complain">How to file a complaint</a><a href="#get-a-dog">Where to get a trained dog</a><a href="#questions">Quick answers</a><a href="#sources">Sources</a></nav>'
       f'<p>Rules differ by place. The ADA covers businesses and state and local governments. The Fair Housing Act covers housing. The Department of Transportation’s rules cover flights. Your state may give more protection.</p>{RELAY}</section>'
       +''.join(secs)
@@ -96,7 +95,7 @@ def outputs():
       +f'<section id="questions" aria-labelledby="questions-h"><h2 id="questions-h">Quick answers</h2>{faq}</section>'
       +f'<section id="sources" class="panel" aria-labelledby="sources-h"><h2 id="sources-h">Sources</h2><p>Each source was read on the date shown. Laws and agency guidance change, so check the source before you rely on it.</p>{srcs}</section>'
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: Service animals page")}">Tell us</a> and it will be checked against the official source.</p></section>'
-      f'</main>{FOOT}</body></html>\n')
+      f'{SIDE_HELP}</main>{FOOT}</body></html>\n')
     return {'service-animals.html':page}
 if __name__=='__main__':
     for p,t in outputs().items():(ROOT/p).write_text(t)

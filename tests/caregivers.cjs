@@ -19,7 +19,7 @@ assert(/<!--gc-->/.test(html)&&/gc\.zgo\.at\/count\.js/.test(html),'visit counte
 assert(d.querySelector('#site-nav button.navtoggle'),'shared phone menu');
 assert(d.querySelector('footer a.privacy-link[href="privacy.html"]')&&d.querySelector('footer a[href="about.html"]'),'shared footer links');
 assert.equal(d.querySelectorAll('.featured-org:not(.featured-org--also)').length,1,'features MIF once');
-assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),'urgent strip leads');
+assert(d.querySelector('main > .side-help > aside.urgent')&&!d.querySelector('main').firstElementChild.classList.contains('urgent'),'crisis lines sit in the small side note, not a banner at the top (owner direction 2026-11-22, repeated 2026-11-23)');
 assert(!/undefined|null<|\[object|Veteran Home Guardians/.test(html),'no template leaks or VHG branding');
 const lds=[...d.querySelectorAll('script[type="application/ld+json"]')].map(s=>JSON.parse(s.textContent));
 const bc=lds.find(x=>x['@type']==='BreadcrumbList');assert(bc&&bc.itemListElement.at(-1).item==='https://mobilitytalk.org/'+F,'breadcrumb');

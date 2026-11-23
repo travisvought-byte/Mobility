@@ -140,21 +140,49 @@ def emergency_box(c):
     em = c['emergency']
     crisis = [r for r in c['resources'] if r['section'] == 'help-now']
     lines = ' '.join(f'{E(r["name"])}: <a href="tel:{E(r["dial"])}">{E(r["phone"])}</a>.' for r in crisis if r.get('phone'))
-    return (f'<aside class="emergency" aria-labelledby="emergency-h"><h2 id="emergency-h">In danger or in crisis right now?</h2>'
+    # a small side note, not a banner (owner direction, November 22, 2026, repeated November 23): pinned to the right
+    # edge on wide screens, after the listings on narrower ones; the full crisis line cards are the last group of listings
+    return (f'<div class="side-help"><aside class="emergency" aria-labelledby="emergency-h"><h2 id="emergency-h">In danger or in crisis right now?</h2>'
             f'<p>In {E(the(c["name"]))}, call <a href="tel:{E(em["number"])}">{E(em["number"])}</a> ({E(em["label"])}).</p>'
-            f'<p>{lines}</p></aside>')
+            f'<p>{lines} <a href="#crisis">More about these lines</a></p></aside></div>')
+
+
+# The page's opening: who it is for, then what is listed for that country, group by group, each linking to its cards.
+# Crisis lines are not in this list; they sit in the small side note and the last group (owner direction).
+LEDE_LABEL = {'start': 'First step', 'money': 'Payments', 'equipment-home': 'Equipment and getting around', 'work': 'Work', 'rights': 'If you are treated unfairly'}
+ORDER = ['start', 'money', 'equipment-home', 'work', 'rights', 'help-now']
+
+
+def sid(k):
+    return 'crisis' if k == 'help-now' else k
+
+
+def country_lede(c):
+    place = the(c['name'])
+    items = []
+    for k, label in LEDE_LABEL.items():
+        rs = [r for r in c['resources'] if r['section'] == k]
+        if rs:
+            names = rs[0]['name'] + (f' and {rs[1]["name"]}' if len(rs) == 2 else (', and more' if len(rs) > 2 else ''))
+            items.append(f'<li><a href="#{sid(k)}">{E(label)}</a>: {E(names)}</li>')
+    q = f'Living with a disability in {place}, or caring for someone who is?'
+    if not items:
+        return f'<!--lede--><p class="lede">{E(q)} The lines listed for {E(place)} so far are support lines; local and disability services are not listed yet.</p><!--/lede-->'
+    return (f'<!--lede--><p class="lede">{E(q)} Here is what is listed for {E(place)}, checked against official pages:</p>'
+            f'<ul class="lede-list">{"".join(items)}</ul><!--/lede-->')
 
 
 SHORT_SECTIONS = {'help-now': 'crisis lines', 'start': 'where to start', 'money': 'disability payments', 'equipment-home': 'equipment and home grants', 'work': 'work', 'rights': 'rights and discrimination help'}
 
 
-def fit_desc(lead, items, limit=158, tail=''):
-    """Search results show about 155 characters, so end on a whole item instead of cutting a word."""
+def fit_desc(lead, items, limit=158, tail='', sep=', '):
+    """Search results show about 155 characters, so end on a whole item instead of cutting a word. Program names can
+    hold commas and colons of their own, so a list of names is joined with semicolons."""
     def join(xs):
-        return xs[0] if len(xs) == 1 else ', '.join(xs[:-1]) + ' and ' + xs[-1]
+        return xs[0] if len(xs) == 1 else sep.join(xs[:-1]) + (sep if sep != ', ' else ' ') + 'and ' + xs[-1]
     for k in range(len(items), 0, -1):
         for t in (tail, ''):
-            d = lead + (join(items) if k == len(items) else ', '.join(items[:k]) + ' and more') + '.' + t
+            d = lead + (join(items) if k == len(items) else sep.join(items[:k]) + (sep if sep != ', ' else ' ') + 'and more') + '.' + t
             if len(d) <= limit:
                 return d
     return lead.rstrip(', :') + '.'
@@ -162,21 +190,25 @@ def fit_desc(lead, items, limit=158, tail=''):
 
 def country_page(c):
     place = the(c['name'])
-    n = len(c['resources'])
+
     checked = max(r['reviewed_on'] for r in c['resources'])
     kinds = [SECTIONS[k].lower() for k in SECTIONS if any(r['section'] == k for r in c['resources'])]
     # A country that shares its name with a U.S. state (Georgia) says which one it is in its title and links the state page.
     title = f'Disability resources in {c.get("title_name", place)}'
     have = [SHORT_SECTIONS[k] for k in SECTIONS if any(r['section'] == k for r in c['resources'])]
-    desc = fit_desc(f'Disability help in {place}: the emergency number, ', have, tail=' Phone numbers and official sources.')
-    secs, toc = [], []
-    for k, label in SECTIONS.items():
+    # the description names what is listed for this country, not a generic list
+    named = [r['name'] for k in ORDER[:-1] for r in c['resources'] if r['section'] == k][:4]
+    desc = fit_desc(f'Disability help in {place}: ', named, tail=' Emergency number and crisis lines.', sep='; ')
+    if desc == f'Disability help in {place}.':
+        desc = fit_desc(f'Disability help in {place}: the emergency number, ', have, tail=' Phone numbers and official sources.')
+    secs = []
+    # the groups a visitor came for first, crisis lines last (they are also in the small side note)
+    for k in ORDER:
+        label = SECTIONS[k]
         rs = [r for r in c['resources'] if r['section'] == k]
         if not rs:
             continue
-        sid = 'crisis' if k == 'help-now' else k
-        toc.append(f'<a href="#{sid}">{E(label)}</a>')
-        secs.append(f'<section id="{sid}"><h2>{E(label)}</h2><div class="grid">' + ''.join(card(r, c['name']) for r in rs) + '</div></section>')
+        secs.append(f'<section id="{sid(k)}"><h2>{E(label)}</h2><div class="grid">' + ''.join(card(r, c['name']) for r in rs) + '</div></section>')
     relay = ''
     if c.get('relay'):
         relay = f'<p class="relay"><strong>Calling without your voice?</strong> {E(c["relay"])}'
@@ -186,47 +218,45 @@ def country_page(c):
     # The page opens on the emergency box and the listings; the relay note for callers without a voice stays
     # up top; how far the listings go, how to dial and links to other countries sit in one panel after the listings (home page and country pages reordered, November 22, 2026).
     about = (f'<p>Mobility Talk began in the United States and is now adding other countries. These are the first listings for {E(place)}: '
-             f'{n} national programs and lines, each checked against its own page or an official directory (most recently on {E(checked)}). '
+             f'national programs and lines, each checked against its own page or an official directory (most recently on {E(checked)}). '
              'Local and regional services are not listed yet.</p>')
     intro = ''
     if c.get('us_state_slug'):
         intro += (f'<p>This page is for the country of {E(place)}. Looking for the U.S. state? '
                   f'<a href="../states/{E(c["us_state_slug"])}.html">{E(c["name"])} (U.S. state)</a>.</p>')
-    body = (f'<header>{nav("../", "world.html")}<small>{E(c["name"].upper())} · DISABILITY RESOURCES</small><h1>{E(title)}</h1>{intro}</header>\n'
-            f'<main id="main">{emergency_box(c)}{relay}'
-            f'<nav class="toc" aria-label="Jump to a group of programs">{"".join(toc)}</nav>'
+    body = (f'<header>{nav("../", "world.html")}<small>{E(c["name"].upper())} · DISABILITY RESOURCES</small><h1>{E(title)}</h1>{country_lede(c)}{intro}</header>\n'
+            f'<main id="main">{relay}'
             + ''.join(secs)
             + f'<section class="panel" aria-labelledby="about-h"><h2 id="about-h">About these listings</h2>{about}'
               f'<p>Numbers are written the way they are dialed inside {E(place)}. Calling from another country? Use the country code, and note that some free numbers only work inside the country.</p>'
               f'<div class="actions"><a class="button secondary" href="../world.html">Other countries</a><a class="button secondary" href="../states/index.html">United States: every state</a></div></section>'
             + f'<section><p>Know a national or local service in {E(place)} that should be here, or see something out of date? '
               f'<a href="mailto:{CORRECTIONS}?subject={E("Mobility Talk: " + c["name"])}">Tell us</a> and it will be checked against the program’s own page.</p></section>'
-            f'</main>{foot("../")}</body></html>\n')
+            f'{emergency_box(c)}</main>{foot("../")}</body></html>\n')
     return country_head(c, title, desc) + body
 
 
 def world_page():
     countries = sorted(DATA['countries'], key=lambda c: c['name'])
     rows = ''.join(f'<li><a href="countries/{c["slug"]}.html">{E(c["name"])}</a> <span class="meta">Emergency: '
-                   f'<a href="tel:{E(c["emergency"]["number"])}">{E(c["emergency"]["number"])}</a> · {len(c["resources"])} listings</span></li>'
+                   f'<a href="tel:{E(c["emergency"]["number"])}">{E(c["emergency"]["number"])}</a></span></li>'
                    for c in countries)
     cards = ''.join(card(r) for r in DATA['worldwide'])
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
             '<title>Disability help outside the United States | Mobility Talk</title>'
-            f'<meta name="description" content="{E(f"Disability help in {len(countries)} countries outside the U.S.: emergency numbers, crisis lines, disability benefits, equipment grants and rights bodies, from official sources.")}">'
+            f'<meta name="description" content="{E(f"Disability help in {len(countries)} countries outside the U.S.: emergency numbers, crisis lines, disability benefits, equipment grants and rights bodies.")}">'
             '<link rel="stylesheet" href="assets/site.css"></head>\n<body><a class="skip" href="#main">Skip to main content</a>\n')
     nav_local = '<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
-    return (head + f'<header>{nav_local}<small>WORLDWIDE · DISABILITY RESOURCES</small><h1>Disability help outside the United States</h1>'
-            f'<p>Mobility Talk began as a guide for every U.S. state. It now covers {len(countries)} other countries, added one at a time as their listings are checked. Choose yours below. '
-            'Each page starts with the emergency number and a crisis line, then lists where to start, disability payments, equipment and home grants, and who handles discrimination, all checked against official pages.</p></header>\n'
-            '<main id="main"><aside class="emergency" aria-labelledby="emergency-h"><h2 id="emergency-h">In danger right now?</h2>'
-            '<p>Call your country’s emergency number. The numbers for the countries listed here are below; each one is dialed from a phone inside that country.</p></aside>'
+    return (head + f'<header>{nav_local}<small>WORLDWIDE · DISABILITY RESOURCES</small><h1>Disability help outside the United States</h1><!--lede--><!--/lede--></header>\n'
+            '<main id="main">'
             f'<section aria-labelledby="countries-h"><h2 id="countries-h">Choose a country</h2><ul class="statelist cols" id="country-list">{rows}</ul></section>'
             f'<section aria-labelledby="anywhere-h"><h2 id="anywhere-h">Help that works in any country</h2><div class="grid">{cards}</div></section>'
             '<section class="panel" aria-labelledby="us-h"><h2 id="us-h">In the United States?</h2><p>Every state, D.C. and the U.S. territories have their own page with phone numbers and official links.</p>'
             '<div class="actions"><a class="button" href="states/index.html">Choose your state</a><a class="button secondary" href="local-help.html">Search the directory</a></div></section>'
             f'<section><p>Don’t see your country, or know a service that belongs here? <a href="mailto:{CORRECTIONS}?subject={E("Mobility Talk: add a country")}">Tell us</a>. '
-            'Countries are added as their listings are checked against official sources.</p></section></main>'
+            'Countries are added as their listings are checked against official sources.</p></section>'
+            '<div class="side-help"><aside class="emergency" aria-labelledby="emergency-h"><h2 id="emergency-h">In danger right now?</h2>'
+            '<p>Call your country’s emergency number. Each country in the list shows its number, dialed from a phone inside that country.</p></aside></div></main>'
             '<footer><p>Created and maintained by Travis Vought. <a href="mailto:travis@vethomeguard.org">Corrections</a> · <a href="./">Home</a> · ' + ABOUT_LINK + '</p>'
             '<p>Program details come from the programs’ own published pages or official directories, each with the date it was checked. This is general information, not legal or medical advice, and it does not decide eligibility. Nothing you choose here is saved or sent.</p></footer></body></html>\n')
 

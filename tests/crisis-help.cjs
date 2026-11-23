@@ -1,5 +1,6 @@
-// Crisis help sits where it fits (owner direction, November 17, 2026): the urgent strip leads the pages that list
-// programs, and shelter help lives in the housing listings and in the Spanish page's shelter section.
+// Crisis help sits where it fits (owner direction, November 17, 2026): the urgent strip is on the pages that list
+// programs, as a small side note rather than a banner at the top (owner direction, November 22 and 23, 2026),
+// and shelter help lives in the housing listings and in the Spanish page's shelter section.
 // No help block is repeated on every page, and the strip does not repeat shelter lines.
 const assert=require('node:assert/strict'),fs=require('node:fs'),{JSDOM}=require('jsdom');
 const skip=f=>/^google[0-9a-f]{16}\.html$/.test(f); // Search Console ownership file is not a page

@@ -72,3 +72,30 @@ def icon(name, cls='ic'):
     if not paths: return ''
     return (f'<svg class="{cls}" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.9" '
             f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">{paths}</svg>')
+
+
+# The crisis lines as a small side note, not a banner (owner direction, November 22, 2026, repeated November 23):
+# wide screens pin it to the right edge, narrower screens show it as one quiet block after the page's own help.
+SIDE_HELP = '<div class="side-help">' + URGENT + '</div>'
+
+# Landing copy: who arrives on each root page and what the page says to them first (data/landing.json).
+LANDING = json.loads((ROOT / 'data/landing.json').read_text())['pages']
+
+
+def lede(intro, actions, plain=False):
+    """The opening a page speaks to its visitor with: one or two sentences, then the actions they most likely came for.
+    `plain` uses the button classes of the pages that do not load site.css (the route finder and advocacy pages)."""
+    out = f'<p class="lede">{E(intro)}</p>'
+    if actions:
+        cls = (lambda i: 'button' if i == 0 else 'button secondary') if plain else (lambda i: 'button gold' if i == 0 else 'button ghost')
+        out += '<div class="actions hero-actions">' + ''.join(
+            f'<a class="{cls(i)}" href="{E(a["href"])}"' + (f' lang="{E(a["lang"])}"' if a.get('lang') else '') + f'>{E(a["label"])}</a>'
+            for i, a in enumerate(actions)) + '</div>'
+    return '<!--lede-->' + out + '<!--/lede-->'
+
+
+def iam(items):
+    """The home page's "I'm here as" chooser: one link per kind of visitor, each to a page or filter that already exists."""
+    lis = ''.join(f'<li><a href="{E(x["href"])}"' + (f' lang="{E(x["lang"])}" hreflang="{E(x["lang"])}"' if x.get('lang') else '') + f'>{E(x["label"])}</a></li>' for x in items)
+    return ('<!--iam--><nav class="iam" aria-labelledby="iam-h"><h2 id="iam-h">I’m here as…</h2>'
+            f'<ul>{lis}</ul></nav><!--/iam-->')

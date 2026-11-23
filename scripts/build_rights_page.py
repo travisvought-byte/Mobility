@@ -6,7 +6,7 @@ Run via `npm run build` (from the scripts directory, like the other page builder
 """
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,RELAY,ABOUT_LINK,tel
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,tel
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
@@ -56,11 +56,11 @@ def outputs():
     page=('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
       f'<title>Know your rights: which law, which office, what deadline | Mobility Talk</title><meta name="description" content="{E(desc)}"><link rel="stylesheet" href="assets/site.css"></head>\n'
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
-      f'<header>{NAV}<small>KNOW YOUR RIGHTS · EVERY STATE</small><h1>Know your rights.</h1><p>Federal law protects people with disabilities at work, at school, in housing, in health care, on transportation and at the polls. Find your situation below to see which office handles it, what to do first and how long you have.</p></header>\n'
-      f'<main id="main">{URGENT}<section class="panel"><h2>Before you start</h2><ul><li>Write down what happened, where, when and who was involved while you remember it.</li><li>Keep copies of letters, emails, notices and photos.</li><li>Deadlines can be short. Where a source states one, it is shown here.</li><li>Your state Protection and Advocacy agency helps with disability rights problems. <a href="local-help.html?category=rights_legal">Find yours</a>.</li></ul>{RELAY}</section>'
+      f'<header>{NAV}<small>KNOW YOUR RIGHTS · EVERY STATE</small><h1>Know your rights.</h1><!--lede--><!--/lede--></header>\n'
+      f'<main id="main"><section class="panel"><h2>Before you start</h2><ul><li>Write down what happened, where, when and who was involved while you remember it.</li><li>Keep copies of letters, emails, notices and photos.</li><li>Deadlines can be short. Where a source states one, it is shown here.</li><li>Your state Protection and Advocacy agency helps with disability rights problems. <a href="local-help.html?category=rights_legal">Find yours</a>.</li></ul>{RELAY}</section>'
       f'<section aria-labelledby="situations-h"><h2 id="situations-h">Find your situation</h2><nav class="toc" aria-label="Jump to a situation">{toc}</nav>'+''.join(rows)+'</section>'
       '<section class="panel"><h2>State laws add more</h2><p>States have their own disability rights, equipment warranty and repair laws. <a href="mobility-rights.html">Use the next-step finder</a> to see what we have checked for your state, or <a href="disability-advocacy.html">ask lawmakers for change</a>.</p></section>'
-      f'</main>{FOOT}</body></html>\n')
+      f'{SIDE_HELP}</main>{FOOT}</body></html>\n')
     return {'know-your-rights.html':page}
 if __name__=='__main__':
     for p,t in outputs().items():(ROOT/p).write_text(t)

@@ -15,7 +15,7 @@ assert(d.querySelector('meta[property="og:title"]')&&d.querySelector('meta[prope
 assert(fs.readFileSync('sitemap.xml','utf8').includes('https://mobilitytalk.org/'+F+'</loc>'),'in sitemap');
 assert(/gc\.zgo\.at\/count\.js/.test(html),'visit counter');
 assert.equal(d.querySelectorAll('.featured-org:not(.featured-org--also)').length,1,'features MIF once');
-assert(d.querySelector('main').firstElementChild.classList.contains('urgent'),'urgent strip leads');
+assert(d.querySelector('main > .side-help > aside.urgent')&&!d.querySelector('main').firstElementChild.classList.contains('urgent'),'crisis lines sit in the small side note, not a banner at the top (owner direction 2026-11-22, repeated 2026-11-23)');
 assert(!/undefined|null<|\[object|Veteran Home Guardians/.test(html),'no template leaks or VHG branding');
 // structured data: a breadcrumb, and an FAQPage whose questions and answers are the ones shown on the page
 const lds=[...d.querySelectorAll('script[type="application/ld+json"]')].map(s=>JSON.parse(s.textContent));
