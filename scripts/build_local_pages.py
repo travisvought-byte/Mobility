@@ -24,7 +24,7 @@ def local_help():
 <script type="application/json" id="state-data">{J({**STATES,**TERRITORIES})}</script><script type="application/json" id="territory-data">{J(sorted(TERRITORIES))}</script><script type="application/json" id="guide-data">{J({'results_order':g['results_order'],'guides':g['guides']})}</script><script src="assets/vendor/leaflet.js"></script><script src="assets/help-map.js"></script><script src="assets/local-help.js"></script></body></html>
 '''
 def checklist(key,c):
-    secs=''.join(f'<h4>{E(s["title"])}</h4><ul class="steps">'+''.join(f'<li>{E(i["text"])} <span class="meta">({E(i["responsible"])})</span></li>' for i in s['items'])+'</ul>' for s in c['sections'])
+    secs=''.join(f'<h3 class="check-h">{E(s["title"])}</h3><ul class="steps">'+''.join(f'<li>{E(i["text"])} <span class="meta">({E(i["responsible"])})</span></li>' for i in s['items'])+'</ul>' for s in c['sections'])
     sub=c['submit'];srcs=' · '.join(f'<a href="{E(u)}" rel="noopener">{E(u.split("//")[1].split("/")[0])}</a>' for u in c['sources'])
     return f'<details id="{E(key)}"><summary>{E(c["title"])}</summary>{secs}<p><strong>Where to submit:</strong> {E(sub["text"])} <a href="{E(sub["url"])}" rel="noopener">{E(sub["label"])}</a></p><p><strong>After you submit:</strong> {E(c["followUp"])}</p><p class="small">Checked {E(c["reviewedOn"])}. Sources: {srcs}</p></details>'
 def ramps():
