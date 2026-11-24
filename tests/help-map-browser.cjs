@@ -18,8 +18,15 @@ const {chromium}=require('playwright');
   assert(await p.isVisible('#statemap')&&await p.isVisible('#map-wrap'),'map shows for a state');
   assert.equal(await p.locator('#map-wrap .leaflet-overlay-pane path').count(),88,'88 Ohio counties drawn');
   assert.equal(await p.locator('#map-list button.maphit').count(),88,'88 counties listed beside the map');
-  assert.equal(await p.textContent('#map-list-h'),'Counties on the map (88)');
-  assert(await p.isHidden('#map-legend')===false&&(await p.textContent('#map-back'))==='See all states');
+  assert.equal(await p.textContent('#map-list-h'),'Counties on the map');
+  assert((await p.textContent('#map-back'))==='See all states');
+  // a way to pick a county, not a ranking (owner direction, November 23, 2026): one fill for every county, no counts anywhere on the map
+  assert.equal(await p.locator('#map-legend').count(),0,'no shading legend');
+  const fills=await p.$$eval('#map-wrap .leaflet-overlay-pane path',ps=>[...new Set(ps.map(x=>x.getAttribute('fill')+'/'+x.getAttribute('fill-opacity')))]);
+  assert.equal(fills.length,1,'every county has the same fill until one is chosen: '+fills.join(', '));
+  assert(!/\d/.test(await p.textContent('#statemap')),'the map, its list and its notes state no counts');
+  await p.locator('#map-wrap .leaflet-overlay-pane path').nth(10).hover();await settle(p);
+  const tip=await p.textContent('.leaflet-tooltip');assert(tip&&!/\d|program/i.test(tip),'county tooltip names the county only: '+tip);
   await p.locator('#map-list button.maphit',{hasText:'Delaware'}).first().click();await settle(p);
   assert.equal(await p.inputValue('#f-county'),'Delaware','choosing a county in the list filters the directory');
   assert(new URL(p.url()).searchParams.get('county')==='Delaware'&&(await p.textContent('#results')).includes('Delaware County Board'),'the list below follows');
@@ -38,7 +45,7 @@ const {chromium}=require('playwright');
   // no state: every state and territory drawn; choosing one in the list sets the state
   p=await open(ctx,'local-help.html');
   assert.equal(await p.locator('#map-wrap .leaflet-overlay-pane path').count(),56,'every state, D.C. and territory drawn');
-  assert(await p.isHidden('#map-back')&&await p.isHidden('#map-legend')&&await p.isHidden('#map-shade'),'no county shading notes on the national map');
+  assert(await p.isHidden('#map-back')&&!/\d/.test(await p.textContent('#statemap')),'no counts on the national map or its list');
   await p.locator('#map-list button.maphit',{hasText:'Kentucky'}).click();await settle(p);
   assert.equal(await p.inputValue('#f-state'),'KY','choosing a state in the list sets the state');assert((await p.textContent('#map-h')).includes('Kentucky'));
   assert.equal(await p.evaluate(()=>localStorage.length+sessionStorage.length),0,'nothing stored');

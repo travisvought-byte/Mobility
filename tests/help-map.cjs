@@ -1,5 +1,5 @@
 // The help map (November 21, 2026): real state and county outlines over OpenStreetMap on the home page and the
-// local help page. Checks the outline files, that every county the directory names can be shaded, that Leaflet is
+// local help page. Checks the outline files, that every county the directory names can be picked on the map, that Leaflet is
 // served from this site, that the map loads nothing else from outside and stores nothing, and that the privacy
 // page says where the map pictures come from.
 const assert=require('node:assert/strict'),fs=require('node:fs');
@@ -61,4 +61,4 @@ assert(/scrollWheelZoom: false/.test(js),'the page keeps scrolling over the map 
 const priv=read('privacy.html');
 assert(/<h2 id="map">Maps<\/h2>/.test(priv)&&/tile\.openstreetmap\.org/.test(priv)&&/sees your IP address/.test(priv)&&/never stored or sent/.test(priv),'privacy page explains the map pictures and the location button');
 assert(/privacy\.html#map/.test(read('about.html')),'about page points to the map privacy notes');
-console.log(`PASS help map: outlines for ${states.length} states and territories and ${counties} counties, every listed county shadeable, Leaflet served from this site, OpenStreetMap the only outside source and disclosed, nothing stored, list and no-JavaScript fallbacks.`);
+console.log(`PASS help map: outlines for ${states.length} states and territories and ${counties} counties, every listed county on the map, Leaflet served from this site, OpenStreetMap the only outside source and disclosed, nothing stored, list and no-JavaScript fallbacks.`);

@@ -99,17 +99,15 @@ function toResults(){const h=$('results-h');if(!h)return;h.setAttribute('tabinde
 // Without it (no JavaScript map support, or the file did not load) the section stays hidden and the menus do the same job.
 function pickCounty(state,c){const box=$('f-county');if(![...box.options].some(o=>o.value===c))fillCounties(state,c);box.value=(low(box.value)===low(c))?'':c;render();}
 function pickState(code){$('f-state').value=code;fillCounties(code,'');render();}
-function stateCounts(s){const n={};for(const r of main){if(r.state==='US'||r.category==='veterans')continue;if(s.category&&r.category!==s.category)continue;if(s.audience&&!(r.audience||[]).includes(s.audience))continue;n[r.state]=(n[r.state]||0)+1;}return n;}
 function paintMap(m,s){
-  const sec=$('statemap'),name=STATES[s.state]||s.state,cnt={};let statewide=0,local=0;
-  if(s.state)for(const r of main){if(r.state!==s.state||r.category==='veterans')continue;if(s.category&&r.category!==s.category)continue;if(s.audience&&!(r.audience||[]).includes(s.audience))continue;
-    if(r.scope==='counties'){local++;for(const c of r.counties||[])cnt[nk(c)]=(cnt[nk(c)]||0)+1;}else statewide++;}
+  // The map is a way to pick a place, not a ranking: no county or state is shaded or labeled by how many programs
+  // list it (owner direction, November 23, 2026).
+  const sec=$('statemap'),name=STATES[s.state]||s.state;
   sec.hidden=false;
-  if(!s.state){$('map-h').textContent='Map of help in every state';$('map-summary').textContent='Choose a state on the map or in the list beside it, or use your location, to see its programs and how many serve each county.';$('map-legend').hidden=true;$('map-shade').hidden=true;}
-  else{$('map-h').textContent='Map of resources in '+name;$('map-legend').hidden=false;$('map-shade').hidden=false;
-    $('map-summary').textContent=local?statewide+' '+(statewide===1?'program serves':'programs serve')+' all of '+name+' (listed below). '+local+' '+(local===1?'program serves':'programs serve')+' specific counties. Select a county to narrow the list.'
-      :'All '+statewide+' '+(statewide===1?'program':'programs')+' listed for '+name+' serve the whole '+(TERRITORIES.has(s.state)?'territory':'state')+', so no county is shaded. Select a county to add its veterans service office, where one is listed.';}
-  const ok=window.MTMap.help({state:s.state,county:s.county,geo:m,counts:cnt,stateCounts:s.state?null:stateCounts(s),names:STATES,
+  if(!s.state){$('map-h').textContent='Map of help in every state';$('map-summary').textContent='Choose a state on the map or in the list beside it, or use your location, to see its programs.';}
+  else{$('map-h').textContent='Map of help in '+name;
+    $('map-summary').textContent='Help that serves all of '+name+' is listed below. Tap a county on the map, or choose it in the list beside the map, to add the local help there.';}
+  const ok=window.MTMap.help({state:s.state,county:s.county,geo:m,names:STATES,
     onState:pickState,onCounty:c=>pickCounty(s.state,c),
     onLocate:(st,county,geo)=>{if(geo&&Array.isArray(geo.counties))mapCache[st]=geo;$('f-state').value=st;fillCounties(st,county);render();}});
   if(!ok)sec.hidden=true;

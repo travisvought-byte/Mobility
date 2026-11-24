@@ -1,7 +1,8 @@
 // Mobility Talk: the help map on the home page and the local help page.
 // Draws real state and county outlines (data/geo/, from the U.S. Census Bureau's boundary files) over
-// OpenStreetMap's map pictures. The local help page shades each county by how many local programs list it,
-// and keeps a list of the counties (or states) in view beside the map, so everything on the map can also
+// OpenStreetMap's map pictures. On the local help page every county looks the same: the map is a way to pick a
+// county and see its help, not a ranking (owner direction, November 23, 2026: no county is shaded or labeled by how
+// many programs list it). A list of the counties (or states) in view sits beside the map, so everything on the map can also
 // be reached with a keyboard or a screen reader. "Use my location" finds your state and county inside this
 // page: the location is never stored or sent. Without JavaScript or without this file, the pages work as
 // before: the state picker, the county menu and the plain state pages.
@@ -15,7 +16,6 @@
   var $ = function (id) { return document.getElementById(id); };
   var calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   var US = [[24.4, -124.9], [49.4, -66.9]];
-  var SHADES = ['#dfe6e1', '#b9d3c4', '#7fb095', '#4a8a68', '#276244'];
   // Outline colors that stand out on the light map and on the darkened one
   var dark = window.matchMedia && matchMedia('screen and (prefers-color-scheme: dark)').matches;
   var EDGE = dark ? '#0d1519' : '#41545e', PICKED = dark ? '#f0d58f' : '#183449';
@@ -28,7 +28,6 @@
   var counties = function (st) { return getJSON('data/geo/' + st + '.json'); };
   api.counties = counties;
   var nk = function (x) { return String(x == null ? '' : x).toLowerCase().replace(/\bsaint\b/g, 'st').replace(/[^a-z0-9]/g, ''); };
-  var level = function (n) { return n === 0 ? 0 : n === 1 ? 1 : n <= 3 ? 2 : n <= 6 ? 3 : 4; };
   // the outline files are [longitude, latitude], as in GeoJSON; Leaflet wants [latitude, longitude]
   var latlngs = function (polys) { return polys.map(function (poly) { return poly.map(function (r) { return r.map(function (p) { return [p[1], p[0]]; }); }); }); };
   var box = function (b) { return L.latLngBounds([b[1], b[0]], [b[3], b[2]]); };
@@ -167,7 +166,7 @@
     var items = H.shapes.filter(function (x) { return view.intersects(x.bounds); });
     if (!items.length) items = H.shapes;
     items.sort(function (a, b) { return a.name.localeCompare(b.name); });
-    $('map-list-h').textContent = (o.state ? 'Counties' : 'States and territories') + ' on the map (' + items.length + ')';
+    $('map-list-h').textContent = (o.state ? 'Counties' : 'States and territories') + ' on the map';
     ul.textContent = '';
     items.forEach(function (x) {
       var li = document.createElement('li'), btn = document.createElement('button');
@@ -194,41 +193,39 @@
       return states().then(function (S) {
         if (H.opts !== o) return;
         S.states.forEach(function (s) {
-          var n = o.stateCounts[s.id] || 0;
           var shape = L.polygon(latlngs(s.p), { color: '#ffffff', weight: 1.2, fillColor: '#335947', fillOpacity: 0.32 })
-            .bindTooltip(s.n + ': ' + n + (n === 1 ? ' program' : ' programs'), { sticky: true, direction: 'top' })
+            .bindTooltip(s.n, { sticky: true, direction: 'top' })
             .on('mouseover', function () { this.setStyle({ fillOpacity: 0.6, weight: 2.5 }); })
             .on('mouseout', function () { this.setStyle({ fillOpacity: 0.32, weight: 1.2 }); })
             .on('click', function () { o.onState(s.id); });
           H.layer.addLayer(shape);
-          H.shapes.push({ name: s.n, note: n + (n === 1 ? ' program listed' : ' programs listed'), bounds: box(s.b), pick: function () { o.onState(s.id); } });
+          H.shapes.push({ name: s.n, note: 'Show its programs', bounds: box(s.b), pick: function () { o.onState(s.id); } });
         });
         list();
       });
     }
     var geo = o.geo, sel = nk(o.county), chosen = null;
     geo.counties.forEach(function (c) {
-      var n = [c.n].concat(c.a || []).reduce(function (t, a) { return t + (o.counts[nk(a)] || 0); }, 0);
       var on = sel && [c.n].concat(c.a || []).some(function (a) { return nk(a) === sel; });
-      var base = { color: on ? PICKED : EDGE, weight: on ? 4 : 0.8, fillColor: SHADES[level(n)], fillOpacity: on ? 0.85 : 0.62 };
+      // one fill for every county; the chosen county and the one under the pointer stand out
+      var base = { color: on ? PICKED : EDGE, weight: on ? 4 : 0.8, fillColor: '#335947', fillOpacity: on ? 0.55 : 0.22 };
       var shape = L.polygon(latlngs(c.p), base)
-        .bindTooltip(c.n + ': ' + (n ? n + (n === 1 ? ' local program' : ' local programs') : 'no county programs listed'), { sticky: true, direction: 'top' })
-        .on('mouseover', function () { this.setStyle({ weight: on ? 4 : 2.6, color: PICKED }); })
+        .bindTooltip(c.n, { sticky: true, direction: 'top' })
+        .on('mouseover', function () { this.setStyle({ weight: on ? 4 : 2.6, color: PICKED, fillOpacity: 0.45 }); })
         .on('mouseout', function () { this.setStyle(base); })
         .on('click', function () { o.onCounty(c.n); });
       H.layer.addLayer(shape);
       if (on) chosen = shape;
-      H.shapes.push({ name: c.n, note: n ? n + (n === 1 ? ' local program' : ' local programs') : 'Statewide help only', bounds: shape.getBounds(), pick: function () { o.onCounty(c.n); } });
+      H.shapes.push({ name: c.n, note: on ? 'Chosen: showing its help' : 'Show help here', bounds: shape.getBounds(), pick: function () { o.onCounty(c.n); } });
     });
     if (chosen) chosen.bringToFront();
     return Promise.resolve(chosen);
   }
 
-  // opts: {state, county, geo (county outlines, or null without a state), counts (county key -> local programs),
-  //        stateCounts, names (code -> name), onState(code), onCounty(name), onLocate(state, county, geo)}
+  // opts: {state, county, geo (county outlines, or null without a state), names (code -> name), onState(code), onCounty(name), onLocate(state, county, geo)}
   api.help = function (opts) {
     if (!H && !helpSetup()) return false;
-    var key = opts.state + '|' + JSON.stringify(opts.counts || opts.stateCounts) + '|' + nk(opts.county);
+    var key = opts.state + '|' + nk(opts.county);
     H.opts = opts;
     $('map-back').hidden = !opts.state;
     $('map-back').textContent = opts.county ? 'Show all of ' + (opts.names[opts.state] || opts.state) : 'See all states';
