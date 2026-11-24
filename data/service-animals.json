@@ -29,7 +29,7 @@
   "gdb-faq": {"title": "Frequently Asked Questions", "publisher": "Guide Dogs for the Blind", "url": "https://www.guidedogs.com/resources/faqs", "page_date": "no date shown on the page", "checked": "2026-11-17"}
  },
  "sections": [
-  {"id": "what-counts", "title": "What counts as a service animal",
+  {"id": "what-counts", "title": "What counts as a service animal", "icon": "service_dog",
    "points": [
     {"text": "Under the Americans with Disabilities Act (ADA), a service animal is a dog that is individually trained to do work or perform tasks for a person with a disability.", "src": ["doj-requirements"]},
     {"text": "The task must be directly related to the person’s disability. Examples the Justice Department gives: guiding people who are blind, alerting people who are deaf and pulling a wheelchair.", "src": ["doj-requirements"]},
@@ -41,7 +41,7 @@
     {"text": "Miniature horses have their own rule. Businesses and state and local governments must make reasonable changes to allow a miniature horse that is individually trained to do work or perform tasks for a person with a disability. The Justice Department says these horses are generally 24 to 34 inches tall at the shoulder and weigh 70 to 100 pounds.", "src": ["doj-requirements", "cfr-36-302", "cfr-35-136"]},
     {"text": "To decide whether a miniature horse can come into a particular place, they look at whether it is housebroken, whether it is under the handler’s control, whether the place can handle its type, size and weight, and whether its presence would compromise legitimate safety requirements.", "src": ["doj-requirements", "cfr-36-302"]}
    ]},
-  {"id": "two-questions", "title": "The two questions staff may ask",
+  {"id": "two-questions", "title": "The two questions staff may ask", "icon": "chat_q",
    "lead": "When it is not obvious what the dog does, staff may ask only two questions:",
    "list": ["Is the dog a service animal required because of a disability?", "What work or task has the dog been trained to perform?"],
    "list_src": ["doj-requirements", "cfr-36-302", "cfr-35-136"],
@@ -50,7 +50,7 @@
     {"text": "Staff may not ask about your disability or ask for medical documentation.", "src": ["doj-requirements", "cfr-36-302"]},
     {"text": "Staff may not require a special ID card or training documentation for the dog, and may not ask the dog to show it can do its task.", "src": ["doj-requirements", "doj-faq"]}
    ]},
-  {"id": "where", "title": "Where service animals can go",
+  {"id": "where", "title": "Where service animals can go", "icon": "store",
    "points": [
     {"text": "The ADA rule covers businesses open to the public (Title III) and state and local government services (Title II).", "src": ["cfr-36-302", "cfr-35-136"]},
     {"text": "A person with a disability may bring a service animal into all areas where members of the public are allowed to go.", "src": ["doj-requirements", "cfr-36-302", "cfr-35-136"]},
@@ -61,7 +61,7 @@
     {"text": "Places of worship: religious institutions and organizations are specifically exempt from the ADA. State laws may still apply.", "src": ["doj-faq"]},
     {"text": "Housing and air travel follow other laws, explained below. Federal agencies are covered by Section 504 of the Rehabilitation Act, not the ADA.", "src": ["doj-faq"]}
    ]},
-  {"id": "may-not-require", "title": "What businesses may not require",
+  {"id": "may-not-require", "title": "What businesses may not require", "icon": "document",
    "points": [
     {"text": "No vest, ID tag or special harness. The ADA does not require any of them.", "src": ["doj-faq"]},
     {"text": "No certificate or registration to get in. The Justice Department does not recognize online certificates or registrations as proof that a dog is a service animal.", "src": ["doj-faq"]},
@@ -70,21 +70,21 @@
     {"text": "The business is not responsible for caring for or watching the dog. That is the handler’s job.", "src": ["cfr-36-302", "cfr-35-136"]},
     {"text": "Local rules still apply. Service dogs must follow local vaccination rules and local dog licensing and registration rules that apply to all dogs. A city or county may not require service animals to be registered as service animals; voluntary registries are allowed.", "src": ["doj-faq"]}
    ]},
-  {"id": "asked-to-leave", "title": "When an animal can be asked to leave",
+  {"id": "asked-to-leave", "title": "When an animal can be asked to leave", "icon": "door_out",
    "points": [
     {"text": "Staff may ask that a service animal be removed only if the dog is out of control and the handler does not take effective action to control it, or if the dog is not housebroken.", "src": ["doj-requirements", "cfr-36-302", "cfr-35-136"]},
     {"text": "Barking once, or barking because someone provoked it, does not mean the dog is out of control.", "src": ["doj-faq"]},
     {"text": "If the dog is properly asked to leave, the person must still be offered the goods or services without the dog there.", "src": ["doj-requirements", "cfr-36-302", "cfr-35-136"]},
     {"text": "The dog must be under the handler’s control. It must be harnessed, leashed or tethered unless the person’s disability prevents that or the device would interfere with the dog’s work. Then the handler keeps control by voice, signals or other effective means.", "src": ["doj-requirements", "cfr-36-302", "cfr-35-136"]}
    ]},
-  {"id": "emotional-support", "title": "Emotional support animals and service animals",
+  {"id": "emotional-support", "title": "Emotional support animals and service animals", "icon": "comfort",
    "points": [
     {"text": "Under the ADA, emotional support, therapy, comfort and companion animals are not service animals.", "src": ["doj-requirements", "doj-faq"]},
     {"text": "Housing is different. The ADA definition does not limit the broader definition of “assistance animal” under the Fair Housing Act. See the housing section below.", "src": ["doj-requirements"]},
     {"text": "Air travel: emotional support animals are not service animals, and an airline may treat one as a pet.", "src": ["dot-service-animals", "dot-final-rule-faq"]},
     {"text": "Some state and local laws define service animal more broadly than the ADA does. The Justice Department suggests checking with your state attorney general’s office.", "src": ["doj-requirements"]}
    ]},
-  {"id": "housing", "title": "Housing: the Fair Housing Act",
+  {"id": "housing", "title": "Housing: the Fair Housing Act", "icon": "ramps_home",
    "points": [
     {"text": "The Fair Housing Act applies to virtually all types of housing, public and privately owned.", "src": ["doj-faq"]},
     {"text": "A housing provider must make reasonable accommodations, which are changes or exceptions to a rule or policy that a person with a disability needs to have an equal chance to use and enjoy their home. HUD and the Justice Department give the example of a deaf tenant whose dog alerts them to sounds: the provider must make an exception to its “no pets” policy.", "src": ["hud-doj-2004"]},
@@ -92,7 +92,7 @@
     {"text": "A housing provider may not charge extra fees or deposits as a condition of the accommodation. It may charge for damage the animal causes, or take it from the usual security deposit, if it normally charges tenants for damage.", "src": ["hud-doj-2004"]},
     {"text": "Know this: on September 17, 2025, HUD withdrew its two notices on assistance animals in housing (from 2013 and 2020) and said they should not be relied on while HUD reviews them. The 2004 joint statement used above was not on that list. Ask HUD or a local fair housing center how the rules apply to you.", "src": ["hud-withdrawal-2025", "hud-doj-2004"]}
    ]},
-  {"id": "air-travel", "title": "Air travel: Department of Transportation rules",
+  {"id": "air-travel", "title": "Air travel: Department of Transportation rules", "icon": "plane",
    "points": [
     {"text": "For flights, a service animal is a dog, of any breed or type, that is individually trained to do work or perform tasks for a person with a disability, including a psychiatric, intellectual or other mental disability. Airlines must treat psychiatric service animals the same as other service animals.", "src": ["dot-service-animals", "dot-release-2020"]},
     {"text": "Staff may ask whether the dog is needed because of a disability and what work or task it is trained to do. They may not ask about the nature of your disability or ask the dog to show its task.", "src": ["cfr-382-73"]},
@@ -106,6 +106,24 @@
     {"text": "Airlines may not refuse a service animal just because it makes other passengers or crew uncomfortable.", "src": ["dot-service-animals"]}
    ]}
  ],
+ "compare": {"after": "emotional-support", "title": "Service dog or emotional support animal? The rules side by side",
+   "lead": "A short summary of the statements on this page. Each row links to its section.",
+   "cols": [{"label": "Service dog", "icon": "service_dog"}, {"label": "Emotional support animal", "icon": "comfort"}],
+   "rows": [
+    {"setting": "Businesses, public places and state and local government (ADA)", "icon": "store", "href": "#where",
+     "cells": [{"mark": "yes", "word": "Allowed.", "text": "A service animal may go into all areas where members of the public are allowed to go.", "src": ["doj-requirements", "cfr-36-302", "cfr-35-136"]},
+               {"mark": "no", "word": "Not covered.", "text": "Under the ADA, emotional support, therapy, comfort and companion animals are not service animals.", "src": ["doj-requirements", "doj-faq"]}]},
+    {"setting": "Housing (Fair Housing Act)", "icon": "ramps_home", "href": "#housing",
+     "span": {"label": "Service dog or emotional support animal", "mark": "differs", "word": "Different law.", "text": "The ADA definition does not limit the broader definition of “assistance animal” under the Fair Housing Act. Read the housing section before you rely on it: HUD withdrew two of its notices on assistance animals in September 2025.", "src": ["doj-requirements", "hud-withdrawal-2025"]}},
+    {"setting": "Flights (Department of Transportation)", "icon": "plane", "href": "#air-travel",
+     "cells": [{"mark": "yes", "word": "A service animal.", "text": "A dog of any breed or type that is individually trained to do work or perform tasks for a person with a disability, including a psychiatric, intellectual or other mental disability.", "src": ["dot-service-animals", "dot-release-2020"]},
+               {"mark": "no", "word": "Not a service animal.", "text": "An airline may treat an emotional support animal as a pet.", "src": ["dot-service-animals", "dot-final-rule-faq"]}]}
+   ]},
+ "form_timeline": {"after": "air-travel", "title": "When an airline may ask for the DOT service animal form", "src": ["cfr-382-75"],
+   "lanes": [
+    {"label": "You booked more than 48 hours before departure", "steps": [{"when": "You book", "text": "More than 48 hours before departure."}, {"when": "48 hours before departure", "text": "The airline may ask for the form up to 48 hours ahead."}, {"when": "Departure", "text": ""}]},
+    {"label": "You booked within 48 hours of departure", "steps": [{"when": "You book", "text": "The airline may not require advance notice."}, {"when": "At the gate", "text": "The airline may ask for the form."}]}
+   ]},
  "complaints": [
   {"id": "complain-ada", "title": "A business or a state or local government", "who": "U.S. Department of Justice, Civil Rights Division (ADA)",
    "steps": ["Report it online on the Justice Department’s civil rights portal, or mail the ADA complaint form or a letter to: U.S. Department of Justice, Civil Rights Division, 950 Pennsylvania Avenue, NW, Washington, DC 20530.", "Call the ADA Information Line if you are not sure the ADA covers what happened. ADA.gov suggests calling if you have not heard back after three months.", "You may also file a private lawsuit in federal court."],

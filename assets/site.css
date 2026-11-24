@@ -309,3 +309,94 @@ header .lede{font-size:19px;max-width:780px}
 @media print{.iam,.hero-actions{display:none}.lede-list li,.lede-list a{color:black}}
 /* Checklist steps sit under their section heading (an h3 since November 24, 2026), at the size they had as h4. */
 .check-h{font-size:1em;margin:1.33em 0 .4em}
+
+/* Guide visuals (November 24, 2026). Every picture here repeats what the words beside it already say: step lists stay
+   real ordered lists, chart values are printed as text, and icons are decorative (hidden from screen readers).
+   Lines and circles are drawn with borders so they stay visible in Windows high contrast mode. */
+svg.kic,svg.lic,svg.mic,.iconlist svg{display:block;flex:none;box-sizing:border-box}
+h3.cat-h{display:flex;align-items:center;gap:12px}h3.cat-h .hic{width:42px;height:42px;padding:9px}
+/* step diagrams: an ordered list drawn as numbered circles joined by a line; side by side on wide screens */
+ol.stepper{list-style:none;padding:0;margin:20px 0;counter-reset:step;display:grid;gap:0}
+ol.stepper>li{counter-increment:step;position:relative;margin:0;max-width:none;padding:6px 0 18px 58px;line-height:1.4}
+ol.stepper>li::before{content:counter(step);position:absolute;left:0;top:0;box-sizing:border-box;width:42px;height:42px;border:2px solid var(--green);border-radius:50%;background:var(--green);color:#fff;font:700 19px/38px system-ui,sans-serif;text-align:center}
+ol.stepper>li::after{content:"";position:absolute;left:20px;top:46px;bottom:4px;border-left:3px solid var(--green)}
+ol.stepper>li:last-child{padding-bottom:4px}ol.stepper>li:last-child::after{display:none}
+ol.stepper .st{display:block;font-weight:700;color:var(--head)}ol.stepper a.st{color:#215b76}
+@media(min-width:760px){ol.stepper.row{grid-template-columns:repeat(var(--n,3),minmax(0,1fr));gap:0 18px}
+ ol.stepper.row>li{padding:56px 0 0}ol.stepper.row>li::after{left:50px;top:19px;right:-14px;bottom:auto;border-left:0;border-top:3px solid var(--green)}}
+/* jump tiles on the guide pages use the state pages' tiles; the longer lists keep two to four across */
+.toc.tiles.guide{margin:18px 0 8px}
+/* program kinds on the vision and hearing guides: a key, then the same icon on each group heading in every state */
+.kinds-key{list-style:none;padding:0;margin:14px 0 22px;display:flex;flex-wrap:wrap;gap:10px 26px}
+.kinds-key li{display:flex;align-items:center;gap:10px;margin:0;max-width:none;font-weight:600}
+.state-group h4{display:flex;align-items:center;gap:10px}
+svg.kic{width:34px;height:34px;padding:7px;border-radius:10px;background:var(--icon-bg);color:var(--icon)}
+/* lists whose points each carry an icon */
+ul.iconlist{list-style:none;padding:0}
+ul.iconlist>li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin:12px 0}
+.iconlist svg{width:38px;height:38px;padding:8px;border-radius:10px;background:var(--card);color:var(--icon)}
+article>svg.hic:first-child{width:46px;height:46px;padding:10px;margin:0 0 10px}
+.tl-fig{margin:18px 0 6px}.tl-fig figcaption{color:var(--muted)}
+/* a bar chart whose values are written out beside each bar */
+.viz{margin:18px 0 8px;padding:20px 22px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.viz figcaption{font-size:16px;color:var(--muted);margin:0 0 8px;max-width:none}
+.viz figcaption strong{display:block;font-size:19px;color:var(--head);margin-bottom:2px}
+.barchart{list-style:none;padding:0;margin:12px 0 4px}
+.barchart li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;align-items:end;margin:0 0 16px;max-width:none}
+.barchart .bv{font-weight:700;color:var(--head);text-align:right}
+.barchart .bt{grid-column:1/-1;height:18px;border:1px solid #6f8078;border-radius:4px;background:var(--tint);overflow:hidden}
+.barchart .bf{display:block;height:100%;width:var(--w);border-right:2px solid var(--green);background:var(--green)}
+@media(max-width:600px){.viz{padding:16px 14px}.barchart li{grid-template-columns:minmax(0,1fr)}.barchart .bv{text-align:left}}
+/* service dog and emotional support animal side by side; stacked on phones */
+.compare{margin:18px 0;border:1px solid var(--line);border-radius:10px;background:var(--card);overflow:hidden}
+.cmp-cols,.cmp-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr)}
+.cmp-cols{background:var(--tint);font-weight:700;color:var(--head)}
+.cmp-cols>span:last-child,.cmp-cells{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.cmp-cols span span{display:flex;align-items:center;gap:10px;padding:12px 16px}
+.cmp-row{border-top:1px solid var(--line)}
+.cmp-row .cmp-where{display:flex;align-items:flex-start;gap:10px;margin:0;padding:16px;font-size:18px;line-height:1.35}
+.cmp-cells{margin:0}.cmp-cell{padding:16px;border-left:1px solid var(--line)}.cmp-cell.span{grid-column:1/-1}
+.cmp-cell dt{font-weight:700}.cmp-cell dd{margin:0}
+.compare svg.mic{width:30px;height:30px;padding:5px;border-radius:8px;background:var(--icon-bg);color:var(--icon)}
+.mark{display:inline-flex;align-items:center;gap:6px;margin-right:4px;font-weight:700}
+.mark svg{width:22px;height:22px;display:inline-block;vertical-align:middle;flex:none}
+.mark.yes{color:#2a4a3b}.mark.no{color:#8a2a1f}.mark.differs{color:#6b4e0f}
+@media(min-width:761px){.cmp-cell dt{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}}
+@media(max-width:760px){.cmp-cols{display:none}.cmp-row,.cmp-cells{grid-template-columns:minmax(0,1fr)}.cmp-row .cmp-where{padding-bottom:4px}
+ .cmp-cell{border-left:0;border-top:1px dashed var(--line);padding:10px 16px 14px}.cmp-cell dt{display:flex;align-items:center;gap:8px;margin-bottom:4px}}
+@media(min-width:761px){.cmp-cell dt svg{display:none}}
+/* the two questions as two speech bubbles */
+ol.two-questions{list-style:none;padding:0;counter-reset:q;display:grid;gap:12px;margin:16px 0;max-width:760px}
+ol.two-questions>li{counter-increment:q;position:relative;margin:0;max-width:none;padding:14px 18px 14px 64px;background:var(--card);border:2px solid var(--green);border-radius:18px 18px 18px 4px}
+ol.two-questions>li::before{content:counter(q);position:absolute;left:14px;top:12px;box-sizing:border-box;width:36px;height:36px;border:2px solid var(--green);border-radius:50%;background:var(--green);color:#fff;font:700 17px/32px system-ui,sans-serif;text-align:center}
+/* a short timeline of dates already listed beside it; across on wide screens, down on phones */
+ol.timeline{list-style:none;padding:0;margin:18px 0 6px;display:grid;gap:0}
+ol.timeline>li{position:relative;margin:0;max-width:none;padding:0 0 18px 36px;line-height:1.45}
+ol.timeline>li::before{content:"";position:absolute;left:0;top:3px;box-sizing:border-box;width:20px;height:20px;border:4px solid var(--green);border-radius:50%;background:var(--card)}
+ol.timeline>li::after{content:"";position:absolute;left:8px;top:23px;bottom:0;border-left:4px solid var(--green)}
+ol.timeline>li:last-child::after{display:none}
+ol.timeline time,ol.timeline .when{display:block;font-weight:700;color:var(--head)}
+@media(min-width:760px){ol.timeline{grid-template-columns:repeat(var(--n,3),minmax(0,1fr));gap:0 20px}
+ ol.timeline>li{padding:34px 0 0}ol.timeline>li::after{left:20px;top:11px;right:-20px;bottom:auto;border-left:0;border-top:4px solid var(--green)}}
+/* a small drawing in the header of some guides (decorative); hidden on narrow screens and in print */
+.hero-art{display:none}
+@media(min-width:980px){header.has-art{display:flow-root}header .hero-art{display:block;float:right;width:250px;height:auto;margin:10px 0 0 28px}}
+/* icons beside the opening list on country pages */
+svg.lic{display:inline-block;width:22px;height:22px;margin:0 8px 0 0;vertical-align:-5px;color:#e7cc88}
+@media screen and (prefers-color-scheme:dark){
+ol.stepper>li::before,ol.two-questions>li::before{border-color:#a8dcc0;background:#335947}
+ol.stepper>li::after,ol.timeline>li::after,ol.timeline>li::before,ol.two-questions>li{border-color:#6aa486}
+ol.stepper a.st{color:#8fcbe8}
+.barchart .bt{border-color:#71848e}.barchart .bf{background:#6aa486;border-color:#a8dcc0}
+.mark.yes{color:#a8dcc0}.mark.no{color:#f3b0a6}.mark.differs{color:#f1d48a}
+.iconlist svg{background:var(--card)}
+}
+@media(forced-colors:active){svg.kic,svg.mic,.iconlist svg{background:none}
+ ol.stepper>li::before,ol.two-questions>li::before{background:Canvas;color:CanvasText}
+ .barchart .bf{forced-color-adjust:none;background:CanvasText}}
+@media print{.toc.tiles.guide,.kinds-key{display:none}svg.kic,svg.lic,.iconlist svg,.compare svg.mic{display:none}ul.iconlist>li{display:block}
+ ol.stepper>li::before,ol.two-questions>li::before{background:#fff;color:#000;border-color:#000}ol.stepper>li::after,ol.timeline>li::after{border-color:#000}
+ ol.timeline>li::before{border-color:#000;background:#fff}ol.two-questions>li{border-color:#000}
+ .barchart .bf{background:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact}.viz,.compare{break-inside:avoid;border-color:#000}
+ .cmp-cols span span,.mark.yes,.mark.no,.mark.differs{color:#000}}
+.viz .lane{margin:14px 0 0;max-width:none}.viz ol.timeline{margin-top:8px}

@@ -2,7 +2,7 @@
 """Add canonical and social tags and the visit counter to every page, and write sitemap.xml and robots.txt. Idempotent."""
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,icon,LANDING,lede,iam
+from site_parts import URGENT,icon,LANDING,lede,iam,sprite
 import ads as ADS
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
@@ -140,5 +140,7 @@ for name in ALL+['404.html']:
 # ads.txt names the AdSense publisher, or is removed when there is none
 if AD_CLIENT:(ROOT/'ads.txt').write_text(ADS.ads_txt(AD_CLIENT))
 else:(ROOT/'ads.txt').unlink(missing_ok=True)
+# the shared icon file that the guide and country pages point to (assets/icons.svg), from the same drawings as the inline icons
+(ROOT/'assets/icons.svg').write_text(sprite())
 (ROOT/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
 print('Finalized',len(PAGES),'pages,',len(STATE_PAGES),'state pages,',len(COUNTRY_PAGES),'country pages, sitemap.xml and robots.txt.')
