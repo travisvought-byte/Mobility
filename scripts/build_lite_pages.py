@@ -119,6 +119,7 @@ def country_page(c):
     em = c['emergency']
     body = [f'<p class="m"><a href="#share">Send to someone</a> · <a href="{full}">Full page</a> · <a href="index.html">Other countries</a></p>',
             f'<h1>Disability help in {E(c.get("title_name", place))}</h1>',
+            lang_links(c),
             f'<p class="em"><strong>Emergency in {E(place)}:</strong> call <a href="tel:{E(em["number"])}">{E(em["number"])}</a> ({E(em["label"])}).</p>']
     if c.get('relay'):
         body.append(f'<p><strong>Calling without your voice?</strong> {E(c["relay"])}</p>')
@@ -143,12 +144,126 @@ def index_page():
     return (top + '<h1>Disability help worldwide, text only</h1>'
             '<p>Small pages that load on slow connections and basic phones, with no pictures or scripts. '
             f'Choose your country for its emergency number, crisis lines and national programs. <a href="{BASE}world.html">Full version</a></p>'
-            f'<h2>Countries</h2><ul>{rows}</ul><h2>Help that works in any country</h2>{any_country}'
+            f'<h2>Countries</h2><ul>{rows}</ul>'
+            '<h2 id="languages">Other languages (machine-translated)</h2><p>' + ' · '.join(
+                f'<a href="{l}/index.html" lang="{l}" hreflang="{l}">{E(LANGS[l]["name"])}</a>' for l in LANGS) + '</p>'
+            f'<h2>Help that works in any country</h2>{any_country}'
             '<h2>Use it with no internet</h2><p>Download every country at once, about 400 KB: '
             f'<a href="{PACK}.zim">Kiwix file</a> (open it in the free Kiwix app on a phone or computer) or '
             f'<a href="{PACK}.zip">zip of plain pages</a> (unzip and open index.html). Schools, clinics and libraries with offline servers can load the Kiwix file.</p>'
             f'<h2>United States</h2><p>Every state has its own page: <a href="{BASE}states/index.html">mobilitytalk.org/states</a></p>'
             + foot(BASE + 'world.html', counter))
+
+
+# ---- Machine-translated copies (lite/<lang>/), owner direction, November 25, 2026 ----------------------------------
+# Interface text, section and country names are written by hand (data/lite-languages.json); descriptions come from the
+# translation cache (data/lite-translations.json, filled by scripts/translate_lite.py). Each page says it is a machine
+# translation, links the English, and is noindex until someone who reads the language has checked it.
+from lite_i18n import LANGS, countries as lang_countries, load_cache
+CACHE = load_cache()
+TRANSLATED = {}
+for _lang in LANGS:
+    for _c in lang_countries(_lang):
+        TRANSLATED.setdefault(_c['code'], []).append(_lang)
+
+
+def lang_links(c, prefix=''):
+    """Links from an English text-only page to its machine-translated copies."""
+    langs = TRANSLATED.get(c['code'], [])
+    return ''.join(f'<p class="m"><a href="{prefix}{l}/{c["slug"]}.html" lang="{l}" hreflang="{l}">{E(LANGS[l]["name"])}</a></p>' for l in langs)
+
+
+def T(lang, text):
+    """The cached translation, or the English marked as English when there is none."""
+    t = CACHE.get(lang, {}).get(text)
+    return E(t) if t else f'<span lang="en">{E(text)}</span>'
+
+
+def t_head(lang, title, desc, slug):
+    d = LANGS[lang].get('dir')
+    attr = f' dir="{d}"' if d else ''
+    path = f'{lang}/{slug}'
+    top = (f'<!doctype html>\n<html lang="{lang}"{attr}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+           f'<title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="robots" content="noindex">'
+           f'<link rel="canonical" href="{BASE}lite/{path}"><style>{CSS}</style></head>\n<body>')
+    return top, f'<img src="{COUNT}{E(path)}" alt="" width="1" height="1">'
+
+
+def t_foot(lang, english, counter):
+    u = LANGS[lang]['ui']
+    return (f'<hr><p class="m">{E(u["foot"])} <a href="mailto:{CORRECTIONS}?subject=Mobility%20Talk%20({lang})">{E(u["report"])}</a></p>'
+            f'<p class="m"><a href="index.html">{E(u["all"])}</a> · <a href="{english}" lang="en" hreflang="en">{E(u["english"])}</a> · '
+            f'<a href="{BASE}privacy.html" hreflang="en">{E(u["privacy"])}</a></p>{counter}</body></html>\n')
+
+
+def t_resource(lang, r):
+    u = LANGS[lang]['ui']
+    out = [f'<h3>{E(r["name"])}</h3>']
+    if r.get('org') and r['org'].lower() != r['name'].lower():
+        out.append(f'<p class="m">{E(r["org"])}</p>')
+    out.append(f'<p>{T(lang, r["what"])}</p>')
+    if r.get('how'):
+        out.append(f'<p><strong>{E(u["next"])}</strong> {T(lang, r["how"])}</p>')
+    bits = []
+    if r.get('phone'):
+        bits.append(f'<a href="tel:{E(r["dial"])}">{E(u["call_n"]).format(n="<bdi>" + E(r["phone"]) + "</bdi>")}</a>')
+    if r.get('text'):
+        bits.append(f'<a href="sms:{E(digits(r["text"]))}">{E(u["text_n"]).format(n="<bdi>" + E(r["text"]) + "</bdi>")}</a>')
+    if r.get('url'):
+        bits.append(f'<a href="{E(r["url"])}"><bdi>{E(host(r["url"]))}</bdi></a>')
+    if r.get('email'):
+        bits.append(f'<a href="mailto:{E(r["email"])}"><bdi>{E(r["email"])}</bdi></a>')
+    out.append('<p class="c">' + ''.join(bits) + '</p>')
+    if r.get('phone_note'):
+        out.append(f'<p class="m">{T(lang, r["phone_note"])}</p>')
+    note = ' ' + E(u['confirm']) if r.get('record_status') == 'directory_listed' else ''
+    out.append('<p class="m">' + E(u['checked']).format(date='<bdi>' + E(r['reviewed_on']) + '</bdi>', host='<bdi>' + E(host(r['sources'][0])) + '</bdi>') + note + '</p>')
+    return ''.join(out)
+
+
+def t_share_text(lang, c):
+    u, place = LANGS[lang]['ui'], LANGS[lang]['countries'][c['code']]
+    crisis = next((r for r in c['resources'] if r['section'] == 'help-now' and r.get('phone')), None)
+    t = u['share_text'].format(place=place, n=c['emergency']['number'])
+    if crisis:
+        t += f' {crisis["name"]}: {crisis["phone"]}.'
+    return t + f' {u["more"]} {BASE}lite/{lang}/{c["slug"]}.html'
+
+
+def t_country_page(lang, c):
+    L = LANGS[lang]
+    u, place = L['ui'], L['countries'][c['code']]
+    english = f'../{c["slug"]}.html'
+    top, counter = t_head(lang, u['title'].format(place=place), u['desc'].format(place=place), c['slug'] + '.html')
+    em = c['emergency']
+    body = [f'<p class="m"><a href="#share">{E(u["send"])}</a> · <a href="{english}" lang="en" hreflang="en">{E(u["english"])}</a> · '
+            f'<a href="index.html">{E(u["others"])}</a></p>',
+            f'<h1>{E(u["h1"].format(place=place))}</h1>',
+            f'<p class="m" data-mt>{E(u["mt"])} <span lang="en">Machine translation from English.</span></p>',
+            f'<p class="em"><strong>{E(u["emergency"].format(place=place))}</strong> {E(u["call"])} '
+            f'<a href="tel:{E(em["number"])}"><bdi>{E(em["number"])}</bdi></a> ({T(lang, em["label"])}).</p>']
+    if c.get('relay'):
+        body.append(f'<p><strong>{E(u["relay"])}</strong> {T(lang, c["relay"])}</p>')
+    for k in ORDER:
+        rs = [r for r in c['resources'] if r['section'] == k]
+        if rs:
+            body.append(f'<h2 id="{"crisis" if k == "help-now" else k}">{E(L["sections"][k])}</h2>' + ''.join(t_resource(lang, r) for r in rs))
+    msg = quote(t_share_text(lang, c), safe='')
+    body.append(f'<h2 id="share">{E(u["share_h"])}</h2><p>{E(u["share_p"])}</p>'
+                f'<p class="c"><a href="sms:?&amp;body={msg}">{E(u["sms"])}</a><a href="https://wa.me/?text={msg}">WhatsApp</a></p>')
+    body.append(f'<p class="m">{E(u["dial_note"])} <a href="mailto:{CORRECTIONS}?subject={quote("Mobility Talk: " + c["name"])}">{E(u["tell"])}</a></p>')
+    return top + ''.join(body) + t_foot(lang, english, counter)
+
+
+def t_index_page(lang):
+    L = LANGS[lang]
+    u = L['ui']
+    top, counter = t_head(lang, u['index_title'], u['index_p'], 'index.html')
+    cs = sorted(lang_countries(lang), key=lambda c: L['countries'][c['code']])
+    rows = ''.join(f'<li><a href="{c["slug"]}.html">{E(L["countries"][c["code"]])}</a> · <a href="tel:{E(c["emergency"]["number"])}"><bdi>{E(c["emergency"]["number"])}</bdi></a></li>'
+                   for c in cs)
+    return (top + f'<h1>{E(u["index_h1"])}</h1><p>{E(u["index_p"])}</p><p class="m" data-mt>{E(u["mt"])}</p><ul>{rows}</ul>'
+            f'<p><a href="../index.html" lang="en" hreflang="en">{E(u["index_en"])}</a></p>' + t_foot(lang, '../index.html', counter))
 
 
 def check(name, page):
@@ -163,6 +278,10 @@ def outputs():
     out = {'lite/index.html': index_page()}
     for c in DATA['countries']:
         out[f'lite/{c["slug"]}.html'] = country_page(c)
+    for lang in LANGS:
+        out[f'lite/{lang}/index.html'] = t_index_page(lang)
+        for c in lang_countries(lang):
+            out[f'lite/{lang}/{c["slug"]}.html'] = t_country_page(lang, c)
     for name, page in out.items():
         check(name, page)
     return out
@@ -170,10 +289,11 @@ def outputs():
 
 if __name__ == '__main__':
     OUT.mkdir(exist_ok=True)
-    for f in OUT.glob('*.html'):
+    for f in OUT.glob('**/*.html'):
         f.unlink()
     pages = outputs()
     for p, t in pages.items():
+        (ROOT / p).parent.mkdir(parents=True, exist_ok=True)
         (ROOT / p).write_text(t)
     sizes = sorted(len(t.encode()) for t in pages.values())
     print(f'Built {len(pages)} text-only pages in lite/ (largest {sizes[-1]} bytes, median {sizes[len(sizes) // 2]}).')
