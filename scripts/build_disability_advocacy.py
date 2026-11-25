@@ -4,6 +4,8 @@ import html
 import json
 from build_mobility_routes import STATES
 from pathlib import Path
+import re
+from site_parts import icon
 ROOT=Path(__file__).resolve().parents[1]
 def outputs():
  data=json.loads((ROOT/'data/disability-advocacy.json').read_text())
@@ -11,14 +13,18 @@ def outputs():
  assert len(sources)==len(data['sources'])
  assert len({t['id'] for t in data['topics']})==len(data['topics'])
  cards=[]
+ # a small decorative icon on each topic card and problem card (November 25, 2026); the words carry the meaning
+ TOPIC_ICON={'repair':'wrench','coverage':'equipment','home':'ramps_home','transport':'transportation','community':'independent_living'}
  for t in data['topics']:
   assert set(t['asks'])=={'OH','STATE','US'} and '{state}' in t['asks']['STATE'] and all(s in sources for s in t['sources'])
   citations=''.join(f'<li><a href="{html.escape(sources[s]["url"],quote=True)}">{html.escape(sources[s]["title"])}</a> · {html.escape(sources[s]["kind"])} · checked {sources[s]["reviewed_on"]}</li>' for s in t['sources'])
-  cards.append(f'<article id="{t["id"]}" class="topic"><p class="eyebrow">{html.escape(t["tag"])}</p><h3>{html.escape(t["title"])}</h3><p>{html.escape(t["summary"])}</p><details><summary>Policy requests and sources</summary><h4 data-state-ask-title>Proposed state request</h4><p data-state-ask="{t["id"]}">{html.escape(t["asks"]["STATE"].replace("{state}","your state"))}</p><h4>Proposed federal request</h4><p>{html.escape(t["asks"]["US"])}</p><ul>{citations}</ul></details><p><a href="{html.escape(t["help_url"],quote=True)}">{html.escape(t["help"])}</a></p><a class="button topic-action" href="#compose" data-topic="{t["id"]}">Write about this</a></article>')
+  cards.append(f'<article id="{t["id"]}" class="topic">{icon(TOPIC_ICON.get(t["id"],""),"pic")}<p class="eyebrow">{html.escape(t["tag"])}</p><h3>{html.escape(t["title"])}</h3><p>{html.escape(t["summary"])}</p><details><summary>Policy requests and sources</summary><h4 data-state-ask-title>Proposed state request</h4><p data-state-ask="{t["id"]}">{html.escape(t["asks"]["STATE"].replace("{state}","your state"))}</p><h4>Proposed federal request</h4><p>{html.escape(t["asks"]["US"])}</p><ul>{citations}</ul></details><p><a href="{html.escape(t["help_url"],quote=True)}">{html.escape(t["help"])}</a></p><a class="button topic-action" href="#compose" data-topic="{t["id"]}">Write about this</a></article>')
  options=''.join(f'<option value="{t["id"]}">{html.escape(t["title"])}</option>' for t in data['topics'])
  default='Dear Ohio state lawmaker,\n\n'+data['topics'][0]['asks']['OH']+'\n\nPlease tell me what your office can do and how people with disabilities can take part.\n\nThank you.'
  state_options=''.join(f'<option value="{code}"'+(' selected' if code=='OH' else '')+f'>{name}</option>' for code,name in STATES.items())
  page=(ROOT/'templates/disability-advocacy.html').read_text().replace('__STATES__',state_options).replace('__CARDS__','\n'.join(cards)).replace('__OPTIONS__',options).replace('__DEFAULT__',html.escape(default)).replace('__DATA__',json.dumps(data,ensure_ascii=False,separators=(",",":")).replace('<','\\u003c'))
+ page=re.sub(r'__ICON_([a-z_]+)__',lambda m:icon(m.group(1),'pic'),page)
+ assert '__ICON_' not in page and page.count('class="pic"')==12
  return {'disability-advocacy.html':page}
 if __name__=='__main__':
  for path,text in outputs().items(): (ROOT/path).write_text(text)

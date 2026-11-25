@@ -133,6 +133,17 @@ A second pass (November 24, 2026) added pictures to the long guides and the coun
 - Repair and adapt: icons on the three actions and on repair, adapt and reuse, and the dates under "Where things stand" as a timeline.
 - Country pages: each group's icon beside its heading and its line in the opening list.
 
+A third pass (November 25, 2026) gave every remaining U.S. page a picture, using the same parts and only what each page already says:
+
+- All states: under the lists, a key of the groups the state pages sort programs into, each with the icon it carries on the state pages (built by `scripts/build_state_pages.py` from the groups the state pages actually use).
+- Local help: each need button carries its group's icon (from `assets/icons.svg`, listed in the page's guide data), and the national directories have icons.
+- Spanish page: jump tiles to every section, named in Spanish, and the same icon on each section heading.
+- Advocacy: an icon on each "What is getting in your way?" card and each topic card, and "How this works" drawn as the finder's three-step diagram (the `.howto` styles now live in `assets/disability-advocacy.css`, which both pages load).
+- Handout: the three steps (choose, print, hand it on) above the controls, left off the printout.
+- About: icons on where the information comes from and on what has been done for accessibility, and how a correction is made as three steps. Privacy: icons on "In short" and "Who your browser talks to", one card per outside service, each linking to its part of the page. Partner: an icon on each section heading. Auction: "How it works" as a step diagram. 404: an icon on each way back.
+
+The country pages and the text-only `lite/` pages are left as they are on purpose. `tests/page-visuals.cjs` checks that every U.S. page has a picture and that the new parts match their pages.
+
 Lines and circles are drawn with borders so they stay visible in Windows high contrast mode; dark mode and print have their own colors. `tests/guide-visuals.cjs` checks all of it.
 
 `tests/visual.cjs` checks the icons, the tile counts against the listings and the dark colors; `tests/visual-browser.cjs` checks every visible line of text on 20 pages against WCAG AA contrast in light and dark mode, phone widths, the Call button, the focus ring and reduced motion.
