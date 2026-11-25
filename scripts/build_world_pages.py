@@ -12,7 +12,7 @@ emergency number and crisis line instead.
 """
 import html, json, re
 from pathlib import Path
-from site_parts import ABOUT_LINK
+from site_parts import ABOUT_LINK, icon_use
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'countries'
@@ -153,6 +153,11 @@ LEDE_LABEL = {'start': 'First step', 'money': 'Payments', 'equipment-home': 'Equ
 ORDER = ['start', 'money', 'equipment-home', 'work', 'rights', 'help-now']
 
 
+# One small icon per group (November 24, 2026), beside the group's heading and its line in the opening list. Country
+# pages are built by the hundred, so they point to the shared assets/icons.svg instead of carrying the drawings.
+SEC_ICON = {'help-now': 'crisis', 'start': 'navigation', 'money': 'benefits', 'equipment-home': 'equipment', 'work': 'work_school', 'rights': 'rights_legal'}
+
+
 def sid(k):
     return 'crisis' if k == 'help-now' else k
 
@@ -164,7 +169,7 @@ def country_lede(c):
         rs = [r for r in c['resources'] if r['section'] == k]
         if rs:
             names = rs[0]['name'] + (f' and {rs[1]["name"]}' if len(rs) == 2 else (', and more' if len(rs) > 2 else ''))
-            items.append(f'<li><a href="#{sid(k)}">{E(label)}</a>: {E(names)}</li>')
+            items.append(f'<li>{icon_use(SEC_ICON[k], "lic", "../")}<a href="#{sid(k)}">{E(label)}</a>: {E(names)}</li>')
     q = f'Living with a disability in {place}, or caring for someone who is?'
     if not items:
         return f'<!--lede--><p class="lede">{E(q)} The lines listed for {E(place)} so far are support lines; local and disability services are not listed yet.</p><!--/lede-->'
@@ -208,7 +213,7 @@ def country_page(c):
         rs = [r for r in c['resources'] if r['section'] == k]
         if not rs:
             continue
-        secs.append(f'<section id="{sid(k)}"><h2>{E(label)}</h2><div class="grid">' + ''.join(card(r, c['name']) for r in rs) + '</div></section>')
+        secs.append(f'<section id="{sid(k)}"><h2 class="cat-h">{icon_use(SEC_ICON[k], "hic", "../")}{E(label)}</h2><div class="grid">' + ''.join(card(r, c['name']) for r in rs) + '</div></section>')
     relay = ''
     if c.get('relay'):
         relay = f'<p class="relay"><strong>Calling without your voice?</strong> {E(c["relay"])}'

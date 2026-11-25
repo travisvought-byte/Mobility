@@ -6,7 +6,7 @@ Run via `npm run build` (from the scripts directory, like the other page builder
 """
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,tel
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,tel,icon,ICON_PATHS
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
@@ -50,15 +50,32 @@ def outputs():
         more=''.join(f'<li><a href="{E(m["href"])}">{E(m["label"])}</a></li>' for m in row.get('more',[]))
         if more:dl+=f'<dt>On this site</dt><dd><ul>{more}</ul></dd>'
         note=f'<p>{E(row["note"])}</p>' if row.get('note') else ''
-        rows.append(f'<article class="rights-row" id="{E(row["id"])}"><h3>{E(row["title"])}</h3><p>{E(row["plain"])}</p><dl>{dl}</dl>{note}<p class="meta">Source pages checked {E(checked)}: {src_links}</p></article>')
-    toc=''.join(f'<a href="#{E(r["id"])}">{E(r["title"])}</a>' for r in data['rows'])
+        assert row['icon'] in ICON_PATHS,row['id']+' icon'
+        rows.append(f'<article class="rights-row" id="{E(row["id"])}"><h3 class="cat-h">{icon(row["icon"],"hic")}{E(row["title"])}</h3><p>{E(row["plain"])}</p><dl>{dl}</dl>{note}<p class="meta">Source pages checked {E(checked)}: {src_links}</p></article>')
+    toc=''.join(f'<a href="#{E(r["id"])}">{icon(r["icon"],"tic")}<span class="tl">{E(r["title"])}</span></a>' for r in data['rows'])
+    # Deadlines at a glance (November 24, 2026): the time limits the rows above already state, drawn to scale. Each bar's
+    # value must be words from that row's deadline, so the chart can only repeat what the source says.
+    bars=[]
+    for row in data['rows']:
+        for b in row.get('deadline_chart',[]):
+            assert row.get('deadline') and b['value'] in row['deadline'],f'{row["id"]}: "{b["value"]}" is not in its deadline'
+            n=365 if b['value']=='one year' else int(re.match(r'(\d+) ',b['value']).group(1))
+            assert n==b['days'] and 0<n<=365,row['id']
+            bars.append((n,row['id'],b))
+    bars.sort(key=lambda x:x[0])
+    chart=('<section aria-labelledby="deadlines-h"><h2 id="deadlines-h" class="cat-h">'+icon('clock','hic')+'Deadlines the sources state</h2>'
+           '<figure class="viz" aria-labelledby="deadlines-cap"><figcaption id="deadlines-cap"><strong>How long you generally have</strong>'
+           'Bars are drawn to scale, counting one year as 365 days. Most of these limits apply “generally.” Read the full wording under each situation below and confirm the deadline with the office.</figcaption>'
+           '<ul class="barchart">'+''.join(f'<li><a href="#{E(i)}">{E(b["label"])}</a><span class="bv">{E(b["value"])}</span>'
+                                       f'<span class="bt" aria-hidden="true"><span class="bf" style="--w:{n/365*100:.1f}%"></span></span></li>' for n,i,b in bars)+'</ul></figure>'
+           '<p>Situations not in this chart have no deadline on this page because their sources do not state one. Ask the office how long you have.</p></section>')
     desc='Disability rights in plain language: which office handles problems at work, in housing, school, health care, travel and benefits, and the deadlines.'
     page=('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
       f'<title>Know your rights: which law, which office, what deadline | Mobility Talk</title><meta name="description" content="{E(desc)}"><link rel="stylesheet" href="assets/site.css"></head>\n'
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
       f'<header>{NAV}<small>KNOW YOUR RIGHTS · EVERY STATE</small><h1>Know your rights.</h1><!--lede--><!--/lede--></header>\n'
       f'<main id="main"><section class="panel"><h2>Before you start</h2><ul><li>Write down what happened, where, when and who was involved while you remember it.</li><li>Keep copies of letters, emails, notices and photos.</li><li>Deadlines can be short. Where a source states one, it is shown here.</li><li>Your state Protection and Advocacy agency helps with disability rights problems. <a href="local-help.html?category=rights_legal">Find yours</a>.</li></ul>{RELAY}</section>'
-      f'<section aria-labelledby="situations-h"><h2 id="situations-h">Find your situation</h2><nav class="toc" aria-label="Jump to a situation">{toc}</nav>'+''.join(rows)+'</section>'
+      f'{chart}<section aria-labelledby="situations-h"><h2 id="situations-h">Find your situation</h2><nav class="toc tiles guide" aria-label="Jump to a situation">{toc}</nav>'+''.join(rows)+'</section>'
       '<section class="panel"><h2>State laws add more</h2><p>States have their own disability rights, equipment warranty and repair laws. <a href="mobility-rights.html">Use the next-step finder</a> to see what we have checked for your state, or <a href="disability-advocacy.html">ask lawmakers for change</a>.</p></section>'
       f'{SIDE_HELP}</main>{FOOT}</body></html>\n')
     return {'know-your-rights.html':page}

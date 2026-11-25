@@ -10,7 +10,7 @@ social and structured-data tags, the featured organization block and the visit c
 import html,json,re
 from pathlib import Path
 from build_mobility_routes import STATES,TERRITORIES
-from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,guides,prep_html
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,guides,prep_html,icon,icon_use
 from build_state_pages import card,contact,sort_key,slug,the
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
@@ -44,6 +44,9 @@ PAGES={
   'rights':[('phones-relay','Phones, relay and captioning'),('public-places','A business, public place or government service'),('health-care','Health care and social services'),('work','At work or applying for a job')],
   'aud_key':'deaf'},
 }
+# One small icon per kind of state program (November 24, 2026), shown in a key and on that kind's heading in every
+# state, so the long state lists can be scanned. The icons come from assets/icons.svg; the headings' words are unchanged.
+KIND_ICON={'rsa-blind-agency':'dd_board','nls':'book','older-blind':'cane','deaf-hard-of-hearing-agency':'dd_board','tedp':'phone','icanconnect':'device','other':'map_pin'}
 def kind_of(r,kinds):
     for k,_ in kinds:
         if re.search(r'(^|-)'+re.escape(k)+r'(-|$)',r['id']):return k
@@ -76,7 +79,7 @@ def build(name,cfg,recs):
         groups=''
         for k in [k for k,_ in cfg['kinds']]+['other']:
             g=sorted([r for r in rs if kind_of(r,cfg['kinds'])==k],key=lambda r:(r['scope']!='statewide',)+sort_key(r))
-            if g:groups+=f'<h4>{E(labels.get(k,"More state programs"))}</h4><ul class="statelist">'+''.join(item(r) for r in g)+'</ul>'
+            if g:groups+=f'<h4>{icon_use(KIND_ICON[k],"kic")}{E(labels.get(k,"More state programs"))}</h4><ul class="statelist">'+''.join(item(r) for r in g)+'</ul>'
         sid='st-'+code.lower()
         toc.append(f'<a href="#{sid}">{E(pname)}</a>')
         secs.append(f'<section class="state-group" id="{sid}" aria-labelledby="{sid}-h"><h3 id="{sid}-h">{E(pname)}</h3>{groups}'
@@ -90,10 +93,15 @@ def build(name,cfg,recs):
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
       f'<header>{NAV}<small>{E(cfg["small"])}</small><h1>{E(cfg["h1"])}</h1><!--lede--><!--/lede--></header>\n'
       f'<main id="main"><section class="panel" aria-labelledby="start-h"><h2 id="start-h">How to use this page</h2>'
-      '<ol><li>Start with the national services below. Most are free and work wherever you live.</li><li>Then find your state for the agencies and programs there.</li><li>Open “Who it serves and how to start” on any listing to see what the program itself says about who qualifies and the first step.</li></ol>'
+      '<ol class="stepper row" role="list" style="--n:3"><li>Start with the national services below. Most are free and work wherever you live.</li><li>Then find your state for the agencies and programs there.</li><li>Open “Who it serves and how to start” on any listing to see what the program itself says about who qualifies and the first step.</li></ol>'
+      '<nav class="toc tiles guide" aria-label="Jump to a part of this page">'
+      f'<a href="#nat-h">{icon("globe","tic")}<span class="tl">National services</span></a><a href="#states-h">{icon("map_pin","tic")}<span class="tl">Programs in your state</span></a>'
+      f'<a href="#rights-h">{icon("rights_legal","tic")}<span class="tl">If you are turned away or refused help</span></a></nav>'
       f'{prep_html(GUIDE,3)}{RELAY}{cfg["deafblind"]}</section>'
       f'<section aria-labelledby="nat-h"><h2 id="nat-h">National services</h2><p class="lead">These serve people in every state.</p>{natcards}</section>'
       f'<section aria-labelledby="states-h"><h2 id="states-h">Programs in your state</h2><nav class="toc" aria-label="Jump to a state">{"".join(toc)}</nav>'
+      +'<p id="kinds-key-h">In each state, programs are grouped by kind. Each kind has its own symbol:</p><ul class="kinds-key" aria-labelledby="kinds-key-h">'
+      +''.join(f'<li>{icon_use(KIND_ICON[k],"kic")}{E(l)}</li>' for k,l in cfg['kinds']+[('other','More state programs')])+'</ul>'
       +(f'<p id="deafblind">iCanConnect, listed in each state below, provides free distance communication technology and training to people with both significant hearing and vision loss. It is for people with low incomes, and programs verify disability and income. The national information line is listed above.</p>' if cfg['aud_key']=='deaf' else '')
       +''.join(secs)+'</section>'
       f'<section class="panel" aria-labelledby="rights-h"><h2 id="rights-h">If you are turned away or refused help</h2><p>The <a href="know-your-rights.html">Know your rights</a> page says which office handles each kind of problem, the first steps and any deadline the source states.</p><ul>{rights}</ul>'

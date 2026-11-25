@@ -12,7 +12,7 @@ organization block and the visit counter.
 """
 import html,json,re
 from pathlib import Path
-from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK
+from site_parts import URGENT,SIDE_HELP,RELAY,ABOUT_LINK,icon,ICON_PATHS
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
@@ -43,14 +43,38 @@ def outputs():
             n=order.index(i)+1
             out.append(f'<a class="cite" href="#src-{E(i)}" aria-label="Source {n}: {E(S[i]["title"])}">[{n}]</a>')
         return ' <span class="meta">'+''.join(out)+'</span>'
+    # Jump tiles and section headings carry the same small icon (November 24, 2026); the words say the same thing.
+    tile=lambda i,t,ic:f'<a href="#{E(i)}">{icon(ic,"tic")}<span class="tl">{E(t)}</span></a>'
+    def compare(c):
+        """Service dog and emotional support animal side by side: a summary of the statements above and below, each cited."""
+        mark=lambda x:f'<span class="mark {x["mark"]}">{icon(x["mark"],"mk")}{E(x["word"])}</span> '
+        for x in [c['cols'][0],c['cols'][1]]+c['rows']:assert x['icon'] in ICON_PATHS,x['icon']
+        cols=''.join(f'<span>{icon(x["icon"],"mic")}{E(x["label"])}</span>' for x in c['cols'])
+        out=(f'<h3 id="compare-h">{E(c["title"])}</h3><p>{E(c["lead"])}</p><div class="compare" role="group" aria-labelledby="compare-h">'
+             f'<div class="cmp-cols" aria-hidden="true"><span></span><span>{cols}</span></div>')
+        for r in c['rows']:
+            assert r['href'][1:] in [s['id'] for s in d['sections']],r['href']
+            cells=[(c['cols'][0],r['cells'][0]),(c['cols'][1],r['cells'][1])] if r.get('cells') else [({'label':r['span']['label'],'icon':None},r['span'])]
+            dl=''.join(f'<div class="cmp-cell{"" if r.get("cells") else " span"}"><dt>'+(icon(col["icon"],"mic") if col['icon'] else '')+f'{E(col["label"])}</dt>'
+                       f'<dd>{mark(x)}{E(x["text"])}{cite(x["src"])}</dd></div>' for col,x in cells)
+            out+=f'<div class="cmp-row"><h4 class="cmp-where">{icon(r["icon"],"mic")}<a href="{E(r["href"])}">{E(r["setting"])}</a></h4><dl class="cmp-cells">{dl}</dl></div>'
+        return out+'</div>'
     secs=[];toc=[]
     for s in d['sections']:
-        toc.append(f'<a href="#{E(s["id"])}">{E(s["title"])}</a>')
-        body=f'<section id="{E(s["id"])}" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>'
+        assert s['icon'] in ICON_PATHS,s['id']
+        toc.append(tile(s['id'],s['title'],s['icon']))
+        body=f'<section id="{E(s["id"])}" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h" class="cat-h">{icon(s["icon"],"hic")}{E(s["title"])}</h2>'
         if s.get('list'):
-            body+=f'<p>{E(s["lead"])}</p><ol class="two-questions">'+''.join(f'<li><strong>{E(q)}</strong></li>' for q in s['list'])+'</ol>'+f'<p class="meta">Sources:{cite(s["list_src"])}</p>'
-        body+='<ul>'+''.join(f'<li>{E(p["text"])}{cite(p["src"])}</li>' for p in s['points'])+'</ul></section>'
-        secs.append(body)
+            body+=f'<p>{E(s["lead"])}</p><ol class="two-questions" role="list">'+''.join(f'<li><strong>{E(q)}</strong></li>' for q in s['list'])+'</ol>'+f'<p class="meta">Sources:{cite(s["list_src"])}</p>'
+        body+='<ul>'+''.join(f'<li>{E(p["text"])}{cite(p["src"])}</li>' for p in s['points'])+'</ul>'
+        if d.get('compare') and d['compare']['after']==s['id']:body+=compare(d['compare'])
+        ft=d.get('form_timeline')
+        if ft and ft['after']==s['id']:
+            # the 48-hour rule from the statements above, as two short timelines; every word is also on the page as text
+            lanes=''.join(f'<p class="lane"><strong>{E(l["label"])}</strong></p><ol class="timeline" role="list" style="--n:{len(l["steps"])}">'
+                          +''.join(f'<li><span class="when">{E(x["when"])}</span>{E(x["text"])}</li>' for x in l['steps'])+'</ol>' for l in ft['lanes'])
+            body+=(f'<figure class="viz" aria-labelledby="form-tl-cap"><figcaption id="form-tl-cap"><strong>{E(ft["title"])}</strong>The rule above, step by step.{cite(ft["src"])}</figcaption>{lanes}</figure>')
+        secs.append(body+'</section>')
     # complaints: the phone comes from the directory record and must match the number read on the official page
     comp=[]
     for c in d['complaints']:
@@ -61,7 +85,7 @@ def outputs():
                 assert digits(n) in re.sub(r'\D','',r.get('phone_note') or ''),f'{c["id"]}: {n} is not in the directory record'
         links=''.join(ext(l['href'],l['label']) for l in c['links'])
         comp.append(f'<article class="card" id="{E(c["id"])}"><h3>{E(c["title"])}</h3><p class="org">{E(c["who"])}</p>'
-                    '<ol>'+''.join(f'<li>{E(x)}</li>' for x in c['steps'])+'</ol>'
+                    '<ol class="stepper" role="list">'+''.join(f'<li>{E(x)}</li>' for x in c['steps'])+'</ol>'
                     f'<div class="contact"><a href="{E(tel(r["phone"]))}">Call {E(r["phone"])}</a>{links}</div>'
                     f'<p class="meta">{E(c["phone_label"])}.'+(f' {E(c["phone_extra"])}' if c.get('phone_extra') else '')+'</p>'
                     f'<p class="meta">Sources:{cite(c["src"]+[c["phone_src"]] if c["phone_src"] not in c["src"] else c["src"])}</p></article>')
@@ -85,14 +109,14 @@ def outputs():
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
       f'<header>{NAV}<small>SERVICE ANIMALS · ADA · HOUSING · AIR TRAVEL · EVERY STATE</small><h1>{E(H1)}</h1>{intro}</header>\n'
       f'<main id="main"><section class="panel" aria-labelledby="start-h"><h2 id="start-h">On this page</h2>'
-      f'<nav class="toc" aria-label="Jump to a section">{"".join(toc)}<a href="#complain">How to file a complaint</a><a href="#get-a-dog">Where to get a trained dog</a><a href="#questions">Quick answers</a><a href="#sources">Sources</a></nav>'
+      f'<nav class="toc tiles guide" aria-label="Jump to a section">{"".join(toc)}{tile("complain","How to file a complaint","rights_legal")}{tile("get-a-dog","Where to get a trained dog","search")}{tile("questions","Quick answers","differs")}{tile("sources","Sources","book")}</nav>'
       f'<p>Rules differ by place. The ADA covers businesses and state and local governments. The Fair Housing Act covers housing. The Department of Transportation’s rules cover flights. Your state may give more protection.</p>{RELAY}</section>'
       +''.join(secs)
-      +f'<section id="complain" aria-labelledby="complain-h"><h2 id="complain-h">How to file a complaint</h2><p class="lead">Write down what happened, where and when, who you spoke with and what they said. Keep copies.</p><div class="grid">{"".join(comp)}</div>'
+      +f'<section id="complain" aria-labelledby="complain-h"><h2 id="complain-h" class="cat-h">{icon("rights_legal","hic")}How to file a complaint</h2><p class="lead">Write down what happened, where and when, who you spoke with and what they said. Keep copies.</p><div class="grid">{"".join(comp)}</div>'
       '<p>The <a href="know-your-rights.html#public-places">Know your rights</a> page also lists free help, such as your state’s Protection and Advocacy agency and regional ADA Center.</p></section>'
-      +f'<section id="get-a-dog" aria-labelledby="get-a-dog-h"><h2 id="get-a-dog-h">Where to get a trained service dog</h2><p class="lead">{E(d["programs_lead"])}</p><div class="grid">{"".join(progs)}</div>'
+      +f'<section id="get-a-dog" aria-labelledby="get-a-dog-h"><h2 id="get-a-dog-h" class="cat-h">{icon("search","hic")}Where to get a trained service dog</h2><p class="lead">{E(d["programs_lead"])}</p><div class="grid">{"".join(progs)}</div>'
       '<p>Also on this site: <a href="blind-low-vision.html">Blind and low vision resources</a> · <a href="deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a> · <a href="local-help.html?audience=veterans">Help for veterans in your state</a></p></section>'
-      +f'<section id="questions" aria-labelledby="questions-h"><h2 id="questions-h">Quick answers</h2>{faq}</section>'
+      +f'<section id="questions" aria-labelledby="questions-h"><h2 id="questions-h" class="cat-h">{icon("differs","hic")}Quick answers</h2>{faq}</section>'
       +f'<section id="sources" class="panel" aria-labelledby="sources-h"><h2 id="sources-h">Sources</h2><p>Each source was read on the date shown. Laws and agency guidance change, so check the source before you rely on it.</p>{srcs}</section>'
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: Service animals page")}">Tell us</a> and it will be checked against the official source.</p></section>'
       f'{SIDE_HELP}</main>{FOOT}</body></html>\n')

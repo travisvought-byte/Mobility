@@ -63,7 +63,7 @@ def outputs():
                 +f'<p class="meta">Sources:{cite(src)}</p></article>')
     secs=[];toc=[]
     for s in d['sections']:
-        toc.append(f'<a href="#{E(s["id"])}">{E(s["title"])}</a>')
+        toc.append(f'<a href="#{E(s["id"])}">{icon(s["icon"],"tic")}<span class="tl">{E(s["title"])}</span></a>')
         body=(f'<section id="{E(s["id"])}" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h" class="cat-h">{icon(s["icon"],"hic")}{E(s["title"])}</h2>'
               f'<p class="lead">{E(s["lead"])}'+(cite(s['lead_src']) if s.get('lead_src') else '')+'</p>')
         if s['points']:body+='<ul>'+''.join(f'<li>{E(p["text"])}{cite(p["src"])}</li>' for p in s['points'])+'</ul>'
@@ -81,7 +81,7 @@ def outputs():
       '<body><a class="skip" href="#main">Skip to main content</a>\n'
       f'<header>{NAV}<small>CAREGIVERS · RESPITE · VETERANS · EVERY STATE</small><h1>{E(H1)}</h1>{intro}</header>\n'
       f'<main id="main"><section class="panel" aria-labelledby="start-h"><h2 id="start-h">On this page</h2>'
-      f'<nav class="toc" aria-label="Jump to a section">{"".join(toc)}<a href="#sources">Sources</a></nav>'
+      f'<nav class="toc tiles guide" aria-label="Jump to a section">{"".join(toc)}<a href="#sources">{icon("book","tic")}<span class="tl">Sources</span></a></nav>'
       '<p>Not sure where to start? Call the Eldercare Locator for help near you. If the person you care for is a veteran enrolled in VA health care, also call the VA Caregiver Support Line. Both numbers are below.</p>'
       f'{RELAY}</section>'
       +''.join(secs)

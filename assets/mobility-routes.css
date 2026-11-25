@@ -11,3 +11,18 @@
 @media screen and (prefers-color-scheme:dark){.finder,.route-primary,.route-evidence,#source-library>details{background:#1a252c}.route-badge,.draft-context{background:#203038}
 input[type=date]{background:#1a252c;color:var(--ink);border-color:#71848e}.route-local-help{background:#2a2617}#route-result:focus-visible{outline-color:#e7cc88}}
 #source-library article h3{font-size:17px;line-height:1.4;margin:12px 0 6px}
+
+/* The four steps on this page as a numbered overview (November 24, 2026); each step links to its section below.
+   Circles and lines are borders so they stay visible in Windows high contrast mode. */
+.howto{margin:0 0 28px}
+.howto ol.stepper{list-style:none;padding:0;margin:0;counter-reset:step;display:grid;gap:0}
+.howto ol.stepper>li{counter-increment:step;position:relative;margin:0;padding:6px 0 16px 56px;line-height:1.4}
+.howto ol.stepper>li::before{content:counter(step);position:absolute;left:0;top:0;box-sizing:border-box;width:40px;height:40px;border:2px solid var(--green);border-radius:50%;background:var(--green);color:#fff;font:700 18px/36px system-ui,sans-serif;text-align:center}
+.howto ol.stepper>li::after{content:"";position:absolute;left:19px;top:44px;bottom:2px;border-left:3px solid var(--green)}
+.howto ol.stepper>li:last-child{padding-bottom:2px}.howto ol.stepper>li:last-child::after{display:none}
+.howto a.st{font-weight:700}
+@media(min-width:760px){.howto ol.stepper{grid-template-columns:repeat(var(--n,4),minmax(0,1fr));gap:0 18px}.howto ol.stepper>li{padding:52px 0 0}
+ .howto ol.stepper>li::after{left:48px;top:18px;right:-14px;bottom:auto;border-left:0;border-top:3px solid var(--green)}}
+@media screen and (prefers-color-scheme:dark){.howto ol.stepper>li::before{border-color:#a8dcc0}.howto ol.stepper>li::after{border-color:#6aa486}}
+@media(forced-colors:active){.howto ol.stepper>li::before{background:Canvas;color:CanvasText}}
+@media print{.howto{display:none}}

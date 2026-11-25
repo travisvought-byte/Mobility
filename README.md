@@ -112,4 +112,17 @@ A visual pass (November 20, 2026) made the pages friendlier without changing any
 - Dark mode follows the visitor's device setting (`assets/site.css`, `assets/disability-advocacy.css`, `assets/mobility-routes.css`, `assets/ads.css`), on screen only; printing stays black on white. The keyboard focus ring is darker in light mode so it stands out on the cream page.
 - Hover lifts and smooth scrolling stop when the visitor asks for reduced motion.
 
+A second pass (November 24, 2026) added pictures to the long guides and the country pages, again without changing any fact. Each one repeats words already on its page:
+
+- Jump tiles with an icon for each section (the state pages' tiles) on Know your rights, service animals, caregivers and the vision and hearing guides, and the same icon on the section headings.
+- Step diagrams: `ol.stepper`, a real ordered list drawn as numbered circles joined by a line (across on wide screens, down on phones). Used for "How to use this page" on the vision and hearing guides, the parts of each ramp and waiver checklist (each step jumps to its part), the complaint steps on the service animals page, and the four steps of the next-step finder (`templates/mobility-rights.html`, styled in `assets/mobility-routes.css`).
+- Know your rights: "Deadlines the sources state", a bar chart drawn to scale from `deadline_chart` in `data/know-your-rights.json`. Each value must be words from that row's own deadline (the build stops otherwise), the values are written out beside the bars, and each bar links to its situation.
+- Service animals: the two questions as speech bubbles; "Service dog or emotional support animal?", a side-by-side summary (`compare` in `data/service-animals.json`) where every cell has a symbol, a word (Allowed, Not covered, Different law) and its citations; and the 48-hour rule for the DOT form as two short timelines (`form_timeline`).
+- Vision and hearing guides: a key of the kinds of state program, each with its own icon, and the same icon on that kind's heading in every state. These icons, and the country pages' icons, are drawn from `assets/icons.svg`, which `scripts/finalize_pages.py` writes from `ICON_PATHS` so the pages carry a short reference instead of the drawing.
+- Ramps: an icon on each of the six routes and on each "Before you spend anything" point, and a small drawing in the header of a wheelchair user rolling up a ramp to a door (decorative, no measurements; hidden on narrow screens and in print).
+- Repair and adapt: icons on the three actions and on repair, adapt and reuse, and the dates under "Where things stand" as a timeline.
+- Country pages: each group's icon beside its heading and its line in the opening list.
+
+Lines and circles are drawn with borders so they stay visible in Windows high contrast mode; dark mode and print have their own colors. `tests/guide-visuals.cjs` checks all of it.
+
 `tests/visual.cjs` checks the icons, the tile counts against the listings and the dark colors; `tests/visual-browser.cjs` checks every visible line of text on 20 pages against WCAG AA contrast in light and dark mode, phone widths, the Call button, the focus ring and reduced motion.
