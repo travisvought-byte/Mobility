@@ -90,6 +90,15 @@ ICON_PATHS = {
     'wrench': '<path d="M14.6 3.6a5 5 0 0 0-4.9 6.3l-6 6a2.1 2.1 0 0 0 3 3l6-6a5 5 0 0 0 6.3-4.9l-2.8 2.8-3-.6-.6-3z"/>',
     'reuse': '<path d="M19.5 10.5A7.8 7.8 0 0 0 6 6.6L4.5 8"/><path d="M4.5 3.8V8h4.2"/><path d="M4.5 13.5A7.8 7.8 0 0 0 18 17.4l1.5-1.4"/><path d="M19.5 20.2V16h-4.2"/>',
     'sliders': '<path d="M4 6.5h9M17 6.5h3M4 12h3M11 12h9M4 17.5h11M19 17.5h1"/><circle cx="15" cy="6.5" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="17.5" r="2"/>',
+    # Added November 25, 2026 for the visuals on the directory, Spanish, advocacy, handout, about and privacy pages
+    'food': '<path d="M7 3v7.5M4.5 3v4.5a2.5 2.5 0 0 0 5 0V3M7 10v11"/><path d="M17.5 21V3c-2.2 1.3-3.5 3.8-3.5 7v3.5h3.5"/>',
+    'send': '<path d="M21 3L10.2 13.8"/><path d="M21 3l-6.6 18-4.2-7.2L3 9.6z"/>',
+    'link': '<path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L11.6 6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.6-1.6"/>',
+    'printer': '<path d="M7 8V3.5h10V8"/><rect x="3.5" y="8" width="17" height="8.5" rx="2"/><path d="M7 13.5h10V21H7z"/>',
+    'chart': '<path d="M3.5 20.5h17"/><path d="M6 20.5v-6h3v6M10.5 20.5V7.5h3v13M15 20.5v-9h3v9"/>',
+    'server': '<rect x="4" y="3.5" width="16" height="7" rx="1.5"/><rect x="4" y="13.5" width="16" height="7" rx="1.5"/><path d="M7.5 7h.01M7.5 17h.01M11 7h5.5M11 17h5.5"/>',
+    'megaphone': '<path d="M3.5 10v4h3l9.5 5V5l-9.5 5z"/><path d="M6.5 14l1.6 6h3l-1.4-5.3M19 9.5a3.5 3.5 0 0 1 0 5"/>',
+    'keyboard': '<rect x="2.5" y="6" width="19" height="12" rx="2"/><path d="M6 9.8h.01M9.3 9.8h.01M12.6 9.8h.01M15.9 9.8h.01M18 9.8h.01M6 14.2h.01M18 14.2h.01M9 14.2h6"/>',
 }
 
 

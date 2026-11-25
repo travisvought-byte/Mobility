@@ -7,7 +7,7 @@ Run via `npm run build` (from the scripts directory, like the other page builder
 """
 import html,json,re
 from pathlib import Path
-from site_parts import tel
+from site_parts import tel,icon
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 NEW=' (se abre en otra pestaña)'
@@ -35,6 +35,12 @@ def item(it,recs):
 SIDE=('<div class="side-help"><aside class="urgent" aria-labelledby="urgente-h"><h2 id="urgente-h">¿En crisis o en peligro ahora?</h2>'
       '<p><a href="tel:988">Llame al 988</a> o <a href="sms:988">envíe un texto al 988</a>, a cualquier hora. Si hay peligro inmediato, llame al 911.</p>'
       '<p><a href="#ahora-h">Líneas de crisis en español</a> · <a href="local-help.html?category=crisis" hreflang="en">Todas las líneas (en inglés)</a></p></aside></div>')
+# Visuals (November 25, 2026): jump tiles to each section and the same icon on its heading. Decorative only: the section
+# names are the text, in Spanish. A section with no icon here simply has none.
+SEC_ICON={'ahora':'crisis','refugio':'ramps_home','local':'map_pin','comida':'food','beneficios':'benefits','trabajo':'work_school',
+          'derechos':'rights_legal','salud':'medical','vision':'sensory','ninos':'children','mayores':'independent_living','interprete':'language'}
+def h2(sid,title):
+    return f'<h2 id="{E(sid)}-h" class="cat-h">{icon(SEC_ICON.get(sid,""),"hic")}{E(title)}</h2>'
 def outputs():
     d=json.loads((ROOT/'data/ayuda-espanol.json').read_text())
     recs={r['id']:r for r in json.loads((ROOT/'data/local-programs.json').read_text())['records']}
@@ -45,15 +51,20 @@ def outputs():
         intro=f'<p>{E(s["intro"])}</p>' if s.get('intro') else ''
         # Crisis and shelter lines sit after the everyday help, with a small side note (owner direction, November 22-23, 2026)
         if s.get('urgent'):
-            later+=f'<section class="urgent" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
+            later+=f'<section class="urgent" aria-labelledby="{E(s["id"])}-h">{h2(s["id"],s["title"])}{intro}<div class="list">{cards}</div></section>'
         elif s['id']=='refugio':
-            later+=f'<section aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
+            later+=f'<section aria-labelledby="{E(s["id"])}-h">{h2(s["id"],s["title"])}{intro}<div class="list">{cards}</div></section>'
         else:
-            body+=f'<section aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h">{E(s["title"])}</h2>{intro}<div class="list">{cards}</div></section>'
+            body+=f'<section aria-labelledby="{E(s["id"])}-h">{h2(s["id"],s["title"])}{intro}<div class="list">{cards}</div></section>'
     body+=later
+    order=[x['id'] for x in d['sections'] if not (x.get('urgent') or x['id']=='refugio')]+[x['id'] for x in d['sections'] if x.get('urgent') or x['id']=='refugio']
+    titles={x['id']:x['title'] for x in d['sections']}
     i=d['interpreter']
-    body+=(f'<section class="panel" aria-labelledby="interprete-h"><h2 id="interprete-h">{E(i["title"])}</h2><p>{E(i["text"])}</p>'
+    body+=(f'<section class="panel" aria-labelledby="interprete-h">{h2("interprete",i["title"])}<p>{E(i["text"])}</p>'
            f'<p><strong lang="en">{E(i["phrase_en"])}</strong><br>({E(i["phrase_es"])})</p></section>')
+    order.append('interprete');titles['interprete']=i['title']
+    tiles=('<nav class="toc tiles guide" aria-label="Secciones de esta página">'
+           +''.join(f'<a href="#{E(k)}-h">{icon(SEC_ICON.get(k,""),"tic")}<span class="tl">{E(titles[k])}</span></a>' for k in order)+'</nav>')
     m=d['more']
     body+=(f'<section class="panel" aria-labelledby="mas-h"><h2 id="mas-h">{E(m["title"])}</h2><ul>'
            +''.join(f'<li><a href="{E(x["href"])}" hreflang="en">{E(x["label"])}</a></li>' for x in m['links'])+'</ul></section>')
@@ -67,7 +78,7 @@ def outputs():
           f'<title>{E(d["title"])}</title><meta name="description" content="{E(d["description"])}"><link rel="stylesheet" href="assets/site.css"></head>\n'
           '<body><a class="skip" href="#main">Saltar al contenido principal</a>\n'
           f'<header>{nav}<small>AYUDA EN ESPAÑOL · TODO EL PAÍS</small><h1>{E(d["h1"])}</h1><!--lede--><!--/lede--></header>\n'
-          f'<main id="main">{body}{SIDE}</main>{foot}</body></html>\n')
+          f'<main id="main">{tiles}{body}{SIDE}</main>{foot}</body></html>\n')
     return {'espanol.html':page}
 if __name__=='__main__':
     for p,t in outputs().items():(ROOT/p).write_text(t)

@@ -9,6 +9,10 @@ const GD=JSON.parse($('guide-data').textContent),GUIDES=GD.guides;
 // Chips follow the order of the guide file; the results list has its own order so everyday needs come first
 const ORDER=GD.results_order,NEEDS=Object.keys(GUIDES).map(k=>[k,GUIDES[k].need]).concat([['','Show everything']]);
 const TERRITORIES=new Set(JSON.parse($('territory-data').textContent));
+// Each need button carries the same small icon its group has on the state pages (assets/icons.svg). Decorative: the words say it.
+const ICONS=new Set(GD.icons||[]),SVGNS='http://www.w3.org/2000/svg';
+function needIcon(k){const s=document.createElementNS(SVGNS,'svg');s.setAttribute('class','nic');s.setAttribute('viewBox','0 0 24 24');s.setAttribute('width','24');s.setAttribute('height','24');
+ s.setAttribute('aria-hidden','true');s.setAttribute('focusable','false');const u=document.createElementNS(SVGNS,'use');u.setAttribute('href','assets/icons.svg#'+k);s.append(u);return s;}
 let main=[],vso=[],cats={},auds={},mainOk=false;
 const q=new URLSearchParams(location.search);
 function sel(){return {state:$('f-state').value,county:$('f-county').value,category:$('f-cat').value,audience:$('f-aud').value,q:low($('f-q').value).trim()};}
@@ -88,7 +92,7 @@ function drawNeeds(s){
   const box=$('needs');box.textContent='';
   for(const [k,label] of NEEDS){
     const n=all().filter(r=>matches(r,{...s,category:k,q:s.q})).length;
-    const b=el('button',label+(k?' ('+n+')':''),'need');b.type='button';b.setAttribute('aria-pressed',String(s.category===k));
+    const b=el('button',label+(k?' ('+n+')':''),'need');b.type='button';if(ICONS.has(k))b.prepend(needIcon(k));b.setAttribute('aria-pressed',String(s.category===k));
     if(k&&!n&&s.category!==k)b.disabled=true;
     b.addEventListener('click',()=>{$('f-cat').value=k;render();toResults();});box.append(b);
   }

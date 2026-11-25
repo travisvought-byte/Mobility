@@ -400,3 +400,16 @@ ol.stepper a.st{color:#8fcbe8}
  .barchart .bf{background:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact}.viz,.compare{break-inside:avoid;border-color:#000}
  .cmp-cols span span,.mark.yes,.mark.no,.mark.differs{color:#000}}
 .viz .lane{margin:14px 0 0;max-width:none}.viz ol.timeline{margin-top:8px}
+/* Visuals on the remaining pages (November 25, 2026): a key of the state pages' groups, at-a-glance cards and icons on the
+   directory's need buttons. As above, every icon is decorative and the words beside it say the same thing. */
+ul.groupkey{list-style:none;padding:0;margin:16px 0 8px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,232px),1fr));gap:10px}
+ul.groupkey>li{display:flex;align-items:center;gap:12px;margin:0;max-width:none;min-height:56px;padding:8px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;font-weight:600;color:var(--head);line-height:1.3}
+ul.groupkey svg.tic{width:38px;height:38px;padding:8px}
+ul.glance{list-style:none;padding:0;margin:16px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
+ul.glance>li{margin:0;max-width:none;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;line-height:1.45}
+ul.glance>li>svg{display:block;box-sizing:border-box;width:42px;height:42px;padding:9px;margin:0 0 8px;border-radius:12px;background:var(--icon-bg);color:var(--icon)}
+ul.glance .gt{display:block;font-weight:700;color:var(--head);margin-bottom:2px}
+.need svg.nic{display:inline-block;width:22px;height:22px;margin:0 6px 0 0;vertical-align:-5px;flex:none}
+.grid>article>svg.hic:first-child{width:46px;height:46px;padding:10px;margin:0 0 6px}
+@media(forced-colors:active){ul.glance>li>svg{background:none}}
+@media print{ul.groupkey svg,ul.glance>li>svg,.need svg.nic{display:none}ul.groupkey>li,ul.glance>li{border-color:#000;break-inside:avoid}}

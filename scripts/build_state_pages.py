@@ -155,7 +155,7 @@ def first_calls(code,wide):
     return out
 def state_lede(code,name,place,wide,local):
     q=f'Living with a disability in {place}, or helping someone who is?'
-    cats=sorted({r['category'] for r in local},key=lambda k:-sum(1 for r in local if r['category']==k))
+    cats=sorted({r['category'] for r in local},key=lambda k:(-sum(1 for r in local if r['category']==k),k))
     whole='the whole territory' if code in TERRITORIES else ('the whole district' if code=='DC' else 'the whole state')
     if local:
         s2=f'Besides the agencies that serve {whole}, this page lists local {join_plain([COUNTY_WORDS[k] for k in cats[:3] if k in COUNTY_WORDS])} by county or region.'
@@ -192,6 +192,7 @@ def state_page(code,name,recs,national):
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
         secs.append(s+'</section>')
         counts.append(k)
+        SHOWN.add(k)
     # Jump tiles: one per group on this page, with its icon and name (listing counts are not shown: owner rule, November 23, 2026)
     toc=''.join(f'<a href="#{k.replace("_","-")}">{icon(k,"tic")}<span class="tl">{E(CATS[k])}</span></a>' for k in counts)
     nat=''.join(f'<li><strong>{E(r["name"])}</strong> · '+' · '.join(contact(r,True))+'</li>' for r in national if r.get('phone'))
@@ -220,6 +221,7 @@ def state_page(code,name,recs,national):
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: "+name)}">Tell us</a> and it will be checked against the program’s own page.</p></section>{urgent}</main>{FOOT}</body></html>')
     n=len(mine)
     return path,head(f'Disability and mobility resources in {place}',desc,path)+body,n
+SHOWN=set()  # groups that appear on at least one state or territory page, for the key on the states index
 CARE='<p class="meta" id="caregiver-link">Caring for a family member or a veteran? <a href="../caregiver-respite.html">Caregiver and respite help</a>: finding a break, VA caregiver programs, Medicaid home care and paid family care.</p>'
 def tile_map():
     """The home page's clickable grid of state squares, pointed at the state pages (one source: index.html)."""
@@ -227,6 +229,16 @@ def tile_map():
     if not m:return ''
     names={**STATES,**TERRITORIES}
     return re.sub(r'href="local-help\.html\?state=([A-Z]{2})"',lambda x:f'href="{slug(names[x.group(1)])}.html"',m.group(0)).replace(': programs and resources"',': state page"')
+def group_key():
+    """Visual key (November 25, 2026): the groups a state page sorts its programs into, each with the icon it carries
+    on the state pages' jump tiles and headings. Icons are decorative; the group names are the text."""
+    ks=[k for k in ORDER if k in SHOWN]
+    if not ks:return ''
+    lis=''.join(f'<li>{icon(k,"tic")}<span>{E(CATS[k])}</span></li>' for k in ks)
+    return ('<section aria-labelledby="groups-h"><h2 id="groups-h">What a state page lists</h2>'
+            '<p>Each state page sorts its programs into groups by what you need, and marks each group with the same icon as here. '
+            'A page shows only the groups that have programs listed for that state or territory.</p>'
+            f'<ul class="groupkey" role="list">{lis}</ul></section>')
 def index_page(rows,trows):
     L=LANDING['states/index.html']
     li=lambda rs:''.join(f'<li><a href="{slug(nm)}.html">{E(nm)}</a></li>' for code,nm,n in rs)
@@ -235,7 +247,7 @@ def index_page(rows,trows):
     mapsec=(f'<section aria-labelledby="map-h"><h2 id="map-h">Choose your state on the map</h2><div class="home-map">{tm}</div></section>' if tm else '')
     return head('Disability and mobility resources by state',desc,'states/')+(f'<header>{NAV}<small>ALL STATES · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources by state</h1>{up(lede(L["intro"],L.get("actions",[])))}</header>'
       f'<main id="main">{mapsec}<section aria-labelledby="st-h"><h2 id="st-h">States and D.C.</h2><ul class="statelist cols" id="state-list">{li(rows)}</ul></section>'
-      f'<section aria-labelledby="terr-h"><h2 id="terr-h">U.S. territories</h2><p>Each territory lists its main public disability agencies, plus national lines. Fewer community programs are listed than for the states.</p><ul class="statelist cols" id="territory-list">{li(trows)}</ul></section><!--mif-->{MIF}<!--/mif-->'
+      f'<section aria-labelledby="terr-h"><h2 id="terr-h">U.S. territories</h2><p>Each territory lists its main public disability agencies, plus national lines. Fewer community programs are listed than for the states.</p><ul class="statelist cols" id="territory-list">{li(trows)}</ul></section>{group_key()}<!--mif-->{MIF}<!--/mif-->'
       f'<div class="side-help">{up(URGENT)}</div></main>{FOOT}</body></html>')
 def build():
     recs=DATA['records'];national=[r for i in NATIONAL for r in recs if r['id']==i]
