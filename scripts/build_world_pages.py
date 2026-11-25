@@ -234,7 +234,10 @@ def country_page(c):
             + ''.join(secs)
             + f'<section class="panel" aria-labelledby="about-h"><h2 id="about-h">About these listings</h2>{about}'
               f'<p>Numbers are written the way they are dialed inside {E(place)}. Calling from another country? Use the country code, and note that some free numbers only work inside the country.</p>'
-              f'<div class="actions"><a class="button secondary" href="../world.html">Other countries</a><a class="button secondary" href="../states/index.html">United States: every state</a></div></section>'
+              f'<div class="actions"><a class="button secondary" href="../world.html">Other countries</a><a class="button secondary" href="../states/index.html">United States: every state</a>'
+              f'<a class="button secondary" href="../lite/{E(c["slug"])}.html">Text-only, low-data version</a></div>'
+              '<p class="small">Slow or costly connection? The text-only version is one small page with no pictures or scripts, '
+              'and it has a ready-made text message to send these numbers to someone.</p></section>'
             + f'<section><p>Know a national or local service in {E(place)} that should be here, or see something out of date? '
               f'<a href="mailto:{CORRECTIONS}?subject={E("Mobility Talk: " + c["name"])}">Tell us</a> and it will be checked against the program’s own page.</p></section>'
             f'{emergency_box(c)}</main>{foot("../")}</body></html>\n')
@@ -254,7 +257,9 @@ def world_page():
     nav_local = '<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
     return (head + f'<header>{nav_local}<small>WORLDWIDE · DISABILITY RESOURCES</small><h1>Disability help outside the United States</h1><!--lede--><!--/lede--></header>\n'
             '<main id="main">'
-            f'<section aria-labelledby="countries-h"><h2 id="countries-h">Choose a country</h2><ul class="statelist cols" id="country-list">{rows}</ul></section>'
+            f'<section aria-labelledby="countries-h"><h2 id="countries-h">Choose a country</h2>'
+            '<p class="small">On a slow connection or a basic phone? Use the <a href="lite/index.html">text-only, low-data version</a>.</p>'
+            f'<ul class="statelist cols" id="country-list">{rows}</ul></section>'
             f'<section aria-labelledby="anywhere-h"><h2 id="anywhere-h">Help that works in any country</h2><div class="grid">{cards}</div></section>'
             '<section class="panel" aria-labelledby="us-h"><h2 id="us-h">In the United States?</h2><p>Every state, D.C. and the U.S. territories have their own page with phone numbers and official links.</p>'
             '<div class="actions"><a class="button" href="states/index.html">Choose your state</a><a class="button secondary" href="local-help.html">Search the directory</a></div></section>'
