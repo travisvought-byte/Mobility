@@ -1,0 +1,49 @@
+name: Machine-translate the text-only pages
+
+# Fills data/lite-translations.json with Argos Translate (free, open source, runs on the GitHub runner; no
+# account or key) for any description the translated text-only pages (lite/<lang>/) still need, and commits
+# the file back to the same branch. It never runs on main: run it on a pull request's branch, then rebuild
+# (npm run build) and push, so the pages and checks pick the new translations up. Until a string is
+# translated, its page shows the English, marked as English.
+
+on:
+  push:
+    branches-ignore: [main]
+    paths: ['data/world.json', 'data/lite-languages.json', 'scripts/lite_i18n.py', 'scripts/translate_lite.py']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translate-lite-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  translate:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check for strings still to translate
+        id: need
+        run: |
+          if python scripts/translate_lite.py --check; then echo "todo=no" >> "$GITHUB_OUTPUT"; else echo "todo=yes" >> "$GITHUB_OUTPUT"; fi
+      - name: Install Argos Translate (CPU only)
+        if: steps.need.outputs.todo == 'yes'
+        run: python -m pip install --extra-index-url https://download.pytorch.org/whl/cpu 'argostranslate==1.11.0'
+      - name: Translate
+        if: steps.need.outputs.todo == 'yes'
+        run: python scripts/translate_lite.py
+      - name: Commit the translations to this branch
+        if: steps.need.outputs.todo == 'yes'
+        run: |
+          git diff --quiet data/lite-translations.json && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/lite-translations.json
+          git commit -m "Machine translations for the text-only pages (Argos Translate)"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
