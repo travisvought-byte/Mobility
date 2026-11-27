@@ -150,7 +150,7 @@ assert(doc('disability-housing.html').querySelector('#related a[href="disability
  const lis=[...p.querySelectorAll('#by-state .statelinks li')];assert.equal(lis.length,list.length,'one line per listed state');assert(list.length>=40,'most states listed');
  for(const [i,x] of list.entries()){const a=lis[i].querySelector('a');assert.equal(a.getAttribute('href'),x.url);assert(/^https:\/\/[^/]+\.(gov|us)\//.test(x.url),x.state+' official site');
   assert.equal(a.getAttribute('target'),'_blank');assert.equal(a.getAttribute('rel'),'noopener');assert(text(lis[i]).startsWith(x.state+':'),x.state+' named');}
- assert(/Illinois, Ohio, Rhode Island, West Virginia and Wyoming/.test(text(p.getElementById('by-state'))),'unconfirmed states named');
+ assert.equal(new Set(list.map(x=>x.code)).size,51,'every state and DC listed once');for(const c of ['IL','OH','RI','WV','WY'])assert(list.some(x=>x.code===c),c+' listed');
  for(const f of ['accessible-vehicles.html','accessible-travel.html'])assert(doc(f).querySelector('#related a[href="disability-parking.html"]'),f+' links the parking guide');
  assert(doc('know-your-rights.html').querySelector('#public-places a[href="disability-parking.html"]'),'rights page public places links the parking guide');
  assert(doc('mobility-rights.html').querySelector('a[href="disability-parking.html"]'),'next-step finder links the parking guide');
