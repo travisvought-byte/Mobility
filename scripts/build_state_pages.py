@@ -231,8 +231,10 @@ def state_page(code,name,recs,national):
     body=(f'<header>{NAV}<small>{E(name.upper())} · ALL AGES · ALL DISABILITIES</small><h1>Disability and mobility resources in {E(place)}</h1><p class="lede">{E(lede)}</p></header>\n'
       f'<main id="main"><nav class="toc tiles" aria-label="What do you need? Jump to a group of programs">{toc}</nav>'
       +(f'<section class="panel" aria-labelledby="first-h">' if calls else '<section class="panel">')+f'{calls}{actions}{RELAY}</section>'
+      # Washington's featured nonprofit sits right after the first calls, not at the foot of the page (owner, November 27, 2026)
+      +(extra and '<!--luul-->'+up(extra)+'<!--/luul-->')
       +''.join(secs)+everywhere
-      +(extra and '<!--luul-->'+up(extra)+'<!--/luul-->')+'<!--mif-->'+MIF+'<!--/mif-->'
+      +'<!--mif-->'+MIF+'<!--/mif-->'
       +f'<section><p>Missing a program or see something out of date? <a href="mailto:travis@vethomeguard.org?subject={E("Correction: "+name)}">Tell us</a> and it will be checked against the program’s own page.</p></section>{urgent}</main>{FOOT}</body></html>')
     n=len(mine)
     return path,head(f'Disability and mobility resources in {place}',desc,path)+body,n
