@@ -1,0 +1,187 @@
+{
+ "note": "Getting paid to care for a family member, national: Medicaid self-directed and consumer-directed care, Structured Family Caregiving (two state examples, each read from the state's own rule or page), VA's caregiver stipend (PCAFC), Veteran-Directed Care and Aid and Attendance, long-term care insurance, paid family leave and the FMLA, and federal tax rules that matter to paid family caregivers. Every statement names the official page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it. The caregiver-respite page keeps its short summary of paid family care and links here for the detail. Left out on purpose: a list of every state with paid family leave (the Department of Labor's state map page had no readable text when checked), a dollar amount for the credit for other dependents (the current IRS pages checked did not state one), the gross income limit for a qualifying relative (the IRS dependents page showed an older year's figure without naming the year), and any Structured Family Caregiving pay rate (neither state page states one).",
+ "page": "paid-family-caregiver.html",
+ "title": "How to get paid to take care of a family member: Medicaid, VA and more",
+ "h1": "Getting paid to care for a family member",
+ "description": "How to get paid to take care of a family member: Medicaid self-directed care, Structured Family Caregiving, the VA caregiver stipend, leave and tax rules.",
+ "eyebrow": "MEDICAID · STRUCTURED FAMILY CAREGIVING · VA STIPEND · AID AND ATTENDANCE · LEAVE · TAXES",
+ "correction_subject": "Paid family caregiver page",
+ "footer_note": "This is general information, not legal, tax or benefits advice.",
+ "checked_on": "2026-11-27",
+ "checked_label": "November 27, 2026",
+ "start": "Most paid family caregiving runs through Medicaid or the VA. If the person you care for has Medicaid, ask the state Medicaid agency whether they can choose you as their paid caregiver. If they are a veteran, ask VA about the caregiver stipend, Veteran-Directed Care and Aid and Attendance.",
+ "start_paths": [
+  {"icon": "benefits", "who": "Does the person have Medicaid?", "text": "ask about self-directed care, where they can hire you.", "href": "#medicaid"},
+  {"icon": "daily_living", "who": "Living together?", "text": "some states pay a live-in caregiver through Structured Family Caregiving.", "href": "#structured-family-caregiving"},
+  {"icon": "veterans", "who": "Caring for a veteran?", "text": "VA has a monthly stipend, Veteran-Directed Care and Aid and Attendance.", "href": "#va"},
+  {"icon": "shield", "who": "Have long-term care insurance?", "text": "some policies pay family caregivers.", "href": "#insurance"},
+  {"icon": "work_school", "who": "Need time off work?", "text": "state paid leave and the federal FMLA.", "href": "#leave"},
+  {"icon": "document", "who": "Tax time?", "text": "some caregiver pay can be left out of income, and a dependent can bring credits.", "href": "#taxes"}
+ ],
+ "sections": [
+  {
+   "id": "medicaid",
+   "title": "Medicaid: self-directed and consumer-directed care",
+   "icon": "benefits",
+   "lead": "If someone with a disability already gets Medicaid, their state may allow a family member or friend to become a paid caregiver.",
+   "lead_src": ["usagov-caregiver"],
+   "points": [
+    {"text": "Many states call this a consumer-directed personal assistance program. Each state has its own requirements and rules, and the amount it pays a family caregiver varies by state.", "src": ["usagov-caregiver"]},
+    {"text": "In Medicaid self-directed services, the person getting care, or their representative, has decision-making authority over certain services and manages them, with supports available. It is an alternative to services delivered by an agency.", "src": ["medicaid-self-directed"]},
+    {"text": "Under what CMS calls employer authority, the person can recruit, hire, train and supervise the people who give their care. Under budget authority, they decide how the Medicaid funds in a budget are spent.", "src": ["medicaid-self-directed"]},
+    {"text": "A financial management service can handle the employer side: withholding and filing taxes, collecting and processing timesheets, and issuing paychecks. People can do some of these jobs themselves, but most prefer the service to do them.", "src": ["medicaid-self-directed"]},
+    {"text": "A supports broker or counselor must be available to each person who chooses self-direction, to help them direct their services.", "src": ["medicaid-self-directed"]},
+    {"text": "States can offer self-direction through several Medicaid options: home and community-based services waivers (1915(c)), the home and community-based services state plan option (1915(i)), Community First Choice (1915(k)) and self-directed personal assistance services (1915(j)).", "src": ["medicaid-self-directed"]},
+    {"text": "Under 1915(j), a state may choose to let people hire legally liable relatives, such as parents or spouses. It is the state’s option, not a rule everywhere.", "src": ["medicaid-1915j"]},
+    {"text": "To get waiver services, a person must need a level of care that would meet the state’s rules for services in an institutional setting. Each state chooses the most people a waiver will serve.", "src": ["medicaid-1915c"]}
+   ],
+   "steps_title": "How to ask",
+   "steps": [
+    {"text": "Contact your state’s Medicaid office and ask whether the person’s program lets them choose a family member or friend as a paid caregiver.", "src": ["usagov-caregiver"]},
+    {"text": "Ask whether the program offers self-direction with employer authority, so the person can hire, train and supervise you, and whether a financial management service runs payroll.", "src": ["medicaid-self-directed"]},
+    {"text": "If the person is not on a waiver yet, ask how to apply and whether the waiver is full.", "src": ["medicaid-1915c"]}
+   ],
+   "after": "<p>Your state’s Medicaid agency is listed on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?category=benefits\">Benefits and health coverage</a> in the directory.</p>"
+  },
+  {
+   "id": "structured-family-caregiving",
+   "title": "Structured Family Caregiving: paid live-in care",
+   "icon": "daily_living",
+   "lead": "Some states’ Medicaid waivers include Structured Family Caregiving, which pays a caregiver who lives with the person they care for. Ohio and Indiana are two examples. Ask your state Medicaid agency whether yours offers it.",
+   "lead_src": ["ohio-sfc", "indiana-sfc"],
+   "points": [
+    {"text": "Indiana: Structured Family Caregiving lets a caregiver living with a person be paid for providing daily care and support. The caregiver may be a family member or not, and must live in the home. It is offered under Indiana’s PathWays and Health and Wellness waivers.", "src": ["indiana-sfc"]},
+    {"text": "Ohio: Structured Family Caregiving is for adults 18 and older enrolled in the MyCare Ohio, Ohio Home Care or PASSPORT waiver who choose it. The caregiver lives with the person, in the person’s home or the caregiver’s, and is employed by or contracted with an agency provider.", "src": ["ohio-sfc"]},
+    {"text": "In Ohio, the caregiver completes initial training, gets monthly coaching from the agency, and can care for no more than three people at the same address. It can be authorized as a full day or a half day.", "src": ["ohio-sfc"]}
+   ]
+  },
+  {
+   "id": "va",
+   "title": "VA: the caregiver stipend, Veteran-Directed Care and Aid and Attendance",
+   "icon": "veterans",
+   "lead": "VA programs can pay a family caregiver directly, or give the veteran money that can be used to pay one.",
+   "lead_src": ["va-pcafc", "va-vdc", "usagov-caregiver"],
+   "cards_first": true,
+   "cards": [
+    {
+     "id": "pcafc-card",
+     "name": "Program of Comprehensive Assistance for Family Caregivers (PCAFC)",
+     "org": "VA Caregiver Support Program",
+     "text": "Pays a monthly stipend to the Primary Family Caregiver of an eligible veteran. It also gives at least 30 days of respite care a year, and health care through CHAMPVA if the caregiver does not already qualify under another health plan.",
+     "more": "The veteran must have a VA disability rating of 70% or higher, be discharged or have a date of medical discharge, and need at least 6 months of continuous, in-person personal care. The caregiver must be at least 18 and be the veteran’s spouse, son, daughter, parent, stepfamily member or extended family member, or live full time with the veteran or be willing to.",
+     "next": "Apply together with the veteran on VA Form 10-10CG, or call the Caregiver Support Line first to talk it through.",
+     "phone": "1-855-260-3274",
+     "phone_on_source": "1-855-260-3274",
+     "phone_label": "Caregiver Support Line, Monday to Friday, 8 a.m. to 8 p.m. Eastern. TTY: 711",
+     "phone_src": "va-csp-home",
+     "links": [
+      {"label": "About PCAFC on VA.gov", "href": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/"},
+      {"label": "VA Caregiver Support Program", "href": "https://www.caregiver.va.gov/"}
+     ],
+     "src": ["va-pcafc", "ecfr-71", "va-csp-home"]
+    }
+   ],
+   "points": [
+    {"text": "How the stipend is figured: VA starts from the federal General Schedule annual rate for grade 4, step 1, in the locality pay area where the veteran lives, divided by 12.", "src": ["ecfr-71"]},
+    {"text": "The Primary Family Caregiver gets 62.5% of that monthly rate, or 100% if VA decides the veteran is unable to self-sustain in the community.", "src": ["ecfr-71"]},
+    {"text": "Veteran-Directed Care gives the veteran a budget for home and community-based services. With a counselor, the veteran makes a spending plan and hires their own workers, which might include a family member or neighbor.", "src": ["va-vdc"]},
+    {"text": "Enrolled veterans can get Veteran-Directed Care if they are eligible for community care, meet the clinical criteria and it is available where they live. Ask the veteran’s VA social worker.", "src": ["va-vdc"]},
+    {"text": "Aid and Attendance adds monthly payments to a VA pension for qualified veterans and survivors. USAGov notes it helps cover the costs of a caregiver, who may be a family member.", "src": ["va-aa", "usagov-caregiver"]},
+    {"text": "To be eligible you must get a VA pension and meet at least one requirement, such as needing another person to help with daily activities like bathing, feeding and dressing. You can’t get Aid and Attendance and Housebound benefits at the same time.", "src": ["va-aa"]},
+    {"text": "The most VA pension a veteran with no dependents can get with Aid and Attendance is $29,093 a year, or $34,488 with one dependent, at the rates VA lists from December 1, 2025.", "src": ["va-rates"]},
+    {"text": "VA pays the difference between your income for VA purposes and that maximum. Medical expenses your insurance doesn’t cover may lower your income for VA purposes.", "src": ["va-rates"]},
+    {"text": "You can apply online, by mail or in person. To apply by mail, fill out VA Form 21-2680 (Examination for Housebound Status or Permanent Need for Regular Aid and Attendance).", "src": ["va-aa"]}
+   ],
+   "after": "<p>Also on this site: <a href=\"caregiver-respite.html#va\">VA’s general caregiver support, respite and the support line</a>.</p>"
+  },
+  {
+   "id": "insurance",
+   "title": "Long-term care insurance",
+   "icon": "shield",
+   "lead": "If the person you care for has a long-term care insurance policy, read what it pays for.",
+   "points": [
+    {"text": "Some long-term care insurance policies allow family members to get paid as caregivers.", "src": ["usagov-caregiver"]},
+    {"text": "Contact the insurance agent and ask for a written confirmation of benefits.", "src": ["usagov-caregiver"]}
+   ]
+  },
+  {
+   "id": "leave",
+   "title": "Paid family leave and time off work",
+   "icon": "work_school",
+   "lead": "If you have a job, you may be able to take time off to give care, and in some states be paid while you do.",
+   "points": [
+    {"text": "Some states require employers to offer family leave programs, and some programs pay you to care for a family member. Who qualifies, how much you get and how long you can take off vary by state. Contact your state labor office.", "src": ["usagov-caregiver"]},
+    {"text": "The federal Family and Medical Leave Act gives eligible employees of covered employers up to 12 workweeks of unpaid, job-protected leave in a 12-month period, including to care for a spouse, child or parent with a serious health condition.", "src": ["dol-fmla"]},
+    {"text": "To be eligible you must have worked for the employer for at least 12 months, with at least 1,250 hours in the 12 months before the leave, at a location where the employer has at least 50 employees within 75 miles.", "src": ["dol-fmla"]},
+    {"text": "Private employers are covered if they have 50 or more employees in 20 or more workweeks. Public agencies and local schools are covered whatever their size.", "src": ["dol-fmla"]}
+   ],
+   "cards": [
+    {
+     "id": "fmla-card",
+     "name": "Family and Medical Leave Act questions",
+     "org": "U.S. Department of Labor, Wage and Hour Division",
+     "text": "The Wage and Hour Division’s FMLA page explains who is covered and why leave can be taken, and lists its toll-free number.",
+     "next": "Call if you are not sure whether your employer is covered or your leave qualifies.",
+     "phone": "1-866-487-9243",
+     "phone_on_source": "1-866-487-9243",
+     "phone_label": "Toll-free",
+     "phone_src": "dol-fmla",
+     "links": [{"label": "FMLA on DOL.gov", "href": "https://www.dol.gov/agencies/whd/fmla"}],
+     "src": ["dol-fmla"]
+    }
+   ]
+  },
+  {
+   "id": "taxes",
+   "title": "Taxes: what paid family caregivers should know",
+   "icon": "document",
+   "lead": "Some Medicaid caregiver pay can be left out of income, and caring for a dependent can open credits and a better filing status.",
+   "points": [
+    {"text": "Under IRS Notice 2014-7, certain payments a state Medicaid home and community-based services waiver program makes to an individual care provider, for caring for an eligible person in the provider’s home, can be treated as difficulty of care payments and left out of gross income.", "src": ["irs-dofc"]},
+    {"text": "The exclusion applies only to payments for care in the care provider’s own home, where the person lives with them under their plan of care. The IRS examples include a provider caring for a parent and one caring for an unrelated older person.", "src": ["irs-dofc"]},
+    {"text": "If these payments are otherwise earned income, you may choose to include all of them, but not part, in earned income when figuring the earned income credit or the additional child tax credit.", "src": ["irs-dofc"]},
+    {"text": "You may be able to claim the person you care for as a dependent (a qualifying relative) if they live with you all year as a member of your household or are a specific type of relative, have gross income under the IRS limit, and get more than half their financial support from you.", "src": ["irs-dependents"]},
+    {"text": "A dependent you can’t use for the child tax credit may qualify you for the credit for other dependents. The person must be a U.S. citizen, U.S. national or U.S. resident alien with an SSN, ITIN or ATIN.", "src": ["irs-8812"]},
+    {"text": "To file as head of household, you must have paid more than half the cost of keeping up a home for the year, and a qualifying person must have lived with you for more than half the year. If the qualifying person is your dependent parent, your parent doesn’t have to live with you.", "src": ["irs-501"]},
+    {"text": "If you pay someone to care for a disabled spouse or dependent who can’t care for themselves and lives with you more than half the year, so you can work or look for work, the child and dependent care credit counts up to $3,000 of expenses for one person or $6,000 for two or more. For tax year 2026 it is 20% to 50% of those expenses, depending on income.", "src": ["irs-cdcc"]},
+    {"text": "For that credit, the care provider can’t be your spouse, your dependent, or your child who was under 19 at the end of the year.", "src": ["irs-cdcc"]},
+    {"text": "Medical expenses you pay for your dependent can count toward the medical expense deduction, which covers only the part above 7.5% of your adjusted gross income and is claimed on Schedule A.", "src": ["irs-502"]}
+   ]
+  }
+ ],
+ "faq": [
+  {"q": "Can I get paid to take care of a family member?", "a": "Often, yes. If the person already gets Medicaid, their state may let a family member or friend become a paid caregiver, often through what states call a consumer-directed personal assistance program. Rules and pay vary by state, so contact your state’s Medicaid office.", "src": ["usagov-caregiver"]},
+  {"q": "Can a spouse or parent be paid as a caregiver through Medicaid?", "a": "It depends on the state. Under the 1915(j) self-directed personal assistance option, a state may choose to let people hire legally liable relatives, such as parents or spouses.", "src": ["medicaid-1915j"]},
+  {"q": "How much does the VA pay family caregivers?", "a": "In PCAFC, the Primary Family Caregiver’s monthly stipend is 62.5% of the General Schedule grade 4, step 1 annual rate for the veteran’s locality divided by 12, or 100% if VA decides the veteran is unable to self-sustain in the community.", "src": ["ecfr-71"]},
+  {"q": "Who qualifies for the VA caregiver stipend?", "a": "The veteran needs a VA disability rating of 70% or higher, a discharge or a date of medical discharge, and at least 6 months of continuous, in-person personal care. The caregiver must be at least 18 and a family member, or live full time with the veteran.", "src": ["va-pcafc"]},
+  {"q": "Can I be paid to care for a family member who lives with me?", "a": "In some states, yes. Structured Family Caregiving, offered through some Medicaid waivers such as Ohio’s and Indiana’s, pays a caregiver who lives with the person they care for.", "src": ["ohio-sfc", "indiana-sfc"]},
+  {"q": "Do I pay taxes on Medicaid caregiver pay?", "a": "Maybe not. Under IRS Notice 2014-7, certain Medicaid waiver payments for caring for an eligible person who lives with you in your home can be treated as difficulty of care payments and left out of gross income.", "src": ["irs-dofc"]}
+ ],
+ "related": [
+  {"icon": "daily_living", "href": "caregiver-respite.html", "label": "Caregiver and respite help", "text": "finding a break, VA caregiver support and the Eldercare Locator"},
+  {"icon": "ramps_home", "href": "home-modifications.html", "label": "Help paying for home modifications", "text": "ramps, stairlifts, bathroom changes and wider doors"},
+  {"icon": "benefits", "href": "social-security-disability.html", "label": "How to apply for Social Security disability", "text": "SSDI or SSI, step by step, and appealing a denial"},
+  {"icon": "map_pin", "href": "local-help.html?category=daily_living", "label": "In-home help in your state", "text": "state and local programs in the directory"}
+ ],
+ "sources": {
+  "usagov-caregiver": {"title": "Get paid as a caregiver for a family member", "publisher": "USAGov", "url": "https://www.usa.gov/disability-caregiver", "page_date": "page last updated November 17, 2025", "checked": "2026-11-27"},
+  "medicaid-self-directed": {"title": "Self-Directed Services", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/long-term-services-supports/self-directed-services", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+  "medicaid-1915j": {"title": "Self-Directed Personal Assistant Services 1915(j)", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/self-directed-personal-assistant-services-1915-j", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+  "medicaid-1915c": {"title": "Home & Community-Based Services 1915(c)", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/home-community-based-services-1915c", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+  "ohio-sfc": {"title": "Ohio Administrative Code Rule 5160-44-33: structured family caregiving", "publisher": "State of Ohio, Ohio Laws and Administrative Rules", "url": "https://codes.ohio.gov/ohio-administrative-code/rule-5160-44-33", "page_date": "rule effective August 12, 2025", "checked": "2026-11-27"},
+  "indiana-sfc": {"title": "Structured Family Caregiving", "publisher": "Indiana Family and Social Services Administration", "url": "https://www.in.gov/fssa/ompp/files/Structured-Family-Caregiving.pdf", "page_date": "last updated August 25, 2025", "checked": "2026-11-27"},
+  "va-pcafc": {"title": "The Program of Comprehensive Assistance for Family Caregivers", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers/", "page_date": "page last updated November 10, 2026", "checked": "2026-11-27"},
+  "va-csp-home": {"title": "VA Caregiver Support Program", "publisher": "U.S. Department of Veterans Affairs", "url": "https://www.caregiver.va.gov/", "page_date": "page last updated November 13, 2026", "checked": "2026-11-27"},
+  "ecfr-71": {"title": "38 CFR Part 71, caregivers benefits (monthly stipend rate in 71.15 and stipend levels in 71.40(c)(4))", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-38/chapter-I/part-71", "page_date": "eCFR text up to date as of June 16, 2026", "checked": "2026-11-27"},
+  "va-vdc": {"title": "Veteran-Directed Care", "publisher": "U.S. Department of Veterans Affairs, Geriatrics and Extended Care", "url": "https://www.va.gov/geriatrics/pages/Veteran-Directed_Care.asp", "page_date": "page last updated March 6, 2026", "checked": "2026-11-27"},
+  "va-aa": {"title": "Aid and Attendance benefits and Housebound allowance", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/pension/aid-attendance-housebound/", "page_date": "page last updated May 8, 2026", "checked": "2026-11-27"},
+  "va-rates": {"title": "Current pension rates for Veterans", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/pension/veterans-pension-rates/", "page_date": "page last updated December 18, 2025", "checked": "2026-11-27"},
+  "dol-fmla": {"title": "Family and Medical Leave Act", "publisher": "U.S. Department of Labor, Wage and Hour Division", "url": "https://www.dol.gov/agencies/whd/fmla", "page_date": "page last updated January 26, 2026", "checked": "2026-11-27"},
+  "irs-dofc": {"title": "Certain Medicaid waiver payments may be excludable from income", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/individuals/certain-medicaid-waiver-payments-may-be-excludable-from-income", "page_date": "page last reviewed or updated April 29, 2026", "checked": "2026-11-27"},
+  "irs-dependents": {"title": "Dependents", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/credits-deductions/individuals/dependents", "page_date": "page last reviewed or updated January 8, 2026", "checked": "2026-11-27"},
+  "irs-8812": {"title": "Instructions for Schedule 8812 (Form 1040) (2025)", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/instructions/i1040s8", "page_date": "for tax year 2025", "checked": "2026-11-27"},
+  "irs-501": {"title": "Publication 501 (2025), Dependents, Standard Deduction, and Filing Information", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/publications/p501", "page_date": "for use in preparing 2025 returns", "checked": "2026-11-27"},
+  "irs-cdcc": {"title": "Child and dependent care credit information", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/credits-deductions/individuals/child-and-dependent-care-credit-information", "page_date": "page last reviewed or updated October 15, 2026", "checked": "2026-11-27"},
+  "irs-502": {"title": "Publication 502 (2025), Medical and Dental Expenses", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/publications/p502", "page_date": "for use in preparing 2025 returns", "checked": "2026-11-27"}
+ }
+}

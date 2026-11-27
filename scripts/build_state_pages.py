@@ -188,10 +188,11 @@ def state_page(code,name,recs,national):
         if l:
             s+=f'<h3>County and regional programs</h3><ul class="statelist">'+''.join(local_li(r) for r in l)+'</ul>'
         if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a> · <a href="../service-animals.html">Service animals: your rights and where to get a trained dog</a></p>'
-        if k=='daily_living':s+='<p class="meta">Caring for a family member or a veteran? Respite, VA caregiver programs and paid family care: <a href="../caregiver-respite.html">Caregiver and respite help</a></p>'
+        if k=='daily_living':s+='<p class="meta">Caring for a family member or a veteran? Respite, VA caregiver programs and paid family care: <a href="../caregiver-respite.html">Caregiver and respite help</a> · Medicaid self-directed care, the VA stipend, leave and taxes: <a href="../paid-family-caregiver.html">Getting paid to care for a family member</a></p>'
         # national how-to guides for the same need (added November 27, 2026)
         if k=='equipment':s+='<p class="meta">Borrow or reuse equipment, and what Medicare, Medicaid and the VA pay, including repairs: <a href="../free-medical-equipment.html">Free and low-cost wheelchairs and equipment</a></p>'
         if k=='transportation':s+='<p class="meta">Who helps pay for a wheelchair van, hand controls or a lift: <a href="../accessible-vehicles.html">Help paying for an accessible vehicle</a></p>'
+        if k in ('ramps_home','funding'):s+='<p class="meta">Current limits for VA home grants, USDA repair loans and grants, Medicaid waivers and the tax rules: <a href="../home-modifications.html">Help paying for home modifications</a></p>'
         if k=='benefits':s+='<p class="meta">Applying for SSDI or SSI, step by step, and appealing a denial: <a href="../social-security-disability.html">How to apply for Social Security disability</a></p>'
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
         secs.append(s+'</section>')
@@ -226,7 +227,7 @@ def state_page(code,name,recs,national):
     n=len(mine)
     return path,head(f'Disability and mobility resources in {place}',desc,path)+body,n
 SHOWN=set()  # groups that appear on at least one state or territory page, for the key on the states index
-CARE='<p class="meta" id="caregiver-link">Caring for a family member or a veteran? <a href="../caregiver-respite.html">Caregiver and respite help</a>: finding a break, VA caregiver programs, Medicaid home care and paid family care.</p>'
+CARE='<p class="meta" id="caregiver-link">Caring for a family member or a veteran? <a href="../caregiver-respite.html">Caregiver and respite help</a>: finding a break, VA caregiver programs, Medicaid home care and paid family care. <a href="../paid-family-caregiver.html">Getting paid to care for a family member</a>: Medicaid, the VA stipend, leave and taxes.</p>'
 def tile_map():
     """The home page's clickable grid of state squares, pointed at the state pages (one source: index.html)."""
     m=re.search(r'<div class="tilemap"[^>]*>.*?</div>',(ROOT/'index.html').read_text(),re.S)

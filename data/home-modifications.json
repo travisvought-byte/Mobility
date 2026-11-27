@@ -1,0 +1,216 @@
+{
+ "note": "Help paying for home modifications, national: VA's HISA benefit and SAH, SHA and TRA grants (fiscal year 2027 amounts from VA), USDA's Section 504 Home Repair loans and grants, Medicaid home and community-based services waivers, Area Agencies on Aging and the Eldercare Locator, state assistive technology programs, IRS Publication 502 on home improvements as medical expenses, and renters' right to make reasonable modifications under the Fair Housing Act rules. Every statement names the official page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). The ramps page keeps its six routes and the step-by-step HISA, SAH, SHA and Ohio waiver checklists; this page links to them instead of repeating them. Left out on purpose: a federal statement that Medicaid waivers cover home modifications (Medicaid.gov's waiver page names no such service, so one state's waiver is given as an example), and Area Agency on Aging dollar limits, which differ by state.",
+ "page": "home-modifications.html",
+ "title": "Help paying for home modifications: ramps, stairlifts, bathrooms and wider doors",
+ "h1": "Help paying for home modifications",
+ "description": "Who helps pay for a ramp, stairlift, bathroom changes or wider doors: VA grants and HISA, USDA repair loans and grants, Medicaid waivers and tax rules.",
+ "eyebrow": "RAMPS · STAIRLIFTS · BATHROOMS · WIDER DOORS · GRANTS · LOANS · TAXES",
+ "correction_subject": "Home modifications page",
+ "footer_note": "This is general information, not legal or tax advice.",
+ "checked_on": "2026-11-27",
+ "checked_label": "November 27, 2026",
+ "start": "Before any work starts, ask the program whether it has to approve the work first, and get written, itemized quotes. Veterans can start with VA. Homeowners in rural areas can check USDA’s repair loans and grants. People on Medicaid can ask their case manager about their state’s waiver.",
+ "start_paths": [
+  {"icon": "veterans", "who": "A veteran or service member?", "text": "VA pays for medically needed changes and adapts homes.", "href": "#va"},
+  {"icon": "funding", "who": "Own a home in a rural area?", "text": "USDA lends and grants money to make a home accessible.", "href": "#usda"},
+  {"icon": "benefits", "who": "On Medicaid?", "text": "a home and community-based waiver may pay for changes.", "href": "#medicaid"},
+  {"icon": "navigation", "who": "An older adult?", "text": "your Area Agency on Aging may help with minor changes.", "href": "#aging"},
+  {"icon": "equipment", "who": "Want to try a ramp or bath equipment first?", "text": "your state assistive technology program lends and demonstrates equipment.", "href": "#assistive-technology"},
+  {"icon": "document", "who": "Paying for it yourself?", "text": "the cost can count as a medical expense on your taxes.", "href": "#taxes"},
+  {"icon": "housing", "who": "Renting?", "text": "your landlord may not refuse reasonable changes you pay for.", "href": "#renters"}
+ ],
+ "sections": [
+  {
+   "id": "va",
+   "title": "VA: HISA and the SAH, SHA and TRA grants",
+   "icon": "veterans",
+   "lead": "VA has a smaller lifetime benefit for medically necessary changes to a veteran’s home, such as permanent ramps and roll-in showers, and larger grants to buy, build or change a home for veterans and service members with certain service-connected disabilities.",
+   "lead_src": ["va-hisa", "va-housing"],
+   "cards_first": true,
+   "cards": [
+    {
+     "id": "hisa-card",
+     "name": "Home Improvements and Structural Alterations (HISA)",
+     "org": "VA Prosthetic and Sensory Aids Service",
+     "text": "Provides medically necessary improvements and structural alterations to a veteran’s or service member’s primary home, such as permanent ramps and roll-in showers.",
+     "more": "Lifetime benefit: $6,800 for changes for a service-connected disability, or for any disability if the veteran has a service-connected disability rated at least 50 percent; $2,000 for a disability not covered by those rules.",
+     "next": "Ask the veteran’s VA care team about a prescription from a VA physician. The application package includes VA Form 10-0103.",
+     "links": [
+      {"label": "HISA on the VA prosthetics site", "href": "https://www.prosthetics.va.gov/psas/HISA2.asp"},
+      {"label": "Our HISA preparation checklist", "href": "ramps-home-access.html#va-hisa"}
+     ],
+     "src": ["va-hisa"]
+    },
+    {
+     "id": "sah-sha-card",
+     "name": "Specially Adapted Housing (SAH) and Special Home Adaptation (SHA) grants",
+     "org": "U.S. Department of Veterans Affairs",
+     "text": "Grants for veterans and service members with certain service-connected disabilities who are using the money to buy, build or change their permanent home.",
+     "more": "For fiscal year 2027, an SAH grant pays up to $133,042 and an SHA grant up to $26,654. SAH money can be used up to 6 different times over your lifetime.",
+     "next": "Apply online, by mail or in person.",
+     "links": [
+      {"label": "VA disability housing grants", "href": "https://www.va.gov/housing-assistance/disability-housing-grants/"},
+      {"label": "Our SAH checklist", "href": "ramps-home-access.html#va-sah"},
+      {"label": "Our SHA checklist", "href": "ramps-home-access.html#va-sha"}
+     ],
+     "src": ["va-housing"]
+    }
+   ],
+   "points": [
+    {"text": "All HISA projects must be medically justified, and VA may inspect the site.", "src": ["va-hisa"]},
+    {"text": "SAH covers conditions such as ALS, the loss or loss of use of more than one limb, blindness in both eyes (20/200 visual acuity or less) and certain severe burns. You must own or be going to own the home.", "src": ["va-housing"]},
+    {"text": "SHA covers conditions such as the loss or loss of use of both hands, certain severe burns and certain respiratory or breathing injuries. You or a family member must own or be going to own the home.", "src": ["va-housing"]},
+    {"text": "If you are living for now in a family member’s home that needs changes, a Temporary Residence Adaptation (TRA) grant pays up to $53,585 if you qualify for SAH, or up to $9,568 if you qualify for SHA, for fiscal year 2027.", "src": ["va-housing"]}
+   ]
+  },
+  {
+   "id": "usda",
+   "title": "USDA home repair loans and grants (Section 504)",
+   "icon": "funding",
+   "lead": "USDA’s Section 504 Home Repair program lends to low- and very-low-income homeowners, and gives grants to very-low-income homeowners 62 or older, to make a home accessible for a household member with a disability or to remove health and safety hazards.",
+   "lead_src": ["usda-504"],
+   "points": [
+    {"text": "The maximum loan is $40,000 and the maximum grant is $10,000. A loan and a grant can be combined for up to $50,000.", "src": ["usda-504"]},
+    {"text": "Loans have a fixed 1 percent interest rate and are repaid over 20 years.", "src": ["usda-504"]},
+    {"text": "Grants can be used only to remove health and safety hazards or make a home accessible for a household member with a disability. Loans can also repair, improve or modernize a home.", "src": ["usda-504"]},
+    {"text": "Grants have a lifetime limit of $10,000, and must be repaid if the home is sold in less than three years.", "src": ["usda-504"]},
+    {"text": "To apply you must own and live in the home, be unable to get affordable credit elsewhere, and have household income under the county limit. Grants also need you to be 62 or older with very-low income. The home must be in an eligible rural area.", "src": ["usda-504"]},
+    {"text": "Your local Rural Development office takes applications year round. Approval times depend on funding in your area.", "src": ["usda-504"]}
+   ],
+   "cards": [
+    {
+     "id": "usda-504-card",
+     "name": "Section 504 Home Repair loans and grants",
+     "org": "USDA Rural Development",
+     "text": "Loans and grants for homeowners with low or very-low income in eligible rural areas, including to make a home accessible for a household member with a disability.",
+     "next": "Check the address on USDA’s eligibility site, then contact a USDA home loan specialist in your state for help with the application.",
+     "links": [
+      {"label": "USDA repair loans and grants", "href": "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants"},
+      {"label": "Check if an address is eligible", "href": "https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do?pageAction=sfpd"},
+      {"label": "Find your USDA state office", "href": "https://www.rd.usda.gov/browse-state"}
+     ],
+     "src": ["usda-504"]
+    }
+   ],
+   "after": "<p>Your state’s USDA Rural Development office is also listed on <a href=\"states/index.html\">your state’s page</a>, under Coverage and funding.</p>"
+  },
+  {
+   "id": "medicaid",
+   "title": "Medicaid home and community-based services waivers",
+   "icon": "benefits",
+   "lead": "If the person gets Medicaid, a home and community-based services (HCBS) waiver may pay for changes to the home. Each state builds its own waivers and chooses the services they offer.",
+   "lead_src": ["medicaid-1915c"],
+   "points": [
+    {"text": "HCBS waivers serve people who prefer to get long-term care services and supports at home or in the community. A person must need a level of care that would meet the state’s rules for services in an institutional setting.", "src": ["medicaid-1915c"]},
+    {"text": "Besides standard services such as personal care and respite care, states can propose other services that help people move from institutions into their homes and community, or stay out of them.", "src": ["medicaid-1915c"]},
+    {"text": "Michigan’s MI Choice waiver, for people 65 or older and adults 18 to 64 with physical disabilities who meet a nursing facility level of care, lists environmental accessibility adaptations among its services. It is one example.", "src": ["medicaid-mi"]},
+    {"text": "Each state chooses the most people a waiver will serve, so ask whether there is a wait.", "src": ["medicaid-1915c"]}
+   ],
+   "after": "<p>In Ohio? Follow the <a href=\"ramps-home-access.html#ohio-waiver-home-modifications\">Ohio waiver home modification checklist</a>. Your state’s Medicaid agency is listed on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?category=benefits\">Benefits and health coverage</a>.</p>"
+  },
+  {
+   "id": "aging",
+   "title": "Area Agencies on Aging and the Eldercare Locator",
+   "icon": "navigation",
+   "lead": "Area Agencies on Aging coordinate and offer services that help older adults stay in their homes, if that is what they want.",
+   "lead_src": ["acl-aaa"],
+   "points": [
+    {"text": "An Area Agency on Aging is a public or private nonprofit agency that a state names to serve older people in one area: a city, a county or several counties. Local names vary.", "src": ["acl-aaa"]},
+    {"text": "Under the federal Older Americans Act rules, the in-home services these programs support include minor home modifications that help an older person stay independent and healthy, when another program doesn’t cover them.", "src": ["ecfr-1321"]}
+   ],
+   "cards": [
+    {
+     "id": "eldercare-card",
+     "name": "Eldercare Locator",
+     "org": "Administration for Community Living",
+     "text": "A free public service of the Administration for Community Living that connects older adults and their families to services. Call or text trained staff, chat online, or send an email.",
+     "next": "Give your ZIP code or your city and state, and ask for your Area Agency on Aging and whether it helps with home modifications or repairs.",
+     "record": "us-eldercare-locator",
+     "phone": "1-800-677-1116",
+     "phone_on_source": "1-800-677-1116",
+     "phone_label": "Call or text",
+     "phone_src": "eldercare-home",
+     "links": [{"label": "Eldercare Locator website", "href": "https://eldercare.acl.gov/home"}],
+     "src": ["eldercare-home", "acl-aaa"]
+    }
+   ]
+  },
+  {
+   "id": "assistive-technology",
+   "title": "State assistive technology programs",
+   "icon": "equipment",
+   "lead": "Every state, D.C., Puerto Rico and the U.S. territories has a federally funded assistive technology (AT) program.",
+   "lead_src": ["acl-at"],
+   "points": [
+    {"text": "AT programs let people become familiar with specific devices through demonstrations, borrow devices for a limited time, and get reused equipment.", "src": ["acl-at"]},
+    {"text": "Each state’s AT program includes financing activities, which help people buy assistive technology through loans and other means.", "src": ["acl-at"]}
+   ],
+   "cards": [
+    {
+     "id": "at-program-card",
+     "name": "Your state assistive technology program",
+     "org": "Federally funded through the Administration for Community Living",
+     "text": "Lends, demonstrates and reuses equipment, and helps people pay for assistive technology through loans.",
+     "next": "Ask whether you can try or borrow a portable ramp or bath equipment, and whether its loans cover home access equipment.",
+     "links": [{"label": "State AT program directory", "href": "https://www.at3center.net/stateprogram"}],
+     "src": ["acl-at"]
+    }
+   ],
+   "after": "<p>More on borrowing and reusing equipment: <a href=\"free-medical-equipment.html\">Free and low-cost wheelchairs and equipment</a>.</p>"
+  },
+  {
+   "id": "taxes",
+   "title": "Taxes: home changes as a medical expense",
+   "icon": "document",
+   "lead": "If you pay for changes yourself, amounts you pay for special equipment installed in a home, or for improvements, can count as medical expenses when their main purpose is medical care for you, your spouse or your dependent.",
+   "lead_src": ["irs-502"],
+   "points": [
+    {"text": "Certain improvements made to accommodate a home to your disability, or that of your spouse or dependents who live with you, don’t usually increase the home’s value, so their cost can be included in full.", "src": ["irs-502"]},
+    {"text": "IRS examples include entrance or exit ramps, widening doorways and hallways, railings, support bars or other bathroom changes, lowering kitchen cabinets, moving electrical outlets, modifying stairways, handrails or grab bars anywhere, door hardware and grading the ground for access.", "src": ["irs-502"]},
+    {"text": "Porch lifts and other lifts are on the list too, but elevators generally add value to a house.", "src": ["irs-502"]},
+    {"text": "When an improvement does raise the property’s value, only its cost minus the increase in value counts as a medical expense.", "src": ["irs-502"]},
+    {"text": "Only reasonable costs to accommodate a home to a disability count as medical care. Amounts you pay to operate and keep up the improvement can also qualify.", "src": ["irs-502"]},
+    {"text": "The deduction covers only the part of your medical and dental expenses above 7.5% of your adjusted gross income, and is claimed on Schedule A as an itemized deduction.", "src": ["irs-502"]}
+   ]
+  },
+  {
+   "id": "renters",
+   "title": "If you rent",
+   "icon": "housing",
+   "lead": "Federal fair housing rules let renters with disabilities make reasonable changes to their home at their own expense.",
+   "lead_src": ["cfr-100-203"],
+   "points": [
+    {"text": "A landlord may not refuse to let you make reasonable modifications, at your expense, if they may be necessary for your full enjoyment of the home.", "src": ["cfr-100-203"]},
+    {"text": "Where it is reasonable to do so, the landlord may require you to agree to restore the inside to its earlier condition, except for reasonable wear and tear.", "src": ["cfr-100-203"]},
+    {"text": "The landlord may not raise the usual security deposit for people with disabilities.", "src": ["cfr-100-203"]}
+   ],
+   "after": "<p>If a landlord refuses: <a href=\"know-your-rights.html#housing\">who takes housing complaints, and the deadline</a>.</p>"
+  }
+ ],
+ "faq": [
+  {"q": "Who pays for a wheelchair ramp at home?", "a": "It depends on your situation. Veterans can ask VA about HISA and the SAH and SHA grants. Some state Medicaid waivers pay for home changes. USDA lends and grants money to low-income homeowners in rural areas, and Area Agencies on Aging may help older adults with minor modifications.", "src": ["va-hisa", "va-housing", "medicaid-mi", "usda-504", "ecfr-1321"]},
+  {"q": "How much is the USDA home repair grant?", "a": "Up to $10,000, for very-low-income homeowners 62 or older, to remove health and safety hazards or make a home accessible. Loans go up to $40,000 at 1 percent interest over 20 years, and a loan and a grant can be combined for up to $50,000.", "src": ["usda-504"]},
+  {"q": "How much does VA pay for home modifications?", "a": "HISA has a lifetime limit of $6,800 for a service-connected disability, or for a veteran rated at least 50 percent service-connected, and $2,000 otherwise. For fiscal year 2027, the SAH grant is up to $133,042 and the SHA grant up to $26,654.", "src": ["va-hisa", "va-housing"]},
+  {"q": "Are home modifications tax deductible?", "a": "They can count as a medical expense. Ramps, wider doorways, bathroom grab bars and porch lifts usually don’t add value to a home, so their full cost can count, but only medical expenses above 7.5% of your adjusted gross income are deductible, on Schedule A.", "src": ["irs-502"]},
+  {"q": "Can my landlord stop me from putting in a ramp?", "a": "Under federal fair housing rules, a landlord may not refuse reasonable modifications you pay for if they may be necessary for your full enjoyment of the home. Where reasonable, the landlord may ask you to restore the inside when you leave.", "src": ["cfr-100-203"]}
+ ],
+ "related": [
+  {"icon": "ramps_home", "href": "ramps-home-access.html", "label": "Ramps and home access", "text": "six routes to try, and step-by-step checklists for VA grants and Ohio waivers"},
+  {"icon": "equipment", "href": "free-medical-equipment.html", "label": "Free and low-cost wheelchairs and equipment", "text": "borrow, reuse or get help paying"},
+  {"icon": "daily_living", "href": "paid-family-caregiver.html", "label": "Getting paid to care for a family member", "text": "Medicaid, the VA caregiver stipend, leave and taxes"},
+  {"icon": "map_pin", "href": "local-help.html?category=ramps_home", "label": "Ramp and home modification programs in your state", "text": "state and local programs in the directory"}
+ ],
+ "sources": {
+  "va-hisa": {"title": "Home Improvements/Structural Alterations (HISA)", "publisher": "U.S. Department of Veterans Affairs, Prosthetic and Sensory Aids Service", "url": "https://www.prosthetics.va.gov/psas/HISA2.asp", "page_date": "page last updated February 12, 2025", "checked": "2026-11-27"},
+  "va-housing": {"title": "Disability housing grants for Veterans", "publisher": "U.S. Department of Veterans Affairs, VA.gov", "url": "https://www.va.gov/housing-assistance/disability-housing-grants/", "page_date": "page last updated November 17, 2026", "checked": "2026-11-27"},
+  "usda-504": {"title": "Single Family Housing Repair Loans & Grants", "publisher": "U.S. Department of Agriculture, Rural Development", "url": "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+  "medicaid-1915c": {"title": "Home & Community-Based Services 1915(c)", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/home-community-based-services-1915c", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+  "medicaid-mi": {"title": "Michigan Waiver Factsheet", "publisher": "Centers for Medicare & Medicaid Services, Medicaid.gov", "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/Waiver-Descript-Factsheet/MI", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+  "acl-aaa": {"title": "Area Agencies on Aging", "publisher": "Administration for Community Living", "url": "https://acl.gov/programs/aging-and-disability-networks/area-agencies-aging", "page_date": "page last modified August 12, 2024", "checked": "2026-11-27"},
+  "ecfr-1321": {"title": "45 CFR Part 1321, grants to state and community programs on aging (definition of in-home supportive services in 1321.3)", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-C/part-1321", "page_date": "eCFR text up to date as of July 15, 2026", "checked": "2026-11-27"},
+  "eldercare-home": {"title": "Eldercare Locator", "publisher": "Administration for Community Living", "url": "https://eldercare.acl.gov/home", "page_date": "page last modified March 2, 2026", "checked": "2026-11-27"},
+  "acl-at": {"title": "Assistive Technology", "publisher": "Administration for Community Living", "url": "https://acl.gov/programs/assistive-technology/assistive-technology", "page_date": "page last modified July 31, 2026", "checked": "2026-11-27"},
+  "irs-502": {"title": "Publication 502 (2025), Medical and Dental Expenses", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/publications/p502", "page_date": "for use in preparing 2025 returns", "checked": "2026-11-27"},
+  "cfr-100-203": {"title": "24 CFR 100.203, reasonable modifications of existing premises", "publisher": "Legal Information Institute, Cornell Law School (text of the Code of Federal Regulations)", "url": "https://www.law.cornell.edu/cfr/text/24/100.203", "page_date": "current text as shown on the page", "checked": "2026-11-27"}
+ }
+}

@@ -108,7 +108,8 @@
     {"text": "VA: Aid and Attendance adds monthly payments to a VA pension for veterans and survivors who qualify, which can help pay for a caregiver.", "src": ["usagov-caregiver"]},
     {"text": "Long-term care insurance: some policies let family members be paid as caregivers. Ask the insurance agent to confirm the benefits in writing.", "src": ["usagov-caregiver"]},
     {"text": "Paid family leave: some states have programs that pay you to take time off work to care for a family member. Ask your state labor office.", "src": ["usagov-caregiver"]}
-   ]},
+   ],
+   "after": "<p>The full guide, with how the VA stipend is figured, Structured Family Caregiving, Aid and Attendance rates, leave and tax rules: <a href=\"paid-family-caregiver.html\">Getting paid to care for a family member</a>.</p>"},
   {"id": "self-care", "title": "Taking care of yourself", "icon": "peer_support",
    "lead": "Caregivers need support too. These are free places to start.",
    "points": [
