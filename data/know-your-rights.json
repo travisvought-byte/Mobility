@@ -81,7 +81,7 @@
    "steps": ["Call your local transit agency and ask for its ADA paratransit application.", "If you are denied or keep having problems, call the FTA Office of Civil Rights.", "For Amtrak, ask for the change you need when you book, at least 72 hours ahead when you can."],
    "deadline": null,
    "records": ["us-ada-paratransit-rights", "us-amtrak-accessible-travel"],
-   "more": [{"label": "Rides and transportation programs in your state", "href": "local-help.html?category=transportation"}]
+   "more": [{"label": "Rides and transportation programs in your state", "href": "local-help.html?category=transportation"}, {"label": "Amtrak, intercity buses and other accessible travel", "href": "accessible-travel.html"}]
   },
   {
    "id": "air-travel",
@@ -92,7 +92,7 @@
    "steps": ["At the airport, ask for the airline’s Complaint Resolution Official.", "If the problem is not fixed, call the DOT hotline for air travelers with disabilities.", "After the trip, file a written or online complaint with DOT. Keep photos, repair estimates and receipts."],
    "deadline": null,
    "records": ["us-dot-air-travel-disability-hotline", "us-tsa-cares"],
-   "more": [{"label": "Flying with a service animal", "href": "service-animals.html"}]
+   "more": [{"label": "Flying with a service animal", "href": "service-animals.html"}, {"label": "Flying with a wheelchair, airport security help and other accessible travel", "href": "accessible-travel.html"}]
   },
   {
    "id": "phones-relay",

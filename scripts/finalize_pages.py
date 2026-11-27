@@ -4,9 +4,10 @@ import html,json,re
 from pathlib import Path
 from site_parts import URGENT,icon,LANDING,lede,iam,sprite
 import ads as ADS
+from build_topic_guides import translations
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','caregiver-respite.html','accessible-vehicles.html','free-medical-equipment.html','social-security-disability.html','privacy.html','auction.html','world.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','caregiver-respite.html','accessible-vehicles.html','free-medical-equipment.html','social-security-disability.html','accessible-travel.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html','privacy.html','auction.html','world.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -16,7 +17,14 @@ LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
 LUUL_PAGES={'index.html':('after-mif',False),'local-help.html':('before-mif',True),'mobility-rights.html':('<section id="route-result"',True),'disability-advocacy.html':('<section id="compose" class="compose"',True)}
 LUUL_SCRIPT_PAGES={'mobility-rights.html','disability-advocacy.html'}
 # page -> text the featured organization block is inserted before
-MIF_BEFORE={'index.html':'<section class="panel" id="partner-invite">','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section><p>Need a ramp or repair','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program','caregiver-respite.html':'<section><p>Missing a program','accessible-vehicles.html':'<section><p>Missing a program','free-medical-equipment.html':'<section><p>Missing a program','social-security-disability.html':'<section><p>Missing a program'}
+MIF_BEFORE={'index.html':'<section class="panel" id="partner-invite">','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section><p>Need a ramp or repair','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program','caregiver-respite.html':'<section><p>Missing a program','accessible-vehicles.html':'<section><p>Missing a program','free-medical-equipment.html':'<section><p>Missing a program','social-security-disability.html':'<section><p>Missing a program','accessible-travel.html':'<section><p>Missing a program',
+           'vehiculos-adaptados.html':'<section><p>¿Falta un programa','equipo-medico-gratis.html':'<section><p>¿Falta un programa','incapacidad-seguro-social.html':'<section><p>¿Falta un programa'}
+# Spanish pages (November 27, 2026): the Spanish help page and the Spanish versions of three guides. English guide -> its
+# Spanish version, for the hreflang alternates both ways; the Spanish pages keep their own menu, a Spanish privacy link,
+# and the English featured block marked as English; the English sister-guides line is left off them, as on espanol.html.
+TRANSLATIONS=translations()
+ES_PAGES={'espanol.html',*TRANSLATIONS.values()}
+ALTERNATES={**{en:(en,es) for en,es in TRANSLATIONS.items()},**{es:(en,es) for en,es in TRANSLATIONS.items()}}
 MAKER='Created and maintained by <a href="https://travisvought.com/">Travis Vought</a>.'
 WORLD=json.loads((ROOT/'data/world.json').read_text())
 ORG={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#org','name':'Mobility Talk','url':BASE,'logo':BASE+'assets/social-card.png','email':'travis@vethomeguard.org','founder':{'@type':'Person','name':'Travis Vought','url':'https://travisvought.com/'},'areaServed':['US']+[c['code'] for c in WORLD['countries']],'description':'A free, source-linked guide to disability and mobility resources, rights and advocacy: every U.S. state, plus a growing list of other countries.'}
@@ -61,7 +69,7 @@ for name in PAGES:
         blk='<!--luul-->'+blk+'<!--/luul-->'
     if name in MIF_BEFORE:
         assert MIF_BEFORE[name] in t,name
-        mif='<!--mif-->'+MIF+'<!--/mif-->'
+        mif='<!--mif-->'+(MIF.replace('<section class="featured-org"','<section class="featured-org" lang="en"',1) if name in ES_PAGES else MIF)+'<!--/mif-->'
         t=t.replace(MIF_BEFORE[name],(blk if place=='before-mif' else '')+mif+(blk if place=='after-mif' else '')+MIF_BEFORE[name],1)
     if place and place not in ('before-mif','after-mif'):
         assert place in t,(name,place)
@@ -93,6 +101,13 @@ for name in PAGES:
     url=BASE if name=='index.html' else BASE+name
     e=lambda s:html.escape(s,quote=True)
     block=f'<!--seo--><link rel="canonical" href="{url}"><meta property="og:type" content="website"><meta property="og:site_name" content="Mobility Talk"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}assets/social-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Mobility Talk: mobility and disability resources, every state"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#183449"><!--/seo-->'
+    if name in ALTERNATES:
+        # the page in each language, and English as the default for everyone else
+        en,es=ALTERNATES[name]
+        alt=(f'<link rel="alternate" hreflang="en" href="{BASE}{en}"><link rel="alternate" hreflang="es" href="{BASE}{es}">'
+             f'<link rel="alternate" hreflang="x-default" href="{BASE}{en}">')
+        if name in ES_PAGES:alt+='<meta property="og:locale" content="es_US"><meta property="og:locale:alternate" content="en_US">'
+        block=block.replace('<!--/seo-->',alt+'<!--/seo-->',1)
     t=re.sub(r"(<nav aria-label=\"Main\">.*?</nav>)",lambda m:re.sub(r"<a href=\"%s\">"%re.escape(name),"<a href=\"%s\" aria-current=\"page\">"%name,m.group(1)),t,count=1,flags=re.S)
     # structured data: the site and its maker on the home page, a breadcrumb trail everywhere else
     t=re.sub(r'<!--ld-->.*?<!--/ld-->','',t,flags=re.S)
@@ -132,13 +147,13 @@ for name in ALL+['404.html']:
     # every page footer links to the privacy page, at the end of its first line (once)
     pre='/' if name=='404.html' else ('../' if name.startswith(SUB) else '')
     t=re.sub(r' · <a class="privacy-link"[^>]*>[^<]*</a>','',t)
-    link=(f' · <a class="privacy-link" href="{pre}privacy.html" hreflang="en">Privacidad (en inglés)</a>' if name=='espanol.html'
+    link=(f' · <a class="privacy-link" href="{pre}privacy.html" hreflang="en">Privacidad (en inglés)</a>' if name in ES_PAGES
           else f' · <a class="privacy-link" href="{pre}privacy.html">Privacy</a>')
     t,n=re.subn(r'(<footer[^>]*>\s*<p>.*?)(</p>)',lambda m:m.group(1)+link+m.group(2),t,count=1,flags=re.S)
     assert n==1,name+' has no footer line for the privacy link'
     # sister guides for the same visitors: veterans, moms and families, Native communities (owner direction, November 26, 2026)
     t=re.sub(r'<!--related-->.*?<!--/related-->','',t,flags=re.S)
-    if name!='espanol.html' and not name.startswith('lite/'):
+    if name not in ES_PAGES and not name.startswith('lite/'):
         t=t.replace('</footer>',RELATED+'</footer>',1)
     # advertising: only where data/ads.json has an active ad for this page's slot; otherwise nothing is written
     t=ADS.apply(t,name,AD_LIST,AD_CLIENT)

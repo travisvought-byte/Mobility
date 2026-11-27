@@ -65,6 +65,13 @@ def outputs():
     order.append('interprete');titles['interprete']=i['title']
     tiles=('<nav class="toc tiles guide" aria-label="Secciones de esta página">'
            +''.join(f'<a href="#{E(k)}-h">{icon(SEC_ICON.get(k,""),"tic")}<span class="tl">{E(titles[k])}</span></a>' for k in order)+'</nav>')
+    # the guides that have a Spanish version (November 27, 2026); the heading is not a jump-tile section, so it has no icon
+    g=d.get('guides')
+    if g:
+        from build_topic_guides import ES_GUIDES
+        for x in g['links']:assert x['href'].removesuffix('.html') in ES_GUIDES,x['href']
+        body+=(f'<section class="panel" aria-labelledby="guias-h"><h2 id="guias-h">{E(g["title"])}</h2><p>{E(g["intro"])}</p><ul class="iconlist">'
+               +''.join(f'<li>{icon(x["icon"])}<span><a href="{E(x["href"])}">{E(x["label"])}</a>: {E(x["text"])}</span></li>' for x in g['links'])+'</ul></section>')
     m=d['more']
     body+=(f'<section class="panel" aria-labelledby="mas-h"><h2 id="mas-h">{E(m["title"])}</h2><ul>'
            +''.join(f'<li><a href="{E(x["href"])}" hreflang="en">{E(x["label"])}</a></li>' for x in m['links'])+'</ul></section>')

@@ -1,0 +1,249 @@
+{
+  "note": "Spanish version of data/accessible-vehicles.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date from the English file. Where the agency publishes the same page in Spanish, es gives it. An item with es_note adds a fact read on that Spanish page. The Spanish text has not yet been reviewed by a native speaker. General information, not legal, tax or financial advice.",
+  "lang": "es",
+  "translation_of": "accessible-vehicles",
+  "page": "vehiculos-adaptados.html",
+  "title": "Ayuda para comprar una camioneta adaptada para silla de ruedas",
+  "h1": "Ayuda para pagar un vehículo adaptado",
+  "description": "Cómo pagar una camioneta adaptada para silla de ruedas, controles manuales o un elevador: el VA, rehabilitación vocacional, Medicaid, reembolsos e impuestos.",
+  "eyebrow": "VEHÍCULOS · CONTROLES MANUALES · ELEVADORES · VETERANOS · TODOS LOS ESTADOS",
+  "correction_subject": "Página de vehículos adaptados (español)",
+  "footer_note": "Esta es información general, no asesoría legal, de impuestos ni financiera.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "Parte de la ayuda de esta página tiene que aprobarse antes de comprar, así que el orden importa. Empiece con una evaluación de manejo y luego pregunte a cada programa que le corresponda antes de firmar cualquier cosa.",
+  "start_paths": [
+    {"icon": "search", "who": "Para todos:", "text": "hágase evaluar y pregunte por la ayuda económica antes de buscar vehículo.", "href": "#before-you-buy"},
+    {"icon": "veterans", "who": "Veteranos y miembros del servicio:", "text": "una discapacidad relacionada con el servicio puede dar derecho a un pago del VA para el vehículo y a equipo adaptado.", "href": "#va"},
+    {"icon": "work_school", "who": "¿Necesita el vehículo para conseguir o mantener un trabajo?", "text": "Pregunte a la agencia de rehabilitación vocacional de su estado.", "href": "#vocational-rehab"},
+    {"icon": "benefits", "who": "¿Tiene Medicaid?", "text": "Pregunte si la exención (waiver) de su estado cubre cambios al vehículo.", "href": "#medicaid"},
+    {"icon": "store", "who": "¿Va a comprar uno nuevo?", "text": "La mayoría de los fabricantes de autos reembolsan parte del costo del equipo adaptado.", "href": "#rebates"}
+  ],
+  "sources": {
+    "nhtsa-adapted": {"publisher": "Administración Nacional de Seguridad del Tráfico en las Carreteras (NHTSA)", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://www.nhtsa.gov/es/seguridad-de-vehiculos/vehiculos-adaptados", "title": "Vehículos Adaptados", "page_date": "la página no muestra fecha"}},
+    "nmeda-start": {"publisher": "Asociación Nacional de Concesionarios de Equipos de Movilidad (NMEDA)", "page_date": "página modificada por última vez el 27 de julio de 2026"},
+    "nmeda-locator": {"publisher": "Asociación Nacional de Concesionarios de Equipos de Movilidad (NMEDA)", "page_date": "página modificada por última vez el 26 de febrero de 2026"},
+    "nmeda-rebates": {"publisher": "Asociación Nacional de Concesionarios de Equipos de Movilidad (NMEDA)", "page_date": "página modificada por última vez el 22 de junio de 2026"},
+    "aded-directory": {"publisher": "ADED: Asociación de Especialistas en Rehabilitación para Conducir", "page_date": "la página no muestra fecha"},
+    "va-auto": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 19 de mayo de 2026"},
+    "va-rates": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 1 de octubre de 2026"},
+    "va-aae": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA), Servicio de Prótesis y Ayudas Sensoriales", "page_date": "página actualizada por última vez el 30 de septiembre de 2026"},
+    "ecfr-361-5": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 23 de octubre de 2026"},
+    "rsa-states": {"publisher": "Departamento de Educación de EE. UU., Administración de Servicios de Rehabilitación", "page_date": "la página no muestra fecha"},
+    "ssa-pass": {"publisher": "Administración del Seguro Social", "page_date": "edición de 2026"},
+    "medicaid-1915c": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "medicaid-mi": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "acl-at": {"publisher": "Administración para la Vida Comunitaria (ACL)", "page_date": "página modificada por última vez el 31 de julio de 2026"},
+    "able-what": {"publisher": "Centro Nacional de Recursos ABLE", "page_date": "página modificada por última vez el 14 de septiembre de 2026"},
+    "irs-502": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "para preparar las declaraciones de 2025"}
+  },
+  "sections": [
+    {
+      "id": "before-you-buy",
+      "title": "Antes de comprar: el orden que ahorra dinero",
+      "icon": "search",
+      "lead": "Una evaluación le dice qué equipo necesita. Consulte con cada programa que podría ayudar a pagar antes de gastar nada, porque algunos tienen que aprobar primero.",
+      "steps_title": "Cinco pasos, en este orden",
+      "steps": [
+        {"text": "Hágase una evaluación de manejo con un especialista en rehabilitación para conducir. La evaluación examina su visión, fuerza, coordinación, juicio y capacidad para manejar con el equipo, y usted debe recibir un informe por escrito con recomendaciones.", "src": ["nhtsa-adapted", "nmeda-start"]},
+        {"text": "Pregunte a cada programa que podría ayudar a pagar antes de comprar. El VA, por ejemplo, tiene que aprobar el vehículo o el equipo primero.", "src": ["nhtsa-adapted", "va-auto"]},
+        {"text": "Elija un concesionario de equipos de movilidad. Verifique que esté registrado con NHTSA y revise sus credenciales, capacitación y garantía. NMEDA aconseja confirmar que el vendedor esté acreditado bajo su Programa de Garantía de Calidad (QAP).", "src": ["nhtsa-adapted", "nmeda-start"]},
+        {"text": "Reciba capacitación en la carretera y practique con un especialista en rehabilitación para conducir antes de manejar con el equipo nuevo.", "src": ["nhtsa-adapted"]},
+        {"text": "Envíe al fabricante del auto su solicitud de reembolso por movilidad, si tiene una, para recuperar parte del costo.", "src": ["nmeda-start"]}
+      ],
+      "points": [
+        {"text": "NHTSA dice que un vehículo nuevo modificado con equipo adaptado puede costar de $20,000 a $80,000. Algunos equipos, como un cojín para el respaldo del asiento, pueden costar apenas $50, y los controles manuales pueden costar menos de $1,000.", "src": ["nhtsa-adapted"]},
+        {"text": "Las agencias de rehabilitación vocacional y de compensación laboral (workers’ compensation) pueden ayudar a pagar una evaluación de manejo, y el seguro médico puede pagar parte o todo su costo.", "src": ["nhtsa-adapted"]}
+      ],
+      "cards": [
+        {
+          "id": "aded-card",
+          "name": "Encuentre un especialista en rehabilitación para conducir",
+          "org": "ADED: Asociación de Especialistas en Rehabilitación para Conducir",
+          "text": "ADED capacita y certifica a especialistas en rehabilitación para conducir y a instructores de manejo. Su directorio en línea le permite buscar un Especialista Certificado en Rehabilitación para Conducir (CDRS), un proveedor de rehabilitación para conducir o un concesionario de equipos de movilidad.",
+          "next": "Busque un CDRS cerca de usted y pregunte si su agencia de rehabilitación vocacional o su seguro médico pueden pagar la evaluación.",
+          "record": "us-aded-driver-rehab",
+          "links": [{"label": "Buscar en el directorio de ADED", "href": "https://www.aded.net/page/725", "lang": "en"}],
+          "src": ["aded-directory"]
+        }
+      ]
+    },
+    {
+      "id": "va",
+      "title": "Ayuda del VA para veteranos y miembros del servicio",
+      "icon": "veterans",
+      "lead": "El VA puede pagar parte de un vehículo con equipo especial y pagar equipo adaptado cuando una discapacidad relacionada con el servicio califica.",
+      "lead_src": ["va-auto"],
+      "points": [
+        {"text": "A partir del 1 de octubre de 2026, el VA puede pagar hasta $27,908.90 para un vehículo con equipo especial. El vendedor presenta el reclamo al VA, y el VA hace un solo pago directamente al vendedor.", "src": ["va-rates"]},
+        {"text": "Necesita una discapacidad relacionada con el servicio, o que el VA trate como relacionada con el servicio, que incluya al menos una de estas: pérdida, o pérdida permanente del uso, de uno o ambos pies o manos; disminución permanente de la visión en ambos ojos; una quemadura grave; o ELA (esclerosis lateral amiotrófica).", "src": ["va-auto"]},
+        {"text": "La anquilosis (una articulación rígida o fusionada) en una o ambas rodillas o caderas da derecho solo a la subvención para equipo adaptado, no al pago para el vehículo.", "src": ["va-auto"]},
+        {"text": "Las subvenciones para equipo adaptado pueden cubrir cosas como dirección asistida, frenos, asientos, ventanas o equipo de elevación para ayudarle a subir y bajar del vehículo.", "src": ["va-auto"]},
+        {"text": "Presente la solicitud y obtenga la aprobación del VA antes de comprar. Para el pago del vehículo, solicite en línea o envíe por correo el formulario VA 21-4502. Para equipo adaptado, el VA dice que lleve el formulario VA 10-1394 al representante de prótesis de su centro médico del VA.", "src": ["va-auto"]},
+        {"text": "El equipo adaptado tiene que ser recetado por un médico del VA o por un Especialista Certificado en Rehabilitación para Conducir. La lista de equipos del VA también fija las tarifas de mano de obra para instalarlo, repararlo, reinstalarlo y reemplazarlo.", "src": ["va-aae"]},
+        {"text": "Puede ser posible un segundo pago para vehículo si compró un vehículo con el primero hace 30 años o más, o si un desastre natural lo destruyó sin culpa suya y el seguro no cubrió ya la pérdida.", "src": ["va-auto"]},
+        {"text": "El VA enseña a veteranos y miembros del servicio a manejar su vehículo adaptado por medio de su Programa de Rehabilitación para Conducir.", "src": ["va-aae"]}
+      ],
+      "cards": [
+        {
+          "id": "va-auto-card",
+          "name": "Asignación del VA para automóvil y equipo adaptado",
+          "org": "Departamento de Asuntos de Veteranos de EE. UU.",
+          "text": "Una sola página explica quién califica, qué pagan las subvenciones y cómo solicitar cada una. La página de tarifas muestra el pago actual para el vehículo.",
+          "next": "Solicite y espere la aprobación antes de comprar un vehículo o equipo.",
+          "record": "va-automobile-adaptive-equipment",
+          "links": [
+            {"label": "Requisitos y cómo solicitar", "href": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/", "lang": "en"},
+            {"label": "Tarifas actuales de las asignaciones especiales", "href": "https://www.va.gov/disability/compensation-rates/special-benefit-allowance-rates/", "lang": "en"}
+          ],
+          "src": ["va-auto", "va-rates"]
+        }
+      ],
+      "after": "<p>Ayuda gratuita con un reclamo del VA: la oficina de servicios para veteranos de su condado aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?audience=veterans\" hreflang=\"en\">ayuda para veteranos</a> (en inglés) en el directorio.</p>"
+    },
+    {
+      "id": "vocational-rehab",
+      "title": "Rehabilitación vocacional: cuando necesita el vehículo para trabajar",
+      "icon": "work_school",
+      "lead": "La agencia de rehabilitación vocacional (VR) de su estado puede ayudar a pagar parte o todo el costo de una modificación del vehículo.",
+      "lead_src": ["nhtsa-adapted"],
+      "points": [
+        {"text": "Las reglas federales de VR consideran la modificación de vehículos como un servicio de tecnología de rehabilitación. Pueden contar la compra o reparación de un vehículo, incluida una camioneta (van), como transporte que usted necesita para participar en los servicios de VR.", "src": ["ecfr-361-5"]},
+        {"text": "Hay 78 agencias estatales de VR. En 22 estados, las personas ciegas o con baja visión reciben servicios de una agencia aparte para personas ciegas.", "src": ["rsa-states"]},
+        {"text": "Si recibe SSI, o calificaría si no fuera por sus ingresos o ahorros, un Plan para Lograr la Autosuficiencia (PASS) le permite apartar dinero para una meta de trabajo sin que cuente en contra del SSI. El transporte es una de las cosas que un plan puede pagar. Solicite con el formulario SSA-545-BK; el Seguro Social le puede dar el número de un especialista en PASS.", "src": ["ssa-pass"]}
+      ],
+      "cards": [
+        {
+          "id": "rsa-card",
+          "name": "Agencias estatales de rehabilitación vocacional",
+          "org": "Departamento de Educación de EE. UU., Administración de Servicios de Rehabilitación",
+          "text": "La oficina federal que financia las agencias estatales de VR tiene los datos de contacto de las 78.",
+          "next": "Llame a la agencia de VR de su estado, diga que necesita modificar un vehículo para trabajar y pregunte cómo solicitar.",
+          "links": [{"label": "Encuentre la agencia de VR de su estado", "href": "https://rsa.ed.gov/about/states", "lang": "en"}],
+          "src": ["rsa-states"]
+        }
+      ],
+      "after": "<p>La agencia de VR de su estado también aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?category=work_school\" hreflang=\"en\">trabajo, escuela y capacitación</a> (en inglés) en el directorio.</p>"
+    },
+    {
+      "id": "medicaid",
+      "title": "Exenciones de Medicaid que pagan cambios al vehículo",
+      "icon": "benefits",
+      "lead": "Algunos programas estatales de Medicaid para recibir cuidado en casa incluyen las modificaciones de vehículos entre sus servicios.",
+      "lead_src": ["medicaid-mi"],
+      "points": [
+        {"text": "Las exenciones (waivers) de Medicaid para servicios en el hogar y la comunidad (HCBS) atienden a personas que prefieren recibir cuidado a largo plazo en su casa o en la comunidad. Cada estado diseña las suyas, y los estados pueden proponer servicios además de la lista habitual.", "src": ["medicaid-1915c"]},
+        {"text": "La exención MI Choice de Michigan, para personas de 65 años o más y adultos con discapacidades físicas que necesitan el nivel de cuidado de un hogar de ancianos (nursing facility), incluye las modificaciones de vehículos entre sus servicios. Es un ejemplo.", "src": ["medicaid-mi"]},
+        {"text": "Cada estado decide el número máximo de personas que atenderá una exención.", "src": ["medicaid-1915c"]}
+      ],
+      "after": "<p>Pregunte a la agencia de Medicaid de su estado, o a su administrador de casos de la exención, si una exención en la que está o a la que podría entrar cubre modificaciones de vehículos. La agencia de Medicaid de su estado aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés), y el <a href=\"mobility-rights.html\" hreflang=\"en\">buscador de próximos pasos</a> (en inglés) muestra opciones con fuentes para vehículos en algunos estados.</p>"
+    },
+    {
+      "id": "rebates",
+      "title": "Reembolsos de los fabricantes de autos por equipo adaptado",
+      "icon": "store",
+      "lead": "La mayoría de los grandes fabricantes de autos reembolsan parte del costo del equipo adaptado, por lo general hasta $1,000.",
+      "lead_src": ["nhtsa-adapted"],
+      "points": [
+        {"text": "NHTSA dice que los reembolsos suelen ser para vehículos con menos de un año de antigüedad.", "src": ["nhtsa-adapted"]},
+        {"text": "La lista de NMEDA muestra que la mayoría de los fabricantes ofrecen hasta $1,000. BMW y MINI indican hasta $2,500, y Audi hasta $1,500 por controles manuales u otros dispositivos aprobados. Algunos cubren solo vehículos nuevos; otros también cubren usados certificados (certified pre-owned).", "src": ["nmeda-rebates"]},
+        {"text": "Cada programa tiene sus propias reglas, así que comuníquese con el fabricante si tiene preguntas.", "src": ["nmeda-rebates"]}
+      ],
+      "cards": [
+        {
+          "id": "rebates-card",
+          "name": "Programas de reembolso por movilidad, por fabricante",
+          "org": "Asociación Nacional de Concesionarios de Equipos de Movilidad (NMEDA)",
+          "text": "Una lista de los programas de reembolso por movilidad de los fabricantes de autos, con lo que ofrece cada uno y cómo comunicarse.",
+          "next": "Antes de comprar, revise el reembolso de la marca que quiere y guarde todos los recibos.",
+          "links": [{"label": "Ver la lista de reembolsos", "href": "https://nmeda.org/consumer-resources/funding-2/", "lang": "en"}],
+          "src": ["nmeda-rebates"]
+        }
+      ]
+    },
+    {
+      "id": "loans-savings-taxes",
+      "title": "Préstamos de bajo costo, ahorros y ayuda con impuestos",
+      "icon": "funding",
+      "lead": "Si los programas no lo cubren todo, estas opciones pueden bajar lo que usted paga.",
+      "points": [
+        {"text": "Cada estado, D.C., Puerto Rico y los territorios de EE. UU. tiene un programa de tecnología de asistencia (AT) con fondos federales. Su labor de financiamiento estatal ayuda a las personas a comprar tecnología de asistencia por medio de préstamos y de otras formas.", "src": ["acl-at"]},
+        {"text": "Una cuenta ABLE permite ahorrar a una persona cuya discapacidad empezó antes de los 46 años. El transporte es uno de los gastos que puede pagar, y hasta $100,000 en la cuenta no cuentan como recurso para el SSI.", "src": ["able-what"]},
+        {"text": "En los impuestos federales, el costo de controles manuales especiales y de otro equipo especial instalado en un auto para una persona con discapacidad puede contar como gasto médico. También puede contar la diferencia de costo entre un auto común y uno diseñado especialmente para llevar una silla de ruedas.", "src": ["irs-502"]},
+        {"text": "Solo cuenta la parte de sus gastos médicos y dentales que pase del 7.5% de su ingreso bruto ajustado, y la deducción se reclama en el Anexo A (Schedule A) como deducción detallada.", "src": ["irs-502"]},
+        {"text": "Algunos estados no cobran impuesto sobre las ventas por dispositivos adaptados cuando usted tiene una receta médica para ellos.", "src": ["nhtsa-adapted"]},
+        {"text": "La compensación laboral (workers’ compensation) generalmente cubre el equipo adaptado que se necesita por una lesión de trabajo. El seguro de auto puede cubrir todo o parte cuando la necesidad viene de un choque.", "src": ["nhtsa-adapted"]}
+      ],
+      "cards": [
+        {
+          "id": "at-loans-card",
+          "name": "El programa de tecnología de asistencia de su estado",
+          "org": "Con fondos federales por medio de la Administración para la Vida Comunitaria",
+          "text": "El programa de AT de cada estado puede informarle sobre sus préstamos para tecnología de asistencia, y también presta equipos y hace demostraciones.",
+          "next": "Pregunte si su programa de préstamos cubre modificaciones de vehículos o equipo adaptado para manejar, y cuáles son las condiciones.",
+          "links": [{"label": "Directorio de programas estatales de AT", "href": "https://www.at3center.net/stateprogram", "lang": "en"}],
+          "src": ["acl-at"]
+        }
+      ]
+    },
+    {
+      "id": "dealers",
+      "title": "Cómo encontrar un concesionario y revisar el vehículo",
+      "icon": "wrench",
+      "lead": "No todos los instaladores trabajan con el mismo nivel de calidad, así que verifique antes de comprar.",
+      "lead_src": ["nmeda-start"],
+      "points": [
+        {"text": "NMEDA dice que algunos instaladores no siguen las normas federales de seguridad ni tienen acreditación de terceros, y aconseja confirmar que el vendedor tenga acreditación QAP antes de comprar.", "src": ["nmeda-start"]},
+        {"text": "NHTSA tiene una búsqueda de concesionarios y modificadores registrados.", "src": ["nhtsa-adapted"]},
+        {"text": "Antes de comprar un vehículo nuevo, siéntese en él. Revise cómo sube y baja, qué tan bien puede ver, y sus calificaciones de choque y de vuelco.", "src": ["nhtsa-adapted"]},
+        {"text": "El mantenimiento regular mantiene el vehículo y su equipo adaptado seguros y confiables.", "src": ["nhtsa-adapted"]}
+      ],
+      "cards": [
+        {
+          "id": "nmeda-locator-card",
+          "name": "Buscador de concesionarios de NMEDA",
+          "org": "Asociación Nacional de Concesionarios de Equipos de Movilidad (NMEDA)",
+          "text": "Busque por distancia o por estado concesionarios de equipos de movilidad con acreditación QAP. El formulario de búsqueda pide su nombre, correo electrónico y teléfono.",
+          "next": "Pregunte al concesionario sobre su acreditación QAP, su garantía y su servicio, y qué fondos conoce en su estado.",
+          "record": "us-nmeda-dealer-locator",
+          "links": [{"label": "Encontrar un concesionario con acreditación QAP", "href": "https://nmeda.org/resources/dealer-locator/", "lang": "en"}],
+          "src": ["nmeda-locator"]
+        },
+        {
+          "id": "nhtsa-card",
+          "name": "Línea directa de seguridad vehicular de NHTSA",
+          "org": "Administración Nacional de Seguridad del Tráfico en las Carreteras (NHTSA)",
+          "text": "La página de vehículos adaptados de NHTSA tiene enlaces a la búsqueda de modificadores registrados, a las calificaciones de vehículos y a la revisión de retiros del mercado (recalls).",
+          "more": "La página en español de NHTSA dice que, al llamar, puede pedir un operador que hable español.",
+          "es_note": "The added sentence comes from NHTSA's Spanish page (source nhtsa-adapted, es).",
+          "next": "Verifique que su concesionario esté en la búsqueda de modificadores registrados y busque retiros del mercado antes de comprar.",
+          "record": "us-vehicle-adaptation",
+          "phone": "888-327-4236",
+          "phone_on_source": "888-327-4236",
+          "phone_label": "TTY: 888-275-9171",
+          "phone_src": "nhtsa-adapted",
+          "links": [
+            {"label": "Página de vehículos adaptados de NHTSA, en español", "href": "https://www.nhtsa.gov/es/seguridad-de-vehiculos/vehiculos-adaptados"},
+            {"label": "Buscar modificadores registrados", "href": "https://vpic.nhtsa.dot.gov/mid/home/ModifierSearch", "lang": "en"}
+          ],
+          "src": ["nhtsa-adapted"]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "¿El VA paga una camioneta adaptada para silla de ruedas?", "a": "El VA puede pagar hasta $27,908.90 para un vehículo con equipo especial, a partir del 1 de octubre de 2026, a un veterano o miembro del servicio cuya discapacidad relacionada con el servicio califique. Es un solo pago que se hace al vendedor. El VA también puede pagar equipo adaptado. Solicite y obtenga la aprobación antes de comprar.", "src": ["va-rates", "va-auto"]},
+    {"q": "¿Medicaid paga modificaciones de vehículos?", "a": "Algunas exenciones de Medicaid para servicios en el hogar y la comunidad incluyen las modificaciones de vehículos entre sus servicios, como la exención MI Choice de Michigan. Depende de su estado y de su exención, así que pregunte a la agencia de Medicaid de su estado o a su administrador de casos.", "src": ["medicaid-mi", "medicaid-1915c"]},
+    {"q": "¿Cuánto cuesta un vehículo adaptado para silla de ruedas?", "a": "NHTSA dice que un vehículo nuevo modificado con equipo adaptado puede costar de $20,000 a $80,000. Los cambios más pequeños cuestan menos: los controles manuales pueden costar menos de $1,000.", "src": ["nhtsa-adapted"]},
+    {"q": "¿Los fabricantes de autos dan reembolsos por equipo adaptado?", "a": "Sí. La mayoría de los grandes fabricantes ofrecen reembolsos por equipo adaptado, por lo general hasta $1,000, normalmente para vehículos con menos de un año de antigüedad. Algunos ofrecen más: BMW y MINI indican hasta $2,500 y Audi hasta $1,500.", "src": ["nhtsa-adapted", "nmeda-rebates"]},
+    {"q": "¿La rehabilitación vocacional puede ayudar a pagar un vehículo?", "a": "Puede. NHTSA dice que se comunique con la agencia de rehabilitación vocacional de su estado para pedir ayuda con el pago de una modificación. Las reglas federales de VR consideran la modificación de vehículos como un servicio de tecnología de rehabilitación y pueden contar la compra o reparación de un vehículo como transporte necesario para los servicios de VR.", "src": ["nhtsa-adapted", "ecfr-361-5"]},
+    {"q": "¿Puedo deducir de mis impuestos el costo de una camioneta para silla de ruedas?", "a": "Puede contar una parte. El costo del equipo especial instalado en un auto para una persona con discapacidad, y el costo adicional de un auto diseñado especialmente para llevar una silla de ruedas, pueden ser gastos médicos. Solo cuentan los gastos médicos que pasen del 7.5% de su ingreso bruto ajustado, como deducción detallada.", "src": ["irs-502"]}
+  ],
+  "related": [
+    {"icon": "equipment", "href": "equipo-medico-gratis.html", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar o recibir ayuda para pagar"},
+    {"icon": "benefits", "href": "incapacidad-seguro-social.html", "label": "Cómo solicitar incapacidad del Seguro Social", "text": "SSDI y SSI, paso a paso"},
+    {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
+    {"icon": "transportation", "href": "local-help.html?category=transportation", "lang": "en", "label": "Ayuda con transporte en su estado", "text": "traslados, paratránsito, rehabilitación para conducir y permisos de estacionamiento"}
+  ]
+}

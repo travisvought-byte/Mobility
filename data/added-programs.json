@@ -3711,11 +3711,11 @@
     "Groups run by chapter; check availability for your area."
    ],
    "phone": "1-833-275-6321",
-   "phone_note": null,
+   "phone_note": "1-833-ASK-MDA1, the MDA Resource Center, Monday to Friday 9 a.m. to 5 p.m. Central, as its page lists it (modified March 14, 2025). MDA's general line is 1-800-572-1717, as its contact page lists it (modified March 17, 2025). Both read November 27, 2026.",
    "email": null,
    "web": "https://www.mda.org/services/equipment-assistance/",
    "url": "https://www.mda.org/services/equipment-assistance/",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-27",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
   },
@@ -3732,12 +3732,12 @@
    "constraints": [
     "For people with neuromuscular diseases served by MDA."
    ],
-   "phone": "1-833-275-6321",
-   "phone_note": null,
+   "phone": "1-800-572-1717",
+   "phone_note": "Option 1 for the MDA Resource Center, as the grant's FAQ page lists it (modified July 8, 2025). The Resource Center's own page lists 1-833-ASK-MDA1 (1-833-275-6321), Monday to Friday 9 a.m. to 5 p.m. Central (modified March 14, 2025). Both read November 27, 2026.",
    "email": null,
    "web": "https://www.mda.org/care/resource-list/equipment-assistance/faq",
    "url": "https://www.mda.org/care/resource-list/equipment-assistance/faq",
-   "reviewed_on": "2026-11-15",
+   "reviewed_on": "2026-11-27",
    "record_status": "official_source_reviewed",
    "origin": "data/added-programs.json"
   },

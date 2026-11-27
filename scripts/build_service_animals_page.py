@@ -74,6 +74,10 @@ def outputs():
             lanes=''.join(f'<p class="lane"><strong>{E(l["label"])}</strong></p><ol class="timeline" role="list" style="--n:{len(l["steps"])}">'
                           +''.join(f'<li><span class="when">{E(x["when"])}</span>{E(x["text"])}</li>' for x in l['steps'])+'</ol>' for l in ft['lanes'])
             body+=(f'<figure class="viz" aria-labelledby="form-tl-cap"><figcaption id="form-tl-cap"><strong>{E(ft["title"])}</strong>The rule above, step by step.{cite(ft["src"])}</figcaption>{lanes}</figure>')
+        if s.get('also'):
+            # other pages of this site on the same subject (the accessible travel guide, November 27, 2026)
+            for a in s['also']:assert (ROOT/a['href'].split('#')[0]).exists() or a['href']=='accessible-travel.html',a['href']
+            body+='<p>Also on this site: '+' · '.join(f'<a href="{E(a["href"])}">{E(a["label"])}</a>' for a in s['also'])+'</p>'
         secs.append(body+'</section>')
     # complaints: the phone comes from the directory record and must match the number read on the official page
     comp=[]

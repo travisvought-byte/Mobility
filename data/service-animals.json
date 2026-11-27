@@ -92,7 +92,7 @@
     {"text": "A housing provider may not charge extra fees or deposits as a condition of the accommodation. It may charge for damage the animal causes, or take it from the usual security deposit, if it normally charges tenants for damage.", "src": ["hud-doj-2004"]},
     {"text": "Know this: on September 17, 2025, HUD withdrew its two notices on assistance animals in housing (from 2013 and 2020) and said they should not be relied on while HUD reviews them. The 2004 joint statement used above was not on that list. Ask HUD or a local fair housing center how the rules apply to you.", "src": ["hud-withdrawal-2025", "hud-doj-2004"]}
    ]},
-  {"id": "air-travel", "title": "Air travel: Department of Transportation rules", "icon": "plane",
+  {"id": "air-travel", "title": "Air travel: Department of Transportation rules", "icon": "plane", "also": [{"href": "accessible-travel.html", "label": "Flying with a wheelchair, airport security help and other accessible travel"}],
    "points": [
     {"text": "For flights, a service animal is a dog, of any breed or type, that is individually trained to do work or perform tasks for a person with a disability, including a psychiatric, intellectual or other mental disability. Airlines must treat psychiatric service animals the same as other service animals.", "src": ["dot-service-animals", "dot-release-2020"]},
     {"text": "Staff may ask whether the dog is needed because of a disability and what work or task it is trained to do. They may not ask about the nature of your disability or ask the dog to show its task.", "src": ["cfr-382-73"]},

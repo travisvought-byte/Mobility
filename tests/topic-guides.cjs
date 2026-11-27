@@ -1,5 +1,5 @@
-// National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, and Social Security
-// disability. For each page: every statement and step carries a citation to a listed source with its checked date, every
+// National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, Social Security
+// disability and accessible travel, and the Spanish versions of the first three (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
 // phone number shown was read on its source page (and matches the directory record where there is one), no other number
 // slips in, the quick answers and their FAQ structured data say the same thing, and the page is wired in like the other
 // national guides: title, description, canonical, social and breadcrumb tags, sitemap, visit counter, ad code, MIF block,
@@ -11,7 +11,8 @@ const digits=s=>String(s||'').replace(/\D/g,'').slice(-10);
 const text=e=>e.textContent.replace(/\s+/g,' ').trim();
 const open=[];const doc=f=>{while(open.length)open.pop().close();const w=new JSDOM(fs.readFileSync(f,'utf8')).window;open.push(w);return w.document;};
 // state page group each guide is linked from
-const GROUP={'accessible-vehicles':'transportation','free-medical-equipment':'equipment','social-security-disability':'benefits'};
+// (accessible travel has no state page group; related pages link it instead, checked below)
+const GROUP={'accessible-vehicles':'transportation','free-medical-equipment':'equipment','social-security-disability':'benefits','accessible-travel':null};
 const home=doc('index.html'),homeLinks=[...home.querySelectorAll('ul.guidegrid a')].map(a=>a.getAttribute('href'));
 const sitemap=fs.readFileSync('sitemap.xml','utf8');
 const states=fs.readdirSync('states').filter(f=>f.endsWith('.html')&&f!=='index.html');
@@ -87,12 +88,93 @@ for(const slug of Object.keys(GROUP)){
  // linked from the home page guides list, and from the matching group on every state page that has that group
  assert(homeLinks.includes(F),F+' on the home page guides list');
  let linked=0;
- for(const f of states){const sd=doc('states/'+f),g=sd.getElementById(GROUP[slug].replace('_','-'));if(!g)continue;assert(g.querySelector(`a[href="../${F}"]`),f+' links '+F+' from its '+GROUP[slug]+' group');linked++;}
- assert(linked>=50,F+' linked from '+linked+' state pages');
+ if(GROUP[slug]){
+  for(const f of states){const sd=doc('states/'+f),g=sd.getElementById(GROUP[slug].replace('_','-'));if(!g)continue;assert(g.querySelector(`a[href="../${F}"]`),f+' links '+F+' from its '+GROUP[slug]+' group');linked++;}
+  assert(linked>=50,F+' linked from '+linked+' state pages');}
  summary.push(`${F}: ${points} statements, ${steps} steps, ${cards} cards, ${items.length} quick answers, ${ids.length} sources, linked from ${linked} state pages`);
 }
 // related pages link the new guides
 assert(doc('know-your-rights.html').querySelector('#benefit-denials a[href="social-security-disability.html"]'),'rights page links the Social Security guide');
 assert(doc('ramps-home-access.html').querySelector('a[href="free-medical-equipment.html"]')&&doc('ramps-home-access.html').querySelector('a[href="accessible-vehicles.html"]'),'ramps page links the equipment and vehicle guides');
 assert(doc('mobility-independence.html').querySelector('#help-title ~ p a[href="free-medical-equipment.html"]'),'repair page links the equipment guide');
+assert(doc('know-your-rights.html').querySelector('#air-travel a[href="accessible-travel.html"]')&&doc('know-your-rights.html').querySelector('#transit a[href="accessible-travel.html"]'),'rights page links the travel guide from air travel and transit');
+assert(doc('service-animals.html').querySelector('#air-travel a[href="accessible-travel.html"]'),'service animal air travel section links the travel guide');
+assert(doc('accessible-vehicles.html').querySelector('#related a[href="accessible-travel.html"]'),'vehicle guide links the travel guide');
+// MDA (November 27, 2026): the grant's own FAQ page lists 1-800-572-1717 (Option 1); the Resource Center's page lists
+// 1-833-ASK-MDA1. The directory keeps the number each record's page shows and names the other.
+{const g=recs.get('us-mda-dme-grant'),s=recs.get('us-mda-support-groups');
+ assert.equal(g.phone,'1-800-572-1717','MDA grant record has the number its FAQ page lists');assert(/Option 1/.test(g.phone_note)&&/1-833-275-6321/.test(g.phone_note),'MDA grant record labels both numbers');
+ assert.equal(s.phone,'1-833-275-6321','MDA Resource Center number on the support groups record');assert(/1-800-572-1717/.test(s.phone_note),'support groups record names the general line');}
+
+// ---- Spanish versions (November 27, 2026). The build already stops unless each translation has the English guide's
+// sections, statements, citations, cards, phones, records, quick answers and numbers. Here the built pages are checked:
+// language and hreflang both ways, sitemap, counter, ad code, the English featured block marked as English, a Spanish menu
+// and footer, the side note, FAQ data in Spanish that matches the page, every source with the English page it was read on
+// and its checked date (and the agency's Spanish page where listed), and links to English pages marked as English.
+const T={'vehiculos-adaptados':'accessible-vehicles','equipo-medico-gratis':'free-medical-equipment','incapacidad-seguro-social':'social-security-disability'};
+const hubLinks=[...doc('espanol.html').querySelectorAll('#guias-h ~ ul a')].map(a=>a.getAttribute('href'));
+const SPANISH=new Set(['espanol.html',...Object.keys(T).map(s=>s+'.html')]);
+for(const [es,en] of Object.entries(T)){
+ const F=es+'.html',EN=en+'.html',data=JSON.parse(fs.readFileSync('data/'+es+'.json','utf8')),endata=JSON.parse(fs.readFileSync('data/'+en+'.json','utf8')),html=fs.readFileSync(F,'utf8');
+ const want=[['en','https://mobilitytalk.org/'+EN],['es','https://mobilitytalk.org/'+F],['x-default','https://mobilitytalk.org/'+EN]];
+ {const ed=doc(EN);assert.deepEqual([...ed.querySelectorAll('link[rel=alternate]')].map(l=>[l.getAttribute('hreflang'),l.getAttribute('href')]),want,EN+' hreflang alternates');
+  const a=ed.querySelector('header .lang-switch a');assert(a&&a.getAttribute('href')===F&&a.getAttribute('hreflang')==='es'&&a.getAttribute('lang')==='es',EN+' links its Spanish version');}
+ const d=doc(F);
+ assert.equal(data.lang,'es');assert.equal(data.translation_of,en);assert.equal(data.page,F);
+ assert.equal(d.documentElement.lang,'es',F+' lang');assert.equal(d.querySelectorAll('h1').length,1);assert.equal(text(d.querySelector('h1')),data.h1,F+' heading');
+ assert(d.title.length>30&&d.title.length<=100,F+' title length');
+ const desc=d.querySelector('meta[name=description]').content;assert(desc.length>=120&&desc.length<=160,F+' description length '+desc.length);
+ assert.equal(d.querySelector('link[rel=canonical]').href,'https://mobilitytalk.org/'+F,F+' canonical');assert.equal(d.querySelector('meta[property="og:url"]').content,'https://mobilitytalk.org/'+F);
+ assert.equal(d.querySelector('meta[property="og:locale"]').content,'es_US',F+' share locale');
+ assert.deepEqual([...d.querySelectorAll('link[rel=alternate]')].map(l=>[l.getAttribute('hreflang'),l.getAttribute('href')]),want,F+' hreflang alternates');
+ const sw=d.querySelector('header .lang-switch a');assert(sw&&sw.getAttribute('href')===EN&&sw.getAttribute('hreflang')==='en'&&sw.getAttribute('lang')==='en',F+' links the English guide');
+ assert(sitemap.includes('https://mobilitytalk.org/'+F+'</loc>'),F+' in sitemap');
+ assert(/<!--gc-->/.test(html)&&/gc\.zgo\.at\/count\.js/.test(html),F+' visit counter');
+ assert.equal((html.match(/adsbygoogle\.js/g)||[]).length,1,F+' loads the site ad code once, like the English guides');
+ const slots=execFileSync('python3',['-c',"import sys;sys.path.insert(0,'scripts');import ads;print(ads.slots_for('"+F+"'))"],{encoding:'utf8'}).trim();assert.equal(slots,`['${es}', 'every-topic']`,F+' ad slots');
+ const mif=d.querySelectorAll('.featured-org:not(.featured-org--also)');assert.equal(mif.length,1,F+' features MIF once');assert.equal(mif[0].getAttribute('lang'),'en',F+' English featured block is marked as English');
+ const nav=d.querySelector('header nav[aria-label="Principal"]');assert(nav&&nav.querySelector(`a[href="${F}"][aria-current="page"]`)&&nav.querySelector('a[href="espanol.html"]'),F+' Spanish menu');
+ for(const x of Object.keys(T))assert(nav.querySelector(`a[href="${x}.html"]`),F+' menu links '+x);
+ const foot=d.querySelector('footer');assert(foot.querySelector('a.privacy-link[href="privacy.html"][hreflang="en"]')&&/Privacidad/.test(foot.textContent),F+' Spanish privacy link');
+ assert(foot.querySelector('a[href="about.html"][hreflang="en"]')&&!foot.querySelector('.related'),F+' Spanish footer');assert(/todavía no ha sido revisado/.test(foot.textContent)&&/no asesoría/.test(foot.textContent),F+' footer: general information, Spanish not yet reviewed');
+ assert(d.querySelector('main > .side-help > aside.urgent a[href="tel:988"]'),F+' crisis lines in the side note');
+ assert(!/undefined|null<|\[object|Veteran Home Guardians|vethomeguard\.org\/donate|paypal/i.test(html),F+' no template leaks or VHG donate links');
+ assert.equal(d.querySelector('header .lede').textContent,landing[F].intro,F+' opening from data/landing.json');
+ for(const a of d.querySelectorAll('header .hero-actions a'))assert(d.getElementById(a.getAttribute('href').slice(1)),F+' action lands on the page');
+ assert(new RegExp('Fuentes revisadas el '+data.checked_label+'\\.').test(d.getElementById('checked-line').textContent),F+' checked line in Spanish');
+ // FAQ structured data in Spanish, built from the answers shown
+ const lds=[...d.querySelectorAll('script[type="application/ld+json"]')].map(s=>JSON.parse(s.textContent));
+ assert(lds.find(x=>x['@type']==='BreadcrumbList'),F+' breadcrumb');const faq=lds.find(x=>x['@type']==='FAQPage');assert(faq&&faq.inLanguage==='es',F+' FAQ data in Spanish');
+ const items=[...d.querySelectorAll('#questions .faq-item')];assert.equal(items.length,endata.faq.length,F+' as many quick answers as the English guide');assert.equal(faq.mainEntity.length,items.length);
+ items.forEach((it,i)=>{assert.equal(text(it.querySelector('h3')),faq.mainEntity[i].name,F+' FAQ question matches the page');
+  assert.equal(text(it.querySelector('p')).replace(/\s*(\[\d+\])+$/,''),faq.mainEntity[i].acceptedAnswer.text,F+' FAQ answer matches the page');
+  assert.deepEqual([...it.querySelectorAll('a.cite')].map(a=>a.getAttribute('href').slice(5)),endata.faq[i].src,F+' answer '+i+' cites the English guide\'s sources');});
+ // sources: the English page each statement was read on, its checked date, and the Spanish page where the agency has one
+ for(const [id,s] of Object.entries(endata.sources)){const li=d.getElementById('src-'+id);assert(li,F+' source '+id);
+  assert(li.querySelector(`a[href="${s.url}"][hreflang="en"] span[lang="en"]`),F+' '+id+' links the English page, marked as English');assert(li.textContent.includes('revisada el '+data.checked_label),F+' '+id+' checked date');
+  const x=data.sources[id].es;if(x){assert(x.url.startsWith('https://'),F+' '+id+' Spanish page is secure');assert(li.querySelector(`a[href="${x.url}"][hreflang="es"]`),F+' '+id+' links the Spanish page');}}
+ assert.equal(d.querySelectorAll('#sources li').length,Object.keys(endata.sources).length,F+' no extra sources');
+ // sections, statements, steps and cards line up with the English guide, citation for citation
+ const phones=new Set();
+ for(const s of endata.sections){const sec=d.getElementById(s.id);assert(sec,F+' section '+s.id);assert(d.querySelector(`nav.toc a[href="#${s.id}"]`),F+' '+s.id+' in the jump list');
+  const lis=[...sec.querySelectorAll(':scope > ul > li')];assert.equal(lis.length,(s.points||[]).length,F+' '+s.id+' statements');
+  (s.points||[]).forEach((p,i)=>assert.deepEqual([...lis[i].querySelectorAll('a.cite')].map(a=>a.getAttribute('href').slice(5)),p.src,F+' '+s.id+' statement '+i));
+  const st=[...sec.querySelectorAll(':scope > ol.stepper > li')];assert.equal(st.length,(s.steps||[]).length,F+' '+s.id+' steps');
+  for(const c of s.cards||[]){const card=d.getElementById(c.id);assert(card&&card.querySelector('a.cite'),F+' '+c.id);
+   if(c.phone){const want='tel:'+c.phone.replace(/[^0-9+]/g,'');assert(card.querySelector(`a[href="${want}"]`),F+' '+c.id+' call link dials '+want);
+    if(c.record)assert.equal(digits(recs.get(c.record).phone),digits(c.phone),F+' '+c.id+' matches directory record');
+    phones.add(digits(c.phone));for(const m of String(c.phone_label||'').matchAll(/\d[\d-]{9,}\d/g))phones.add(digits(m[0]));}}}
+ for(const m of d.querySelector('main').textContent.matchAll(/\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}/g))assert(phones.has(digits(m[0])),F+' unsourced phone number on the page: '+m[0]);
+ for(const a of d.querySelectorAll('a[href^="tel:"]')){const h=a.getAttribute('href');assert(['tel:988','tel:711'].includes(h)||phones.has(digits(h)),F+' call link '+h);}
+ // links: secure, new tabs say so, anchors land, and a link to an English page of this site is marked as English
+ for(const a of d.querySelectorAll('a[href^="http:"]'))assert.fail(F+' insecure link '+a.href);
+ for(const a of d.querySelectorAll('a[target="_blank"]')){assert.equal(a.getAttribute('rel'),'noopener',F+' noopener');if(!a.closest('.featured-org'))assert(/se abre en otra pestaña/.test(a.textContent),F+' new tab says so in Spanish: '+a.href);}
+ for(const a of d.querySelectorAll('a[href^="#"]'))if(a.getAttribute('href').length>1)assert(d.getElementById(a.getAttribute('href').slice(1)),F+' anchor '+a.getAttribute('href'));
+ for(const a of d.querySelectorAll('a[href]')){const h=a.getAttribute('href');if(/^(https?:|mailto:|tel:|sms:|#)/.test(h)||a.closest('.featured-org'))continue;const file=h.split(/[?#]/)[0]||'index.html';
+  assert(fs.existsSync(file==='./'?'index.html':file),F+' internal link '+h);if(!SPANISH.has(file))assert.equal(a.getAttribute('hreflang'),'en',F+' link to an English page is marked: '+h);}
+ const allIds=[...d.querySelectorAll('[id]')].map(e=>e.id);assert.equal(new Set(allIds).size,allIds.length,F+' ids are unique');
+ for(const s of d.querySelectorAll('svg'))assert.equal(s.getAttribute('aria-hidden'),'true',F+' icon hidden from screen readers');
+ assert(hubLinks.includes(F),'the Spanish help page links '+F);
+ summary.push(`${F}: Spanish version of ${EN}, ${items.length} quick answers, ${Object.values(data.sources).filter(x=>x.es).length} Spanish-language source pages`);
+}
 console.log('PASS topic guides: '+summary.join('; ')+'. Every phone read on its source page; FAQ data matches the page; in the sitemap with canonical, share tags, ad code and the visit counter.');

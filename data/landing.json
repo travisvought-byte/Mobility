@@ -137,9 +137,45 @@
         {"label": "Appeal a denial", "href": "#appeal"}
       ]
     },
+    "accessible-travel.html": {
+      "audience": "A wheelchair user or other traveler with a disability, or a family member, planning a flight, a train or bus trip, or a national park visit.",
+      "intro": "Planning a trip with a wheelchair or another disability? Here is what airlines must do for you, how to get help at airport security, how to book accessible space on Amtrak and intercity buses, and how to get the free Access Pass for national parks. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Flying", "href": "#flying"},
+        {"label": "Airport security", "href": "#tsa"},
+        {"label": "If something goes wrong", "href": "#complaints"}
+      ]
+    },
+    "vehiculos-adaptados.html": {
+      "audience": "Una persona que usa silla de ruedas, o su familia, que prefiere leer en español y busca ayuda para pagar un vehículo adaptado o controles manuales.",
+      "intro": "¿Necesita una camioneta adaptada para silla de ruedas, controles manuales o un elevador? Aquí está quién puede ayudar a pagar: el VA, la rehabilitación vocacional, Medicaid, los fabricantes de autos, préstamos e impuestos. Cada afirmación indica la página oficial de donde proviene.",
+      "actions": [
+        {"label": "Antes de comprar", "href": "#before-you-buy"},
+        {"label": "Ayuda del VA", "href": "#va"},
+        {"label": "Reembolsos", "href": "#rebates"}
+      ]
+    },
+    "equipo-medico-gratis.html": {
+      "audience": "Una persona que necesita una silla de ruedas, una andadera u otro equipo médico, o su familia, que prefiere leer en español.",
+      "intro": "¿Necesita una silla de ruedas, una andadera u otro equipo y no puede pagarlo? Aquí está cómo pedirlo prestado, conseguirlo usado o recibir ayuda de Medicare, Medicaid, el VA o una subvención. Cada afirmación indica la página oficial de donde proviene.",
+      "actions": [
+        {"label": "Pedir prestado", "href": "#borrow-reuse"},
+        {"label": "Medicare", "href": "#medicare"},
+        {"label": "Medicaid", "href": "#medicaid"}
+      ]
+    },
+    "incapacidad-seguro-social.html": {
+      "audience": "Una persona que no puede trabajar por una discapacidad o enfermedad, o un familiar que le ayuda, que prefiere leer en español.",
+      "intro": "¿No puede trabajar por una discapacidad o enfermedad? Aquí está cómo funcionan los beneficios por incapacidad del Seguro Social: SSDI o SSI, cómo decide quién califica, qué reunir, qué pasa después de solicitar y cómo apelar una negación. Cada afirmación indica la página del Seguro Social de donde proviene.",
+      "actions": [
+        {"label": "Cómo solicitar", "href": "#apply"},
+        {"label": "¿SSDI o SSI?", "href": "#which-program"},
+        {"label": "Apelar una negación", "href": "#appeal"}
+      ]
+    },
     "espanol.html": {
       "audience": "Una persona con discapacidad, o su familia, que prefiere recibir ayuda en español.",
-      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. El resto de este sitio está en inglés por ahora.",
+      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Tres guías también están en español; el resto del sitio está en inglés por ahora.",
       "actions": [
         {"label": "Ayuda en su zona", "href": "#local-h"},
         {"label": "Beneficios y Medicare", "href": "#beneficios-h"},
