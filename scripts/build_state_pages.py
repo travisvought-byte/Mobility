@@ -189,6 +189,10 @@ def state_page(code,name,recs,national):
             s+=f'<h3>County and regional programs</h3><ul class="statelist">'+''.join(local_li(r) for r in l)+'</ul>'
         if k=='sensory':s+='<p class="meta">National services and every state’s programs: <a href="../blind-low-vision.html">Blind and low vision resources</a> · <a href="../deaf-hard-of-hearing.html">Deaf and hard of hearing resources</a> · <a href="../service-animals.html">Service animals: your rights and where to get a trained dog</a></p>'
         if k=='daily_living':s+='<p class="meta">Caring for a family member or a veteran? Respite, VA caregiver programs and paid family care: <a href="../caregiver-respite.html">Caregiver and respite help</a></p>'
+        # national how-to guides for the same need (added November 27, 2026)
+        if k=='equipment':s+='<p class="meta">Borrow or reuse equipment, and what Medicare, Medicaid and the VA pay, including repairs: <a href="../free-medical-equipment.html">Free and low-cost wheelchairs and equipment</a></p>'
+        if k=='transportation':s+='<p class="meta">Who helps pay for a wheelchair van, hand controls or a lift: <a href="../accessible-vehicles.html">Help paying for an accessible vehicle</a></p>'
+        if k=='benefits':s+='<p class="meta">Applying for SSDI or SSI, step by step, and appealing a denial: <a href="../social-security-disability.html">How to apply for Social Security disability</a></p>'
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
         secs.append(s+'</section>')
         counts.append(k)

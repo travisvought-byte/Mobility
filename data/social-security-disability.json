@@ -1,0 +1,168 @@
+{
+  "note": "Applying for Social Security disability benefits (SSDI and SSI), national. Every statement names the Social Security page or publication it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). Amounts are the ones Social Security published for 2026 and 2027, as read on that date. General information, not legal advice.",
+  "page": "social-security-disability.html",
+  "title": "How to apply for Social Security disability: SSDI and SSI, step by step",
+  "h1": "How to apply for Social Security disability",
+  "description": "How to apply for SSDI or SSI: who qualifies, what to gather, how long it takes, the 2026 and 2027 limits and how to appeal a denial within 60 days.",
+  "eyebrow": "SSDI · SSI · APPLY · APPEAL · EVERY STATE",
+  "correction_subject": "Social Security disability page",
+  "footer_note": "This is general information, not legal advice.",
+  "checked_on": "2026-11-27",
+  "checked_label": "November 27, 2026",
+  "start": "Social Security runs two disability programs with different rules. Gather what you can and apply. If the answer is no, you have 60 days to appeal.",
+  "start_paths": [
+    {"icon": "benefits", "who": "Not sure which program?", "text": "SSDI depends on your work record; SSI depends on income and savings.", "href": "#which-program"},
+    {"icon": "medical", "who": "Wondering if you qualify?", "text": "see how Social Security decides who is disabled.", "href": "#who-qualifies"},
+    {"icon": "document", "who": "Ready to apply?", "text": "what to gather and the steps after you send it.", "href": "#apply"},
+    {"icon": "rights_legal", "who": "Told no?", "text": "ask for reconsideration within 60 days.", "href": "#appeal"}
+  ],
+  "sources": {
+    "ssa-db-pub": {"title": "Disability Benefits (Publication No. 05-10029)", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/pubs/EN-05-10029.pdf", "page_date": "dated July 2026", "checked": "2026-11-27"},
+    "ssa-ssi-pub": {"title": "Supplemental Security Income (SSI) (Publication No. 05-11000)", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/pubs/EN-05-11000.pdf", "page_date": "dated April 2026", "checked": "2026-11-27"},
+    "ssa-apply-online": {"title": "Apply Online for Disability Benefits", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/applyfordisability/index.htm", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "ssa-sga": {"title": "Substantial Gainful Activity", "publisher": "Social Security Administration, Office of the Chief Actuary", "url": "https://www.ssa.gov/oact/cola/sga.html", "page_date": "current text as shown on the page, with 2027 amounts", "checked": "2026-11-27"},
+    "ssa-cola-2027": {"title": "2027 Cost-of-Living Adjustment (COLA) Fact Sheet", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/cola/factsheets/2027.html", "page_date": "certified October 14, 2026", "checked": "2026-11-27"},
+    "ssa-cal": {"title": "Compassionate Allowances", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/compassionateallowances/", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "ssa-recon": {"title": "Request reconsideration", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/apply/appeal-decision-we-made/request-reconsideration", "page_date": "page last modified September 12, 2025", "checked": "2026-11-27"}
+  },
+  "sections": [
+    {
+      "id": "which-program",
+      "title": "SSDI or SSI: which one fits",
+      "icon": "benefits",
+      "lead": "Social Security pays disability benefits through two programs: Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI).",
+      "lead_src": ["ssa-db-pub"],
+      "cards_first": true,
+      "cards": [
+        {
+          "id": "ssdi-card",
+          "name": "SSDI: based on your work",
+          "org": "Social Security Disability Insurance",
+          "text": "You earn credits by working and paying Social Security taxes, and Social Security cannot pay SSDI without enough credits. Some family members, such as a child under 18 or a spouse caring for your child under 16, may also get benefits on your record.",
+          "links": [{"label": "Disability Benefits booklet (PDF)", "href": "https://www.ssa.gov/pubs/EN-05-10029.pdf"}],
+          "src": ["ssa-db-pub"]
+        },
+        {
+          "id": "ssi-card",
+          "name": "SSI: based on income and savings",
+          "org": "Supplemental Security Income",
+          "text": "Monthly payments to adults and children with income and resources below set limits who are 65 or older, blind, or have a disability. A child with a disability whose parents have low income and resources may qualify.",
+          "links": [{"label": "SSI booklet (PDF)", "href": "https://www.ssa.gov/pubs/EN-05-11000.pdf"}],
+          "src": ["ssa-ssi-pub"]
+        }
+      ],
+      "points": [
+        {"text": "For SSI, your resources must generally be worth $2,000 or less, or $3,000 or less for a couple. The home and land where you live do not count, and usually your car does not either.", "src": ["ssa-ssi-pub"]},
+        {"text": "The basic federal SSI payment is $994 a month for one person and $1,491 for a couple in 2026, rising to $1,029 and $1,544 in 2027. The basic amount is the same nationwide; ask Social Security about your state’s amount.", "src": ["ssa-cola-2027", "ssa-ssi-pub"]}
+      ]
+    },
+    {
+      "id": "who-qualifies",
+      "title": "How Social Security decides who is disabled",
+      "icon": "medical",
+      "lead": "Social Security pays only for long-term, total disability: you cannot work because of a medical condition expected to last at least one year or result in death. It does not pay for partial or short-term disability.",
+      "lead_src": ["ssa-db-pub"],
+      "steps_title": "The five questions, in order",
+      "steps": [
+        {"text": "Are you working? Earnings above the monthly limit generally mean you are not considered disabled.", "src": ["ssa-db-pub", "ssa-sga"]},
+        {"text": "Is your medical condition severe?", "src": ["ssa-db-pub"]},
+        {"text": "Does your condition meet or medically equal one on Social Security’s list of impairments?", "src": ["ssa-db-pub"]},
+        {"text": "Can you do the work you did before?", "src": ["ssa-db-pub"]},
+        {"text": "Can you do any other type of work?", "src": ["ssa-db-pub"]}
+      ],
+      "points": [
+        {"text": "The monthly earnings limit, called substantial gainful activity (SGA), is $1,690 in 2026 and $1,770 in 2027. For people who are statutorily blind it is $2,830 in 2026 and $2,950 in 2027.", "src": ["ssa-sga"]},
+        {"text": "Some conditions, mainly certain cancers, adult brain disorders and a number of rare disorders, are on Social Security’s Compassionate Allowances list, which lets it find and decide those claims quickly. The same rules apply for SSDI and SSI.", "src": ["ssa-cal"]}
+      ]
+    },
+    {
+      "id": "apply",
+      "title": "How to apply",
+      "icon": "document",
+      "lead": "Apply as soon as you have a disability that keeps you from working.",
+      "lead_src": ["ssa-db-pub"],
+      "steps_title": "From application to decision",
+      "steps": [
+        {"text": "Gather what you can: your birth date and place, Social Security number, bank details for direct deposit, the names and contact details of your doctors and the medicines you take, and your work and earnings history. Social Security’s Adult Disability Checklist lists the rest.", "src": ["ssa-apply-online"]},
+        {"text": "Apply online, or call Social Security to set up an appointment by phone or at your local office.", "src": ["ssa-db-pub", "ssa-apply-online"]},
+        {"text": "Social Security confirms your application, online or by mail, and contacts you if it needs more information.", "src": ["ssa-apply-online"]},
+        {"text": "A state agency, Disability Determination Services, makes the first disability decision.", "src": ["ssa-db-pub"]},
+        {"text": "Social Security mails you its decision.", "src": ["ssa-apply-online"]}
+      ],
+      "points": [
+        {"text": "You can use the online application if you are 18 or older, cannot work because of a medical condition expected to last at least 12 months or result in death, do not already get benefits on your own record, and were not denied in the last 60 days.", "src": ["ssa-apply-online"]},
+        {"text": "Processing takes six to eight months on average. Sending the medical records and work history Social Security asks for may speed it up.", "src": ["ssa-db-pub"]}
+      ],
+      "cards": [
+        {
+          "id": "ssa-apply-card",
+          "name": "Apply for disability benefits",
+          "org": "Social Security Administration",
+          "text": "Start online, or call to apply by phone or make an appointment at your local office.",
+          "next": "Print the Adult Disability Checklist from the online application page and start filling it in.",
+          "record": "us-ssa-disability-apply",
+          "phone": "1-800-772-1213",
+          "phone_on_source": "1-800-772-1213",
+          "phone_label": "TTY: 1-800-325-0778",
+          "phone_src": "ssa-apply-online",
+          "links": [{"label": "Apply online for disability benefits", "href": "https://www.ssa.gov/applyfordisability/index.htm"}],
+          "src": ["ssa-apply-online", "ssa-db-pub"]
+        }
+      ]
+    },
+    {
+      "id": "after-approval",
+      "title": "After you are approved",
+      "icon": "clock",
+      "lead": "Some benefits start right away and some take time.",
+      "points": [
+        {"text": "SSDI generally has a five-month waiting period.", "src": ["ssa-db-pub"]},
+        {"text": "You get Medicare after you have received SSDI for two years.", "src": ["ssa-db-pub"]},
+        {"text": "If you get SSI, you may also get Medicaid, which helps pay doctor and hospital bills, and you may be able to get SNAP to help buy food.", "src": ["ssa-ssi-pub"]}
+      ],
+      "after": "<p>Your state’s Medicaid agency and free benefits counseling are on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?category=benefits\">benefits and health coverage</a> in the directory.</p>"
+    },
+    {
+      "id": "appeal",
+      "title": "If Social Security says no",
+      "icon": "rights_legal",
+      "lead": "Ask for reconsideration within 60 days.",
+      "lead_src": ["ssa-recon"],
+      "points": [
+        {"text": "You can start the request online or fill out and upload form SSA-561.", "src": ["ssa-recon"]},
+        {"text": "The appeal steps are reconsideration, a hearing, review of the hearing decision, and review by a federal district court.", "src": ["ssa-recon"]}
+      ],
+      "cards": [
+        {
+          "id": "ssa-appeal-card",
+          "name": "Request reconsideration",
+          "org": "Social Security Administration",
+          "text": "Social Security’s page for appealing a disability decision, with the online request and the upload form.",
+          "next": "Find the date on your decision letter and file before 60 days pass.",
+          "record": "us-ssa-appeal",
+          "phone": "1-800-772-1213",
+          "phone_on_source": "+1 800-772-1213",
+          "phone_label": "TTY: 1-800-325-0778",
+          "phone_src": "ssa-recon",
+          "links": [{"label": "Request reconsideration", "href": "https://www.ssa.gov/apply/appeal-decision-we-made/request-reconsideration"}],
+          "src": ["ssa-recon"]
+        }
+      ],
+      "after": "<p>Free help with an appeal: <a href=\"know-your-rights.html#benefit-denials\">Know your rights</a> lists who to call, and your state’s Protection and Advocacy agency and legal aid are on <a href=\"states/index.html\">your state’s page</a>.</p>"
+    }
+  ],
+  "faq": [
+    {"q": "What is the difference between SSDI and SSI?", "a": "SSDI depends on your work record: you need enough work credits from paying Social Security taxes. SSI pays adults and children with low income and resources who are 65 or older, blind, or have a disability.", "src": ["ssa-db-pub", "ssa-ssi-pub"]},
+    {"q": "How long does it take to get approved for disability?", "a": "Social Security says processing takes six to eight months on average. Sending the medical records and work history it asks for may speed it up.", "src": ["ssa-db-pub"]},
+    {"q": "How much can I earn and still qualify for disability?", "a": "Earnings above a monthly limit, called substantial gainful activity, generally mean you are not considered disabled. The limit is $1,690 a month in 2026 and $1,770 in 2027, or $2,830 and $2,950 for people who are statutorily blind.", "src": ["ssa-sga"]},
+    {"q": "How much does SSI pay?", "a": "The basic federal SSI payment is $994 a month for one person and $1,491 for a couple in 2026, and $1,029 and $1,544 in 2027.", "src": ["ssa-cola-2027"]},
+    {"q": "What can I do if my disability claim is denied?", "a": "Ask for reconsideration within 60 days, online or with form SSA-561. If that is denied too, the next steps are a hearing, review of the hearing decision, and federal district court.", "src": ["ssa-recon"]},
+    {"q": "When does Medicare start for people on SSDI?", "a": "After you have received disability benefits for two years.", "src": ["ssa-db-pub"]}
+  ],
+  "related": [
+    {"icon": "benefits", "href": "local-help.html?category=benefits", "label": "Benefits and health coverage in your state", "text": "Medicaid, Medicare counseling, ABLE accounts and benefits counseling"},
+    {"icon": "rights_legal", "href": "know-your-rights.html", "label": "Know your rights", "text": "which law, which office and what deadline"},
+    {"icon": "work_school", "href": "local-help.html?category=work_school", "label": "Work, school and training", "text": "vocational rehabilitation and job help"},
+    {"icon": "equipment", "href": "free-medical-equipment.html", "label": "Free and low-cost wheelchairs and equipment", "text": "borrow, reuse or get help paying"}
+  ]
+}

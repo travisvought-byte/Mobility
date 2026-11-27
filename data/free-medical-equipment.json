@@ -1,0 +1,193 @@
+{
+  "note": "Free and low-cost wheelchairs and medical equipment, national: borrowing, reuse, Medicare, Medicaid, VA and grants. Every statement names the official or primary page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). General information, not medical or legal advice.",
+  "page": "free-medical-equipment.html",
+  "title": "Free or low-cost wheelchairs and medical equipment: loan closets and reuse",
+  "h1": "Free and low-cost wheelchairs and equipment",
+  "description": "Borrow, reuse or get help paying for a wheelchair, walker or other equipment: state loan and reuse programs, Medicare, Medicaid, the VA and equipment grants.",
+  "eyebrow": "BORROW · REUSE · REPAIR · MEDICARE · MEDICAID · EVERY STATE",
+  "correction_subject": "Free and low-cost equipment page",
+  "footer_note": "This is general information, not medical or legal advice.",
+  "checked_on": "2026-11-27",
+  "checked_label": "November 27, 2026",
+  "start": "Need something now? Borrow while you wait. Need your own? Ask your coverage first, then look at reuse programs and grants.",
+  "start_paths": [
+    {"icon": "reuse", "who": "Need it soon, or only for a while?", "text": "borrow from a loan program or get used equipment.", "href": "#borrow-reuse"},
+    {"icon": "medical", "who": "On Medicare?", "text": "it covers medically necessary equipment and repairs to equipment you own.", "href": "#medicare"},
+    {"icon": "benefits", "who": "On Medicaid?", "text": "it covers equipment, and you can ask for an item that is not on your state’s list.", "href": "#medicaid"},
+    {"icon": "veterans", "who": "A veteran in VA health care?", "text": "VA provides equipment when you have a medical need.", "href": "#veterans"},
+    {"icon": "funding", "who": "Living with a neuromuscular disease?", "text": "an equipment grant may help.", "href": "#grants"}
+  ],
+  "sources": {
+    "acl-at": {"title": "Assistive Technology", "publisher": "Administration for Community Living", "url": "https://acl.gov/programs/assistive-technology/assistive-technology", "page_date": "page last modified July 31, 2026", "checked": "2026-11-27"},
+    "gotdme": {"title": "GotDME: Free Medical Equipment Lending Directory", "publisher": "GotDME, a project of Wheel It Forward", "url": "https://gotdme.org", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "reuse-locations": {"title": "AT Reuse Locations", "publisher": "National Reuse Locations Database (Pass It On Center, Georgia Tech)", "url": "https://pioc.gatech.edu/pioc/reuse_locations.php", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "medicare-dme": {"title": "Durable medical equipment (DME) coverage", "publisher": "Medicare.gov (Centers for Medicare & Medicaid Services)", "url": "https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "medicare-booklet": {"title": "Medicare Coverage of Durable Medical Equipment & Other Devices", "publisher": "Centers for Medicare & Medicaid Services", "url": "https://www.medicare.gov/publications/11045-medicare-coverage-of-dme-and-other-devices.pdf", "page_date": "dated February 2025", "checked": "2026-11-27"},
+    "ecfr-440-70": {"title": "42 CFR 440.70, home health services", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-440/subpart-A/section-440.70", "page_date": "eCFR text up to date as of October 22, 2026", "checked": "2026-11-27"},
+    "va-psas-about": {"title": "VA Prosthetic and Sensory Aids Service (PSAS)", "publisher": "U.S. Department of Veterans Affairs", "url": "https://www.rehab.va.gov/PROSTHETICS/psas/About_PSAS.asp", "page_date": "page last updated October 29, 2024", "checked": "2026-11-27"},
+    "va-psas": {"title": "Prosthetic and Sensory Aids Service", "publisher": "U.S. Department of Veterans Affairs", "url": "https://www.prosthetics.va.gov/psas/index.asp", "page_date": "page last updated April 2, 2026", "checked": "2026-11-27"},
+    "mda-dme": {"title": "Durable Medical Equipment Grant Program: frequently asked questions", "publisher": "Muscular Dystrophy Association", "url": "https://www.mda.org/care/resource-list/equipment-assistance/faq", "page_date": "page last modified July 8, 2025", "checked": "2026-11-27"}
+  },
+  "sections": [
+    {
+      "id": "borrow-reuse",
+      "title": "Borrow it or get it used: loan closets and reuse",
+      "icon": "reuse",
+      "lead": "Every state has a public assistive technology program that lends equipment and passes on equipment others no longer need.",
+      "lead_src": ["acl-at"],
+      "steps_title": "Where to look, in order",
+      "steps": [
+        {"text": "Call your state’s assistive technology (AT) program. Ask about a short-term loan while you wait, and about reused equipment you can keep.", "src": ["acl-at"]},
+        {"text": "Search GotDME for programs near you that lend or donate medical equipment.", "src": ["gotdme"]},
+        {"text": "Click your state in the national AT reuse database to find other reuse programs nearby.", "src": ["reuse-locations"]}
+      ],
+      "points": [
+        {"text": "Every state, D.C., Puerto Rico and the U.S. territories has a federally funded AT program.", "src": ["acl-at"]},
+        {"text": "AT programs run short-term device loans, so you can borrow equipment for a limited time and try it before you buy.", "src": ["acl-at"]},
+        {"text": "They run reuse programs that pass equipment the first owner no longer needs to a new owner, at substantial savings.", "src": ["acl-at"]},
+        {"text": "They hold demonstrations where you can compare devices with a professional’s help, and they help people buy equipment through financial loans and other means.", "src": ["acl-at"]}
+      ],
+      "cards": [
+        {
+          "id": "at-program-card",
+          "name": "Your state assistive technology program",
+          "org": "Federally funded through the Administration for Community Living",
+          "text": "Lends, demonstrates and passes on used equipment, and can tell you about loans to buy your own.",
+          "next": "Open the directory, choose your state and call. Say what you need and whether you need it now or for good.",
+          "links": [{"label": "State AT program directory", "href": "https://www.at3center.net/stateprogram"}],
+          "src": ["acl-at"]
+        },
+        {
+          "id": "gotdme-card",
+          "name": "GotDME lending directory",
+          "org": "GotDME, a project of Wheel It Forward",
+          "text": "A search tool for programs across the United States that lend or donate medical equipment for free.",
+          "next": "Search near you, then call to check what is in stock and who can borrow.",
+          "record": "us-gotdme",
+          "links": [{"label": "Search GotDME", "href": "https://gotdme.org"}],
+          "src": ["gotdme"]
+        },
+        {
+          "id": "reuse-card",
+          "name": "AT reuse locations",
+          "org": "National Reuse Locations Database",
+          "text": "A map and list of assistive technology reuse programs. Click a state to see its programs.",
+          "next": "Click your state and call the programs nearest you.",
+          "record": "us-pass-it-on-center-reuse-locations",
+          "links": [{"label": "Find reuse programs by state", "href": "https://pioc.gatech.edu/pioc/reuse_locations.php"}],
+          "src": ["reuse-locations"]
+        }
+      ],
+      "after": "<p>Your state’s AT program and local reuse and loan programs are also on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?category=equipment\">wheelchair or equipment</a> in the directory.</p>"
+    },
+    {
+      "id": "medicare",
+      "title": "Medicare: equipment and repairs",
+      "icon": "medical",
+      "lead": "Medicare Part B covers medically necessary durable medical equipment, such as wheelchairs, scooters, walkers and hospital beds.",
+      "lead_src": ["medicare-dme"],
+      "points": [
+        {"text": "Your doctor or other health care provider must prescribe it for use in your home.", "src": ["medicare-dme"]},
+        {"text": "After you meet the Part B deductible, you pay 20% of the Medicare-approved amount, if your supplier accepts assignment.", "src": ["medicare-dme"]},
+        {"text": "Use doctors and suppliers enrolled in Medicare, and ask before you get the equipment whether the supplier accepts assignment. One that does not may charge more and have you pay the full cost up front until Medicare pays you back.", "src": ["medicare-dme"]},
+        {"text": "Depending on the item, you may have to rent it, have to buy it, or be able to choose. Some items become yours after a set number of rental payments.", "src": ["medicare-dme"]},
+        {"text": "If you own the equipment, Medicare pays 80% of the Medicare-approved amount for repairs, up to the cost of replacing the item, and you pay the other 20%. The supplier that sold it to you does not have to repair it.", "src": ["medicare-booklet"]},
+        {"text": "If you rent it, repairs and replacement parts are the supplier’s responsibility.", "src": ["medicare-booklet"]}
+      ],
+      "cards": [
+        {
+          "id": "medicare-card",
+          "name": "1-800-MEDICARE",
+          "org": "Centers for Medicare & Medicaid Services",
+          "text": "Medicare’s booklet on equipment explains coverage, renting and buying, and repairs.",
+          "next": "Call to find a Medicare supplier that repairs your kind of equipment, or to ask why an item was denied.",
+          "record": "us-medicare-helpline",
+          "phone": "1-800-633-4227",
+          "phone_on_source": "1-800-633-4227",
+          "phone_label": "TTY: 1-877-486-2048",
+          "phone_src": "medicare-booklet",
+          "links": [
+            {"label": "Medicare equipment coverage", "href": "https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage"},
+            {"label": "Medicare equipment booklet (PDF)", "href": "https://www.medicare.gov/publications/11045-medicare-coverage-of-dme-and-other-devices.pdf"}
+          ],
+          "src": ["medicare-booklet", "medicare-dme"]
+        }
+      ],
+      "after": "<p>Equipment broken, or a supplier will not fix it? The <a href=\"mobility-rights.html\">next-step finder</a> walks through repair and denied coverage, and <a href=\"mobility-independence.html\">Repair and adapt</a> covers the right to repair.</p>"
+    },
+    {
+      "id": "medicaid",
+      "title": "Medicaid: equipment, and items not on the list",
+      "icon": "benefits",
+      "lead": "Under federal Medicaid rules, home health services include medical supplies, equipment and appliances suitable for use anywhere normal life activities take place.",
+      "lead_src": ["ecfr-440-70"],
+      "points": [
+        {"text": "States may keep a list of preapproved equipment for ease, but they may not have absolute exclusions of coverage for medical equipment, supplies or appliances.", "src": ["ecfr-440-70"]},
+        {"text": "Each state must have a process, with criteria, for asking for an item that is not on its list.", "src": ["ecfr-440-70"]},
+        {"text": "Medicaid’s coverage of equipment is not limited to the items Medicare covers as durable medical equipment.", "src": ["ecfr-440-70"]}
+      ],
+      "after": "<p>If Medicaid says no because an item is not on its list, ask your state Medicaid agency how to request it as an exception, and keep the denial letter. Your state’s Medicaid agency is on <a href=\"states/index.html\">your state’s page</a>, and <a href=\"know-your-rights.html\">Know your rights</a> covers appealing a benefit denial.</p>"
+    },
+    {
+      "id": "veterans",
+      "title": "Veterans: wheelchairs and equipment through VA",
+      "icon": "veterans",
+      "lead": "VA provides prosthetic items and equipment to veterans enrolled in VA health care who have a medical need for them.",
+      "lead_src": ["va-psas-about"],
+      "points": [
+        {"text": "Items include durable medical equipment and mobility aids, communication and assistive devices, home oxygen, aids for blindness and low vision, and repairs to custom orthotic and prosthetic devices.", "src": ["va-psas-about"]},
+        {"text": "Wheelchairs are among the items VA’s Prosthetic and Sensory Aids Service handles. For your own eligibility, VA says to contact the Prosthetic and Sensory Aids Service near you, which you can find with the VA facility locator.", "src": ["va-psas"]}
+      ],
+      "cards": [
+        {
+          "id": "va-psas-card",
+          "name": "VA Prosthetic and Sensory Aids Service",
+          "org": "U.S. Department of Veterans Affairs",
+          "text": "Provides equipment and services to veterans, from wheelchairs and home oxygen to hearing aids.",
+          "next": "Ask your VA care team about the equipment you need, or contact your local prosthetics office.",
+          "links": [{"label": "About VA prosthetics and equipment", "href": "https://www.prosthetics.va.gov/psas/index.asp"}],
+          "src": ["va-psas", "va-psas-about"]
+        }
+      ],
+      "after": "<p>Not yet in VA health care? Your county veterans service office can help you apply. It is on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?audience=veterans\">help for veterans</a> in the directory.</p>"
+    },
+    {
+      "id": "grants",
+      "title": "Equipment grants",
+      "icon": "funding",
+      "lead": "Some national groups for a condition help their members pay for equipment.",
+      "lead_src": ["mda-dme"],
+      "points": [
+        {"text": "The Muscular Dystrophy Association’s equipment grant gives up to $1,000 per calendar year to an MDA member living with a neuromuscular disease, toward items such as manual and power wheelchairs, scooters, lift chairs and batteries. Income does not affect eligibility.", "src": ["mda-dme"]},
+        {"text": "Apply before you order: MDA cannot pay back items already bought or ordered. You need a quote or unpaid invoice, the vendor’s W-9 and a letter of medical necessity from your health care provider.", "src": ["mda-dme"]}
+      ],
+      "cards": [
+        {
+          "id": "mda-card",
+          "name": "MDA Durable Medical Equipment Grant",
+          "org": "Muscular Dystrophy Association",
+          "text": "For children and adults living with neuromuscular diseases who are MDA members. One application per member per calendar year.",
+          "next": "Get a quote from your equipment supplier and a letter from your provider, then apply online before you order.",
+          "record": "us-mda-dme-grant",
+          "links": [{"label": "Grant questions and how to apply", "href": "https://www.mda.org/care/resource-list/equipment-assistance/faq"}],
+          "src": ["mda-dme"]
+        }
+      ],
+      "after": "<p>Living with another condition? The national groups under <a href=\"local-help.html?category=peer_support\">support groups</a> in the directory can tell you whether they help with equipment.</p>"
+    }
+  ],
+  "faq": [
+    {"q": "Where can I borrow a wheelchair for free?", "a": "Start with your state’s assistive technology program, which lends equipment for a limited time and passes on used equipment. GotDME and the national AT reuse database list other programs that lend or donate equipment.", "src": ["acl-at", "gotdme", "reuse-locations"]},
+    {"q": "Does Medicare pay for a wheelchair?", "a": "Medicare Part B covers medically necessary durable medical equipment, including wheelchairs and scooters, when your doctor or other provider prescribes it for use in your home. After the Part B deductible, you pay 20% of the Medicare-approved amount if the supplier accepts assignment.", "src": ["medicare-dme"]},
+    {"q": "Does Medicare pay to repair a wheelchair I own?", "a": "Yes. Medicare pays 80% of the Medicare-approved amount for repairs, up to the cost of replacing the item, and you pay 20%. The supplier that sold it to you does not have to do the repair. For rented equipment, repairs are the supplier’s responsibility.", "src": ["medicare-booklet"]},
+    {"q": "Medicaid says the item is not on its list. Can I still get it?", "a": "You can ask. Federal rules let states keep a list of preapproved equipment, but not absolute exclusions, and each state must have a process for requesting items that are not on its list.", "src": ["ecfr-440-70"]},
+    {"q": "Can veterans get a wheelchair from the VA?", "a": "VA provides equipment, including mobility aids, to veterans enrolled in VA health care who have a medical need for it. Contact the Prosthetic and Sensory Aids Service at your local VA for eligibility.", "src": ["va-psas-about", "va-psas"]},
+    {"q": "Are there grants for wheelchairs?", "a": "Some condition groups offer them. The Muscular Dystrophy Association gives MDA members with neuromuscular diseases up to $1,000 a calendar year toward items such as wheelchairs, scooters and lift chairs. Apply before you order.", "src": ["mda-dme"]}
+  ],
+  "related": [
+    {"icon": "wrench", "href": "mobility-independence.html", "label": "Repair and adapt", "text": "getting parts, fixing your own chair and the right to repair"},
+    {"icon": "navigation", "href": "mobility-rights.html", "label": "Find your next step", "text": "a short finder for repair, denied coverage and access problems"},
+    {"icon": "transportation", "href": "accessible-vehicles.html", "label": "Help paying for an accessible vehicle", "text": "VA grants, vocational rehab, Medicaid waivers and rebates"},
+    {"icon": "ramps_home", "href": "ramps-home-access.html", "label": "Ramps and home access", "text": "who pays for ramps and home changes"}
+  ]
+}

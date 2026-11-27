@@ -126,7 +126,7 @@
    "deadline": "Social Security says to request reconsideration within 60 days of receiving the decision. Other programs set their own deadlines; look on your notice or ask.",
    "deadline_chart": [{"label": "Ask Social Security for reconsideration, from receiving the decision", "value": "60 days", "days": 60}],
    "records": ["us-ssa-appeal", "us-ship-medicare-counseling", "us-medicare-rights-center"],
-   "more": [{"label": "Your state Medicaid agency and benefits help", "href": "local-help.html?category=benefits"}, {"label": "Equipment coverage denied: rules and next step for your state", "href": "mobility-rights.html"}]
+   "more": [{"label": "Your state Medicaid agency and benefits help", "href": "local-help.html?category=benefits"}, {"label": "Equipment coverage denied: rules and next step for your state", "href": "mobility-rights.html"}, {"label": "Applying for SSDI or SSI and appealing, step by step", "href": "social-security-disability.html"}, {"label": "Equipment Medicaid or Medicare will not pay for: other ways to get it", "href": "free-medical-equipment.html"}]
   },
   {
    "id": "abuse-neglect",

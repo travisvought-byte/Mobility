@@ -1,0 +1,244 @@
+{
+  "note": "Paying for a wheelchair accessible vehicle or vehicle adaptations, national. Every statement names the official or primary page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). Amounts are the ones the source page showed on the day it was read. General information, not legal, tax or financial advice.",
+  "page": "accessible-vehicles.html",
+  "title": "Wheelchair accessible vans and vehicle modifications: who helps pay",
+  "h1": "Help paying for an accessible vehicle",
+  "description": "Paying for a wheelchair accessible van, hand controls or a lift: VA grants, vocational rehab, Medicaid waivers, automaker rebates, loans and tax help.",
+  "eyebrow": "VEHICLES · HAND CONTROLS · LIFTS · VETERANS · EVERY STATE",
+  "correction_subject": "Accessible vehicles page",
+  "footer_note": "This is general information, not legal, tax or financial advice.",
+  "checked_on": "2026-11-27",
+  "checked_label": "November 27, 2026",
+  "start": "Some of the help below has to be approved before you buy, so the order matters. Start with a driving evaluation, then ask every program below that fits you before you sign anything.",
+  "start_paths": [
+    {"icon": "search", "who": "Everyone:", "text": "get evaluated and ask about money before you shop.", "href": "#before-you-buy"},
+    {"icon": "veterans", "who": "Veterans and service members:", "text": "a service-connected disability may qualify for a VA vehicle payment and adaptive equipment.", "href": "#va"},
+    {"icon": "work_school", "who": "Need the vehicle to get or keep a job?", "text": "ask your state vocational rehabilitation agency.", "href": "#vocational-rehab"},
+    {"icon": "benefits", "who": "On Medicaid?", "text": "ask whether your state waiver covers vehicle changes.", "href": "#medicaid"},
+    {"icon": "store", "who": "Buying new?", "text": "most automakers repay part of the cost of adaptive equipment.", "href": "#rebates"}
+  ],
+  "sources": {
+    "nhtsa-adapted": {"title": "Adapted Vehicles", "publisher": "National Highway Traffic Safety Administration (NHTSA)", "url": "https://www.nhtsa.gov/vehicle-safety/adapted-vehicles", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "nmeda-start": {"title": "Getting Started", "publisher": "National Mobility Equipment Dealers Association (NMEDA)", "url": "https://nmeda.org/resources/getting-started/", "page_date": "page last modified July 27, 2026", "checked": "2026-11-27"},
+    "nmeda-locator": {"title": "Find a QAP-Accredited Dealer Near You", "publisher": "National Mobility Equipment Dealers Association (NMEDA)", "url": "https://nmeda.org/resources/dealer-locator/", "page_date": "page last modified February 26, 2026", "checked": "2026-11-27"},
+    "nmeda-rebates": {"title": "Mobility Rebate Programs", "publisher": "National Mobility Equipment Dealers Association (NMEDA)", "url": "https://nmeda.org/consumer-resources/funding-2/", "page_date": "page last modified June 22, 2026", "checked": "2026-11-27"},
+    "aded-directory": {"title": "Find a driver rehabilitation specialist or provider", "publisher": "ADED: The Association for Driver Rehabilitation Specialists", "url": "https://www.aded.net/page/725", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "va-auto": {"title": "Automobile allowance and adaptive equipment", "publisher": "U.S. Department of Veterans Affairs", "url": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/", "page_date": "page last updated May 19, 2026", "checked": "2026-11-27"},
+    "va-rates": {"title": "Current special benefit allowances rates", "publisher": "U.S. Department of Veterans Affairs", "url": "https://www.va.gov/disability/compensation-rates/special-benefit-allowance-rates/", "page_date": "page last updated October 1, 2026", "checked": "2026-11-27"},
+    "va-aae": {"title": "Automobile Adaptive Equipment (AAE) program", "publisher": "U.S. Department of Veterans Affairs, Prosthetic and Sensory Aids Service", "url": "https://www.prosthetics.va.gov/psas/AAE.asp", "page_date": "page last updated September 30, 2026", "checked": "2026-11-27"},
+    "ecfr-361-5": {"title": "34 CFR 361.5, definitions for the State Vocational Rehabilitation Services Program", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-34/subtitle-B/chapter-III/part-361/subpart-A/section-361.5", "page_date": "eCFR text up to date as of October 23, 2026", "checked": "2026-11-27"},
+    "rsa-states": {"title": "State Vocational Rehabilitation Agencies", "publisher": "U.S. Department of Education, Rehabilitation Services Administration", "url": "https://rsa.ed.gov/about/states", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "ssa-pass": {"title": "SSI Spotlight on Plans to Achieve Self-Support", "publisher": "Social Security Administration", "url": "https://www.ssa.gov/ssi/spotlights/spot-plans-self-support.htm", "page_date": "2026 edition", "checked": "2026-11-27"},
+    "medicaid-1915c": {"title": "Home & Community-Based Services 1915(c)", "publisher": "Medicaid.gov (Centers for Medicare & Medicaid Services)", "url": "https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/home-community-based-services-1915c", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "medicaid-mi": {"title": "Michigan Waiver Factsheet", "publisher": "Medicaid.gov (Centers for Medicare & Medicaid Services)", "url": "https://www.medicaid.gov/medicaid/section-1115-demo/demonstration-and-waiver-list/Waiver-Descript-Factsheet/MI", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "acl-at": {"title": "Assistive Technology", "publisher": "Administration for Community Living", "url": "https://acl.gov/programs/assistive-technology/assistive-technology", "page_date": "page last modified July 31, 2026", "checked": "2026-11-27"},
+    "able-what": {"title": "What are ABLE Accounts?", "publisher": "ABLE National Resource Center", "url": "https://www.ablenrc.org/what-is-able/what-are-able-acounts/", "page_date": "page last modified September 14, 2026", "checked": "2026-11-27"},
+    "irs-502": {"title": "Publication 502 (2025), Medical and Dental Expenses", "publisher": "Internal Revenue Service", "url": "https://www.irs.gov/publications/p502", "page_date": "for use in preparing 2025 returns", "checked": "2026-11-27"}
+  },
+  "sections": [
+    {
+      "id": "before-you-buy",
+      "title": "Before you buy: the order that saves money",
+      "icon": "search",
+      "lead": "An evaluation tells you what equipment you need. Check with every program that might help pay before you spend anything, because some must approve first.",
+      "steps_title": "Five steps, in this order",
+      "steps": [
+        {"text": "Get a driving evaluation from a driver rehabilitation specialist. It looks at your vision, strength, coordination, judgment and ability to drive with the equipment, and you should get a written report with recommendations.", "src": ["nhtsa-adapted", "nmeda-start"]},
+        {"text": "Ask every program that might help pay before you buy. VA, for one, must approve the vehicle or equipment first.", "src": ["nhtsa-adapted", "va-auto"]},
+        {"text": "Choose a mobility dealer. Check that it is registered with NHTSA, and check its credentials, training and warranty. NMEDA advises confirming the seller is accredited under its Quality Assurance Program (QAP).", "src": ["nhtsa-adapted", "nmeda-start"]},
+        {"text": "Get on-the-road training and practice with a driver rehabilitation specialist before you drive with new equipment.", "src": ["nhtsa-adapted"]},
+        {"text": "Send the automaker its mobility reimbursement application, if it has one, to get part of the cost back.", "src": ["nmeda-start"]}
+      ],
+      "points": [
+        {"text": "NHTSA says a new vehicle modified with adaptive equipment can cost $20,000 to $80,000. Some equipment, like a seat-back cushion, can cost as little as $50, and hand controls can cost under $1,000.", "src": ["nhtsa-adapted"]},
+        {"text": "Vocational rehabilitation and workers’ compensation agencies may help pay for a driver evaluation, and health insurance may pay part or all of it.", "src": ["nhtsa-adapted"]}
+      ],
+      "cards": [
+        {
+          "id": "aded-card",
+          "name": "Find a driver rehabilitation specialist",
+          "org": "ADED: The Association for Driver Rehabilitation Specialists",
+          "text": "ADED trains and certifies driver rehabilitation specialists and driver educators. Its online directory lets you search for a Certified Driver Rehabilitation Specialist (CDRS), a driver rehabilitation provider or a mobility equipment dealer.",
+          "next": "Search for a CDRS near you and ask whether your vocational rehabilitation agency or health insurance can pay for the evaluation.",
+          "record": "us-aded-driver-rehab",
+          "links": [{"label": "Search the ADED directory", "href": "https://www.aded.net/page/725"}],
+          "src": ["aded-directory"]
+        }
+      ]
+    },
+    {
+      "id": "va",
+      "title": "VA help for veterans and service members",
+      "icon": "veterans",
+      "lead": "VA can pay toward a specially equipped vehicle and for adaptive equipment when a service-connected disability qualifies.",
+      "lead_src": ["va-auto"],
+      "points": [
+        {"text": "Effective October 1, 2026, VA may pay up to $27,908.90 toward a specially equipped vehicle. The seller files the claim with VA, and VA makes a one-time payment directly to the seller.", "src": ["va-rates"]},
+        {"text": "You need a service-connected disability, or one VA treats as service-connected, that includes at least one of these: loss, or permanent loss of use, of one or both feet or hands; permanent decreased vision in both eyes; a severe burn injury; or ALS.", "src": ["va-auto"]},
+        {"text": "Ankylosis (a stiff, fused joint) in one or both knees or hips qualifies for the adaptive-equipment grant only, not the vehicle payment.", "src": ["va-auto"]},
+        {"text": "Adaptive-equipment grants may cover features like power steering, brakes, seats, windows, or lift equipment to help you get into and out of the vehicle.", "src": ["va-auto"]},
+        {"text": "File and get VA’s approval before you buy. For the vehicle payment, apply online or mail VA Form 21-4502. For adaptive equipment, VA says to take VA Form 10-1394 to the prosthetic representative at your local VA medical center.", "src": ["va-auto"]},
+        {"text": "Adaptive equipment must be prescribed by a VA doctor or a Certified Driver Rehabilitation Specialist. VA’s equipment schedule also sets labor rates for installing, repairing, reinstalling and replacing it.", "src": ["va-aae"]},
+        {"text": "A second vehicle payment may be possible if you bought a vehicle with the first one 30 or more years ago, or if a natural disaster destroyed it through no fault of yours and insurance did not already cover the loss.", "src": ["va-auto"]},
+        {"text": "VA trains veterans and service members to drive their adapted vehicle through the VA Driver’s Rehabilitation Program.", "src": ["va-aae"]}
+      ],
+      "cards": [
+        {
+          "id": "va-auto-card",
+          "name": "VA automobile allowance and adaptive equipment",
+          "org": "U.S. Department of Veterans Affairs",
+          "text": "One page covers who qualifies, what the grants pay for and how to apply for each. The rates page shows the current vehicle payment.",
+          "next": "Apply and wait for approval before you buy a vehicle or equipment.",
+          "record": "va-automobile-adaptive-equipment",
+          "links": [
+            {"label": "Eligibility and how to apply", "href": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/"},
+            {"label": "Current special allowance rates", "href": "https://www.va.gov/disability/compensation-rates/special-benefit-allowance-rates/"}
+          ],
+          "src": ["va-auto", "va-rates"]
+        }
+      ],
+      "after": "<p>Free help with a VA claim: your county veterans service office is listed on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?audience=veterans\">help for veterans</a> in the directory.</p>"
+    },
+    {
+      "id": "vocational-rehab",
+      "title": "Vocational rehabilitation: when you need the vehicle for work",
+      "icon": "work_school",
+      "lead": "Your state vocational rehabilitation (VR) agency may help pay part or all of a vehicle modification.",
+      "lead_src": ["nhtsa-adapted"],
+      "points": [
+        {"text": "Federal VR rules treat vehicle modification as a rehabilitation technology service. They can count buying or repairing a vehicle, including a van, as transportation you need to take part in VR services.", "src": ["ecfr-361-5"]},
+        {"text": "There are 78 state VR agencies. In 22 states, people who are blind or have low vision are served by a separate agency for the blind.", "src": ["rsa-states"]},
+        {"text": "If you get SSI, or would qualify except for your income or savings, a Plan to Achieve Self-Support (PASS) lets you set money aside for a work goal without it counting against SSI. Transportation is one of the things a plan can pay for. Apply with form SSA-545-BK; Social Security can give you the number of a PASS specialist.", "src": ["ssa-pass"]}
+      ],
+      "cards": [
+        {
+          "id": "rsa-card",
+          "name": "State Vocational Rehabilitation Agencies",
+          "org": "U.S. Department of Education, Rehabilitation Services Administration",
+          "text": "The federal office that funds state VR agencies lists contact information for all 78 of them.",
+          "next": "Call your state’s VR agency, say you need a vehicle modification to work, and ask how to apply.",
+          "links": [{"label": "Find your state VR agency", "href": "https://rsa.ed.gov/about/states"}],
+          "src": ["rsa-states"]
+        }
+      ],
+      "after": "<p>Your state’s VR agency is also on <a href=\"states/index.html\">your state’s page</a> and under <a href=\"local-help.html?category=work_school\">work, school and training</a> in the directory.</p>"
+    },
+    {
+      "id": "medicaid",
+      "title": "Medicaid waivers that pay for vehicle changes",
+      "icon": "benefits",
+      "lead": "Some state Medicaid programs for care at home list vehicle modifications as a service.",
+      "lead_src": ["medicaid-mi"],
+      "points": [
+        {"text": "Medicaid home and community-based services (HCBS) waivers serve people who prefer to get long-term care at home or in the community. Each state builds its own, and states can propose services beyond the usual list.", "src": ["medicaid-1915c"]},
+        {"text": "Michigan’s MI Choice waiver, for people 65 or older and adults with physical disabilities who meet a nursing facility level of care, lists vehicle modifications among its services. It is one example.", "src": ["medicaid-mi"]},
+        {"text": "Each state chooses the most people a waiver will serve.", "src": ["medicaid-1915c"]}
+      ],
+      "after": "<p>Ask your state Medicaid agency, or your waiver case manager, whether a waiver you are in or could join covers vehicle modifications. Your state’s Medicaid agency is on <a href=\"states/index.html\">your state’s page</a>, and the <a href=\"mobility-rights.html\">next-step finder</a> shows sourced vehicle routes for some states.</p>"
+    },
+    {
+      "id": "rebates",
+      "title": "Automaker rebates for adaptive equipment",
+      "icon": "store",
+      "lead": "Most major automakers repay part of the cost of adaptive equipment, usually up to $1,000.",
+      "lead_src": ["nhtsa-adapted"],
+      "points": [
+        {"text": "NHTSA says the rebates are typically for vehicles less than one year old.", "src": ["nhtsa-adapted"]},
+        {"text": "NMEDA’s list shows most automakers offering up to $1,000. BMW and MINI list up to $2,500, and Audi up to $1,500 for hand controls or other approved devices. Some cover only new vehicles; some also cover certified pre-owned ones.", "src": ["nmeda-rebates"]},
+        {"text": "Each program has its own rules, so contact the manufacturer with questions.", "src": ["nmeda-rebates"]}
+      ],
+      "cards": [
+        {
+          "id": "rebates-card",
+          "name": "Mobility rebate programs by automaker",
+          "org": "National Mobility Equipment Dealers Association (NMEDA)",
+          "text": "One list of the automakers’ mobility rebate programs, with what each offers and how to reach it.",
+          "next": "Before you buy, check the rebate for the make you want and keep every receipt.",
+          "links": [{"label": "See the rebate list", "href": "https://nmeda.org/consumer-resources/funding-2/"}],
+          "src": ["nmeda-rebates"]
+        }
+      ]
+    },
+    {
+      "id": "loans-savings-taxes",
+      "title": "Low-cost loans, savings and tax help",
+      "icon": "funding",
+      "lead": "If programs will not cover it all, these can lower what you pay.",
+      "points": [
+        {"text": "Every state, D.C., Puerto Rico and the U.S. territories has a federally funded assistive technology (AT) program. Its state financing work helps people buy assistive technology through financial loans and other means.", "src": ["acl-at"]},
+        {"text": "An ABLE account lets a person whose disability began before age 46 save money. Transportation is one of the expenses it can pay for, and up to $100,000 in the account does not count as a resource for SSI.", "src": ["able-what"]},
+        {"text": "On federal taxes, the cost of special hand controls and other special equipment installed in a car for a person with a disability can count as a medical expense. So can the difference in cost between a regular car and a car specially designed to hold a wheelchair.", "src": ["irs-502"]},
+        {"text": "Only the part of your medical and dental expenses above 7.5% of your adjusted gross income counts, and the deduction is claimed on Schedule A as an itemized deduction.", "src": ["irs-502"]},
+        {"text": "Some states waive sales tax on adaptive devices when you have a doctor’s prescription for them.", "src": ["nhtsa-adapted"]},
+        {"text": "Workers’ compensation typically covers adaptive equipment needed because of a job-related injury. Auto insurance may cover all or part of it when the need comes from a crash.", "src": ["nhtsa-adapted"]}
+      ],
+      "cards": [
+        {
+          "id": "at-loans-card",
+          "name": "Your state assistive technology program",
+          "org": "Federally funded through the Administration for Community Living",
+          "text": "Each state’s AT program can tell you about its loans for assistive technology, and it also lends and demonstrates equipment.",
+          "next": "Ask whether its loan program covers vehicle modifications or adaptive driving equipment, and what the terms are.",
+          "links": [{"label": "State AT program directory", "href": "https://www.at3center.net/stateprogram"}],
+          "src": ["acl-at"]
+        }
+      ]
+    },
+    {
+      "id": "dealers",
+      "title": "Finding a dealer and checking the vehicle",
+      "icon": "wrench",
+      "lead": "Not every installer works to the same standard, so check before you buy.",
+      "lead_src": ["nmeda-start"],
+      "points": [
+        {"text": "NMEDA says some installers do not follow federal safety standards or third-party accreditation, and advises confirming the seller is QAP accredited before you buy.", "src": ["nmeda-start"]},
+        {"text": "NHTSA keeps a search of registered dealers and modifiers.", "src": ["nhtsa-adapted"]},
+        {"text": "Before buying a new vehicle, sit in it first. Check getting in and out, how well you can see, and its crash and rollover ratings.", "src": ["nhtsa-adapted"]},
+        {"text": "Regular maintenance keeps the vehicle and its adaptive equipment safe and reliable.", "src": ["nhtsa-adapted"]}
+      ],
+      "cards": [
+        {
+          "id": "nmeda-locator-card",
+          "name": "NMEDA dealer locator",
+          "org": "National Mobility Equipment Dealers Association (NMEDA)",
+          "text": "Search by distance or by state for QAP-accredited mobility equipment dealers. The search form asks for your name, email and phone.",
+          "next": "Ask the dealer about its QAP accreditation, warranty and service, and what funding it knows of in your state.",
+          "record": "us-nmeda-dealer-locator",
+          "links": [{"label": "Find a QAP-accredited dealer", "href": "https://nmeda.org/resources/dealer-locator/"}],
+          "src": ["nmeda-locator"]
+        },
+        {
+          "id": "nhtsa-card",
+          "name": "NHTSA Vehicle Safety Hotline",
+          "org": "National Highway Traffic Safety Administration (NHTSA)",
+          "text": "NHTSA’s adapted vehicles page links to the registered modifier search, vehicle ratings and recall checks.",
+          "next": "Check that your dealer is on the registered modifier search, and look up recalls before you buy.",
+          "record": "us-vehicle-adaptation",
+          "phone": "888-327-4236",
+          "phone_on_source": "888-327-4236",
+          "phone_label": "TTY: 888-275-9171",
+          "phone_src": "nhtsa-adapted",
+          "links": [
+            {"label": "Search registered modifiers", "href": "https://vpic.nhtsa.dot.gov/mid/home/ModifierSearch"},
+            {"label": "NHTSA adapted vehicles page", "href": "https://www.nhtsa.gov/vehicle-safety/adapted-vehicles"}
+          ],
+          "src": ["nhtsa-adapted"]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Does the VA pay for a wheelchair accessible van?", "a": "VA may pay up to $27,908.90 toward a specially equipped vehicle, effective October 1, 2026, for a veteran or service member whose service-connected disability qualifies. It is a one-time payment made to the seller. VA can also pay for adaptive equipment. Apply and get approval before you buy.", "src": ["va-rates", "va-auto"]},
+    {"q": "Will Medicaid pay for vehicle modifications?", "a": "Some state Medicaid home and community-based services waivers list vehicle modifications as a service, such as Michigan’s MI Choice waiver. It depends on your state and your waiver, so ask your state Medicaid agency or your case manager.", "src": ["medicaid-mi", "medicaid-1915c"]},
+    {"q": "How much does a wheelchair accessible vehicle cost?", "a": "NHTSA says a new vehicle modified with adaptive equipment can cost $20,000 to $80,000. Smaller changes cost less: hand controls can cost under $1,000.", "src": ["nhtsa-adapted"]},
+    {"q": "Do car companies give rebates for adaptive equipment?", "a": "Yes. Most major automakers offer rebates on adaptive equipment, usually up to $1,000, typically for vehicles less than a year old. A few offer more: BMW and MINI list up to $2,500 and Audi up to $1,500.", "src": ["nhtsa-adapted", "nmeda-rebates"]},
+    {"q": "Can vocational rehabilitation help pay for a vehicle?", "a": "It can. NHTSA says to contact your state vocational rehabilitation agency about help paying for a modification. Federal VR rules treat vehicle modification as a rehabilitation technology service and can count buying or repairing a vehicle as transportation needed for VR services.", "src": ["nhtsa-adapted", "ecfr-361-5"]},
+    {"q": "Can I deduct the cost of a wheelchair van on my taxes?", "a": "Part of it may count. The cost of special equipment installed in a car for a person with a disability, and the extra cost of a car specially designed to hold a wheelchair, can be medical expenses. Only medical expenses above 7.5% of your adjusted gross income count, as an itemized deduction.", "src": ["irs-502"]}
+  ],
+  "related": [
+    {"icon": "transportation", "href": "local-help.html?category=transportation", "label": "Transportation help in your state", "text": "rides, paratransit, driver rehabilitation and placards"},
+    {"icon": "equipment", "href": "free-medical-equipment.html", "label": "Free and low-cost wheelchairs and equipment", "text": "borrow, reuse or get help paying"},
+    {"icon": "ramps_home", "href": "ramps-home-access.html", "label": "Ramps and home access", "text": "who pays for ramps and home changes"},
+    {"icon": "navigation", "href": "mobility-rights.html", "label": "Find your next step", "text": "a short finder for equipment, coverage and access problems"}
+  ]
+}
