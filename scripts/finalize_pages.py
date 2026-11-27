@@ -114,6 +114,10 @@ COUNTER=('<!--gc--><script>window.goatcounter={path:function(){return "/mobility
 # Site icon for browser tabs, bookmarks and search results (the 404 page uses root paths; it is served at any depth).
 def icon(pre):return f'<!--icon--><link rel="icon" href="{pre}favicon.svg" type="image/svg+xml"><link rel="icon" href="{pre}favicon.ico" sizes="48x48"><link rel="apple-touch-icon" href="{pre}apple-touch-icon.png"><!--/icon-->'
 AD_LIST=ADS.load();AD_CLIENT=ADS.load_client()
+RELATED=('<!--related--><p class="related">More free guides: '
+         '<a href="https://guide.vethomeguard.org/">Veteran Resource Guide</a> (veterans and their families) · '
+         '<a href="https://www.yogamomtalk.com/">Yoga Mom Talk</a> (help for moms and families) · '
+         '<a href="https://ninas-map.com/">Nina\'s Map</a> (Native and Indigenous communities)</p><!--/related-->')
 for name in ALL+['404.html']:
     p=ROOT/name;t=re.sub(r'<!--gc-->.*?<!--/gc-->','',p.read_text(),flags=re.S)
     t=re.sub(r'<!--icon-->.*?<!--/icon-->','',t,flags=re.S)
@@ -132,6 +136,10 @@ for name in ALL+['404.html']:
           else f' · <a class="privacy-link" href="{pre}privacy.html">Privacy</a>')
     t,n=re.subn(r'(<footer[^>]*>\s*<p>.*?)(</p>)',lambda m:m.group(1)+link+m.group(2),t,count=1,flags=re.S)
     assert n==1,name+' has no footer line for the privacy link'
+    # sister guides for the same visitors: veterans, moms and families, Native communities (owner direction, November 26, 2026)
+    t=re.sub(r'<!--related-->.*?<!--/related-->','',t,flags=re.S)
+    if name!='espanol.html' and not name.startswith('lite/'):
+        t=t.replace('</footer>',RELATED+'</footer>',1)
     # advertising: only where data/ads.json has an active ad for this page's slot; otherwise nothing is written
     t=ADS.apply(t,name,AD_LIST,AD_CLIENT)
     assert t.count('</head>')==1,name
