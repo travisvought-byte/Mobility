@@ -195,6 +195,8 @@ def state_page(code,name,recs,national):
         if k in ('ramps_home','funding'):s+='<p class="meta">Current limits for VA home grants, USDA repair loans and grants, Medicaid waivers and the tax rules: <a href="../home-modifications.html">Help paying for home modifications</a></p>'
         if k=='benefits':s+='<p class="meta">Applying for SSDI or SSI, step by step, and appealing a denial: <a href="../social-security-disability.html">How to apply for Social Security disability</a></p>'
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'
+        if k=='housing':s+='<p class="meta">Section 8 and disability, Mainstream vouchers, Section 811, public housing accommodations and fair housing complaints: <a href="../disability-housing.html">Housing help for people with disabilities</a></p>'
+        if k=='work_school':s+='<p class="meta">What vocational rehabilitation pays for, Ticket to Work and keeping SSDI or SSI while you work: <a href="../disability-jobs.html">Jobs and work with a disability</a></p>'
         secs.append(s+'</section>')
         counts.append(k)
         SHOWN.add(k)

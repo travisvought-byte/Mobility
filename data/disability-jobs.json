@@ -1,0 +1,970 @@
+{
+ "note": "Work and jobs with a disability, national: state vocational rehabilitation (eligibility, the presumption for Social Security beneficiaries, the 60-day and 90-day deadlines, services, pre-employment transition services for students, cost sharing and the order of selection, from 34 CFR Part 361 and RSA), Ticket to Work (Choose Work), Social Security's work rules for SSDI (substantial gainful activity and the trial work period for 2026 and 2027 from SSA's Office of the Chief Actuary; the extended period of eligibility, Medicare, expedited reinstatement and IRWE from the 2026 Red Book) and SSI (the earned income exclusion, the student earned income exclusion for 2026, Sections 1619(a) and 1619(b), PASS), ABLE accounts (IRS for 2026 contribution limits and the extra amount for workers; SSA for how SSI treats an account), Schedule A federal hiring and Selective Placement Program Coordinators (USAJOBS, OPM), AbilityOne, ADA employment rights (42 U.S.C. 12111 and 12112, EEOC filing time limits) and the Job Accommodation Network, and free benefits counseling (WIPA), PABSS and American Job Centers. Every statement names the official page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). The Social Security disability guide keeps applying and appealing, and the rights page keeps the EEOC and Client Assistance Program steps; this page links to them. Left out on purpose: the SSA ABLE spotlight's 2026 contribution limit (it gives two different amounts; IRS's figure is used), the dollar amounts of the 1619(b) thresholds (they differ by state), the EEOC's phone numbers and the American Job Center phone line (not shown on the pages read), the count of AbilityOne workers, and any business or private staffing agency.",
+ "page": "disability-jobs.html",
+ "title": "Jobs with a disability: vocational rehab, Ticket to Work and keeping benefits",
+ "h1": "Jobs and work with a disability",
+ "description": "Free job help from vocational rehab and Ticket to Work, Social Security work rules for 2026 and 2027, ABLE accounts, Schedule A federal jobs and accommodations.",
+ "eyebrow": "VOCATIONAL REHAB · TICKET TO WORK · SSDI AND SSI WORK RULES · ABLE · FEDERAL JOBS · ACCOMMODATIONS",
+ "correction_subject": "Disability jobs page",
+ "footer_note": "This is general information, not legal or benefits advice.",
+ "checked_on": "2026-11-27",
+ "checked_label": "November 27, 2026",
+ "start": "If you want help getting a job, start with your state vocational rehabilitation agency. If you get SSDI or SSI, talk to a free benefits counselor before you take a job or a raise, so you know how your earnings will affect your check and your health coverage.",
+ "start_paths": [
+  {
+   "icon": "work_school",
+   "who": "Want help finding or keeping a job?",
+   "text": "State vocational rehabilitation pays for training, equipment and job placement.",
+   "href": "#vr"
+  },
+  {
+   "icon": "document",
+   "who": "On SSDI or SSI and age 18 to 64?",
+   "text": "Ticket to Work connects you with free job services.",
+   "href": "#ticket"
+  },
+  {
+   "icon": "benefits",
+   "who": "Worried about losing SSDI?",
+   "text": "You can test your ability to work for at least 9 months.",
+   "href": "#ssdi-work"
+  },
+  {
+   "icon": "funding",
+   "who": "On SSI?",
+   "text": "Only part of your earnings counts, and Medicaid can continue.",
+   "href": "#ssi-work"
+  },
+  {
+   "icon": "chart",
+   "who": "Want to save without losing benefits?",
+   "text": "SSI ignores the first $100,000 in an ABLE account.",
+   "href": "#able"
+  },
+  {
+   "icon": "shield",
+   "who": "Interested in a federal job?",
+   "text": "Schedule A lets agencies hire you without the usual competition.",
+   "href": "#federal-jobs"
+  },
+  {
+   "icon": "rights_legal",
+   "who": "Need a change at work?",
+   "text": "Employers with 15 or more employees must make reasonable accommodations.",
+   "href": "#accommodations"
+  },
+  {
+   "icon": "chat_q",
+   "who": "Not sure how a job will affect your benefits?",
+   "text": "Free benefits counseling explains it.",
+   "href": "#counseling"
+  }
+ ],
+ "sections": [
+  {
+   "id": "vr",
+   "title": "State vocational rehabilitation (VR)",
+   "icon": "work_school",
+   "lead": "Every state has a vocational rehabilitation agency that helps people with disabilities prepare for, get and keep a job. Some states have a separate agency for people who are blind or have low vision.",
+   "lead_src": [
+    "rsa-vr",
+    "rsa-states"
+   ],
+   "steps_title": "From application to a plan for employment",
+   "steps": [
+    {
+     "text": "Contact your state VR agency and apply. Your application counts once you complete and sign its form or otherwise ask for services, give the information it needs to start an assessment, and are available for it.",
+     "src": [
+      "rsa-states",
+      "cfr-361-41"
+     ]
+    },
+    {
+     "text": "VR must decide whether you are eligible within 60 days, unless circumstances beyond its control get in the way and you agree to a specific extension.",
+     "src": [
+      "cfr-361-41"
+     ]
+    },
+    {
+     "text": "Once you are eligible, you and your counselor write an individualized plan for employment, as soon as possible and within 90 days unless you both agree to a later date.",
+     "src": [
+      "cfr-361-45"
+     ]
+    },
+    {
+     "text": "You and a qualified VR counselor both sign the plan, and VR provides the services in it.",
+     "src": [
+      "cfr-361-45"
+     ]
+    }
+   ],
+   "points": [
+    {
+     "text": "You are eligible if you have a physical or mental impairment that is a substantial barrier to employment, and you need VR services to prepare for, get, keep, advance in or regain a job.",
+     "src": [
+      "cfr-361-42"
+     ]
+    },
+    {
+     "text": "If Social Security has found you eligible for SSDI or SSI, you are presumed eligible for VR and treated as having a significant disability.",
+     "src": [
+      "cfr-361-42"
+     ]
+    },
+    {
+     "text": "VR services can include counseling and guidance, job search and placement, vocational and other training, transportation, rehabilitation technology, interpreter services, supported employment, personal assistance services, occupational licenses, tools and equipment, and help starting a small business.",
+     "src": [
+      "cfr-361-48"
+     ]
+    },
+    {
+     "text": "VR can pay for training at a college or university only after you and VR have made maximum efforts to get grant aid from other sources.",
+     "src": [
+      "cfr-361-48"
+     ]
+    },
+    {
+     "text": "Students with disabilities can get pre-employment transition services: job exploration counseling, work-based learning, counseling on college and training programs, workplace readiness training and instruction in self-advocacy.",
+     "src": [
+      "cfr-361-48",
+      "rsa-vr"
+     ]
+    },
+    {
+     "text": "Federal rules do not require a financial needs test. A state may use one for some services, but never for assessment, counseling, job-related services, personal assistance services or interpreters, and never for anyone found eligible for Social Security disability benefits.",
+     "src": [
+      "cfr-361-54"
+     ]
+    },
+    {
+     "text": "If a state cannot serve everyone who is eligible, it must use an order of selection that serves people with the most significant disabilities first. People already receiving services keep getting them.",
+     "src": [
+      "cfr-361-36"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "vr-card",
+     "name": "State vocational rehabilitation agencies",
+     "org": "U.S. Department of Education, Rehabilitation Services Administration",
+     "text": "The federal list of all 78 state VR agencies, with phone numbers and websites, including the separate agencies for people who are blind.",
+     "next": "Find your state’s agency and ask how to apply.",
+     "links": [
+      {
+       "label": "Find your state VR agency",
+       "href": "https://rsa.ed.gov/about/states"
+      },
+      {
+       "label": "VR and job programs in your state",
+       "href": "local-help.html?category=work_school"
+      }
+     ],
+     "src": [
+      "rsa-states"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">VR turned you down, or is slow or cutting services? Your state’s Client Assistance Program can help: <a href=\"know-your-rights.html#agency-problems\">Know your rights: when a VR agency turns you down</a> · VR can also help pay for vehicle changes you need for work: <a href=\"accessible-vehicles.html#vocational-rehab\">Help paying for an accessible vehicle</a></p>"
+  },
+  {
+   "id": "ticket",
+   "title": "Ticket to Work",
+   "icon": "document",
+   "lead": "Ticket to Work is Social Security’s free, voluntary program for people with disabilities who want to work. It connects you with employment service providers at no cost to you.",
+   "lead_src": [
+    "choosework-how",
+    "choosework-about"
+   ],
+   "points": [
+    {
+     "text": "Everyone age 18 through 64 who receives SSDI or SSI because of a disability is eligible.",
+     "src": [
+      "choosework-how"
+     ]
+    },
+    {
+     "text": "You can work with an Employment Network or your state VR agency. They offer career counseling, vocational rehabilitation, and job placement and training, and an Employment Network can keep helping after you start working.",
+     "src": [
+      "choosework-how",
+      "choosework-findhelp"
+     ]
+    },
+    {
+     "text": "If you assign your Ticket to an approved provider before you receive a notice of a continuing disability review, Social Security will not review your medical condition.",
+     "src": [
+      "choosework-how"
+     ]
+    },
+    {
+     "text": "Social Security’s Find Help tool lists providers serving your ZIP code, and you can filter by type of provider, by in-person or virtual services, and by the disabilities they serve.",
+     "src": [
+      "choosework-findhelp"
+     ]
+    },
+    {
+     "text": "Many American Job Centers are also Employment Networks and can accept your Ticket.",
+     "src": [
+      "redbook-supports"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "ticket-card",
+     "name": "Ticket to Work Help Line",
+     "org": "Social Security Administration",
+     "text": "Checks whether you are eligible for Ticket to Work and helps you find Employment Networks, VR agencies and benefits counselors.",
+     "next": "Call the Help Line, or use the Find Help tool to get a list of providers near you.",
+     "phone": "1-866-968-7842",
+     "phone_on_source": "1-866-968-7842",
+     "phone_src": "choosework-about",
+     "phone_label": "Monday to Friday, 8 a.m. to 8 p.m. Eastern; TTY 1-866-833-2967",
+     "record": "us-ticket-to-work-find-help",
+     "links": [
+      {
+       "label": "Find Help: providers near you",
+       "href": "https://choosework.ssa.gov/findhelp"
+      },
+      {
+       "label": "How Ticket to Work works",
+       "href": "https://choosework.ssa.gov/about/how-it-works"
+      }
+     ],
+     "src": [
+      "choosework-about",
+      "choosework-how"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ssdi-work",
+   "title": "Working while on SSDI",
+   "icon": "benefits",
+   "lead": "Social Security disability (SSDI) has rules that let you try working without losing your benefits right away, and that keep your Medicare going after you return to work.",
+   "lead_src": [
+    "redbook-ssdi"
+   ],
+   "table": {
+    "caption": "Social Security’s monthly earnings amounts",
+    "headers": [
+     "Year",
+     "Substantial gainful activity, not blind",
+     "Substantial gainful activity, blind",
+     "Trial work period month"
+    ],
+    "rows": [
+     [
+      "2026",
+      "$1,690",
+      "$2,830",
+      "$1,210"
+     ],
+     [
+      "2027",
+      "$1,770",
+      "$2,950",
+      "$1,270"
+     ]
+    ],
+    "src": [
+     "ssa-sga",
+     "ssa-twp"
+    ]
+   },
+   "steps_title": "What happens when you work on SSDI",
+   "steps": [
+    {
+     "text": "Trial work period: you can test your ability to work for at least 9 months, not necessarily in a row, within a 60-month period, and still be considered disabled.",
+     "src": [
+      "redbook-ssdi",
+      "ssa-twp"
+     ]
+    },
+    {
+     "text": "Extended period of eligibility: during its first 36 months, you get benefits for every month your earnings are below the substantial gainful activity level.",
+     "src": [
+      "redbook-ssdi"
+     ]
+    },
+    {
+     "text": "If your benefits stop because of work, you can ask for expedited reinstatement within 5 years, and get up to 6 months of temporary benefits while Social Security reviews your case.",
+     "src": [
+      "redbook-both"
+     ]
+    }
+   ],
+   "points": [
+    {
+     "text": "Substantial gainful activity is the monthly earnings level that decides whether you can get disability benefits: in 2026, $1,690 a month, or $2,830 if you are blind. In 2027 it rises to $1,770 and $2,950.",
+     "src": [
+      "ssa-sga"
+     ]
+    },
+    {
+     "text": "Any month you earn more than $1,210 in 2026, or $1,270 in 2027, counts as a trial work month. So does a month with more than 80 hours of self-employment.",
+     "src": [
+      "ssa-twp",
+      "redbook-ssdi"
+     ]
+    },
+    {
+     "text": "The trial work period applies to SSDI, not to SSI.",
+     "src": [
+      "ssa-twp"
+     ]
+    },
+    {
+     "text": "When your disability is found to have stopped because of work, Social Security pays benefits for that month and the next 2 months, called the grace period.",
+     "src": [
+      "redbook-ssdi"
+     ]
+    },
+    {
+     "text": "Medicare can continue for at least 93 months after your trial work period ends, and after that you can buy Medicare coverage.",
+     "src": [
+      "redbook-ssdi"
+     ]
+    },
+    {
+     "text": "Social Security subtracts impairment-related work expenses, such as a wheelchair, braces or other devices you need to work, from your earnings, even if you also use them outside work.",
+     "src": [
+      "redbook-both"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">Applying for SSDI or SSI, how the decision is made and how to appeal: <a href=\"social-security-disability.html\">How to apply for Social Security disability</a></p>"
+  },
+  {
+   "id": "ssi-work",
+   "title": "Working while on SSI",
+   "icon": "funding",
+   "lead": "Supplemental Security Income (SSI) counts only part of what you earn, can keep paying while you work, and lets Medicaid continue after the payments stop.",
+   "lead_src": [
+    "redbook-ssi"
+   ],
+   "points": [
+    {
+     "text": "Social Security does not count the first $65 you earn in a month, or half of the rest, on top of the $20 general income exclusion.",
+     "src": [
+      "redbook-ssi"
+     ]
+    },
+    {
+     "text": "If you are under 22 and regularly attending school, the student earned income exclusion leaves out up to $2,410 of earnings a month in 2026, up to $9,730 for the year.",
+     "src": [
+      "redbook-ssi"
+     ]
+    },
+    {
+     "text": "Under Section 1619(a), SSI payments can continue even when your earnings reach the substantial gainful activity level, as long as you meet the other rules.",
+     "src": [
+      "redbook-ssi"
+     ]
+    },
+    {
+     "text": "Under Section 1619(b), Medicaid can continue after your SSI payments stop, until your earnings reach a threshold that differs by state.",
+     "src": [
+      "redbook-ssi"
+     ]
+    },
+    {
+     "text": "A Plan to Achieve Self-Support (PASS) lets you set aside income other than SSI, and savings, for a set time to reach a specific work goal. Social Security prefers form SSA-545-BK, and specially trained PASS specialists work with these plans.",
+     "src": [
+      "redbook-both"
+     ]
+    },
+    {
+     "text": "A PASS can help someone on SSDI qualify for SSI, by setting aside part of the SSDI for the plan.",
+     "src": [
+      "redbook-both"
+     ]
+    },
+    {
+     "text": "Social Security leaves impairment-related work expenses out of your earned income when it figures your SSI payment.",
+     "src": [
+      "redbook-both"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "able",
+   "title": "ABLE accounts and work",
+   "icon": "chart",
+   "lead": "An ABLE account is a savings account for a person with a disability. SSI ignores the first $100,000 in it, and money taken out for qualified disability expenses is not taxable income.",
+   "lead_src": [
+    "irs-able",
+    "ssa-able"
+   ],
+   "points": [
+    {
+     "text": "Starting in 2026, you can open an ABLE account if your disability or blindness began before age 46. Before 2026 the limit was age 26.",
+     "src": [
+      "irs-able",
+      "ssa-able"
+     ]
+    },
+    {
+     "text": "For 2026, total contributions to an ABLE account are generally limited to $20,000 a year, up from $19,000 in 2025.",
+     "src": [
+      "irs-able"
+     ]
+    },
+    {
+     "text": "If you work, you can put in more, up to your pay for the year or the poverty line for one person, whichever is less. You cannot add this extra amount if your employer contributed for you to certain retirement plans, such as a 401(a), 403(a), 403(b) or 457(b) plan.",
+     "src": [
+      "irs-able"
+     ]
+    },
+    {
+     "text": "You may be able to claim the Saver’s Credit for money you put into your own ABLE account.",
+     "src": [
+      "irs-able"
+     ]
+    },
+    {
+     "text": "SSI ignores the first $100,000 in an ABLE account. Above that, SSI payments are suspended until your countable resources are back under the limit, but Medicaid continues.",
+     "src": [
+      "ssa-able"
+     ]
+    },
+    {
+     "text": "Money taken out for qualified disability expenses is not taxable income. Money taken out for housing, if you keep it into the next month, counts as a resource for SSI.",
+     "src": [
+      "ssa-able"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "federal-jobs",
+   "title": "Federal jobs: Schedule A hiring and AbilityOne",
+   "icon": "shield",
+   "lead": "Federal agencies can hire people with disabilities through a special hiring authority called Schedule A, without the usual competitive process. AbilityOne offers jobs with nonprofit agencies for people who are blind or have significant disabilities.",
+   "lead_src": [
+    "usajobs-disability",
+    "usagov-jobs"
+   ],
+   "points": [
+    {
+     "text": "You can use Schedule A if you have an intellectual disability, a severe physical disability or a psychiatric disability.",
+     "src": [
+      "usajobs-disability"
+     ]
+    },
+    {
+     "text": "You need a proof of disability letter from your doctor or another licensed medical professional, a licensed vocational rehabilitation specialist, or any federal, state or local agency that issues or provides disability benefits.",
+     "src": [
+      "usajobs-disability"
+     ]
+    },
+    {
+     "text": "In your USAJOBS profile, select the Individuals with disabilities hiring path, upload your letter, and mention that you are eligible for Schedule A on your resume and cover letter.",
+     "src": [
+      "usajobs-disability"
+     ]
+    },
+    {
+     "text": "Most federal agencies have a Selective Placement Program Coordinator who helps recruit, hire and accommodate people with disabilities, and can guide you through applying.",
+     "src": [
+      "opm-sppc",
+      "usajobs-disability"
+     ]
+    },
+    {
+     "text": "AbilityOne helps people who are blind or have significant disabilities find jobs with nonprofit agencies nationwide. The U.S. AbilityOne Commission, an independent federal agency, oversees about 400 of these nonprofit agencies.",
+     "src": [
+      "usagov-jobs",
+      "abilityone-home"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "schedule-a-card",
+     "name": "Schedule A hiring on USAJOBS",
+     "org": "U.S. Office of Personnel Management",
+     "text": "The federal hiring path for people with disabilities, with what the proof of disability letter needs and how to apply.",
+     "next": "Get your proof of disability letter, then apply on USAJOBS with the Individuals with disabilities hiring path selected.",
+     "links": [
+      {
+       "label": "USAJOBS: individuals with disabilities",
+       "href": "https://help.usajobs.gov/working-in-government/unique-hiring-paths/individuals-with-disabilities"
+      },
+      {
+       "label": "Selective Placement Program Coordinator directory",
+       "href": "https://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/"
+      }
+     ],
+     "src": [
+      "usajobs-disability",
+      "opm-sppc"
+     ]
+    },
+    {
+     "id": "abilityone-card",
+     "name": "AbilityOne",
+     "org": "U.S. AbilityOne Commission",
+     "text": "Jobs with nonprofit agencies across the country for people who are blind or have significant disabilities.",
+     "record": "us-abilityone",
+     "links": [
+      {
+       "label": "AbilityOne employment resources",
+       "href": "https://www.abilityone.gov/abilityone_network/employment.html"
+      }
+     ],
+     "src": [
+      "usagov-jobs",
+      "abilityone-home"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "accommodations",
+   "title": "Job accommodations and your ADA rights",
+   "icon": "rights_legal",
+   "lead": "The Americans with Disabilities Act requires employers with 15 or more employees to make reasonable accommodations for a qualified worker or applicant with a disability, unless the change would cause undue hardship.",
+   "lead_src": [
+    "usc-12111",
+    "usc-12112"
+   ],
+   "points": [
+    {
+     "text": "Reasonable accommodations include making the workplace accessible, restructuring a job, part-time or changed schedules, reassignment to a vacant position, new or changed equipment, and readers or interpreters.",
+     "src": [
+      "usc-12111"
+     ]
+    },
+    {
+     "text": "Undue hardship means significant difficulty or expense.",
+     "src": [
+      "usc-12111"
+     ]
+    },
+    {
+     "text": "Before a job offer, an employer may not give you a medical exam or ask whether you have a disability or how severe it is. It may ask whether you can do the job’s functions.",
+     "src": [
+      "usc-12112"
+     ]
+    },
+    {
+     "text": "After a job offer, an employer may require a medical exam only if everyone entering that job has one, regardless of disability.",
+     "src": [
+      "usc-12112"
+     ]
+    },
+    {
+     "text": "A job discrimination charge generally must be filed with the EEOC within 180 calendar days, or 300 days where a state or local agency enforces a law against the same discrimination. Federal employees and applicants generally must contact their agency’s EEO counselor within 45 days.",
+     "src": [
+      "eeoc-time"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "jan-card",
+     "name": "Job Accommodation Network (JAN)",
+     "org": "Job Accommodation Network (JAN)",
+     "text": "Free, expert and confidential advice on workplace accommodations and the ADA, for workers, job seekers and employers.",
+     "next": "Call or look up your condition in JAN’s A to Z list to see accommodations that have worked for others.",
+     "phone": "800-526-7234",
+     "phone_on_source": "(800) 526-7234",
+     "phone_src": "jan-contact",
+     "phone_label": "Monday to Friday, 9 a.m. to 6 p.m. Eastern",
+     "record": "us-jan",
+     "links": [
+      {
+       "label": "JAN’s A to Z of disabilities and accommodations",
+       "href": "https://askjan.org/a-to-z.cfm"
+      },
+      {
+       "label": "JAN’s situations and solutions finder",
+       "href": "https://askjan.org/sitsol/index.cfm"
+      }
+     ],
+     "src": [
+      "jan-home",
+      "jan-contact"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">Treated unfairly at work, or asked for an accommodation and got nowhere? What to write down and how to file with the EEOC: <a href=\"know-your-rights.html#work\">Know your rights: at work or applying for a job</a></p>"
+  },
+  {
+   "id": "counseling",
+   "title": "Free benefits counseling and job help",
+   "icon": "chat_q",
+   "lead": "Before you take a job or a raise, a free benefits counselor can show you how the earnings will affect your SSDI, SSI and health coverage.",
+   "lead_src": [
+    "redbook-resources"
+   ],
+   "points": [
+    {
+     "text": "Work Incentives Planning and Assistance (WIPA) projects are community organizations that work under agreements with Social Security. They give free help to people on SSDI or SSI from age 14 to full retirement age.",
+     "src": [
+      "redbook-resources"
+     ]
+    },
+    {
+     "text": "Their Community Work Incentives Coordinators give in-depth, individual counseling about your benefits and how work affects them.",
+     "src": [
+      "redbook-resources"
+     ]
+    },
+    {
+     "text": "If you get SSDI or SSI and run into a barrier to work, the Protection and Advocacy for Beneficiaries of Social Security (PABSS) program gives free legal help, advocacy and information.",
+     "src": [
+      "redbook-resources"
+     ]
+    },
+    {
+     "text": "American Job Centers give free help finding a job, changing careers or getting training, and can tell you whether you qualify for special job help for people with disabilities.",
+     "src": [
+      "careeronestop-ajc"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "wipa-card",
+     "name": "Work Incentives Planning and Assistance (WIPA)",
+     "org": "Social Security Administration",
+     "text": "Free benefits counseling for people on SSDI or SSI who are working or thinking about it.",
+     "next": "Call the Ticket to Work Help Line and ask for a WIPA project, or search Find Help for WIPA providers near you.",
+     "phone": "1-866-968-7842",
+     "phone_on_source": "1-866-968-7842",
+     "phone_src": "redbook-resources",
+     "phone_label": "Ticket to Work Help Line, Monday to Friday, 8 a.m. to 8 p.m. Eastern; TTY 1-866-833-2967",
+     "record": "us-wipa-benefits-counseling",
+     "links": [
+      {
+       "label": "Find a WIPA provider",
+       "href": "https://choosework.ssa.gov/findhelp"
+      }
+     ],
+     "src": [
+      "redbook-resources",
+      "choosework-findhelp"
+     ]
+    },
+    {
+     "id": "ajc-card",
+     "name": "American Job Centers",
+     "org": "U.S. Department of Labor, CareerOneStop",
+     "text": "Free help with job searches, career changes and training, with accommodations for people with disabilities.",
+     "record": "us-american-job-centers",
+     "links": [
+      {
+       "label": "Find an American Job Center",
+       "href": "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx"
+      }
+     ],
+     "src": [
+      "careeronestop-ajc"
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I work while getting disability benefits?",
+   "a": "Yes. On SSDI you can test your ability to work for at least 9 months in a trial work period without losing benefits. On SSI, Social Security does not count the first $65 you earn in a month or half of the rest, and Medicaid can continue after the payments stop.",
+   "src": [
+    "redbook-ssdi",
+    "redbook-ssi"
+   ]
+  },
+  {
+   "q": "How much can I earn on SSDI in 2026?",
+   "a": "The substantial gainful activity level is $1,690 a month in 2026, or $2,830 if you are blind, rising to $1,770 and $2,950 in 2027. Any month you earn more than $1,210 in 2026, or $1,270 in 2027, uses up one of your trial work months.",
+   "src": [
+    "ssa-sga",
+    "ssa-twp"
+   ]
+  },
+  {
+   "q": "What is Ticket to Work?",
+   "a": "A free, voluntary Social Security program for people age 18 through 64 who receive SSDI or SSI because of a disability. It connects you with Employment Networks or your state VR agency for career counseling, job placement and training.",
+   "src": [
+    "choosework-how"
+   ]
+  },
+  {
+   "q": "Does vocational rehabilitation cost money?",
+   "a": "Federal rules do not require a financial needs test. A state may use one for some services, but not for assessment, counseling, job-related services, personal assistance or interpreters, and not for anyone found eligible for Social Security disability benefits.",
+   "src": [
+    "cfr-361-54"
+   ]
+  },
+  {
+   "q": "What is a Schedule A letter?",
+   "a": "A proof of disability letter that lets you apply for federal jobs through the Schedule A hiring authority. It can come from your doctor or another licensed medical professional, a licensed vocational rehabilitation specialist, or an agency that issues or provides disability benefits.",
+   "src": [
+    "usajobs-disability"
+   ]
+  },
+  {
+   "q": "Can an employer ask about my disability in a job interview?",
+   "a": "Not before a job offer. An employer covered by the ADA may not ask whether you have a disability or how severe it is, or give you a medical exam, but it may ask whether you can do the job’s functions.",
+   "src": [
+    "usc-12112"
+   ]
+  },
+  {
+   "q": "Will working make me lose my health coverage?",
+   "a": "Not right away. On SSDI, Medicare can continue for at least 93 months after your trial work period ends. On SSI, Medicaid can continue under Section 1619(b) until your earnings reach your state’s threshold.",
+   "src": [
+    "redbook-ssdi",
+    "redbook-ssi"
+   ]
+  }
+ ],
+ "related": [
+  {
+   "icon": "benefits",
+   "href": "social-security-disability.html",
+   "label": "How to apply for Social Security disability",
+   "text": "SSDI and SSI, how the decision is made and how to appeal"
+  },
+  {
+   "icon": "rights_legal",
+   "href": "know-your-rights.html#work",
+   "label": "Know your rights: at work",
+   "text": "EEOC charges, deadlines and accommodation requests"
+  },
+  {
+   "icon": "transportation",
+   "href": "accessible-vehicles.html",
+   "label": "Help paying for an accessible vehicle",
+   "text": "including what vocational rehabilitation can pay for"
+  },
+  {
+   "icon": "housing",
+   "href": "disability-housing.html",
+   "label": "Housing help for people with disabilities",
+   "text": "Section 8, Mainstream vouchers, Section 811 and fair housing"
+  },
+  {
+   "icon": "map_pin",
+   "href": "local-help.html?category=work_school",
+   "label": "Work, school and training in your state",
+   "text": "vocational rehabilitation and job programs in the directory"
+  }
+ ],
+ "sources": {
+  "rsa-vr": {
+   "title": "State Vocational Rehabilitation Services Program",
+   "publisher": "U.S. Department of Education, Rehabilitation Services Administration",
+   "url": "https://rsa.ed.gov/about/programs/vocational-rehabilitation-state-grants",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "rsa-states": {
+   "title": "State Vocational Rehabilitation Agencies",
+   "publisher": "U.S. Department of Education, Rehabilitation Services Administration",
+   "url": "https://rsa.ed.gov/about/states",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "cfr-361-41": {
+   "title": "34 CFR 361.41, processing referrals and applications",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title34-vol2/xml/CFR-2025-title34-vol2-sec361-41.xml",
+   "page_date": "annual edition revised as of July 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-361-42": {
+   "title": "34 CFR 361.42, assessment for determining eligibility and priority for services",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title34-vol2/xml/CFR-2025-title34-vol2-sec361-42.xml",
+   "page_date": "annual edition revised as of July 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-361-45": {
+   "title": "34 CFR 361.45, development of the individualized plan for employment",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title34-vol2/xml/CFR-2025-title34-vol2-sec361-45.xml",
+   "page_date": "annual edition revised as of July 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-361-48": {
+   "title": "34 CFR 361.48, scope of vocational rehabilitation services",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title34-vol2/xml/CFR-2025-title34-vol2-sec361-48.xml",
+   "page_date": "annual edition revised as of July 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-361-54": {
+   "title": "34 CFR 361.54, participation of individuals in cost of services based on financial need",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title34-vol2/xml/CFR-2025-title34-vol2-sec361-54.xml",
+   "page_date": "annual edition revised as of July 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-361-36": {
+   "title": "34 CFR 361.36, ability to serve all eligible individuals; order of selection for services",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title34-vol2/xml/CFR-2025-title34-vol2-sec361-36.xml",
+   "page_date": "annual edition revised as of July 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "choosework-about": {
+   "title": "About Ticket to Work",
+   "publisher": "Social Security Administration, Ticket to Work (Choose Work)",
+   "url": "https://choosework.ssa.gov/about/index.html",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "choosework-how": {
+   "title": "How It Works",
+   "publisher": "Social Security Administration, Ticket to Work (Choose Work)",
+   "url": "https://choosework.ssa.gov/about/how-it-works",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "choosework-findhelp": {
+   "title": "Find Help",
+   "publisher": "Social Security Administration, Ticket to Work (Choose Work)",
+   "url": "https://choosework.ssa.gov/findhelp",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "ssa-sga": {
+   "title": "Substantial Gainful Activity",
+   "publisher": "Social Security Administration, Office of the Chief Actuary",
+   "url": "https://www.ssa.gov/oact/cola/sga.html",
+   "page_date": "current text as shown on the page, with 2027 amounts",
+   "checked": "2026-11-27"
+  },
+  "ssa-twp": {
+   "title": "Trial Work Period",
+   "publisher": "Social Security Administration, Office of the Chief Actuary",
+   "url": "https://www.ssa.gov/oact/cola/twp.html",
+   "page_date": "current text as shown on the page, with 2027 amounts",
+   "checked": "2026-11-27"
+  },
+  "redbook-ssdi": {
+   "title": "The Red Book: SSDI only employment supports",
+   "publisher": "Social Security Administration",
+   "url": "https://www.ssa.gov/redbook/eng/ssdi-only-employment-supports.htm",
+   "page_date": "2026 Red Book (SSA Publication No. 64-030, June 2026)",
+   "checked": "2026-11-27"
+  },
+  "redbook-ssi": {
+   "title": "The Red Book: SSI only work incentives",
+   "publisher": "Social Security Administration",
+   "url": "https://www.ssa.gov/redbook/eng/ssi-only-employment-supports.htm",
+   "page_date": "2026 Red Book (SSA Publication No. 64-030, June 2026)",
+   "checked": "2026-11-27"
+  },
+  "redbook-both": {
+   "title": "The Red Book: SSDI and SSI work incentives",
+   "publisher": "Social Security Administration",
+   "url": "https://www.ssa.gov/redbook/eng/ssdi-and-ssi-employments-supports.htm",
+   "page_date": "2026 Red Book (SSA Publication No. 64-030, June 2026)",
+   "checked": "2026-11-27"
+  },
+  "redbook-supports": {
+   "title": "The Red Book: employment supports",
+   "publisher": "Social Security Administration",
+   "url": "https://www.ssa.gov/redbook/eng/employment-supports.htm",
+   "page_date": "2026 Red Book (SSA Publication No. 64-030, June 2026)",
+   "checked": "2026-11-27"
+  },
+  "redbook-resources": {
+   "title": "The Red Book: what assistance is available for work incentives and employment supports",
+   "publisher": "Social Security Administration",
+   "url": "https://www.ssa.gov/redbook/eng/resources-supports.htm",
+   "page_date": "2026 Red Book (SSA Publication No. 64-030, June 2026)",
+   "checked": "2026-11-27"
+  },
+  "irs-able": {
+   "title": "ABLE accounts: tax benefit for people with disabilities",
+   "publisher": "Internal Revenue Service",
+   "url": "https://www.irs.gov/government-entities/federal-state-local-governments/able-accounts-tax-benefit-for-people-with-disabilities",
+   "page_date": "page last reviewed or updated November 17, 2026",
+   "checked": "2026-11-27"
+  },
+  "ssa-able": {
+   "title": "Spotlight on Achieving a Better Life Experience (ABLE) Accounts",
+   "publisher": "Social Security Administration",
+   "url": "https://www.ssa.gov/ssi/spotlights/spot-able.html",
+   "page_date": "2026 edition",
+   "checked": "2026-11-27"
+  },
+  "usajobs-disability": {
+   "title": "Individuals with disabilities (unique hiring paths)",
+   "publisher": "USAJOBS, U.S. Office of Personnel Management",
+   "url": "https://help.usajobs.gov/working-in-government/unique-hiring-paths/individuals-with-disabilities",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "opm-sppc": {
+   "title": "Selective Placement Program Coordinator",
+   "publisher": "U.S. Office of Personnel Management",
+   "url": "https://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator/",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "usagov-jobs": {
+   "title": "Job training and employment programs for people with disabilities",
+   "publisher": "USAGov",
+   "url": "https://www.usa.gov/disability-jobs-training",
+   "page_date": "page last updated August 27, 2026",
+   "checked": "2026-11-27"
+  },
+  "abilityone-home": {
+   "title": "AbilityOne",
+   "publisher": "U.S. AbilityOne Commission",
+   "url": "https://www.abilityone.gov/",
+   "page_date": "no page date shown; latest news item November 25, 2026",
+   "checked": "2026-11-27"
+  },
+  "usc-12111": {
+   "title": "42 U.S.C. 12111, definitions (ADA employment)",
+   "publisher": "United States Code, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap126-subchapI-sec12111.htm",
+   "page_date": "2023 edition of the United States Code",
+   "checked": "2026-11-27"
+  },
+  "usc-12112": {
+   "title": "42 U.S.C. 12112, discrimination (ADA employment)",
+   "publisher": "United States Code, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap126-subchapI-sec12112.htm",
+   "page_date": "2023 edition of the United States Code",
+   "checked": "2026-11-27"
+  },
+  "eeoc-time": {
+   "title": "Time Limits for Filing a Charge",
+   "publisher": "U.S. Equal Employment Opportunity Commission",
+   "url": "https://www.eeoc.gov/time-limits-filing-charge",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "jan-home": {
+   "title": "JAN: Job Accommodation Network",
+   "publisher": "Job Accommodation Network",
+   "url": "https://askjan.org/",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "jan-contact": {
+   "title": "Contact Us",
+   "publisher": "Job Accommodation Network",
+   "url": "https://askjan.org/contact-us.cfm",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "careeronestop-ajc": {
+   "title": "American Job Centers",
+   "publisher": "CareerOneStop, sponsored by the U.S. Department of Labor",
+   "url": "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  }
+ }
+}

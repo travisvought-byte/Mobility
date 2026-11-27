@@ -7,6 +7,8 @@
   accessible-travel.html           data/accessible-travel.json          flying, trains, buses, rental cars and parks
   paid-family-caregiver.html       data/paid-family-caregiver.json      getting paid to care for a family member
   home-modifications.html          data/home-modifications.json         paying for ramps, stairlifts, bathrooms, doors
+  disability-housing.html          data/disability-housing.json         vouchers, Section 811, public housing, fair housing
+  disability-jobs.html             data/disability-jobs.json            vocational rehab, Ticket to Work, work incentives
 
 and their Spanish versions (November 27, 2026), each built from a data file that holds only the Spanish words:
 
@@ -19,6 +21,8 @@ and their Spanish versions (November 27, 2026), each built from a data file that
 Each page follows the caregiver and service animal pages: jump tiles, "where to start" paths, sections of short
 statements each with a numbered citation, program cards, a numbered step list where order matters, quick answers
 (with FAQ structured data built from the same questions and answers shown on the page) and a full source list.
+A section may also carry one small table of figures ("table": caption, column headers, rows and the sources it cites),
+drawn with a caption, column and row headers, and its citations in the caption.
 Every source carries the date it was read and the page's own date. A phone number appears only where its source page
 showed it (phone_on_source); where the same line is a directory record in data/local-programs.json (record), the build
 stops if the directory number differs. Run via `npm run build` (from the scripts directory, like the other page
@@ -39,7 +43,8 @@ from site_parts import SIDE_HELP,RELAY,ABOUT_LINK,tel,icon,ICON_PATHS
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
-GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications']
+GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications',
+        'disability-housing','disability-jobs']
 ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar']
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 # The Spanish pages keep their own short menu, like the Spanish help page: the rest of the site is in English
@@ -184,6 +189,15 @@ def build(slug):
         toc.append(tile(s['id'],s['title'],s['icon']))
         body=(f'<section id="{E(s["id"])}" aria-labelledby="{E(s["id"])}-h"><h2 id="{E(s["id"])}-h" class="cat-h">{icon(s["icon"],"hic")}{E(s["title"])}</h2>'
               f'<p class="lead">{E(s["lead"])}'+(cite(s['lead_src']) if s.get('lead_src') else '')+'</p>')
+        if s.get('table'):
+            # a small table of figures, with a caption, column headers and row headers; its sources are cited in the caption
+            tb=s['table'];n=len(tb['headers'])
+            assert n>=2 and tb['rows'] and all(len(r)==n for r in tb['rows']),f'{s["id"]}: table rows must match its headers'
+            body+=(f'<div class="table-wrap" role="region" aria-labelledby="{E(s["id"])}-table-cap" tabindex="0"><table class="data">'
+                   f'<caption id="{E(s["id"])}-table-cap">{E(tb["caption"])}{cite(tb["src"])}</caption>'
+                   '<thead><tr>'+''.join(f'<th scope="col">{E(h)}</th>' for h in tb['headers'])+'</tr></thead><tbody>'
+                   +''.join('<tr><th scope="row">'+E(r[0])+'</th>'+''.join(f'<td>{E(c)}</td>' for c in r[1:])+'</tr>' for r in tb['rows'])
+                   +'</tbody></table></div>')
         if s.get('steps'):
             # a step diagram where the order matters; each step is words on the page with its own citation
             assert len(s['steps'])>=2,s['id']
