@@ -163,6 +163,7 @@
     {"icon": "benefits", "href": "local-help.html?category=benefits", "label": "Benefits and health coverage in your state", "text": "Medicaid, Medicare counseling, ABLE accounts and benefits counseling"},
     {"icon": "rights_legal", "href": "know-your-rights.html", "label": "Know your rights", "text": "which law, which office and what deadline"},
     {"icon": "work_school", "href": "local-help.html?category=work_school", "label": "Work, school and training", "text": "vocational rehabilitation and job help"},
+    {"icon": "chart", "href": "disability-jobs.html", "label": "Jobs and work with a disability", "text": "the trial work period, SSI earnings rules, Ticket to Work and free benefits counseling"},
     {"icon": "equipment", "href": "free-medical-equipment.html", "label": "Free and low-cost wheelchairs and equipment", "text": "borrow, reuse or get help paying"}
   ]
 }

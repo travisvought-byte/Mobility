@@ -35,7 +35,7 @@ ADS_FILE = ROOT / 'data/ads.json'
 TOPICS = ['know-your-rights', 'ramps-home-access', 'mobility-rights', 'mobility-independence', 'disability-advocacy',
           'blind-low-vision', 'deaf-hard-of-hearing', 'service-animals', 'caregiver-respite',
           'accessible-vehicles', 'free-medical-equipment', 'social-security-disability', 'accessible-travel',
-          'paid-family-caregiver', 'home-modifications',
+          'paid-family-caregiver', 'home-modifications', 'disability-housing', 'disability-jobs',
           'vehiculos-adaptados', 'equipo-medico-gratis', 'incapacidad-seguro-social', 'cuidador-familiar-pagado',
           'modificaciones-hogar']
 # pages that never carry an ad, whatever the data says

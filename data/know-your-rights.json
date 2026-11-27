@@ -12,7 +12,7 @@
    "deadline": "The EEOC says you generally must file within 180 calendar days of the discrimination, or 300 days where a state or local agency enforces a law against the same discrimination. Federal employees and applicants generally must contact their agency’s EEO counselor within 45 days.",
    "deadline_chart": [{"label": "Federal employees and applicants: contact the agency’s EEO counselor", "value": "45 days", "days": 45}, {"label": "File a job discrimination charge with the EEOC, from the discrimination", "value": "180 calendar days", "days": 180}, {"label": "File with the EEOC where a state or local agency enforces a law against the same discrimination", "value": "300 days", "days": 300}],
    "records": ["us-jan", "us-eeoc"],
-   "more": [{"label": "Vocational rehabilitation and other work help in your state", "href": "local-help.html?category=work_school"}]
+   "more": [{"label": "Vocational rehabilitation and other work help in your state", "href": "local-help.html?category=work_school"}, {"label": "Vocational rehab, Ticket to Work and keeping benefits while you work", "href": "disability-jobs.html"}]
   },
   {
    "id": "public-places",
@@ -36,7 +36,7 @@
    "deadline": "Complaints to HUD are generally filed within one year of the discrimination. Confirm the deadline with HUD.",
    "deadline_chart": [{"label": "File a housing complaint with HUD, from the discrimination", "value": "one year", "days": 365}],
    "records": ["us-hud-fair-housing-complaint"],
-   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}, {"label": "Paying for home modifications, and renters’ right to make changes", "href": "home-modifications.html"}, {"label": "Service and assistance animals in housing", "href": "service-animals.html"}]
+   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}, {"label": "Paying for home modifications, and renters’ right to make changes", "href": "home-modifications.html"}, {"label": "Housing help: Section 8, Mainstream vouchers and Section 811", "href": "disability-housing.html"}, {"label": "Service and assistance animals in housing", "href": "service-animals.html"}]
   },
   {
    "id": "early-intervention",
@@ -148,7 +148,7 @@
    "steps": ["Call your state Protection and Advocacy agency, describe the decision and ask about the Client Assistance Program.", "If you receive SSI or SSDI, say so and ask about PABSS."],
    "deadline": null,
    "records": ["us-pabss"],
-   "more": [{"label": "Your state Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}]
+   "more": [{"label": "Your state Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}, {"label": "What vocational rehabilitation must do, and its deadlines", "href": "disability-jobs.html"}]
   },
   {
    "id": "free-help",

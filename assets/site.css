@@ -413,3 +413,8 @@ ul.glance .gt{display:block;font-weight:700;color:var(--head);margin-bottom:2px}
 .grid>article>svg.hic:first-child{width:46px;height:46px;padding:10px;margin:0 0 6px}
 @media(forced-colors:active){ul.glance>li>svg{background:none}}
 @media print{ul.groupkey svg,ul.glance>li>svg,.need svg.nic{display:none}ul.groupkey>li,ul.glance>li{border-color:#000;break-inside:avoid}}
+/* A small table of figures in a topic guide (scripts/build_topic_guides.py): caption, column and row headers; scrolls on its own on narrow screens */
+.table-wrap{overflow-x:auto;margin:18px 0 22px;max-width:100%}.table-wrap:focus-visible{outline:3px solid #bb8e36;outline-offset:4px}
+table.data{border-collapse:collapse;background:white;font-size:16px;min-width:100%}table.data caption{text-align:left;font-weight:700;color:var(--navy);padding:0 0 8px}
+table.data th,table.data td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}table.data thead th{background:#e8eeea;color:#20313a}table.data tbody th{color:var(--navy)}
+@media print{.table-wrap{overflow:visible}table.data th,table.data td{border-color:#000}}

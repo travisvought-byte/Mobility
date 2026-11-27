@@ -1,0 +1,951 @@
+{
+ "note": "Housing help for people with disabilities, national: Housing Choice Vouchers (Section 8) and how disability counts in them (the disabled family definition, how SSI, Social Security and Medicaid caregiving payments count as income, and the income deductions in 24 CFR Part 5, local preferences, a longer search time, a higher payment standard and a live-in aide as reasonable accommodations in 24 CFR Part 982), Mainstream vouchers (HUD Notice PIH 2020-01) and Non-Elderly Disabled vouchers, Section 811 supportive housing, public housing and reasonable accommodations (HUD's FAQ, the Section 504 rules in 24 CFR Part 8), finding a unit (HUD's affordable housing map, the Fair Housing Act design rules), USDA rural rentals and Rental Assistance, fair housing complaints to HUD (24 CFR 103.35 for the one-year limit), and help with energy bills (LIHEAP and weatherization on USAGov, eligibility and outreach in 42 U.S.C. 8624, 211). Every statement names the official page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). The rights page keeps the HUD complaint steps and deadline chart, and the home modification guide keeps renters' right to make changes; this page links to them. Left out on purpose: the current dollar amount of the elderly or disabled family deduction (the regulation gives $525 and says HUD adjusts it every year; the current figure was not confirmed on a HUD page), HUD's own voucher fact sheet and Section 811 program description (HUD's pages showed no text when read, so the regulations, HUD's notices and USAGov are used instead), an age range for Section 811 (no current HUD page read gave one), the HUD hotline's relay numbers and the LIHEAP referral line's number (not shown on the pages read), and any private housing search site.",
+ "page": "disability-housing.html",
+ "title": "Disability housing help: Section 8, Mainstream vouchers and Section 811",
+ "h1": "Housing help for people with disabilities",
+ "description": "Section 8 and disability, Mainstream and NED vouchers, Section 811, public housing accommodations, rural rentals, fair housing complaints and energy bill help.",
+ "eyebrow": "SECTION 8 · MAINSTREAM VOUCHERS · SECTION 811 · PUBLIC HOUSING · FAIR HOUSING · ENERGY BILLS",
+ "correction_subject": "Disability housing page",
+ "footer_note": "This is general information, not legal advice.",
+ "checked_on": "2026-11-27",
+ "checked_label": "November 27, 2026",
+ "start": "Most rental help runs through your local public housing agency, so start there: ask which waiting lists are open, whether it gives a preference to families that include a person with a disability, and whether it has Mainstream or Non-Elderly Disabled vouchers. Apply to every list you qualify for, and keep your contact information up to date with each one.",
+ "start_paths": [
+  {
+   "icon": "housing",
+   "who": "Need help paying rent?",
+   "text": "A housing choice voucher pays part of the rent on a home you choose.",
+   "href": "#vouchers"
+  },
+  {
+   "icon": "independent_living",
+   "who": "Have a disability and under 62?",
+   "text": "Some vouchers are set aside for you.",
+   "href": "#mainstream"
+  },
+  {
+   "icon": "daily_living",
+   "who": "Need support services where you live?",
+   "text": "Section 811 pairs housing with services.",
+   "href": "#section-811"
+  },
+  {
+   "icon": "ramps_home",
+   "who": "Live in public or assisted housing?",
+   "text": "The provider pays for the reasonable accommodations you need.",
+   "href": "#public-housing"
+  },
+  {
+   "icon": "search",
+   "who": "Looking for an accessible unit?",
+   "text": "Start with HUD’s map of subsidized housing.",
+   "href": "#find"
+  },
+  {
+   "icon": "map_pin",
+   "who": "In a small town or the country?",
+   "text": "USDA finances rentals with rent help.",
+   "href": "#rural"
+  },
+  {
+   "icon": "rights_legal",
+   "who": "Did a landlord say no?",
+   "text": "You can file a complaint with HUD within one year.",
+   "href": "#fair-housing"
+  },
+  {
+   "icon": "funding",
+   "who": "Behind on heating or cooling bills?",
+   "text": "LIHEAP helps pay them.",
+   "href": "#bills"
+  }
+ ],
+ "sections": [
+  {
+   "id": "vouchers",
+   "title": "Housing Choice Vouchers (Section 8) and disability",
+   "icon": "housing",
+   "lead": "A housing choice voucher pays all or part of the rent on a home you choose, such as an apartment, townhouse or single-family home. Local public housing agencies run the program and decide who qualifies.",
+   "lead_src": [
+    "usagov-voucher"
+   ],
+   "steps_title": "How to apply for a voucher",
+   "steps": [
+    {
+     "text": "Find your local public housing agency (PHA). It decides whether you are eligible and takes applications.",
+     "src": [
+      "usagov-voucher"
+     ]
+    },
+    {
+     "text": "Ask whether its waiting list is open. Lists often close when they hold more families than the PHA can help, so check back to see when yours reopens.",
+     "src": [
+      "usagov-voucher"
+     ]
+    },
+    {
+     "text": "Ask about its preferences. A PHA may give a preference to families that include a person with a disability, but not to people with one specific disability.",
+     "src": [
+      "ecfr-982-207"
+     ]
+    },
+    {
+     "text": "When you get a voucher, look for a home that meets the program’s rules. If your disability makes the search take longer, ask for more time as a reasonable accommodation.",
+     "src": [
+      "usagov-voucher",
+      "ecfr-982-303"
+     ]
+    }
+   ],
+   "points": [
+    {
+     "text": "Eligibility is based on your total annual gross income, your family size and your citizenship or immigration status.",
+     "src": [
+      "usagov-voucher"
+     ]
+    },
+    {
+     "text": "To qualify, a family generally must be very low income under the limits HUD sets for each area. At least 75 percent of the families a PHA admits from its waiting list each year must be extremely low income.",
+     "src": [
+      "ecfr-982-201",
+      "usagov-voucher"
+     ]
+    },
+    {
+     "text": "What you pay is generally the highest of 30 percent of your monthly adjusted income, 10 percent of your monthly income, or the PHA’s minimum rent. The PHA pays its part of the rent to the landlord.",
+     "src": [
+      "cfr-5-628",
+      "usagov-voucher"
+     ]
+    },
+    {
+     "text": "A family whose head, co-head, spouse or only member has a disability is a disabled family. It gets a set deduction from income that HUD adjusts each year.",
+     "src": [
+      "cfr-5-403",
+      "cfr-5-611"
+     ]
+    },
+    {
+     "text": "An elderly or disabled family can also deduct unreimbursed health and medical care costs. Any family can deduct attendant care and equipment costs for a member with a disability when they make it possible for someone in the family to work. These deductions count only for the part above 10 percent of annual income.",
+     "src": [
+      "cfr-5-611"
+     ]
+    },
+    {
+     "text": "SSI and Social Security disability benefits count as income, because HUD counts everything a family receives unless its rules leave it out. Back payments of SSI or Social Security, whether paid in a lump sum or in later monthly amounts, do not count, and neither does money SSI ignores because it is set aside under a Plan to Achieve Self-Support (PASS).",
+     "src": [
+      "cfr-5-609"
+     ]
+    },
+    {
+     "text": "Payments from a state Medicaid agency or another state or federal agency that make it possible for a family member with a disability to live in the home do not count as income. That includes pay a family member gets through such an agency for the care that lets that person live at home.",
+     "src": [
+      "cfr-5-609"
+     ]
+    },
+    {
+     "text": "If a PHA prefers working families, it must give that preference to applicants whose head and spouse, or only member, has a disability or is 62 or older, even if they do not work.",
+     "src": [
+      "ecfr-982-207"
+     ]
+    },
+    {
+     "text": "A voucher’s first search term is at least 60 days. The PHA must extend it as long as reasonably needed when a family member with a disability needs the extra time.",
+     "src": [
+      "ecfr-982-303"
+     ]
+    },
+    {
+     "text": "As a reasonable accommodation, a PHA may raise the payment standard for your family to up to 120 percent of the area’s fair market rent without HUD’s approval, and higher with HUD’s approval.",
+     "src": [
+      "ecfr-982-503"
+     ]
+    },
+    {
+     "text": "A live-in aide approved by the PHA to care for a family member with a disability counts when the PHA decides how many bedrooms you get. The PHA may grant an exception to its bedroom rules because of a family member’s health or disability.",
+     "src": [
+      "ecfr-982-402"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "pha-card",
+     "name": "Your local public housing agency",
+     "org": "U.S. Department of Housing and Urban Development (HUD)",
+     "text": "Public housing agencies take applications for housing choice vouchers and public housing, keep the waiting lists and decide who is eligible.",
+     "next": "Find your agency on HUD’s list, or call HUD’s Public and Indian Housing Information Resource Center.",
+     "phone": "1-800-955-2232",
+     "phone_on_source": "1-800-955-2232",
+     "phone_src": "usagov-groups",
+     "phone_label": "Public and Indian Housing Information Resource Center",
+     "record": "us-hud-housing-agency",
+     "links": [
+      {
+       "label": "Find your local public housing agency",
+       "href": "https://www.hud.gov/program_offices/public_indian_housing/pha/contacts"
+      },
+      {
+       "label": "HUD income limits for your area",
+       "href": "https://www.huduser.gov/portal/datasets/il.html"
+      }
+     ],
+     "src": [
+      "usagov-voucher"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mainstream",
+   "title": "Mainstream and Non-Elderly Disabled (NED) vouchers",
+   "icon": "independent_living",
+   "lead": "Some housing choice vouchers are set aside for people with disabilities who are under 62. They work like other vouchers, so ask your public housing agency whether it has them.",
+   "lead_src": [
+    "hud-mainstream",
+    "usagov-groups"
+   ],
+   "points": [
+    {
+     "text": "Mainstream vouchers serve any family that includes a person with a disability who is at least 18 and not yet 62 when assistance starts.",
+     "src": [
+      "hud-mainstream"
+     ]
+    },
+    {
+     "text": "Once a family is helped with a Mainstream voucher, it does not lose it when that person turns 62.",
+     "src": [
+      "hud-mainstream"
+     ]
+    },
+    {
+     "text": "Mainstream vouchers are regular housing choice vouchers with extra eligibility rules, and the same regulations apply to them.",
+     "src": [
+      "hud-mainstream"
+     ]
+    },
+    {
+     "text": "A PHA may not keep a separate waiting list for Mainstream vouchers. It gives them to the first eligible family on its regular voucher list.",
+     "src": [
+      "hud-mainstream"
+     ]
+    },
+    {
+     "text": "A PHA may adopt a preference for people moving out of institutions or other segregated settings, people at serious risk of entering one, and people who are homeless or at risk of homelessness.",
+     "src": [
+      "hud-mainstream"
+     ]
+    },
+    {
+     "text": "For a Non-Elderly Disabled (NED) voucher you must be the head, spouse or co-head of a family, be under 62, have a disability, and meet the income and other rules where you live.",
+     "src": [
+      "usagov-groups"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "ned-card",
+     "name": "Non-Elderly Disabled (NED) vouchers",
+     "org": "U.S. Department of Housing and Urban Development (HUD)",
+     "text": "Vouchers that help people under 62 with a disability find and pay for private rental housing.",
+     "next": "Contact your local public housing agency to learn whether you are eligible and to apply.",
+     "record": "us-ned-vouchers",
+     "links": [
+      {
+       "label": "Rental help for people with disabilities on USAGov",
+       "href": "https://www.usa.gov/rent-help-groups"
+      }
+     ],
+     "src": [
+      "usagov-groups"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "section-811",
+   "title": "Section 811 supportive housing",
+   "icon": "daily_living",
+   "lead": "HUD’s Section 811 program helps create rental housing for people with disabilities who have very low incomes, with supportive services available to the people who live there.",
+   "lead_src": [
+    "hud-811",
+    "hud-811-pra"
+   ],
+   "points": [
+    {
+     "text": "Section 811 supports the creation of multifamily housing for very low-income persons with disabilities.",
+     "src": [
+      "hud-811"
+     ]
+    },
+    {
+     "text": "Through Section 811 Project Rental Assistance, HUD funds state housing agencies to help pay rent in units for extremely low-income persons with disabilities.",
+     "src": [
+      "hud-811-pra"
+     ]
+    },
+    {
+     "text": "Project Rental Assistance provides permanent housing with supportive services available, through partnerships between state housing agencies and state health and human services or Medicaid agencies.",
+     "src": [
+      "hud-811-pra"
+     ]
+    },
+    {
+     "text": "For more about Section 811 housing near you, HUD says to contact your local HUD Multifamily office.",
+     "src": [
+      "hud-811"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "section-811-card",
+     "name": "Section 811 Supportive Housing for Persons with Disabilities",
+     "org": "U.S. Department of Housing and Urban Development (HUD)",
+     "text": "Rental housing for very low-income people with disabilities, created with HUD funds, with supportive services available.",
+     "next": "Ask your state housing finance agency, your Medicaid case manager or your local HUD Multifamily office about Section 811 units in your area.",
+     "record": "us-hud-section-811",
+     "links": [
+      {
+       "label": "HUD’s Section 811 page",
+       "href": "https://hud.gov/hud-partners/multifamily-grants-section811ptl"
+      }
+     ],
+     "src": [
+      "hud-811",
+      "hud-811-pra"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">Your state housing finance agency is listed on <a href=\"states/index.html\">your state’s page</a>, under Housing, and in the <a href=\"local-help.html?category=housing\">housing programs directory</a>.</p>"
+  },
+  {
+   "id": "public-housing",
+   "title": "Public housing and reasonable accommodations",
+   "icon": "ramps_home",
+   "lead": "Public housing offers affordable rental homes to people with low incomes, seniors and people with disabilities. Because it is federally assisted, the housing provider pays for the reasonable accommodations a resident or applicant with a disability needs.",
+   "lead_src": [
+    "usagov-public",
+    "hud-ra-faq"
+   ],
+   "points": [
+    {
+     "text": "Your local PHA decides whether you qualify, based on your annual gross income, whether you are a senior, a person with a disability or a family, and your citizenship or immigration status. You may need to apply in person.",
+     "src": [
+      "usagov-public"
+     ]
+    },
+    {
+     "text": "A reasonable accommodation is a change, exception or adjustment to a rule, policy, practice or service, such as an exception to a parking rule, an interpreter, or papers in large print.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    },
+    {
+     "text": "A reasonable modification is a structural change to the building or unit, such as a ramp into a building.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    },
+    {
+     "text": "In federally assisted housing, the provider pays for reasonable accommodations and cannot make an applicant or tenant pay for them.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    },
+    {
+     "text": "You can ask for an accommodation or modification in writing, but you do not have to.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    },
+    {
+     "text": "In a new federally assisted apartment project, at least 5 percent of the units, and never fewer than one, must be accessible for people with mobility disabilities, plus another 2 percent for people with hearing or vision disabilities.",
+     "src": [
+      "cfr-8-22"
+     ]
+    },
+    {
+     "text": "An empty accessible unit must be offered first to a current resident who needs its features, then to a qualified applicant on the waiting list who needs them. A tenant without a disability who takes one may have to agree to move when another unit opens.",
+     "src": [
+      "cfr-8-27"
+     ]
+    },
+    {
+     "text": "If your request is denied, you can file a complaint with HUD or with a local Fair Housing Assistance Program agency. File as soon as you can, because there are time limits.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "find",
+   "title": "Finding an affordable or accessible unit",
+   "icon": "search",
+   "lead": "In subsidized rental housing, the government pays apartment owners to lower the rent for tenants with low incomes. Each property takes its own applications, and some keep waiting lists.",
+   "lead_src": [
+    "usagov-subsidized"
+   ],
+   "steps_title": "How to search HUD’s map",
+   "steps": [
+    {
+     "text": "Open HUD’s resource map and choose “Find Affordable Housing Opportunities Near Me.”",
+     "src": [
+      "usagov-subsidized"
+     ]
+    },
+    {
+     "text": "Search for your city or address, and look through the affordable housing in your area.",
+     "src": [
+      "usagov-subsidized"
+     ]
+    },
+    {
+     "text": "Contact each property you are interested in to ask how to apply for a low-rent unit.",
+     "src": [
+      "usagov-subsidized"
+     ]
+    }
+   ],
+   "points": [
+    {
+     "text": "Each city or county has its own eligibility rules for affordable housing.",
+     "src": [
+      "usagov-subsidized"
+     ]
+    },
+    {
+     "text": "Under the Fair Housing Act rules, covered apartment buildings first occupied after March 13, 1991 must have an accessible entrance on an accessible route, doors wide enough for a wheelchair, light switches and outlets in accessible places, bathroom walls strong enough for grab bars, and kitchens and bathrooms a wheelchair user can use.",
+     "src": [
+      "cfr-100-205"
+     ]
+    },
+    {
+     "text": "Ask the property manager which units have accessibility features, and ask for a reasonable accommodation if you need one to apply or to live there.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "hud-map-card",
+     "name": "HUD’s affordable housing map",
+     "org": "U.S. Department of Housing and Urban Development (HUD)",
+     "text": "A map of subsidized rental housing, so you can find properties near you and contact them to apply.",
+     "links": [
+      {
+       "label": "HUD resource map",
+       "href": "https://resources.hud.gov/"
+      },
+      {
+       "label": "How subsidized housing works, on USAGov",
+       "href": "https://www.usa.gov/subsidized-rental-housing"
+      }
+     ],
+     "src": [
+      "usagov-subsidized"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">Your state’s page lists its housing finance agency and, in many states, a statewide rental search that can filter for accessible units: <a href=\"states/index.html\">find your state</a>.</p>"
+  },
+  {
+   "id": "rural",
+   "title": "Rural rentals through USDA",
+   "icon": "map_pin",
+   "lead": "USDA Rural Development finances rental housing in rural areas for people with very low to moderate incomes, people 62 or older and people with disabilities. In some of these properties, USDA Rental Assistance lowers the rent.",
+   "lead_src": [
+    "usda-mfh-direct",
+    "usda-ra"
+   ],
+   "points": [
+    {
+     "text": "Rental Assistance pays owners of USDA-financed rental housing on behalf of tenants with low incomes who cannot pay their full rent.",
+     "src": [
+      "usda-ra"
+     ]
+    },
+    {
+     "text": "Tenants with very low incomes, below 50 percent of the area median, get first priority. Low income is 50 to 80 percent of the area median.",
+     "src": [
+      "usda-ra"
+     ]
+    },
+    {
+     "text": "Tenants who receive Rental Assistance pay 30 percent of their income in rent.",
+     "src": [
+      "usda-ra-factsheet"
+     ]
+    },
+    {
+     "text": "To apply, contact the management agency listed for the property. Each listing links to the property’s income limits and to the USDA office that serves it.",
+     "src": [
+      "usda-rentals-help"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "usda-rentals-card",
+     "name": "USDA rural rental properties",
+     "org": "USDA Rural Development",
+     "text": "A search of USDA-financed rental housing by state and county, city, ZIP code or property name.",
+     "next": "Choose your state, then your county or town, and contact the management agency of each property that fits.",
+     "links": [
+      {
+       "label": "Search USDA rural rentals",
+       "href": "https://rdmfhrentals.sc.egov.usda.gov/RDMFHRentals/select_state.jsp"
+      },
+      {
+       "label": "USDA Rental Assistance",
+       "href": "https://www.rd.usda.gov/programs-services/multifamily-housing-programs/multifamily-housing-rental-assistance"
+      }
+     ],
+     "src": [
+      "usda-rentals-help",
+      "usda-ra"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fair-housing",
+   "title": "Fair housing rights and filing a HUD complaint",
+   "icon": "rights_legal",
+   "lead": "Three federal laws require housing providers to make reasonable accommodations and modifications for people with disabilities: the Fair Housing Act, Section 504 of the Rehabilitation Act and the Americans with Disabilities Act.",
+   "lead_src": [
+    "hud-ra-faq"
+   ],
+   "cards_first": true,
+   "cards": [
+    {
+     "id": "hud-complaint-card",
+     "name": "File a fair housing complaint with HUD",
+     "org": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
+     "text": "File online, by phone, or by mailing a form or a letter, if a landlord, seller or housing provider refused a reasonable accommodation or modification or treated you unfairly because of a disability.",
+     "next": "Write down what you asked for, when, and how the provider answered, then file.",
+     "phone": "1-800-669-9777",
+     "phone_on_source": "1 (800) 669-9777",
+     "phone_src": "hud-complaint",
+     "phone_label": "Toll-free, as listed on HUD’s complaint page",
+     "record": "us-hud-fair-housing-complaint",
+     "links": [
+      {
+       "label": "HUD’s complaint page",
+       "href": "https://hud.gov/i_want_to/file_a_fair_housing_discrimination_complaint"
+      },
+      {
+       "label": "Our housing rights steps and deadline",
+       "href": "know-your-rights.html#housing"
+      }
+     ],
+     "src": [
+      "hud-complaint"
+     ]
+    }
+   ],
+   "points": [
+    {
+     "text": "In private housing, a landlord must let you make a reasonable modification under the Fair Housing Act but can require you to pay for it.",
+     "src": [
+      "hud-ra-faq"
+     ]
+    },
+    {
+     "text": "A letter to HUD should give your name and address, the name and address of the person you are complaining about, the address of the home, the date it happened and a short description of what happened.",
+     "src": [
+      "hud-complaint"
+     ]
+    },
+    {
+     "text": "You must tell HUD within one year. If the discrimination happened more than once or is still going on, HUD must hear from you within one year of the last incident.",
+     "src": [
+      "cfr-103-35"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">Renters’ right to make changes, and who helps pay for them: <a href=\"home-modifications.html#renters\">Help paying for home modifications</a> · Service and assistance animals in housing: <a href=\"service-animals.html\">Service animals and your rights</a></p>"
+  },
+  {
+   "id": "bills",
+   "title": "Help paying energy bills and other costs",
+   "icon": "funding",
+   "lead": "The Low Income Home Energy Assistance Program (LIHEAP) helps pay heating and cooling bills, and the Weatherization Assistance Program helps make homes cheaper to heat and cool. Each state runs its own program and sets its own rules.",
+   "lead_src": [
+    "usagov-energy"
+   ],
+   "points": [
+    {
+     "text": "LIHEAP can help pay heating or cooling bills, and gives emergency help during an energy crisis. Depending on where you live, it may also help with electric bills.",
+     "src": [
+      "usagov-energy"
+     ]
+    },
+    {
+     "text": "To apply, find your state or territory’s LIHEAP office. Some take applications online, and others ask you to apply in person.",
+     "src": [
+      "usagov-energy"
+     ]
+    },
+    {
+     "text": "Federal law lets states give LIHEAP to households where someone receives SSI, and to households with incomes up to 150 percent of the poverty level or 60 percent of the state median income, whichever is higher.",
+     "src": [
+      "usc-8624"
+     ]
+    },
+    {
+     "text": "States must reach out especially to eligible households with older or disabled members and households with high energy bills.",
+     "src": [
+      "usc-8624"
+     ]
+    },
+    {
+     "text": "Having a disability may affect whether a utility can shut off your service, depending on your state’s rules.",
+     "src": [
+      "usagov-energy"
+     ]
+    },
+    {
+     "text": "For local help paying other bills or finding food, dial 211. Every call is confidential.",
+     "src": [
+      "211-home"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "id": "liheap-card",
+     "name": "Low Income Home Energy Assistance Program (LIHEAP)",
+     "org": "U.S. Department of Health and Human Services",
+     "text": "Help paying heating and cooling bills, run by each state, territory and many tribes.",
+     "next": "Search for your LIHEAP office by state, territory or tribe, and ask how to apply.",
+     "record": "us-liheap-energy-bills",
+     "links": [
+      {
+       "label": "Find your LIHEAP office",
+       "href": "https://liheapch.acf.hhs.gov/search-tool/"
+      },
+      {
+       "label": "Help with energy bills on USAGov",
+       "href": "https://www.usa.gov/help-with-energy-bills"
+      }
+     ],
+     "src": [
+      "usagov-energy"
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I get Section 8 if I am disabled?",
+   "a": "A disability does not qualify you by itself. Your public housing agency looks at your income, family size and immigration status. Agencies may give a preference to families that include a person with a disability, and some vouchers, such as Mainstream and NED vouchers, are set aside for people with disabilities under 62.",
+   "src": [
+    "usagov-voucher",
+    "ecfr-982-207",
+    "hud-mainstream",
+    "usagov-groups"
+   ]
+  },
+  {
+   "q": "What are Mainstream vouchers?",
+   "a": "Housing choice vouchers for families that include a person with a disability who is at least 18 and not yet 62 when assistance starts. They follow the same rules as other vouchers, come from the agency’s regular waiting list, and families do not lose them when that person turns 62.",
+   "src": [
+    "hud-mainstream"
+   ]
+  },
+  {
+   "q": "What is Section 811 housing?",
+   "a": "Rental housing for very low-income people with disabilities, created with HUD funds. Through Project Rental Assistance, state housing agencies help pay rent in units for extremely low-income people with disabilities, with supportive services available.",
+   "src": [
+    "hud-811",
+    "hud-811-pra"
+   ]
+  },
+  {
+   "q": "How much rent will I pay with a housing voucher?",
+   "a": "Generally the highest of 30 percent of your monthly adjusted income, 10 percent of your monthly income, or the agency’s minimum rent. A disabled family gets a set deduction from income, and can deduct health and medical care costs above 10 percent of annual income.",
+   "src": [
+    "cfr-5-628",
+    "cfr-5-611"
+   ]
+  },
+  {
+   "q": "Does SSI or SSDI count as income for Section 8?",
+   "a": "Yes. HUD counts SSI and Social Security disability benefits as income. Back payments paid in a lump sum or in later monthly amounts do not count, and neither does money set aside under an SSI Plan to Achieve Self-Support. A disabled family also gets a set deduction from income.",
+   "src": [
+    "cfr-5-609",
+    "cfr-5-611"
+   ]
+  },
+  {
+   "q": "Does my landlord have to pay for a ramp?",
+   "a": "In federally assisted housing, such as public housing, the provider pays for reasonable accommodations and cannot make you pay. In private housing, the landlord must let you make a reasonable modification but can require you to pay for it.",
+   "src": [
+    "hud-ra-faq"
+   ]
+  },
+  {
+   "q": "How do I file a housing discrimination complaint with HUD?",
+   "a": "Use HUD’s online form, call 1-800-669-9777, or mail a form or a letter. You must tell HUD within one year, or within one year of the last incident if it happened more than once or is still going on.",
+   "src": [
+    "hud-complaint",
+    "cfr-103-35"
+   ]
+  },
+  {
+   "q": "Can I get help paying my electric or heating bill?",
+   "a": "LIHEAP helps pay heating and cooling bills, and in some places electric bills. Each state sets its own rules; find your state or territory’s LIHEAP office to apply.",
+   "src": [
+    "usagov-energy"
+   ]
+  }
+ ],
+ "related": [
+  {
+   "icon": "ramps_home",
+   "href": "home-modifications.html",
+   "label": "Help paying for home modifications",
+   "text": "ramps, stairlifts, bathrooms and renters’ right to make changes"
+  },
+  {
+   "icon": "rights_legal",
+   "href": "know-your-rights.html#housing",
+   "label": "Know your rights: housing",
+   "text": "what to write down, who to call and the HUD deadline"
+  },
+  {
+   "icon": "work_school",
+   "href": "disability-jobs.html",
+   "label": "Jobs and work with a disability",
+   "text": "vocational rehab, Ticket to Work and keeping benefits while you work"
+  },
+  {
+   "icon": "benefits",
+   "href": "social-security-disability.html",
+   "label": "How to apply for Social Security disability",
+   "text": "SSDI and SSI, step by step"
+  },
+  {
+   "icon": "service_dog",
+   "href": "service-animals.html",
+   "label": "Service animals and your rights",
+   "text": "assistance animals in housing"
+  },
+  {
+   "icon": "map_pin",
+   "href": "local-help.html?category=housing",
+   "label": "Housing programs in your state",
+   "text": "housing agencies and rental help in the directory"
+  }
+ ],
+ "sources": {
+  "usagov-voucher": {
+   "title": "Section 8 housing",
+   "publisher": "USAGov",
+   "url": "https://www.usa.gov/housing-voucher-section-8",
+   "page_date": "page last updated April 15, 2026",
+   "checked": "2026-11-27"
+  },
+  "usagov-groups": {
+   "title": "Find rental assistance for veterans, people with disabilities, and seniors",
+   "publisher": "USAGov",
+   "url": "https://www.usa.gov/rent-help-groups",
+   "page_date": "page last updated April 27, 2026",
+   "checked": "2026-11-27"
+  },
+  "usagov-public": {
+   "title": "Public housing",
+   "publisher": "USAGov",
+   "url": "https://www.usa.gov/public-housing",
+   "page_date": "page last updated April 27, 2026",
+   "checked": "2026-11-27"
+  },
+  "usagov-subsidized": {
+   "title": "Get subsidized housing",
+   "publisher": "USAGov",
+   "url": "https://www.usa.gov/subsidized-rental-housing",
+   "page_date": "page last updated April 27, 2026",
+   "checked": "2026-11-27"
+  },
+  "ecfr-982-201": {
+   "title": "24 CFR 982.201, eligibility and targeting",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol4/xml/CFR-2025-title24-vol4-sec982-201.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "ecfr-982-207": {
+   "title": "24 CFR 982.207, waiting list: local preferences in admission to program",
+   "publisher": "Electronic Code of Federal Regulations (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-IX/part-982/subpart-E/section-982.207",
+   "page_date": "eCFR text up to date as of October 22, 2026",
+   "checked": "2026-11-27"
+  },
+  "ecfr-982-303": {
+   "title": "24 CFR 982.303, term of voucher",
+   "publisher": "Electronic Code of Federal Regulations (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-IX/part-982/subpart-G/section-982.303",
+   "page_date": "eCFR text up to date as of October 22, 2026",
+   "checked": "2026-11-27"
+  },
+  "ecfr-982-402": {
+   "title": "24 CFR 982.402, subsidy standards",
+   "publisher": "Electronic Code of Federal Regulations (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-IX/part-982/subpart-I/section-982.402",
+   "page_date": "eCFR text up to date as of October 22, 2026",
+   "checked": "2026-11-27"
+  },
+  "ecfr-982-503": {
+   "title": "24 CFR 982.503, payment standard amount and schedule",
+   "publisher": "Electronic Code of Federal Regulations (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-IX/part-982/subpart-K/section-982.503",
+   "page_date": "eCFR text up to date as of July 17, 2026",
+   "checked": "2026-11-27"
+  },
+  "cfr-5-403": {
+   "title": "24 CFR 5.403, definitions (disabled family, elderly family)",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec5-403.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-5-609": {
+   "title": "24 CFR 5.609, annual income",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec5-609.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-5-611": {
+   "title": "24 CFR 5.611, adjusted income",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec5-611.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-5-628": {
+   "title": "24 CFR 5.628, total tenant payment",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec5-628.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "hud-mainstream": {
+   "title": "Notice PIH 2020-01, Revised Policies and Procedures for the Mainstream Voucher Program",
+   "publisher": "U.S. Department of Housing and Urban Development, Office of Public and Indian Housing",
+   "url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/20-01pihn.pdf",
+   "page_date": "issued January 22, 2020",
+   "checked": "2026-11-27"
+  },
+  "hud-811": {
+   "title": "Section 811 Supportive Housing for Persons with Disabilities Program",
+   "publisher": "U.S. Department of Housing and Urban Development",
+   "url": "https://hud.gov/hud-partners/multifamily-grants-section811ptl",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "hud-811-pra": {
+   "title": "FY 2023 Section 811 Project Rental Assistance for Persons with Disabilities",
+   "publisher": "U.S. Department of Housing and Urban Development",
+   "url": "https://hud.gov/program_offices/cfo/gmomgmt/grantsinfo/fundingopps/fy23_Section811_PRA",
+   "page_date": "no page date shown; application due date updated to February 20, 2024",
+   "checked": "2026-11-27"
+  },
+  "hud-ra-faq": {
+   "title": "Reasonable Accommodations and Modifications: Frequently Asked Questions",
+   "publisher": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
+   "url": "https://hud.gov/program_offices/fair_housing_equal_opp/reasonable_accommodations_and_modifications/faqs",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "cfr-8-22": {
+   "title": "24 CFR 8.22, new construction: housing facilities",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec8-22.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-8-27": {
+   "title": "24 CFR 8.27, occupancy of accessible dwelling units",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec8-27.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "cfr-100-205": {
+   "title": "24 CFR 100.205, design and construction requirements",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec100-205.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "usda-mfh-direct": {
+   "title": "Multifamily Housing Direct Loans",
+   "publisher": "U.S. Department of Agriculture, Rural Development",
+   "url": "https://www.rd.usda.gov/programs-services/multifamily-housing-programs/multifamily-housing-direct-loans",
+   "page_date": "page last updated November 25, 2026",
+   "checked": "2026-11-27"
+  },
+  "usda-ra": {
+   "title": "Multifamily Housing Rental Assistance",
+   "publisher": "U.S. Department of Agriculture, Rural Development",
+   "url": "https://www.rd.usda.gov/programs-services/multifamily-housing-programs/multifamily-housing-rental-assistance",
+   "page_date": "page last updated March 19, 2026",
+   "checked": "2026-11-27"
+  },
+  "usda-ra-factsheet": {
+   "title": "Multifamily Housing Rental Assistance fact sheet",
+   "publisher": "U.S. Department of Agriculture, Rural Development",
+   "url": "https://www.rd.usda.gov/media/file/download/508-rd-fs-rhs-rentalassistance.pdf",
+   "page_date": "dated December 2021",
+   "checked": "2026-11-27"
+  },
+  "usda-rentals-help": {
+   "title": "Rural Development Multi-Family Housing Rentals: help",
+   "publisher": "U.S. Department of Agriculture, Rural Development",
+   "url": "https://rdmfhrentals.sc.egov.usda.gov/RDMFHRentals/help.jsp",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "hud-complaint": {
+   "title": "File a Fair Housing Discrimination Complaint",
+   "publisher": "U.S. Department of Housing and Urban Development",
+   "url": "https://hud.gov/i_want_to/file_a_fair_housing_discrimination_complaint",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "cfr-103-35": {
+   "title": "24 CFR 103.35, is there a time limit on when I can file?",
+   "publisher": "Code of Federal Regulations, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title24-vol1/xml/CFR-2025-title24-vol1-sec103-35.xml",
+   "page_date": "annual edition revised as of April 1, 2025",
+   "checked": "2026-11-27"
+  },
+  "usagov-energy": {
+   "title": "Get help with energy bills",
+   "publisher": "USAGov",
+   "url": "https://www.usa.gov/help-with-energy-bills",
+   "page_date": "page last updated January 13, 2026",
+   "checked": "2026-11-27"
+  },
+  "usc-8624": {
+   "title": "42 U.S.C. 8624, applications and requirements (LIHEAP)",
+   "publisher": "United States Code, U.S. Government Publishing Office (govinfo)",
+   "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap94-subchapII-sec8624.htm",
+   "page_date": "2023 edition of the United States Code",
+   "checked": "2026-11-27"
+  },
+  "211-home": {
+   "title": "Call 211 for Essential Community Services",
+   "publisher": "United Way Worldwide, 211",
+   "url": "https://www.211.org/",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  }
+ }
+}

@@ -1,5 +1,6 @@
 // National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, Social Security
-// disability, accessible travel, getting paid as a family caregiver and paying for home modifications, and the Spanish versions of the first three and the last two (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
+// disability, accessible travel, getting paid as a family caregiver, paying for home modifications, housing help and jobs and
+// work with a disability, and the Spanish versions of the first three and the last two (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
 // phone number shown was read on its source page (and matches the directory record where there is one), no other number
 // slips in, the quick answers and their FAQ structured data say the same thing, and the page is wired in like the other
 // national guides: title, description, canonical, social and breadcrumb tags, sitemap, visit counter, ad code, MIF block,
@@ -14,7 +15,7 @@ const open=[];const doc=f=>{while(open.length)open.pop().close();const w=new JSD
 // (accessible travel has no state page group; related pages link it instead, checked below. The paid caregiver guide is
 // linked from the caregiver line under every state page's national lines as well, checked below.)
 const GROUP={'accessible-vehicles':['transportation'],'free-medical-equipment':['equipment'],'social-security-disability':['benefits'],'accessible-travel':[],
- 'paid-family-caregiver':['daily_living'],'home-modifications':['ramps_home','funding']};
+ 'paid-family-caregiver':['daily_living'],'home-modifications':['ramps_home','funding'],'disability-housing':['housing'],'disability-jobs':['work_school']};
 const home=doc('index.html'),homeLinks=[...home.querySelectorAll('ul.guidegrid a')].map(a=>a.getAttribute('href'));
 const sitemap=fs.readFileSync('sitemap.xml','utf8');
 const states=fs.readdirSync('states').filter(f=>f.endsWith('.html')&&f!=='index.html');
@@ -121,6 +122,26 @@ assert(doc('know-your-rights.html').querySelector('#housing a[href="home-modific
 {const g=recs.get('us-mda-dme-grant'),s=recs.get('us-mda-support-groups');
  assert.equal(g.phone,'1-800-572-1717','MDA grant record has the number its FAQ page lists');assert(/Option 1/.test(g.phone_note)&&/1-833-275-6321/.test(g.phone_note),'MDA grant record labels both numbers');
  assert.equal(s.phone,'1-833-275-6321','MDA Resource Center number on the support groups record');assert(/1-800-572-1717/.test(s.phone_note),'support groups record names the general line');}
+
+// housing help and jobs and work with a disability (November 27, 2026): linked from the rights page's housing, work and VR
+// situations, the Social Security and home modification guides, and each other; the Social Security work amounts sit in a
+// table with a caption, column headers and row headers, and match the statements and quick answers around it
+{const k=doc('know-your-rights.html');assert(k.querySelector('#housing a[href="disability-housing.html"]'),'rights page housing situation links the housing guide');
+ assert(k.querySelector('#work a[href="disability-jobs.html"]')&&k.querySelector('#agency-problems a[href="disability-jobs.html"]'),'rights page work and VR situations link the jobs guide');}
+assert(doc('social-security-disability.html').querySelector('#related a[href="disability-jobs.html"]'),'Social Security guide links the jobs guide');
+assert(doc('home-modifications.html').querySelector('#related a[href="disability-housing.html"]'),'home modification guide links the housing guide');
+assert(doc('disability-housing.html').querySelector('#related a[href="disability-jobs.html"]')&&doc('disability-jobs.html').querySelector('#related a[href="disability-housing.html"]'),'the housing and jobs guides link each other');
+{const h=doc('disability-housing.html');assert(h.querySelector('#fair-housing a[href="know-your-rights.html#housing"]')&&h.querySelector('#fair-housing a[href="home-modifications.html#renters"]'),'housing guide links the rights steps and renters\' changes instead of repeating them');
+ assert(h.querySelector('#section-811 a[href="states/index.html"]')&&h.querySelector('#find a[href="states/index.html"]'),'housing guide points to the state pages for housing finance agencies and rental searches');
+ const t=text(h.querySelector('#vouchers'));assert(/SSI and Social Security disability benefits count as income/.test(t)&&/Plan to Achieve Self-Support/.test(t),'housing guide says how SSI and SSDI count as income');}
+{const j=doc('disability-jobs.html'),tb=j.querySelector('#ssdi-work table.data');assert(tb,'jobs guide has the earnings table');
+ const wrap=tb.closest('.table-wrap');assert.equal(wrap.getAttribute('role'),'region');assert.equal(wrap.getAttribute('tabindex'),'0','table scrolls by keyboard on narrow screens');
+ assert.equal(j.getElementById(wrap.getAttribute('aria-labelledby')),tb.querySelector('caption'),'table region is named by its caption');
+ assert.deepEqual([...tb.querySelectorAll('caption a.cite')].map(a=>a.getAttribute('href')),['#src-ssa-sga','#src-ssa-twp'],'table caption cites both Social Security pages');
+ assert.equal(tb.querySelectorAll('thead th[scope="col"]').length,4,'column headers');assert.equal(tb.querySelectorAll('tbody th[scope="row"]').length,2,'row headers');
+ assert.deepEqual([...tb.querySelectorAll('tbody tr')].map(r=>[...r.children].map(text)),[['2026','$1,690','$2,830','$1,210'],['2027','$1,770','$2,950','$1,270']],'2026 and 2027 amounts as read on the Office of the Chief Actuary pages');
+ const t=j.querySelector('main').textContent;for(const s of ['$1,690','$2,830','$1,770','$2,950','$1,210','$1,270','$2,410','$9,730','$20,000','$100,000'])assert(t.includes(s),'jobs guide shows '+s);
+ assert(j.querySelector('#accommodations a[href="know-your-rights.html#work"]')&&j.querySelector('#ssdi-work a[href="social-security-disability.html"]'),'jobs guide links the rights steps and the Social Security guide instead of repeating them');}
 
 // ---- Spanish versions (November 27, 2026). The build already stops unless each translation has the English guide's
 // sections, statements, citations, cards, phones, records, quick answers and numbers. Here the built pages are checked:

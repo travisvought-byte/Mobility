@@ -198,6 +198,7 @@
   {"icon": "ramps_home", "href": "ramps-home-access.html", "label": "Ramps and home access", "text": "six routes to try, and step-by-step checklists for VA grants and Ohio waivers"},
   {"icon": "equipment", "href": "free-medical-equipment.html", "label": "Free and low-cost wheelchairs and equipment", "text": "borrow, reuse or get help paying"},
   {"icon": "daily_living", "href": "paid-family-caregiver.html", "label": "Getting paid to care for a family member", "text": "Medicaid, the VA caregiver stipend, leave and taxes"},
+  {"icon": "housing", "href": "disability-housing.html", "label": "Housing help for people with disabilities", "text": "Section 8, Mainstream vouchers, Section 811 and fair housing complaints"},
   {"icon": "map_pin", "href": "local-help.html?category=ramps_home", "label": "Ramp and home modification programs in your state", "text": "state and local programs in the directory"}
  ],
  "sources": {

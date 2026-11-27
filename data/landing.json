@@ -164,6 +164,24 @@
         {"label": "Medicaid waivers", "href": "#medicaid"}
       ]
     },
+    "disability-housing.html": {
+      "audience": "A person with a disability, or a family member, who needs affordable or accessible rental housing, is searching for Section 8 or other housing help, or was refused a change they need by a landlord.",
+      "intro": "Looking for affordable or accessible housing with a disability? Here is how Section 8 vouchers treat a disability, the Mainstream and NED vouchers for people under 62, Section 811 supportive housing, your rights in public housing, USDA rural rentals, how to file a fair housing complaint, and help with energy bills. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Section 8 vouchers", "href": "#vouchers"},
+        {"label": "Vouchers for people under 62", "href": "#mainstream"},
+        {"label": "File a complaint", "href": "#fair-housing"}
+      ]
+    },
+    "disability-jobs.html": {
+      "audience": "A person with a disability who wants to work or keep working, including people on SSDI or SSI who worry about losing benefits, and family members helping them.",
+      "intro": "Want to work with a disability without losing the help you count on? Here is what vocational rehabilitation pays for and how to apply, Ticket to Work, Social Security’s work rules with the 2026 and 2027 amounts, ABLE accounts, Schedule A federal hiring, your right to accommodations, and free benefits counseling. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Vocational rehab", "href": "#vr"},
+        {"label": "Working on SSDI", "href": "#ssdi-work"},
+        {"label": "Free benefits counseling", "href": "#counseling"}
+      ]
+    },
     "vehiculos-adaptados.html": {
       "audience": "Una persona que usa silla de ruedas, o su familia, que prefiere leer en español y busca ayuda para pagar un vehículo adaptado o controles manuales.",
       "intro": "¿Necesita una camioneta adaptada para silla de ruedas, controles manuales o un elevador? Aquí está quién puede ayudar a pagar: el VA, la rehabilitación vocacional, Medicaid, los fabricantes de autos, préstamos e impuestos. Cada afirmación indica la página oficial de donde proviene.",
