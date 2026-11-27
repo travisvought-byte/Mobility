@@ -1,0 +1,841 @@
+{
+ "note": "Spanish version of data/disability-parking.json (November 27, 2026). The facts, numbers and citations are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date, and each state's link, from the English file. The by-state list names the same 50 states and DC as the English list, in Spanish alphabetical order, each linking the same official motor vehicle agency page or form; the label is in Spanish and each link is marked as English because every one of those pages is in English. No Spanish-language agency page was added beside the sources: none was confirmed for this version, so every source is the English page, marked as English. Left out on purpose, as in the English guide: fees and prices, phone numbers and the lung test values in the federal definition. The Spanish text has not yet been reviewed by a native speaker. General information, not legal advice.",
+ "lang": "es",
+ "translation_of": "disability-parking",
+ "page": "estacionamiento-discapacidad.html",
+ "title": "Permisos y placas de estacionamiento por discapacidad: quién califica y cada estado",
+ "h1": "Permisos y placas de estacionamiento por discapacidad",
+ "description": "Quién califica para un permiso o placas de estacionamiento por discapacidad, qué certifica su proveedor, cómo renovar, otros estados y la página de cada estado.",
+ "eyebrow": "QUIÉN CALIFICA · PERMISO O PLACAS · RENOVAR · OTROS ESTADOS · VETERANOS · CADA ESTADO",
+ "correction_subject": "Página de estacionamiento por discapacidad (español)",
+ "footer_note": "Esta es información general, no asesoría legal. La agencia de vehículos motorizados de su estado decide quién califica y qué permite un permiso.",
+ "checked_on": "2026-11-27",
+ "checked_label": "27 de noviembre de 2026",
+ "start": "Para obtener o renovar un permiso o placas, empiece con la página oficial de su estado en la lista de abajo: allí están la solicitud y el formulario que llena su proveedor médico. Si va a manejar a otro estado, por lo general allí aceptan su permiso o sus placas, pero las reglas de estacionamiento del lugar siguen vigentes.",
+ "start_paths": [
+  {
+   "icon": "map_pin",
+   "who": "¿Va a solicitar o renovar?",
+   "text": "Vaya directo a la página oficial de permisos de su estado.",
+   "href": "#by-state"
+  },
+  {
+   "icon": "medical",
+   "who": "¿No sabe si califica?",
+   "text": "Vea la definición común que siguen los estados.",
+   "href": "#who-qualifies"
+  },
+  {
+   "icon": "plane",
+   "who": "¿Va a viajar a otro estado?",
+   "text": "Cómo aceptan otros estados su permiso o sus placas.",
+   "href": "#other-states"
+  },
+  {
+   "icon": "veterans",
+   "who": "¿Es veterano?",
+   "text": "Las placas para veteranos discapacitados no siempre equivalen a un permiso de estacionamiento.",
+   "href": "#veterans"
+  }
+ ],
+ "sources": {
+  "cfr-1235": {
+   "publisher": "Departamento de Transporte de EE. UU. (NHTSA y FHWA), Código de Regulaciones Federales en GovInfo",
+   "page_date": "edición anual revisada al 1 de abril de 2024"
+  },
+  "ada-restripe": {
+   "publisher": "Departamento de Justicia de EE. UU., División de Derechos Civiles (ADA.gov)",
+   "page_date": "página actualizada por última vez el 28 de febrero de 2020"
+  },
+  "ca-dmv": {
+   "publisher": "Departamento de Vehículos Motorizados de California (DMV)",
+   "page_date": "página actualizada por última vez el 25 de septiembre de 2026"
+  },
+  "or-dmv": {
+   "publisher": "Departamento de Transporte de Oregón, Servicios de Conductores y Vehículos Motorizados (DMV)",
+   "page_date": "la página no muestra fecha"
+  },
+  "nv-dmv": {
+   "publisher": "Departamento de Vehículos Motorizados de Nevada (DMV)",
+   "page_date": "la página no muestra fecha"
+  },
+  "va-dmv": {
+   "publisher": "Departamento de Vehículos Motorizados de Virginia (DMV)",
+   "page_date": "la página no muestra fecha"
+  },
+  "hi-dcab": {
+   "publisher": "Junta de Acceso para Personas con Discapacidades y de Comunicación de Hawái",
+   "page_date": "la página no muestra fecha"
+  },
+  "ut-dmv": {
+   "publisher": "División de Vehículos Motorizados de Utah (DMV)",
+   "page_date": "página actualizada por última vez el 1 de julio de 2026"
+  },
+  "wi-dmv": {
+   "publisher": "Departamento de Transporte de Wisconsin, División de Vehículos Motorizados (DMV)",
+   "page_date": "la página no muestra fecha"
+  },
+  "ny-dmv": {
+   "publisher": "Departamento de Vehículos Motorizados del estado de Nueva York (DMV)",
+   "page_date": "la página no muestra fecha"
+  },
+  "ks-tr159": {
+   "publisher": "Departamento de Ingresos de Kansas, División de Vehículos",
+   "page_date": "formulario revisado en julio de 2026"
+  },
+  "ks-dv": {
+   "publisher": "Departamento de Ingresos de Kansas, División de Vehículos",
+   "page_date": "la página no muestra fecha"
+  },
+  "wa-dv": {
+   "publisher": "Departamento de Licencias del estado de Washington",
+   "page_date": "la página no muestra fecha"
+  }
+ },
+ "sections": [
+  {
+   "id": "who-qualifies",
+   "title": "Quién califica",
+   "icon": "medical",
+   "lead": "Cada estado administra su propio programa de permisos y decide quién califica. Las pautas federales dan a los estados un modelo común para las personas con una capacidad limitada para caminar.",
+   "lead_src": [
+    "cfr-1235"
+   ],
+   "points": [
+    {
+     "text": "Según el modelo federal, un médico con licencia decide si usted califica.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "El modelo incluye a una persona que no puede caminar 200 pies sin detenerse a descansar, o que no puede caminar sin un aparato ortopédico, un bastón, una muleta, la ayuda de otra persona, una prótesis, una silla de ruedas u otro dispositivo de asistencia.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "También incluye a una persona que usa oxígeno portátil, que tiene una enfermedad pulmonar que cumple ciertas medidas de respiración o de oxígeno en la sangre, que tiene una afección cardíaca de Clase III o Clase IV según la Asociación Americana del Corazón, o que tiene una limitación grave para caminar por una afección artrítica, neurológica u ortopédica.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Los estados escriben sus propias definiciones y formularios, así que la página de su estado en la lista de abajo tiene la última palabra sobre quién califica donde usted vive.",
+     "src": [
+      "cfr-1235"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "placard-or-plate",
+   "title": "Permiso o placas",
+   "icon": "transportation",
+   "lead": "La mayoría de los estados ofrecen dos cosas: un permiso que se cuelga en el vehículo en el que usted viaja, y placas especiales para un vehículo registrado a su nombre.",
+   "lead_src": [
+    "cfr-1235",
+    "ca-dmv"
+   ],
+   "points": [
+    {
+     "text": "Según el modelo federal, las placas especiales van en un vehículo registrado a nombre de la persona con la discapacidad. Los estados también pueden dar placas al vehículo de una organización que transporta a personas con discapacidades.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "El permiso se cuelga del espejo retrovisor para que se vea desde el frente y desde atrás del vehículo, o se pone sobre el tablero si no hay espejo. Cada permiso muestra su fecha de vencimiento.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Una persona que no tiene placas especiales puede pedir un permiso adicional.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Según el modelo federal, solo se reconocen las placas y los permisos que muestran el Símbolo Internacional de Accesibilidad.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "En California, los permisos y las placas dan los mismos privilegios de estacionamiento. Las placas se quedan en el vehículo; el permiso va con usted de un vehículo a otro.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "El permiso es de la persona, no del carro. Oregón dice que su permiso se puede usar en cualquier vehículo en el que viaje la persona con la discapacidad, y California dice que usted es la única persona que puede usar su permiso o sus placas.",
+     "src": [
+      "or-dmv",
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "Nevada dice que es ilegal estacionarse en un espacio accesible con un permiso o placas si la persona a quien se le dieron no está presente.",
+     "src": [
+      "nv-dmv"
+     ]
+    },
+    {
+     "text": "Virginia da a cada titular una tarjeta de identificación del permiso, para llevarla y mostrarla a la policía cuando se la pidan.",
+     "src": [
+      "va-dmv"
+     ]
+    },
+    {
+     "text": "En Nueva York, el DMV da las placas, pero los permisos de estacionamiento los da su ciudad, pueblo o villa, no el DMV.",
+     "src": [
+      "ny-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "temporary-permanent",
+   "title": "Temporal o a largo plazo",
+   "icon": "clock",
+   "lead": "Los estados dan permisos temporales para una discapacidad que se espera que dure un tiempo limitado, y permisos a más largo plazo para una que no va a desaparecer.",
+   "lead_src": [
+    "cfr-1235",
+    "nv-dmv"
+   ],
+   "points": [
+    {
+     "text": "Según el modelo federal, un permiso temporal dura el tiempo que fije el médico, hasta seis meses, y la certificación tiene que decir cuánto tiempo.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "California da permisos temporales por hasta 180 días, y Oregón da permisos temporales por hasta seis meses.",
+     "src": [
+      "ca-dmv",
+      "or-dmv"
+     ]
+    },
+    {
+     "text": "Nevada tiene tres tipos: un permiso temporal por hasta seis meses, un permiso moderado por hasta dos años y un permiso permanente por diez años.",
+     "src": [
+      "nv-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "certify",
+   "title": "Lo que certifica su proveedor médico",
+   "icon": "document",
+   "lead": "La solicitud tiene una parte que llena su proveedor médico para certificar que usted cumple con la definición del estado.",
+   "lead_src": [
+    "cfr-1235",
+    "ks-tr159"
+   ],
+   "points": [
+    {
+     "text": "El modelo federal pide la certificación de un médico con licencia en la primera solicitud de placas o de un permiso.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Muchos estados también aceptan a otros proveedores con licencia. California acepta a un médico, cirujano, asistente médico, enfermero practicante o partera certificada, y a un quiropráctico cuando se trata de la pérdida del uso de las piernas.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "Oregón acepta a un médico con licencia, un asociado médico, un enfermero practicante o un optometrista.",
+     "src": [
+      "or-dmv"
+     ]
+    },
+    {
+     "text": "Para un permiso temporal, el proveedor indica cuánto tiempo se espera que dure la afección.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Kansas usa un solo formulario de certificación de discapacidad para su permiso, sus placas y su calcomanía.",
+     "src": [
+      "ks-tr159"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "renewal",
+   "title": "Cómo renovar",
+   "icon": "reuse",
+   "lead": "Los permisos vencen. El modelo federal pide que los estados den permisos y los renueven cada cierto tiempo, y la fecha aparece impresa en cada uno.",
+   "lead_src": [
+    "cfr-1235"
+   ],
+   "points": [
+    {
+     "text": "El permiso permanente de California es válido por dos años y vence el 30 de junio de los años impares. Una vez que se lo dan, para renovarlo no necesita una nueva certificación de su profesional médico.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "En Oregón, la certificación médica vence al mismo tiempo que el permiso.",
+     "src": [
+      "or-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other-states",
+   "title": "Cómo usarlo en otro estado",
+   "icon": "plane",
+   "lead": "Las pautas federales piden que cada estado acepte los permisos y las placas de otros estados y países para estacionarse en los espacios reservados para personas con discapacidades.",
+   "lead_src": [
+    "cfr-1235"
+   ],
+   "points": [
+    {
+     "text": "Eso incluye los permisos que se cuelgan, los permisos temporales y las placas especiales de otros estados y países.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Nevada, Utah y Wisconsin dicen en sus propias páginas que allí se puede usar un permiso o una placa válida de otro estado. Utah incluye a los visitantes de Canadá y México.",
+     "src": [
+      "nv-dmv",
+      "ut-dmv",
+      "wi-dmv"
+     ]
+    },
+    {
+     "text": "Las reglas de estacionamiento del lugar donde se estaciona siguen vigentes. Hawái acepta los permisos de otros estados en los espacios accesibles reservados, pero se siguen cobrando las tarifas de estacionamiento.",
+     "src": [
+      "hi-dcab"
+     ]
+    },
+    {
+     "text": "Si se muda, obtenga un permiso de su nuevo estado. Nevada lo exige una vez que usted se convierte en residente.",
+     "src": [
+      "nv-dmv"
+     ]
+    },
+    {
+     "text": "California da un permiso de viaje a los visitantes por hasta 90 días, y un permiso de viaje de 30 días a los residentes que tienen un permiso permanente.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "Un permiso de estacionamiento de la ciudad de Nueva York no es válido fuera de la ciudad.",
+     "src": [
+      "ny-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "veterans",
+   "title": "Placas para veteranos discapacitados",
+   "icon": "veterans",
+   "lead": "Muchos estados ofrecen placas para veteranos discapacitados. Son un programa aparte, y una placa de veterano discapacitado no siempre le permite estacionarse en los espacios accesibles.",
+   "lead_src": [
+    "or-dmv",
+    "ks-dv"
+   ],
+   "points": [
+    {
+     "text": "En Oregón, las placas de Veterano Discapacitado no dan derecho a estacionarse en un espacio para personas con discapacidades.",
+     "src": [
+      "or-dmv"
+     ]
+    },
+    {
+     "text": "Kansas ofrece una placa de veterano discapacitado a los veteranos con una discapacidad relacionada con el servicio con una calificación de al menos 50 por ciento, con la pérdida o la pérdida del uso de los pies o las manos, o con una discapacidad visual permanente en ambos ojos.",
+     "src": [
+      "ks-dv"
+     ]
+    },
+    {
+     "text": "En Kansas, solo los veteranos que también cumplen con las reglas de estacionamiento por discapacidad del estado reciben la versión con el emblema de la silla de ruedas.",
+     "src": [
+      "ks-dv"
+     ]
+    },
+    {
+     "text": "Washington tiene un privilegio de estacionamiento aparte para veteranos discapacitados con una baja que califica y una calificación de discapacidad de 70 por ciento o más que usan un animal de servicio. Les permite estacionarse gratis en espacios de la calle con límite de tiempo, incluidos los que tienen parquímetro, y en los espacios para personas con discapacidades, y se renueva cada cinco años.",
+     "src": [
+      "wa-dv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "who-sets-rules",
+   "title": "Estacionamiento gratis y quién pone las reglas",
+   "icon": "rights_legal",
+   "lead": "El modelo federal de permisos es una guía para los estados, así que cada estado y cada ciudad deciden los privilegios adicionales, como estacionarse gratis o por más tiempo en los parquímetros. La Ley de Estadounidenses con Discapacidades (ADA) cubre los espacios accesibles en sí.",
+   "lead_src": [
+    "cfr-1235",
+    "ada-restripe"
+   ],
+   "points": [
+    {
+     "text": "Virginia permite que los titulares de un permiso se estacionen hasta cuatro horas sin pagar en espacios con parquímetro o con límite de tiempo, a menos que la localidad lo prohíba.",
+     "src": [
+      "va-dmv"
+     ]
+    },
+    {
+     "text": "Virginia también dice que un permiso o unas placas no le permiten ignorar las reglas de estacionamiento estatales o locales.",
+     "src": [
+      "va-dmv"
+     ]
+    },
+    {
+     "text": "Hawái cobra las tarifas de estacionamiento a los titulares de un permiso, a menos que tengan un permiso de exención aparte para personas con licencia de manejar que físicamente no pueden alcanzar ni usar un parquímetro o una estación de pago.",
+     "src": [
+      "hi-dcab"
+     ]
+    },
+    {
+     "text": "Según la ADA, un negocio o un gobierno estatal o local que vuelve a pintar las líneas de un estacionamiento debe dar los espacios accesibles que exigen las Normas de la ADA de 2010.",
+     "src": [
+      "ada-restripe"
+     ]
+    },
+    {
+     "text": "Un espacio accesible para carro necesita un pasillo de acceso de al menos 60 pulgadas de ancho. Por lo menos uno de cada seis espacios accesibles, y siempre por lo menos uno, debe ser accesible para camionetas: de 132 pulgadas de ancho con un pasillo de 60 pulgadas, o de 96 pulgadas de ancho con un pasillo de 96 pulgadas.",
+     "src": [
+      "ada-restripe"
+     ]
+    },
+    {
+     "text": "Los espacios accesibles van en la ruta accesible más corta hacia una entrada accesible, con un letrero que muestra el símbolo internacional de accesibilidad. Los espacios para camionetas también llevan un letrero que dice que son accesibles para camionetas.",
+     "src": [
+      "ada-restripe"
+     ]
+    },
+    {
+     "text": "Las leyes estatales o locales pueden fijar el color y la forma en que se pintan los espacios y los pasillos de acceso.",
+     "src": [
+      "ada-restripe"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">¿Un negocio o lugar público no tiene el estacionamiento accesible que necesita? Cómo presentar una queja: <a href=\"know-your-rights.html#public-places\" hreflang=\"en\">Sus derechos en tiendas, restaurantes y lugares públicos</a> (en inglés)</p>"
+  },
+  {
+   "id": "by-state",
+   "title": "La página oficial de permisos de su estado",
+   "icon": "map_pin",
+   "lead": "Cada enlace de abajo lleva a la página o al formulario de la agencia de vehículos motorizados de cada estado para los permisos y las placas por discapacidad. Todos se leyeron el 27 de noviembre de 2026 y están en inglés. La solicitud, el formulario médico y cualquier cargo están en la página del estado.",
+   "state_links": [
+    {
+     "code": "AL",
+     "state": "Alabama",
+     "agency": "Departamento de Ingresos de Alabama",
+     "title": "Estacionamiento accesible para personas con discapacidades"
+    },
+    {
+     "code": "AK",
+     "state": "Alaska",
+     "agency": "División de Vehículos Motorizados de Alaska",
+     "title": "Personas con discapacidades"
+    },
+    {
+     "code": "AZ",
+     "state": "Arizona",
+     "agency": "Departamento de Transporte de Arizona, División de Vehículos Motorizados",
+     "title": "Placas y permisos con el símbolo de discapacidad o de discapacidad auditiva"
+    },
+    {
+     "code": "AR",
+     "state": "Arkansas",
+     "agency": "Departamento de Finanzas y Administración de Arkansas",
+     "title": "Permiso de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "CA",
+     "state": "California",
+     "agency": "DMV de California",
+     "title": "Permisos y placas de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "NC",
+     "state": "Carolina del Norte",
+     "agency": "DMV de Carolina del Norte",
+     "title": "Permisos y placas por discapacidad"
+    },
+    {
+     "code": "SC",
+     "state": "Carolina del Sur",
+     "agency": "DMV de Carolina del Sur",
+     "title": "Permisos de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "CO",
+     "state": "Colorado",
+     "agency": "División de Vehículos Motorizados de Colorado",
+     "title": "Privilegios de estacionamiento para personas con discapacidades en Colorado"
+    },
+    {
+     "code": "CT",
+     "state": "Connecticut",
+     "agency": "DMV de Connecticut",
+     "title": "Permisos de estacionamiento accesible para personas"
+    },
+    {
+     "code": "ND",
+     "state": "Dakota del Norte",
+     "agency": "Departamento de Transporte de Dakota del Norte",
+     "title": "Permisos de estacionamiento para personas con movilidad reducida"
+    },
+    {
+     "code": "SD",
+     "state": "Dakota del Sur",
+     "agency": "Departamento de Ingresos de Dakota del Sur",
+     "title": "Permisos y placas de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "DE",
+     "state": "Delaware",
+     "agency": "División de Vehículos Motorizados de Delaware",
+     "title": "Placas o permisos para personas con discapacidades"
+    },
+    {
+     "code": "DC",
+     "state": "Distrito de Columbia",
+     "agency": "Departamento de Vehículos Motorizados del Distrito de Columbia",
+     "title": "Placas y permisos por discapacidad"
+    },
+    {
+     "code": "FL",
+     "state": "Florida",
+     "agency": "Departamento de Seguridad en las Carreteras y Vehículos Motorizados de Florida",
+     "title": "Permisos permanentes de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "GA",
+     "state": "Georgia",
+     "agency": "Departamento de Ingresos de Georgia",
+     "title": "Placas y permisos de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "HI",
+     "state": "Hawái",
+     "agency": "Junta de Acceso para Personas con Discapacidades y de Comunicación de Hawái",
+     "title": "Permisos de estacionamiento por discapacidad (los emiten los condados)"
+    },
+    {
+     "code": "ID",
+     "state": "Idaho",
+     "agency": "Departamento de Transporte de Idaho",
+     "title": "Placas de vehículos, incluidas las placas y los permisos por discapacidad"
+    },
+    {
+     "code": "IL",
+     "state": "Illinois",
+     "agency": "Secretaría de Estado de Illinois",
+     "title": "Guía del programa de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "IN",
+     "state": "Indiana",
+     "agency": "Oficina de Vehículos Motorizados de Indiana",
+     "title": "Permisos y placas de estacionamiento por discapacidad"
+    },
+    {
+     "code": "IA",
+     "state": "Iowa",
+     "agency": "Departamento de Transporte de Iowa",
+     "title": "Estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "KS",
+     "state": "Kansas",
+     "agency": "Departamento de Ingresos de Kansas",
+     "title": "Certificado de discapacidad para el permiso, la placa o la calcomanía de estacionamiento (formulario TR-159, PDF)"
+    },
+    {
+     "code": "KY",
+     "state": "Kentucky",
+     "agency": "Gabinete de Transporte de Kentucky",
+     "title": "Permisos de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "LA",
+     "state": "Luisiana",
+     "agency": "Oficina de Vehículos Motorizados de Luisiana",
+     "title": "Permisos colgantes y placas para personas con movilidad reducida"
+    },
+    {
+     "code": "ME",
+     "state": "Maine",
+     "agency": "Oficina de Vehículos Motorizados de Maine",
+     "title": "Placas o permisos por discapacidad"
+    },
+    {
+     "code": "MD",
+     "state": "Maryland",
+     "agency": "Administración de Vehículos Motorizados de Maryland",
+     "title": "Placas y permisos por discapacidad"
+    },
+    {
+     "code": "MA",
+     "state": "Massachusetts",
+     "agency": "Registro de Vehículos Motorizados de Massachusetts",
+     "title": "Placas y permisos por discapacidad"
+    },
+    {
+     "code": "MI",
+     "state": "Míchigan",
+     "agency": "Departamento de Estado de Míchigan",
+     "title": "Permiso de estacionamiento por discapacidad"
+    },
+    {
+     "code": "MN",
+     "state": "Minnesota",
+     "agency": "Servicios de Conductores y Vehículos de Minnesota",
+     "title": "Certificados de estacionamiento por discapacidad"
+    },
+    {
+     "code": "MS",
+     "state": "Misisipi",
+     "agency": "Departamento de Ingresos de Misisipi",
+     "title": "Solicitud de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "MO",
+     "state": "Misuri",
+     "agency": "Departamento de Ingresos de Misuri",
+     "title": "Permiso permanente para personas con discapacidades"
+    },
+    {
+     "code": "MT",
+     "state": "Montana",
+     "agency": "División de Vehículos Motorizados de Montana",
+     "title": "Placas por discapacidad física y permisos de estacionamiento"
+    },
+    {
+     "code": "NE",
+     "state": "Nebraska",
+     "agency": "DMV de Nebraska",
+     "title": "Cómo solicitar un permiso o placas de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "NV",
+     "state": "Nevada",
+     "agency": "DMV de Nevada",
+     "title": "Estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "NJ",
+     "state": "Nueva Jersey",
+     "agency": "Comisión de Vehículos Motorizados de Nueva Jersey",
+     "title": "Placas con el símbolo de silla de ruedas y permisos para personas con discapacidades"
+    },
+    {
+     "code": "NY",
+     "state": "Nueva York",
+     "agency": "DMV del estado de Nueva York",
+     "title": "Estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "NH",
+     "state": "Nuevo Hampshire",
+     "agency": "División de Vehículos Motorizados de Nuevo Hampshire",
+     "title": "Permisos por discapacidad para caminar"
+    },
+    {
+     "code": "NM",
+     "state": "Nuevo México",
+     "agency": "División de Vehículos Motorizados de Nuevo México",
+     "title": "Permisos de estacionamiento"
+    },
+    {
+     "code": "OH",
+     "state": "Ohio",
+     "agency": "Oficina de Vehículos Motorizados de Ohio (BMV)",
+     "title": "Solicitud de permisos removibles para el parabrisas (formulario BMV 4826, PDF)"
+    },
+    {
+     "code": "OK",
+     "state": "Oklahoma",
+     "agency": "Service Oklahoma, la agencia de servicios del estado",
+     "title": "Permiso por discapacidad"
+    },
+    {
+     "code": "OR",
+     "state": "Oregón",
+     "agency": "DMV de Oregón",
+     "title": "Permisos de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "PA",
+     "state": "Pensilvania",
+     "agency": "PennDOT, el Departamento de Transporte de Pensilvania",
+     "title": "Cómo solicitar o renovar un permiso de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "RI",
+     "state": "Rhode Island",
+     "agency": "División de Vehículos Motorizados de Rhode Island",
+     "title": "Permisos por discapacidad"
+    },
+    {
+     "code": "TN",
+     "state": "Tennessee",
+     "agency": "Departamento de Ingresos de Tennessee",
+     "title": "Placas y permisos para personas con discapacidades"
+    },
+    {
+     "code": "TX",
+     "state": "Texas",
+     "agency": "Departamento de Vehículos Motorizados de Texas",
+     "title": "Estacionamiento, permisos y placas para personas con discapacidades"
+    },
+    {
+     "code": "UT",
+     "state": "Utah",
+     "agency": "DMV de Utah",
+     "title": "Placas y permisos para personas con discapacidades"
+    },
+    {
+     "code": "VT",
+     "state": "Vermont",
+     "agency": "DMV de Vermont",
+     "title": "Placas y permisos para personas con discapacidades"
+    },
+    {
+     "code": "VA",
+     "state": "Virginia",
+     "agency": "DMV de Virginia",
+     "title": "Permisos y placas de estacionamiento para residentes de Virginia con discapacidades"
+    },
+    {
+     "code": "WV",
+     "state": "Virginia Occidental",
+     "agency": "División de Vehículos Motorizados de Virginia Occidental",
+     "title": "Solicitud de estacionamiento para una persona con movilidad reducida (formulario DMV-41-TR, PDF)"
+    },
+    {
+     "code": "WA",
+     "state": "Washington",
+     "agency": "Departamento de Licencias del estado de Washington",
+     "title": "Permisos de estacionamiento para personas con discapacidades"
+    },
+    {
+     "code": "WI",
+     "state": "Wisconsin",
+     "agency": "DMV de Wisconsin",
+     "title": "Permiso de identificación para estacionamiento por discapacidad (discapacidad permanente)"
+    },
+    {
+     "code": "WY",
+     "state": "Wyoming",
+     "agency": "Departamento de Transporte de Wyoming",
+     "title": "Permisos de estacionamiento para personas con discapacidades"
+    }
+   ],
+   "after": "<p class=\"meta\">Las agencias y los programas para personas con discapacidades de cada estado, con números de teléfono: <a href=\"states/index.html\" hreflang=\"en\">Ayuda por discapacidad en cada estado</a> (en inglés)</p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Quién califica para un permiso de estacionamiento por discapacidad?",
+   "a": "Cada estado decide, siguiendo un modelo federal. Por lo general es una persona que, según certifica un proveedor con licencia, no puede caminar 200 pies sin detenerse a descansar, necesita un bastón, una muleta, una silla de ruedas u otro dispositivo para caminar, usa oxígeno portátil, o tiene una enfermedad pulmonar o cardíaca grave o una afección artrítica, neurológica u ortopédica grave que limita su capacidad para caminar.",
+   "src": [
+    "cfr-1235"
+   ]
+  },
+  {
+   "q": "¿Puedo usar mi permiso en otro estado?",
+   "a": "Por lo general, sí. Las pautas federales piden que los estados acepten los permisos y las placas de otros estados y países en los espacios accesibles reservados, pero las reglas y las tarifas de estacionamiento del lugar donde se estaciona siguen vigentes.",
+   "src": [
+    "cfr-1235",
+    "hi-dcab"
+   ]
+  },
+  {
+   "q": "¿Puedo estacionarme gratis en los parquímetros?",
+   "a": "Depende del estado y de la ciudad. Virginia permite hasta cuatro horas sin pagar en parquímetros y espacios con límite de tiempo, a menos que la localidad lo prohíba, mientras que Hawái cobra las tarifas de estacionamiento a menos que usted tenga su permiso de exención aparte.",
+   "src": [
+    "va-dmv",
+    "hi-dcab"
+   ]
+  },
+  {
+   "q": "¿Una placa de veterano discapacitado me permite estacionarme en los espacios accesibles?",
+   "a": "No siempre. Oregón dice que las placas de Veterano Discapacitado no dan derecho al estacionamiento para personas con discapacidades, y Kansas pone el emblema de la silla de ruedas solo en las placas de los veteranos que también cumplen con sus reglas de estacionamiento por discapacidad.",
+   "src": [
+    "or-dmv",
+    "ks-dv"
+   ]
+  },
+  {
+   "q": "¿Cuánto dura un permiso temporal?",
+   "a": "Según el modelo federal, el tiempo que fije el médico que lo certifica, hasta seis meses. California los da por hasta 180 días.",
+   "src": [
+    "cfr-1235",
+    "ca-dmv"
+   ]
+  },
+  {
+   "q": "¿Otra persona puede usar mi permiso?",
+   "a": "No por su cuenta. California dice que usted es la única persona que puede usar su permiso o sus placas, y Nevada dice que es ilegal estacionarse en un espacio accesible con ellos si la persona a quien se le dieron no está presente.",
+   "src": [
+    "ca-dmv",
+    "nv-dmv"
+   ]
+  }
+ ],
+ "related": [
+  {
+   "icon": "transportation",
+   "href": "vehiculos-adaptados.html",
+   "label": "Ayuda para pagar un vehículo adaptado",
+   "text": "camionetas para sillas de ruedas, controles manuales, elevadores y quién ayuda a pagar"
+  },
+  {
+   "icon": "language",
+   "href": "espanol.html",
+   "label": "Ayuda en español",
+   "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"
+  },
+  {
+   "icon": "plane",
+   "href": "accessible-travel.html",
+   "lang": "en",
+   "label": "Viajes accesibles",
+   "text": "aviones, trenes, autobuses, carros de alquiler y parques nacionales"
+  },
+  {
+   "icon": "rights_legal",
+   "href": "know-your-rights.html#public-places",
+   "lang": "en",
+   "label": "Sus derechos en lugares públicos",
+   "text": "estacionamiento accesible, entradas y cómo presentar una queja"
+  },
+  {
+   "icon": "navigation",
+   "href": "local-help.html?category=transportation",
+   "lang": "en",
+   "label": "Ayuda con transporte en su estado",
+   "text": "traslados, paratránsito y programas para conductores en el directorio"
+  },
+  {
+   "icon": "map_pin",
+   "href": "states/index.html",
+   "lang": "en",
+   "label": "Ayuda por discapacidad en cada estado",
+   "text": "las agencias y los programas de cada estado, con números de teléfono"
+  }
+ ]
+}

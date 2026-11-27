@@ -96,7 +96,7 @@ for(const c of W.countries){
  assert(!/undefined|null<|\[object/.test(html),f+' no template leaks');
 }
 // every main menu offers the worldwide page
-const roots=fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9a-f]{16}\.html$/.test(f)&&!['404.html','espanol.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html','cuidador-familiar-pagado.html','modificaciones-hogar.html','vivienda-discapacidad.html','empleo-discapacidad.html'].includes(f));
+const roots=fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9a-f]{16}\.html$/.test(f)&&!['404.html','espanol.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html','cuidador-familiar-pagado.html','modificaciones-hogar.html','vivienda-discapacidad.html','empleo-discapacidad.html','estacionamiento-discapacidad.html'].includes(f));
 for(const f of roots)assert(doc(f).querySelector('nav[aria-label="Main"] a[href="world.html"],nav[aria-label="Back"] a[href="world.html"]'),f+' menu links Worldwide');
 for(const f of fs.readdirSync('states').filter(f=>f.endsWith('.html')))assert(doc('states/'+f).querySelector('#site-nav a[href="../world.html"]'),'states/'+f+' menu links Worldwide');
 assert(doc('index.html').querySelector('#world-line a[href="world.html"]'),'home page points to the worldwide page');

@@ -164,7 +164,8 @@ assert(doc('disability-housing.html').querySelector('#related a[href="disability
 // and footer, the side note, FAQ data in Spanish that matches the page, every source with the English page it was read on
 // and its checked date (and the agency's Spanish page where listed), and links to English pages marked as English.
 const T={'vehiculos-adaptados':'accessible-vehicles','equipo-medico-gratis':'free-medical-equipment','incapacidad-seguro-social':'social-security-disability',
- 'cuidador-familiar-pagado':'paid-family-caregiver','modificaciones-hogar':'home-modifications','vivienda-discapacidad':'disability-housing','empleo-discapacidad':'disability-jobs'};
+ 'cuidador-familiar-pagado':'paid-family-caregiver','modificaciones-hogar':'home-modifications','vivienda-discapacidad':'disability-housing','empleo-discapacidad':'disability-jobs',
+ 'estacionamiento-discapacidad':'disability-parking'};
 const hubLinks=[...doc('espanol.html').querySelectorAll('#guias-h ~ ul a')].map(a=>a.getAttribute('href'));
 const SPANISH=new Set(['espanol.html',...Object.keys(T).map(s=>s+'.html')]);
 for(const [es,en] of Object.entries(T)){
@@ -239,4 +240,19 @@ for(const [es,en] of Object.entries(T)){
  assert.deepEqual([...tb.querySelectorAll('tbody tr')].map(r=>[...r.children].map(text)),[['2026','$1,690','$2,830','$1,210'],['2027','$1,770','$2,950','$1,270']],'Spanish table has the English amounts');
  assert(es.querySelector('#related a[href="vivienda-discapacidad.html"]')&&doc('vivienda-discapacidad.html').querySelector('#related a[href="empleo-discapacidad.html"]'),'the Spanish housing and jobs guides link each other');
  assert(doc('incapacidad-seguro-social.html').querySelector('#related a[href="empleo-discapacidad.html"]')&&doc('modificaciones-hogar.html').querySelector('#related a[href="vivienda-discapacidad.html"]'),'Spanish Social Security and home modification guides link the new Spanish guides, as the English ones do');}
+// the Spanish parking guide lists the same 50 states and DC, each once, with the English list's official page, a label in
+// Spanish, the link marked as English (hreflang and "(en inglés)") and a new tab that says so; the Spanish vehicles guide and the
+// Spanish help page link it
+{const en=JSON.parse(fs.readFileSync('data/disability-parking.json','utf8')).sections.find(s=>s.id==='by-state').state_links,
+  es=JSON.parse(fs.readFileSync('data/estacionamiento-discapacidad.json','utf8')).sections.find(s=>s.id==='by-state').state_links,p=doc('estacionamiento-discapacidad.html');
+ const url=new Map(en.map(x=>[x.code,x.url])),lis=[...p.querySelectorAll('#by-state .statelinks li')];
+ assert.equal(lis.length,51,'Spanish parking guide: one line for each state and DC');assert.equal(new Set(es.map(x=>x.code)).size,51,'every state and DC listed once in Spanish');
+ assert.deepEqual([...url.keys()].sort(),es.map(x=>x.code).sort(),'the Spanish list names the same states as the English list');
+ for(const [i,x] of es.entries()){const a=lis[i].querySelector('a');assert.equal(a.getAttribute('href'),url.get(x.code),x.code+' same official page as the English list');
+  assert.equal(a.getAttribute('hreflang'),'en',x.code+' link marked as English');assert.equal(a.getAttribute('target'),'_blank');assert.equal(a.getAttribute('rel'),'noopener');
+  assert(/se abre en otra pestaña/.test(a.textContent),x.code+' new tab said in Spanish');assert(text(lis[i]).startsWith(x.state+':')&&/\(en inglés\)$/.test(text(lis[i])),x.code+' named in Spanish, page noted as English');
+  assert(text(a).includes(x.title)&&text(a).includes(x.agency),x.code+' Spanish label');}
+ assert(doc('vehiculos-adaptados.html').querySelector('#related a[href="estacionamiento-discapacidad.html"]'),'the Spanish vehicles guide links the Spanish parking guide, as the English one does');
+ assert(p.querySelector('#related a[href="vehiculos-adaptados.html"]'),'the Spanish parking guide links the Spanish vehicles guide');
+ assert(p.querySelector('#who-sets-rules a[href="know-your-rights.html#public-places"][hreflang="en"]'),'Spanish parking guide points to the English rights page, marked as English');}
 console.log('PASS topic guides: '+summary.join('; ')+'. Every phone read on its source page; FAQ data matches the page; in the sitemap with canonical, share tags, ad code and the visit counter.');

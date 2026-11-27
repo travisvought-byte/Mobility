@@ -254,9 +254,18 @@
         {"label": "Asesoría gratuita", "href": "#counseling"}
       ]
     },
+    "estacionamiento-discapacidad.html": {
+      "audience": "Una persona con una discapacidad que limita su capacidad para caminar, o un familiar o un conductor, que prefiere leer en español y necesita un permiso o placas de estacionamiento por discapacidad, quiere renovarlos o va a manejar a otro estado.",
+      "intro": "¿Necesita un permiso o placas de estacionamiento por discapacidad? Aquí está quién califica, la diferencia entre el permiso y las placas, los permisos temporales y a largo plazo, lo que certifica su proveedor médico, cómo renovar, cómo usar su permiso en otro estado, las placas para veteranos discapacitados, lo que exige la ADA de los espacios y un enlace a la página oficial de permisos de cada estado. Cada afirmación indica la página oficial de donde proviene.",
+      "actions": [
+        {"label": "La página de su estado", "href": "#by-state"},
+        {"label": "Quién califica", "href": "#who-qualifies"},
+        {"label": "Usarlo en otro estado", "href": "#other-states"}
+      ]
+    },
     "espanol.html": {
       "audience": "Una persona con discapacidad, o su familia, que prefiere recibir ayuda en español.",
-      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Siete guías también están en español; el resto del sitio está en inglés por ahora.",
+      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Ocho guías también están en español; el resto del sitio está en inglés por ahora.",
       "actions": [
         {"label": "Ayuda en su zona", "href": "#local-h"},
         {"label": "Beneficios y Medicare", "href": "#beneficios-h"},
