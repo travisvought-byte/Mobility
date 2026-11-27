@@ -1,6 +1,6 @@
 // National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, Social Security
-// disability, accessible travel, getting paid as a family caregiver, paying for home modifications, housing help and jobs and
-// work with a disability, and the Spanish versions of all but accessible travel (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
+// disability, accessible travel, getting paid as a family caregiver, paying for home modifications, housing help, jobs and
+// work with a disability, disability parking placards and plates, and the Spanish versions of all but accessible travel (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
 // phone number shown was read on its source page (and matches the directory record where there is one), no other number
 // slips in, the quick answers and their FAQ structured data say the same thing, and the page is wired in like the other
 // national guides: title, description, canonical, social and breadcrumb tags, sitemap, visit counter, ad code, MIF block,
@@ -15,7 +15,8 @@ const open=[];const doc=f=>{while(open.length)open.pop().close();const w=new JSD
 // (accessible travel has no state page group; related pages link it instead, checked below. The paid caregiver guide is
 // linked from the caregiver line under every state page's national lines as well, checked below.)
 const GROUP={'accessible-vehicles':['transportation'],'free-medical-equipment':['equipment'],'social-security-disability':['benefits'],'accessible-travel':[],
- 'paid-family-caregiver':['daily_living'],'home-modifications':['ramps_home','funding'],'disability-housing':['housing'],'disability-jobs':['work_school']};
+ 'paid-family-caregiver':['daily_living'],'home-modifications':['ramps_home','funding'],'disability-housing':['housing'],'disability-jobs':['work_school'],
+ 'disability-parking':['transportation']};
 const home=doc('index.html'),homeLinks=[...home.querySelectorAll('ul.guidegrid a')].map(a=>a.getAttribute('href'));
 const sitemap=fs.readFileSync('sitemap.xml','utf8');
 const states=fs.readdirSync('states').filter(f=>f.endsWith('.html')&&f!=='index.html');
@@ -142,6 +143,20 @@ assert(doc('disability-housing.html').querySelector('#related a[href="disability
  assert.deepEqual([...tb.querySelectorAll('tbody tr')].map(r=>[...r.children].map(text)),[['2026','$1,690','$2,830','$1,210'],['2027','$1,770','$2,950','$1,270']],'2026 and 2027 amounts as read on the Office of the Chief Actuary pages');
  const t=j.querySelector('main').textContent;for(const s of ['$1,690','$2,830','$1,770','$2,950','$1,210','$1,270','$2,410','$9,730','$20,000','$100,000'])assert(t.includes(s),'jobs guide shows '+s);
  assert(j.querySelector('#accommodations a[href="know-your-rights.html#work"]')&&j.querySelector('#ssdi-work a[href="social-security-disability.html"]'),'jobs guide links the rights steps and the Social Security guide instead of repeating them');}
+// disability parking: one line per state with its official placard page (a .gov site, new tab), the five unconfirmed states
+// named, the guide linked from related guides, the rights page and the next-step finder, and each state page's transportation
+// group carries that state's own placard page where the guide lists one
+{const P=JSON.parse(fs.readFileSync('data/disability-parking.json','utf8')),list=P.sections.find(s=>s.id==='by-state').state_links,p=doc('disability-parking.html');
+ const lis=[...p.querySelectorAll('#by-state .statelinks li')];assert.equal(lis.length,list.length,'one line per listed state');assert(list.length>=40,'most states listed');
+ for(const [i,x] of list.entries()){const a=lis[i].querySelector('a');assert.equal(a.getAttribute('href'),x.url);assert(/^https:\/\/[^/]+\.(gov|us)\//.test(x.url),x.state+' official site');
+  assert.equal(a.getAttribute('target'),'_blank');assert.equal(a.getAttribute('rel'),'noopener');assert(text(lis[i]).startsWith(x.state+':'),x.state+' named');}
+ assert(/Illinois, Ohio, Rhode Island, West Virginia and Wyoming/.test(text(p.getElementById('by-state'))),'unconfirmed states named');
+ for(const f of ['accessible-vehicles.html','accessible-travel.html'])assert(doc(f).querySelector('#related a[href="disability-parking.html"]'),f+' links the parking guide');
+ assert(doc('know-your-rights.html').querySelector('#public-places a[href="disability-parking.html"]'),'rights page public places links the parking guide');
+ assert(doc('mobility-rights.html').querySelector('a[href="disability-parking.html"]'),'next-step finder links the parking guide');
+ let own=0;for(const x of list){const f='states/'+x.state.toLowerCase().replace(/[^a-z]+/g,'-')+'.html';assert(fs.existsSync(f),f);
+  const g=doc(f).getElementById('transportation');if(g&&g.querySelector(`a[href="${x.url}"]`))own++;}
+ assert(own>=40,'state pages link their own placard page: '+own);}
 
 // ---- Spanish versions (November 27, 2026). The build already stops unless each translation has the English guide's
 // sections, statements, citations, cards, phones, records, quick answers and numbers. Here the built pages are checked:

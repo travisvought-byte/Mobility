@@ -92,6 +92,8 @@ def fit_desc(lead,items,limit=158):
 # ---- The opening of each state page, written for the person who lands there (owner direction, November 23, 2026) ----
 # Everything in it comes from that state's own listings: the county-level help it has, programs only that state lists,
 # and the offices to call first. No counts of listings are shown.
+# each state's official disability placard page, from the national parking guide's list (only pages opened and confirmed)
+PARKING={x['code']:x for s in json.loads((ROOT/'data/disability-parking.json').read_text())['sections'] for x in s.get('state_links',[])}
 NDRN={a[0]:a[1] for a in json.loads((ROOT/'data/ndrn-protection-advocacy.json').read_text())['agencies']}
 PATTERN=lambda i:re.sub(r'^[a-z]{2}-','XX-',i)
 FAMILY_COUNT={}
@@ -192,6 +194,12 @@ def state_page(code,name,recs,national):
         # national how-to guides for the same need (added November 27, 2026)
         if k=='equipment':s+='<p class="meta">Borrow or reuse equipment, and what Medicare, Medicaid and the VA pay, including repairs: <a href="../free-medical-equipment.html">Free and low-cost wheelchairs and equipment</a></p>'
         if k=='transportation':s+='<p class="meta">Who helps pay for a wheelchair van, hand controls or a lift: <a href="../accessible-vehicles.html">Help paying for an accessible vehicle</a></p>'
+        # disability parking (added November 27, 2026): the state's own placard page where it was opened and confirmed, and the national guide
+        if k=='transportation':
+            pk=PARKING.get(code)
+            s+=('<p class="meta">'+(f'Official disability parking placard and plate page: <a href="{E(pk["url"])}" rel="noopener" target="_blank">{E(pk["title"])}, {E(pk["agency"])}<span class="vh"> (new tab)</span></a> · Who qualifies, renewal and using a placard in another state: '
+                   if pk else 'Who qualifies for a disability parking placard, renewal and using one in another state: ')
+                +'<a href="../disability-parking.html">Disability parking placards and plates</a></p>')
         if k in ('ramps_home','funding'):s+='<p class="meta">Current limits for VA home grants, USDA repair loans and grants, Medicaid waivers and the tax rules: <a href="../home-modifications.html">Help paying for home modifications</a></p>'
         if k=='benefits':s+='<p class="meta">Applying for SSDI or SSI, step by step, and appealing a denial: <a href="../social-security-disability.html">How to apply for Social Security disability</a></p>'
         if k=='rights_legal':s+='<p class="meta">Service animal rights in public places, housing and air travel, and where to get a trained dog: <a href="../service-animals.html">Service animals and your rights</a></p>'

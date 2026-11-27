@@ -1,0 +1,884 @@
+{
+ "note": "Disability parking placards and plates, national: who qualifies, placards and plates, temporary placards, the medical certification, renewal and reciprocity from the federal Uniform System for Parking for Persons with Disabilities (23 CFR Part 1235); what the ADA requires of the spaces from ADA.gov; examples of how states differ from the California, Oregon, Nevada, Virginia, Hawaii, Utah, Wisconsin, New York and Kansas pages; disabled veteran plates and parking from Kansas and Washington; and a list linking each state's own placard page, each opened and confirmed on the date checked. Left out on purpose: fees and prices (they differ by state and change), phone numbers, the lung test values in the federal definition, and the five states whose official page could not be confirmed (Illinois, Ohio, Rhode Island, West Virginia, Wyoming).",
+ "page": "disability-parking.html",
+ "title": "Disability parking placards and plates: who qualifies and every state",
+ "h1": "Disability parking placards and plates",
+ "description": "Who qualifies for a disability parking placard or plates, what your provider certifies, renewal, using one in another state, and each state’s official page.",
+ "eyebrow": "WHO QUALIFIES · PLACARD OR PLATES · RENEWAL · OTHER STATES · VETERANS · EVERY STATE",
+ "correction_subject": "Disability parking page",
+ "footer_note": "This is general information, not legal advice. Your state’s motor vehicle agency decides who qualifies and what a placard allows.",
+ "checked_on": "2026-11-27",
+ "checked_label": "November 27, 2026",
+ "start": "To get or renew a placard or plates, start with your state’s official page in the list below: it has the application and the form your medical provider fills out. If you are driving to another state, your placard or plates are generally honored there, but local parking rules still apply.",
+ "start_paths": [
+  {
+   "icon": "map_pin",
+   "who": "Applying or renewing?",
+   "text": "Go straight to your state’s official placard page.",
+   "href": "#by-state"
+  },
+  {
+   "icon": "medical",
+   "who": "Not sure you qualify?",
+   "text": "See the common definition states follow.",
+   "href": "#who-qualifies"
+  },
+  {
+   "icon": "plane",
+   "who": "Traveling to another state?",
+   "text": "How other states honor your placard or plates.",
+   "href": "#other-states"
+  },
+  {
+   "icon": "veterans",
+   "who": "A veteran?",
+   "text": "Disabled veteran plates are not always the same as a placard.",
+   "href": "#veterans"
+  }
+ ],
+ "sections": [
+  {
+   "id": "who-qualifies",
+   "title": "Who qualifies",
+   "icon": "medical",
+   "lead": "Each state runs its own placard program and decides who qualifies. Federal guidelines give states a common model for a person whose ability to walk is limited.",
+   "lead_src": [
+    "cfr-1235"
+   ],
+   "points": [
+    {
+     "text": "Under the federal model, a licensed physician decides whether you qualify.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "The model covers a person who cannot walk 200 feet without stopping to rest, or who cannot walk without a brace, cane, crutch, another person, a prosthetic device, a wheelchair or another assistive device.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "It also covers a person who uses portable oxygen, has lung disease that meets set breathing or blood-oxygen measures, has a heart condition rated Class III or Class IV by the American Heart Association, or is severely limited in walking by an arthritic, neurological or orthopedic condition.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "States write their own definitions and forms, so the state page in the list below has the final word on who qualifies where you live.",
+     "src": [
+      "cfr-1235"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "placard-or-plate",
+   "title": "Placard or plates",
+   "icon": "transportation",
+   "lead": "Most states offer two things: a placard you hang in the vehicle you are riding in, and special license plates for a vehicle registered to you.",
+   "lead_src": [
+    "cfr-1235",
+    "ca-dmv"
+   ],
+   "points": [
+    {
+     "text": "Under the federal model, special plates go on a vehicle registered in the name of the person with the disability. States can also issue plates to an organization’s vehicle that carries people with disabilities.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "A placard hangs from the rearview mirror so it can be seen from the front and back of the vehicle, or goes on the dashboard if there is no mirror. Every placard shows its expiration date.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "A person who does not have special plates can ask for one additional placard.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Only plates and placards that show the International Symbol of Access are recognized under the federal model.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "In California, placards and plates give the same parking privileges. Plates stay on the vehicle; a placard moves with you from one vehicle to another.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "A placard belongs to the person, not the car. Oregon says its permit can be used in any vehicle the person with the disability rides in, and California says you are the only person who can use your placard or plates.",
+     "src": [
+      "or-dmv",
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "Nevada says it is illegal to park in an accessible space with a placard or plates unless the person they were issued to is there.",
+     "src": [
+      "nv-dmv"
+     ]
+    },
+    {
+     "text": "Virginia gives each holder an ID card for the placard, to carry and show to law enforcement when asked.",
+     "src": [
+      "va-dmv"
+     ]
+    },
+    {
+     "text": "In New York, the DMV issues the plates, but parking permits come from your city, town or village, not the DMV.",
+     "src": [
+      "ny-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "temporary-permanent",
+   "title": "Temporary or long-term",
+   "icon": "clock",
+   "lead": "States issue temporary placards for a disability expected to last a limited time, and longer-term placards for one that will not go away.",
+   "lead_src": [
+    "cfr-1235",
+    "nv-dmv"
+   ],
+   "points": [
+    {
+     "text": "Under the federal model, a temporary placard lasts as long as the physician sets, up to six months, and the certification has to say how long.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "California issues temporary placards for up to 180 days, and Oregon issues temporary permits for up to six months.",
+     "src": [
+      "ca-dmv",
+      "or-dmv"
+     ]
+    },
+    {
+     "text": "Nevada has three kinds: a temporary placard for up to six months, a moderate placard for up to two years and a permanent placard for ten years.",
+     "src": [
+      "nv-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "certify",
+   "title": "What your medical provider certifies",
+   "icon": "document",
+   "lead": "The application has a part your medical provider fills out to certify that you meet the state’s definition.",
+   "lead_src": [
+    "cfr-1235",
+    "ks-tr159"
+   ],
+   "points": [
+    {
+     "text": "The federal model asks for a licensed physician’s certification on the first application for plates or a placard.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Many states accept other licensed providers too. California accepts a physician, surgeon, physician assistant, nurse practitioner or certified nurse midwife, and a chiropractor for loss of use of the lower extremities.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "Oregon accepts a licensed physician, physician associate, nurse practitioner or optometrist.",
+     "src": [
+      "or-dmv"
+     ]
+    },
+    {
+     "text": "For a temporary placard, the provider says how long the condition is expected to last.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Kansas uses one certification of disability form for its placard, plates and decal.",
+     "src": [
+      "ks-tr159"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "renewal",
+   "title": "Renewing",
+   "icon": "reuse",
+   "lead": "Placards expire. The federal model has states issue placards and renew them from time to time, and the date is printed on each one.",
+   "lead_src": [
+    "cfr-1235"
+   ],
+   "points": [
+    {
+     "text": "California’s permanent placard is good for two years and expires on June 30 of odd-numbered years. Once it is issued, renewing it does not need a new certification from your medical professional.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "In Oregon, the medical certification expires at the same time as the permit.",
+     "src": [
+      "or-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other-states",
+   "title": "Using it in another state",
+   "icon": "plane",
+   "lead": "Federal guidelines ask every state to honor placards and plates from other states and countries for parking in spaces reserved for people with disabilities.",
+   "lead_src": [
+    "cfr-1235"
+   ],
+   "points": [
+    {
+     "text": "That covers removable placards, temporary placards and special license plates from other states and countries.",
+     "src": [
+      "cfr-1235"
+     ]
+    },
+    {
+     "text": "Nevada, Utah and Wisconsin say on their own pages that a valid placard or plate from another state can be used there. Utah includes visitors from Canada and Mexico.",
+     "src": [
+      "nv-dmv",
+      "ut-dmv",
+      "wi-dmv"
+     ]
+    },
+    {
+     "text": "The parking rules where you park still apply. Hawaii honors other states’ permits in reserved accessible spaces, but parking fees still apply.",
+     "src": [
+      "hi-dcab"
+     ]
+    },
+    {
+     "text": "If you move, get a placard from your new state. Nevada requires one once you become a resident.",
+     "src": [
+      "nv-dmv"
+     ]
+    },
+    {
+     "text": "California issues a travel placard to visitors for up to 90 days, and a 30-day travel placard to residents who have a permanent placard.",
+     "src": [
+      "ca-dmv"
+     ]
+    },
+    {
+     "text": "A New York City parking permit is not valid outside the city.",
+     "src": [
+      "ny-dmv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "veterans",
+   "title": "Disabled veteran plates",
+   "icon": "veterans",
+   "lead": "Many states offer disabled veteran license plates. They are a separate program, and a disabled veteran plate does not always let you park in accessible spaces.",
+   "lead_src": [
+    "or-dmv",
+    "ks-dv"
+   ],
+   "points": [
+    {
+     "text": "In Oregon, Disabled Veteran license plates do not qualify for parking in a disabled person parking space.",
+     "src": [
+      "or-dmv"
+     ]
+    },
+    {
+     "text": "Kansas offers a disabled veteran plate to veterans with a service-connected disability rated at least 50 percent, the loss or loss of use of the feet or hands, or a permanent visual impairment of both eyes.",
+     "src": [
+      "ks-dv"
+     ]
+    },
+    {
+     "text": "In Kansas, only veterans who also meet the state’s disability parking rules get the version with the wheelchair emblem.",
+     "src": [
+      "ks-dv"
+     ]
+    },
+    {
+     "text": "Washington has a separate disabled veteran parking privilege for veterans with a qualifying discharge and a disability rating of 70 percent or more who use a service animal. It lets them park free in time-limited street spaces, including metered ones, and in disabled parking spaces, and is renewed every five years.",
+     "src": [
+      "wa-dv"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "who-sets-rules",
+   "title": "Free parking, and who sets the rules",
+   "icon": "rights_legal",
+   "lead": "The federal placard model is guidance to states, so each state and city decides extra privileges such as free or longer parking at meters. The Americans with Disabilities Act covers the accessible spaces themselves.",
+   "lead_src": [
+    "cfr-1235",
+    "ada-restripe"
+   ],
+   "points": [
+    {
+     "text": "Virginia lets placard holders park up to four hours at metered or time-limited spaces without paying, unless the locality prohibits it.",
+     "src": [
+      "va-dmv"
+     ]
+    },
+    {
+     "text": "Virginia also says a placard or plates do not let you ignore state or local parking rules.",
+     "src": [
+      "va-dmv"
+     ]
+    },
+    {
+     "text": "Hawaii charges parking fees to placard holders, unless they hold a separate exemption permit for people with a driver’s license who physically cannot reach or operate a parking meter or pay station.",
+     "src": [
+      "hi-dcab"
+     ]
+    },
+    {
+     "text": "Under the ADA, a business or a state or local government that restripes a parking lot must provide the accessible spaces the 2010 ADA Standards require.",
+     "src": [
+      "ada-restripe"
+     ]
+    },
+    {
+     "text": "An accessible car space needs an access aisle at least 60 inches wide. At least one of every six accessible spaces, and always at least one, must be van accessible: 132 inches wide with a 60-inch aisle, or 96 inches wide with a 96-inch aisle.",
+     "src": [
+      "ada-restripe"
+     ]
+    },
+    {
+     "text": "Accessible spaces go on the shortest accessible route to an accessible entrance, with a sign showing the international symbol of accessibility. Van spaces are also signed van accessible.",
+     "src": [
+      "ada-restripe"
+     ]
+    },
+    {
+     "text": "State or local laws may set the color and the way spaces and access aisles are painted.",
+     "src": [
+      "ada-restripe"
+     ]
+    }
+   ],
+   "after": "<p class=\"meta\">A business or public place without the accessible parking it needs? How to complain: <a href=\"know-your-rights.html#public-places\">Know your rights in stores, restaurants and public places</a></p>"
+  },
+  {
+   "id": "by-state",
+   "title": "Your state’s official placard page",
+   "icon": "map_pin",
+   "lead": "Each link below goes to the state motor vehicle agency’s own page or form for disability placards and plates, read on November 27, 2026. The application, the medical form and any fee are on the state’s page.",
+   "state_links": [
+    {
+     "code": "AL",
+     "state": "Alabama",
+     "agency": "Alabama Department of Revenue",
+     "title": "Disability Access Parking",
+     "url": "https://www.revenue.alabama.gov/license-plates/disability-access-parking-2/"
+    },
+    {
+     "code": "AK",
+     "state": "Alaska",
+     "agency": "Alaska Division of Motor Vehicles",
+     "title": "Persons with Disabilities",
+     "url": "https://dmv.alaska.gov/vehicle-services/persons-with-disabilities/"
+    },
+    {
+     "code": "AZ",
+     "state": "Arizona",
+     "agency": "Arizona Department of Transportation, Motor Vehicle Division",
+     "title": "Disability Symbol/Hearing Impaired plates and placards",
+     "url": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disability-symbolhearing-impaired"
+    },
+    {
+     "code": "AR",
+     "state": "Arkansas",
+     "agency": "Arkansas Department of Finance and Administration",
+     "title": "Persons With Disabilities Placard",
+     "url": "https://www.dfa.arkansas.gov/specialty-plates/persons-with-disabilities-placard/"
+    },
+    {
+     "code": "CA",
+     "state": "California",
+     "agency": "California DMV",
+     "title": "Disabled Person Parking Placards & Plates",
+     "url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-person-parking-placards-plates/"
+    },
+    {
+     "code": "CO",
+     "state": "Colorado",
+     "agency": "Colorado Division of Motor Vehicles",
+     "title": "Parking Privileges for Persons with Disabilities in Colorado",
+     "url": "https://dmv.colorado.gov/persons-disabilities"
+    },
+    {
+     "code": "CT",
+     "state": "Connecticut",
+     "agency": "Connecticut DMV",
+     "title": "Accessibility Parking Permits for Individuals",
+     "url": "https://portal.ct.gov/dmv/vehicle-services/parking-placard-for-disabled-individual"
+    },
+    {
+     "code": "DE",
+     "state": "Delaware",
+     "agency": "Delaware Division of Motor Vehicles",
+     "title": "Handicapped Plates or Placards",
+     "url": "https://dmv.de.gov/VehicleServices/registration/index.shtml?dc=ve_reg_handicap"
+    },
+    {
+     "code": "DC",
+     "state": "District of Columbia",
+     "agency": "DC Department of Motor Vehicles",
+     "title": "Disability Tags and Placards/Permits",
+     "url": "https://dmv.dc.gov/service/dmv-disability-tags-and-placards"
+    },
+    {
+     "code": "FL",
+     "state": "Florida",
+     "agency": "Florida Highway Safety and Motor Vehicles",
+     "title": "Permanent Disabled Person Parking Permits",
+     "url": "https://www.flhsmv.gov/motor-vehicles-tags-titles/disabled-person-parking-permits/permanent-disabled-person-parking-permits"
+    },
+    {
+     "code": "GA",
+     "state": "Georgia",
+     "agency": "Georgia Department of Revenue",
+     "title": "Disabled Person’s License Plates and Parking Permits",
+     "url": "https://dor.georgia.gov/disabled-persons-license-plates-and-parking-permits"
+    },
+    {
+     "code": "HI",
+     "state": "Hawaii",
+     "agency": "Hawaii Disability and Communication Access Board",
+     "title": "Disability Parking Permits (issued by the counties)",
+     "url": "https://health.hawaii.gov/dcab/disability-parking-permits/"
+    },
+    {
+     "code": "ID",
+     "state": "Idaho",
+     "agency": "Idaho Transportation Department",
+     "title": "License Plates, including disability plates and placards",
+     "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/"
+    },
+    {
+     "code": "IN",
+     "state": "Indiana",
+     "agency": "Indiana Bureau of Motor Vehicles",
+     "title": "Disability Parking Placards and Plates",
+     "url": "https://www.in.gov/bmv/registration-plates/drivers-with-disabilities/"
+    },
+    {
+     "code": "IA",
+     "state": "Iowa",
+     "agency": "Iowa Department of Transportation",
+     "title": "Persons with Disabilities Parking",
+     "url": "https://iowadot.gov/mvd/vehicleregistration/persons-with-disabilites"
+    },
+    {
+     "code": "KS",
+     "state": "Kansas",
+     "agency": "Kansas Department of Revenue",
+     "title": "Certification of Disability for Disabled Parking Placard/Plate/Decal (form TR-159, PDF)",
+     "url": "https://www.ksrevenue.gov/pdf/tr159.pdf"
+    },
+    {
+     "code": "KY",
+     "state": "Kentucky",
+     "agency": "Kentucky Transportation Cabinet",
+     "title": "Disabled Parking Permits",
+     "url": "https://drive.ky.gov/Vehicles/Pages/Disabled-Parking-Permits.aspx"
+    },
+    {
+     "code": "LA",
+     "state": "Louisiana",
+     "agency": "Louisiana Office of Motor Vehicles",
+     "title": "Mobility Impaired Hang Tags & License Plates",
+     "url": "https://expresslane.la.gov/omv/vehicles/plates/mobility-impaired-hang-tags-plates"
+    },
+    {
+     "code": "ME",
+     "state": "Maine",
+     "agency": "Maine Bureau of Motor Vehicles",
+     "title": "Disability Plates or Placards",
+     "url": "https://www.maine.gov/sos/bmv/registration/dxfaqs.html"
+    },
+    {
+     "code": "MD",
+     "state": "Maryland",
+     "agency": "Maryland Motor Vehicle Administration",
+     "title": "Disability Plates & Placards",
+     "url": "https://mva.maryland.gov/your-mva-guide/individuals-disabilities/disability-plates-placards"
+    },
+    {
+     "code": "MA",
+     "state": "Massachusetts",
+     "agency": "Massachusetts Registry of Motor Vehicles",
+     "title": "Disability Plates and Placards",
+     "url": "https://www.mass.gov/disability-plates-and-placards"
+    },
+    {
+     "code": "MI",
+     "state": "Michigan",
+     "agency": "Michigan Department of State",
+     "title": "Disability parking placard",
+     "url": "https://www.michigan.gov/sos/all-services/disability-parking-placard"
+    },
+    {
+     "code": "MN",
+     "state": "Minnesota",
+     "agency": "Minnesota Driver and Vehicle Services",
+     "title": "Disability parking certificates",
+     "url": "https://dps.mn.gov/divisions/dvs/vehicle/disability-parking-certificates"
+    },
+    {
+     "code": "MS",
+     "state": "Mississippi",
+     "agency": "Mississippi Department of Revenue",
+     "title": "Disabled Parking Application",
+     "url": "https://www.dor.ms.gov/node/5358"
+    },
+    {
+     "code": "MO",
+     "state": "Missouri",
+     "agency": "Missouri Department of Revenue",
+     "title": "Permanent Disabled Placard",
+     "url": "https://dor.mo.gov/motor-vehicle/disabled-plates-placards/permanent.html"
+    },
+    {
+     "code": "MT",
+     "state": "Montana",
+     "agency": "Montana Motor Vehicle Division",
+     "title": "Physical Disability Plates and parking placards",
+     "url": "https://mvdmt.gov/license-plate-information/physical-disability-plates/"
+    },
+    {
+     "code": "NE",
+     "state": "Nebraska",
+     "agency": "Nebraska DMV",
+     "title": "How to apply for a handicap parking permit or plates",
+     "url": "https://dmv.nebraska.gov/node/609"
+    },
+    {
+     "code": "NV",
+     "state": "Nevada",
+     "agency": "Nevada DMV",
+     "title": "Disabled Parking",
+     "url": "https://dmv.nv.gov/platesdisabled.htm"
+    },
+    {
+     "code": "NH",
+     "state": "New Hampshire",
+     "agency": "New Hampshire Division of Motor Vehicles",
+     "title": "Walking Disability Placards",
+     "url": "https://dmv.nh.gov/vehicles-boats-or-titles/walking-disability-placards"
+    },
+    {
+     "code": "NJ",
+     "state": "New Jersey",
+     "agency": "New Jersey Motor Vehicle Commission",
+     "title": "Wheelchair Symbol Plates and Persons With a Disability Placards",
+     "url": "https://www.nj.gov/mvc/vehicles/disability.htm"
+    },
+    {
+     "code": "NM",
+     "state": "New Mexico",
+     "agency": "New Mexico Motor Vehicle Division",
+     "title": "Parking Placards",
+     "url": "https://www.mvd.newmexico.gov/chapter-8-parking-placards/"
+    },
+    {
+     "code": "NY",
+     "state": "New York",
+     "agency": "New York State DMV",
+     "title": "Parking for People with Disabilities",
+     "url": "https://dmv.ny.gov/more-info/parking-for-people-with-disabilities"
+    },
+    {
+     "code": "NC",
+     "state": "North Carolina",
+     "agency": "North Carolina DMV",
+     "title": "Disability Placards and Plates",
+     "url": "https://ncdot.gov/dmv/title-registration/license-plates/Pages/disability-placards-plates.aspx"
+    },
+    {
+     "code": "ND",
+     "state": "North Dakota",
+     "agency": "North Dakota Department of Transportation",
+     "title": "Mobility Impaired Parking Permits",
+     "url": "https://www.dot.nd.gov/motor-vehicle/mobility-impaired-parking-permits"
+    },
+    {
+     "code": "OK",
+     "state": "Oklahoma",
+     "agency": "Service Oklahoma",
+     "title": "Disability Placard",
+     "url": "https://oklahoma.gov/service/popular-services/disability-placard.html"
+    },
+    {
+     "code": "OR",
+     "state": "Oregon",
+     "agency": "Oregon DMV",
+     "title": "Disabled Person Parking Permits",
+     "url": "https://www.oregon.gov/odot/dmv/pages/driverid/disparking.aspx"
+    },
+    {
+     "code": "PA",
+     "state": "Pennsylvania",
+     "agency": "PennDOT",
+     "title": "Apply for or Renew a Persons with Disability Parking Placard",
+     "url": "https://www.pa.gov/services/dmv/apply-for-or-renew-a-persons-with-disability-parking-placard"
+    },
+    {
+     "code": "SC",
+     "state": "South Carolina",
+     "agency": "South Carolina DMV",
+     "title": "Disabled parking placards: People with Disabilities",
+     "url": "https://dmv.sc.gov/vehicle-owners/disabled-parking-placards"
+    },
+    {
+     "code": "SD",
+     "state": "South Dakota",
+     "agency": "South Dakota Department of Revenue",
+     "title": "Disabled Parking Permits & Plates",
+     "url": "https://dor.sd.gov/individuals/motor-vehicle/cars-trucks-vans/disabled-parking-permits-plates/"
+    },
+    {
+     "code": "TN",
+     "state": "Tennessee",
+     "agency": "Tennessee Department of Revenue",
+     "title": "Disabled Plates & Placards",
+     "url": "https://www.tn.gov/revenue/title-and-registration/license-plates/disabled-plates-placards.html"
+    },
+    {
+     "code": "TX",
+     "state": "Texas",
+     "agency": "Texas Department of Motor Vehicles",
+     "title": "Disabled Parking, Placards & Plates",
+     "url": "https://www.txdmv.gov/motorists/disabled-parking-placards-plates"
+    },
+    {
+     "code": "UT",
+     "state": "Utah",
+     "agency": "Utah DMV",
+     "title": "Disabled Plates and Placards",
+     "url": "https://dmv.utah.gov/plates/disabled"
+    },
+    {
+     "code": "VT",
+     "state": "Vermont",
+     "agency": "Vermont DMV",
+     "title": "Disabled Plates & Placards",
+     "url": "https://dmv.vermont.gov/registrations/license-plates/disabled-plates-placards"
+    },
+    {
+     "code": "VA",
+     "state": "Virginia",
+     "agency": "Virginia DMV",
+     "title": "Parking Placards and Plates for Virginians with Disabilities",
+     "url": "https://www.dmv.virginia.gov/licenses-ids/disability/plates-assist"
+    },
+    {
+     "code": "WA",
+     "state": "Washington",
+     "agency": "Washington State Department of Licensing",
+     "title": "Disabled parking permits",
+     "url": "https://dol.wa.gov/driver-licenses-and-permits/get-or-renew-disabled-parking-permits"
+    },
+    {
+     "code": "WI",
+     "state": "Wisconsin",
+     "agency": "Wisconsin DMV",
+     "title": "Disabled parking identification permit (permanent disability)",
+     "url": "https://wisconsindot.gov/Pages/dmv/vehicles/dsbld-prkg/discards.aspx"
+    }
+   ],
+   "after": "<p class=\"meta\">Not listed yet: Illinois, Ohio, Rhode Island, West Virginia and Wyoming, because we could not open and confirm their official placard page on the day we checked. Every state’s disability agencies and programs, with phone numbers: <a href=\"states/index.html\">Disability help in every state</a></p>"
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who qualifies for a disability parking placard?",
+   "a": "Each state decides, following a federal model. Generally that is a person a licensed provider certifies cannot walk 200 feet without stopping to rest, needs a cane, crutch, wheelchair or other device to walk, uses portable oxygen, or has serious lung or heart disease or a severe arthritic, neurological or orthopedic condition that limits walking.",
+   "src": [
+    "cfr-1235"
+   ]
+  },
+  {
+   "q": "Can I use my placard in another state?",
+   "a": "Generally yes. Federal guidelines ask states to honor placards and plates from other states and countries in reserved accessible spaces, but the parking rules and fees where you park still apply.",
+   "src": [
+    "cfr-1235",
+    "hi-dcab"
+   ]
+  },
+  {
+   "q": "Do I get free parking at meters?",
+   "a": "It depends on the state and city. Virginia allows up to four hours at meters and time-limited spaces without paying unless the locality prohibits it, while Hawaii charges parking fees unless you hold its separate exemption permit.",
+   "src": [
+    "va-dmv",
+    "hi-dcab"
+   ]
+  },
+  {
+   "q": "Does a disabled veteran plate let me park in accessible spaces?",
+   "a": "Not always. Oregon says Disabled Veteran plates do not qualify for disabled person parking, and Kansas puts the wheelchair emblem only on plates for veterans who also meet its disability parking rules.",
+   "src": [
+    "or-dmv",
+    "ks-dv"
+   ]
+  },
+  {
+   "q": "How long does a temporary placard last?",
+   "a": "Under the federal model, as long as the certifying physician sets, up to six months. California issues them for up to 180 days.",
+   "src": [
+    "cfr-1235",
+    "ca-dmv"
+   ]
+  },
+  {
+   "q": "Can someone else use my placard?",
+   "a": "Not on their own. California says you are the only person who can use your placard or plates, and Nevada says it is illegal to park in an accessible space with them unless the person they were issued to is there.",
+   "src": [
+    "ca-dmv",
+    "nv-dmv"
+   ]
+  }
+ ],
+ "related": [
+  {
+   "icon": "transportation",
+   "href": "accessible-vehicles.html",
+   "label": "Help paying for an accessible vehicle",
+   "text": "wheelchair vans, hand controls, lifts and who helps pay"
+  },
+  {
+   "icon": "plane",
+   "href": "accessible-travel.html",
+   "label": "Accessible travel",
+   "text": "flying, trains, buses, rental cars and national parks"
+  },
+  {
+   "icon": "rights_legal",
+   "href": "know-your-rights.html#public-places",
+   "label": "Know your rights in public places",
+   "text": "accessible parking, entrances and how to complain"
+  },
+  {
+   "icon": "navigation",
+   "href": "local-help.html?category=transportation",
+   "label": "Transportation help in your state",
+   "text": "rides, paratransit and driver programs in the directory"
+  },
+  {
+   "icon": "map_pin",
+   "href": "states/index.html",
+   "label": "Disability help in every state",
+   "text": "each state’s agencies and programs, with phone numbers"
+  }
+ ],
+ "sources": {
+  "cfr-1235": {
+   "title": "23 CFR Part 1235: Uniform System for Parking for Persons with Disabilities",
+   "publisher": "U.S. Department of Transportation (NHTSA and FHWA), Code of Federal Regulations on GovInfo",
+   "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title23-vol1/pdf/CFR-2024-title23-vol1-part1235.pdf",
+   "page_date": "annual edition revised as of April 1, 2024",
+   "checked": "2026-11-27"
+  },
+  "ada-restripe": {
+   "title": "ADA Compliance Brief: Restriping Parking Spaces",
+   "publisher": "U.S. Department of Justice, Civil Rights Division (ADA.gov)",
+   "url": "https://www.ada.gov/resources/restriping-parking-spaces",
+   "page_date": "page last updated February 28, 2020",
+   "checked": "2026-11-27"
+  },
+  "ca-dmv": {
+   "title": "Disabled Person Parking Placards & Plates",
+   "publisher": "California Department of Motor Vehicles",
+   "url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-person-parking-placards-plates/",
+   "page_date": "page last updated September 25, 2026",
+   "checked": "2026-11-27"
+  },
+  "or-dmv": {
+   "title": "Disabled Person Parking Permits",
+   "publisher": "Oregon Department of Transportation, Driver and Motor Vehicle Services",
+   "url": "https://www.oregon.gov/odot/dmv/pages/driverid/disparking.aspx",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "nv-dmv": {
+   "title": "Disabled Parking",
+   "publisher": "Nevada Department of Motor Vehicles",
+   "url": "https://dmv.nv.gov/platesdisabled.htm",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "va-dmv": {
+   "title": "Parking Placards and Plates for Virginians with Disabilities",
+   "publisher": "Virginia Department of Motor Vehicles",
+   "url": "https://www.dmv.virginia.gov/licenses-ids/disability/plates-assist",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "hi-dcab": {
+   "title": "Disability Parking Permits",
+   "publisher": "Hawaii Disability and Communication Access Board",
+   "url": "https://health.hawaii.gov/dcab/disability-parking-permits/",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "ut-dmv": {
+   "title": "Disabled Plates and Placards",
+   "publisher": "Utah Division of Motor Vehicles",
+   "url": "https://dmv.utah.gov/plates/disabled",
+   "page_date": "page last updated July 1, 2026",
+   "checked": "2026-11-27"
+  },
+  "wi-dmv": {
+   "title": "Disabled parking identification permit (permanent disability)",
+   "publisher": "Wisconsin Department of Transportation, Division of Motor Vehicles",
+   "url": "https://wisconsindot.gov/Pages/dmv/vehicles/dsbld-prkg/discards.aspx",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "ny-dmv": {
+   "title": "Parking for People with Disabilities",
+   "publisher": "New York State Department of Motor Vehicles",
+   "url": "https://dmv.ny.gov/more-info/parking-for-people-with-disabilities",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "ks-tr159": {
+   "title": "Certification of Disability for Disabled Parking Placard/Plate/Decal (form TR-159)",
+   "publisher": "Kansas Department of Revenue, Division of Vehicles",
+   "url": "https://www.ksrevenue.gov/pdf/tr159.pdf",
+   "page_date": "form revised July 2026",
+   "checked": "2026-11-27"
+  },
+  "ks-dv": {
+   "title": "Kansas Disabled Veteran Plate",
+   "publisher": "Kansas Department of Revenue, Division of Vehicles",
+   "url": "https://www.ksrevenue.gov/dov-disabledvet.html",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  },
+  "wa-dv": {
+   "title": "Disabled veteran parking",
+   "publisher": "Washington State Department of Licensing",
+   "url": "https://dol.wa.gov/driver-licenses-and-permits/get-or-renew-disabled-parking-permits/disabled-veteran-parking",
+   "page_date": "no date shown on the page",
+   "checked": "2026-11-27"
+  }
+ }
+}

@@ -418,3 +418,4 @@ ul.glance .gt{display:block;font-weight:700;color:var(--head);margin-bottom:2px}
 table.data{border-collapse:collapse;background:white;font-size:16px;min-width:100%}table.data caption{text-align:left;font-weight:700;color:var(--navy);padding:0 0 8px}
 table.data th,table.data td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}table.data thead th{background:#e8eeea;color:#20313a}table.data tbody th{color:var(--navy)}
 @media print{.table-wrap{overflow:visible}table.data th,table.data td{border-color:#000}}
+.statelinks ul{columns:2 300px;column-gap:32px;padding-left:22px}.statelinks li{break-inside:avoid;margin:0 0 8px}
