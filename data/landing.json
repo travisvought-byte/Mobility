@@ -110,6 +110,33 @@
         {"label": "Getting paid to care", "href": "#paid"}
       ]
     },
+    "accessible-vehicles.html": {
+      "audience": "A wheelchair user, a driver with a disability or a family member who needs an accessible van, hand controls or a lift and is looking for help paying.",
+      "intro": "Need a wheelchair accessible van, hand controls or a lift, and wondering who helps pay? Here is the order that saves money, VA grants, vocational rehabilitation, Medicaid waivers, automaker rebates, loans and tax help. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Start before you buy", "href": "#before-you-buy"},
+        {"label": "Veterans: VA vehicle grants", "href": "#va"},
+        {"label": "Automaker rebates", "href": "#rebates"}
+      ]
+    },
+    "free-medical-equipment.html": {
+      "audience": "Someone who needs a wheelchair, walker, hospital bed or other equipment, or a repair, and cannot afford it or cannot wait.",
+      "intro": "Need a wheelchair, walker or other equipment and cannot afford it or cannot wait? Borrow it, get it used, or find out what Medicare, Medicaid, the VA and equipment grants will pay, including repairs. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Borrow or get it used", "href": "#borrow-reuse"},
+        {"label": "What Medicare pays", "href": "#medicare"},
+        {"label": "Medicaid said no", "href": "#medicaid"}
+      ]
+    },
+    "social-security-disability.html": {
+      "audience": "A person who cannot work because of a disability or illness, or a family member helping them, who wants to apply for SSDI or SSI or was turned down.",
+      "intro": "Cannot work because of a disability or illness? Here is how Social Security disability works: SSDI or SSI, how it decides who qualifies, what to gather, what happens after you apply and how to appeal a denial. Each statement links to the Social Security page it comes from.",
+      "actions": [
+        {"label": "How to apply", "href": "#apply"},
+        {"label": "SSDI or SSI?", "href": "#which-program"},
+        {"label": "Appeal a denial", "href": "#appeal"}
+      ]
+    },
     "espanol.html": {
       "audience": "Una persona con discapacidad, o su familia, que prefiere recibir ayuda en español.",
       "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. El resto de este sitio está en inglés por ahora.",
