@@ -182,6 +182,15 @@
         {"label": "Free benefits counseling", "href": "#counseling"}
       ]
     },
+    "disability-parking.html": {
+      "audience": "A person whose disability limits walking, or a family member or driver, who needs a disability parking placard or plates, wants to renew one, or is driving to another state.",
+      "intro": "Need a disability parking placard or plates? Here is who qualifies, placard or plates, temporary and long-term placards, what your medical provider certifies, renewal, using a placard in another state, disabled veteran plates, what the ADA requires of the spaces, and a link to each state’s official placard page. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Your state’s placard page", "href": "#by-state"},
+        {"label": "Who qualifies", "href": "#who-qualifies"},
+        {"label": "Using it in another state", "href": "#other-states"}
+      ]
+    },
     "vehiculos-adaptados.html": {
       "audience": "Una persona que usa silla de ruedas, o su familia, que prefiere leer en español y busca ayuda para pagar un vehículo adaptado o controles manuales.",
       "intro": "¿Necesita una camioneta adaptada para silla de ruedas, controles manuales o un elevador? Aquí está quién puede ayudar a pagar: el VA, la rehabilitación vocacional, Medicaid, los fabricantes de autos, préstamos e impuestos. Cada afirmación indica la página oficial de donde proviene.",

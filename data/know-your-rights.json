@@ -24,7 +24,7 @@
    "deadline": null,
    "note": "A complaint is not the same as a lawsuit and does not guarantee an investigation or a remedy. Your state Protection and Advocacy agency can help you decide how to proceed.",
    "records": ["us-ada-information-line", "us-ada-file-complaint", "us-ada-service-animals"],
-   "more": [{"label": "Your state’s equal-access law and complaint routes", "href": "mobility-rights.html"}, {"label": "Your regional ADA Center and Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}, {"label": "Service animals: what staff may ask and when a dog can be asked to leave", "href": "service-animals.html"}]
+   "more": [{"label": "Your state’s equal-access law and complaint routes", "href": "mobility-rights.html"}, {"label": "Your regional ADA Center and Protection and Advocacy agency", "href": "local-help.html?category=rights_legal"}, {"label": "Service animals: what staff may ask and when a dog can be asked to leave", "href": "service-animals.html"}, {"label": "Disability parking placards and plates in every state", "href": "disability-parking.html"}]
   },
   {
    "id": "housing",

@@ -9,6 +9,7 @@
   home-modifications.html          data/home-modifications.json         paying for ramps, stairlifts, bathrooms, doors
   disability-housing.html          data/disability-housing.json         vouchers, Section 811, public housing, fair housing
   disability-jobs.html             data/disability-jobs.json            vocational rehab, Ticket to Work, work incentives
+  disability-parking.html          data/disability-parking.json         placards and plates, other states, each state's page
 
 and their Spanish versions (November 27, 2026), each built from a data file that holds only the Spanish words:
 
@@ -47,7 +48,7 @@ ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
 GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications',
-        'disability-housing','disability-jobs']
+        'disability-housing','disability-jobs','disability-parking']
 ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar',
            'vivienda-discapacidad','empleo-discapacidad']
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
@@ -221,6 +222,16 @@ def build(slug):
         pts='<ul>'+''.join(f'<li>{E(p["text"])}{cite(p["src"])}</li>' for p in s['points'])+'</ul>' if s.get('points') else ''
         cards='<div class="grid">'+''.join(card(c) for c in s['cards'])+'</div>' if s.get('cards') else ''
         body+=(cards+pts) if s.get('cards_first') else (pts+cards)
+        if s.get('state_links'):
+            # one line per state: that state's own motor vehicle agency page, opened and confirmed on the checked date.
+            # Wrapped in a div so it is not counted as the section's statements.
+            seen=set()
+            for x in s['state_links']:
+                host=x['url'].split('/')[2]
+                assert x['url'].startswith('https://') and (host.endswith('.gov') or host.endswith('.us')),f'{x["state"]}: official page must be a government site'
+                assert x['code'] not in seen,x['code'];seen.add(x['code'])
+            body+=('<div class="statelinks"><ul>'+''.join(f'<li><strong>{E(x["state"])}:</strong> {link(x["url"],x["title"]+", "+x["agency"],lang)}</li>'
+                   for x in s['state_links'])+'</ul></div>')
         if s.get('after'):
             for h in re.findall(r'href="([^"#]+)',s['after']):assert exists(h),f'{s["id"]}: link to a missing page {h}'
             body+=s['after']

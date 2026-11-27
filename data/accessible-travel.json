@@ -246,6 +246,7 @@
     {"icon": "service_dog", "href": "service-animals.html#air-travel", "label": "Flying with a service animal", "text": "DOT’s rules, forms and what airline staff may ask"},
     {"icon": "rights_legal", "href": "know-your-rights.html#air-travel", "label": "Know your rights", "text": "which law, which office and what deadline, from air travel to transit"},
     {"icon": "transportation", "href": "accessible-vehicles.html", "label": "Help paying for an accessible vehicle", "text": "VA grants, vocational rehab, Medicaid waivers and rebates"},
-    {"icon": "map_pin", "href": "local-help.html?category=transportation", "label": "Transportation help in your state", "text": "rides, paratransit, driver rehabilitation and placards"}
+    {"icon": "map_pin", "href": "local-help.html?category=transportation", "label": "Transportation help in your state", "text": "rides, paratransit, driver rehabilitation and placards"},
+    {"icon": "transportation", "href": "disability-parking.html", "label": "Disability parking placards and plates", "text": "driving to another state with your placard, and each state’s official page"}
   ]
 }
