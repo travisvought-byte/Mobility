@@ -17,6 +17,8 @@ and their Spanish versions (November 27, 2026), each built from a data file that
   incapacidad-seguro-social.html   data/incapacidad-seguro-social.json  (social-security-disability)
   cuidador-familiar-pagado.html    data/cuidador-familiar-pagado.json   (paid-family-caregiver)
   modificaciones-hogar.html        data/modificaciones-hogar.json       (home-modifications)
+  vivienda-discapacidad.html       data/vivienda-discapacidad.json      (disability-housing)
+  empleo-discapacidad.html         data/empleo-discapacidad.json        (disability-jobs)
 
 Each page follows the caregiver and service animal pages: jump tiles, "where to start" paths, sections of short
 statements each with a numbered citation, program cards, a numbered step list where order matters, quick answers
@@ -34,7 +36,8 @@ title and checked date, which are taken from the English file so they cannot dri
 and page date in Spanish and, where the agency publishes one, the Spanish-language version of that page ("es", with
 "related" when it is a companion page rather than the same page in Spanish). The build stops unless the translation has
 the same sections, statements, steps, cards, phone numbers, records, quick answers and citations as the English guide,
-and every number in each statement is the same. An item marked es_note adds a fact read on a Spanish-language page (such
+and every number in each statement is the same; a table must have the same sources, columns and rows, with the same
+numbers in its caption, headers and each row. An item marked es_note adds a fact read on a Spanish-language page (such
 as "press 7 for Spanish"); the note says which.
 """
 import html,json,re
@@ -45,12 +48,14 @@ E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
 GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications',
         'disability-housing','disability-jobs']
-ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar']
+ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar',
+           'vivienda-discapacidad','empleo-discapacidad']
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 # The Spanish pages keep their own short menu, like the Spanish help page: the rest of the site is in English
 NAV_ES=[('./','Inicio (en inglés)','en'),('espanol.html','Ayuda en español',None),('vehiculos-adaptados.html','Vehículos adaptados',None),
         ('equipo-medico-gratis.html','Equipo médico',None),('incapacidad-seguro-social.html','Incapacidad del Seguro Social',None),
         ('cuidador-familiar-pagado.html','Pago a cuidadores',None),('modificaciones-hogar.html','Modificaciones del hogar',None),
+        ('vivienda-discapacidad.html','Vivienda',None),('empleo-discapacidad.html','Empleo',None),
         ('local-help.html','Directorio de ayuda (en inglés)','en')]
 RELAY_ES=('<p class="relay"><strong>¿Es sordo, tiene dificultad para oír o una discapacidad del habla?</strong> <a href="tel:711">Marque 711</a> '
           'para hacer una llamada gratuita por el servicio de retransmisión a cualquier número de esta página.</p>')
@@ -117,6 +122,16 @@ def parity(es,en):
             for i,(x,y) in enumerate(zip(a.get(kind) or [],b.get(kind) or [])):
                 assert x['src']==y['src'],f'{w}: {sid} {kind} {i} cites different sources'
                 same(x['text'],y['text'],f'{sid} {kind} {i}',x)
+        # a table of figures: same sources and shape, and the same numbers in the caption, the headers and every row
+        assert bool(a.get('table'))==bool(b.get('table')),f'{w}: {sid} table'
+        if b.get('table'):
+            x,y=a['table'],b['table']
+            assert x['src']==y['src'],f'{w}: {sid} table cites different sources'
+            assert len(x['headers'])==len(y['headers']) and len(x['rows'])==len(y['rows']),f'{w}: {sid} table shape'
+            same(x['caption'],y['caption'],sid+' table caption');same(' '.join(x['headers']),' '.join(y['headers']),sid+' table headers')
+            for i,(r,q) in enumerate(zip(x['rows'],y['rows'])):
+                assert len(r)==len(q),f'{w}: {sid} table row {i} cells'
+                for j,(c1,c2) in enumerate(zip(r,q)):same(c1,c2,f'{sid} table row {i} cell {j}')
         assert [c['id'] for c in a.get('cards') or []]==[c['id'] for c in b.get('cards') or []],f'{w}: {sid} cards'
         for x,y in zip(a.get('cards') or [],b.get('cards') or []):
             for k in ('src','record','phone_src','phone_on_source'):assert x.get(k)==y.get(k),f'{w}: card {y["id"]} {k}'

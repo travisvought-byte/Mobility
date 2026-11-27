@@ -227,9 +227,27 @@
         {"label": "Exenciones de Medicaid", "href": "#medicaid"}
       ]
     },
+    "vivienda-discapacidad.html": {
+      "audience": "Una persona con discapacidad, o su familia, que prefiere leer en español y necesita una vivienda de alquiler asequible o accesible, busca la Sección 8 u otra ayuda de vivienda, o a quien un arrendador le negó un cambio que necesita.",
+      "intro": "¿Busca una vivienda asequible o accesible y tiene una discapacidad? Aquí está cómo la Sección 8 trata una discapacidad, los vales Mainstream y NED para personas menores de 62 años, la vivienda con apoyo de la Sección 811, sus derechos en la vivienda pública, los alquileres rurales del USDA, cómo presentar una queja de vivienda justa y la ayuda con las facturas de energía. Cada afirmación indica la página oficial de donde proviene.",
+      "actions": [
+        {"label": "Vales de la Sección 8", "href": "#vouchers"},
+        {"label": "Vales para menores de 62 años", "href": "#mainstream"},
+        {"label": "Presentar una queja", "href": "#fair-housing"}
+      ]
+    },
+    "empleo-discapacidad.html": {
+      "audience": "Una persona con discapacidad que prefiere leer en español y quiere trabajar o seguir trabajando, incluidas las personas que reciben SSDI o SSI y temen perder sus beneficios, y los familiares que les ayudan.",
+      "intro": "¿Quiere trabajar con una discapacidad sin perder la ayuda con la que cuenta? Aquí está lo que paga la rehabilitación vocacional y cómo solicitarla, el Boleto para Trabajar, las reglas de trabajo del Seguro Social con las cantidades de 2026 y 2027, las cuentas ABLE, la contratación federal por Schedule A, su derecho a adaptaciones y la asesoría de beneficios gratuita. Cada afirmación indica la página oficial de donde proviene.",
+      "actions": [
+        {"label": "Rehabilitación vocacional", "href": "#vr"},
+        {"label": "Trabajar con SSDI", "href": "#ssdi-work"},
+        {"label": "Asesoría gratuita", "href": "#counseling"}
+      ]
+    },
     "espanol.html": {
       "audience": "Una persona con discapacidad, o su familia, que prefiere recibir ayuda en español.",
-      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Cinco guías también están en español; el resto del sitio está en inglés por ahora.",
+      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Siete guías también están en español; el resto del sitio está en inglés por ahora.",
       "actions": [
         {"label": "Ayuda en su zona", "href": "#local-h"},
         {"label": "Beneficios y Medicare", "href": "#beneficios-h"},

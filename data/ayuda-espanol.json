@@ -4,7 +4,7 @@
  "title": "Ayuda en español para personas con discapacidades | Mobility Talk",
  "description": "Líneas nacionales que atienden en español para personas con discapacidades y sus familias: crisis, comida, salud, ceguera y baja visión, y niños pequeños.",
  "h1": "Ayuda en español",
- "lead": "Estas líneas nacionales atienden en español o tienen información en español. Cinco guías también están en español; el resto del sitio está en inglés por ahora.",
+ "lead": "Estas líneas nacionales atienden en español o tienen información en español. Siete guías también están en español; el resto del sitio está en inglés por ahora.",
  "sections": [
   {
    "id": "ahora",
@@ -268,13 +268,15 @@
  },
  "guides": {
   "title": "Guías en español",
-  "intro": "Estas guías son la versión en español de cinco guías del sitio, con las mismas fuentes oficiales.",
+  "intro": "Estas guías son la versión en español de siete guías del sitio, con las mismas fuentes oficiales.",
   "links": [
    {"href": "vehiculos-adaptados.html", "icon": "transportation", "label": "Ayuda para pagar un vehículo adaptado", "text": "el VA, rehabilitación vocacional, Medicaid, reembolsos e impuestos"},
    {"href": "equipo-medico-gratis.html", "icon": "equipment", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar, Medicare, Medicaid, el VA y subvenciones"},
    {"href": "incapacidad-seguro-social.html", "icon": "benefits", "label": "Cómo solicitar beneficios por incapacidad del Seguro Social", "text": "SSDI y SSI, cómo solicitar y cómo apelar"},
    {"href": "cuidador-familiar-pagado.html", "icon": "daily_living", "label": "Recibir pago por cuidar a un familiar", "text": "Medicaid, el estipendio del VA para cuidadores, licencias del trabajo e impuestos"},
-   {"href": "modificaciones-hogar.html", "icon": "ramps_home", "label": "Ayuda para pagar modificaciones del hogar", "text": "rampas, salvaescaleras, baños y puertas: el VA, el USDA, Medicaid e impuestos"}
+   {"href": "modificaciones-hogar.html", "icon": "ramps_home", "label": "Ayuda para pagar modificaciones del hogar", "text": "rampas, salvaescaleras, baños y puertas: el VA, el USDA, Medicaid e impuestos"},
+   {"href": "vivienda-discapacidad.html", "icon": "housing", "label": "Ayuda de vivienda para personas con discapacidades", "text": "la Sección 8, los vales Mainstream y NED, la Sección 811, la vivienda justa y las facturas de energía"},
+   {"href": "empleo-discapacidad.html", "icon": "work_school", "label": "Empleo y trabajo con una discapacidad", "text": "rehabilitación vocacional, el Boleto para Trabajar y cómo trabajar sin perder el SSDI o el SSI"}
   ]
  },
  "more": {
