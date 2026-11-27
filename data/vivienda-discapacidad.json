@@ -1,0 +1,315 @@
+{
+  "note": "Spanish version of data/disability-housing.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date from the English file. No source here has a Spanish page with the same facts, so every source is the English page, marked as English. Checked November 27, 2026 and not used: USAGov's Spanish addresses (usa.gov/es/...) now open the English site, whose footer says English is the official language of the U.S. Government, so its Section 8, public housing, subsidized housing, rental help and energy bill pages have no Spanish version to cite; HUD's Spanish material found is archived press releases from 2014 and 2015 and housing counselor training guides, not the pages cited here, and its Spanish online complaint form was not cited because it could not be confirmed as current; the regulations, HUD's Mainstream notice and Section 811 pages, the USDA rental pages and 211 have no Spanish version of the same text. The page points readers to the Spanish help page for lines that answer in Spanish. The Spanish text has not yet been reviewed by a native speaker. General information, not legal advice.",
+  "lang": "es",
+  "translation_of": "disability-housing",
+  "page": "vivienda-discapacidad.html",
+  "title": "Ayuda de vivienda por discapacidad: Sección 8, vales Mainstream y Sección 811",
+  "h1": "Ayuda de vivienda para personas con discapacidades",
+  "description": "La Sección 8 y la discapacidad, los vales Mainstream y NED, la Sección 811, adaptaciones en vivienda pública, alquileres rurales, quejas y facturas de energía.",
+  "eyebrow": "SECCIÓN 8 · VALES MAINSTREAM · SECCIÓN 811 · VIVIENDA PÚBLICA · VIVIENDA JUSTA · FACTURAS DE ENERGÍA",
+  "correction_subject": "Página de vivienda y discapacidad (español)",
+  "footer_note": "Esta es información general, no asesoría legal.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "Casi toda la ayuda para el alquiler pasa por su agencia local de vivienda pública, así que empiece allí: pregunte qué listas de espera están abiertas, si da preferencia a las familias que incluyen a una persona con discapacidad y si tiene vales Mainstream o vales NED para personas con discapacidad que no son personas mayores. Solicite en todas las listas para las que califique y mantenga al día sus datos de contacto en cada una.",
+  "start_paths": [
+    {"icon": "housing", "who": "¿Necesita ayuda para pagar el alquiler?", "text": "Un vale de elección de vivienda paga parte del alquiler de una vivienda que usted elige.", "href": "#vouchers"},
+    {"icon": "independent_living", "who": "¿Tiene una discapacidad y es menor de 62 años?", "text": "Algunos vales están reservados para usted.", "href": "#mainstream"},
+    {"icon": "daily_living", "who": "¿Necesita servicios de apoyo donde vive?", "text": "La Sección 811 combina vivienda con servicios.", "href": "#section-811"},
+    {"icon": "ramps_home", "who": "¿Vive en vivienda pública o con asistencia federal?", "text": "El proveedor paga las adaptaciones razonables que usted necesita.", "href": "#public-housing"},
+    {"icon": "search", "who": "¿Busca una vivienda accesible?", "text": "Empiece con el mapa de vivienda subsidiada de HUD.", "href": "#find"},
+    {"icon": "map_pin", "who": "¿Vive en un pueblo pequeño o en el campo?", "text": "El USDA financia viviendas de alquiler con ayuda para la renta.", "href": "#rural"},
+    {"icon": "rights_legal", "who": "¿El arrendador le dijo que no?", "text": "Puede presentar una queja ante HUD dentro de un año.", "href": "#fair-housing"},
+    {"icon": "funding", "who": "¿Está atrasado con las facturas de calefacción o aire acondicionado?", "text": "LIHEAP ayuda a pagarlas.", "href": "#bills"}
+  ],
+  "sources": {
+    "usagov-voucher": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 15 de abril de 2026"},
+    "usagov-groups": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 27 de abril de 2026"},
+    "usagov-public": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 27 de abril de 2026"},
+    "usagov-subsidized": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 27 de abril de 2026"},
+    "ecfr-982-201": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "ecfr-982-207": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 22 de octubre de 2026"},
+    "ecfr-982-303": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 22 de octubre de 2026"},
+    "ecfr-982-402": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 22 de octubre de 2026"},
+    "ecfr-982-503": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 17 de julio de 2026"},
+    "cfr-5-403": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "cfr-5-609": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "cfr-5-611": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "cfr-5-628": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "hud-mainstream": {"publisher": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD), Oficina de Vivienda Pública e Indígena", "page_date": "emitido el 22 de enero de 2020"},
+    "hud-811": {"publisher": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)", "page_date": "la página no muestra fecha"},
+    "hud-811-pra": {"publisher": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)", "page_date": "la página no muestra fecha; la fecha límite de solicitud se actualizó al 20 de febrero de 2024"},
+    "hud-ra-faq": {"publisher": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD), Oficina de Vivienda Justa e Igualdad de Oportunidades", "page_date": "la página no muestra fecha"},
+    "cfr-8-22": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "cfr-8-27": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "cfr-100-205": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "usda-mfh-direct": {"publisher": "Departamento de Agricultura de EE. UU. (USDA), Desarrollo Rural", "page_date": "página actualizada por última vez el 25 de noviembre de 2026"},
+    "usda-ra": {"publisher": "Departamento de Agricultura de EE. UU. (USDA), Desarrollo Rural", "page_date": "página actualizada por última vez el 19 de marzo de 2026"},
+    "usda-ra-factsheet": {"publisher": "Departamento de Agricultura de EE. UU. (USDA), Desarrollo Rural", "page_date": "con fecha de diciembre de 2021"},
+    "usda-rentals-help": {"publisher": "Departamento de Agricultura de EE. UU. (USDA), Desarrollo Rural", "page_date": "la página no muestra fecha"},
+    "hud-complaint": {"publisher": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)", "page_date": "la página no muestra fecha"},
+    "cfr-103-35": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de abril de 2025"},
+    "usagov-energy": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 13 de enero de 2026"},
+    "usc-8624": {"publisher": "Código de los Estados Unidos, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición de 2023 del Código de los Estados Unidos"},
+    "211-home": {"publisher": "United Way Worldwide, 211", "page_date": "la página no muestra fecha"}
+  },
+  "sections": [
+    {
+      "id": "vouchers",
+      "title": "Vales de elección de vivienda (Sección 8) y la discapacidad",
+      "icon": "housing",
+      "lead": "Un vale de elección de vivienda paga todo o parte del alquiler de una vivienda que usted elige, como un apartamento, una casa adosada o una casa unifamiliar. Las agencias locales de vivienda pública administran el programa y deciden quién califica.",
+      "lead_src": ["usagov-voucher"],
+      "steps_title": "Cómo solicitar un vale",
+      "steps": [
+        {"text": "Busque su agencia local de vivienda pública (PHA, por sus siglas en inglés). Ella decide si usted es elegible y recibe las solicitudes.", "src": ["usagov-voucher"]},
+        {"text": "Pregunte si su lista de espera está abierta. Las listas muchas veces se cierran cuando tienen más familias de las que la agencia puede ayudar, así que vuelva a preguntar para saber cuándo se abre de nuevo la suya.", "src": ["usagov-voucher"]},
+        {"text": "Pregunte por sus preferencias. Una agencia puede dar preferencia a las familias que incluyen a una persona con discapacidad, pero no a las personas con una discapacidad específica.", "src": ["ecfr-982-207"]},
+        {"text": "Cuando reciba un vale, busque una vivienda que cumpla las reglas del programa. Si por su discapacidad la búsqueda le toma más tiempo, pida más tiempo como adaptación razonable.", "src": ["usagov-voucher", "ecfr-982-303"]}
+      ],
+      "points": [
+        {"text": "La elegibilidad depende de su ingreso bruto anual total, del tamaño de su familia y de su ciudadanía o situación migratoria.", "src": ["usagov-voucher"]},
+        {"text": "Para calificar, una familia por lo general debe tener ingresos muy bajos según los límites que HUD fija para cada zona. Al menos el 75 por ciento de las familias que una agencia admite cada año de su lista de espera deben tener ingresos extremadamente bajos.", "src": ["ecfr-982-201", "usagov-voucher"]},
+        {"text": "Lo que usted paga es, por lo general, la cantidad más alta entre el 30 por ciento de su ingreso mensual ajustado, el 10 por ciento de su ingreso mensual o el alquiler mínimo de la agencia. La agencia paga su parte del alquiler al arrendador.", "src": ["cfr-5-628", "usagov-voucher"]},
+        {"text": "Una familia cuyo jefe, cojefe, cónyuge o único miembro tiene una discapacidad es una familia con discapacidad (disabled family). Recibe una deducción fija de sus ingresos que HUD ajusta cada año.", "src": ["cfr-5-403", "cfr-5-611"]},
+        {"text": "Una familia de personas mayores o con discapacidad también puede deducir los gastos de salud y atención médica que no le reembolsan. Cualquier familia puede deducir los gastos de asistentes y equipo para un miembro con discapacidad cuando permiten que alguien de la familia trabaje. Estas deducciones cuentan solo por la parte que supere el 10 por ciento del ingreso anual.", "src": ["cfr-5-611"]},
+        {"text": "El SSI y los beneficios por incapacidad del Seguro Social cuentan como ingreso, porque HUD cuenta todo lo que recibe una familia salvo lo que sus reglas excluyen. Los pagos atrasados del SSI o del Seguro Social, ya sea en un solo pago o en cantidades mensuales posteriores, no cuentan, y tampoco el dinero que el SSI no cuenta porque está apartado en un Plan para lograr la autosuficiencia (PASS).", "src": ["cfr-5-609"]},
+        {"text": "No cuentan como ingreso los pagos de la agencia estatal de Medicaid, o de otra agencia estatal o federal, que permiten que un miembro de la familia con discapacidad viva en la casa. Eso incluye el pago que recibe un familiar, por medio de esa agencia, por el cuidado que permite que esa persona viva en casa.", "src": ["cfr-5-609"]},
+        {"text": "Si una agencia da preferencia a las familias que trabajan, debe dar esa preferencia también a los solicitantes cuyo jefe y cónyuge, o único miembro, tiene una discapacidad o tiene 62 años o más, aunque no trabajen.", "src": ["ecfr-982-207"]},
+        {"text": "El primer plazo de búsqueda de un vale es de al menos 60 días. La agencia debe extenderlo tanto como sea razonablemente necesario cuando un miembro de la familia con discapacidad necesita más tiempo.", "src": ["ecfr-982-303"]},
+        {"text": "Como adaptación razonable, una agencia puede subir el estándar de pago para su familia hasta el 120 por ciento del alquiler justo del mercado de la zona sin la aprobación de HUD, y más con la aprobación de HUD.", "src": ["ecfr-982-503"]},
+        {"text": "Un asistente que vive con la familia, aprobado por la agencia para cuidar a un miembro con discapacidad, cuenta cuando la agencia decide cuántas habitaciones le corresponden. La agencia puede hacer una excepción a sus reglas de habitaciones por la salud o la discapacidad de un miembro de la familia.", "src": ["ecfr-982-402"]}
+      ],
+      "cards": [
+        {
+          "id": "pha-card",
+          "name": "Su agencia local de vivienda pública",
+          "org": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)",
+          "text": "Las agencias de vivienda pública reciben las solicitudes de vales de elección de vivienda y de vivienda pública, manejan las listas de espera y deciden quién es elegible.",
+          "next": "Busque su agencia en la lista de HUD, o llame al Centro de Recursos e Información de Vivienda Pública e Indígena de HUD.",
+          "phone": "1-800-955-2232",
+          "phone_on_source": "1-800-955-2232",
+          "phone_src": "usagov-groups",
+          "phone_label": "Centro de Recursos e Información de Vivienda Pública e Indígena (Public and Indian Housing Information Resource Center)",
+          "record": "us-hud-housing-agency",
+          "links": [
+            {"label": "Buscar su agencia local de vivienda pública", "href": "https://www.hud.gov/program_offices/public_indian_housing/pha/contacts", "lang": "en"},
+            {"label": "Límites de ingresos de HUD para su zona", "href": "https://www.huduser.gov/portal/datasets/il.html", "lang": "en"}
+          ],
+          "src": ["usagov-voucher"]
+        }
+      ]
+    },
+    {
+      "id": "mainstream",
+      "title": "Vales Mainstream y vales para personas con discapacidad que no son mayores (NED)",
+      "icon": "independent_living",
+      "lead": "Algunos vales de elección de vivienda están reservados para personas con discapacidades menores de 62 años. Funcionan como los demás vales, así que pregunte a su agencia de vivienda pública si los tiene.",
+      "lead_src": ["hud-mainstream", "usagov-groups"],
+      "points": [
+        {"text": "Los vales Mainstream son para cualquier familia que incluya a una persona con discapacidad que tenga al menos 18 años y todavía no tenga 62 cuando empieza la ayuda.", "src": ["hud-mainstream"]},
+        {"text": "Una vez que una familia recibe ayuda con un vale Mainstream, no lo pierde cuando esa persona cumple 62 años.", "src": ["hud-mainstream"]},
+        {"text": "Los vales Mainstream son vales de elección de vivienda regulares con reglas de elegibilidad adicionales, y se les aplican las mismas regulaciones.", "src": ["hud-mainstream"]},
+        {"text": "Una agencia no puede tener una lista de espera aparte para los vales Mainstream. Los da a la primera familia elegible de su lista regular de vales.", "src": ["hud-mainstream"]},
+        {"text": "Una agencia puede dar preferencia a las personas que salen de instituciones u otros lugares segregados, a las que corren un riesgo serio de entrar en uno, y a las personas sin hogar o en riesgo de quedarse sin hogar.", "src": ["hud-mainstream"]},
+        {"text": "Para un vale NED (Non-Elderly Disabled) usted debe ser el jefe, el cónyuge o el cojefe de una familia, tener menos de 62 años, tener una discapacidad y cumplir los requisitos de ingresos y los demás requisitos del lugar donde vive.", "src": ["usagov-groups"]}
+      ],
+      "cards": [
+        {
+          "id": "ned-card",
+          "name": "Vales NED para personas con discapacidad que no son mayores",
+          "org": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)",
+          "text": "Vales que ayudan a personas menores de 62 años con una discapacidad a encontrar y pagar una vivienda de alquiler privada.",
+          "next": "Comuníquese con su agencia local de vivienda pública para saber si es elegible y para solicitar.",
+          "record": "us-ned-vouchers",
+          "links": [{"label": "Ayuda para el alquiler para personas con discapacidades, en USAGov", "href": "https://www.usa.gov/rent-help-groups", "lang": "en"}],
+          "src": ["usagov-groups"]
+        }
+      ]
+    },
+    {
+      "id": "section-811",
+      "title": "Vivienda con apoyo de la Sección 811",
+      "icon": "daily_living",
+      "lead": "El programa de la Sección 811 de HUD ayuda a crear viviendas de alquiler para personas con discapacidades que tienen ingresos muy bajos, con servicios de apoyo disponibles para quienes viven allí.",
+      "lead_src": ["hud-811", "hud-811-pra"],
+      "points": [
+        {"text": "La Sección 811 apoya la creación de viviendas multifamiliares para personas con discapacidades de ingresos muy bajos.", "src": ["hud-811"]},
+        {"text": "Por medio de la Asistencia para el Alquiler de Proyectos de la Sección 811, HUD da fondos a las agencias estatales de vivienda para ayudar a pagar el alquiler de unidades para personas con discapacidades de ingresos extremadamente bajos.", "src": ["hud-811-pra"]},
+        {"text": "La Asistencia para el Alquiler de Proyectos ofrece vivienda permanente con servicios de apoyo disponibles, por medio de acuerdos entre las agencias estatales de vivienda y las agencias estatales de salud y servicios humanos o de Medicaid.", "src": ["hud-811-pra"]},
+        {"text": "Para saber más sobre viviendas de la Sección 811 cerca de usted, HUD dice que se comunique con su oficina local de Vivienda Multifamiliar de HUD.", "src": ["hud-811"]}
+      ],
+      "cards": [
+        {
+          "id": "section-811-card",
+          "name": "Vivienda con Apoyo para Personas con Discapacidades de la Sección 811",
+          "org": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)",
+          "text": "Viviendas de alquiler para personas con discapacidades de ingresos muy bajos, creadas con fondos de HUD, con servicios de apoyo disponibles.",
+          "next": "Pregunte a la agencia de financiamiento de vivienda de su estado, a su administrador de casos de Medicaid o a su oficina local de Vivienda Multifamiliar de HUD por unidades de la Sección 811 en su zona.",
+          "record": "us-hud-section-811",
+          "links": [{"label": "La página de la Sección 811 de HUD", "href": "https://hud.gov/hud-partners/multifamily-grants-section811ptl", "lang": "en"}],
+          "src": ["hud-811", "hud-811-pra"]
+        }
+      ],
+      "after": "<p class=\"meta\">La agencia de financiamiento de vivienda de su estado aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés), en la sección Housing, y en <a href=\"local-help.html?category=housing\" hreflang=\"en\">el directorio de programas de vivienda</a> (en inglés).</p>"
+    },
+    {
+      "id": "public-housing",
+      "title": "Vivienda pública y adaptaciones razonables",
+      "icon": "ramps_home",
+      "lead": "La vivienda pública ofrece viviendas de alquiler asequibles a personas de bajos ingresos, personas mayores y personas con discapacidades. Como recibe asistencia federal, el proveedor de vivienda paga las adaptaciones razonables que necesita un residente o solicitante con discapacidad.",
+      "lead_src": ["usagov-public", "hud-ra-faq"],
+      "points": [
+        {"text": "Su agencia local de vivienda pública decide si usted califica, según su ingreso bruto anual, si es una persona mayor, una persona con discapacidad o una familia, y su ciudadanía o situación migratoria. Es posible que tenga que solicitar en persona.", "src": ["usagov-public"]},
+        {"text": "Una adaptación razonable es un cambio, una excepción o un ajuste a una regla, política, práctica o servicio, como una excepción a una regla de estacionamiento, un intérprete o documentos en letra grande.", "src": ["hud-ra-faq"]},
+        {"text": "Una modificación razonable es un cambio estructural en el edificio o la unidad, como una rampa para entrar a un edificio.", "src": ["hud-ra-faq"]},
+        {"text": "En la vivienda con asistencia federal, el proveedor paga las adaptaciones razonables y no puede hacer que un solicitante o inquilino las pague.", "src": ["hud-ra-faq"]},
+        {"text": "Puede pedir una adaptación o modificación por escrito, pero no está obligado a hacerlo.", "src": ["hud-ra-faq"]},
+        {"text": "En un proyecto nuevo de apartamentos con asistencia federal, al menos el 5 por ciento de las unidades, y nunca menos de una, deben ser accesibles para personas con discapacidades de movilidad, más otro 2 por ciento para personas con discapacidades auditivas o visuales.", "src": ["cfr-8-22"]},
+        {"text": "Una unidad accesible desocupada se debe ofrecer primero a un residente actual que necesite sus características, y luego a un solicitante calificado de la lista de espera que las necesite. Un inquilino sin discapacidad que acepte una puede tener que comprometerse a mudarse cuando se desocupe otra unidad.", "src": ["cfr-8-27"]},
+        {"text": "Si le niegan la solicitud, puede presentar una queja ante HUD o ante una agencia local del Programa de Asistencia de Vivienda Justa. Preséntela lo antes posible, porque hay plazos.", "src": ["hud-ra-faq"]}
+      ]
+    },
+    {
+      "id": "find",
+      "title": "Cómo encontrar una vivienda asequible o accesible",
+      "icon": "search",
+      "lead": "En la vivienda de alquiler subsidiada, el gobierno paga a los dueños de apartamentos para que bajen el alquiler a inquilinos de bajos ingresos. Cada propiedad recibe sus propias solicitudes, y algunas tienen listas de espera.",
+      "lead_src": ["usagov-subsidized"],
+      "steps_title": "Cómo buscar en el mapa de HUD",
+      "steps": [
+        {"text": "Abra el mapa de recursos de HUD y elija «Find Affordable Housing Opportunities Near Me» (buscar vivienda asequible cerca de mí).", "src": ["usagov-subsidized"]},
+        {"text": "Busque su ciudad o dirección y revise las viviendas asequibles de su zona.", "src": ["usagov-subsidized"]},
+        {"text": "Comuníquese con cada propiedad que le interese para preguntar cómo solicitar una unidad de alquiler reducido.", "src": ["usagov-subsidized"]}
+      ],
+      "points": [
+        {"text": "Cada ciudad o condado tiene sus propias reglas de elegibilidad para la vivienda asequible.", "src": ["usagov-subsidized"]},
+        {"text": "Según las reglas de la Ley de Vivienda Justa, los edificios de apartamentos cubiertos que se ocuparon por primera vez después del 13 de marzo de 1991 deben tener una entrada accesible en una ruta accesible, puertas lo bastante anchas para una silla de ruedas, interruptores de luz y tomacorrientes en lugares accesibles, paredes del baño lo bastante firmes para instalar barras de apoyo, y cocinas y baños que pueda usar una persona en silla de ruedas.", "src": ["cfr-100-205"]},
+        {"text": "Pregunte al administrador de la propiedad qué unidades tienen características de accesibilidad, y pida una adaptación razonable si la necesita para solicitar o para vivir allí.", "src": ["hud-ra-faq"]}
+      ],
+      "cards": [
+        {
+          "id": "hud-map-card",
+          "name": "El mapa de vivienda asequible de HUD",
+          "org": "Departamento de Vivienda y Desarrollo Urbano de EE. UU. (HUD)",
+          "text": "Un mapa de viviendas de alquiler subsidiadas, para que encuentre propiedades cerca de usted y se comunique con ellas para solicitar.",
+          "links": [
+            {"label": "Mapa de recursos de HUD", "href": "https://resources.hud.gov/", "lang": "en"},
+            {"label": "Cómo funciona la vivienda subsidiada, en USAGov", "href": "https://www.usa.gov/subsidized-rental-housing", "lang": "en"}
+          ],
+          "src": ["usagov-subsidized"]
+        }
+      ],
+      "after": "<p class=\"meta\">La página de su estado muestra su agencia de financiamiento de vivienda y, en muchos estados, un buscador estatal de alquileres que puede filtrar por unidades accesibles: <a href=\"states/index.html\" hreflang=\"en\">busque su estado</a> (en inglés).</p>"
+    },
+    {
+      "id": "rural",
+      "title": "Alquileres rurales por medio del USDA",
+      "icon": "map_pin",
+      "lead": "Desarrollo Rural del USDA financia viviendas de alquiler en zonas rurales para personas con ingresos de muy bajos a moderados, personas de 62 años o más y personas con discapacidades. En algunas de estas propiedades, la Asistencia para el Alquiler del USDA baja la renta.",
+      "lead_src": ["usda-mfh-direct", "usda-ra"],
+      "points": [
+        {"text": "La Asistencia para el Alquiler paga a los dueños de viviendas de alquiler financiadas por el USDA en nombre de inquilinos de bajos ingresos que no pueden pagar toda su renta.", "src": ["usda-ra"]},
+        {"text": "Los inquilinos con ingresos muy bajos, menos del 50 por ciento de la mediana de la zona, tienen la primera prioridad. Los ingresos bajos van del 50 al 80 por ciento de la mediana de la zona.", "src": ["usda-ra"]},
+        {"text": "Los inquilinos que reciben Asistencia para el Alquiler pagan el 30 por ciento de sus ingresos como renta.", "src": ["usda-ra-factsheet"]},
+        {"text": "Para solicitar, comuníquese con la agencia administradora que aparece para la propiedad. Cada anuncio enlaza a los límites de ingresos de la propiedad y a la oficina del USDA que la atiende.", "src": ["usda-rentals-help"]}
+      ],
+      "cards": [
+        {
+          "id": "usda-rentals-card",
+          "name": "Propiedades de alquiler rurales del USDA",
+          "org": "Desarrollo Rural del USDA",
+          "text": "Un buscador de viviendas de alquiler financiadas por el USDA, por estado y condado, ciudad, código postal o nombre de la propiedad.",
+          "next": "Elija su estado y luego su condado o pueblo, y comuníquese con la agencia administradora de cada propiedad que le convenga.",
+          "links": [
+            {"label": "Buscar alquileres rurales del USDA", "href": "https://rdmfhrentals.sc.egov.usda.gov/RDMFHRentals/select_state.jsp", "lang": "en"},
+            {"label": "Asistencia para el Alquiler del USDA", "href": "https://www.rd.usda.gov/programs-services/multifamily-housing-programs/multifamily-housing-rental-assistance", "lang": "en"}
+          ],
+          "src": ["usda-rentals-help", "usda-ra"]
+        }
+      ]
+    },
+    {
+      "id": "fair-housing",
+      "title": "Sus derechos de vivienda justa y cómo presentar una queja ante HUD",
+      "icon": "rights_legal",
+      "lead": "Tres leyes federales obligan a los proveedores de vivienda a hacer adaptaciones y modificaciones razonables para las personas con discapacidades: la Ley de Vivienda Justa, la Sección 504 de la Ley de Rehabilitación y la Ley sobre Estadounidenses con Discapacidades (ADA).",
+      "lead_src": ["hud-ra-faq"],
+      "cards_first": true,
+      "cards": [
+        {
+          "id": "hud-complaint-card",
+          "name": "Presente una queja de vivienda justa ante HUD",
+          "org": "Departamento de Vivienda y Desarrollo Urbano de EE. UU., Oficina de Vivienda Justa e Igualdad de Oportunidades",
+          "text": "Presente la queja en línea, por teléfono o enviando por correo un formulario o una carta, si un arrendador, vendedor o proveedor de vivienda le negó una adaptación o modificación razonable o lo trató injustamente por una discapacidad.",
+          "next": "Anote lo que pidió, cuándo lo pidió y cómo le respondió el proveedor, y luego presente la queja.",
+          "phone": "1-800-669-9777",
+          "phone_on_source": "1 (800) 669-9777",
+          "phone_src": "hud-complaint",
+          "phone_label": "Línea gratuita, como aparece en la página de quejas de HUD",
+          "record": "us-hud-fair-housing-complaint",
+          "links": [
+            {"label": "La página de quejas de HUD", "href": "https://hud.gov/i_want_to/file_a_fair_housing_discrimination_complaint", "lang": "en"},
+            {"label": "Nuestros pasos y el plazo para quejas de vivienda", "href": "know-your-rights.html#housing", "lang": "en"}
+          ],
+          "src": ["hud-complaint"]
+        }
+      ],
+      "points": [
+        {"text": "En la vivienda privada, el arrendador debe permitirle hacer una modificación razonable según la Ley de Vivienda Justa, pero puede exigir que usted la pague.", "src": ["hud-ra-faq"]},
+        {"text": "Una carta a HUD debe dar su nombre y dirección, el nombre y la dirección de la persona de quien se queja, la dirección de la vivienda, la fecha en que ocurrió y una descripción breve de lo que pasó.", "src": ["hud-complaint"]},
+        {"text": "Debe avisar a HUD dentro de un año. Si la discriminación ocurrió más de una vez o todavía continúa, HUD debe recibir su queja dentro de un año desde el último incidente.", "src": ["cfr-103-35"]}
+      ],
+      "after": "<p class=\"meta\">El derecho de los inquilinos a hacer cambios, y quién ayuda a pagarlos: <a href=\"modificaciones-hogar.html#renters\">Ayuda para pagar modificaciones del hogar</a> · Animales de servicio y de asistencia en la vivienda: <a href=\"service-animals.html\" hreflang=\"en\">Animales de servicio y sus derechos</a> (en inglés)</p>"
+    },
+    {
+      "id": "bills",
+      "title": "Ayuda para pagar las facturas de energía y otros gastos",
+      "icon": "funding",
+      "lead": "El Programa de Asistencia de Energía para Hogares de Bajos Ingresos (LIHEAP) ayuda a pagar las facturas de calefacción y aire acondicionado, y el Programa de Asistencia para la Climatización ayuda a que cueste menos calentar y enfriar la casa. Cada estado administra su propio programa y fija sus propias reglas.",
+      "lead_src": ["usagov-energy"],
+      "points": [
+        {"text": "LIHEAP puede ayudar a pagar las facturas de calefacción o aire acondicionado, y da ayuda de emergencia durante una crisis de energía. Según donde viva, también puede ayudar con la factura de electricidad.", "src": ["usagov-energy"]},
+        {"text": "Para solicitar, busque la oficina de LIHEAP de su estado o territorio. Algunas reciben solicitudes en línea y otras piden que solicite en persona.", "src": ["usagov-energy"]},
+        {"text": "La ley federal permite que los estados den LIHEAP a los hogares donde alguien recibe SSI, y a los hogares con ingresos de hasta el 150 por ciento del nivel de pobreza o el 60 por ciento del ingreso medio del estado, lo que sea más alto.", "src": ["usc-8624"]},
+        {"text": "Los estados deben buscar especialmente a los hogares elegibles con miembros mayores o con discapacidad y a los hogares con facturas de energía altas.", "src": ["usc-8624"]},
+        {"text": "Tener una discapacidad puede influir en si una compañía de servicios puede cortarle el servicio, según las reglas de su estado.", "src": ["usagov-energy"]},
+        {"text": "Para recibir ayuda local con otras facturas o para encontrar comida, marque 211. Todas las llamadas son confidenciales.", "src": ["211-home"]}
+      ],
+      "cards": [
+        {
+          "id": "liheap-card",
+          "name": "Programa de Asistencia de Energía para Hogares de Bajos Ingresos (LIHEAP)",
+          "org": "Departamento de Salud y Servicios Humanos de EE. UU.",
+          "text": "Ayuda para pagar las facturas de calefacción y aire acondicionado, administrada por cada estado, territorio y muchas tribus.",
+          "next": "Busque su oficina de LIHEAP por estado, territorio o tribu, y pregunte cómo solicitar.",
+          "record": "us-liheap-energy-bills",
+          "links": [
+            {"label": "Buscar su oficina de LIHEAP", "href": "https://liheapch.acf.hhs.gov/search-tool/", "lang": "en"},
+            {"label": "Ayuda con las facturas de energía, en USAGov", "href": "https://www.usa.gov/help-with-energy-bills", "lang": "en"}
+          ],
+          "src": ["usagov-energy"]
+        }
+      ],
+      "after": "<p class=\"meta\">En <a href=\"espanol.html#local-h\">Ayuda en su zona</a>, en la página Ayuda en español, están las líneas que atienden en español para comida, vivienda y cuentas.</p>"
+    }
+  ],
+  "faq": [
+    {"q": "¿Puedo recibir la Sección 8 si tengo una discapacidad?", "a": "Una discapacidad por sí sola no le da derecho. Su agencia de vivienda pública revisa sus ingresos, el tamaño de su familia y su situación migratoria. Las agencias pueden dar preferencia a las familias que incluyen a una persona con discapacidad, y algunos vales, como los vales Mainstream y NED, están reservados para personas con discapacidades menores de 62 años.", "src": ["usagov-voucher", "ecfr-982-207", "hud-mainstream", "usagov-groups"]},
+    {"q": "¿Qué son los vales Mainstream?", "a": "Vales de elección de vivienda para familias que incluyen a una persona con discapacidad que tiene al menos 18 años y todavía no tiene 62 cuando empieza la ayuda. Siguen las mismas reglas que los demás vales, se dan de la lista de espera regular de la agencia, y las familias no los pierden cuando esa persona cumple 62 años.", "src": ["hud-mainstream"]},
+    {"q": "¿Qué es la vivienda de la Sección 811?", "a": "Viviendas de alquiler para personas con discapacidades de ingresos muy bajos, creadas con fondos de HUD. Por medio de la Asistencia para el Alquiler de Proyectos, las agencias estatales de vivienda ayudan a pagar el alquiler de unidades para personas con discapacidades de ingresos extremadamente bajos, con servicios de apoyo disponibles.", "src": ["hud-811", "hud-811-pra"]},
+    {"q": "¿Cuánto alquiler pagaré con un vale de vivienda?", "a": "Por lo general, la cantidad más alta entre el 30 por ciento de su ingreso mensual ajustado, el 10 por ciento de su ingreso mensual o el alquiler mínimo de la agencia. Una familia con discapacidad recibe una deducción fija de sus ingresos y puede deducir los gastos de salud y atención médica que superen el 10 por ciento del ingreso anual.", "src": ["cfr-5-628", "cfr-5-611"]},
+    {"q": "¿El SSI o el SSDI cuentan como ingreso para la Sección 8?", "a": "Sí. HUD cuenta el SSI y los beneficios por incapacidad del Seguro Social como ingreso. Los pagos atrasados, en un solo pago o en cantidades mensuales posteriores, no cuentan, y tampoco el dinero apartado en un Plan para lograr la autosuficiencia del SSI. Una familia con discapacidad también recibe una deducción fija de sus ingresos.", "src": ["cfr-5-609", "cfr-5-611"]},
+    {"q": "¿Mi arrendador tiene que pagar una rampa?", "a": "En la vivienda con asistencia federal, como la vivienda pública, el proveedor paga las adaptaciones razonables y no puede hacer que usted las pague. En la vivienda privada, el arrendador debe permitirle hacer una modificación razonable, pero puede exigir que usted la pague.", "src": ["hud-ra-faq"]},
+    {"q": "¿Cómo presento ante HUD una queja por discriminación en la vivienda?", "a": "Use el formulario en línea de HUD, llame al 1-800-669-9777, o envíe por correo un formulario o una carta. Debe avisar a HUD dentro de un año, o dentro de un año desde el último incidente si ocurrió más de una vez o todavía continúa.", "src": ["hud-complaint", "cfr-103-35"]},
+    {"q": "¿Puedo recibir ayuda para pagar la factura de electricidad o de calefacción?", "a": "LIHEAP ayuda a pagar las facturas de calefacción y aire acondicionado, y en algunos lugares las de electricidad. Cada estado fija sus propias reglas; busque la oficina de LIHEAP de su estado o territorio para solicitar.", "src": ["usagov-energy"]}
+  ],
+  "related": [
+    {"icon": "ramps_home", "href": "modificaciones-hogar.html", "label": "Ayuda para pagar modificaciones del hogar", "text": "rampas, salvaescaleras, baños y el derecho de los inquilinos a hacer cambios"},
+    {"icon": "work_school", "href": "empleo-discapacidad.html", "label": "Empleo y trabajo con una discapacidad", "text": "rehabilitación vocacional, el Boleto para Trabajar y cómo mantener sus beneficios mientras trabaja"},
+    {"icon": "benefits", "href": "incapacidad-seguro-social.html", "label": "Cómo solicitar beneficios por incapacidad del Seguro Social", "text": "SSDI y SSI, paso a paso"},
+    {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, vivienda, beneficios y derechos"},
+    {"icon": "rights_legal", "href": "know-your-rights.html#housing", "lang": "en", "label": "Sus derechos: vivienda", "text": "qué anotar, a quién llamar y el plazo de HUD"},
+    {"icon": "map_pin", "href": "local-help.html?category=housing", "lang": "en", "label": "Programas de vivienda en su estado", "text": "agencias de vivienda y ayuda para el alquiler en el directorio"}
+  ]
+}

@@ -214,6 +214,7 @@
   "related": [
     {"icon": "daily_living", "href": "cuidador-familiar-pagado.html", "label": "Recibir pago por cuidar a un familiar", "text": "Medicaid, el estipendio del VA para cuidadores, licencias e impuestos"},
     {"icon": "equipment", "href": "equipo-medico-gratis.html", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar o recibir ayuda para pagar"},
+    {"icon": "housing", "href": "vivienda-discapacidad.html", "label": "Ayuda de vivienda para personas con discapacidades", "text": "la Sección 8, los vales Mainstream, la Sección 811 y la vivienda justa"},
     {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
     {"icon": "ramps_home", "href": "ramps-home-access.html", "lang": "en", "label": "Rampas y acceso a la casa", "text": "seis caminos para intentar, y listas paso a paso para las subvenciones del VA y las exenciones de Ohio"}
   ]

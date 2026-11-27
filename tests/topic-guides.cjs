@@ -1,6 +1,6 @@
 // National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, Social Security
 // disability, accessible travel, getting paid as a family caregiver, paying for home modifications, housing help and jobs and
-// work with a disability, and the Spanish versions of the first three and the last two (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
+// work with a disability, and the Spanish versions of all but accessible travel (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
 // phone number shown was read on its source page (and matches the directory record where there is one), no other number
 // slips in, the quick answers and their FAQ structured data say the same thing, and the page is wired in like the other
 // national guides: title, description, canonical, social and breadcrumb tags, sitemap, visit counter, ad code, MIF block,
@@ -149,7 +149,7 @@ assert(doc('disability-housing.html').querySelector('#related a[href="disability
 // and footer, the side note, FAQ data in Spanish that matches the page, every source with the English page it was read on
 // and its checked date (and the agency's Spanish page where listed), and links to English pages marked as English.
 const T={'vehiculos-adaptados':'accessible-vehicles','equipo-medico-gratis':'free-medical-equipment','incapacidad-seguro-social':'social-security-disability',
- 'cuidador-familiar-pagado':'paid-family-caregiver','modificaciones-hogar':'home-modifications'};
+ 'cuidador-familiar-pagado':'paid-family-caregiver','modificaciones-hogar':'home-modifications','vivienda-discapacidad':'disability-housing','empleo-discapacidad':'disability-jobs'};
 const hubLinks=[...doc('espanol.html').querySelectorAll('#guias-h ~ ul a')].map(a=>a.getAttribute('href'));
 const SPANISH=new Set(['espanol.html',...Object.keys(T).map(s=>s+'.html')]);
 for(const [es,en] of Object.entries(T)){
@@ -215,4 +215,13 @@ for(const [es,en] of Object.entries(T)){
  assert(hubLinks.includes(F),'the Spanish help page links '+F);
  summary.push(`${F}: Spanish version of ${EN}, ${items.length} quick answers, ${Object.values(data.sources).filter(x=>x.es).length} Spanish-language source pages`);
 }
+// the Spanish jobs guide keeps the English earnings table: same cells, a caption and headers in Spanish, both citations,
+// and the same scrollable, named region; the housing and jobs versions link each other and the Spanish help page lists them
+{const es=doc('empleo-discapacidad.html'),tb=es.querySelector('#ssdi-work table.data');assert(tb,'Spanish jobs guide has the earnings table');
+ const wrap=tb.closest('.table-wrap');assert.equal(wrap.getAttribute('role'),'region');assert.equal(wrap.getAttribute('tabindex'),'0');assert.equal(es.getElementById(wrap.getAttribute('aria-labelledby')),tb.querySelector('caption'));
+ assert.deepEqual([...tb.querySelectorAll('caption a.cite')].map(a=>a.getAttribute('href')),['#src-ssa-sga','#src-ssa-twp'],'Spanish table caption cites both Social Security pages');
+ assert(/Seguro Social/.test(text(tb.querySelector('caption'))),'Spanish table caption');assert.equal(tb.querySelectorAll('thead th[scope="col"]').length,4);assert.equal(tb.querySelectorAll('tbody th[scope="row"]').length,2);
+ assert.deepEqual([...tb.querySelectorAll('tbody tr')].map(r=>[...r.children].map(text)),[['2026','$1,690','$2,830','$1,210'],['2027','$1,770','$2,950','$1,270']],'Spanish table has the English amounts');
+ assert(es.querySelector('#related a[href="vivienda-discapacidad.html"]')&&doc('vivienda-discapacidad.html').querySelector('#related a[href="empleo-discapacidad.html"]'),'the Spanish housing and jobs guides link each other');
+ assert(doc('incapacidad-seguro-social.html').querySelector('#related a[href="empleo-discapacidad.html"]')&&doc('modificaciones-hogar.html').querySelector('#related a[href="vivienda-discapacidad.html"]'),'Spanish Social Security and home modification guides link the new Spanish guides, as the English ones do');}
 console.log('PASS topic guides: '+summary.join('; ')+'. Every phone read on its source page; FAQ data matches the page; in the sitemap with canonical, share tags, ad code and the visit counter.');

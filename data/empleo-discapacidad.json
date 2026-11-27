@@ -1,0 +1,327 @@
+{
+  "note": "Spanish version of data/disability-jobs.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ (the earnings table included), and takes each source's address, title and checked date from the English file. Where the agency publishes the same facts in Spanish, es gives it (related: a Spanish companion page rather than the same page), each fetched November 27, 2026: Social Security's 2027 cost-of-living fact sheet in Spanish (the same 2026 and 2027 substantial gainful activity and trial work amounts, and the same 2026 student earned income exclusion), Social Security's Spanish booklet 05-10995 of January 2026 on working with a disability (the same trial work, extended period, Medicare, expedited reinstatement, IRWE, student exclusion and PASS rules; it states the SSI earned income rule as the first $85 and half of the rest, which is the same $20 and $65 exclusions together), its Spanish Ticket to Work booklet 05-10961 of June 2026, EEOC's Spanish pages on filing a charge (the same 180 and 300 days) and on disability discrimination (pre-offer questions, post-offer exams, accommodations and undue hardship), and JAN's Spanish questions page (the same phone and hours). Terms follow Social Security's and EEOC's own Spanish: Boleto para Trabajar, período probatorio de trabajo, período extendido de derecho, restitución acelerada, trabajo sustancial y lucrativo, Plan para lograr la autosuficiencia, adaptación razonable, cargo. Not used: Social Security's Spanish Ticket booklet gives Help Line hours of 8 a.m. to 7 p.m. Eastern where the English Choose Work page gives 8 p.m., and Social Security's Spanish booklets differ on which key to press for Spanish (2 in 05-10995, 7 in 05-10961), so the page keeps the English page's hours and names no key; the Spanish Red Book (64-090) is an older edition than the 2026 English Red Book; Social Security's Spanish material on ABLE accounts still gives the age-26 rule that changed in 2026; IRS's ABLE page, USAJOBS, OPM, RSA, the regulations, Choose Work, AbilityOne and CareerOneStop's American Job Centers page have no Spanish version that could be read. The Spanish text has not yet been reviewed by a native speaker. General information, not legal or benefits advice.",
+  "lang": "es",
+  "translation_of": "disability-jobs",
+  "page": "empleo-discapacidad.html",
+  "title": "Empleo con una discapacidad: rehabilitación vocacional y Boleto para Trabajar",
+  "h1": "Empleo y trabajo con una discapacidad",
+  "description": "Ayuda gratis para trabajar: rehabilitación vocacional, Boleto para Trabajar, reglas del Seguro Social para 2026 y 2027, cuentas ABLE y adaptaciones razonables.",
+  "eyebrow": "REHABILITACIÓN VOCACIONAL · BOLETO PARA TRABAJAR · REGLAS DE TRABAJO DEL SSDI Y EL SSI · ABLE · EMPLEOS FEDERALES · ADAPTACIONES",
+  "correction_subject": "Página de empleo y discapacidad (español)",
+  "footer_note": "Esta es información general, no asesoría legal ni sobre beneficios.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "Si quiere ayuda para conseguir un empleo, empiece con la agencia de rehabilitación vocacional de su estado. Si recibe SSDI o SSI, hable con un asesor de beneficios gratuito antes de aceptar un empleo o un aumento de sueldo, para saber cómo afectarán sus ganancias a su cheque y a su cobertura de salud.",
+  "start_paths": [
+    {"icon": "work_school", "who": "¿Quiere ayuda para encontrar o mantener un empleo?", "text": "La rehabilitación vocacional del estado paga capacitación, equipo y colocación en un empleo.", "href": "#vr"},
+    {"icon": "document", "who": "¿Recibe SSDI o SSI y tiene de 18 a 64 años?", "text": "El Boleto para Trabajar lo conecta con servicios de empleo gratuitos.", "href": "#ticket"},
+    {"icon": "benefits", "who": "¿Le preocupa perder el SSDI?", "text": "Puede probar su capacidad de trabajar durante al menos 9 meses.", "href": "#ssdi-work"},
+    {"icon": "funding", "who": "¿Recibe SSI?", "text": "Solo cuenta una parte de sus ganancias, y Medicaid puede continuar.", "href": "#ssi-work"},
+    {"icon": "chart", "who": "¿Quiere ahorrar sin perder sus beneficios?", "text": "El SSI no cuenta los primeros $100,000 de una cuenta ABLE.", "href": "#able"},
+    {"icon": "shield", "who": "¿Le interesa un empleo federal?", "text": "Schedule A permite que las agencias lo contraten sin la competencia habitual.", "href": "#federal-jobs"},
+    {"icon": "rights_legal", "who": "¿Necesita un cambio en el trabajo?", "text": "Los empleadores con 15 empleados o más deben hacer adaptaciones razonables.", "href": "#accommodations"},
+    {"icon": "chat_q", "who": "¿No sabe cómo un empleo afectará sus beneficios?", "text": "La asesoría de beneficios gratuita se lo explica.", "href": "#counseling"}
+  ],
+  "sources": {
+    "rsa-vr": {"publisher": "Departamento de Educación de EE. UU., Administración de Servicios de Rehabilitación", "page_date": "la página no muestra fecha"},
+    "rsa-states": {"publisher": "Departamento de Educación de EE. UU., Administración de Servicios de Rehabilitación", "page_date": "la página no muestra fecha"},
+    "cfr-361-41": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de julio de 2025"},
+    "cfr-361-42": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de julio de 2025"},
+    "cfr-361-45": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de julio de 2025"},
+    "cfr-361-48": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de julio de 2025"},
+    "cfr-361-54": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de julio de 2025"},
+    "cfr-361-36": {"publisher": "Código de Regulaciones Federales, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición anual revisada al 1 de julio de 2025"},
+    "choosework-about": {"publisher": "Administración del Seguro Social, Boleto para Trabajar (Choose Work)", "page_date": "la página no muestra fecha"},
+    "choosework-how": {"publisher": "Administración del Seguro Social, Boleto para Trabajar (Choose Work)", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://www.ssa.gov/pubs/ES-05-10961.pdf", "title": "Su Boleto para Trabajar", "page_date": "publicación n.º 05-10961, con fecha de junio de 2026", "related": true}},
+    "choosework-findhelp": {"publisher": "Administración del Seguro Social, Boleto para Trabajar (Choose Work)", "page_date": "la página no muestra fecha"},
+    "ssa-sga": {"publisher": "Administración del Seguro Social, Oficina del Actuario Principal", "page_date": "texto actual de la página, con las cantidades de 2027",
+      "es": {"url": "https://www.ssa.gov/news/es/cola/factsheets/2027.html", "title": "Hoja informativa sobre el ajuste por costo de vida (COLA) de 2027", "page_date": "certificada el 14 de octubre de 2026", "related": true}},
+    "ssa-twp": {"publisher": "Administración del Seguro Social, Oficina del Actuario Principal", "page_date": "texto actual de la página, con las cantidades de 2027",
+      "es": {"url": "https://www.ssa.gov/news/es/cola/factsheets/2027.html", "title": "Hoja informativa sobre el ajuste por costo de vida (COLA) de 2027", "page_date": "certificada el 14 de octubre de 2026", "related": true}},
+    "redbook-ssdi": {"publisher": "Administración del Seguro Social", "page_date": "Libro Rojo de 2026 (publicación de la SSA n.º 64-030, junio de 2026)",
+      "es": {"url": "https://www.ssa.gov/pubs/ES-05-10995.pdf", "title": "Cómo podemos ayudarle si trabaja y tiene una incapacidad", "page_date": "publicación n.º 05-10995, con fecha de enero de 2026", "related": true}},
+    "redbook-ssi": {"publisher": "Administración del Seguro Social", "page_date": "Libro Rojo de 2026 (publicación de la SSA n.º 64-030, junio de 2026)",
+      "es": {"url": "https://www.ssa.gov/pubs/ES-05-10995.pdf", "title": "Cómo podemos ayudarle si trabaja y tiene una incapacidad", "page_date": "publicación n.º 05-10995, con fecha de enero de 2026", "related": true}},
+    "redbook-both": {"publisher": "Administración del Seguro Social", "page_date": "Libro Rojo de 2026 (publicación de la SSA n.º 64-030, junio de 2026)",
+      "es": {"url": "https://www.ssa.gov/pubs/ES-05-10995.pdf", "title": "Cómo podemos ayudarle si trabaja y tiene una incapacidad", "page_date": "publicación n.º 05-10995, con fecha de enero de 2026", "related": true}},
+    "redbook-supports": {"publisher": "Administración del Seguro Social", "page_date": "Libro Rojo de 2026 (publicación de la SSA n.º 64-030, junio de 2026)"},
+    "redbook-resources": {"publisher": "Administración del Seguro Social", "page_date": "Libro Rojo de 2026 (publicación de la SSA n.º 64-030, junio de 2026)"},
+    "irs-able": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "página revisada o actualizada por última vez el 17 de noviembre de 2026"},
+    "ssa-able": {"publisher": "Administración del Seguro Social", "page_date": "edición de 2026"},
+    "usajobs-disability": {"publisher": "USAJOBS, Oficina de Administración de Personal de EE. UU. (OPM)", "page_date": "la página no muestra fecha"},
+    "opm-sppc": {"publisher": "Oficina de Administración de Personal de EE. UU. (OPM)", "page_date": "la página no muestra fecha"},
+    "usagov-jobs": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 27 de agosto de 2026"},
+    "abilityone-home": {"publisher": "Comisión AbilityOne de EE. UU.", "page_date": "la página no muestra fecha; la noticia más reciente es del 25 de noviembre de 2026"},
+    "usc-12111": {"publisher": "Código de los Estados Unidos, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición de 2023 del Código de los Estados Unidos",
+      "es": {"url": "https://www.eeoc.gov/es/discriminacion-por-discapacidad-y-decisiones-de-empleo", "title": "Discriminación por discapacidad y decisiones de empleo", "page_date": "la página no muestra fecha", "related": true}},
+    "usc-12112": {"publisher": "Código de los Estados Unidos, Oficina de Publicaciones del Gobierno de EE. UU. (govinfo)", "page_date": "edición de 2023 del Código de los Estados Unidos",
+      "es": {"url": "https://www.eeoc.gov/es/discriminacion-por-discapacidad-y-decisiones-de-empleo", "title": "Discriminación por discapacidad y decisiones de empleo", "page_date": "la página no muestra fecha", "related": true}},
+    "eeoc-time": {"publisher": "Comisión para la Igualdad de Oportunidades en el Empleo de EE. UU. (EEOC)", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://www.eeoc.gov/es/como-presentar-un-cargo-de-discriminacion-laboral", "title": "Cómo presentar un cargo de discriminación laboral", "page_date": "la página no muestra fecha", "related": true}},
+    "jan-home": {"publisher": "Red de Acomodación en el Empleo (JAN)", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://askjan.org/espanol/Preguntas-Frecuentes.cfm", "title": "Preguntas frecuentes", "page_date": "la página no muestra fecha", "related": true}},
+    "jan-contact": {"publisher": "Red de Acomodación en el Empleo (JAN)", "page_date": "la página no muestra fecha"},
+    "careeronestop-ajc": {"publisher": "CareerOneStop, patrocinado por el Departamento de Trabajo de EE. UU.", "page_date": "la página no muestra fecha"}
+  },
+  "sections": [
+    {
+      "id": "vr",
+      "title": "Rehabilitación vocacional (VR) del estado",
+      "icon": "work_school",
+      "lead": "Cada estado tiene una agencia de rehabilitación vocacional que ayuda a las personas con discapacidades a prepararse para un empleo, conseguirlo y mantenerlo. Algunos estados tienen una agencia aparte para las personas ciegas o con baja visión.",
+      "lead_src": ["rsa-vr", "rsa-states"],
+      "steps_title": "De la solicitud a un plan para el empleo",
+      "steps": [
+        {"text": "Comuníquese con la agencia de rehabilitación vocacional (VR) de su estado y solicite. Su solicitud cuenta una vez que llena y firma el formulario o pide servicios de otra forma, da la información necesaria para empezar una evaluación y está disponible para hacerla.", "src": ["rsa-states", "cfr-361-41"]},
+        {"text": "La agencia debe decidir si usted es elegible dentro de 60 días, salvo que circunstancias fuera de su control lo impidan y usted acepte una extensión específica.", "src": ["cfr-361-41"]},
+        {"text": "Una vez que es elegible, usted y su consejero escriben un plan individualizado para el empleo, lo antes posible y dentro de 90 días, salvo que los dos acuerden una fecha posterior.", "src": ["cfr-361-45"]},
+        {"text": "Usted y un consejero de rehabilitación vocacional calificado firman el plan, y la agencia presta los servicios que contiene.", "src": ["cfr-361-45"]}
+      ],
+      "points": [
+        {"text": "Usted es elegible si tiene un impedimento físico o mental que es una barrera importante para el empleo, y necesita servicios de rehabilitación vocacional para prepararse para un empleo, conseguirlo, mantenerlo, avanzar en él o recuperarlo.", "src": ["cfr-361-42"]},
+        {"text": "Si el Seguro Social lo declaró elegible para SSDI o SSI, se presume que usted es elegible para rehabilitación vocacional y se le trata como persona con una discapacidad significativa.", "src": ["cfr-361-42"]},
+        {"text": "Los servicios pueden incluir consejería y orientación, búsqueda y colocación en un empleo, capacitación vocacional y de otro tipo, transporte, tecnología de rehabilitación, servicios de intérprete, empleo con apoyo, servicios de asistencia personal, licencias ocupacionales, herramientas y equipo, y ayuda para empezar un negocio pequeño.", "src": ["cfr-361-48"]},
+        {"text": "La agencia puede pagar capacitación en un colegio universitario o una universidad solo después de que usted y la agencia hayan hecho el máximo esfuerzo por conseguir becas o subvenciones de otras fuentes.", "src": ["cfr-361-48"]},
+        {"text": "Los estudiantes con discapacidades pueden recibir servicios de transición previos al empleo: consejería para explorar empleos, aprendizaje basado en el trabajo, consejería sobre programas universitarios y de capacitación, preparación para el lugar de trabajo e instrucción para defender sus propios derechos.", "src": ["cfr-361-48", "rsa-vr"]},
+        {"text": "Las reglas federales no exigen una prueba de necesidad económica. Un estado puede usar una para algunos servicios, pero nunca para la evaluación, la consejería, los servicios relacionados con el empleo, los servicios de asistencia personal o los intérpretes, y nunca para alguien declarado elegible para beneficios por incapacidad del Seguro Social.", "src": ["cfr-361-54"]},
+        {"text": "Si un estado no puede atender a todas las personas elegibles, debe usar un orden de selección que atienda primero a las personas con las discapacidades más significativas. Las personas que ya reciben servicios los siguen recibiendo.", "src": ["cfr-361-36"]}
+      ],
+      "cards": [
+        {
+          "id": "vr-card",
+          "name": "Agencias estatales de rehabilitación vocacional",
+          "org": "Departamento de Educación de EE. UU., Administración de Servicios de Rehabilitación",
+          "text": "La lista federal de las 78 agencias estatales de rehabilitación vocacional, con sus teléfonos y sitios web, incluidas las agencias aparte para personas ciegas.",
+          "next": "Busque la agencia de su estado y pregunte cómo solicitar.",
+          "links": [
+            {"label": "Buscar la agencia de rehabilitación vocacional de su estado", "href": "https://rsa.ed.gov/about/states", "lang": "en"},
+            {"label": "Programas de rehabilitación vocacional y empleo en su estado", "href": "local-help.html?category=work_school", "lang": "en"}
+          ],
+          "src": ["rsa-states"]
+        }
+      ],
+      "after": "<p class=\"meta\">¿La agencia de rehabilitación vocacional le dijo que no, tarda mucho o le recorta servicios? El Programa de Asistencia al Cliente (Client Assistance Program) de su estado puede ayudarle: <a href=\"know-your-rights.html#agency-problems\" hreflang=\"en\">Sus derechos: cuando una agencia de rehabilitación vocacional le dice que no</a> (en inglés) · La rehabilitación vocacional también puede ayudar a pagar los cambios en un vehículo que necesita para trabajar: <a href=\"vehiculos-adaptados.html#vocational-rehab\">Ayuda para pagar un vehículo adaptado</a></p>"
+    },
+    {
+      "id": "ticket",
+      "title": "El Boleto para Trabajar (Ticket to Work)",
+      "icon": "document",
+      "lead": "El Boleto para Trabajar es el programa gratuito y voluntario del Seguro Social para personas con discapacidades que quieren trabajar. Lo conecta con proveedores de servicios de empleo sin costo para usted.",
+      "lead_src": ["choosework-how", "choosework-about"],
+      "points": [
+        {"text": "Todas las personas de 18 a 64 años que reciben SSDI o SSI por una discapacidad son elegibles.", "src": ["choosework-how"]},
+        {"text": "Puede trabajar con una Red de Empleo (Employment Network) o con la agencia de rehabilitación vocacional de su estado. Ofrecen orientación profesional, rehabilitación vocacional, y colocación y capacitación para el empleo, y una Red de Empleo puede seguir ayudándole después de que empiece a trabajar.", "src": ["choosework-how", "choosework-findhelp"]},
+        {"text": "Si asigna su Boleto a un proveedor aprobado antes de recibir un aviso de revisión continua de su discapacidad, el Seguro Social no revisará su condición médica.", "src": ["choosework-how"]},
+        {"text": "La herramienta Find Help del Seguro Social muestra los proveedores que atienden su código postal, y puede filtrarlos por tipo de proveedor, por servicios en persona o virtuales, y por las discapacidades que atienden.", "src": ["choosework-findhelp"]},
+        {"text": "Muchos Centros Americanos de Empleo (American Job Centers) también son Redes de Empleo y pueden aceptar su Boleto.", "src": ["redbook-supports"]}
+      ],
+      "cards": [
+        {
+          "id": "ticket-card",
+          "name": "Línea de ayuda del Boleto para Trabajar",
+          "org": "Administración del Seguro Social",
+          "text": "Revisa si usted es elegible para el Boleto para Trabajar y le ayuda a encontrar Redes de Empleo, agencias de rehabilitación vocacional y asesores de beneficios.",
+          "next": "Llame a la línea de ayuda, o use la herramienta Find Help para recibir una lista de proveedores cerca de usted.",
+          "phone": "1-866-968-7842",
+          "phone_on_source": "1-866-968-7842",
+          "phone_src": "choosework-about",
+          "phone_label": "De lunes a viernes, de 8 a.m. a 8 p.m., hora del Este; TTY 1-866-833-2967",
+          "record": "us-ticket-to-work-find-help",
+          "links": [
+            {"label": "Find Help: proveedores cerca de usted", "href": "https://choosework.ssa.gov/findhelp", "lang": "en"},
+            {"label": "Cómo funciona el Boleto para Trabajar", "href": "https://choosework.ssa.gov/about/how-it-works", "lang": "en"},
+            {"label": "Folleto Su Boleto para Trabajar, en español (PDF)", "href": "https://www.ssa.gov/pubs/ES-05-10961.pdf"}
+          ],
+          "src": ["choosework-about", "choosework-how"]
+        }
+      ]
+    },
+    {
+      "id": "ssdi-work",
+      "title": "Trabajar mientras recibe SSDI",
+      "icon": "benefits",
+      "lead": "El Seguro por Incapacidad del Seguro Social (SSDI) tiene reglas que le permiten probar a trabajar sin perder sus beneficios de inmediato, y que mantienen su Medicare después de que vuelve a trabajar.",
+      "lead_src": ["redbook-ssdi"],
+      "table": {
+        "caption": "Cantidades mensuales de ganancias del Seguro Social",
+        "headers": ["Año", "Trabajo sustancial y lucrativo, personas que no son ciegas", "Trabajo sustancial y lucrativo, personas ciegas", "Mes del período probatorio de trabajo"],
+        "rows": [["2026", "$1,690", "$2,830", "$1,210"], ["2027", "$1,770", "$2,950", "$1,270"]],
+        "src": ["ssa-sga", "ssa-twp"]
+      },
+      "steps_title": "Qué pasa cuando trabaja con SSDI",
+      "steps": [
+        {"text": "Período probatorio de trabajo: puede probar su capacidad de trabajar durante al menos 9 meses, no necesariamente seguidos, dentro de un período de 60 meses, y se le sigue considerando incapacitado.", "src": ["redbook-ssdi", "ssa-twp"]},
+        {"text": "Período extendido de derecho: durante sus primeros 36 meses, usted recibe beneficios por cada mes en que sus ganancias están por debajo del nivel de trabajo sustancial y lucrativo.", "src": ["redbook-ssdi"]},
+        {"text": "Si sus beneficios se suspenden por el trabajo, puede pedir la restitución acelerada dentro de 5 años, y recibir hasta 6 meses de beneficios provisionales mientras el Seguro Social revisa su caso.", "src": ["redbook-both"]}
+      ],
+      "points": [
+        {"text": "El trabajo sustancial y lucrativo es el nivel de ganancias mensuales que decide si usted puede recibir beneficios por incapacidad: en 2026, $1,690 al mes, o $2,830 si es ciego. En 2027 sube a $1,770 y $2,950.", "src": ["ssa-sga"]},
+        {"text": "Todo mes en que gane más de $1,210 en 2026, o $1,270 en 2027, cuenta como un mes del período probatorio de trabajo. También cuenta un mes con más de 80 horas de trabajo por cuenta propia.", "src": ["ssa-twp", "redbook-ssdi"]},
+        {"text": "El período probatorio de trabajo se aplica al SSDI, no al SSI.", "src": ["ssa-twp"]},
+        {"text": "Cuando se determina que su incapacidad terminó por el trabajo, el Seguro Social paga los beneficios de ese mes y de los 2 meses siguientes, llamados el período de gracia.", "src": ["redbook-ssdi"]},
+        {"text": "Medicare puede continuar durante al menos 93 meses después de que termina su período probatorio de trabajo, y después usted puede comprar la cobertura de Medicare.", "src": ["redbook-ssdi"]},
+        {"text": "El Seguro Social resta de sus ganancias los gastos de trabajo relacionados con su incapacidad, como una silla de ruedas, aparatos ortopédicos u otros aparatos que necesita para trabajar, aunque también los use fuera del trabajo.", "src": ["redbook-both"]}
+      ],
+      "after": "<p class=\"meta\">Cómo solicitar el SSDI o el SSI, cómo se decide y cómo apelar: <a href=\"incapacidad-seguro-social.html\">Cómo solicitar beneficios por incapacidad del Seguro Social</a></p>"
+    },
+    {
+      "id": "ssi-work",
+      "title": "Trabajar mientras recibe SSI",
+      "icon": "funding",
+      "lead": "La Seguridad de Ingreso Suplementario (SSI) cuenta solo una parte de lo que usted gana, puede seguir pagando mientras trabaja y permite que Medicaid continúe después de que terminan los pagos.",
+      "lead_src": ["redbook-ssi"],
+      "points": [
+        {"text": "El Seguro Social no cuenta los primeros $65 que usted gana en un mes, ni la mitad del resto, además de la exclusión general de ingresos de $20.", "src": ["redbook-ssi"]},
+        {"text": "Si tiene menos de 22 años y asiste a la escuela con regularidad, la exclusión de ingreso devengado para estudiantes deja fuera hasta $2,410 de ganancias al mes en 2026, y hasta $9,730 en el año.", "src": ["redbook-ssi"]},
+        {"text": "Según la Sección 1619(a), los pagos de SSI pueden continuar aunque sus ganancias lleguen al nivel de trabajo sustancial y lucrativo, siempre que cumpla las demás reglas.", "src": ["redbook-ssi"]},
+        {"text": "Según la Sección 1619(b), Medicaid puede continuar después de que terminan sus pagos de SSI, hasta que sus ganancias lleguen a un límite que cambia según el estado.", "src": ["redbook-ssi"]},
+        {"text": "Un Plan para lograr la autosuficiencia (PASS) le permite apartar ingresos que no sean del SSI, y ahorros, durante un tiempo fijo para alcanzar una meta de trabajo específica. El Seguro Social prefiere el formulario SSA-545-BK, y especialistas en PASS con capacitación especial trabajan con estos planes.", "src": ["redbook-both"]},
+        {"text": "Un PASS puede ayudar a una persona que recibe SSDI a calificar para el SSI, al apartar una parte del SSDI para el plan.", "src": ["redbook-both"]},
+        {"text": "El Seguro Social deja fuera de su ingreso devengado los gastos de trabajo relacionados con su incapacidad cuando calcula su pago de SSI.", "src": ["redbook-both"]}
+      ]
+    },
+    {
+      "id": "able",
+      "title": "Las cuentas ABLE y el trabajo",
+      "icon": "chart",
+      "lead": "Una cuenta ABLE es una cuenta de ahorros para una persona con discapacidad. El SSI no cuenta los primeros $100,000 que hay en ella, y el dinero que se saca para gastos calificados por discapacidad no es ingreso tributable.",
+      "lead_src": ["irs-able", "ssa-able"],
+      "points": [
+        {"text": "A partir de 2026, puede abrir una cuenta ABLE si su discapacidad o ceguera empezó antes de los 46 años. Antes de 2026, el límite era de 26 años.", "src": ["irs-able", "ssa-able"]},
+        {"text": "Para 2026, las contribuciones totales a una cuenta ABLE por lo general tienen un límite de $20,000 al año, más que los $19,000 de 2025.", "src": ["irs-able"]},
+        {"text": "Si trabaja, puede aportar más, hasta su sueldo del año o la línea de pobreza para una persona, lo que sea menor. No puede aportar esta cantidad adicional si su empleador contribuyó por usted a ciertos planes de jubilación, como un plan 401(a), 403(a), 403(b) o 457(b).", "src": ["irs-able"]},
+        {"text": "Es posible que pueda reclamar el Crédito del Ahorrador (Saver’s Credit) por el dinero que pone en su propia cuenta ABLE.", "src": ["irs-able"]},
+        {"text": "El SSI no cuenta los primeros $100,000 de una cuenta ABLE. Por encima de esa cantidad, los pagos de SSI se suspenden hasta que sus recursos contables vuelvan a estar por debajo del límite, pero Medicaid continúa.", "src": ["ssa-able"]},
+        {"text": "El dinero que se saca para gastos calificados por discapacidad no es ingreso tributable. El dinero que se saca para vivienda, si lo guarda hasta el mes siguiente, cuenta como recurso para el SSI.", "src": ["ssa-able"]}
+      ]
+    },
+    {
+      "id": "federal-jobs",
+      "title": "Empleos federales: contratación por Schedule A y AbilityOne",
+      "icon": "shield",
+      "lead": "Las agencias federales pueden contratar a personas con discapacidades por medio de una autoridad especial de contratación llamada Schedule A, sin el proceso competitivo habitual. AbilityOne ofrece empleos con organizaciones sin fines de lucro para personas ciegas o con discapacidades significativas.",
+      "lead_src": ["usajobs-disability", "usagov-jobs"],
+      "points": [
+        {"text": "Puede usar Schedule A si tiene una discapacidad intelectual, una discapacidad física grave o una discapacidad psiquiátrica.", "src": ["usajobs-disability"]},
+        {"text": "Necesita una carta que pruebe su discapacidad de su médico u otro profesional médico con licencia, de un especialista en rehabilitación vocacional con licencia, o de cualquier agencia federal, estatal o local que otorgue o dé beneficios por discapacidad.", "src": ["usajobs-disability"]},
+        {"text": "En su perfil de USAJOBS, elija la vía de contratación «Individuals with disabilities» (personas con discapacidades), suba su carta y mencione en su currículum y su carta de presentación que es elegible para Schedule A.", "src": ["usajobs-disability"]},
+        {"text": "La mayoría de las agencias federales tienen un Coordinador del Programa de Colocación Selectiva que ayuda a reclutar, contratar y dar adaptaciones a las personas con discapacidades, y que puede guiarle en la solicitud.", "src": ["opm-sppc", "usajobs-disability"]},
+        {"text": "AbilityOne ayuda a las personas ciegas o con discapacidades significativas a encontrar empleos con organizaciones sin fines de lucro en todo el país. La Comisión AbilityOne de EE. UU., una agencia federal independiente, supervisa unas 400 de estas organizaciones.", "src": ["usagov-jobs", "abilityone-home"]}
+      ],
+      "cards": [
+        {
+          "id": "schedule-a-card",
+          "name": "Contratación por Schedule A en USAJOBS",
+          "org": "Oficina de Administración de Personal de EE. UU.",
+          "text": "La vía de contratación federal para personas con discapacidades, con lo que debe decir la carta que prueba su discapacidad y cómo solicitar.",
+          "next": "Consiga su carta que prueba su discapacidad y luego solicite en USAJOBS con la vía de contratación «Individuals with disabilities» seleccionada.",
+          "links": [
+            {"label": "USAJOBS: personas con discapacidades", "href": "https://help.usajobs.gov/working-in-government/unique-hiring-paths/individuals-with-disabilities", "lang": "en"},
+            {"label": "Directorio de Coordinadores del Programa de Colocación Selectiva", "href": "https://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/", "lang": "en"}
+          ],
+          "src": ["usajobs-disability", "opm-sppc"]
+        },
+        {
+          "id": "abilityone-card",
+          "name": "AbilityOne",
+          "org": "Comisión AbilityOne de EE. UU.",
+          "text": "Empleos con organizaciones sin fines de lucro de todo el país para personas ciegas o con discapacidades significativas.",
+          "record": "us-abilityone",
+          "links": [{"label": "Recursos de empleo de AbilityOne", "href": "https://www.abilityone.gov/abilityone_network/employment.html", "lang": "en"}],
+          "src": ["usagov-jobs", "abilityone-home"]
+        }
+      ]
+    },
+    {
+      "id": "accommodations",
+      "title": "Adaptaciones en el trabajo y sus derechos bajo la ADA",
+      "icon": "rights_legal",
+      "lead": "La Ley sobre Estadounidenses con Discapacidades (ADA) exige que los empleadores con 15 empleados o más hagan adaptaciones razonables para un trabajador o solicitante calificado con discapacidad, salvo que el cambio cause dificultades excesivas.",
+      "lead_src": ["usc-12111", "usc-12112"],
+      "points": [
+        {"text": "Las adaptaciones razonables incluyen hacer accesible el lugar de trabajo, reorganizar un puesto, horarios de medio tiempo o modificados, la reasignación a un puesto vacante, equipo nuevo o modificado, y lectores o intérpretes.", "src": ["usc-12111"]},
+        {"text": "Dificultades excesivas significa una dificultad o un gasto importante.", "src": ["usc-12111"]},
+        {"text": "Antes de una oferta de empleo, el empleador no puede hacerle un examen médico ni preguntarle si tiene una discapacidad o qué tan grave es. Sí puede preguntarle si puede hacer las funciones del puesto.", "src": ["usc-12112"]},
+        {"text": "Después de una oferta de empleo, el empleador puede exigir un examen médico solo si todas las personas que entran a ese puesto lo hacen, tengan o no una discapacidad.", "src": ["usc-12112"]},
+        {"text": "Un cargo por discriminación en el empleo por lo general se debe presentar ante la EEOC dentro de 180 días calendario, o de 300 días donde una agencia estatal o local hace cumplir una ley contra la misma discriminación. Los empleados y solicitantes federales por lo general deben comunicarse con el consejero de EEO de su agencia dentro de 45 días.", "src": ["eeoc-time"]}
+      ],
+      "cards": [
+        {
+          "id": "jan-card",
+          "name": "Red de Acomodación en el Empleo (JAN)",
+          "org": "Job Accommodation Network (JAN)",
+          "text": "Asesoría gratuita, experta y confidencial sobre adaptaciones en el lugar de trabajo y la ADA, para trabajadores, personas que buscan empleo y empleadores.",
+          "next": "Llame, o busque su condición en la lista de la A a la Z de JAN para ver adaptaciones que les han funcionado a otras personas.",
+          "phone": "800-526-7234",
+          "phone_on_source": "(800) 526-7234",
+          "phone_src": "jan-contact",
+          "phone_label": "De lunes a viernes, de 9 a.m. a 6 p.m., hora del Este",
+          "record": "us-jan",
+          "links": [
+            {"label": "La lista de la A a la Z de discapacidades y adaptaciones de JAN", "href": "https://askjan.org/a-to-z.cfm", "lang": "en"},
+            {"label": "El buscador de situaciones y soluciones de JAN", "href": "https://askjan.org/sitsol/index.cfm", "lang": "en"},
+            {"label": "Preguntas frecuentes de JAN, en español", "href": "https://askjan.org/espanol/Preguntas-Frecuentes.cfm"}
+          ],
+          "src": ["jan-home", "jan-contact"]
+        }
+      ],
+      "after": "<p class=\"meta\">¿Lo trataron injustamente en el trabajo, o pidió una adaptación y no consiguió nada? Qué anotar y cómo presentar un cargo ante la EEOC: <a href=\"know-your-rights.html#work\" hreflang=\"en\">Sus derechos: en el trabajo o al solicitar un empleo</a> (en inglés) · En <a href=\"espanol.html#trabajo-h\">Ayuda en español</a> están la EEOC y JAN con información en español.</p>"
+    },
+    {
+      "id": "counseling",
+      "title": "Asesoría de beneficios gratuita y ayuda para el empleo",
+      "icon": "chat_q",
+      "lead": "Antes de aceptar un empleo o un aumento de sueldo, un asesor de beneficios gratuito puede mostrarle cómo las ganancias afectarán su SSDI, su SSI y su cobertura de salud.",
+      "lead_src": ["redbook-resources"],
+      "points": [
+        {"text": "Los proyectos de Planificación y Ayuda con los Incentivos de Trabajo (WIPA) son organizaciones de la comunidad que trabajan bajo acuerdos con el Seguro Social. Dan ayuda gratuita a las personas que reciben SSDI o SSI desde los 14 años hasta la plena edad de jubilación.", "src": ["redbook-resources"]},
+        {"text": "Sus Coordinadores Comunitarios de Incentivos de Trabajo dan asesoría individual y a fondo sobre sus beneficios y sobre cómo el trabajo los afecta.", "src": ["redbook-resources"]},
+        {"text": "Si recibe SSDI o SSI y encuentra una barrera para trabajar, el programa de Protección y Defensa para los Beneficiarios del Seguro Social (PABSS) da ayuda legal, defensa e información gratuitas.", "src": ["redbook-resources"]},
+        {"text": "Los Centros Americanos de Empleo dan ayuda gratuita para encontrar empleo, cambiar de carrera o recibir capacitación, y pueden decirle si califica para ayuda de empleo especial para personas con discapacidades.", "src": ["careeronestop-ajc"]}
+      ],
+      "cards": [
+        {
+          "id": "wipa-card",
+          "name": "Planificación y Ayuda con los Incentivos de Trabajo (WIPA)",
+          "org": "Administración del Seguro Social",
+          "text": "Asesoría de beneficios gratuita para personas que reciben SSDI o SSI y que trabajan o piensan trabajar.",
+          "next": "Llame a la línea de ayuda del Boleto para Trabajar y pida un proyecto WIPA, o busque proveedores de WIPA cerca de usted en Find Help.",
+          "phone": "1-866-968-7842",
+          "phone_on_source": "1-866-968-7842",
+          "phone_src": "redbook-resources",
+          "phone_label": "Línea de ayuda del Boleto para Trabajar, de lunes a viernes, de 8 a.m. a 8 p.m., hora del Este; TTY 1-866-833-2967",
+          "record": "us-wipa-benefits-counseling",
+          "links": [{"label": "Buscar un proveedor de WIPA", "href": "https://choosework.ssa.gov/findhelp", "lang": "en"}],
+          "src": ["redbook-resources", "choosework-findhelp"]
+        },
+        {
+          "id": "ajc-card",
+          "name": "Centros Americanos de Empleo (American Job Centers)",
+          "org": "Departamento de Trabajo de EE. UU., CareerOneStop",
+          "text": "Ayuda gratuita para buscar empleo, cambiar de carrera y recibir capacitación, con adaptaciones para personas con discapacidades.",
+          "record": "us-american-job-centers",
+          "links": [{"label": "Buscar un Centro Americano de Empleo", "href": "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/american-job-centers.aspx", "lang": "en"}],
+          "src": ["careeronestop-ajc"]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "¿Puedo trabajar mientras recibo beneficios por incapacidad?", "a": "Sí. Con el SSDI puede probar su capacidad de trabajar durante al menos 9 meses en un período probatorio de trabajo sin perder sus beneficios. Con el SSI, el Seguro Social no cuenta los primeros $65 que usted gana en un mes ni la mitad del resto, y Medicaid puede continuar después de que terminan los pagos.", "src": ["redbook-ssdi", "redbook-ssi"]},
+    {"q": "¿Cuánto puedo ganar con el SSDI en 2026?", "a": "El nivel de trabajo sustancial y lucrativo es de $1,690 al mes en 2026, o $2,830 si es ciego, y sube a $1,770 y $2,950 en 2027. Todo mes en que gane más de $1,210 en 2026, o $1,270 en 2027, usa uno de sus meses del período probatorio de trabajo.", "src": ["ssa-sga", "ssa-twp"]},
+    {"q": "¿Qué es el Boleto para Trabajar?", "a": "Un programa gratuito y voluntario del Seguro Social para personas de 18 a 64 años que reciben SSDI o SSI por una discapacidad. Lo conecta con Redes de Empleo o con la agencia de rehabilitación vocacional de su estado para recibir orientación profesional, colocación en un empleo y capacitación.", "src": ["choosework-how"]},
+    {"q": "¿La rehabilitación vocacional cuesta dinero?", "a": "Las reglas federales no exigen una prueba de necesidad económica. Un estado puede usar una para algunos servicios, pero no para la evaluación, la consejería, los servicios relacionados con el empleo, la asistencia personal o los intérpretes, y no para alguien declarado elegible para beneficios por incapacidad del Seguro Social.", "src": ["cfr-361-54"]},
+    {"q": "¿Qué es una carta de Schedule A?", "a": "Una carta que prueba su discapacidad y le permite solicitar empleos federales por medio de la autoridad de contratación Schedule A. Puede venir de su médico u otro profesional médico con licencia, de un especialista en rehabilitación vocacional con licencia, o de una agencia que otorgue o dé beneficios por discapacidad.", "src": ["usajobs-disability"]},
+    {"q": "¿Un empleador puede preguntarme por mi discapacidad en una entrevista de trabajo?", "a": "No antes de una oferta de empleo. Un empleador cubierto por la ADA no puede preguntarle si tiene una discapacidad o qué tan grave es, ni hacerle un examen médico, pero sí puede preguntarle si puede hacer las funciones del puesto.", "src": ["usc-12112"]},
+    {"q": "¿Trabajar me hará perder mi cobertura de salud?", "a": "No de inmediato. Con el SSDI, Medicare puede continuar durante al menos 93 meses después de que termina su período probatorio de trabajo. Con el SSI, Medicaid puede continuar según la Sección 1619(b) hasta que sus ganancias lleguen al límite de su estado.", "src": ["redbook-ssdi", "redbook-ssi"]}
+  ],
+  "related": [
+    {"icon": "benefits", "href": "incapacidad-seguro-social.html", "label": "Cómo solicitar beneficios por incapacidad del Seguro Social", "text": "SSDI y SSI, cómo se decide y cómo apelar"},
+    {"icon": "housing", "href": "vivienda-discapacidad.html", "label": "Ayuda de vivienda para personas con discapacidades", "text": "la Sección 8, los vales Mainstream, la Sección 811 y la vivienda justa"},
+    {"icon": "transportation", "href": "vehiculos-adaptados.html", "label": "Ayuda para pagar un vehículo adaptado", "text": "incluido lo que puede pagar la rehabilitación vocacional"},
+    {"icon": "language", "href": "espanol.html#trabajo-h", "label": "Ayuda en español: trabajo", "text": "la EEOC y JAN, con información en español"},
+    {"icon": "rights_legal", "href": "know-your-rights.html#work", "lang": "en", "label": "Sus derechos: en el trabajo", "text": "cargos ante la EEOC, plazos y cómo pedir adaptaciones"},
+    {"icon": "map_pin", "href": "local-help.html?category=work_school", "lang": "en", "label": "Trabajo, escuela y capacitación en su estado", "text": "rehabilitación vocacional y programas de empleo en el directorio"}
+  ]
+}

@@ -180,6 +180,7 @@
   "related": [
     {"icon": "transportation", "href": "vehiculos-adaptados.html", "label": "Ayuda para pagar un vehículo adaptado", "text": "subvenciones del VA, rehabilitación vocacional, Medicaid y reembolsos"},
     {"icon": "equipment", "href": "equipo-medico-gratis.html", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar o recibir ayuda para pagar"},
+    {"icon": "work_school", "href": "empleo-discapacidad.html", "label": "Empleo y trabajo con una discapacidad", "text": "rehabilitación vocacional, el Boleto para Trabajar y cómo trabajar sin perder sus beneficios"},
     {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
     {"icon": "rights_legal", "href": "know-your-rights.html", "lang": "en", "label": "Conozca sus derechos", "text": "qué ley, qué oficina y qué plazo"}
   ]
