@@ -1,5 +1,5 @@
 // National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, Social Security
-// disability and accessible travel, and the Spanish versions of the first three (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
+// disability, accessible travel, getting paid as a family caregiver and paying for home modifications, and the Spanish versions of the first three (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
 // phone number shown was read on its source page (and matches the directory record where there is one), no other number
 // slips in, the quick answers and their FAQ structured data say the same thing, and the page is wired in like the other
 // national guides: title, description, canonical, social and breadcrumb tags, sitemap, visit counter, ad code, MIF block,
@@ -10,9 +10,11 @@ const landing=JSON.parse(fs.readFileSync('data/landing.json','utf8')).pages;
 const digits=s=>String(s||'').replace(/\D/g,'').slice(-10);
 const text=e=>e.textContent.replace(/\s+/g,' ').trim();
 const open=[];const doc=f=>{while(open.length)open.pop().close();const w=new JSDOM(fs.readFileSync(f,'utf8')).window;open.push(w);return w.document;};
-// state page group each guide is linked from
-// (accessible travel has no state page group; related pages link it instead, checked below)
-const GROUP={'accessible-vehicles':'transportation','free-medical-equipment':'equipment','social-security-disability':'benefits','accessible-travel':null};
+// state page groups each guide is linked from
+// (accessible travel has no state page group; related pages link it instead, checked below. The paid caregiver guide is
+// linked from the caregiver line under every state page's national lines as well, checked below.)
+const GROUP={'accessible-vehicles':['transportation'],'free-medical-equipment':['equipment'],'social-security-disability':['benefits'],'accessible-travel':[],
+ 'paid-family-caregiver':['daily_living'],'home-modifications':['ramps_home','funding']};
 const home=doc('index.html'),homeLinks=[...home.querySelectorAll('ul.guidegrid a')].map(a=>a.getAttribute('href'));
 const sitemap=fs.readFileSync('sitemap.xml','utf8');
 const states=fs.readdirSync('states').filter(f=>f.endsWith('.html')&&f!=='index.html');
@@ -88,9 +90,11 @@ for(const slug of Object.keys(GROUP)){
  // linked from the home page guides list, and from the matching group on every state page that has that group
  assert(homeLinks.includes(F),F+' on the home page guides list');
  let linked=0;
- if(GROUP[slug]){
-  for(const f of states){const sd=doc('states/'+f),g=sd.getElementById(GROUP[slug].replace('_','-'));if(!g)continue;assert(g.querySelector(`a[href="../${F}"]`),f+' links '+F+' from its '+GROUP[slug]+' group');linked++;}
-  assert(linked>=50,F+' linked from '+linked+' state pages');}
+ if(GROUP[slug].length){
+  for(const f of states){const sd=doc('states/'+f);let any=false;
+   for(const k of GROUP[slug]){const g=sd.getElementById(k.replace('_','-'));if(!g)continue;assert(g.querySelector(`a[href="../${F}"]`),f+' links '+F+' from its '+k+' group');any=true;}
+   if(any)linked++;}
+  assert(linked>=(slug==='paid-family-caregiver'?40:50),F+' linked from '+linked+' state pages');}
  summary.push(`${F}: ${points} statements, ${steps} steps, ${cards} cards, ${items.length} quick answers, ${ids.length} sources, linked from ${linked} state pages`);
 }
 // related pages link the new guides
@@ -100,6 +104,18 @@ assert(doc('mobility-independence.html').querySelector('#help-title ~ p a[href="
 assert(doc('know-your-rights.html').querySelector('#air-travel a[href="accessible-travel.html"]')&&doc('know-your-rights.html').querySelector('#transit a[href="accessible-travel.html"]'),'rights page links the travel guide from air travel and transit');
 assert(doc('service-animals.html').querySelector('#air-travel a[href="accessible-travel.html"]'),'service animal air travel section links the travel guide');
 assert(doc('accessible-vehicles.html').querySelector('#related a[href="accessible-travel.html"]'),'vehicle guide links the travel guide');
+// the paid caregiver and home modification guides (November 27, 2026): the caregiver page's short paid-care summary and every
+// state page's caregiver line point to the full caregiver guide; the ramps page, the rights page's housing situation and
+// the two guides themselves link the home modification guide; neither guide repeats the ramps page's checklists, it links them
+assert(doc('caregiver-respite.html').querySelector('#paid a[href="paid-family-caregiver.html"]'),'caregiver page paid-care section links the full guide');
+for(const f of states)assert(doc('states/'+f).querySelector('#caregiver-link a[href="../paid-family-caregiver.html"]'),f+' caregiver line links the paid caregiver guide');
+{const r=doc('ramps-home-access.html');assert(r.querySelectorAll('a[href="home-modifications.html"]').length>=2,'ramps page links the home modification guide from its routes and its related line');}
+assert(doc('know-your-rights.html').querySelector('#housing a[href="home-modifications.html"]'),'rights page housing situation links the home modification guide');
+{const h=doc('home-modifications.html');for(const k of ['va-hisa','va-sah','va-sha','ohio-waiver-home-modifications'])assert(h.querySelector(`a[href="ramps-home-access.html#${k}"]`),'home modification guide links the '+k+' checklist');
+ assert(doc('ramps-home-access.html').getElementById('va-hisa'),'checklist anchors exist on the ramps page');
+ assert(h.querySelector('#related a[href="paid-family-caregiver.html"]')&&doc('paid-family-caregiver.html').querySelector('#related a[href="home-modifications.html"]'),'the two guides link each other');}
+// current amounts as read on the program pages: USDA 504 limits, VA fiscal year 2027 grants, HISA lifetime limits
+{const t=doc('home-modifications.html').querySelector('main').textContent;for(const s of ['$40,000','$10,000','$50,000','$133,042','$26,654','$53,585','$9,568','$6,800','$2,000'])assert(t.includes(s),'home modification guide shows '+s);}
 // MDA (November 27, 2026): the grant's own FAQ page lists 1-800-572-1717 (Option 1); the Resource Center's page lists
 // 1-833-ASK-MDA1. The directory keeps the number each record's page shows and names the other.
 {const g=recs.get('us-mda-dme-grant'),s=recs.get('us-mda-support-groups');

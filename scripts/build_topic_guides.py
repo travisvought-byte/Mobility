@@ -5,6 +5,8 @@
   free-medical-equipment.html      data/free-medical-equipment.json     borrowing, reusing or paying for equipment
   social-security-disability.html  data/social-security-disability.json applying for SSDI or SSI, and appealing
   accessible-travel.html           data/accessible-travel.json          flying, trains, buses, rental cars and parks
+  paid-family-caregiver.html       data/paid-family-caregiver.json      getting paid to care for a family member
+  home-modifications.html          data/home-modifications.json         paying for ramps, stairlifts, bathrooms, doors
 
 and their Spanish versions (November 27, 2026), each built from a data file that holds only the Spanish words:
 
@@ -35,7 +37,7 @@ from site_parts import SIDE_HELP,RELAY,ABOUT_LINK,tel,icon,ICON_PATHS
 ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
-GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel']
+GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications']
 ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social']
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 # The Spanish pages keep their own short menu, like the Spanish help page: the rest of the site is in English

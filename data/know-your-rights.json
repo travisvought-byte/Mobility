@@ -36,7 +36,7 @@
    "deadline": "Complaints to HUD are generally filed within one year of the discrimination. Confirm the deadline with HUD.",
    "deadline_chart": [{"label": "File a housing complaint with HUD, from the discrimination", "value": "one year", "days": 365}],
    "records": ["us-hud-fair-housing-complaint"],
-   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}, {"label": "Service and assistance animals in housing", "href": "service-animals.html"}]
+   "more": [{"label": "Rental help and housing agencies", "href": "local-help.html?category=housing"}, {"label": "Ramps and home modification programs", "href": "ramps-home-access.html"}, {"label": "Paying for home modifications, and renters’ right to make changes", "href": "home-modifications.html"}, {"label": "Service and assistance animals in housing", "href": "service-animals.html"}]
   },
   {
    "id": "early-intervention",

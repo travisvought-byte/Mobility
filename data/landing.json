@@ -146,6 +146,24 @@
         {"label": "If something goes wrong", "href": "#complaints"}
       ]
     },
+    "paid-family-caregiver.html": {
+      "audience": "A spouse, adult child, parent or friend who gives a disabled or older family member daily care and wants to know whether they can be paid for it.",
+      "intro": "Caring for a parent, spouse or child at home and wondering if you can be paid for it? Here is what actually exists: Medicaid programs that let the person hire you, Structured Family Caregiving in some states, the VA caregiver stipend, Veteran-Directed Care and Aid and Attendance, long-term care insurance, paid leave and the tax rules. Each statement links to the official page it comes from.",
+      "actions": [
+        {"label": "Through Medicaid", "href": "#medicaid"},
+        {"label": "Caring for a veteran", "href": "#va"},
+        {"label": "Taxes", "href": "#taxes"}
+      ]
+    },
+    "home-modifications.html": {
+      "audience": "A person with a disability or an older adult, or a family member, who needs a ramp, a stairlift, a safer bathroom or wider doors at home and wants help paying for it.",
+      "intro": "Need a ramp, a stairlift, grab bars or wider doors at home? Here is who helps pay: VA grants and HISA, USDA repair loans and grants, Medicaid waivers, Area Agencies on Aging, state assistive technology programs, and the tax rules if you pay yourself. Each statement links to the official page it comes from, with current dollar limits.",
+      "actions": [
+        {"label": "VA grants", "href": "#va"},
+        {"label": "USDA loans and grants", "href": "#usda"},
+        {"label": "Medicaid waivers", "href": "#medicaid"}
+      ]
+    },
     "vehiculos-adaptados.html": {
       "audience": "Una persona que usa silla de ruedas, o su familia, que prefiere leer en español y busca ayuda para pagar un vehículo adaptado o controles manuales.",
       "intro": "¿Necesita una camioneta adaptada para silla de ruedas, controles manuales o un elevador? Aquí está quién puede ayudar a pagar: el VA, la rehabilitación vocacional, Medicaid, los fabricantes de autos, préstamos e impuestos. Cada afirmación indica la página oficial de donde proviene.",
