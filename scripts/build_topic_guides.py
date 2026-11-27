@@ -20,6 +20,7 @@ and their Spanish versions (November 27, 2026), each built from a data file that
   modificaciones-hogar.html        data/modificaciones-hogar.json       (home-modifications)
   vivienda-discapacidad.html       data/vivienda-discapacidad.json      (disability-housing)
   empleo-discapacidad.html         data/empleo-discapacidad.json        (disability-jobs)
+  estacionamiento-discapacidad.html data/estacionamiento-discapacidad.json (disability-parking)
 
 Each page follows the caregiver and service animal pages: jump tiles, "where to start" paths, sections of short
 statements each with a numbered citation, program cards, a numbered step list where order matters, quick answers
@@ -38,7 +39,9 @@ and page date in Spanish and, where the agency publishes one, the Spanish-langua
 "related" when it is a companion page rather than the same page in Spanish). The build stops unless the translation has
 the same sections, statements, steps, cards, phone numbers, records, quick answers and citations as the English guide,
 and every number in each statement is the same; a table must have the same sources, columns and rows, with the same
-numbers in its caption, headers and each row. An item marked es_note adds a fact read on a Spanish-language page (such
+numbers in its caption, headers and each row; a by-state list must name the same states, each with the English list's
+address (taken from the English file, like the sources) and the same numbers in its Spanish title and agency, and a
+Spanish page marks each of those links as English. An item marked es_note adds a fact read on a Spanish-language page (such
 as "press 7 for Spanish"); the note says which.
 """
 import html,json,re
@@ -50,13 +53,13 @@ digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
 GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications',
         'disability-housing','disability-jobs','disability-parking']
 ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar',
-           'vivienda-discapacidad','empleo-discapacidad']
+           'vivienda-discapacidad','empleo-discapacidad','estacionamiento-discapacidad']
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 # The Spanish pages keep their own short menu, like the Spanish help page: the rest of the site is in English
 NAV_ES=[('./','Inicio (en inglés)','en'),('espanol.html','Ayuda en español',None),('vehiculos-adaptados.html','Vehículos adaptados',None),
         ('equipo-medico-gratis.html','Equipo médico',None),('incapacidad-seguro-social.html','Incapacidad del Seguro Social',None),
         ('cuidador-familiar-pagado.html','Pago a cuidadores',None),('modificaciones-hogar.html','Modificaciones del hogar',None),
-        ('vivienda-discapacidad.html','Vivienda',None),('empleo-discapacidad.html','Empleo',None),
+        ('vivienda-discapacidad.html','Vivienda',None),('empleo-discapacidad.html','Empleo',None),('estacionamiento-discapacidad.html','Estacionamiento',None),
         ('local-help.html','Directorio de ayuda (en inglés)','en')]
 RELAY_ES=('<p class="relay"><strong>¿Es sordo, tiene dificultad para oír o una discapacidad del habla?</strong> <a href="tel:711">Marque 711</a> '
           'para hacer una llamada gratuita por el servicio de retransmisión a cualquier número de esta página.</p>')
@@ -133,6 +136,16 @@ def parity(es,en):
             for i,(r,q) in enumerate(zip(x['rows'],y['rows'])):
                 assert len(r)==len(q),f'{w}: {sid} table row {i} cells'
                 for j,(c1,c2) in enumerate(zip(r,q)):same(c1,c2,f'{sid} table row {i} cell {j}')
+        # a by-state list: the same states, each once; the address comes from the English file, and the Spanish title and
+        # agency keep every number (form numbers) of the English ones
+        assert bool(a.get('state_links'))==bool(b.get('state_links')),f'{w}: {sid} state list'
+        if b.get('state_links'):
+            enl={x['code']:x for x in b['state_links']}
+            codes=[x['code'] for x in a['state_links']]
+            assert len(codes)==len(set(codes)) and set(codes)==set(enl),f'{w}: {sid} state list names different states: {sorted(set(codes)^set(enl))}'
+            for x in a['state_links']:
+                assert set(x)<={'code','state','agency','title'},f'{w}: {x["code"]} may only give the state, agency and title in Spanish'
+                y=enl[x['code']];same(x['title']+' '+x['agency'],y['title']+' '+y['agency'],f'{sid} {x["code"]}')
         assert [c['id'] for c in a.get('cards') or []]==[c['id'] for c in b.get('cards') or []],f'{w}: {sid} cards'
         for x,y in zip(a.get('cards') or [],b.get('cards') or []):
             for k in ('src','record','phone_src','phone_on_source'):assert x.get(k)==y.get(k),f'{w}: card {y["id"]} {k}'
@@ -155,6 +168,10 @@ def load(slug):
         parity(d,en)
         d['alternate']=en['page']
         d['sources']={k:{**en['sources'][k],**d['sources'][k]} for k in en['sources']}
+        for s,e in zip(d['sections'],en['sections']):
+            if s.get('state_links'):
+                enl={x['code']:x for x in e['state_links']}
+                s['state_links']=[{**x,'url':enl[x['code']]['url']} for x in s['state_links']]
     return d
 def translations():
     """English guide page -> its Spanish version, for the hreflang tags and the language links."""
@@ -230,7 +247,8 @@ def build(slug):
                 host=x['url'].split('/')[2]
                 assert x['url'].startswith('https://') and (host.endswith('.gov') or host.endswith('.us')),f'{x["state"]}: official page must be a government site'
                 assert x['code'] not in seen,x['code'];seen.add(x['code'])
-            body+=('<div class="statelinks"><ul>'+''.join(f'<li><strong>{E(x["state"])}:</strong> {link(x["url"],x["title"]+", "+x["agency"],lang)}</li>'
+            # on a Spanish page the label is in Spanish and the state's page, which is in English, is marked as English
+            body+=('<div class="statelinks"><ul>'+''.join(f'<li><strong>{E(x["state"])}:</strong> {link(x["url"],x["title"]+", "+x["agency"],lang,"en" if lang=="es" else None)}</li>'
                    for x in s['state_links'])+'</ul></div>')
         if s.get('after'):
             for h in re.findall(r'href="([^"#]+)',s['after']):assert exists(h),f'{s["id"]}: link to a missing page {h}'

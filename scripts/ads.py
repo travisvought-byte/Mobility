@@ -37,7 +37,8 @@ TOPICS = ['know-your-rights', 'ramps-home-access', 'mobility-rights', 'mobility-
           'accessible-vehicles', 'free-medical-equipment', 'social-security-disability', 'accessible-travel',
           'paid-family-caregiver', 'home-modifications', 'disability-housing', 'disability-jobs', 'disability-parking',
           'vehiculos-adaptados', 'equipo-medico-gratis', 'incapacidad-seguro-social', 'cuidador-familiar-pagado',
-          'modificaciones-hogar', 'vivienda-discapacidad', 'empleo-discapacidad']
+          'modificaciones-hogar', 'vivienda-discapacidad', 'empleo-discapacidad',
+          'estacionamiento-discapacidad']
 # pages that never carry an ad, whatever the data says
 NO_ADS = {'local-help.html', 'handout.html', 'espanol.html', '404.html', 'about.html', 'partner.html', 'privacy.html',
           'states/index.html'}

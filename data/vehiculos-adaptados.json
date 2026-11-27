@@ -243,6 +243,7 @@
   "related": [
     {"icon": "equipment", "href": "equipo-medico-gratis.html", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar o recibir ayuda para pagar"},
     {"icon": "benefits", "href": "incapacidad-seguro-social.html", "label": "Cómo solicitar incapacidad del Seguro Social", "text": "SSDI y SSI, paso a paso"},
+    {"icon": "map_pin", "href": "estacionamiento-discapacidad.html", "label": "Permisos y placas de estacionamiento por discapacidad", "text": "quién califica, cómo renovar, otros estados y la página oficial de cada estado"},
     {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
     {"icon": "transportation", "href": "local-help.html?category=transportation", "lang": "en", "label": "Ayuda con transporte en su estado", "text": "traslados, paratránsito, rehabilitación para conducir y permisos de estacionamiento"}
   ]
