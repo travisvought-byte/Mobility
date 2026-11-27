@@ -63,9 +63,9 @@ steppers(s,'service-animals');
 // Caregivers: tiles with the section icons
 const cg=doc('caregiver-respite.html');icons(cg,'caregiver-respite');tiles(cg,'caregiver-respite',5);
 
-// Topic guides (accessible vehicles, free and low-cost equipment, Social Security disability, accessible travel, and the
-// Spanish versions of the first three): tiles, icons and step lists
-for(const g of ['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications','vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social']){const gd=JSON.parse(fs.readFileSync('data/'+g+'.json','utf8')),d=doc(g+'.html');icons(d,g);assert.equal(tiles(d,g,gd.sections.length+2),gd.sections.length+2,g+' one tile per section plus quick answers and sources');assert.equal(steppers(d,g),gd.sections.filter(s=>s.steps).length,g+' step lists');}
+// Topic guides (accessible vehicles, free and low-cost equipment, Social Security disability, accessible travel, paid family
+// caregivers, home modifications, and the Spanish versions of the first three and the last two): tiles, icons and step lists
+for(const g of ['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications','vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar']){const gd=JSON.parse(fs.readFileSync('data/'+g+'.json','utf8')),d=doc(g+'.html');icons(d,g);assert.equal(tiles(d,g,gd.sections.length+2),gd.sections.length+2,g+' one tile per section plus quick answers and sources');assert.equal(steppers(d,g),gd.sections.filter(s=>s.steps).length,g+' step lists');}
 
 // Vision and hearing guides: the three steps, jump tiles, a key of kinds, and the same icon on every kind heading
 for(const f of ['blind-low-vision.html','deaf-hard-of-hearing.html']){const d=doc(f);icons(d,f);tiles(d,f,3);assert.equal(steppers(d,f),1,f+' how to use this page');

@@ -13,6 +13,8 @@ and their Spanish versions (November 27, 2026), each built from a data file that
   vehiculos-adaptados.html         data/vehiculos-adaptados.json        (accessible-vehicles)
   equipo-medico-gratis.html        data/equipo-medico-gratis.json       (free-medical-equipment)
   incapacidad-seguro-social.html   data/incapacidad-seguro-social.json  (social-security-disability)
+  cuidador-familiar-pagado.html    data/cuidador-familiar-pagado.json   (paid-family-caregiver)
+  modificaciones-hogar.html        data/modificaciones-hogar.json       (home-modifications)
 
 Each page follows the caregiver and service animal pages: jump tiles, "where to start" paths, sections of short
 statements each with a numbered citation, program cards, a numbered step list where order matters, quick answers
@@ -38,11 +40,12 @@ ROOT=Path(__file__).resolve().parents[1]
 E=lambda s:html.escape(str(s),quote=True)
 digits=lambda s:re.sub(r'\D','',str(s or ''))[-10:]
 GUIDES=['accessible-vehicles','free-medical-equipment','social-security-disability','accessible-travel','paid-family-caregiver','home-modifications']
-ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social']
+ES_GUIDES=['vehiculos-adaptados','equipo-medico-gratis','incapacidad-seguro-social','cuidador-familiar-pagado','modificaciones-hogar']
 NAV='<nav aria-label="Main"><a href="./">Home</a><a href="mobility-rights.html">Find your next step</a><a href="local-help.html">Local help &amp; programs</a><a href="know-your-rights.html">Know your rights</a><a href="ramps-home-access.html">Ramps &amp; home access</a><a href="disability-advocacy.html">Advocacy</a><a href="mobility-independence.html">Repair &amp; adapt</a></nav>'
 # The Spanish pages keep their own short menu, like the Spanish help page: the rest of the site is in English
 NAV_ES=[('./','Inicio (en inglés)','en'),('espanol.html','Ayuda en español',None),('vehiculos-adaptados.html','Vehículos adaptados',None),
         ('equipo-medico-gratis.html','Equipo médico',None),('incapacidad-seguro-social.html','Incapacidad del Seguro Social',None),
+        ('cuidador-familiar-pagado.html','Pago a cuidadores',None),('modificaciones-hogar.html','Modificaciones del hogar',None),
         ('local-help.html','Directorio de ayuda (en inglés)','en')]
 RELAY_ES=('<p class="relay"><strong>¿Es sordo, tiene dificultad para oír o una discapacidad del habla?</strong> <a href="tel:711">Marque 711</a> '
           'para hacer una llamada gratuita por el servicio de retransmisión a cualquier número de esta página.</p>')

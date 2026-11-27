@@ -1,0 +1,220 @@
+{
+  "note": "Spanish version of data/home-modifications.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date from the English file. Where the agency publishes a Spanish page with the same facts, es gives it (fetched November 27, 2026): IRS Topic 502 in Spanish, which gives the same 7.5% threshold and Schedule A. Checked and not used: VA's HISA and housing grant pages, USDA's repair loan page (its Spanish material is a general homeowner guide and two forms, not the program's terms), Medicaid.gov, ACL and the Eldercare Locator (no Spanish version of the page), and IRS Publication 502 (IRS's Spanish address shows the English text with a note that no translation is available). An older Spanish IRS address for Topic 502 still shows a 10% threshold; it is not used. The Spanish text has not yet been reviewed by a native speaker. General information, not legal or tax advice.",
+  "lang": "es",
+  "translation_of": "home-modifications",
+  "page": "modificaciones-hogar.html",
+  "title": "Ayuda para pagar modificaciones del hogar: rampas, baños y puertas más anchas",
+  "h1": "Ayuda para pagar modificaciones del hogar",
+  "description": "Quién ayuda a pagar una rampa, un salvaescaleras, cambios en el baño o puertas más anchas: subvenciones del VA, préstamos del USDA, Medicaid e impuestos.",
+  "eyebrow": "RAMPAS · SALVAESCALERAS · BAÑOS · PUERTAS MÁS ANCHAS · SUBVENCIONES · PRÉSTAMOS · IMPUESTOS",
+  "correction_subject": "Página de modificaciones del hogar (español)",
+  "footer_note": "Esta es información general, no asesoría legal ni tributaria.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "Antes de empezar cualquier obra, pregunte al programa si tiene que aprobar el trabajo primero, y pida cotizaciones por escrito y detalladas. Los veteranos pueden empezar con el VA. Los dueños de casa en zonas rurales pueden revisar los préstamos y subvenciones del USDA para reparaciones. Las personas con Medicaid pueden preguntar a su administrador de casos por la exención de su estado.",
+  "start_paths": [
+    {"icon": "veterans", "who": "¿Es veterano o miembro del servicio militar?", "text": "El VA paga cambios médicamente necesarios y adapta viviendas.", "href": "#va"},
+    {"icon": "funding", "who": "¿Es dueño de una casa en una zona rural?", "text": "El USDA presta y da dinero para hacer accesible una casa.", "href": "#usda"},
+    {"icon": "benefits", "who": "¿Tiene Medicaid?", "text": "Una exención de servicios en el hogar y la comunidad podría pagar los cambios.", "href": "#medicaid"},
+    {"icon": "navigation", "who": "¿Es una persona mayor?", "text": "Su Agencia del Área sobre el Envejecimiento podría ayudar con cambios menores.", "href": "#aging"},
+    {"icon": "equipment", "who": "¿Quiere probar primero una rampa o equipo para el baño?", "text": "El programa de tecnología de asistencia de su estado presta equipo y hace demostraciones.", "href": "#assistive-technology"},
+    {"icon": "document", "who": "¿Lo paga usted?", "text": "El costo puede contar como gasto médico en sus impuestos.", "href": "#taxes"},
+    {"icon": "housing", "who": "¿Alquila?", "text": "El arrendador no puede negarse a cambios razonables que usted pague.", "href": "#renters"}
+  ],
+  "sources": {
+    "va-hisa": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA), Servicio de Prótesis y Ayudas Sensoriales", "page_date": "página actualizada por última vez el 12 de febrero de 2025"},
+    "va-housing": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 17 de noviembre de 2026"},
+    "usda-504": {"publisher": "Departamento de Agricultura de EE. UU. (USDA), Desarrollo Rural", "page_date": "la página no muestra fecha"},
+    "medicaid-1915c": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "medicaid-mi": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "acl-aaa": {"publisher": "Administración para la Vida Comunitaria (ACL)", "page_date": "página modificada por última vez el 12 de agosto de 2024"},
+    "ecfr-1321": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 15 de julio de 2026"},
+    "eldercare-home": {"publisher": "Administración para la Vida Comunitaria (ACL)", "page_date": "página modificada por última vez el 2 de marzo de 2026"},
+    "acl-at": {"publisher": "Administración para la Vida Comunitaria (ACL)", "page_date": "página modificada por última vez el 31 de julio de 2026"},
+    "irs-502": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "para preparar las declaraciones de 2025",
+      "es": {"url": "https://www.irs.gov/es/taxtopics/tc502", "title": "Tema 502, Gastos médicos y dentales", "page_date": "página revisada o actualizada por última vez el 9 de noviembre de 2026", "related": true}},
+    "cfr-100-203": {"publisher": "Instituto de Información Legal (LII), Facultad de Derecho de Cornell (texto del Código de Regulaciones Federales)", "page_date": "texto actual que muestra la página"}
+  },
+  "sections": [
+    {
+      "id": "va",
+      "title": "El VA: HISA y las subvenciones SAH, SHA y TRA",
+      "icon": "veterans",
+      "lead": "El VA tiene un beneficio más pequeño, de por vida, para cambios médicamente necesarios en la casa de un veterano, como rampas permanentes y duchas sin escalón, y subvenciones más grandes para comprar, construir o cambiar una casa para veteranos y miembros del servicio con ciertas discapacidades relacionadas con el servicio.",
+      "lead_src": ["va-hisa", "va-housing"],
+      "cards_first": true,
+      "cards": [
+        {
+          "id": "hisa-card",
+          "name": "Mejoras y Alteraciones Estructurales en el Hogar (HISA)",
+          "org": "Servicio de Prótesis y Ayudas Sensoriales del VA",
+          "text": "Paga mejoras y alteraciones estructurales médicamente necesarias en la vivienda principal de un veterano o miembro del servicio, como rampas permanentes y duchas sin escalón.",
+          "more": "Beneficio de por vida: $6,800 por cambios para una discapacidad relacionada con el servicio, o para cualquier discapacidad si el veterano tiene una discapacidad relacionada con el servicio calificada en al menos 50 por ciento; $2,000 para una discapacidad que no cubren esas reglas.",
+          "next": "Pregunte al equipo de atención del VA que atiende al veterano por una receta de un médico del VA. El paquete de solicitud incluye el Formulario VA 10-0103.",
+          "links": [
+            {"label": "HISA en el sitio de prótesis del VA", "href": "https://www.prosthetics.va.gov/psas/HISA2.asp", "lang": "en"},
+            {"label": "Nuestra lista para preparar la solicitud de HISA", "href": "ramps-home-access.html#va-hisa", "lang": "en"}
+          ],
+          "src": ["va-hisa"]
+        },
+        {
+          "id": "sah-sha-card",
+          "name": "Subvenciones para Vivienda Especialmente Adaptada (SAH) y Adaptación Especial del Hogar (SHA)",
+          "org": "Departamento de Asuntos de Veteranos de EE. UU.",
+          "text": "Subvenciones para veteranos y miembros del servicio con ciertas discapacidades relacionadas con el servicio que usan el dinero para comprar, construir o cambiar su vivienda permanente.",
+          "more": "Para el año fiscal 2027, una subvención SAH paga hasta $133,042 y una SHA hasta $26,654. El dinero de SAH se puede usar hasta 6 veces distintas a lo largo de su vida.",
+          "next": "Solicite en línea, por correo o en persona.",
+          "links": [
+            {"label": "Subvenciones del VA para vivienda por discapacidad", "href": "https://www.va.gov/housing-assistance/disability-housing-grants/", "lang": "en"},
+            {"label": "Nuestra lista para SAH", "href": "ramps-home-access.html#va-sah", "lang": "en"},
+            {"label": "Nuestra lista para SHA", "href": "ramps-home-access.html#va-sha", "lang": "en"}
+          ],
+          "src": ["va-housing"]
+        }
+      ],
+      "points": [
+        {"text": "Todos los proyectos de HISA deben estar justificados médicamente, y el VA puede inspeccionar el lugar.", "src": ["va-hisa"]},
+        {"text": "SAH cubre condiciones como la ELA, la pérdida o pérdida del uso de más de una extremidad, la ceguera en ambos ojos (agudeza visual de 20/200 o menos) y ciertas quemaduras graves. Usted debe ser dueño de la casa o estar por serlo.", "src": ["va-housing"]},
+        {"text": "SHA cubre condiciones como la pérdida o pérdida del uso de ambas manos, ciertas quemaduras graves y ciertas lesiones respiratorias. Usted o un familiar debe ser dueño de la casa o estar por serlo.", "src": ["va-housing"]},
+        {"text": "Si por ahora vive en la casa de un familiar que necesita cambios, una subvención de Adaptación de Residencia Temporal (TRA) paga hasta $53,585 si usted califica para SAH, o hasta $9,568 si califica para SHA, para el año fiscal 2027.", "src": ["va-housing"]}
+      ]
+    },
+    {
+      "id": "usda",
+      "title": "Préstamos y subvenciones del USDA para reparar la casa (Sección 504)",
+      "icon": "funding",
+      "lead": "El programa de Reparación de Viviendas de la Sección 504 del USDA presta dinero a dueños de casa de ingresos bajos y muy bajos, y da subvenciones a dueños de casa de ingresos muy bajos de 62 años o más, para hacer la casa accesible para un miembro del hogar con discapacidad o eliminar peligros para la salud y la seguridad.",
+      "lead_src": ["usda-504"],
+      "points": [
+        {"text": "El préstamo máximo es de $40,000 y la subvención máxima es de $10,000. Se pueden combinar un préstamo y una subvención hasta $50,000.", "src": ["usda-504"]},
+        {"text": "Los préstamos tienen una tasa de interés fija del 1 por ciento y se pagan en 20 años.", "src": ["usda-504"]},
+        {"text": "Las subvenciones solo se pueden usar para eliminar peligros para la salud y la seguridad o para hacer la casa accesible para un miembro del hogar con discapacidad. Los préstamos también pueden reparar, mejorar o modernizar una casa.", "src": ["usda-504"]},
+        {"text": "Las subvenciones tienen un límite de por vida de $10,000 y se deben devolver si la casa se vende en menos de tres años.", "src": ["usda-504"]},
+        {"text": "Para solicitar, debe ser dueño de la casa y vivir en ella, no poder conseguir crédito asequible en otro lugar y tener ingresos del hogar menores que el límite del condado. Para las subvenciones, también debe tener 62 años o más e ingresos muy bajos. La casa debe estar en una zona rural elegible.", "src": ["usda-504"]},
+        {"text": "La oficina local de Desarrollo Rural recibe solicitudes todo el año. El tiempo de aprobación depende de los fondos disponibles en su zona.", "src": ["usda-504"]}
+      ],
+      "cards": [
+        {
+          "id": "usda-504-card",
+          "name": "Préstamos y subvenciones de la Sección 504 para reparar la casa",
+          "org": "Desarrollo Rural del USDA",
+          "text": "Préstamos y subvenciones para dueños de casa con ingresos bajos o muy bajos en zonas rurales elegibles, incluso para hacer la casa accesible para un miembro del hogar con discapacidad.",
+          "next": "Revise la dirección en el sitio de elegibilidad del USDA y luego comuníquese con un especialista en préstamos para vivienda del USDA en su estado para que le ayude con la solicitud.",
+          "links": [
+            {"label": "Préstamos y subvenciones del USDA para reparaciones", "href": "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-repair-loans-grants", "lang": "en"},
+            {"label": "Revisar si una dirección es elegible", "href": "https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do?pageAction=sfpd", "lang": "en"},
+            {"label": "Buscar la oficina del USDA de su estado", "href": "https://www.rd.usda.gov/browse-state", "lang": "en"}
+          ],
+          "src": ["usda-504"]
+        }
+      ],
+      "after": "<p>La oficina de Desarrollo Rural del USDA de su estado también aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés), en la sección Coverage and funding.</p>"
+    },
+    {
+      "id": "medicaid",
+      "title": "Exenciones de Medicaid para servicios en el hogar y la comunidad",
+      "icon": "benefits",
+      "lead": "Si la persona recibe Medicaid, una exención (waiver) de servicios en el hogar y la comunidad (HCBS) podría pagar cambios en la casa. Cada estado diseña sus propias exenciones y elige los servicios que ofrecen.",
+      "lead_src": ["medicaid-1915c"],
+      "points": [
+        {"text": "Las exenciones HCBS atienden a personas que prefieren recibir servicios y apoyos de cuidado a largo plazo en su casa o en la comunidad. La persona debe necesitar un nivel de atención que cumpla las reglas del estado para recibir servicios en una institución.", "src": ["medicaid-1915c"]},
+        {"text": "Además de los servicios habituales, como el cuidado personal y el cuidado de relevo, los estados pueden proponer otros servicios que ayuden a las personas a pasar de una institución a su casa y su comunidad, o a no tener que entrar en una.", "src": ["medicaid-1915c"]},
+        {"text": "La exención MI Choice de Michigan, para personas de 65 años o más y adultos de 18 a 64 años con discapacidades físicas que necesitan el nivel de cuidado de un hogar de ancianos (nursing facility), incluye las adaptaciones de accesibilidad del entorno entre sus servicios. Es un ejemplo.", "src": ["medicaid-mi"]},
+        {"text": "Cada estado decide el número máximo de personas que atenderá una exención, así que pregunte si hay lista de espera.", "src": ["medicaid-1915c"]}
+      ],
+      "after": "<p>¿Vive en Ohio? Siga la <a href=\"ramps-home-access.html#ohio-waiver-home-modifications\" hreflang=\"en\">lista de pasos para modificaciones del hogar con la exención de Ohio</a> (en inglés). La agencia de Medicaid de su estado aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?category=benefits\" hreflang=\"en\">beneficios y cobertura de salud</a> (en inglés) en el directorio.</p>"
+    },
+    {
+      "id": "aging",
+      "title": "Agencias del Área sobre el Envejecimiento y el Eldercare Locator",
+      "icon": "navigation",
+      "lead": "Las Agencias del Área sobre el Envejecimiento (Area Agencies on Aging) coordinan y ofrecen servicios que ayudan a las personas mayores a quedarse en su casa, si eso es lo que quieren.",
+      "lead_src": ["acl-aaa"],
+      "points": [
+        {"text": "Una Agencia del Área sobre el Envejecimiento es una agencia pública o privada sin fines de lucro que un estado designa para atender a las personas mayores de una zona: una ciudad, un condado o varios condados. El nombre local varía.", "src": ["acl-aaa"]},
+        {"text": "Según las reglas federales de la Ley de Estadounidenses Mayores (Older Americans Act), los servicios en el hogar que apoyan estos programas incluyen modificaciones menores de la casa que ayudan a una persona mayor a mantenerse independiente y sana, cuando otro programa no las cubre.", "src": ["ecfr-1321"]}
+      ],
+      "cards": [
+        {
+          "id": "eldercare-card",
+          "name": "Eldercare Locator",
+          "org": "Administración para la Vida Comunitaria (ACL)",
+          "text": "Un servicio público y gratuito de la Administración para la Vida Comunitaria que conecta a las personas mayores y a sus familias con servicios. Llame o envíe un texto a su personal capacitado, chatee en línea o envíe un correo electrónico.",
+          "next": "Dé su código postal, o su ciudad y estado, y pregunte por su Agencia del Área sobre el Envejecimiento y si ayuda con modificaciones o reparaciones de la casa.",
+          "record": "us-eldercare-locator",
+          "phone": "1-800-677-1116",
+          "phone_on_source": "1-800-677-1116",
+          "phone_label": "Llamada o mensaje de texto",
+          "phone_src": "eldercare-home",
+          "links": [{"label": "Sitio web del Eldercare Locator", "href": "https://eldercare.acl.gov/home", "lang": "en"}],
+          "src": ["eldercare-home", "acl-aaa"]
+        }
+      ],
+      "after": "<p>En <a href=\"espanol.html#mayores-h\">Ayuda en español</a> están las líneas para personas mayores y quienes las cuidan que atienden en español.</p>"
+    },
+    {
+      "id": "assistive-technology",
+      "title": "Programas estatales de tecnología de asistencia",
+      "icon": "equipment",
+      "lead": "Cada estado, D.C., Puerto Rico y los territorios de EE. UU. tiene un programa de tecnología de asistencia (AT) con fondos federales.",
+      "lead_src": ["acl-at"],
+      "points": [
+        {"text": "Los programas de AT permiten conocer dispositivos específicos por medio de demostraciones, pedirlos prestados por un tiempo limitado y conseguir equipo reusado.", "src": ["acl-at"]},
+        {"text": "El programa de AT de cada estado incluye actividades de financiamiento, que ayudan a las personas a comprar tecnología de asistencia por medio de préstamos y de otras formas.", "src": ["acl-at"]}
+      ],
+      "cards": [
+        {
+          "id": "at-program-card",
+          "name": "El programa de tecnología de asistencia de su estado",
+          "org": "Con fondos federales por medio de la Administración para la Vida Comunitaria",
+          "text": "Presta equipo, hace demostraciones, pasa a otros el equipo usado y ayuda a las personas a pagar tecnología de asistencia por medio de préstamos.",
+          "next": "Pregunte si puede probar o pedir prestada una rampa portátil o equipo para el baño, y si sus préstamos cubren equipo para entrar y moverse en la casa.",
+          "links": [{"label": "Directorio de programas estatales de AT", "href": "https://www.at3center.net/stateprogram", "lang": "en"}],
+          "src": ["acl-at"]
+        }
+      ],
+      "after": "<p>Más sobre pedir prestado y reusar equipo: <a href=\"equipo-medico-gratis.html\">Sillas de ruedas y equipo médico gratis o de bajo costo</a>.</p>"
+    },
+    {
+      "id": "taxes",
+      "title": "Impuestos: los cambios en la casa como gasto médico",
+      "icon": "document",
+      "lead": "Si usted paga los cambios, lo que paga por equipo especial instalado en una casa, o por mejoras, puede contar como gasto médico cuando su propósito principal es la atención médica de usted, su cónyuge o su dependiente.",
+      "lead_src": ["irs-502"],
+      "points": [
+        {"text": "Ciertas mejoras hechas para adaptar una casa a su discapacidad, o a la de su cónyuge o sus dependientes que viven con usted, por lo general no aumentan el valor de la casa, así que su costo se puede incluir completo.", "src": ["irs-502"]},
+        {"text": "Los ejemplos del IRS incluyen rampas de entrada o salida, ensanchar puertas y pasillos, barandas, barras de apoyo u otros cambios en el baño, bajar los gabinetes de la cocina, mover tomacorrientes, modificar escaleras, pasamanos o barras de agarre en cualquier lugar, herrajes de puertas y nivelar el terreno para dar acceso.", "src": ["irs-502"]},
+        {"text": "Los elevadores para porches y otros elevadores también están en la lista, pero un ascensor por lo general aumenta el valor de una casa.", "src": ["irs-502"]},
+        {"text": "Cuando una mejora sí aumenta el valor de la propiedad, solo cuenta como gasto médico su costo menos el aumento en el valor.", "src": ["irs-502"]},
+        {"text": "Solo cuentan como atención médica los costos razonables para adaptar una casa a una discapacidad. Lo que paga para operar y mantener la mejora también puede calificar.", "src": ["irs-502"]},
+        {"text": "La deducción cubre solo la parte de sus gastos médicos y dentales que supere el 7.5% de su ingreso bruto ajustado, y se reclama en el Anexo A como deducción detallada.", "src": ["irs-502"]}
+      ]
+    },
+    {
+      "id": "renters",
+      "title": "Si alquila",
+      "icon": "housing",
+      "lead": "Las reglas federales de vivienda justa permiten que los inquilinos con discapacidades hagan cambios razonables en su vivienda, pagados por ellos mismos.",
+      "lead_src": ["cfr-100-203"],
+      "points": [
+        {"text": "El arrendador no puede negarse a que usted haga modificaciones razonables, pagadas por usted, si pueden ser necesarias para que disfrute plenamente de la vivienda.", "src": ["cfr-100-203"]},
+        {"text": "Cuando sea razonable, el arrendador puede pedirle que se comprometa a devolver el interior a su estado anterior, salvo el desgaste razonable.", "src": ["cfr-100-203"]},
+        {"text": "El arrendador no puede aumentar el depósito de seguridad habitual a las personas con discapacidades.", "src": ["cfr-100-203"]}
+      ],
+      "after": "<p>Si el arrendador se niega: <a href=\"know-your-rights.html#housing\" hreflang=\"en\">quién recibe quejas de vivienda, y el plazo</a> (en inglés).</p>"
+    }
+  ],
+  "faq": [
+    {"q": "¿Quién paga una rampa para silla de ruedas en la casa?", "a": "Depende de su situación. Los veteranos pueden preguntar al VA por HISA y las subvenciones SAH y SHA. Algunas exenciones estatales de Medicaid pagan cambios en la casa. El USDA presta y da dinero a dueños de casa de bajos ingresos en zonas rurales, y las Agencias del Área sobre el Envejecimiento podrían ayudar a las personas mayores con modificaciones menores.", "src": ["va-hisa", "va-housing", "medicaid-mi", "usda-504", "ecfr-1321"]},
+    {"q": "¿De cuánto es la subvención del USDA para reparar la casa?", "a": "Hasta $10,000, para dueños de casa de ingresos muy bajos de 62 años o más, para eliminar peligros para la salud y la seguridad o hacer la casa accesible. Los préstamos llegan hasta $40,000 con un interés del 1 por ciento en 20 años, y se pueden combinar un préstamo y una subvención hasta $50,000.", "src": ["usda-504"]},
+    {"q": "¿Cuánto paga el VA por modificaciones en la casa?", "a": "HISA tiene un límite de por vida de $6,800 para una discapacidad relacionada con el servicio, o para un veterano con una calificación relacionada con el servicio de al menos 50 por ciento, y de $2,000 en los demás casos. Para el año fiscal 2027, la subvención SAH es de hasta $133,042 y la SHA de hasta $26,654.", "src": ["va-hisa", "va-housing"]},
+    {"q": "¿Las modificaciones del hogar se pueden deducir de los impuestos?", "a": "Pueden contar como gasto médico. Las rampas, las puertas más anchas, las barras de agarre en el baño y los elevadores para porches por lo general no aumentan el valor de la casa, así que su costo completo puede contar, pero solo se deducen los gastos médicos que superen el 7.5% de su ingreso bruto ajustado, en el Anexo A.", "src": ["irs-502"]},
+    {"q": "¿Mi arrendador puede impedirme instalar una rampa?", "a": "Según las reglas federales de vivienda justa, el arrendador no puede negarse a modificaciones razonables que usted pague si pueden ser necesarias para que disfrute plenamente de la vivienda. Cuando sea razonable, el arrendador puede pedirle que devuelva el interior a su estado anterior cuando se vaya.", "src": ["cfr-100-203"]}
+  ],
+  "related": [
+    {"icon": "daily_living", "href": "cuidador-familiar-pagado.html", "label": "Recibir pago por cuidar a un familiar", "text": "Medicaid, el estipendio del VA para cuidadores, licencias e impuestos"},
+    {"icon": "equipment", "href": "equipo-medico-gratis.html", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar o recibir ayuda para pagar"},
+    {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
+    {"icon": "ramps_home", "href": "ramps-home-access.html", "lang": "en", "label": "Rampas y acceso a la casa", "text": "seis caminos para intentar, y listas paso a paso para las subvenciones del VA y las exenciones de Ohio"}
+  ]
+}

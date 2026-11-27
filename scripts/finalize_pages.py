@@ -7,7 +7,7 @@ import ads as ADS
 from build_topic_guides import translations
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://mobilitytalk.org/'
-PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','caregiver-respite.html','accessible-vehicles.html','free-medical-equipment.html','social-security-disability.html','accessible-travel.html','paid-family-caregiver.html','home-modifications.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html','privacy.html','auction.html','world.html']
+PAGES=['index.html','mobility-rights.html','local-help.html','know-your-rights.html','ramps-home-access.html','disability-advocacy.html','mobility-independence.html','partner.html','handout.html','about.html','espanol.html','blind-low-vision.html','deaf-hard-of-hearing.html','service-animals.html','caregiver-respite.html','accessible-vehicles.html','free-medical-equipment.html','social-security-disability.html','accessible-travel.html','paid-family-caregiver.html','home-modifications.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html','cuidador-familiar-pagado.html','modificaciones-hogar.html','privacy.html','auction.html','world.html']
 ABOUT=' · <a href="about.html">About, sources and accessibility</a>'
 MIF=(ROOT/'templates/partials/featured-mif.html').read_text().strip()
 LUUL=(ROOT/'templates/partials/featured-luul.html').read_text().strip()
@@ -18,8 +18,9 @@ LUUL_PAGES={'index.html':('after-mif',False),'local-help.html':('before-mif',Tru
 LUUL_SCRIPT_PAGES={'mobility-rights.html','disability-advocacy.html'}
 # page -> text the featured organization block is inserted before
 MIF_BEFORE={'index.html':'<section class="panel" id="partner-invite">','local-help.html':'<section class="panel" id="locators">','ramps-home-access.html':'<section><p>Need a ramp or repair','mobility-rights.html':'<footer>','mobility-independence.html':'<footer>','blind-low-vision.html':'<section><p>Missing a program','deaf-hard-of-hearing.html':'<section><p>Missing a program','service-animals.html':'<section><p>Missing a program','caregiver-respite.html':'<section><p>Missing a program','accessible-vehicles.html':'<section><p>Missing a program','free-medical-equipment.html':'<section><p>Missing a program','social-security-disability.html':'<section><p>Missing a program','accessible-travel.html':'<section><p>Missing a program','paid-family-caregiver.html':'<section><p>Missing a program','home-modifications.html':'<section><p>Missing a program',
-           'vehiculos-adaptados.html':'<section><p>¿Falta un programa','equipo-medico-gratis.html':'<section><p>¿Falta un programa','incapacidad-seguro-social.html':'<section><p>¿Falta un programa'}
-# Spanish pages (November 27, 2026): the Spanish help page and the Spanish versions of three guides. English guide -> its
+           'vehiculos-adaptados.html':'<section><p>¿Falta un programa','equipo-medico-gratis.html':'<section><p>¿Falta un programa','incapacidad-seguro-social.html':'<section><p>¿Falta un programa',
+           'cuidador-familiar-pagado.html':'<section><p>¿Falta un programa','modificaciones-hogar.html':'<section><p>¿Falta un programa'}
+# Spanish pages (November 27, 2026): the Spanish help page and the Spanish versions of five guides. English guide -> its
 # Spanish version, for the hreflang alternates both ways; the Spanish pages keep their own menu, a Spanish privacy link,
 # and the English featured block marked as English; the English sister-guides line is left off them, as on espanol.html.
 TRANSLATIONS=translations()
