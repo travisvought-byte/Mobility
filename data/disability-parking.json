@@ -1,5 +1,5 @@
 {
- "note": "Disability parking placards and plates, national: who qualifies, placards and plates, temporary placards, the medical certification, renewal and reciprocity from the federal Uniform System for Parking for Persons with Disabilities (23 CFR Part 1235); what the ADA requires of the spaces from ADA.gov; examples of how states differ from the California, Oregon, Nevada, Virginia, Hawaii, Utah, Wisconsin, New York and Kansas pages; disabled veteran plates and parking from Kansas and Washington; and a list linking each state's own placard page, each opened and confirmed on the date checked. Left out on purpose: fees and prices (they differ by state and change), phone numbers, the lung test values in the federal definition, and the five states whose official page could not be confirmed (Illinois, Ohio, Rhode Island, West Virginia, Wyoming).",
+ "note": "Disability parking placards and plates, national: who qualifies, placards and plates, temporary placards, the medical certification, renewal and reciprocity from the federal Uniform System for Parking for Persons with Disabilities (23 CFR Part 1235); what the ADA requires of the spaces from ADA.gov; examples of how states differ from the California, Oregon, Nevada, Virginia, Hawaii, Utah, Wisconsin, New York and Kansas pages; disabled veteran plates and parking from Kansas and Washington; and a list linking the official placard page or form of every state and DC, each opened and confirmed on the date checked. Left out on purpose: fees and prices (they differ by state and change), phone numbers and the lung test values in the federal definition.",
  "page": "disability-parking.html",
  "title": "Disability parking placards and plates: who qualifies and every state",
  "h1": "Disability parking placards and plates",
@@ -473,6 +473,13 @@
      "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/"
     },
     {
+     "code": "IL",
+     "state": "Illinois",
+     "agency": "Illinois Secretary of State",
+     "title": "Guide to the Parking Program for Persons With Disabilities",
+     "url": "https://www.ilsos.gov/services/persons-with-disabilities/disabilities.html"
+    },
+    {
      "code": "IN",
      "state": "Indiana",
      "agency": "Indiana Bureau of Motor Vehicles",
@@ -620,6 +627,13 @@
      "url": "https://www.dot.nd.gov/motor-vehicle/mobility-impaired-parking-permits"
     },
     {
+     "code": "OH",
+     "state": "Ohio",
+     "agency": "Ohio Bureau of Motor Vehicles",
+     "title": "Application for Removable Windshield Placards (form BMV 4826, PDF)",
+     "url": "https://publicsafety.ohio.gov/links/bmv4826.pdf"
+    },
+    {
      "code": "OK",
      "state": "Oklahoma",
      "agency": "Service Oklahoma",
@@ -639,6 +653,13 @@
      "agency": "PennDOT",
      "title": "Apply for or Renew a Persons with Disability Parking Placard",
      "url": "https://www.pa.gov/services/dmv/apply-for-or-renew-a-persons-with-disability-parking-placard"
+    },
+    {
+     "code": "RI",
+     "state": "Rhode Island",
+     "agency": "Rhode Island Division of Motor Vehicles",
+     "title": "Disability Placards",
+     "url": "https://dmv.ri.gov/adjudications-suspensions/adjudication-office/disability-placards"
     },
     {
      "code": "SC",
@@ -697,14 +718,28 @@
      "url": "https://dol.wa.gov/driver-licenses-and-permits/get-or-renew-disabled-parking-permits"
     },
     {
+     "code": "WV",
+     "state": "West Virginia",
+     "agency": "West Virginia Division of Motor Vehicles",
+     "title": "Parking Application for a Mobility Impaired Person (form DMV-41-TR, PDF)",
+     "url": "https://transportation.wv.gov/dmv/dmvformsearch/dmv-41-tr-wf.pdf"
+    },
+    {
      "code": "WI",
      "state": "Wisconsin",
      "agency": "Wisconsin DMV",
      "title": "Disabled parking identification permit (permanent disability)",
      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/dsbld-prkg/discards.aspx"
+    },
+    {
+     "code": "WY",
+     "state": "Wyoming",
+     "agency": "Wyoming Department of Transportation",
+     "title": "Disabled Parking Placards",
+     "url": "https://www.dot.state.wy.us/home/driver_license_records/driver_Review/disabled-parking-placards.html"
     }
    ],
-   "after": "<p class=\"meta\">Not listed yet: Illinois, Ohio, Rhode Island, West Virginia and Wyoming, because we could not open and confirm their official placard page on the day we checked. Every state’s disability agencies and programs, with phone numbers: <a href=\"states/index.html\">Disability help in every state</a></p>"
+   "after": "<p class=\"meta\">Every state’s disability agencies and programs, with phone numbers: <a href=\"states/index.html\">Disability help in every state</a></p>"
   }
  ],
  "faq": [
