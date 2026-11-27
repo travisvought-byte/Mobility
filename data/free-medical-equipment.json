@@ -169,6 +169,10 @@
           "text": "For children and adults living with neuromuscular diseases who are MDA members. One application per member per calendar year.",
           "next": "Get a quote from your equipment supplier and a letter from your provider, then apply online before you order.",
           "record": "us-mda-dme-grant",
+          "phone": "1-800-572-1717",
+          "phone_on_source": "1-800-572-1717",
+          "phone_label": "Press 1 for the MDA Resource Center",
+          "phone_src": "mda-dme",
           "links": [{"label": "Grant questions and how to apply", "href": "https://www.mda.org/care/resource-list/equipment-assistance/faq"}],
           "src": ["mda-dme"]
         }

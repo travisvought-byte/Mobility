@@ -239,6 +239,7 @@
     {"icon": "transportation", "href": "local-help.html?category=transportation", "label": "Transportation help in your state", "text": "rides, paratransit, driver rehabilitation and placards"},
     {"icon": "equipment", "href": "free-medical-equipment.html", "label": "Free and low-cost wheelchairs and equipment", "text": "borrow, reuse or get help paying"},
     {"icon": "ramps_home", "href": "ramps-home-access.html", "label": "Ramps and home access", "text": "who pays for ramps and home changes"},
-    {"icon": "navigation", "href": "mobility-rights.html", "label": "Find your next step", "text": "a short finder for equipment, coverage and access problems"}
+    {"icon": "navigation", "href": "mobility-rights.html", "label": "Find your next step", "text": "a short finder for equipment, coverage and access problems"},
+    {"icon": "plane", "href": "accessible-travel.html", "label": "Accessible travel", "text": "flying with a wheelchair, airport security, Amtrak, buses and hand controls on rental cars"}
   ]
 }

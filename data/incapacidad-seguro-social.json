@@ -1,0 +1,186 @@
+{
+  "note": "Spanish version of data/social-security-disability.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date from the English file. Where Social Security publishes the same page in Spanish, es gives it (related: a Spanish companion page rather than the same page). Terms follow Social Security's own Spanish pages: Seguro por Incapacidad del Seguro Social (SSDI), Seguridad de Ingreso Suplementario (SSI), trabajo sustancial y lucrativo (SGA), Aprobación por compasión. An item with es_note adds a fact read on a Spanish page. The Spanish text has not yet been reviewed by a native speaker. General information, not legal advice.",
+  "lang": "es",
+  "translation_of": "social-security-disability",
+  "page": "incapacidad-seguro-social.html",
+  "title": "Cómo solicitar incapacidad del Seguro Social: SSDI y SSI, paso a paso",
+  "h1": "Cómo solicitar beneficios por incapacidad del Seguro Social",
+  "description": "Cómo solicitar SSDI o SSI: quién califica, qué reunir, cuánto tarda, los límites de 2026 y 2027 y cómo apelar una negación dentro de 60 días.",
+  "eyebrow": "SSDI · SSI · SOLICITAR · APELAR · TODOS LOS ESTADOS",
+  "correction_subject": "Página de incapacidad del Seguro Social (español)",
+  "footer_note": "Esta es información general, no asesoría legal.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "El Seguro Social tiene dos programas por incapacidad con reglas distintas. Reúna lo que pueda y solicite. Si la respuesta es no, tiene 60 días para apelar.",
+  "start_paths": [
+    {"icon": "benefits", "who": "¿No sabe cuál programa?", "text": "El SSDI depende de su historial de trabajo; el SSI, de sus ingresos y ahorros.", "href": "#which-program"},
+    {"icon": "medical", "who": "¿Quiere saber si califica?", "text": "Vea cómo decide el Seguro Social quién tiene una incapacidad.", "href": "#who-qualifies"},
+    {"icon": "document", "who": "¿Listo para solicitar?", "text": "Qué reunir y los pasos después de enviar la solicitud.", "href": "#apply"},
+    {"icon": "rights_legal", "who": "¿Le dijeron que no?", "text": "Pida una reconsideración dentro de 60 días.", "href": "#appeal"}
+  ],
+  "sources": {
+    "ssa-db-pub": {"publisher": "Administración del Seguro Social", "page_date": "con fecha de julio de 2026",
+      "es": {"url": "https://www.ssa.gov/pubs/ES-05-10929.pdf", "title": "Beneficios por incapacidad", "page_date": "con fecha de julio de 2026"}},
+    "ssa-ssi-pub": {"publisher": "Administración del Seguro Social", "page_date": "con fecha de abril de 2026",
+      "es": {"url": "https://www.ssa.gov/pubs/ES-05-11070.pdf", "title": "Usted podría recibir Seguridad de Ingreso Suplementario (SSI)", "page_date": "con fecha de julio de 2026", "related": true}},
+    "ssa-apply-online": {"publisher": "Administración del Seguro Social", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://www.ssa.gov/faqs/es/questions/KA-01795.html", "title": "¿Cómo puedo solicitar los beneficios de Seguro Social por incapacidad?", "page_date": "publicada el 29 de octubre de 2024", "related": true}},
+    "ssa-sga": {"publisher": "Administración del Seguro Social, Oficina del Actuario Principal", "page_date": "texto actual de la página, con las cantidades de 2027"},
+    "ssa-cola-2027": {"publisher": "Administración del Seguro Social", "page_date": "certificada el 14 de octubre de 2026",
+      "es": {"url": "https://www.ssa.gov/news/es/cola/factsheets/2027.html", "title": "Hoja informativa sobre el ajuste por costo de vida (COLA) de 2027", "page_date": "certificada el 14 de octubre de 2026"}},
+    "ssa-cal": {"publisher": "Administración del Seguro Social", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://www.ssa.gov/faqs/es/questions/KA-01783.html", "title": "¿Qué es el programa de Aprobación por compasión?", "page_date": "publicada el 14 de noviembre de 2022", "related": true}},
+    "ssa-recon": {"publisher": "Administración del Seguro Social", "page_date": "página modificada por última vez el 12 de septiembre de 2025",
+      "es": {"url": "https://www.ssa.gov/es/apply/appeal-decision-we-made/request-reconsideration", "title": "Solicitar una reconsideración", "page_date": "página modificada por última vez el 12 de septiembre de 2025"}}
+  },
+  "sections": [
+    {
+      "id": "which-program",
+      "title": "SSDI o SSI: cuál le corresponde",
+      "icon": "benefits",
+      "lead": "El Seguro Social paga beneficios por incapacidad por medio de dos programas: el Seguro por Incapacidad del Seguro Social (SSDI) y la Seguridad de Ingreso Suplementario (SSI).",
+      "lead_src": ["ssa-db-pub"],
+      "cards_first": true,
+      "cards": [
+        {
+          "id": "ssdi-card",
+          "name": "SSDI: según su trabajo",
+          "org": "Seguro por Incapacidad del Seguro Social",
+          "text": "Usted gana créditos al trabajar y pagar impuestos del Seguro Social, y el Seguro Social no puede pagar el SSDI sin suficientes créditos. Algunos familiares, como un hijo menor de 18 años o un cónyuge que cuida a su hijo menor de 16, también pueden recibir beneficios según su registro.",
+          "links": [{"label": "Folleto Beneficios por incapacidad, en español (PDF)", "href": "https://www.ssa.gov/pubs/ES-05-10929.pdf"}],
+          "src": ["ssa-db-pub"]
+        },
+        {
+          "id": "ssi-card",
+          "name": "SSI: según sus ingresos y ahorros",
+          "org": "Seguridad de Ingreso Suplementario",
+          "text": "Pagos mensuales a adultos y niños con ingresos y recursos por debajo de ciertos límites que tienen 65 años o más, son ciegos o tienen una discapacidad. Un niño con discapacidad cuyos padres tienen ingresos y recursos bajos puede calificar.",
+          "links": [
+            {"label": "Folleto sobre el SSI (PDF)", "href": "https://www.ssa.gov/pubs/EN-05-11000.pdf", "lang": "en"},
+            {"label": "Folleto en español: Usted podría recibir SSI (PDF)", "href": "https://www.ssa.gov/pubs/ES-05-11070.pdf"}
+          ],
+          "src": ["ssa-ssi-pub"]
+        }
+      ],
+      "points": [
+        {"text": "Para el SSI, sus recursos generalmente deben valer $2,000 o menos, o $3,000 o menos para una pareja. La casa y el terreno donde vive no cuentan, y por lo general su auto tampoco.", "src": ["ssa-ssi-pub"]},
+        {"text": "El pago federal básico del SSI es de $994 al mes para una persona y $1,491 para una pareja en 2026, y sube a $1,029 y $1,544 en 2027. La cantidad básica es la misma en todo el país; pregunte al Seguro Social por la cantidad de su estado.", "src": ["ssa-cola-2027", "ssa-ssi-pub"]}
+      ]
+    },
+    {
+      "id": "who-qualifies",
+      "title": "Cómo decide el Seguro Social quién tiene una incapacidad",
+      "icon": "medical",
+      "lead": "El Seguro Social paga solo por una incapacidad total y a largo plazo: usted no puede trabajar por una condición médica que se espera que dure al menos un año o que cause la muerte. No paga por una incapacidad parcial o de corto plazo.",
+      "lead_src": ["ssa-db-pub"],
+      "steps_title": "Las cinco preguntas, en orden",
+      "steps": [
+        {"text": "¿Está trabajando? Si gana más del límite mensual, por lo general no se le considera con una incapacidad.", "src": ["ssa-db-pub", "ssa-sga"]},
+        {"text": "¿Es grave su condición médica?", "src": ["ssa-db-pub"]},
+        {"text": "¿Su condición cumple o equivale médicamente a una de las que están en la lista de impedimentos del Seguro Social?", "src": ["ssa-db-pub"]},
+        {"text": "¿Puede hacer el trabajo que hacía antes?", "src": ["ssa-db-pub"]},
+        {"text": "¿Puede hacer algún otro tipo de trabajo?", "src": ["ssa-db-pub"]}
+      ],
+      "points": [
+        {"text": "El límite mensual de ganancias, llamado trabajo sustancial y lucrativo (SGA), es de $1,690 en 2026 y $1,770 en 2027. Para las personas que son ciegas según la definición de la ley, es de $2,830 en 2026 y $2,950 en 2027.", "src": ["ssa-sga"]},
+        {"text": "Algunas condiciones, sobre todo ciertos tipos de cáncer, trastornos cerebrales en adultos y varios trastornos raros, están en la lista de Aprobación por compasión (Compassionate Allowances) del Seguro Social, que le permite identificar y decidir esos casos rápidamente. Las mismas reglas aplican al SSDI y al SSI.", "src": ["ssa-cal"]}
+      ]
+    },
+    {
+      "id": "apply",
+      "title": "Cómo solicitar",
+      "icon": "document",
+      "lead": "Solicite en cuanto tenga una discapacidad que no le permita trabajar.",
+      "lead_src": ["ssa-db-pub"],
+      "steps_title": "De la solicitud a la decisión",
+      "steps": [
+        {"text": "Reúna lo que pueda: su fecha y lugar de nacimiento, número de Seguro Social, datos bancarios para el depósito directo, los nombres y datos de contacto de sus médicos y los medicamentos que toma, y su historial de trabajo y ganancias. La lista de verificación para adultos (Adult Disability Checklist) del Seguro Social indica lo demás.", "src": ["ssa-apply-online"]},
+        {"text": "Solicite en línea, o llame al Seguro Social para hacer una cita por teléfono o en su oficina local.", "src": ["ssa-db-pub", "ssa-apply-online"]},
+        {"text": "El Seguro Social confirma que recibió su solicitud, en línea o por correo, y se comunica con usted si necesita más información.", "src": ["ssa-apply-online"]},
+        {"text": "Una agencia estatal, los Servicios de Determinación de Incapacidad (DDS), toma la primera decisión sobre la incapacidad.", "src": ["ssa-db-pub"]},
+        {"text": "El Seguro Social le envía su decisión por correo.", "src": ["ssa-apply-online"]}
+      ],
+      "points": [
+        {"text": "Puede usar la solicitud en línea si tiene 18 años o más, no puede trabajar por una condición médica que se espera que dure al menos 12 meses o que cause la muerte, no recibe ya beneficios según su propio registro y no le negaron una solicitud en los últimos 60 días.", "src": ["ssa-apply-online"]},
+        {"text": "El trámite tarda de seis a ocho meses en promedio. Enviar los registros médicos y el historial de trabajo que pide el Seguro Social puede acelerarlo.", "src": ["ssa-db-pub"]}
+      ],
+      "cards": [
+        {
+          "id": "ssa-apply-card",
+          "name": "Solicite beneficios por incapacidad",
+          "org": "Administración del Seguro Social",
+          "text": "Empiece en línea, o llame para solicitar por teléfono o hacer una cita en su oficina local.",
+          "more": "La página en español del Seguro Social dice que, al llamar, oprima 7 para español.",
+          "es_note": "The added sentence comes from Social Security's Spanish page (source ssa-apply-online, es).",
+          "next": "Imprima la lista de verificación para adultos desde la página de la solicitud en línea y empiece a llenarla.",
+          "record": "us-ssa-disability-apply",
+          "phone": "1-800-772-1213",
+          "phone_on_source": "1-800-772-1213",
+          "phone_label": "TTY: 1-800-325-0778",
+          "phone_src": "ssa-apply-online",
+          "links": [
+            {"label": "Solicitar beneficios por incapacidad en línea", "href": "https://www.ssa.gov/applyfordisability/index.htm", "lang": "en"},
+            {"label": "Cómo solicitar, en español", "href": "https://www.ssa.gov/faqs/es/questions/KA-01795.html"}
+          ],
+          "src": ["ssa-apply-online", "ssa-db-pub"]
+        }
+      ]
+    },
+    {
+      "id": "after-approval",
+      "title": "Después de que lo aprueben",
+      "icon": "clock",
+      "lead": "Algunos beneficios empiezan enseguida y otros tardan.",
+      "points": [
+        {"text": "El SSDI generalmente tiene un período de espera de cinco meses.", "src": ["ssa-db-pub"]},
+        {"text": "Usted recibe Medicare después de haber recibido el SSDI por dos años.", "src": ["ssa-db-pub"]},
+        {"text": "Si recibe SSI, también puede recibir Medicaid, que ayuda a pagar las cuentas del médico y del hospital, y quizás pueda recibir SNAP para ayudarle a comprar comida.", "src": ["ssa-ssi-pub"]}
+      ],
+      "after": "<p>La agencia de Medicaid de su estado y la orientación gratuita sobre beneficios aparecen en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?category=benefits\" hreflang=\"en\">beneficios y cobertura médica</a> (en inglés) en el directorio. La página de <a href=\"espanol.html#beneficios-h\">ayuda en español</a> tiene líneas de beneficios que atienden en español.</p>"
+    },
+    {
+      "id": "appeal",
+      "title": "Si el Seguro Social le dice que no",
+      "icon": "rights_legal",
+      "lead": "Pida una reconsideración dentro de 60 días.",
+      "lead_src": ["ssa-recon"],
+      "points": [
+        {"text": "Puede empezar la solicitud en línea o llenar y subir el formulario SSA-561.", "src": ["ssa-recon"]},
+        {"text": "Los pasos de la apelación son la reconsideración, una audiencia, la revisión de la decisión de la audiencia y la revisión por un tribunal federal de distrito.", "src": ["ssa-recon"]}
+      ],
+      "cards": [
+        {
+          "id": "ssa-appeal-card",
+          "name": "Solicitar una reconsideración",
+          "org": "Administración del Seguro Social",
+          "text": "La página del Seguro Social para apelar una decisión sobre incapacidad, con la solicitud en línea y el formulario para subir.",
+          "more": "La versión en español de esa página dice que los trámites en línea están solo en inglés y que, al llamar, oprima 7 para español.",
+          "es_note": "The added sentence comes from Social Security's Spanish version of the page (source ssa-recon, es).",
+          "next": "Busque la fecha en su carta de decisión y presente la solicitud antes de que pasen 60 días.",
+          "record": "us-ssa-appeal",
+          "phone": "1-800-772-1213",
+          "phone_on_source": "+1 800-772-1213",
+          "phone_label": "TTY: 1-800-325-0778",
+          "phone_src": "ssa-recon",
+          "links": [{"label": "Solicitar una reconsideración, en español", "href": "https://www.ssa.gov/es/apply/appeal-decision-we-made/request-reconsideration"}],
+          "src": ["ssa-recon"]
+        }
+      ],
+      "after": "<p>Ayuda gratuita con una apelación: <a href=\"know-your-rights.html#benefit-denials\" hreflang=\"en\">Conozca sus derechos</a> (en inglés) indica a quién llamar, y la agencia de Protección y Defensa (Protection and Advocacy) de su estado y la ayuda legal gratuita aparecen en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés).</p>"
+    }
+  ],
+  "faq": [
+    {"q": "¿Cuál es la diferencia entre el SSDI y el SSI?", "a": "El SSDI depende de su historial de trabajo: necesita suficientes créditos de trabajo por haber pagado impuestos del Seguro Social. El SSI paga a adultos y niños con ingresos y recursos bajos que tienen 65 años o más, son ciegos o tienen una discapacidad.", "src": ["ssa-db-pub", "ssa-ssi-pub"]},
+    {"q": "¿Cuánto tardan en aprobar una solicitud por incapacidad?", "a": "El Seguro Social dice que el trámite tarda de seis a ocho meses en promedio. Enviar los registros médicos y el historial de trabajo que pide puede acelerarlo.", "src": ["ssa-db-pub"]},
+    {"q": "¿Cuánto puedo ganar y todavía calificar por incapacidad?", "a": "Si gana más de un límite mensual, llamado trabajo sustancial y lucrativo, por lo general no se le considera con una incapacidad. El límite es de $1,690 al mes en 2026 y $1,770 en 2027, o $2,830 y $2,950 para las personas que son ciegas según la definición de la ley.", "src": ["ssa-sga"]},
+    {"q": "¿Cuánto paga el SSI?", "a": "El pago federal básico del SSI es de $994 al mes para una persona y $1,491 para una pareja en 2026, y de $1,029 y $1,544 en 2027.", "src": ["ssa-cola-2027"]},
+    {"q": "¿Qué puedo hacer si me niegan la solicitud por incapacidad?", "a": "Pida una reconsideración dentro de 60 días, en línea o con el formulario SSA-561. Si también se la niegan, los siguientes pasos son una audiencia, la revisión de la decisión de la audiencia y un tribunal federal de distrito.", "src": ["ssa-recon"]},
+    {"q": "¿Cuándo empieza Medicare para las personas que reciben SSDI?", "a": "Después de haber recibido beneficios por incapacidad por dos años.", "src": ["ssa-db-pub"]}
+  ],
+  "related": [
+    {"icon": "transportation", "href": "vehiculos-adaptados.html", "label": "Ayuda para pagar un vehículo adaptado", "text": "subvenciones del VA, rehabilitación vocacional, Medicaid y reembolsos"},
+    {"icon": "equipment", "href": "equipo-medico-gratis.html", "label": "Sillas de ruedas y equipo médico gratis o de bajo costo", "text": "pedir prestado, reusar o recibir ayuda para pagar"},
+    {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
+    {"icon": "rights_legal", "href": "know-your-rights.html", "lang": "en", "label": "Conozca sus derechos", "text": "qué ley, qué oficina y qué plazo"}
+  ]
+}

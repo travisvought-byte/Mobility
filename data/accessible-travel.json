@@ -1,0 +1,251 @@
+{
+  "note": "Accessible travel, national: flying with a wheelchair or other disability, airport security screening, Amtrak, intercity buses, rental cars and the federal lands Access Pass. Every statement names the official page it comes from (sources below), each read on the date in checked. A phone number appears only where the source page showed it; where the same line is in the directory (record), the build checks that the directory number matches the number read on the source page (phone_on_source). DOT's December 2024 wheelchair rule is left out on purpose: its parts were still being phased in and litigated when checked, so this page cites only DOT's current consumer pages. General information, not legal advice.",
+  "page": "accessible-travel.html",
+  "title": "Flying with a wheelchair and accessible travel: airlines, TSA, Amtrak, buses",
+  "h1": "Accessible travel: flying, trains, buses and parks",
+  "description": "Flying with a wheelchair: your rights with airlines, TSA Cares screening help, Amtrak reservations and discounts, intercity bus rules and the free Access Pass.",
+  "eyebrow": "FLYING · AIRPORT SECURITY · AMTRAK · BUSES · RENTAL CARS · PARKS",
+  "correction_subject": "Accessible travel page",
+  "footer_note": "This is general information, not legal advice.",
+  "checked_on": "2026-11-27",
+  "checked_label": "November 27, 2026",
+  "start": "Most help works best when you ask ahead: contact TSA Cares at least 72 hours before you fly, and reserve accessible space on a train early. If something goes wrong at the airport, ask for the airline’s complaints resolution official right away.",
+  "start_paths": [
+    {"icon": "plane", "who": "Flying?", "text": "airlines must help you board and connect, and look after your wheelchair.", "href": "#flying"},
+    {"icon": "shield", "who": "Going through airport security?", "text": "TSA Cares can arrange a specially trained officer to help.", "href": "#tsa"},
+    {"icon": "navigation", "who": "Taking the train?", "text": "reserve accessible space and ask for the disability discount.", "href": "#amtrak"},
+    {"icon": "transportation", "who": "Taking an intercity bus?", "text": "accessible buses and boarding help are required.", "href": "#buses"},
+    {"icon": "map_pin", "who": "Visiting national parks?", "text": "the Access Pass is free with a permanent disability.", "href": "#parks"},
+    {"icon": "rights_legal", "who": "Something went wrong?", "text": "who to tell, and the deadlines.", "href": "#complaints"}
+  ],
+  "sources": {
+    "dot-acaa": {"title": "About the Air Carrier Access Act", "publisher": "U.S. Department of Transportation, Office of Aviation Consumer Protection", "url": "https://www.transportation.gov/airconsumer/passengers-disabilities", "page_date": "page last updated September 16, 2025", "checked": "2026-11-27"},
+    "dot-bor": {"title": "Airline Passengers with Disabilities Bill of Rights", "publisher": "U.S. Department of Transportation, Office of Aviation Consumer Protection", "url": "https://www.transportation.gov/airconsumer/disabilitybillofrights", "page_date": "page last updated February 5, 2025", "checked": "2026-11-27"},
+    "dot-hotline": {"title": "Toll-Free Hotline for Air Travelers with Disabilities", "publisher": "U.S. Department of Transportation", "url": "https://www.transportation.gov/airconsumer/toll-free-hotline-air-travelers-disabilities", "page_date": "page last updated February 8, 2022", "checked": "2026-11-27"},
+    "tsa-support": {"title": "Passenger Support", "publisher": "Transportation Security Administration", "url": "https://www.tsa.gov/travel/passenger-support", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "tsa-mobility": {"title": "Mobility Disabilities, Aids and Devices", "publisher": "Transportation Security Administration", "url": "https://www.tsa.gov/travel/tsa-cares/disabilities-and-medical-conditions/mobility-disabilities-aids-devices", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "amtrak-res": {"title": "Making Reservations for Customers with a Disability", "publisher": "Amtrak", "url": "https://www.amtrak.com/planning-booking/accessible-travel-services/making-reservations-for-passengers-with-a-disability", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "amtrak-disc": {"title": "Discounts for Customers with Disabilities and Companions", "publisher": "Amtrak", "url": "https://www.amtrak.com/passengers-with-disabilities-discounts", "page_date": "no date shown on the page", "checked": "2026-11-27"},
+    "ecfr-37-h": {"title": "49 CFR Part 37, Subpart H: Over-the-Road Buses (OTRBs)", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-49/subtitle-A/part-37/subpart-H", "page_date": "eCFR text up to date as of October 6, 2026", "checked": "2026-11-27"},
+    "fmcsa-complaints": {"title": "Report Bus Complaints", "publisher": "Federal Motor Carrier Safety Administration", "url": "https://www.fmcsa.dot.gov/safety/look-you-book/report-bus-complaints", "page_date": "page last updated October 8, 2026", "checked": "2026-11-27"},
+    "ecfr-36-304": {"title": "28 CFR 36.304, removal of barriers", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-C/section-36.304", "page_date": "eCFR text up to date as of October 21, 2026", "checked": "2026-11-27"},
+    "nps-access": {"title": "America the Beautiful: The National Parks and Federal Recreational Lands Access Pass", "publisher": "National Park Service", "url": "https://www.nps.gov/subjects/accessibility/interagency-access-pass.htm", "page_date": "page last updated August 11, 2026", "checked": "2026-11-27"},
+    "nps-passes": {"title": "Entrance Passes", "publisher": "National Park Service", "url": "https://www.nps.gov/planyourvisit/passes.htm", "page_date": "page last updated October 9, 2026", "checked": "2026-11-27"},
+    "usgs-store": {"title": "Access Pass", "publisher": "U.S. Geological Survey Store", "url": "https://store.usgs.gov/Access-Pass", "page_date": "no date shown on the page", "checked": "2026-11-27"}
+  },
+  "sections": [
+    {
+      "id": "flying",
+      "title": "Flying with a wheelchair or other disability",
+      "icon": "plane",
+      "lead": "The Air Carrier Access Act rule applies to all flights of U.S. airlines, and to flights to or from the United States by foreign airlines.",
+      "lead_src": ["dot-acaa"],
+      "points": [
+        {"text": "Airlines must help you get from the curb to your departing flight, and between gates to make a connection.", "src": ["dot-bor"]},
+        {"text": "An airline cannot leave you unattended for more than 30 minutes in a wheelchair or other device you cannot move in on your own.", "src": ["dot-bor"]},
+        {"text": "Airlines must check your wheelchair or other assistive device at the gate and return it to you at the gate on time, so you can use it in the terminal.", "src": ["dot-bor"]},
+        {"text": "Collapsible wheelchairs and other assistive devices have priority for space in the cabin, and assistive devices do not count against the limit on carry-on bags.", "src": ["dot-acaa"]},
+        {"text": "If an airline loses, damages or destroys your wheelchair or other assistive device, it must pay compensation up to the device’s original purchase price.", "src": ["dot-bor"]},
+        {"text": "Most aircraft with 19 or more seats must have a ramp or mechanical lift for boarding at airports with more than 10,000 boardings a year.", "src": ["dot-acaa"]},
+        {"text": "Airlines may not keep anyone out of a specific seat because of a disability, unless an FAA or foreign government safety rule requires it, as it can for exit rows.", "src": ["dot-acaa"]},
+        {"text": "New aircraft with 30 or more seats must have movable armrests on half the aisle seats, and new aircraft with 100 or more seats must have priority space in the cabin for a folding wheelchair.", "src": ["dot-acaa"]},
+        {"text": "Airlines generally cannot require advance notice, but may ask for up to 48 hours’ notice for certain help, such as hooking up a respirator to the aircraft’s power or carrying an electric wheelchair on an aircraft with fewer than 60 seats.", "src": ["dot-acaa"]}
+      ],
+      "cards": [
+        {
+          "id": "dot-hotline-card",
+          "name": "DOT hotline for air travelers with disabilities",
+          "org": "U.S. Department of Transportation",
+          "text": "Gives general information about your rights as an air traveler with a disability, and helps with time-sensitive problems that need to be solved in real time.",
+          "next": "Call while the problem is happening. To have DOT investigate, send a written or email complaint afterward.",
+          "record": "us-dot-air-travel-disability-hotline",
+          "phone": "1-800-778-4838",
+          "phone_on_source": "1-800-778-4838",
+          "phone_label": "9 a.m. to 5 p.m. Eastern, Monday to Friday, except federal holidays. Deaf, hard of hearing or speech disability: dial 711 for relay",
+          "phone_src": "dot-hotline",
+          "links": [
+            {"label": "About the hotline", "href": "https://www.transportation.gov/airconsumer/toll-free-hotline-air-travelers-disabilities"},
+            {"label": "File a complaint with DOT", "href": "https://www.transportation.gov/airconsumer/file-consumer-complaint"}
+          ],
+          "src": ["dot-hotline"]
+        }
+      ],
+      "after": "<p>Flying with a service dog has its own rules and forms: see <a href=\"service-animals.html#air-travel\">air travel with a service animal</a>.</p>"
+    },
+    {
+      "id": "tsa",
+      "title": "Airport security: TSA Cares and screening",
+      "icon": "shield",
+      "lead": "TSA Cares can arrange for a Passenger Support Specialist, a TSA officer with special training in helping and communicating with travelers who have disabilities or medical conditions.",
+      "lead_src": ["tsa-support"],
+      "steps_title": "Before and at the checkpoint",
+      "steps": [
+        {"text": "Contact TSA Cares at least 72 hours before your flight, by phone or with its online request form.", "src": ["tsa-support"]},
+        {"text": "At the checkpoint, ask a TSA officer or supervisor for a Passenger Support Specialist if you did not arrange one ahead.", "src": ["tsa-support"]},
+        {"text": "Before screening starts, tell the officer whether you can walk or stand on your own.", "src": ["tsa-mobility"]}
+      ],
+      "points": [
+        {"text": "Asking for a Passenger Support Specialist does not exempt you from security screening.", "src": ["tsa-support"]},
+        {"text": "You can be screened while seated in your wheelchair or scooter. If you cannot be screened by technology, you get a pat-down.", "src": ["tsa-mobility"]},
+        {"text": "Officers screen the wheelchair or scooter too, including its seat cushions. Items are tested for traces of explosives, and removable items go through the X-ray.", "src": ["tsa-mobility"]},
+        {"text": "Travelers 75 or older in a wheelchair or scooter may remain seated. In TSA PreCheck lanes, travelers who cannot stand or walk may remain seated in their mobility device.", "src": ["tsa-mobility"]}
+      ],
+      "cards": [
+        {
+          "id": "tsa-cares-card",
+          "name": "TSA Cares",
+          "org": "Transportation Security Administration",
+          "text": "Answers questions about security screening and can arrange a Passenger Support Specialist to help you at the checkpoint.",
+          "next": "Call or send the online request at least 72 hours before your flight.",
+          "record": "us-tsa-cares",
+          "phone": "855-787-2227",
+          "phone_on_source": "(855) 787-2227",
+          "phone_label": "8 a.m. to 11 p.m. Eastern on weekdays, 9 a.m. to 8 p.m. Eastern on weekends and holidays",
+          "phone_src": "tsa-support",
+          "links": [
+            {"label": "TSA Cares and passenger support", "href": "https://www.tsa.gov/travel/passenger-support"},
+            {"label": "Screening with mobility aids", "href": "https://www.tsa.gov/travel/tsa-cares/disabilities-and-medical-conditions/mobility-disabilities-aids-devices"}
+          ],
+          "src": ["tsa-support", "tsa-mobility"]
+        }
+      ]
+    },
+    {
+      "id": "amtrak",
+      "title": "Amtrak trains",
+      "icon": "navigation",
+      "lead": "Spaces for wheelchairs and other wheeled mobility devices, and seats you can transfer into, are limited, so reserve ahead.",
+      "lead_src": ["amtrak-res"],
+      "points": [
+        {"text": "You can reserve accessible space on Amtrak.com or the Amtrak app, by phone, or at a staffed station during ticket office hours. Between 7 a.m. and 11 p.m. Eastern, you can also text Amtrak’s reservation number or use web chat.", "src": ["amtrak-res"]},
+        {"text": "A group that needs wheelchair seating together should ask Amtrak group sales at least 14 days ahead.", "src": ["amtrak-res"]},
+        {"text": "Adults with a disability get 10% off the rail fare. A child with a disability gets the 50% child discount plus another 10% off, and one companion who can give needed help also gets 10% off.", "src": ["amtrak-disc"]},
+        {"text": "On the Downeaster, between Boston and Portland, Maine, the disability discount is 50%. Riders on the Downeaster, Pennsylvanian and Keystone must show documentation of their disability.", "src": ["amtrak-disc"]},
+        {"text": "These discounts may not combine with other discount programs.", "src": ["amtrak-disc"]}
+      ],
+      "cards": [
+        {
+          "id": "amtrak-card",
+          "name": "Amtrak reservations",
+          "org": "Amtrak",
+          "text": "Book accessible space and the disability discount by phone, online, in the app or at a staffed station.",
+          "next": "Say you need an accessible space when you book, and ask for the disability discount.",
+          "record": "us-amtrak-accessible-travel",
+          "phone": "1-800-872-7245",
+          "phone_on_source": "1-800-USA-RAIL (1-800-872-7245)",
+          "phone_label": "1-800-USA-RAIL. Text the same number from 7 a.m. to 11 p.m. Eastern. Deaf, hard of hearing or speech disability: dial 711 for relay",
+          "phone_src": "amtrak-res",
+          "links": [
+            {"label": "Reserving accessible space", "href": "https://www.amtrak.com/planning-booking/accessible-travel-services/making-reservations-for-passengers-with-a-disability"},
+            {"label": "Disability discounts", "href": "https://www.amtrak.com/passengers-with-disabilities-discounts"}
+          ],
+          "src": ["amtrak-res", "amtrak-disc"]
+        }
+      ]
+    },
+    {
+      "id": "buses",
+      "title": "Intercity buses",
+      "icon": "transportation",
+      "lead": "Federal ADA rules set what companies running over-the-road buses, the coach buses used between cities, must do for passengers with disabilities.",
+      "lead_src": ["ecfr-37-h"],
+      "points": [
+        {"text": "Large bus companies had to make 100 percent of the buses they use for fixed-route service accessible by October 29, 2012.", "src": ["ecfr-37-h"]},
+        {"text": "Until a company’s fixed-route fleet is fully accessible, it must give you an accessible bus when you ask, but it may require up to 48 hours’ notice.", "src": ["ecfr-37-h"]},
+        {"text": "For charter and other demand-responsive trips, a company may ask for up to 48 hours’ notice to provide an accessible bus. With less notice, it must still provide one if it can with a reasonable effort.", "src": ["ecfr-37-h"]},
+        {"text": "Companies must help passengers with disabilities get on and off as needed, including at rest stops and stops along the way.", "src": ["ecfr-37-h"]},
+        {"text": "A company may not use or ask people who are not its employees, such as other passengers, to give routine help, unless you ask for or agree to their help.", "src": ["ecfr-37-h"]}
+      ],
+      "cards": [
+        {
+          "id": "fmcsa-card",
+          "name": "FMCSA bus complaint hotline",
+          "org": "Federal Motor Carrier Safety Administration",
+          "text": "Takes complaints about bus companies, including any violation of the Americans with Disabilities Act, such as a bus with a broken wheelchair lift or a driver not offering required help.",
+          "next": "Note the company, date and route, then file online or call.",
+          "phone": "1-888-368-7238",
+          "phone_on_source": "1-888-DOT-SAFT (1-888-368-7238)",
+          "phone_label": "1-888-DOT-SAFT. 8 a.m. to 8 p.m. Eastern, Monday to Friday",
+          "phone_src": "fmcsa-complaints",
+          "links": [
+            {"label": "FMCSA Complaint Center", "href": "https://complaint.fmcsa.dot.gov/"},
+            {"label": "How to report a bus complaint", "href": "https://www.fmcsa.dot.gov/safety/look-you-book/report-bus-complaints"}
+          ],
+          "src": ["fmcsa-complaints"]
+        }
+      ],
+      "after": "<p>City buses, trains and paratransit follow other ADA rules: see <a href=\"know-your-rights.html\">Know your rights</a> and <a href=\"local-help.html?category=transportation\">transportation help in your state</a>.</p>"
+    },
+    {
+      "id": "rental-cars",
+      "title": "Rental cars and hand controls",
+      "icon": "store",
+      "lead": "Federal ADA rules for businesses list installing vehicle hand controls as an example of removing a barrier, which a business must do where it is readily achievable: easy to do without much difficulty or expense.",
+      "lead_src": ["ecfr-36-304"],
+      "points": [
+        {"text": "The same list of examples includes installing ramps, making curb cuts in sidewalks and entrances, and installing grab bars in toilet stalls.", "src": ["ecfr-36-304"]}
+      ],
+      "after": "<p>Ask for hand controls when you reserve, and confirm with the rental location before you travel. If you need a vehicle of your own, <a href=\"accessible-vehicles.html\">Help paying for an accessible vehicle</a> covers grants, rebates and loans.</p>"
+    },
+    {
+      "id": "parks",
+      "title": "National parks and federal lands: the Access Pass",
+      "icon": "map_pin",
+      "lead": "The Access Pass is free for U.S. citizens and residents of any age with a permanent disability.",
+      "lead_src": ["nps-access"],
+      "points": [
+        {"text": "The disability does not have to be 100%, but it must severely limit one or more major life activities.", "src": ["nps-access"]},
+        {"text": "It is one of the America the Beautiful passes, which cover entrance fees and standard amenity (day-use) fees at lands run by the National Park Service, U.S. Fish & Wildlife Service, U.S. Forest Service, Bureau of Land Management, Bureau of Reclamation and U.S. Army Corps of Engineers.", "src": ["nps-passes"]},
+        {"text": "Bring a photo ID and one proof of disability: a signed letter from a licensed physician, a document from a federal agency such as VA or Social Security showing you get disability benefits, or a document from a state agency such as vocational rehabilitation.", "src": ["nps-access"]},
+        {"text": "Getting the pass in person, at more than 1,000 federal recreation sites, is recommended. A digital pass from Recreation.gov can be used right away.", "src": ["nps-access"]},
+        {"text": "A pass ordered by mail from the USGS Online Store can take up to three weeks to arrive, and the store lists the Access Pass at $10.00.", "src": ["nps-access", "usgs-store"]}
+      ],
+      "cards": [
+        {
+          "id": "access-pass-card",
+          "name": "Access Pass",
+          "org": "National Park Service and partner agencies",
+          "text": "Covers entrance fees at national parks and other federal recreation lands for U.S. citizens and residents with a permanent disability.",
+          "next": "Gather your photo ID and proof of disability, then get the pass at a federal recreation site or as a digital pass.",
+          "record": "us-access-pass",
+          "links": [
+            {"label": "Access Pass details", "href": "https://www.nps.gov/subjects/accessibility/interagency-access-pass.htm"},
+            {"label": "All entrance passes", "href": "https://www.nps.gov/planyourvisit/passes.htm"}
+          ],
+          "src": ["nps-access", "nps-passes"]
+        }
+      ]
+    },
+    {
+      "id": "complaints",
+      "title": "If something goes wrong",
+      "icon": "rights_legal",
+      "lead": "Raise a problem with the airline while you are still at the airport if you can, then put it in writing.",
+      "steps_title": "A problem with a flight, in order",
+      "steps": [
+        {"text": "At the airport, ask for the airline’s complaints resolution official (CRO). Airlines must have one available at each airport they serve.", "src": ["dot-acaa", "dot-bor"]},
+        {"text": "For a time-sensitive problem, call the DOT disability hotline.", "src": ["dot-hotline"]},
+        {"text": "Send the airline a written complaint. It must answer the disability issues in writing within 30 days, but it does not have to answer a complaint sent more than 45 days after the incident unless DOT refers it.", "src": ["dot-bor"]},
+        {"text": "To have DOT investigate, send DOT your complaint in writing or by email. DOT refers disability complaints it receives within 6 months of the incident to the airline.", "src": ["dot-hotline", "dot-bor"]}
+      ],
+      "points": [
+        {"text": "Problems with a bus company, such as a broken wheelchair lift or a driver not offering required help, can be reported to FMCSA online or by phone.", "src": ["fmcsa-complaints"]}
+      ],
+      "after": "<p><a href=\"know-your-rights.html#air-travel\">Know your rights</a> lists who handles each kind of problem, from air travel to public transit.</p>"
+    }
+  ],
+  "faq": [
+    {"q": "What are my rights when flying with a wheelchair?", "a": "Airlines must help you from the curb to your flight and between gates, and cannot leave you unattended for more than 30 minutes in a device you cannot move on your own. Collapsible wheelchairs have priority for cabin space, assistive devices do not count against carry-on limits, and an airline that loses or damages your wheelchair must pay up to its original purchase price.", "src": ["dot-bor", "dot-acaa"]},
+    {"q": "How do I get help through airport security?", "a": "Contact TSA Cares at (855) 787-2227 at least 72 hours before your flight, or ask a TSA officer or supervisor at the checkpoint for a Passenger Support Specialist. It does not exempt you from screening.", "src": ["tsa-support"]},
+    {"q": "Can I stay in my wheelchair during TSA screening?", "a": "Yes. You can be screened while seated in your wheelchair or scooter, and the chair is screened too. If you cannot be screened by technology, you get a pat-down.", "src": ["tsa-mobility"]},
+    {"q": "Does Amtrak have a disability discount?", "a": "Adults with a disability get 10% off the rail fare, and one companion who can give needed help also gets 10% off. A child with a disability gets the 50% child discount plus another 10%. On the Downeaster the discount is 50%.", "src": ["amtrak-disc"]},
+    {"q": "Is the national parks Access Pass free?", "a": "Yes, for U.S. citizens and residents of any age with a permanent disability. Get it in person at a federal recreation site or as a digital pass from Recreation.gov. For a pass ordered by mail, the USGS Online Store lists a $10.00 price.", "src": ["nps-access", "usgs-store"]},
+    {"q": "What can I do if an airline damages my wheelchair?", "a": "Ask for the airline’s complaints resolution official at the airport. The airline must pay compensation up to the wheelchair’s original purchase price, and must answer a written complaint within 30 days. To have DOT investigate, send DOT a written or email complaint.", "src": ["dot-acaa", "dot-bor", "dot-hotline"]}
+  ],
+  "related": [
+    {"icon": "service_dog", "href": "service-animals.html#air-travel", "label": "Flying with a service animal", "text": "DOT’s rules, forms and what airline staff may ask"},
+    {"icon": "rights_legal", "href": "know-your-rights.html#air-travel", "label": "Know your rights", "text": "which law, which office and what deadline, from air travel to transit"},
+    {"icon": "transportation", "href": "accessible-vehicles.html", "label": "Help paying for an accessible vehicle", "text": "VA grants, vocational rehab, Medicaid waivers and rebates"},
+    {"icon": "map_pin", "href": "local-help.html?category=transportation", "label": "Transportation help in your state", "text": "rides, paratransit, driver rehabilitation and placards"}
+  ]
+}

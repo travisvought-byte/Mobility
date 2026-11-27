@@ -1,0 +1,203 @@
+{
+  "note": "Spanish version of data/free-medical-equipment.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date from the English file. Where the agency publishes the same page in Spanish, es gives it. An item with es_note adds a fact read on that Spanish page. The Spanish text has not yet been reviewed by a native speaker. General information, not medical or legal advice.",
+  "lang": "es",
+  "translation_of": "free-medical-equipment",
+  "page": "equipo-medico-gratis.html",
+  "title": "Equipo médico gratis o de bajo costo: sillas de ruedas prestadas y usadas",
+  "h1": "Sillas de ruedas y equipo médico gratis o de bajo costo",
+  "description": "Pida prestada, reúse o reciba ayuda para pagar una silla de ruedas, andadera u otro equipo: programas estatales, Medicare, Medicaid, el VA y subvenciones.",
+  "eyebrow": "PRÉSTAMO · REÚSO · REPARACIÓN · MEDICARE · MEDICAID · TODOS LOS ESTADOS",
+  "correction_subject": "Página de equipo médico gratis (español)",
+  "footer_note": "Esta es información general, no asesoría médica ni legal.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "¿Lo necesita ya? Pida uno prestado mientras espera. ¿Necesita uno propio? Pregunte primero a su seguro o cobertura y luego busque programas de reúso y subvenciones.",
+  "start_paths": [
+    {"icon": "reuse", "who": "¿Lo necesita pronto, o solo por un tiempo?", "text": "Pídalo prestado a un programa de préstamo o consiga equipo usado.", "href": "#borrow-reuse"},
+    {"icon": "medical", "who": "¿Tiene Medicare?", "text": "Cubre el equipo médicamente necesario y las reparaciones del equipo que es suyo.", "href": "#medicare"},
+    {"icon": "benefits", "who": "¿Tiene Medicaid?", "text": "Cubre equipo, y usted puede pedir un artículo que no está en la lista de su estado.", "href": "#medicaid"},
+    {"icon": "veterans", "who": "¿Es veterano y recibe atención médica del VA?", "text": "El VA le da equipo cuando tiene una necesidad médica.", "href": "#veterans"},
+    {"icon": "funding", "who": "¿Vive con una enfermedad neuromuscular?", "text": "Una subvención para equipo puede ayudarle.", "href": "#grants"}
+  ],
+  "sources": {
+    "acl-at": {"publisher": "Administración para la Vida Comunitaria (ACL)", "page_date": "página modificada por última vez el 31 de julio de 2026"},
+    "gotdme": {"publisher": "GotDME, un proyecto de Wheel It Forward", "page_date": "la página no muestra fecha"},
+    "reuse-locations": {"publisher": "Base de datos nacional de lugares de reúso (Pass It On Center, Georgia Tech)", "page_date": "la página no muestra fecha"},
+    "medicare-dme": {"publisher": "Medicare.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha",
+      "es": {"url": "https://es.medicare.gov/coverage/durable-medical-equipment-dme-coverage", "title": "Cobertura de equipo médico duradero (DME)", "page_date": "la página no muestra fecha"}},
+    "medicare-booklet": {"publisher": "Centros de Servicios de Medicare y Medicaid", "page_date": "con fecha de febrero de 2025",
+      "es": {"url": "https://www.medicare.gov/es/media/11486", "title": "Cobertura Medicare de Equipos Médicos Duraderos y otros Dispositivos", "page_date": "con fecha de febrero de 2025"}},
+    "ecfr-440-70": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 22 de octubre de 2026"},
+    "va-psas-about": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 29 de octubre de 2024"},
+    "va-psas": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 2 de abril de 2026"},
+    "mda-dme": {"publisher": "Asociación de la Distrofia Muscular (MDA)", "page_date": "página modificada por última vez el 8 de julio de 2025"}
+  },
+  "sections": [
+    {
+      "id": "borrow-reuse",
+      "title": "Pídalo prestado o consígalo usado: programas de préstamo y reúso",
+      "icon": "reuse",
+      "lead": "Cada estado tiene un programa público de tecnología de asistencia que presta equipo y pasa a otras personas el equipo que alguien ya no necesita.",
+      "lead_src": ["acl-at"],
+      "steps_title": "Dónde buscar, en orden",
+      "steps": [
+        {"text": "Llame al programa de tecnología de asistencia (AT) de su estado. Pregunte por un préstamo a corto plazo mientras espera, y por equipo reusado que pueda quedarse.", "src": ["acl-at"]},
+        {"text": "Busque en GotDME programas cerca de usted que prestan o regalan equipo médico.", "src": ["gotdme"]},
+        {"text": "Haga clic en su estado en la base de datos nacional de reúso de AT para encontrar otros programas de reúso cercanos.", "src": ["reuse-locations"]}
+      ],
+      "points": [
+        {"text": "Cada estado, D.C., Puerto Rico y los territorios de EE. UU. tiene un programa de AT con fondos federales.", "src": ["acl-at"]},
+        {"text": "Los programas de AT hacen préstamos de dispositivos a corto plazo, para que pueda usar el equipo por un tiempo limitado y probarlo antes de comprarlo.", "src": ["acl-at"]},
+        {"text": "Tienen programas de reúso que pasan el equipo que su primer dueño ya no necesita a un nuevo dueño, con un ahorro considerable.", "src": ["acl-at"]},
+        {"text": "Hacen demostraciones donde puede comparar dispositivos con la ayuda de un profesional, y ayudan a las personas a comprar equipo por medio de préstamos y de otras formas.", "src": ["acl-at"]}
+      ],
+      "cards": [
+        {
+          "id": "at-program-card",
+          "name": "El programa de tecnología de asistencia de su estado",
+          "org": "Con fondos federales por medio de la Administración para la Vida Comunitaria",
+          "text": "Presta equipo, hace demostraciones y pasa a otros el equipo usado, y puede informarle sobre préstamos para comprar el suyo.",
+          "next": "Abra el directorio, elija su estado y llame. Diga qué necesita y si lo necesita ahora o para siempre.",
+          "links": [{"label": "Directorio de programas estatales de AT", "href": "https://www.at3center.net/stateprogram", "lang": "en"}],
+          "src": ["acl-at"]
+        },
+        {
+          "id": "gotdme-card",
+          "name": "Directorio de préstamos GotDME",
+          "org": "GotDME, un proyecto de Wheel It Forward",
+          "text": "Una herramienta para buscar programas en todo Estados Unidos que prestan o regalan equipo médico gratis.",
+          "next": "Busque cerca de usted y luego llame para saber qué tienen disponible y quién puede pedirlo prestado.",
+          "record": "us-gotdme",
+          "links": [{"label": "Buscar en GotDME", "href": "https://gotdme.org", "lang": "en"}],
+          "src": ["gotdme"]
+        },
+        {
+          "id": "reuse-card",
+          "name": "Lugares de reúso de AT",
+          "org": "Base de datos nacional de lugares de reúso",
+          "text": "Un mapa y una lista de programas de reúso de tecnología de asistencia. Haga clic en un estado para ver sus programas.",
+          "next": "Haga clic en su estado y llame a los programas más cercanos.",
+          "record": "us-pass-it-on-center-reuse-locations",
+          "links": [{"label": "Encontrar programas de reúso por estado", "href": "https://pioc.gatech.edu/pioc/reuse_locations.php", "lang": "en"}],
+          "src": ["reuse-locations"]
+        }
+      ],
+      "after": "<p>El programa de AT de su estado y los programas locales de reúso y préstamo también aparecen en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?category=equipment\" hreflang=\"en\">sillas de ruedas o equipo</a> (en inglés) en el directorio.</p>"
+    },
+    {
+      "id": "medicare",
+      "title": "Medicare: equipo y reparaciones",
+      "icon": "medical",
+      "lead": "La Parte B de Medicare cubre el equipo médico duradero que sea médicamente necesario, como sillas de ruedas, escúteres (scooters), andaderas y camas de hospital.",
+      "lead_src": ["medicare-dme"],
+      "points": [
+        {"text": "Su médico u otro proveedor de atención médica tiene que recetarlo para usarlo en su casa.", "src": ["medicare-dme"]},
+        {"text": "Después de alcanzar el deducible de la Parte B, usted paga el 20% de la cantidad aprobada por Medicare, si su proveedor acepta la asignación.", "src": ["medicare-dme"]},
+        {"text": "Use médicos y proveedores inscritos en Medicare, y antes de recibir el equipo pregunte si el proveedor acepta la asignación. Uno que no la acepta puede cobrarle más y hacer que pague todo el costo al principio hasta que Medicare le devuelva el dinero.", "src": ["medicare-dme"]},
+        {"text": "Según el artículo, puede que tenga que alquilarlo, que tenga que comprarlo o que pueda elegir. Algunos artículos pasan a ser suyos después de un número fijo de pagos de alquiler.", "src": ["medicare-dme"]},
+        {"text": "Si el equipo es suyo, Medicare paga el 80% de la cantidad aprobada por Medicare para las reparaciones, hasta el costo de reemplazar el artículo, y usted paga el otro 20%. El proveedor que se lo vendió no está obligado a repararlo.", "src": ["medicare-booklet"]},
+        {"text": "Si lo alquila, las reparaciones y las piezas de reemplazo son responsabilidad del proveedor.", "src": ["medicare-booklet"]}
+      ],
+      "cards": [
+        {
+          "id": "medicare-card",
+          "name": "1-800-MEDICARE",
+          "org": "Centros de Servicios de Medicare y Medicaid",
+          "text": "El folleto de Medicare sobre equipo explica la cobertura, el alquiler y la compra, y las reparaciones.",
+          "more": "El folleto también existe en español.",
+          "es_note": "The Spanish booklet is the es version of source medicare-booklet.",
+          "next": "Llame para encontrar un proveedor de Medicare que repare su tipo de equipo, o para preguntar por qué le negaron un artículo.",
+          "record": "us-medicare-helpline",
+          "phone": "1-800-633-4227",
+          "phone_on_source": "1-800-633-4227",
+          "phone_label": "TTY: 1-877-486-2048",
+          "phone_src": "medicare-booklet",
+          "links": [
+            {"label": "Cobertura de equipo médico duradero, en español", "href": "https://es.medicare.gov/coverage/durable-medical-equipment-dme-coverage"},
+            {"label": "Folleto de Medicare sobre equipo, en español", "href": "https://www.medicare.gov/es/media/11486"}
+          ],
+          "src": ["medicare-booklet", "medicare-dme"]
+        }
+      ],
+      "after": "<p>¿Se le dañó el equipo o un proveedor no lo quiere arreglar? El <a href=\"mobility-rights.html\" hreflang=\"en\">buscador de próximos pasos</a> (en inglés) explica qué hacer con reparaciones y coberturas negadas, y <a href=\"mobility-independence.html\" hreflang=\"en\">Reparar y adaptar</a> (en inglés) trata el derecho a reparar.</p>"
+    },
+    {
+      "id": "medicaid",
+      "title": "Medicaid: equipo, y artículos que no están en la lista",
+      "icon": "benefits",
+      "lead": "Según las reglas federales de Medicaid, los servicios de salud en el hogar incluyen suministros, equipo y aparatos médicos adecuados para usarse en cualquier lugar donde se hacen las actividades normales de la vida.",
+      "lead_src": ["ecfr-440-70"],
+      "points": [
+        {"text": "Los estados pueden tener una lista de equipo aprobado de antemano para facilitar las cosas, pero no pueden excluir de manera absoluta la cobertura de equipo, suministros o aparatos médicos.", "src": ["ecfr-440-70"]},
+        {"text": "Cada estado tiene que tener un proceso, con criterios, para pedir un artículo que no está en su lista.", "src": ["ecfr-440-70"]},
+        {"text": "La cobertura de equipo de Medicaid no se limita a los artículos que Medicare cubre como equipo médico duradero.", "src": ["ecfr-440-70"]}
+      ],
+      "after": "<p>Si Medicaid dice que no porque un artículo no está en su lista, pregunte a la agencia de Medicaid de su estado cómo pedirlo como excepción, y guarde la carta de negación. La agencia de Medicaid de su estado aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés), y <a href=\"know-your-rights.html\" hreflang=\"en\">Conozca sus derechos</a> (en inglés) explica cómo apelar cuando le niegan un beneficio.</p>"
+    },
+    {
+      "id": "veterans",
+      "title": "Veteranos: sillas de ruedas y equipo por medio del VA",
+      "icon": "veterans",
+      "lead": "El VA da artículos de prótesis y equipo a los veteranos inscritos en la atención médica del VA que tienen una necesidad médica de ellos.",
+      "lead_src": ["va-psas-about"],
+      "points": [
+        {"text": "Los artículos incluyen equipo médico duradero y ayudas para la movilidad, dispositivos de comunicación y de asistencia, oxígeno en casa, ayudas para la ceguera y la baja visión, y reparaciones de aparatos ortopédicos y prótesis hechos a la medida.", "src": ["va-psas-about"]},
+        {"text": "Las sillas de ruedas están entre los artículos que maneja el Servicio de Prótesis y Ayudas Sensoriales del VA. Para saber si usted califica, el VA dice que se comunique con el Servicio de Prótesis y Ayudas Sensoriales más cercano, que puede encontrar con el localizador de centros del VA.", "src": ["va-psas"]}
+      ],
+      "cards": [
+        {
+          "id": "va-psas-card",
+          "name": "Servicio de Prótesis y Ayudas Sensoriales del VA",
+          "org": "Departamento de Asuntos de Veteranos de EE. UU.",
+          "text": "Da equipo y servicios a los veteranos, desde sillas de ruedas y oxígeno en casa hasta audífonos.",
+          "next": "Pregunte a su equipo de atención del VA por el equipo que necesita, o comuníquese con su oficina local de prótesis.",
+          "links": [{"label": "Información sobre prótesis y equipo del VA", "href": "https://www.prosthetics.va.gov/psas/index.asp", "lang": "en"}],
+          "src": ["va-psas", "va-psas-about"]
+        }
+      ],
+      "after": "<p>¿Todavía no recibe atención médica del VA? La oficina de servicios para veteranos de su condado puede ayudarle a solicitarla. Aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?audience=veterans\" hreflang=\"en\">ayuda para veteranos</a> (en inglés) en el directorio.</p>"
+    },
+    {
+      "id": "grants",
+      "title": "Subvenciones para equipo",
+      "icon": "funding",
+      "lead": "Algunos grupos nacionales dedicados a una condición ayudan a sus miembros a pagar equipo.",
+      "lead_src": ["mda-dme"],
+      "points": [
+        {"text": "La subvención para equipo de la Asociación de la Distrofia Muscular da hasta $1,000 por año calendario a un miembro de MDA que vive con una enfermedad neuromuscular, para artículos como sillas de ruedas manuales y eléctricas, escúteres, sillones con elevador y baterías. Los ingresos no afectan si califica.", "src": ["mda-dme"]},
+        {"text": "Solicite antes de hacer el pedido: MDA no puede reembolsar artículos ya comprados o pedidos. Necesita una cotización o factura sin pagar, el formulario W-9 del vendedor y una carta de necesidad médica de su proveedor de atención médica.", "src": ["mda-dme"]}
+      ],
+      "cards": [
+        {
+          "id": "mda-card",
+          "name": "Subvención de MDA para equipo médico duradero",
+          "org": "Asociación de la Distrofia Muscular (MDA)",
+          "text": "Para niños y adultos que viven con enfermedades neuromusculares y son miembros de MDA. Una solicitud por miembro por año calendario.",
+          "next": "Pida una cotización a su proveedor de equipo y una carta a su proveedor de atención médica, y luego solicite en línea antes de hacer el pedido.",
+          "record": "us-mda-dme-grant",
+          "phone": "1-800-572-1717",
+          "phone_on_source": "1-800-572-1717",
+          "phone_label": "Oprima 1 para el Centro de Recursos de MDA",
+          "phone_src": "mda-dme",
+          "links": [{"label": "Preguntas sobre la subvención y cómo solicitar", "href": "https://www.mda.org/care/resource-list/equipment-assistance/faq", "lang": "en"}],
+          "src": ["mda-dme"]
+        }
+      ],
+      "after": "<p>¿Vive con otra condición? Los grupos nacionales que aparecen en <a href=\"local-help.html?category=peer_support\" hreflang=\"en\">grupos de apoyo</a> (en inglés) en el directorio pueden decirle si ayudan con equipo.</p>"
+    }
+  ],
+  "faq": [
+    {"q": "¿Dónde puedo pedir prestada una silla de ruedas gratis?", "a": "Empiece con el programa de tecnología de asistencia de su estado, que presta equipo por un tiempo limitado y pasa a otros el equipo usado. GotDME y la base de datos nacional de reúso de AT tienen otros programas que prestan o regalan equipo.", "src": ["acl-at", "gotdme", "reuse-locations"]},
+    {"q": "¿Medicare paga una silla de ruedas?", "a": "La Parte B de Medicare cubre el equipo médico duradero que sea médicamente necesario, incluidas sillas de ruedas y escúteres, cuando su médico u otro proveedor lo receta para usarlo en su casa. Después del deducible de la Parte B, usted paga el 20% de la cantidad aprobada por Medicare si el proveedor acepta la asignación.", "src": ["medicare-dme"]},
+    {"q": "¿Medicare paga la reparación de una silla de ruedas que es mía?", "a": "Sí. Medicare paga el 80% de la cantidad aprobada por Medicare para las reparaciones, hasta el costo de reemplazar el artículo, y usted paga el 20%. El proveedor que se la vendió no está obligado a hacer la reparación. Si el equipo es alquilado, las reparaciones son responsabilidad del proveedor.", "src": ["medicare-booklet"]},
+    {"q": "Medicaid dice que el artículo no está en su lista. ¿Puedo conseguirlo de todos modos?", "a": "Puede pedirlo. Las reglas federales permiten que los estados tengan una lista de equipo aprobado de antemano, pero no exclusiones absolutas, y cada estado tiene que tener un proceso para pedir artículos que no están en su lista.", "src": ["ecfr-440-70"]},
+    {"q": "¿Los veteranos pueden recibir una silla de ruedas del VA?", "a": "El VA da equipo, incluidas ayudas para la movilidad, a los veteranos inscritos en la atención médica del VA que tienen una necesidad médica de él. Comuníquese con el Servicio de Prótesis y Ayudas Sensoriales de su VA local para saber si califica.", "src": ["va-psas-about", "va-psas"]},
+    {"q": "¿Hay subvenciones para sillas de ruedas?", "a": "Algunos grupos dedicados a una condición las ofrecen. La Asociación de la Distrofia Muscular da a los miembros de MDA con enfermedades neuromusculares hasta $1,000 por año calendario para artículos como sillas de ruedas, escúteres y sillones con elevador. Solicite antes de hacer el pedido.", "src": ["mda-dme"]}
+  ],
+  "related": [
+    {"icon": "transportation", "href": "vehiculos-adaptados.html", "label": "Ayuda para pagar un vehículo adaptado", "text": "subvenciones del VA, rehabilitación vocacional, Medicaid y reembolsos"},
+    {"icon": "benefits", "href": "incapacidad-seguro-social.html", "label": "Cómo solicitar incapacidad del Seguro Social", "text": "SSDI y SSI, paso a paso"},
+    {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español: crisis, comida, beneficios, derechos y más"},
+    {"icon": "wrench", "href": "mobility-independence.html", "lang": "en", "label": "Reparar y adaptar", "text": "conseguir piezas, arreglar su propia silla y el derecho a reparar"}
+  ]
+}
