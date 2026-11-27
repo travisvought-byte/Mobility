@@ -3,7 +3,7 @@ const pages=fs.readdirSync('.').filter(f=>f.endsWith('.html')&&!/^google[0-9a-f]
 assert(pages.length>=7);
 for(const f of pages){
  const d=new JSDOM(fs.readFileSync(f,'utf8')).window.document;
- assert.equal(d.documentElement.lang,['espanol.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html'].includes(f)?'es':'en',f+' lang');assert(d.querySelector('meta[name=viewport]'),f+' viewport');assert(d.title.length>5,f+' title');assert(d.querySelector('meta[name=description]'),f+' description');
+ assert.equal(d.documentElement.lang,['espanol.html','vehiculos-adaptados.html','equipo-medico-gratis.html','incapacidad-seguro-social.html','cuidador-familiar-pagado.html','modificaciones-hogar.html'].includes(f)?'es':'en',f+' lang');assert(d.querySelector('meta[name=viewport]'),f+' viewport');assert(d.title.length>5,f+' title');assert(d.querySelector('meta[name=description]'),f+' description');
  assert.equal(d.querySelectorAll('h1').length,1,f+' needs exactly one h1');
  if(f!=='404.html'){const c=d.querySelector('link[rel=canonical]');assert(c&&c.href.startsWith('https://mobilitytalk.org/'),f+' canonical');assert(d.querySelector('meta[property="og:title"]'),f+' og:title');assert.equal(d.querySelectorAll('link[rel=canonical]').length,1);assert.equal(d.querySelectorAll('meta[property="og:title"]').length,1);}
  for(const el of d.querySelectorAll('[href],[src]')){

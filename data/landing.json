@@ -191,9 +191,27 @@
         {"label": "Apelar una negación", "href": "#appeal"}
       ]
     },
+    "cuidador-familiar-pagado.html": {
+      "audience": "Un cónyuge, hijo, hija, padre, madre o amigo que cuida todos los días a un familiar con discapacidad o mayor, que prefiere leer en español y quiere saber si puede recibir pago por hacerlo.",
+      "intro": "¿Cuida en casa a su padre, su madre, su pareja o su hijo y se pregunta si le pueden pagar por hacerlo? Aquí está lo que existe: programas de Medicaid que permiten que la persona le contrate, el Cuidado Familiar Estructurado en algunos estados, el estipendio del VA para cuidadores, la Atención Dirigida por el Veterano y Ayuda y Asistencia, el seguro de cuidado a largo plazo, las licencias del trabajo y los impuestos. Cada afirmación indica la página oficial de donde proviene.",
+      "actions": [
+        {"label": "Por medio de Medicaid", "href": "#medicaid"},
+        {"label": "Si cuida a un veterano", "href": "#va"},
+        {"label": "Impuestos", "href": "#taxes"}
+      ]
+    },
+    "modificaciones-hogar.html": {
+      "audience": "Una persona con discapacidad o una persona mayor, o su familia, que prefiere leer en español y necesita una rampa, un salvaescaleras, un baño más seguro o puertas más anchas en casa.",
+      "intro": "¿Necesita en casa una rampa, un salvaescaleras, barras de agarre o puertas más anchas? Aquí está quién ayuda a pagar: las subvenciones del VA y HISA, los préstamos y subvenciones del USDA para reparaciones, las exenciones de Medicaid, las Agencias del Área sobre el Envejecimiento, los programas estatales de tecnología de asistencia y las reglas de impuestos si lo paga usted. Cada afirmación indica la página oficial de donde proviene, con los límites actuales en dólares.",
+      "actions": [
+        {"label": "Subvenciones del VA", "href": "#va"},
+        {"label": "Préstamos del USDA", "href": "#usda"},
+        {"label": "Exenciones de Medicaid", "href": "#medicaid"}
+      ]
+    },
     "espanol.html": {
       "audience": "Una persona con discapacidad, o su familia, que prefiere recibir ayuda en español.",
-      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Tres guías también están en español; el resto del sitio está en inglés por ahora.",
+      "intro": "¿Usted o alguien de su familia tiene una discapacidad y prefiere recibir ayuda en español? Estas líneas nacionales atienden en español o tienen información en español. Cinco guías también están en español; el resto del sitio está en inglés por ahora.",
       "actions": [
         {"label": "Ayuda en su zona", "href": "#local-h"},
         {"label": "Beneficios y Medicare", "href": "#beneficios-h"},

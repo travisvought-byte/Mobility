@@ -1,5 +1,5 @@
 // National topic guides (November 27, 2026): accessible vehicles, free and low-cost equipment, Social Security
-// disability, accessible travel, getting paid as a family caregiver and paying for home modifications, and the Spanish versions of the first three (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
+// disability, accessible travel, getting paid as a family caregiver and paying for home modifications, and the Spanish versions of the first three and the last two (checked at the end). For each page: every statement and step carries a citation to a listed source with its checked date, every
 // phone number shown was read on its source page (and matches the directory record where there is one), no other number
 // slips in, the quick answers and their FAQ structured data say the same thing, and the page is wired in like the other
 // national guides: title, description, canonical, social and breadcrumb tags, sitemap, visit counter, ad code, MIF block,
@@ -127,7 +127,8 @@ assert(doc('know-your-rights.html').querySelector('#housing a[href="home-modific
 // language and hreflang both ways, sitemap, counter, ad code, the English featured block marked as English, a Spanish menu
 // and footer, the side note, FAQ data in Spanish that matches the page, every source with the English page it was read on
 // and its checked date (and the agency's Spanish page where listed), and links to English pages marked as English.
-const T={'vehiculos-adaptados':'accessible-vehicles','equipo-medico-gratis':'free-medical-equipment','incapacidad-seguro-social':'social-security-disability'};
+const T={'vehiculos-adaptados':'accessible-vehicles','equipo-medico-gratis':'free-medical-equipment','incapacidad-seguro-social':'social-security-disability',
+ 'cuidador-familiar-pagado':'paid-family-caregiver','modificaciones-hogar':'home-modifications'};
 const hubLinks=[...doc('espanol.html').querySelectorAll('#guias-h ~ ul a')].map(a=>a.getAttribute('href'));
 const SPANISH=new Set(['espanol.html',...Object.keys(T).map(s=>s+'.html')]);
 for(const [es,en] of Object.entries(T)){

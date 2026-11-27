@@ -1,0 +1,197 @@
+{
+  "note": "Spanish version of data/paid-family-caregiver.json (November 27, 2026). The facts, numbers, citations, phone numbers and directory records are the English guide's; build_topic_guides.py stops the build if any differ, and takes each source's address, title and checked date from the English file. Where the agency publishes the same page in Spanish, or a Spanish companion page with the same facts, es gives it (fetched November 27, 2026): VA's Spanish PCAFC page, DOL's Spanish FMLA questions, IRS's Spanish Dependents page, and IRS Topics 602 and 502 in Spanish. Checked and not used: USAGov (no Spanish version of the caregiver page could be found, and the site's footer now says the English version is authoritative), Medicaid.gov, VA's pension, rates and Veteran-Directed Care pages, and IRS Notice 2014-7, Publication 501, Publication 502 and the Schedule 8812 instructions (IRS's Spanish addresses for these show the English text with a note that no translation is available). The Spanish PCAFC page does not mention the 30 days of respite; the English page does, so the statement keeps it. The Spanish Dependents page shows a gross income limit without naming the year, so it is left out here as in the English guide. The Spanish text has not yet been reviewed by a native speaker. General information, not legal, tax or benefits advice.",
+  "lang": "es",
+  "translation_of": "paid-family-caregiver",
+  "page": "cuidador-familiar-pagado.html",
+  "title": "Cómo recibir pago por cuidar a un familiar: Medicaid, el VA y más",
+  "h1": "Recibir pago por cuidar a un familiar",
+  "description": "Cómo recibir pago por cuidar a un familiar: atención autodirigida de Medicaid, Cuidado Familiar Estructurado, el estipendio del VA, licencias e impuestos.",
+  "eyebrow": "MEDICAID · CUIDADO FAMILIAR ESTRUCTURADO · ESTIPENDIO DEL VA · AYUDA Y ASISTENCIA · LICENCIAS · IMPUESTOS",
+  "correction_subject": "Página de pago a cuidadores familiares (español)",
+  "footer_note": "Esta es información general, no asesoría legal, tributaria ni de beneficios.",
+  "checked_on": "2026-11-27",
+  "checked_label": "27 de noviembre de 2026",
+  "start": "Casi todo el pago a cuidadores familiares llega por medio de Medicaid o del VA. Si la persona que usted cuida tiene Medicaid, pregunte a la agencia de Medicaid de su estado si puede elegirle a usted como su cuidador pagado. Si es veterano, pregunte al VA por el estipendio para cuidadores, la Atención Dirigida por el Veterano y Ayuda y Asistencia.",
+  "start_paths": [
+    {"icon": "benefits", "who": "¿La persona tiene Medicaid?", "text": "Pregunte por la atención autodirigida, en la que puede contratarle a usted.", "href": "#medicaid"},
+    {"icon": "daily_living", "who": "¿Viven juntos?", "text": "Algunos estados pagan a un cuidador que vive con la persona por medio del Cuidado Familiar Estructurado.", "href": "#structured-family-caregiving"},
+    {"icon": "veterans", "who": "¿Cuida a un veterano?", "text": "El VA tiene un estipendio mensual, la Atención Dirigida por el Veterano y Ayuda y Asistencia.", "href": "#va"},
+    {"icon": "shield", "who": "¿Tiene seguro de cuidado a largo plazo?", "text": "Algunas pólizas pagan a cuidadores familiares.", "href": "#insurance"},
+    {"icon": "work_school", "who": "¿Necesita tiempo libre del trabajo?", "text": "La licencia pagada de su estado y la ley federal FMLA.", "href": "#leave"},
+    {"icon": "document", "who": "¿Es temporada de impuestos?", "text": "Parte del pago a cuidadores puede quedar fuera de los ingresos, y un dependiente puede darle créditos.", "href": "#taxes"}
+  ],
+  "sources": {
+    "usagov-caregiver": {"publisher": "USAGov", "page_date": "página actualizada por última vez el 17 de noviembre de 2025"},
+    "medicaid-self-directed": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "medicaid-1915j": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "medicaid-1915c": {"publisher": "Medicaid.gov (Centros de Servicios de Medicare y Medicaid)", "page_date": "la página no muestra fecha"},
+    "ohio-sfc": {"publisher": "Estado de Ohio, leyes y reglas administrativas de Ohio", "page_date": "regla vigente desde el 12 de agosto de 2025"},
+    "indiana-sfc": {"publisher": "Administración de Servicios Familiares y Sociales de Indiana (FSSA)", "page_date": "actualizado por última vez el 25 de agosto de 2025"},
+    "va-pcafc": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 10 de noviembre de 2026",
+      "es": {"url": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers-esp/", "title": "El Programa de Asistencia Integral para Cuidadores Familiares", "page_date": "página actualizada por última vez el 16 de noviembre de 2026"}},
+    "va-csp-home": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 13 de noviembre de 2026"},
+    "ecfr-71": {"publisher": "Código Electrónico de Regulaciones Federales (eCFR)", "page_date": "texto del eCFR actualizado al 16 de junio de 2026"},
+    "va-vdc": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA), Geriatría y Atención Extendida", "page_date": "página actualizada por última vez el 6 de marzo de 2026"},
+    "va-aa": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 8 de mayo de 2026"},
+    "va-rates": {"publisher": "Departamento de Asuntos de Veteranos de EE. UU. (VA)", "page_date": "página actualizada por última vez el 18 de diciembre de 2025"},
+    "dol-fmla": {"publisher": "Departamento de Trabajo de EE. UU., División de Horas y Salarios", "page_date": "página actualizada por última vez el 26 de enero de 2026",
+      "es": {"url": "https://www.dol.gov/agencies/whd/fmla/faq-spanish", "title": "Preguntas frecuentes sobre la FMLA", "page_date": "la página no muestra fecha", "related": true}},
+    "irs-dofc": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "página revisada o actualizada por última vez el 29 de abril de 2026"},
+    "irs-dependents": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "página revisada o actualizada por última vez el 8 de enero de 2026",
+      "es": {"url": "https://www.irs.gov/es/credits-deductions/individuals/dependents", "title": "Dependientes", "page_date": "página revisada o actualizada por última vez el 8 de enero de 2026"}},
+    "irs-8812": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "para el año tributario 2025"},
+    "irs-501": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "para preparar las declaraciones de 2025"},
+    "irs-cdcc": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "página revisada o actualizada por última vez el 15 de octubre de 2026",
+      "es": {"url": "https://www.irs.gov/es/taxtopics/tc602", "title": "Tema 602, Crédito por gastos de cuidado de menores y dependientes", "page_date": "página revisada o actualizada por última vez el 16 de octubre de 2026", "related": true}},
+    "irs-502": {"publisher": "Servicio de Impuestos Internos (IRS)", "page_date": "para preparar las declaraciones de 2025",
+      "es": {"url": "https://www.irs.gov/es/taxtopics/tc502", "title": "Tema 502, Gastos médicos y dentales", "page_date": "página revisada o actualizada por última vez el 9 de noviembre de 2026", "related": true}}
+  },
+  "sections": [
+    {
+      "id": "medicaid",
+      "title": "Medicaid: atención autodirigida y dirigida por el consumidor",
+      "icon": "benefits",
+      "lead": "Si una persona con discapacidad ya recibe Medicaid, su estado podría permitir que un familiar o un amigo sea su cuidador pagado.",
+      "lead_src": ["usagov-caregiver"],
+      "points": [
+        {"text": "Muchos estados lo llaman programa de asistencia personal dirigido por el consumidor. Cada estado tiene sus propios requisitos y reglas, y la cantidad que paga a un cuidador familiar varía según el estado.", "src": ["usagov-caregiver"]},
+        {"text": "En los servicios autodirigidos de Medicaid, la persona que recibe la atención, o su representante, tiene autoridad para decidir sobre ciertos servicios y los maneja, con apoyos disponibles. Es una alternativa a los servicios que presta una agencia.", "src": ["medicaid-self-directed"]},
+        {"text": "Con lo que CMS llama autoridad de empleador, la persona puede reclutar, contratar, capacitar y supervisar a quienes le dan atención. Con la autoridad sobre el presupuesto, decide cómo se gastan los fondos de Medicaid de un presupuesto.", "src": ["medicaid-self-directed"]},
+        {"text": "Un servicio de administración financiera puede encargarse de la parte del empleador: retener y declarar impuestos, recibir y procesar las hojas de horas, y emitir los cheques de pago. Las personas pueden hacer algunas de estas tareas, pero la mayoría prefiere que las haga el servicio.", "src": ["medicaid-self-directed"]},
+        {"text": "Cada persona que elige la autodirección debe tener disponible un agente o consejero de apoyo que le ayude a dirigir sus servicios.", "src": ["medicaid-self-directed"]},
+        {"text": "Los estados pueden ofrecer la autodirección por medio de varias opciones de Medicaid: las exenciones (waivers) de servicios en el hogar y la comunidad (1915(c)), la opción del plan estatal de servicios en el hogar y la comunidad (1915(i)), Community First Choice (1915(k)) y los servicios de asistencia personal autodirigidos (1915(j)).", "src": ["medicaid-self-directed"]},
+        {"text": "Con la opción 1915(j), un estado puede decidir permitir que las personas contraten a parientes con responsabilidad legal sobre ellas, como padres o cónyuges. Es una opción del estado, no una regla en todas partes.", "src": ["medicaid-1915j"]},
+        {"text": "Para recibir servicios de una exención, la persona debe necesitar un nivel de atención que cumpla las reglas del estado para recibir servicios en una institución. Cada estado decide el número máximo de personas que atenderá una exención.", "src": ["medicaid-1915c"]}
+      ],
+      "steps_title": "Cómo preguntar",
+      "steps": [
+        {"text": "Comuníquese con la oficina de Medicaid de su estado y pregunte si el programa de la persona le permite elegir a un familiar o a un amigo como cuidador pagado.", "src": ["usagov-caregiver"]},
+        {"text": "Pregunte si el programa ofrece la autodirección con autoridad de empleador, para que la persona pueda contratarle, capacitarle y supervisarle, y si un servicio de administración financiera se encarga de los pagos.", "src": ["medicaid-self-directed"]},
+        {"text": "Si la persona todavía no está en una exención, pregunte cómo solicitarla y si ya no tiene cupo.", "src": ["medicaid-1915c"]}
+      ],
+      "after": "<p>La agencia de Medicaid de su estado aparece en <a href=\"states/index.html\" hreflang=\"en\">la página de su estado</a> (en inglés) y en <a href=\"local-help.html?category=benefits\" hreflang=\"en\">beneficios y cobertura de salud</a> (en inglés) en el directorio.</p>"
+    },
+    {
+      "id": "structured-family-caregiving",
+      "title": "Cuidado Familiar Estructurado: pago a un cuidador que vive con la persona",
+      "icon": "daily_living",
+      "lead": "Las exenciones de Medicaid de algunos estados incluyen el Cuidado Familiar Estructurado (Structured Family Caregiving), que paga a un cuidador que vive con la persona que cuida. Ohio e Indiana son dos ejemplos. Pregunte a la agencia de Medicaid de su estado si el suyo lo ofrece.",
+      "lead_src": ["ohio-sfc", "indiana-sfc"],
+      "points": [
+        {"text": "Indiana: el Cuidado Familiar Estructurado permite que un cuidador que vive con una persona reciba pago por darle atención y apoyo diarios. El cuidador puede ser un familiar o no, y debe vivir en la casa. Se ofrece en las exenciones PathWays y Health and Wellness de Indiana.", "src": ["indiana-sfc"]},
+        {"text": "Ohio: el Cuidado Familiar Estructurado es para adultos de 18 años o más inscritos en la exención MyCare Ohio, Ohio Home Care o PASSPORT que lo elijan. El cuidador vive con la persona, en la casa de la persona o en la suya propia, y es empleado o contratista de una agencia proveedora.", "src": ["ohio-sfc"]},
+        {"text": "En Ohio, el cuidador completa una capacitación inicial, recibe orientación mensual de la agencia y no puede cuidar a más de tres personas en la misma dirección. Se puede autorizar por día completo o por medio día.", "src": ["ohio-sfc"]}
+      ]
+    },
+    {
+      "id": "va",
+      "title": "El VA: el estipendio para cuidadores, la Atención Dirigida por el Veterano y Ayuda y Asistencia",
+      "icon": "veterans",
+      "lead": "Los programas del VA pueden pagarle directamente a un cuidador familiar, o darle al veterano dinero que puede usar para pagarle a uno.",
+      "lead_src": ["va-pcafc", "va-vdc", "usagov-caregiver"],
+      "cards_first": true,
+      "cards": [
+        {
+          "id": "pcafc-card",
+          "name": "Programa de Asistencia Integral para Cuidadores Familiares (PCAFC)",
+          "org": "Programa de Apoyo a Cuidadores del VA",
+          "text": "Paga un estipendio mensual al Cuidador Familiar Principal de un veterano elegible. También da al menos 30 días al año de cuidado de relevo, y atención médica por medio de CHAMPVA si el cuidador no califica ya por otro plan de salud.",
+          "more": "El veterano debe tener una calificación de discapacidad del VA del 70% o más, haber sido dado de baja o tener una fecha de baja por motivos médicos, y necesitar al menos 6 meses de cuidado personal continuo y en persona. El cuidador debe tener al menos 18 años y ser cónyuge, hijo o hija, padre o madre, familiar por matrimonio (como padrastro, madrastra o hijastro) o pariente extendido del veterano, o vivir a tiempo completo con el veterano o estar dispuesto a hacerlo.",
+          "next": "Soliciten juntos, usted y el veterano, con el Formulario VA 10-10CG, o llame primero a la Línea de Apoyo para Cuidadores para hablar del tema.",
+          "phone": "1-855-260-3274",
+          "phone_on_source": "1-855-260-3274",
+          "phone_label": "Línea de Apoyo para Cuidadores, de lunes a viernes, de 8 a.m. a 8 p.m., hora del Este. TTY: 711",
+          "phone_src": "va-csp-home",
+          "links": [
+            {"label": "El programa en español, en VA.gov", "href": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/comprehensive-assistance-for-family-caregivers-esp/"},
+            {"label": "Programa de Apoyo a Cuidadores del VA", "href": "https://www.caregiver.va.gov/", "lang": "en"}
+          ],
+          "src": ["va-pcafc", "ecfr-71", "va-csp-home"]
+        }
+      ],
+      "points": [
+        {"text": "Cómo se calcula el estipendio: el VA parte de la tarifa anual de la escala salarial federal General Schedule para el grado 4, escalón 1, en el área de pago por localidad donde vive el veterano, dividida entre 12.", "src": ["ecfr-71"]},
+        {"text": "El Cuidador Familiar Principal recibe el 62.5% de esa tarifa mensual, o el 100% si el VA decide que el veterano no puede mantenerse por sí mismo en la comunidad.", "src": ["ecfr-71"]},
+        {"text": "La Atención Dirigida por el Veterano (Veteran-Directed Care) le da al veterano un presupuesto para servicios en el hogar y la comunidad. Con un consejero, el veterano hace un plan de gastos y contrata a sus propios trabajadores, que pueden incluir a un familiar o a un vecino.", "src": ["va-vdc"]},
+        {"text": "Los veteranos inscritos pueden recibir la Atención Dirigida por el Veterano si califican para la atención en la comunidad, cumplen los criterios clínicos y el programa está disponible donde viven. Pregunte al trabajador social del VA que atiende al veterano.", "src": ["va-vdc"]},
+        {"text": "Ayuda y Asistencia (Aid and Attendance) agrega pagos mensuales a la pensión del VA para veteranos y sobrevivientes que califican. USAGov señala que ayuda a cubrir los costos de un cuidador, que puede ser un familiar.", "src": ["va-aa", "usagov-caregiver"]},
+        {"text": "Para calificar, debe recibir una pensión del VA y cumplir al menos un requisito, como necesitar que otra persona le ayude con actividades diarias como bañarse, comer y vestirse. No puede recibir Ayuda y Asistencia y el beneficio para personas confinadas en casa (Housebound) al mismo tiempo.", "src": ["va-aa"]},
+        {"text": "Lo máximo que un veterano sin dependientes puede recibir de pensión del VA con Ayuda y Asistencia es $29,093 al año, o $34,488 con un dependiente, según las tarifas que el VA publica desde el 1 de diciembre de 2025.", "src": ["va-rates"]},
+        {"text": "El VA paga la diferencia entre sus ingresos para fines del VA y ese máximo. Los gastos médicos que su seguro no cubre pueden reducir sus ingresos para fines del VA.", "src": ["va-rates"]},
+        {"text": "Puede solicitar en línea, por correo o en persona. Para solicitar por correo, llene el Formulario VA 21-2680 (examen para la condición de confinado en casa o la necesidad permanente de ayuda y asistencia regular).", "src": ["va-aa"]}
+      ],
+      "after": "<p>También en este sitio: <a href=\"caregiver-respite.html#va\" hreflang=\"en\">el apoyo general del VA para cuidadores, el cuidado de relevo y la línea de apoyo</a> (en inglés).</p>"
+    },
+    {
+      "id": "insurance",
+      "title": "Seguro de cuidado a largo plazo",
+      "icon": "shield",
+      "lead": "Si la persona que usted cuida tiene una póliza de seguro de cuidado a largo plazo, revise qué paga.",
+      "points": [
+        {"text": "Algunas pólizas de seguro de cuidado a largo plazo permiten que los familiares reciban pago como cuidadores.", "src": ["usagov-caregiver"]},
+        {"text": "Comuníquese con el agente de seguros y pida una confirmación de los beneficios por escrito.", "src": ["usagov-caregiver"]}
+      ]
+    },
+    {
+      "id": "leave",
+      "title": "Licencia familiar pagada y tiempo libre del trabajo",
+      "icon": "work_school",
+      "lead": "Si tiene un empleo, quizás pueda tomar tiempo libre para dar cuidado y, en algunos estados, recibir pago mientras lo hace.",
+      "points": [
+        {"text": "Algunos estados exigen que los empleadores ofrezcan programas de licencia familiar, y algunos programas le pagan por cuidar a un familiar. Quién califica, cuánto recibe y cuánto tiempo puede tomar varían según el estado. Comuníquese con la oficina del trabajo de su estado.", "src": ["usagov-caregiver"]},
+        {"text": "La Ley de Licencia Familiar y Médica (FMLA) federal da a los empleados elegibles de empleadores cubiertos hasta 12 semanas laborales de licencia sin pago y con protección del empleo en un período de 12 meses, incluso para cuidar a un cónyuge, hijo o padre con una condición de salud grave.", "src": ["dol-fmla"]},
+        {"text": "Para ser elegible, debe haber trabajado para el empleador al menos 12 meses, con al menos 1,250 horas en los 12 meses antes de la licencia, en un lugar donde el empleador tiene al menos 50 empleados dentro de 75 millas.", "src": ["dol-fmla"]},
+        {"text": "Los empleadores privados están cubiertos si tienen 50 o más empleados durante 20 o más semanas laborales. Las agencias públicas y las escuelas locales están cubiertas sin importar su tamaño.", "src": ["dol-fmla"]}
+      ],
+      "cards": [
+        {
+          "id": "fmla-card",
+          "name": "Preguntas sobre la Ley de Licencia Familiar y Médica",
+          "org": "Departamento de Trabajo de EE. UU., División de Horas y Salarios",
+          "text": "La página de la FMLA de la División de Horas y Salarios explica quién está cubierto y por qué razones se puede tomar la licencia, y muestra su número gratuito.",
+          "next": "Llame si no está seguro de que su empleador esté cubierto o de que su licencia califique.",
+          "phone": "1-866-487-9243",
+          "phone_on_source": "1-866-487-9243",
+          "phone_label": "Llamada gratuita",
+          "phone_src": "dol-fmla",
+          "links": [
+            {"label": "Preguntas frecuentes sobre la FMLA, en español", "href": "https://www.dol.gov/agencies/whd/fmla/faq-spanish"},
+            {"label": "La FMLA en DOL.gov", "href": "https://www.dol.gov/agencies/whd/fmla", "lang": "en"}
+          ],
+          "src": ["dol-fmla"]
+        }
+      ]
+    },
+    {
+      "id": "taxes",
+      "title": "Impuestos: lo que deben saber los cuidadores familiares pagados",
+      "icon": "document",
+      "lead": "Parte del pago de Medicaid a cuidadores puede quedar fuera de los ingresos, y cuidar a un dependiente puede darle créditos y un mejor estado civil para efectos de la declaración.",
+      "points": [
+        {"text": "Según el Aviso 2014-7 del IRS, ciertos pagos que hace un programa estatal de exención de servicios de Medicaid en el hogar y la comunidad a un proveedor de cuidado individual, por cuidar en la casa del proveedor a una persona elegible, se pueden tratar como pagos por dificultad de cuidado (difficulty of care) y dejar fuera del ingreso bruto.", "src": ["irs-dofc"]},
+        {"text": "La exclusión se aplica solo a los pagos por cuidado en la casa del propio proveedor, donde la persona vive con el proveedor según su plan de cuidado. Los ejemplos del IRS incluyen a un proveedor que cuida a su padre o madre y a uno que cuida a una persona mayor que no es su pariente.", "src": ["irs-dofc"]},
+        {"text": "Si estos pagos son ingreso del trabajo por otras razones, puede elegir incluirlos todos, pero no una parte, en el ingreso del trabajo al calcular el crédito por ingreso del trabajo o el crédito tributario adicional por hijos.", "src": ["irs-dofc"]},
+        {"text": "Quizás pueda reclamar como dependiente (un pariente calificado) a la persona que cuida si vive con usted todo el año como miembro de su hogar o es un tipo de pariente específico, tiene ingresos brutos menores que el límite del IRS y recibe de usted más de la mitad de su apoyo financiero.", "src": ["irs-dependents"]},
+        {"text": "Un dependiente por el que no puede recibir el crédito tributario por hijos quizás le permita recibir el crédito por otros dependientes. La persona debe ser ciudadano, nacional o extranjero residente de EE. UU. con un SSN, ITIN o ATIN.", "src": ["irs-8812"]},
+        {"text": "Para declarar como cabeza de familia, debe haber pagado más de la mitad del costo de mantener un hogar durante el año, y una persona calificada debe haber vivido con usted más de la mitad del año. Si la persona calificada es su padre o madre y es su dependiente, no tiene que vivir con usted.", "src": ["irs-501"]},
+        {"text": "Si paga a alguien para cuidar a su cónyuge o dependiente con discapacidad que no puede cuidarse a sí mismo y vive con usted más de la mitad del año, para que usted pueda trabajar o buscar trabajo, el crédito por cuidado de hijos y dependientes cuenta hasta $3,000 de gastos por una persona o $6,000 por dos o más. Para el año tributario 2026, es del 20% al 50% de esos gastos, según los ingresos.", "src": ["irs-cdcc"]},
+        {"text": "Para ese crédito, el proveedor de cuidado no puede ser su cónyuge, su dependiente ni su hijo o hija que tenía menos de 19 años al final del año.", "src": ["irs-cdcc"]},
+        {"text": "Los gastos médicos que paga por su dependiente pueden contar para la deducción por gastos médicos, que cubre solo la parte que supere el 7.5% de su ingreso bruto ajustado y se reclama en el Anexo A.", "src": ["irs-502"]}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "¿Puedo recibir pago por cuidar a un familiar?", "a": "Muchas veces, sí. Si la persona ya recibe Medicaid, su estado podría permitir que un familiar o un amigo sea su cuidador pagado, a menudo por medio de lo que los estados llaman un programa de asistencia personal dirigido por el consumidor. Las reglas y el pago varían según el estado, así que comuníquese con la oficina de Medicaid de su estado.", "src": ["usagov-caregiver"]},
+    {"q": "¿Medicaid puede pagarle como cuidador a un cónyuge o a un padre o madre?", "a": "Depende del estado. Con la opción de servicios de asistencia personal autodirigidos 1915(j), un estado puede decidir permitir que las personas contraten a parientes con responsabilidad legal sobre ellas, como padres o cónyuges.", "src": ["medicaid-1915j"]},
+    {"q": "¿Cuánto paga el VA a los cuidadores familiares?", "a": "En el PCAFC, el estipendio mensual del Cuidador Familiar Principal es el 62.5% de la tarifa anual de la escala General Schedule, grado 4, escalón 1, de la localidad del veterano, dividida entre 12, o el 100% si el VA decide que el veterano no puede mantenerse por sí mismo en la comunidad.", "src": ["ecfr-71"]},
+    {"q": "¿Quién califica para el estipendio del VA para cuidadores?", "a": "El veterano necesita una calificación de discapacidad del VA del 70% o más, haber sido dado de baja o tener una fecha de baja por motivos médicos, y al menos 6 meses de cuidado personal continuo y en persona. El cuidador debe tener al menos 18 años y ser un familiar, o vivir a tiempo completo con el veterano.", "src": ["va-pcafc"]},
+    {"q": "¿Me pueden pagar por cuidar a un familiar que vive conmigo?", "a": "En algunos estados, sí. El Cuidado Familiar Estructurado, que se ofrece en algunas exenciones de Medicaid como las de Ohio e Indiana, paga a un cuidador que vive con la persona que cuida.", "src": ["ohio-sfc", "indiana-sfc"]},
+    {"q": "¿Pago impuestos por lo que recibo de Medicaid como cuidador?", "a": "Quizás no. Según el Aviso 2014-7 del IRS, ciertos pagos de exenciones de Medicaid por cuidar en su casa a una persona elegible que vive con usted se pueden tratar como pagos por dificultad de cuidado y dejar fuera del ingreso bruto.", "src": ["irs-dofc"]}
+  ],
+  "related": [
+    {"icon": "ramps_home", "href": "modificaciones-hogar.html", "label": "Ayuda para pagar modificaciones del hogar", "text": "rampas, salvaescaleras, cambios en el baño y puertas más anchas"},
+    {"icon": "benefits", "href": "incapacidad-seguro-social.html", "label": "Cómo solicitar incapacidad del Seguro Social", "text": "SSDI y SSI, paso a paso, y cómo apelar una negación"},
+    {"icon": "language", "href": "espanol.html", "label": "Ayuda en español", "text": "líneas nacionales que atienden en español, incluidas las de personas mayores y quienes las cuidan"},
+    {"icon": "daily_living", "href": "caregiver-respite.html", "lang": "en", "label": "Ayuda para cuidadores y cuidado de relevo", "text": "un descanso para usted, el apoyo del VA para cuidadores y el Eldercare Locator"}
+  ]
+}
